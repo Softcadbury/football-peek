@@ -1,2 +1,2 @@
-# FootballDashboard
-Personal projects [JavaScript - NodeJS]
+# Football Dashboard
+Parsing of football data
