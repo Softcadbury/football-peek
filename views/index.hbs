@@ -1,0 +1,31 @@
+<h1>Data</h1>
+
+<style>
+    table, th, td {
+        border-collapse: collapse;
+        border: 1px solid gray;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Team</th>
+        <th>Score</th>
+        <th>Win</th>
+        <th>Draw</th>
+        <th>Lost</th>
+        <th>Goals For</th>
+        <th>Goals Against</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.score}}</td>
+        <td>{{this.win}}</td>
+        <td>{{this.draw}}</td>
+        <td>{{this.lost}}</td>
+        <td>{{this.goalsFor}}</td>
+        <td>{{this.goalsAgainst}}</td>
+    </tr>
+    {{/each}}
+</table>
