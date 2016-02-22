@@ -49,7 +49,8 @@ router.route('')
             // Add score to teams and format them in an array
             var formatedTeams = [];
             for (var team in teams) {
-                teams[team].score = getTeamScore(teams[team]);
+                teams[team].score = teams[team].win * 3 + teams[team].draw;
+                teams[team].goalDifference = teams[team].goalsFor - teams[team].goalsAgainst;
                 formatedTeams.push(teams[team]);
             }
 
@@ -57,7 +58,6 @@ router.route('')
                 return t2.score - t1.score;
             });
 
-            console.log(sortedTeams);
             res.render('index', { data: sortedTeams });
         })
     });
@@ -71,13 +71,9 @@ function createTeamObject() {
         draw: 0,
         lost: 0,
         goalsFor: 0,
-        goalsAgainst: 0
+        goalsAgainst: 0,
+        goalDifference: 0
     };
-}
-
-// Gets the score of a team
-function getTeamScore(team) {
-    return team.win * 3 + team.draw
 }
 
 module.exports = router;
