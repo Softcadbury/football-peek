@@ -3,10 +3,10 @@
 var express = require('express');
 var router = express.Router();
 
-router.route('')
+router.route('/:country/:period')
     .get(function (req, res) {
         var jsonfile = require('jsonfile');
-        var file = './data/England/2014-2015.json';
+        var file = './data/' + req.params.country + '/' + req.params.period + '.json';
 
         jsonfile.readFile(file, (err, obj) => {
             var teams = {};
