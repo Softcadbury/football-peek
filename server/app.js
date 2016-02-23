@@ -14,7 +14,7 @@ app.engine('.hbs', handlebars({ extname: '.hbs' }));
 app.set('view engine', '.hbs');
 
 // Starts application listening
-app.listen(config.port, function (err) {
+app.listen(config.port, (err) => {
     console.log('running on ' + config.port);
 });
 

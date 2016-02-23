@@ -25,9 +25,9 @@ router.route('/:country/:period')
                 }
 
                 var homeTeam = teams[homeTeamName];
-                homeTeam.win += result == 'H' ? 1 : 0;
-                homeTeam.draw += result == 'D' ? 1 : 0;
-                homeTeam.lost += result == 'A' ? 1 : 0;
+                homeTeam.win += result === 'H' ? 1 : 0;
+                homeTeam.draw += result === 'D' ? 1 : 0;
+                homeTeam.lost += result === 'A' ? 1 : 0;
                 homeTeam.goalsFor += homeTeamGoals;
                 homeTeam.goalsAgainst += awayTeamGoals;
 
@@ -38,9 +38,9 @@ router.route('/:country/:period')
                 }
 
                 var awayTeam = teams[awayTeamName];
-                awayTeam.win += result == 'A' ? 1 : 0;
-                awayTeam.draw += result == 'D' ? 1 : 0;
-                awayTeam.lost += result == 'H' ? 1 : 0;
+                awayTeam.win += result === 'A' ? 1 : 0;
+                awayTeam.draw += result === 'D' ? 1 : 0;
+                awayTeam.lost += result === 'H' ? 1 : 0;
                 awayTeam.goalsFor += awayTeamGoals;
                 awayTeam.goalsAgainst += homeTeamGoals;
             }
@@ -56,7 +56,7 @@ router.route('/:country/:period')
             });
 
             res.render('table', { data: data });
-        })
+        });
     });
 
 // Creates a team object

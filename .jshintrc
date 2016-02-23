@@ -22,14 +22,13 @@
     "maxparams": 10,
     "maxdepth": 5,
     "maxstatements": 40,
-    "maxcomplexity": 8,
+    "maxcomplexity": 15,
     "maxlen": 120,
-
     "asi": false,
     "boss": false,
     "debug": false,
     "eqnull": true,
-    "esnext": false,
+    "esnext": true,
     "evil": false,
     "expr": false,
     "funcscope": false,
@@ -50,10 +49,8 @@
     "supernew": false,
     "validthis": false,
     "noyield": false,
-
     "browser": true,
     "node": true,
-
     "globals": {
         "angular": false,
         "ko": true,

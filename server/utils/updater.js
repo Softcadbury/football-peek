@@ -21,8 +21,8 @@ function updateCurrent() {
 function updateAll() {
     var years = [];
 
-    for (var i = oldYear; i < currentYear; i++) {
-        years.push(i);
+    for (var k = oldYear; k < currentYear; k++) {
+        years.push(k);
     }
 
     for (var j = 0; j < years.length; j++) {
@@ -59,7 +59,7 @@ function updateData(country, countryCode, period, periodCode) {
 
     converter.on('end_parsed', () => {
         var fs = require('fs');
-        fs.writeFile('./data/' + country + '/' + period + '.json', JSON.stringify(result), function (err) {
+        fs.writeFile('./data/' + country + '/' + period + '.json', JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);
             } else {
@@ -72,7 +72,7 @@ function updateData(country, countryCode, period, periodCode) {
     require('request').get(url).pipe(converter);
 }
 
-// Gets the url to get the data for a period and a country 
+// Gets the url to get the data for a period and a country
 function getUrl(periodCode, countryCode) {
     return footballDataUrl.replace('{0}', periodCode).replace('{1}', countryCode);
 }
@@ -82,7 +82,7 @@ function cleanJsonObject(jsonObject) {
     var propertiesToKeep = ['Date', 'HomeTeam', 'AwayTeam', 'FTHG', 'FTAG', 'FTR'];
 
     for (var property in jsonObject) {
-        if (propertiesToKeep.indexOf(property) == -1) {
+        if (propertiesToKeep.indexOf(property) === -1) {
             delete jsonObject[property];
         }
     }
