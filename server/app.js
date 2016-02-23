@@ -21,3 +21,6 @@ app.listen(config.port, function (err) {
 // Regsiters routes
 var indexRoutes = require('./routes/indexRoutes');
 app.use('/', indexRoutes);
+
+var tableRoutes = require('./routes/tableRoutes');
+app.use('/table', tableRoutes);
