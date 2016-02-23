@@ -7,7 +7,6 @@ router.route('')
     .get(function (req, res) {
         var jsonfile = require('jsonfile');
         var file = './data/England/2014-2015.json';
-        var sortedTeams;
 
         jsonfile.readFile(file, (err, obj) => {
             var teams = {};
@@ -46,19 +45,17 @@ router.route('')
                 awayTeam.goalsAgainst += homeTeamGoals;
             }
 
-            // Add score to teams and format them in an array
-            var formatedTeams = [];
-            for (var team in teams) {
-                teams[team].score = teams[team].win * 3 + teams[team].draw;
-                teams[team].goalDifference = teams[team].goalsFor - teams[team].goalsAgainst;
-                formatedTeams.push(teams[team]);
-            }
-
-            sortedTeams = formatedTeams.sort((t1, t2) => {
-                return t2.score - t1.score;
+            // Computes information of teams and format them in a sorted array
+            var data = Object.keys(teams).map((key) => {
+                var team = teams[key];
+                team.score = team.win * 3 + team.draw;
+                team.goalDifference = team.goalsFor - team.goalsAgainst;
+                return team;
+            }).sort((team1, team2) => {
+                return team2.score - team1.score;
             });
 
-            res.render('index', { data: sortedTeams });
+            res.render('index', { data: data });
         })
     });
 
