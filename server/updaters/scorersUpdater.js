@@ -6,20 +6,18 @@ var cheerio = require('cheerio');
 var fs = require('fs');
 
 var scorerDataUrl = 'http://www.lequipe.fr/Football/FootballClassementChampionnat{0}_BUT_1.html';
-var league = [
-    { country: 'England', code: '2281' },
-    { country: 'France', code: '2282' },
-    { country: 'Germany', code: '2297' },
-    { country: 'Italy', code: '2303' },
-    { country: 'Spain', code: '2301' }
+var leagues = [
+    { name: config.leagues.bundesliga, code: '2297' },
+    { name: config.leagues.liga, code: '2301' },
+    { name: config.leagues.ligue1, code: '2282' },
+    { name: config.leagues.serieA, code: '2303' },
+    { name: config.leagues.premierLeague, code: '2281' }
 ];
 
 // Updates scorers of current year
 function updateCurrent() {
-    var period = '2015-2016';
-
-    for (var i = 0; i < league.length; i++) {
-        updateData(league[i], period);
+    for (var i = 0; i < leagues.length; i++) {
+        updateData(leagues[i], config.currentYear);
     }
 }
 
@@ -46,13 +44,13 @@ function updateData(league, period) {
             }
         });
 
-        var filePath = config.scorerDataPath.replace('{0}', league.country).replace('{1}', period);
+        var filePath = config.paths.scorerData.replace('{0}', league.name).replace('{1}', period);
 
         fs.writeFile(filePath, JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);
             } else {
-                console.log('File updated: ' + league.country + '-' + period);
+                console.log('File updated: ' + league.name + '/' + period);
             }
         });
     });

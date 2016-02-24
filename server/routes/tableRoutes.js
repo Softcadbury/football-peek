@@ -4,10 +4,10 @@ var config = require('../config');
 var express = require('express');
 var router = express.Router();
 
-router.route('/:country/:period')
+router.route('/:league/:year')
     .get((req, res) => {
         var jsonfile = require('jsonfile');
-        var filePath = config.tableDataPath.replace('{0}', req.params.country).replace('{1}', req.params.period);
+        var filePath = config.paths.tableData.replace('{0}', req.params.league).replace('{1}', req.params.year);
 
         jsonfile.readFile(filePath, (err, obj) => {
             var teams = {};
