@@ -2,15 +2,17 @@
 
 var config = require('../config');
 var Converter = require('csvtojson').Converter;
+var fs = require('fs');
+var request = require('request');
+
 var countries = ['England', 'France', 'Germany', 'Italy', 'Spain'];
 var countryCodes = ['E0', 'F1', 'D1', 'I1', 'SP1'];
-var currentYear = 2015;
 var oldYear = 1993;
 
 // Updates tables of current year
 function updateCurrent() {
-    var period = getPeriod(currentYear);
-    var periodCode = getPeriodCode(currentYear);
+    var period = getPeriod(config.currentYear);
+    var periodCode = getPeriodCode(config.currentYear);
 
     for (var i = 0; i < countries.length; i++) {
         updateData(countries[i], countryCodes[i], period, periodCode);
@@ -21,7 +23,7 @@ function updateCurrent() {
 function updateAll() {
     var years = [];
 
-    for (var k = oldYear; k < currentYear; k++) {
+    for (var k = oldYear; k < config.currentYear; k++) {
         years.push(k);
     }
 
@@ -58,7 +60,6 @@ function updateData(country, countryCode, period, periodCode) {
     });
 
     converter.on('end_parsed', () => {
-        var fs = require('fs');
         var filePath = config.tableDataPath.replace('{0}', country).replace('{1}', period);
 
         fs.writeFile(filePath, JSON.stringify(result), (err) => {
@@ -71,7 +72,7 @@ function updateData(country, countryCode, period, periodCode) {
     });
 
     var url = getUrl(periodCode, countryCode);
-    require('request').get(url).pipe(converter);
+    request.get(url).pipe(converter);
 }
 
 // Gets the url to get the table for a period and a country

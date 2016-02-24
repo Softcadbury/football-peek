@@ -1,10 +1,12 @@
 'use strict';
 
 var gulp = require('gulp');
-var tableUpdater = require('./server/updaters/tableUpdater');
 var jshint = require('gulp-jshint'); // Check some coding rules
 var jscs = require('gulp-jscs'); // Check some coding rules
 var nodemon = require('gulp-nodemon'); // Start the node application
+
+var tableUpdater = require('./server/updaters/tableUpdater');
+var scorerUpdater = require('./server/updaters/scorerUpdater');
 
 // Updates tables of current year
 gulp.task('update-table', () => {
@@ -14,6 +16,11 @@ gulp.task('update-table', () => {
 // Updates tables of old years
 gulp.task('update-table-all', ['update-table'], () => {
     tableUpdater.updateAll();
+});
+
+// Updates scorers of current year
+gulp.task('update-scorer', () => {
+    scorerUpdater.updateCurrent();
 });
 
 // Check coding rules
