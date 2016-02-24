@@ -5,6 +5,7 @@ var Converter = require('csvtojson').Converter;
 var fs = require('fs');
 var request = require('request');
 
+var tableDataUrl = 'http://www.football-data.co.uk/mmz4281/{0}/{1}.csv';
 var countries = ['England', 'France', 'Germany', 'Italy', 'Spain'];
 var countryCodes = ['E0', 'F1', 'D1', 'I1', 'SP1'];
 var oldYear = 1993;
@@ -71,13 +72,8 @@ function updateData(country, countryCode, period, periodCode) {
         });
     });
 
-    var url = getUrl(periodCode, countryCode);
+    var url = tableDataUrl.replace('{0}', periodCode).replace('{1}', countryCode);
     request.get(url).pipe(converter);
-}
-
-// Gets the url to get the table for a period and a country
-function getUrl(periodCode, countryCode) {
-    return config.tableDataUrl.replace('{0}', periodCode).replace('{1}', countryCode);
 }
 
 // Clean the json object of undesirable properties

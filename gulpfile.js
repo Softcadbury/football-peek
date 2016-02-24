@@ -5,22 +5,22 @@ var jshint = require('gulp-jshint'); // Check some coding rules
 var jscs = require('gulp-jscs'); // Check some coding rules
 var nodemon = require('gulp-nodemon'); // Start the node application
 
-var tableUpdater = require('./server/updaters/tableUpdater');
-var scorerUpdater = require('./server/updaters/scorerUpdater');
+var tablesUpdater = require('./server/updaters/tablesUpdater');
+var scorersUpdater = require('./server/updaters/scorersUpdater');
 
 // Updates tables of current year
-gulp.task('update-table', () => {
-    tableUpdater.updateCurrent();
+gulp.task('update-tables', () => {
+    tablesUpdater.updateCurrent();
 });
 
 // Updates tables of old years
-gulp.task('update-table-all', ['update-table'], () => {
-    tableUpdater.updateAll();
+gulp.task('update-tables-all', ['update-tables'], () => {
+    tablesUpdater.updateAll();
 });
 
 // Updates scorers of current year
-gulp.task('update-scorer', () => {
-    scorerUpdater.updateCurrent();
+gulp.task('update-scorers', () => {
+    scorersUpdater.updateCurrent();
 });
 
 // Check coding rules
