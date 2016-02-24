@@ -38,10 +38,10 @@ function updateData(league, period) {
         $('#col-gauche > section > div > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
                 result.push({
-                    name: $(elem).find('td.rang').text(),
-                    rank: $(elem).find('td.player > a').text(),
+                    rank: $(elem).find('td.rang').text(),
+                    name: $(elem).find('td.player > a').text(),
                     team: $(elem).find('td.player > span > a').text(),
-                    goals: $(elem).find('td:nth-child(3)').text()
+                    goals: $(elem).find('td.stat').not('.stat-large').not('.stat-xlarge').text()
                 });
             }
         });
