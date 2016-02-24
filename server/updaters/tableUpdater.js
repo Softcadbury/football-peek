@@ -1,13 +1,13 @@
 'use strict';
 
+var config = require('../config');
 var Converter = require('csvtojson').Converter;
-var footballDataUrl = 'http://www.football-data.co.uk/mmz4281/{0}/{1}.csv';
 var countries = ['England', 'France', 'Germany', 'Italy', 'Spain'];
 var countryCodes = ['E0', 'F1', 'D1', 'I1', 'SP1'];
 var currentYear = 2015;
 var oldYear = 1993;
 
-// Updates data of current year
+// Updates tables of current year
 function updateCurrent() {
     var period = getPeriod(currentYear);
     var periodCode = getPeriodCode(currentYear);
@@ -17,7 +17,7 @@ function updateCurrent() {
     }
 }
 
-// Updates data of old years
+// Updates tables of old years
 function updateAll() {
     var years = [];
 
@@ -48,7 +48,7 @@ function getPeriodCode(year) {
     return part1 + part2;
 }
 
-// Updates the data of a country by period
+// Updates the table of a country by period
 function updateData(country, countryCode, period, periodCode) {
     var converter = new Converter({ constructResult: false });
     var result = [];
@@ -59,7 +59,9 @@ function updateData(country, countryCode, period, periodCode) {
 
     converter.on('end_parsed', () => {
         var fs = require('fs');
-        fs.writeFile('./data/' + country + '/' + period + '.json', JSON.stringify(result), (err) => {
+        var filePath = config.tableDataPath.replace('{0}', country).replace('{1}', period);
+
+        fs.writeFile(filePath, JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);
             } else {
@@ -72,9 +74,9 @@ function updateData(country, countryCode, period, periodCode) {
     require('request').get(url).pipe(converter);
 }
 
-// Gets the url to get the data for a period and a country
+// Gets the url to get the table for a period and a country
 function getUrl(periodCode, countryCode) {
-    return footballDataUrl.replace('{0}', periodCode).replace('{1}', countryCode);
+    return config.tableDataUrl.replace('{0}', periodCode).replace('{1}', countryCode);
 }
 
 // Clean the json object of undesirable properties

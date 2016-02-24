@@ -1,19 +1,19 @@
 'use strict';
 
 var gulp = require('gulp');
-var updater = require('./server/utils/updater');
+var tableUpdater = require('./server/updaters/tableUpdater');
 var jshint = require('gulp-jshint'); // Check some coding rules
 var jscs = require('gulp-jscs'); // Check some coding rules
 var nodemon = require('gulp-nodemon'); // Start the node application
 
-// Updates data of current year
-gulp.task('update', () => {
-    updater.updateCurrent();
+// Updates tables of current year
+gulp.task('update-table', () => {
+    tableUpdater.updateCurrent();
 });
 
-// Updates data of old years
-gulp.task('updateall', ['update'], () => {
-    updater.updateAll();
+// Updates tables of old years
+gulp.task('update-table-all', ['update-table'], () => {
+    tableUpdater.updateAll();
 });
 
 // Check coding rules

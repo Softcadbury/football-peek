@@ -1,14 +1,15 @@
 'use strict';
 
+var config = require('../config');
 var express = require('express');
 var router = express.Router();
 
 router.route('/:country/:period')
     .get((req, res) => {
         var jsonfile = require('jsonfile');
-        var file = './data/' + req.params.country + '/' + req.params.period + '.json';
+        var filePath = config.tableDataPath.replace('{0}', req.params.country).replace('{1}', req.params.period);
 
-        jsonfile.readFile(file, (err, obj) => {
+        jsonfile.readFile(filePath, (err, obj) => {
             var teams = {};
 
             for (var i = 0; i < obj.length; i++) {
