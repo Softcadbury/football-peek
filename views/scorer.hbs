@@ -1,14 +1,3 @@
-<style>
-    table {
-        margin-bottom: 15px;
-    }
-    
-    table, th, td {
-        border-collapse: collapse;
-        border: 1px solid gray;
-    }
-</style>
-
 <table>
     <tr>
         <th title="Position">#</th>
@@ -20,8 +9,8 @@
     {{#each data}}
     <tr>
         <td>{{this.rank}}</td>
-        <td>{{this.name}}</td>
-        <td>{{this.team}}</td>
+        <td class="align-left">{{this.name}}</td>
+        <td class="align-left">{{this.team}}</td>
         <td>{{this.goals}}</td>
         <td>{{this.played}}</td>
     </tr>
