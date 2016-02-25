@@ -7,23 +7,37 @@
         border-collapse: collapse;
         border: 1px solid gray;
     }
+    
+    td {
+        min-width: 26px;
+        padding: 2px 4px;
+        text-align: center;
+    }
+    
+    td.team {
+        text-align: left;
+    }
 </style>
 
 <table>
     <tr>
-        <th>Team</th>
-        <th>Score</th>
-        <th>Win</th>
-        <th>Draw</th>
-        <th>Lost</th>
-        <th>Goals For</th>
-        <th>Goals Against</th>
-        <th>Goals Difference</th>
+        <th title="Position">#</th>
+        <th title="Team">Team</th>
+        <th title="Points">Pts</th>
+        <th title="Matches played">Pld</th>
+        <th title="Matches won">W</th>
+        <th title="Matches drawn">D</th>
+        <th title="Matches lost">L</th>
+        <th title="Goals for">F</th>
+        <th title="Goals against">A</th>
+        <th title="Goal differencence">+/-</th>
     </tr>
     {{#each data}}
     <tr>
-        <td>{{this.name}}</td>
+        <td>{{this.position}}</td>
+        <td class="team">{{this.name}}</td>
         <td>{{this.score}}</td>
+        <td>{{this.played}}</td>
         <td>{{this.win}}</td>
         <td>{{this.draw}}</td>
         <td>{{this.lost}}</td>

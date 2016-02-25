@@ -50,10 +50,21 @@ router.route('/:league/:year')
             var data = Object.keys(teams).map((key) => {
                 var team = teams[key];
                 team.score = team.win * 3 + team.draw;
+                team.played = team.win + team.draw + team.lost;
                 team.goalDifference = team.goalsFor - team.goalsAgainst;
                 return team;
             }).sort((team1, team2) => {
-                return team2.score - team1.score;
+                if (team2.score != team1.score) {
+                    return team2.score - team1.score;
+                } else if (team2.goalDifference != team1.goalDifference) {
+                    return team2.goalDifference - team1.goalDifference;
+                } else {
+                    return team2.win - team1.win;
+                }
+            });
+
+            data.forEach((team, index) => {
+                team.position = index + 1;
             });
 
             res.render('table', { data: data });
@@ -63,8 +74,10 @@ router.route('/:league/:year')
 // Creates a team object
 function createTeamObject() {
     return {
+        position: 0,
         name: '',
         score: 0,
+        played: 0,
         win: 0,
         draw: 0,
         lost: 0,
