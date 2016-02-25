@@ -11,10 +11,11 @@
 
 <table>
     <tr>
-        <th>Rank</th>
-        <th>Name</th>
-        <th>Team</th>
-        <th>Goals</th>
+        <th title="Position">#</th>
+        <th title="Player name">Name</th>
+        <th title="Team">Team</th>
+        <th title="Goals">Goals</th>
+        <th title="Matches played">Pld</th>
     </tr>
     {{#each data}}
     <tr>
@@ -22,6 +23,7 @@
         <td>{{this.name}}</td>
         <td>{{this.team}}</td>
         <td>{{this.goals}}</td>
+        <td>{{this.played}}</td>
     </tr>
     {{/each}}
 </table>
