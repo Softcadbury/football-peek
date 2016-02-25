@@ -24,3 +24,6 @@ app.use('/', indexRoutes);
 
 var tableRoutes = require('./routes/tableRoutes');
 app.use('/table', tableRoutes);
+
+var tableRoutes = require('./routes/scorerRoutes');
+app.use('/scorer', tableRoutes);

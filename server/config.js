@@ -1,3 +1,4 @@
+/* global process */
 'use strict';
 
 function config() {
