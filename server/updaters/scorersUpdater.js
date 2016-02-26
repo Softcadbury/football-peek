@@ -5,7 +5,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var fs = require('fs');
 
-var scorerDataUrl = 'http://www.lequipe.fr/Football/FootballClassementChampionnat{0}_BUT_1.html';
+var scorersDataUrl = 'http://www.lequipe.fr/Football/FootballClassementChampionnat{0}_BUT_1.html';
 var leagues = [
     { name: config.leagues.bundesliga, code: '2297' },
     { name: config.leagues.liga, code: '2301' },
@@ -21,9 +21,9 @@ function updateCurrent() {
     }
 }
 
-// Updates the scorer of a league and a period
+// Updates the scorers of a league and a period
 function updateData(league, period) {
-    var url = scorerDataUrl.replace('{0}', league.code);
+    var url = scorersDataUrl.replace('{0}', league.code);
 
     request(url, (err, resp, body) => {
         if (err) {
@@ -45,7 +45,7 @@ function updateData(league, period) {
             }
         });
 
-        var filePath = config.paths.scorerData.replace('{0}', league.name).replace('{1}', period);
+        var filePath = config.paths.scorersData.replace('{0}', league.name).replace('{1}', period);
         fs.writeFile(filePath, JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);

@@ -22,8 +22,11 @@ app.listen(config.port, (err) => {
 var indexRoutes = require('./routes/indexRoutes');
 app.use('/', indexRoutes);
 
-var tableRoutes = require('./routes/tableRoutes');
-app.use('/table', tableRoutes);
+var tablesRoutes = require('./routes/tablesRoutes');
+app.use('/tables', tablesRoutes);
 
-var tableRoutes = require('./routes/scorerRoutes');
-app.use('/scorer', tableRoutes);
+var scorersRoutes = require('./routes/scorersRoutes');
+app.use('/scorers', scorersRoutes);
+
+var assistsRoutes = require('./routes/assistsRoutes');
+app.use('/assists', assistsRoutes);

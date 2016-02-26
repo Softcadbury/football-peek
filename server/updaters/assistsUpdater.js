@@ -5,7 +5,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var fs = require('fs');
 
-var assistDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
+var assistsDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
 var leagues = [
     { name: config.leagues.bundesliga, code: 'german-bundesliga/10' },
     { name: config.leagues.liga, code: 'spanish-primera-division/15' },
@@ -21,9 +21,9 @@ function updateCurrent() {
     }
 }
 
-// Updates the assist of a league and a period
+// Updates the assists of a league and a period
 function updateData(league, period) {
-    var url = assistDataUrl.replace('{0}', league.code);
+    var url = assistsDataUrl.replace('{0}', league.code);
 
     request(url, (err, resp, body) => {
         if (err) {
@@ -44,7 +44,7 @@ function updateData(league, period) {
             }
         });
 
-        var filePath = config.paths.assistData.replace('{0}', league.name).replace('{1}', period);
+        var filePath = config.paths.assistsData.replace('{0}', league.name).replace('{1}', period);
         fs.writeFile(filePath, JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);

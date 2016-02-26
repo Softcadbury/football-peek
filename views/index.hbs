@@ -27,14 +27,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/freewall/1.0.5/freewall.min.js"></script>
 
 <script>
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/table/premier-league/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/table/premier-league/2014"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/table/premier-league/2013"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/table/premier-league/2012"));    
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2015"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2014"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2013"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2012"));    
     
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorer/premier-league/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorer/ligue-1/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorer/bundesliga/2015"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorers/premier-league/2015"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorers/ligue-1/2015"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorers/bundesliga/2015"));
+    
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/assists/premier-league/2015"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/assists/ligue-1/2015"));
+    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/assists/bundesliga/2015"));
     
     var wall = new Freewall("#content");
     wall.reset({

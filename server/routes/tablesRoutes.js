@@ -7,7 +7,7 @@ var router = express.Router();
 router.route('/:league/:year')
     .get((req, res) => {
         var jsonfile = require('jsonfile');
-        var filePath = config.paths.tableData.replace('{0}', req.params.league).replace('{1}', req.params.year);
+        var filePath = config.paths.resultsData.replace('{0}', req.params.league).replace('{1}', req.params.year);
 
         jsonfile.readFile(filePath, (err, obj) => {
             var teams = {};
@@ -54,9 +54,9 @@ router.route('/:league/:year')
                 team.goalDifference = team.goalsFor - team.goalsAgainst;
                 return team;
             }).sort((team1, team2) => {
-                if (team2.score != team1.score) {
+                if (team2.score !== team1.score) {
                     return team2.score - team1.score;
-                } else if (team2.goalDifference != team1.goalDifference) {
+                } else if (team2.goalDifference !== team1.goalDifference) {
                     return team2.goalDifference - team1.goalDifference;
                 } else {
                     return team2.win - team1.win;

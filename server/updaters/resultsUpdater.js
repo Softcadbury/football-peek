@@ -6,7 +6,7 @@ var fs = require('fs');
 var request = require('request');
 
 var oldestYear = 1993;
-var tableDataUrl = 'http://www.football-data.co.uk/mmz4281/{0}/{1}.csv';
+var resultsDataUrl = 'http://www.football-data.co.uk/mmz4281/{0}/{1}.csv';
 var leagues = [
     { name: config.leagues.bundesliga, code: 'D1' },
     { name: config.leagues.liga, code: 'SP1' },
@@ -15,14 +15,14 @@ var leagues = [
     { name: config.leagues.premierLeague, code: 'E0' }
 ];
 
-// Updates tables of current year
+// Updates results of current year
 function updateCurrent() {
     for (var i = 0; i < leagues.length; i++) {
         updateData(leagues[i], config.currentYear);
     }
 }
 
-// Updates tables of old years
+// Updates results of old years
 function updateAll() {
     var years = [];
 
@@ -37,7 +37,7 @@ function updateAll() {
     }
 }
 
-// Updates the table of a league by period
+// Updates the results of a league by period
 function updateData(league, year) {
     var converter = new Converter({ constructResult: false });
     var result = [];
@@ -47,7 +47,7 @@ function updateData(league, year) {
     });
 
     converter.on('end_parsed', () => {
-        var filePath = config.paths.tableData.replace('{0}', league.name).replace('{1}', year);
+        var filePath = config.paths.resultsData.replace('{0}', league.name).replace('{1}', year);
         fs.writeFile(filePath, JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);
@@ -58,7 +58,7 @@ function updateData(league, year) {
     });
 
     var periodCode = getPeriodCode(year);
-    var url = tableDataUrl.replace('{0}', periodCode).replace('{1}', league.code);
+    var url = resultsDataUrl.replace('{0}', periodCode).replace('{1}', league.code);
     request.get(url).pipe(converter);
 }
 

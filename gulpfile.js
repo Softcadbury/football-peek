@@ -5,18 +5,18 @@ var jshint = require('gulp-jshint'); // Check some coding rules
 var jscs = require('gulp-jscs'); // Check some coding rules
 var nodemon = require('gulp-nodemon'); // Start the node application
 
-var tablesUpdater = require('./server/updaters/tablesUpdater');
+var resultsUpdater = require('./server/updaters/resultsUpdater');
 var scorersUpdater = require('./server/updaters/scorersUpdater');
 var assistsUpdater = require('./server/updaters/assistsUpdater');
 
-// Updates tables of current year
-gulp.task('update-tables', () => {
-    tablesUpdater.updateCurrent();
+// Updates results of current year
+gulp.task('update-results', () => {
+    resultsUpdater.updateCurrent();
 });
 
-// Updates tables of old years
-gulp.task('update-tables-all', ['update-tables'], () => {
-    tablesUpdater.updateAll();
+// Updates results of old years
+gulp.task('update-results-all', ['update-results'], () => {
+    resultsUpdater.updateAll();
 });
 
 // Updates scorers of current year
