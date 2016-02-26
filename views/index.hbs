@@ -1,57 +1,114 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.css" rel="stylesheet">
 <style>
-    table {
-        margin-bottom: 15px;
+    body {
+        font-size: 13px !important;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        margin: 30px 40px;
     }
     
+    table {
+        font-size: 13px !important;
+        margin-bottom: 15px;
+    }
+
     table, th, td {
         border-collapse: collapse;
         border: 1px solid gray;
     }
-    
+
     td {
         min-width: 26px;
         padding: 2px 4px;
         text-align: center;
     }
-    
+
     td.main-information {
         width: 150px;
         text-align: left;
-        
+    }
+
+    .gridster * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .controls {
+        margin-bottom: 20px;
+    }
+
+    .gridster ul {
+        background-color: #EFEFEF;
+    }
+
+    .gridster li {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    .gridster {
+        margin: 0 auto;
+        opacity: .8;
+        -webkit-transition: opacity .6s;
+        -moz-transition: opacity .6s;
+        -o-transition: opacity .6s;
+        -ms-transition: opacity .6s;
+        transition: opacity .6s;
+    }
+
+    .gridster .gs-w {
+        background: #DDD;
+        cursor: pointer;
+    }
+
+    .gridster .player {
+        background: #BBB;
+    }
+
+    .gridster .preview-holder {
+        border: none !important;
+        background: red !important;
     }
 </style>
 
 <h1>Football Dashboard</h1>
-
-<div id="content" class="free-wall"></div>
+<div class="gridster">
+    <ul></ul>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/freewall/1.0.5/freewall.min.js"></script>
-
-<script>
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2014"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2013"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/tables/premier-league/2012"));    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.js"></script>
+<script>   
+    var gridster = $(".gridster > ul").gridster({
+        widget_margins: [5, 5],
+        widget_base_dimensions: [120, 120]
+    }).data('gridster');
     
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorers/premier-league/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorers/ligue-1/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/scorers/bundesliga/2015"));
+    Add('/tables/premier-league/2015', 3, 3);
+    Add('/tables/premier-league/2014', 3, 3);
+    Add('/tables/premier-league/2013', 3, 3);
+    Add('/tables/premier-league/2012', 3, 3);
     
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/assists/premier-league/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/assists/ligue-1/2015"));
-    $("#content").append($("<div class='cell' style='width:500px; height: 500px; background-color:white;'>").load("http://127.0.0.1:5000/assists/bundesliga/2015"));
+    Add('/scorers/premier-league/2015', 3, 3);
+    Add('/scorers/ligue-1/2015', 3, 3);
+    Add('/scorers/bundesliga/2015', 3, 3);
     
-    var wall = new Freewall("#content");
-    wall.reset({
-        draggable: true,
-        selector: '.cell',
-        animate: true,
-        onResize: function() {
-            wall.refresh();
-        }
-    });
+    Add('/assists/premier-league/2015', 3, 3);
+    Add('/assists/ligue-1/2015', 3, 3);
+    Add('/assists/bundesliga/2015', 3, 3);    
     
-    wall.fitWidth();    
-    $(window).trigger("resize");
+    function Add(url, sizeX, sizeY) {
+        $.ajax({
+            type: "GET",
+            url: url,
+            success: function(data) {
+                gridster.add_widget.apply(gridster, [data, sizeX, sizeY]);
+            }
+        })
+    }
 </script>
