@@ -5,7 +5,6 @@ var Converter = require('csvtojson').Converter;
 var fs = require('fs');
 var request = require('request');
 
-var oldestYear = 1993;
 var resultsDataUrl = 'http://www.football-data.co.uk/mmz4281/{0}/{1}.csv';
 var leagues = [
     { name: config.leagues.bundesliga, code: 'D1' },
@@ -24,6 +23,7 @@ function updateCurrent() {
 
 // Updates results of old years
 function updateAll() {
+    var oldestYear = 1993;
     var years = [];
 
     for (var k = oldestYear; k < config.currentYear; k++) {
@@ -52,7 +52,7 @@ function updateData(league, year) {
             if (err) {
                 console.log(err);
             } else {
-                console.log('File updated: ' + league.name + '/' + year);
+                console.log('Results updated: ' + league.name + '/' + year);
             }
         });
     });

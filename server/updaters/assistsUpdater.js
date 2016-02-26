@@ -49,7 +49,7 @@ function updateData(league, period) {
             if (err) {
                 console.log(err);
             } else {
-                console.log('File updated: ' + league.name + '/' + period);
+                console.log('Assists updated: ' + league.name + '/' + period);
             }
         });
     });

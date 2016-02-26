@@ -50,7 +50,7 @@ function updateData(league, period) {
             if (err) {
                 console.log(err);
             } else {
-                console.log('File updated: ' + league.name + '/' + period);
+                console.log('Scorers updated: ' + league.name + '/' + period);
             }
         });
     });
