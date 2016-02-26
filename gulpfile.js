@@ -7,6 +7,7 @@ var nodemon = require('gulp-nodemon'); // Start the node application
 
 var tablesUpdater = require('./server/updaters/tablesUpdater');
 var scorersUpdater = require('./server/updaters/scorersUpdater');
+var assistsUpdater = require('./server/updaters/assistsUpdater');
 
 // Updates tables of current year
 gulp.task('update-tables', () => {
@@ -21,6 +22,11 @@ gulp.task('update-tables-all', ['update-tables'], () => {
 // Updates scorers of current year
 gulp.task('update-scorers', () => {
     scorersUpdater.updateCurrent();
+});
+
+// Updates assists of current year
+gulp.task('update-assists', () => {
+    assistsUpdater.updateCurrent();
 });
 
 // Check coding rules

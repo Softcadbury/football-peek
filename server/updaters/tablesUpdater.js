@@ -48,7 +48,6 @@ function updateData(league, year) {
 
     converter.on('end_parsed', () => {
         var filePath = config.paths.tableData.replace('{0}', league.name).replace('{1}', year);
-
         fs.writeFile(filePath, JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);

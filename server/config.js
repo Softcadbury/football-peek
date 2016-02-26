@@ -14,7 +14,8 @@ function config() {
         },
         paths: {
             tableData: './data/{0}/tables/{1}.json',
-            scorerData: './data/{0}/scorers/{1}.json'
+            scorerData: './data/{0}/scorers/{1}.json',
+            assistData: './data/{0}/assists/{1}.json'
         }
     };
 }
