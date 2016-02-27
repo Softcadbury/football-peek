@@ -41,7 +41,7 @@ gulp.task('check', () => {
 // Start the node server
 gulp.task('start', () => {
     var options = {
-        script: 'server/app.js',
+        script: 'server/server.js',
         delayTime: 1,
         env: {
             'PORT': 5000

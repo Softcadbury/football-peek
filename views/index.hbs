@@ -1,114 +1,26 @@
-<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.css" rel="stylesheet">
-<style>
-    body {
-        font-size: 13px !important;
-        font-family: 'Helvetica Neue', Arial, sans-serif;
-        margin: 30px 40px;
-    }
-    
-    table {
-        font-size: 13px !important;
-        margin-bottom: 15px;
-    }
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Football Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Football Dashboard">
+    <meta name="author" content="Romain Parage">
 
-    table, th, td {
-        border-collapse: collapse;
-        border: 1px solid gray;
-    }
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.js"></script>
+    <script src="./js/app.js"></script>
 
-    td {
-        min-width: 26px;
-        padding: 2px 4px;
-        text-align: center;
-    }
-
-    td.main-information {
-        width: 150px;
-        text-align: left;
-    }
-
-    .gridster * {
-        margin: 0;
-        padding: 0;
-    }
-
-    ul {
-        list-style-type: none;
-    }
-
-    .controls {
-        margin-bottom: 20px;
-    }
-
-    .gridster ul {
-        background-color: #EFEFEF;
-    }
-
-    .gridster li {
-        font-size: 1em;
-        font-weight: bold;
-        text-align: center;
-        line-height: 100%;
-    }
-
-    .gridster {
-        margin: 0 auto;
-        opacity: .8;
-        -webkit-transition: opacity .6s;
-        -moz-transition: opacity .6s;
-        -o-transition: opacity .6s;
-        -ms-transition: opacity .6s;
-        transition: opacity .6s;
-    }
-
-    .gridster .gs-w {
-        background: #DDD;
-        cursor: pointer;
-    }
-
-    .gridster .player {
-        background: #BBB;
-    }
-
-    .gridster .preview-holder {
-        border: none !important;
-        background: red !important;
-    }
-</style>
-
-<h1>Football Dashboard</h1>
-<div class="gridster">
-    <ul></ul>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.js"></script>
-<script>   
-    var gridster = $(".gridster > ul").gridster({
-        widget_margins: [5, 5],
-        widget_base_dimensions: [120, 120]
-    }).data('gridster');
-    
-    Add('/tables/premier-league/2015', 3, 3);
-    Add('/tables/premier-league/2014', 3, 3);
-    Add('/tables/premier-league/2013', 3, 3);
-    Add('/tables/premier-league/2012', 3, 3);
-    
-    Add('/scorers/premier-league/2015', 3, 3);
-    Add('/scorers/ligue-1/2015', 3, 3);
-    Add('/scorers/bundesliga/2015', 3, 3);
-    
-    Add('/assists/premier-league/2015', 3, 3);
-    Add('/assists/ligue-1/2015', 3, 3);
-    Add('/assists/bundesliga/2015', 3, 3);    
-    
-    function Add(url, sizeX, sizeY) {
-        $.ajax({
-            type: "GET",
-            url: url,
-            success: function(data) {
-                gridster.add_widget.apply(gridster, [data, sizeX, sizeY]);
-            }
-        })
-    }
-</script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.css">
+</head>
+<body>
+	<div id="main">
+        <div class="gridster">
+            <ul></ul>
+        </div>
+    </div>
+</body>
+</html>

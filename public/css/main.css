@@ -1,0 +1,74 @@
+body {
+    font-size: 13px !important;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 30px 40px;
+}
+
+table {
+    font-size: 13px !important;
+    margin-bottom: 15px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+td {
+    min-width: 26px;
+    padding: 2px 4px;
+    text-align: center;
+}
+
+td.main-information {
+    width: 150px;
+    text-align: left;
+}
+
+.gridster * {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.gridster ul {
+    background-color: #EFEFEF;
+}
+
+.gridster li {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.gridster {
+    margin: 0 auto;
+    opacity: .8;
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.gridster .gs-w {
+    background: #DDD;
+    cursor: pointer;
+}
+
+.gridster .player {
+    background: #BBB;
+}
+
+.gridster .preview-holder {
+    border: none !important;
+    background: red !important;
+}
