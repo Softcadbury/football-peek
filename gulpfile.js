@@ -6,6 +6,7 @@ var jscs = require('gulp-jscs'); // Check some coding rules
 var nodemon = require('gulp-nodemon'); // Start the node application
 
 var resultsUpdater = require('./server/updaters/resultsUpdater');
+var tablesUpdater = require('./server/updaters/tablesUpdater');
 var scorersUpdater = require('./server/updaters/scorersUpdater');
 var assistsUpdater = require('./server/updaters/assistsUpdater');
 
@@ -17,6 +18,11 @@ gulp.task('update-results', () => {
 // Updates results of old years
 gulp.task('update-results-all', ['update-results'], () => {
     resultsUpdater.updateAll();
+});
+
+// Updates tables of current year
+gulp.task('update-tables', () => {
+    tablesUpdater.updateCurrent();
 });
 
 // Updates scorers of current year
