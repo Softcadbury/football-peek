@@ -1,9 +1,6 @@
 'use strict';
 
 var gulp = require('gulp');
-var jshint = require('gulp-jshint'); // Check some coding rules
-var jscs = require('gulp-jscs'); // Check some coding rules
-var nodemon = require('gulp-nodemon'); // Start the node application
 
 var resultsUpdater = require('./server/updaters/resultsUpdater');
 var tablesUpdater = require('./server/updaters/tablesUpdater');
@@ -37,6 +34,9 @@ gulp.task('update-assists', () => {
 
 // Check coding rules
 gulp.task('check', () => {
+    var jshint = require('gulp-jshint');
+    var jscs = require('gulp-jscs');
+
     gulp.src(['./*.js', './server/**/*.js', './public/js/**/*.js'])
         .pipe(jscs())
         .pipe(jscs.reporter())
@@ -46,6 +46,7 @@ gulp.task('check', () => {
 
 // Start the node server
 gulp.task('start', () => {
+    var nodemon = require('gulp-nodemon');
     var options = {
         script: 'server/server.js',
         delayTime: 1,

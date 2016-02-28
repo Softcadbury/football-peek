@@ -1,6 +1,7 @@
 body {
+    background-color: #f0f2f4;
     font-size: 13px !important;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: Arial,Helvetica,sans-serif;
     margin: 30px 40px;
 }
 
@@ -11,7 +12,6 @@ table {
 
 table, th, td {
     border-collapse: collapse;
-    border: 1px solid gray;
 }
 
 td {
@@ -20,7 +20,7 @@ td {
     text-align: center;
 }
 
-td.main-information {
+th.main-information, td.main-information {
     width: 150px;
     text-align: left;
 }
@@ -36,10 +36,6 @@ ul {
 
 .controls {
     margin-bottom: 20px;
-}
-
-.gridster ul {
-    background-color: #EFEFEF;
 }
 
 .gridster li {
@@ -60,15 +56,11 @@ ul {
 }
 
 .gridster .gs-w {
-    background: #DDD;
+    background-color: white;
     cursor: pointer;
-}
-
-.gridster .player {
-    background: #BBB;
 }
 
 .gridster .preview-holder {
     border: none !important;
-    background: red !important;
+    background: #BBB !important;
 }
