@@ -38,7 +38,14 @@ function updateData(league, period) {
                 result.push({
                     rank: $(elem).find('td.rang').text(),
                     team: $(elem).find('td.team .team-label').text(),
-                    points: $(elem).find('td.points').text()
+                    points: $(elem).find('td.points').text(),
+                    played: $(elem).find('td:nth-child(6)').text(),
+                    win: $(elem).find('td:nth-child(7)').text(),
+                    draw: $(elem).find('td:nth-child(8)').text(),
+                    lost: $(elem).find('td:nth-child(9)').text(),
+                    goalsFor: $(elem).find('td:nth-child(10)').text(),
+                    goalsAgainst: $(elem).find('td:nth-child(11)').text(),
+                    goalDifference: $(elem).find('td:nth-child(12)').text()
                 });
             }
         });
