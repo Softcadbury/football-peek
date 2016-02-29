@@ -36,7 +36,6 @@ gulp.task('update-assists', () => {
 gulp.task('check', () => {
     var jshint = require('gulp-jshint');
     var jscs = require('gulp-jscs');
-
     gulp.src(['./*.js', './server/**/*.js', './client/scripts/**/*.js'])
         .pipe(jscs())
         .pipe(jscs.reporter())
@@ -74,4 +73,11 @@ gulp.task('start', ['build'], () => {
     return nodemon(options).on('restart', () => {
         console.log('Restarting...');
     });
+});
+
+// Start the node server and open the browser
+gulp.task('default', ['start'], () => {
+    var openBrowser = require('gulp-open');
+    gulp.src('/')
+        .pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));
 });
