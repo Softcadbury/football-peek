@@ -6,10 +6,10 @@ var handlebars = require('express-handlebars');
 var app = express();
 
 // Middlewares configuration
-app.use(express.static('public'));
+app.use(express.static('build'));
 
 // Handlebars configuration
-app.set('views', 'views');
+app.set('views', 'client/views');
 app.engine('.hbs', handlebars({ extname: '.hbs' }));
 app.set('view engine', '.hbs');
 

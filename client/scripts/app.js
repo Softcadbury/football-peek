@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     function Add(url, sizeX, sizeY) {
         $.ajax({
-            type: "GET",
+            type: 'GET',
             url: url,
             success: function (data) {
                 gridster.add_widget.apply(gridster, [data, sizeX, sizeY]);

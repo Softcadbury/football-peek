@@ -37,15 +37,30 @@ gulp.task('check', () => {
     var jshint = require('gulp-jshint');
     var jscs = require('gulp-jscs');
 
-    gulp.src(['./*.js', './server/**/*.js', './public/js/**/*.js'])
+    gulp.src(['./*.js', './server/**/*.js', './client/scripts/**/*.js'])
         .pipe(jscs())
         .pipe(jscs.reporter())
         .pipe(jshint())
         .pipe(jshint.reporter('jshint-stylish', { verbose: true }));
 });
 
+// Build the application
+gulp.task('build', () => {
+    var uglify = require('gulp-uglify');
+    gulp.src('./client/scripts/**/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('./build/js'));
+
+    var less = require('gulp-less');
+    var minifyCSS = require('gulp-minify-css');
+    gulp.src('./client/styles/**/*.less')
+        .pipe(less())
+        .pipe(minifyCSS())
+        .pipe(gulp.dest('./build/css'));
+});
+
 // Start the node server
-gulp.task('start', () => {
+gulp.task('start', ['build'], () => {
     var nodemon = require('gulp-nodemon');
     var options = {
         script: 'server/server.js',
