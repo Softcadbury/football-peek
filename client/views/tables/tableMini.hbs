@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th title="Position">#</th>
+        <th class="main-information" title="Team">Team</th>
+        <th title="Points">Pts</th>
+        <th title="Matches played">Pld</th>
+        <th title="Goal differencence">+/-</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.rank}}</td>
+        <td class="main-information">{{this.team}}</td>
+        <td>{{this.points}}</td>
+        <td>{{this.played}}</td>
+        <td>{{this.goalDifference}}</td>
+    </tr>
+    {{/each}}
+</table>

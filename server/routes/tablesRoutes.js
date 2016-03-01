@@ -4,6 +4,16 @@ var config = require('../config');
 var express = require('express');
 var router = express.Router();
 
+router.route('/mini/:league/:year')
+    .get((req, res) => {
+        var jsonfile = require('jsonfile');
+        var filePath = config.paths.tablesData.replace('{0}', req.params.league).replace('{1}', req.params.year);
+
+        jsonfile.readFile(filePath, (err, obj) => {
+            res.render('tables/tableMini', { data: obj });
+        });
+    });
+
 router.route('/:league/:year')
     .get((req, res) => {
         var jsonfile = require('jsonfile');
