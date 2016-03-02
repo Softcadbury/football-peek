@@ -58,8 +58,21 @@ gulp.task('build', () => {
         .pipe(gulp.dest('./build/css'));
 });
 
+// Inject js and css in views
+gulp.task('inject', ['build'], function () {
+    var inject = require('gulp-inject');
+    var injectSrc = gulp.src(['./build/css/*.css', './build/js/*.js'], { read: false });
+    var injectOptions = {
+        ignorePath: '/build'
+    };
+
+    return gulp.src('./client/views/*.hbs')
+        .pipe(inject(injectSrc, injectOptions))
+        .pipe(gulp.dest('./client/views'));
+});
+
 // Start the node server
-gulp.task('start', ['build'], () => {
+gulp.task('start', ['inject'], () => {
     var nodemon = require('gulp-nodemon');
     var options = {
         script: 'server/server.js',
