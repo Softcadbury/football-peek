@@ -37,10 +37,10 @@ function updateData(league) {
             if (index < 20) {
                 result.push({
                     rank: $(elem).find('td.rang').text(),
-                    name: $(elem).find('td.player > a').text(),
-                    team: $(elem).find('td.player > span > a').text(),
-                    goals: $(elem).find('td.stat').not('.stat-large').not('.stat-xlarge').text(),
-                    played: $(elem).find('td.stat-large').text()
+                    name: $(elem).find('td.player > div > span > span > span > a').text(),
+                    team: $(elem).find('td.player > div > span > span > span > span').text(),
+                    goals: $(elem).find('td.stat.stat-large.highlighted').text(),
+                    played: $(elem).find('td:nth-child(4)').text()
                 });
             }
         });
