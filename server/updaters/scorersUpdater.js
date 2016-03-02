@@ -15,14 +15,14 @@ var leagues = [
 ];
 
 // Updates scorers of current year
-function updateCurrent() {
+function update() {
     for (var i = 0; i < leagues.length; i++) {
-        updateData(leagues[i], config.currentYear);
+        updateData(leagues[i]);
     }
 }
 
-// Updates the scorers of a league and a period
-function updateData(league, period) {
+// Updates the scorers of a league
+function updateData(league) {
     var url = scorersDataUrl.replace('{0}', league.code);
 
     request(url, (err, resp, body) => {
@@ -45,17 +45,17 @@ function updateData(league, period) {
             }
         });
 
-        var filePath = config.paths.scorersData.replace('{0}', league.name).replace('{1}', period);
+        var filePath = config.paths.scorersData.replace('{0}', league.name);
         fs.writeFile(filePath, JSON.stringify(result), (err) => {
             if (err) {
                 console.log(err);
             } else {
-                console.log('Scorers updated: ' + league.name + '/' + period);
+                console.log('Scorers updated for ' + league.name);
             }
         });
     });
 }
 
 module.exports = {
-    updateCurrent: updateCurrent
+    update: update
 };

@@ -5,9 +5,6 @@ $(document).ready(function () {
     }).data('gridster');
 
     Add('/tables/premier-league/2015', 3, 3);
-    Add('/tables/premier-league/2014', 3, 3);
-    Add('/tables/premier-league/2013', 3, 3);
-    Add('/tables/premier-league/2012', 3, 3);
 
     Add('/tables/mini/premier-league/2015', 2, 1);
 

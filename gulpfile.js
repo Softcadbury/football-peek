@@ -2,34 +2,11 @@
 
 var gulp = require('gulp');
 
-var resultsUpdater = require('./server/updaters/resultsUpdater');
-var tablesUpdater = require('./server/updaters/tablesUpdater');
-var scorersUpdater = require('./server/updaters/scorersUpdater');
-var assistsUpdater = require('./server/updaters/assistsUpdater');
-
-// Updates results of current year
-gulp.task('update-results', () => {
-    resultsUpdater.updateCurrent();
-});
-
-// Updates results of old years
-gulp.task('update-results-all', ['update-results'], () => {
-    resultsUpdater.updateAll();
-});
-
-// Updates tables of current year
-gulp.task('update-tables', () => {
-    tablesUpdater.updateCurrent();
-});
-
-// Updates scorers of current year
-gulp.task('update-scorers', () => {
-    scorersUpdater.updateCurrent();
-});
-
-// Updates assists of current year
-gulp.task('update-assists', () => {
-    assistsUpdater.updateCurrent();
+// Updates data
+gulp.task('update', () => {
+    require('./server/updaters/tablesUpdater').update();
+    require('./server/updaters/scorersUpdater').update();
+    require('./server/updaters/assistsUpdater').update();
 });
 
 // Check coding rules
