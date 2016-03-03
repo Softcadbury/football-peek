@@ -1,0 +1,16 @@
+<table class="table-data">
+    <tr>
+        <th title="Position">#</th>
+        <th class="main-information" title="Player name">Name</th>
+        <th title="Goals">Goals</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.rank}}</td>
+        <td class="main-information">
+            <span>{{this.name}}</span>
+        </td>
+        <td>{{this.goals}}</td>
+    </tr>
+    {{/each}}
+</table>

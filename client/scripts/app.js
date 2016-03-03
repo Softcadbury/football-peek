@@ -7,6 +7,8 @@ $(document).ready(function () {
     Add('/tables/premier-league/2015', 4, 4);
 
     Add('/tables/mini/premier-league/2015', 2, 2);
+    Add('/assists/mini/premier-league/2015', 2, 2);
+    Add('/scorers/mini/premier-league/2015', 2, 2);
 
     Add('/scorers/premier-league/2015', 3, 4);
     Add('/scorers/ligue-1/2015', 3, 4);
