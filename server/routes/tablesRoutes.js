@@ -21,7 +21,7 @@ router.route('/mini/:league/:year')
 
         jsonfile.readFile(filePath, (err, obj) => {
             // Takes the first and last three teams
-            var data = [].concat(obj.splice(0, 3), obj.splice(-3, 3));
+            var data = [].concat(obj.splice(0, 4), obj.splice(-4, 4));
             res.render('tables/tableMini', { data: data });
         });
     });
