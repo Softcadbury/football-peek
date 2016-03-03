@@ -20,7 +20,7 @@ router.route('/mini/:league/:year')
         var filePath = config.paths.tableData.replace('{0}', req.params.league).replace('{1}', req.params.year);
 
         jsonfile.readFile(filePath, (err, obj) => {
-            // Takes the first and last three
+            // Takes the first and last three teams
             var data = [].concat(obj.splice(0, 3), obj.splice(-3, 3));
             res.render('tables/tableMini', { data: data });
         });

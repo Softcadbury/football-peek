@@ -7,8 +7,15 @@
         border-collapse: collapse;
         
         &.main-information {
-            width: 150px;
             text-align: left;
+            
+            span {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                max-width: 150px;
+                display: block;
+                overflow: hidden;
+            }
         }
     }
 
