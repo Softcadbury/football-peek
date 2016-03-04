@@ -49,15 +49,13 @@ gulp.task('inject', ['build'], function () {
 });
 
 // Start the node server
-gulp.task('start', ['inject'], () => {
+gulp.task('start', () => {
     var nodemon = require('gulp-nodemon');
     var options = {
         script: 'server/server.js',
         delayTime: 1,
-        env: {
-            'PORT': 5000
-        },
-        watch: ['./*.js', './server/*.js']
+        env: { 'PORT': 5000 },
+        watch: ['server']
     };
 
     return nodemon(options).on('restart', () => {
@@ -65,9 +63,11 @@ gulp.task('start', ['inject'], () => {
     });
 });
 
-// Start the node server and open the browser
-gulp.task('default', ['start'], () => {
+// Manage injection, start the node server and open the browser
+gulp.task('default', ['inject', 'start'], () => {
+    gulp.watch('./client/scripts/**/*', ['inject']);
+    gulp.watch('./client/styles/**/*', ['inject']);
+
     var openBrowser = require('gulp-open');
-    gulp.src('/')
-        .pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));
+    gulp.src('/').pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));
 });
