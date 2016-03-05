@@ -1,28 +1,23 @@
 'use strict';
 
 var config = require('../config');
+var helper = require('../helper');
 var express = require('express');
 var router = express.Router();
 
+// Route for normal assists
 router.route('/:league/:year')
     .get((req, res) => {
-        var jsonfile = require('jsonfile');
-        var filePath = config.paths.assistsData.replace('{0}', req.params.league).replace('{1}', req.params.year);
-
-        jsonfile.readFile(filePath, (err, obj) => {
-            res.render('assists/assists', { data: obj });
+        helper.readJsonFile(config.paths.assistsData, [req.params.league, req.params.year], data => {
+            res.render('assists/assists', { data: data });
         });
     });
 
+// Route for mini assists - Takes the first nine players
 router.route('/mini/:league/:year')
     .get((req, res) => {
-        var jsonfile = require('jsonfile');
-        var filePath = config.paths.assistsData.replace('{0}', req.params.league).replace('{1}', req.params.year);
-
-        jsonfile.readFile(filePath, (err, obj) => {
-            // Takes the first and last three teams
-            var data = [].concat(obj.splice(0, 9));
-            res.render('assists/assistsMini', { data: data });
+        helper.readJsonFile(config.paths.assistsData, [req.params.league, req.params.year], data => {
+            res.render('assists/assistsMini', { data: [].concat(data.splice(0, 9)) });
         });
     });
 
