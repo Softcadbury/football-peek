@@ -1,1 +1,142 @@
-[{"rank":"1","name":"Ibrahimovic Zlatan","team":"Paris-SG","goals":"23","played":"22"},{"rank":"2","name":"Batshuayi Michy","team":"Marseille","goals":"13","played":"26"},{"rank":"3","name":"Moukandjo Benjamin","team":"Lorient","goals":"12","played":"25"},{"rank":"-","name":"Cavani Edinson","team":"Paris-SG","goals":"12","played":"24"},{"rank":"5","name":"Ben Arfa Hatem","team":"Nice","goals":"11","played":"24"},{"rank":"6","name":"Delort Andy","team":"Caen","goals":"10","played":"28"},{"rank":"-","name":"Lacazette Alexandre","team":"Lyon","goals":"10","played":"24"},{"rank":"8","name":"Di Maria Angel","team":"Paris-SG","goals":"9","played":"21"},{"rank":"-","name":"Ben Yedder Wissam","team":"Toulouse","goals":"9","played":"25"},{"rank":"10","name":"Ayité Floyd","team":"Bastia","goals":"8","played":"23"},{"rank":"-","name":"Germain Valère","team":"Nice","goals":"8","played":"28"},{"rank":"12","name":"N'Doye Cheikh","team":"Angers","goals":"7","played":"24"},{"rank":"-","name":"Rodelin Ronny","team":"Caen","goals":"7","played":"25"},{"rank":"-","name":"Boufal Sofiane","team":"Lille","goals":"7","played":"22"},{"rank":"-","name":"Waris Abdul Majeed","team":"Lorient","goals":"7","played":"15"},{"rank":"-","name":"Grosicki Kamil","team":"Rennes","goals":"7","played":"25"},{"rank":"-","name":"Braithwaite Martin","team":"Toulouse","goals":"7","played":"26"},{"rank":"18","name":"Diabaté Cheick","team":"Bordeaux","goals":"6","played":"16"},{"rank":"-","name":"Larbi Mohamed","team":"GFC Ajaccio","goals":"6","played":"22"},{"rank":"-","name":"Privat Sloan","team":"Guingamp","goals":"6","played":"23"}]
+[
+    {
+        "rank": "1",
+        "name": "Ibrahimovic Zlatan",
+        "team": "Paris-SG",
+        "goals": "27",
+        "played": "24"
+    },
+    {
+        "rank": "2",
+        "name": "Cavani Edinson",
+        "team": "Paris-SG",
+        "goals": "14",
+        "played": "26"
+    },
+    {
+        "rank": "3",
+        "name": "Lacazette Alexandre",
+        "team": "Lyon",
+        "goals": "13",
+        "played": "26"
+    },
+    {
+        "rank": "-",
+        "name": "Batshuayi Michy",
+        "team": "Marseille",
+        "goals": "13",
+        "played": "30"
+    },
+    {
+        "rank": "5",
+        "name": "Moukandjo Benjamin",
+        "team": "Lorient",
+        "goals": "12",
+        "played": "25"
+    },
+    {
+        "rank": "-",
+        "name": "Ben Yedder Wissam",
+        "team": "Toulouse",
+        "goals": "12",
+        "played": "27"
+    },
+    {
+        "rank": "7",
+        "name": "Ben Arfa Hatem",
+        "team": "Nice",
+        "goals": "11",
+        "played": "26"
+    },
+    {
+        "rank": "8",
+        "name": "Delort Andy",
+        "team": "Caen",
+        "goals": "10",
+        "played": "29"
+    },
+    {
+        "rank": "-",
+        "name": "Germain Valère",
+        "team": "Nice",
+        "goals": "10",
+        "played": "30"
+    },
+    {
+        "rank": "-",
+        "name": "Dembélé Ousmane",
+        "team": "Rennes",
+        "goals": "10",
+        "played": "19"
+    },
+    {
+        "rank": "11",
+        "name": "Di Maria Angel",
+        "team": "Paris-SG",
+        "goals": "9",
+        "played": "23"
+    },
+    {
+        "rank": "12",
+        "name": "Ayité Floyd",
+        "team": "Bastia",
+        "goals": "8",
+        "played": "26"
+    },
+    {
+        "rank": "-",
+        "name": "Larbi Mohamed",
+        "team": "GFC Ajaccio",
+        "goals": "8",
+        "played": "25"
+    },
+    {
+        "rank": "-",
+        "name": "Boufal Sofiane",
+        "team": "Lille",
+        "goals": "8",
+        "played": "24"
+    },
+    {
+        "rank": "-",
+        "name": "Waris Abdul Majeed",
+        "team": "Lorient",
+        "goals": "8",
+        "played": "17"
+    },
+    {
+        "rank": "-",
+        "name": "Grosicki Kamil",
+        "team": "Rennes",
+        "goals": "8",
+        "played": "28"
+    },
+    {
+        "rank": "-",
+        "name": "Braithwaite Martin",
+        "team": "Toulouse",
+        "goals": "8",
+        "played": "28"
+    },
+    {
+        "rank": "18",
+        "name": "N'Doye Cheikh",
+        "team": "Angers",
+        "goals": "7",
+        "played": "25"
+    },
+    {
+        "rank": "-",
+        "name": "Diabaté Cheick",
+        "team": "Bordeaux",
+        "goals": "7",
+        "played": "18"
+    },
+    {
+        "rank": "-",
+        "name": "Rodelin Ronny",
+        "team": "Caen",
+        "goals": "7",
+        "played": "27"
+    }
+]

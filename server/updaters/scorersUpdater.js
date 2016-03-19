@@ -46,7 +46,7 @@ function updateData(league) {
         });
 
         var filePath = config.paths.scorersData.replace('{0}', league.name);
-        fs.writeFile(filePath, JSON.stringify(result), (err) => {
+        fs.writeFile(filePath, JSON.stringify(result, null, 4), (err) => {
             if (err) {
                 console.log(err);
             } else {
