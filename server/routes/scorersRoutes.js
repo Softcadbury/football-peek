@@ -8,7 +8,7 @@ var router = express.Router();
 // Route for normal scorers
 router.route('/:league')
     .get((req, res) => {
-        helper.readJsonFile(config.paths.scorersData, [req.params.league], data => {
+        helper.readJsonFile(helper.stringFormat(config.paths.scorersData, req.params.league), data => {
             res.render('scorers/scorers', { data: data });
         });
     });
@@ -16,7 +16,7 @@ router.route('/:league')
 // Route for mini scorers - Takes the first nine players
 router.route('/mini/:league')
     .get((req, res) => {
-        helper.readJsonFile(config.paths.scorersData, [req.params.league], data => {
+        helper.readJsonFile(helper.stringFormat(config.paths.scorersData, req.params.league), data => {
             res.render('scorers/scorersMini', { data: [].concat(data.splice(0, 9)) });
         });
     });

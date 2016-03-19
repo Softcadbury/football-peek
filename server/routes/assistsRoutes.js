@@ -8,7 +8,7 @@ var router = express.Router();
 // Route for normal assists
 router.route('/:league')
     .get((req, res) => {
-        helper.readJsonFile(config.paths.assistsData, [req.params.league], data => {
+        helper.readJsonFile(helper.stringFormat(config.paths.assistsData, req.params.league), data => {
             res.render('assists/assists', { data: data });
         });
     });
@@ -16,7 +16,7 @@ router.route('/:league')
 // Route for mini assists - Takes the first nine players
 router.route('/mini/:league')
     .get((req, res) => {
-        helper.readJsonFile(config.paths.assistsData, [req.params.league], data => {
+        helper.readJsonFile(helper.stringFormat(config.paths.assistsData, req.params.league), data => {
             res.render('assists/assistsMini', { data: [].concat(data.splice(0, 9)) });
         });
     });
