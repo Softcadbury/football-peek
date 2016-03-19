@@ -2,8 +2,6 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var request = require('request');
-var cheerio = require('cheerio');
 
 var scorersDataUrl = 'http://www.lequipe.fr/Football/FootballClassementChampionnat{0}_BUT_1.html';
 var leagues = [
@@ -23,14 +21,7 @@ function update() {
 
 // Updates the scorers of a league
 function updateData(league) {
-    var url = scorersDataUrl.replace('{0}', league.code);
-
-    request(url, (err, resp, body) => {
-        if (err) {
-            throw err;
-        }
-
-        var $ = cheerio.load(body);
+    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.code), function($) {
         var result = [];
 
         $('#col-gauche > section > div > table > tbody > tr').each((index, elem) => {

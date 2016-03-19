@@ -29,8 +29,23 @@ function writeJsonFile(path, content) {
     });
 }
 
+// Scrape an url and call the callback with its content
+function scrapeUrl(url, callback) {
+    var request = require('request');
+    var cheerio = require('cheerio');
+    request(url, (err, resp, body) => {
+        if (err) {
+            console.log(err);
+        }
+
+        var $ = cheerio.load(body);
+        callback($);
+    });
+}
+
 module.exports = {
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
-    writeJsonFile: writeJsonFile
+    writeJsonFile: writeJsonFile,
+    scrapeUrl: scrapeUrl
 };

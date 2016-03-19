@@ -2,8 +2,6 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var request = require('request');
-var cheerio = require('cheerio');
 
 var assistsDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
 var leagues = [
@@ -23,14 +21,7 @@ function update() {
 
 // Updates the assists of a league
 function updateData(league) {
-    var url = assistsDataUrl.replace('{0}', league.code);
-
-    request(url, (err, resp, body) => {
-        if (err) {
-            throw err;
-        }
-
-        var $ = cheerio.load(body);
+    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, league.code), function($) {
         var result = [];
 
         $('#stats-top-assists > div > table > tbody > tr').each((index, elem) => {
