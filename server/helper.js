@@ -36,10 +36,10 @@ function scrapeUrl(url, callback) {
     request(url, (err, resp, body) => {
         if (err) {
             console.log(err);
+        } else {
+            var $ = cheerio.load(body);
+            callback($);
         }
-
-        var $ = cheerio.load(body);
-        callback($);
     });
 }
 

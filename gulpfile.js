@@ -9,6 +9,11 @@ gulp.task('update', () => {
     require('./server/updaters/assistsUpdater').update();
 });
 
+// Updates logos
+gulp.task('update-logos', () => {
+    require('./server/updaters/logosUpdater').update();
+});
+
 // Check coding rules
 gulp.task('check', () => {
     var jshint = require('gulp-jshint');
@@ -36,7 +41,7 @@ gulp.task('build', () => {
 });
 
 // Inject js and css in views
-gulp.task('inject', ['build'], function () {
+gulp.task('inject', ['build'], function() {
     var inject = require('gulp-inject');
     var injectSrc = gulp.src(['./build/css/*.css', './build/js/*.js'], { read: false });
     var injectOptions = {
