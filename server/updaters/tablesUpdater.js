@@ -1,9 +1,9 @@
 'use strict';
 
 var config = require('../config');
+var helper = require('../helper');
 var request = require('request');
 var cheerio = require('cheerio');
-var fs = require('fs');
 
 var tableDataUrl = 'http://www.lequipe.fr/Football/{0}-classement.html';
 var leagues = [
@@ -50,14 +50,7 @@ function updateData(league) {
             }
         });
 
-        var filePath = config.paths.tableData.replace('{0}', league.name);
-        fs.writeFile(filePath, JSON.stringify(result, null, 4), (err) => {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log('Table updated for ' + league.name);
-            }
-        });
+        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.name), result);
     });
 }
 

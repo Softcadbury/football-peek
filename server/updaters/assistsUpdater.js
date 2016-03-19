@@ -1,9 +1,9 @@
 'use strict';
 
 var config = require('../config');
+var helper = require('../helper');
 var request = require('request');
 var cheerio = require('cheerio');
-var fs = require('fs');
 
 var assistsDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
 var leagues = [
@@ -44,14 +44,7 @@ function updateData(league) {
             }
         });
 
-        var filePath = config.paths.assistsData.replace('{0}', league.name);
-        fs.writeFile(filePath, JSON.stringify(result, null, 4), (err) => {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log('Assists updated for ' + league.name);
-            }
-        });
+        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, league.name), result);
     });
 }
 
