@@ -42,14 +42,14 @@ function updateLogos(league) {
     });
 }
 
-// Download an image in a path 
+// Download an image in a path
 function downloadImage(src, path) {
     request.head(src, function(err, res, body) {
         request(src).pipe(fs.createWriteStream(path)).on('close', function() {
-            console.log('Image updated: ' + path)
+            console.log('Image updated: ' + path);
         });
     });
-};
+}
 
 module.exports = {
     update: update

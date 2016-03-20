@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var gridster = $(".gridster").gridster({
+    var gridster = $('.gridster').gridster({
         widget_margins: [5, 5],
         widget_base_dimensions: [100, 100]
     }).data('gridster');
@@ -25,6 +25,6 @@ $(document).ready(function () {
             success: function (data) {
                 gridster.add_widget.apply(gridster, [data, sizeX, sizeY]);
             }
-        })
+        });
     }
 });
