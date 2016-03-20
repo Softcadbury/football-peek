@@ -1,4 +1,6 @@
-$(document).ready(function () {
+$(document).ready(function() {
+    ko.applyBindings(new GridConfigurtionViewModel(), document.getElementById('test'));
+
     var gridster = $('.gridster').gridster({
         widget_margins: [5, 5],
         widget_base_dimensions: [100, 100]
@@ -26,9 +28,17 @@ $(document).ready(function () {
         $.ajax({
             type: 'GET',
             url: url,
-            success: function (data) {
+            success: function(data) {
                 gridster.add_widget.apply(gridster, [data, sizeX, sizeY]);
             }
         });
     }
 });
+
+function GridConfigurtionViewModel() {
+    var test = ko.observable('test');
+
+    return {
+        test: test
+    };
+}
