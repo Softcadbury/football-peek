@@ -6,32 +6,39 @@
     th, td {
         border-collapse: collapse;
         text-align: center;
-        
-        &.table-data-main {
-            text-align: left;
-            
-            span {
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                max-width: 105px;
-                display: block;
-                overflow: hidden;
-            }
-        }
     }
 
     td {
         min-width: 26px;
+    }
+    
+    .table-data-title {
+        border-bottom: 1px solid black;
+        padding-bottom: 3px;
         
-        &.table-data-title {
-            img {
-                vertical-align: middle;
-            }
-            
-            h1 {
-                display: inline-block;
-                vertical-align: middle;
-            }
+        img {
+            height: 20px;
+            text-align: left;
+            vertical-align: top;
+        }
+        
+        h1 {
+            display: inline-block;
+            font-size: 12px;
+            margin-top: 3px;
+            vertical-align: top;
+        }
+    }
+    
+    .table-data-main {
+        text-align: left;
+        
+        span {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 105px;
+            display: block;
+            overflow: hidden;
         }
     }
 }
