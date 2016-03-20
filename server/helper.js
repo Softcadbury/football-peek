@@ -1,5 +1,22 @@
 'use strict';
 
+// Sanitize a string to be a filename
+function stringSanitize(str) {
+    return str
+        .toLowerCase()
+        .replace(/[àáâãäå]/g, "a")
+        .replace(/[èéêë]/g, "e")
+        .replace(/[ìíîï]/g, "i")
+        .replace(/[òóôõö]/g, "o")
+        .replace(/[ùúûü]/g, "u")
+        .replace(/æ/g, "ae")
+        .replace(/ç/g, "c")
+        .replace(/ñ/g, "n")
+        .replace(/œ/g, "oe")
+        .replace(/[ýÿ]/g, "y")
+        .replace(/[^a-z0-9]/gi, '_');
+}
+
 // Format a string with arguments
 function stringFormat(str) {
     for (var i = 0; i + 1 < arguments.length; i++) {
@@ -44,6 +61,7 @@ function scrapeUrl(url, callback) {
 }
 
 module.exports = {
+    stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
