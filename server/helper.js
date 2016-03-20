@@ -73,7 +73,7 @@ function getLeagueData(code) {
         }
     }
 
-    league.logo = stringFormat('./{0}/images/{1}.png', league.code, 'logo');
+    league.logo = stringFormat(config.paths.imageData.replace('/data', ''), league.code, 'logo');
 
     return league;
 }

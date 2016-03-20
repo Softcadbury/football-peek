@@ -26,17 +26,29 @@
     {
         "rank": "3",
         "team": "AS Roma",
-        "points": "59",
-        "played": "29",
+        "points": "60",
+        "played": "30",
         "win": "17",
-        "draw": "8",
+        "draw": "9",
         "lost": "4",
-        "goalsFor": "61",
-        "goalsAgainst": "30",
+        "goalsFor": "62",
+        "goalsAgainst": "31",
         "goalDifference": "+31"
     },
     {
         "rank": "4",
+        "team": "Inter Milan",
+        "points": "55",
+        "played": "30",
+        "win": "16",
+        "draw": "7",
+        "lost": "7",
+        "goalsFor": "40",
+        "goalsAgainst": "28",
+        "goalDifference": "+12"
+    },
+    {
+        "rank": "5",
         "team": "Fiorentina",
         "points": "54",
         "played": "29",
@@ -46,18 +58,6 @@
         "goalsFor": "50",
         "goalsAgainst": "32",
         "goalDifference": "+18"
-    },
-    {
-        "rank": "5",
-        "team": "Inter Milan",
-        "points": "54",
-        "played": "29",
-        "win": "16",
-        "draw": "6",
-        "lost": "7",
-        "goalsFor": "39",
-        "goalsAgainst": "27",
-        "goalDifference": "+12"
     },
     {
         "rank": "6",
@@ -99,16 +99,28 @@
         "rank": "9",
         "team": "Bologne",
         "points": "36",
-        "played": "29",
+        "played": "30",
         "win": "10",
         "draw": "6",
-        "lost": "13",
+        "lost": "14",
         "goalsFor": "30",
-        "goalsAgainst": "33",
-        "goalDifference": "-3"
+        "goalsAgainst": "35",
+        "goalDifference": "-5"
     },
     {
         "rank": "10",
+        "team": "Empoli",
+        "points": "36",
+        "played": "30",
+        "win": "9",
+        "draw": "9",
+        "lost": "12",
+        "goalsFor": "34",
+        "goalsAgainst": "42",
+        "goalDifference": "-8"
+    },
+    {
+        "rank": "11",
         "team": "Chievo Vérone",
         "points": "35",
         "played": "29",
@@ -118,18 +130,6 @@
         "goalsFor": "33",
         "goalsAgainst": "39",
         "goalDifference": "-6"
-    },
-    {
-        "rank": "11",
-        "team": "Empoli",
-        "points": "35",
-        "played": "29",
-        "win": "9",
-        "draw": "8",
-        "lost": "12",
-        "goalsFor": "34",
-        "goalsAgainst": "42",
-        "goalDifference": "-8"
     },
     {
         "rank": "12",
@@ -157,6 +157,18 @@
     },
     {
         "rank": "14",
+        "team": "Atalanta Bergame",
+        "points": "33",
+        "played": "30",
+        "win": "8",
+        "draw": "9",
+        "lost": "13",
+        "goalsFor": "28",
+        "goalsAgainst": "35",
+        "goalDifference": "-7"
+    },
+    {
+        "rank": "15",
         "team": "Sampdoria Gênes",
         "points": "32",
         "played": "29",
@@ -166,18 +178,6 @@
         "goalsFor": "43",
         "goalsAgainst": "47",
         "goalDifference": "-4"
-    },
-    {
-        "rank": "15",
-        "team": "Atalanta Bergame",
-        "points": "30",
-        "played": "29",
-        "win": "7",
-        "draw": "9",
-        "lost": "13",
-        "goalsFor": "26",
-        "goalsAgainst": "35",
-        "goalDifference": "-9"
     },
     {
         "rank": "16",
@@ -194,10 +194,10 @@
     {
         "rank": "17",
         "team": "Palerme",
-        "points": "27",
-        "played": "29",
+        "points": "28",
+        "played": "30",
         "win": "7",
-        "draw": "6",
+        "draw": "7",
         "lost": "16",
         "goalsFor": "28",
         "goalsAgainst": "51",
