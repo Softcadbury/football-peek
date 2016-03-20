@@ -2,6 +2,8 @@
 
 var config = require('../config');
 var helper = require('../helper');
+var request = require('request');
+var fs = require('fs');
 
 var tableDataUrl = 'http://www.lequipe.fr/Football/{0}-classement.html';
 var leagues = [
@@ -22,16 +24,32 @@ function update() {
 // Updates logos of a league
 function updateLogos(league) {
     helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.code), function($) {
-        var result = [];
+        var results = [];
 
         $('#col-gauche > section > div.v6-page > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
-                result.push($(elem).find('td.team .team-label img').attr('src'));
-                console.log($(elem).find('td.team .team-label img').attr('src'));
+                results.push({
+                    team: $(elem).find('td.team .team-label').text(),
+                    src: $(elem).find('td.team .team-label img').attr('src')
+                });
             }
         });
+
+        for (var i = 0; i < results.length; i++) {
+            var path = helper.stringFormat(config.paths.image, league.name, helper.stringSanitize(results[i].team));
+            downloadImage(results[i].src, path);
+        }
     });
 }
+
+// Download an image in a path 
+function downloadImage(src, path) {
+    request.head(src, function(err, res, body) {
+        request(src).pipe(fs.createWriteStream(path)).on('close', function() {
+            console.log('Image updated: ' + path)
+        });
+    });
+};
 
 module.exports = {
     update: update

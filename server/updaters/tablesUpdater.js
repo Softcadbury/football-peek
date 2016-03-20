@@ -22,11 +22,11 @@ function update() {
 // Updates the table of a league
 function updateData(league) {
     helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.code), function($) {
-        var result = [];
+        var results = [];
 
         $('#col-gauche > section > div.v6-page > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
-                result.push({
+                results.push({
                     rank: $(elem).find('td.rang').text(),
                     team: $(elem).find('td.team .team-label').text(),
                     points: $(elem).find('td.points').text(),
@@ -41,7 +41,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.name), result);
+        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.name), results);
     });
 }
 

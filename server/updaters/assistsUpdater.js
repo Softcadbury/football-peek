@@ -22,11 +22,11 @@ function update() {
 // Updates the assists of a league
 function updateData(league) {
     helper.scrapeUrl(helper.stringFormat(assistsDataUrl, league.code), function($) {
-        var result = [];
+        var results = [];
 
         $('#stats-top-assists > div > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
-                result.push({
+                results.push({
                     rank: $(elem).find('td[headers=rank]').text() || '-',
                     name: $(elem).find('td[headers=player]').text(),
                     team: $(elem).find('td[headers=team]').text(),
@@ -35,7 +35,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, league.name), result);
+        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, league.name), results);
     });
 }
 

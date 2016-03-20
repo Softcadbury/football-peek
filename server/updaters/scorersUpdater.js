@@ -22,11 +22,11 @@ function update() {
 // Updates the scorers of a league
 function updateData(league) {
     helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.code), function($) {
-        var result = [];
+        var results = [];
 
         $('#col-gauche > section > div > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
-                result.push({
+                results.push({
                     rank: $(elem).find('td.rang').text(),
                     name: $(elem).find('td.player > div > span > span > span > a').text(),
                     team: $(elem).find('td.player > div > span > span > span > span').text(),
@@ -36,7 +36,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, league.name), result);
+        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, league.name), results);
     });
 }
 
