@@ -4,8 +4,11 @@ $(document).ready(function () {
         widget_base_dimensions: [100, 100]
     }).data('gridster');
 
-    add('/tables/premier-league', 4, 4);
+    add('/tables/bundesliga', 4, 4);
+    add('/tables/liga', 4, 4);
     add('/tables/ligue-1', 4, 4);
+    add('/tables/premier-league', 4, 4);
+    add('/tables/serie-a', 4, 4);
 
     add('/tables/mini/premier-league', 2, 2);
     add('/assists/mini/premier-league', 2, 2);
