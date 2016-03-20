@@ -5,6 +5,7 @@ $(document).ready(function () {
     }).data('gridster');
 
     add('/tables/premier-league', 4, 4);
+    add('/tables/ligue-1', 4, 4);
 
     add('/tables/mini/premier-league', 2, 2);
     add('/assists/mini/premier-league', 2, 2);

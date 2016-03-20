@@ -9,7 +9,8 @@ var router = express.Router();
 router.route('/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
-            res.render('tables/table', { data: data });
+            var logoSrc = helper.stringFormat('./{0}/images/{1}.png', req.params.league, 'logo');
+            res.render('tables/table', { logoSrc: logoSrc, data: data });
         });
     });
 

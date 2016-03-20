@@ -1,17 +1,17 @@
 <table class="table-data">
     <tr>
         <th title="Position">#</th>
-        <th class="main-information" title="Player name">Name</th>
-        <th class="main-information" title="Team">Team</th>
+        <th class="table-data-main" title="Player name">Name</th>
+        <th class="table-data-main" title="Team">Team</th>
         <th title="Goals">Goals</th>
     </tr>
     {{#each data}}
     <tr>
         <td>{{this.rank}}</td>
-        <td class="main-information">
+        <td class="table-data-main">
             <span>{{this.name}}</span>
         </td>
-        <td class="main-information">
+        <td class="table-data-main">
             <span>{{this.team}}</span>
         </td>
         <td>{{this.goals}}</td>
