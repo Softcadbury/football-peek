@@ -5,11 +5,11 @@ var helper = require('../helper');
 
 var assistsDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
 var leagues = [
-    { name: config.leagues.bundesliga, code: 'german-bundesliga/10' },
-    { name: config.leagues.liga, code: 'spanish-primera-division/15' },
-    { name: config.leagues.ligue1, code: 'french-ligue-1/9' },
-    { name: config.leagues.serieA, code: 'italian-serie-a/12' },
-    { name: config.leagues.premierLeague, code: 'barclays-premier-league/23' }
+    { code: config.leagues.bundesliga.code, url: 'german-bundesliga/10' },
+    { code: config.leagues.liga.code, url: 'spanish-primera-division/15' },
+    { code: config.leagues.ligue1.code, url: 'french-ligue-1/9' },
+    { code: config.leagues.serieA.code, url: 'italian-serie-a/12' },
+    { code: config.leagues.premierLeague.code, url: 'barclays-premier-league/23' }
 ];
 
 // Updates assists of current year
@@ -21,7 +21,7 @@ function update() {
 
 // Updates the assists of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, league.code), function($) {
+    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, league.url), function($) {
         var results = [];
 
         $('#stats-top-assists > div > table > tbody > tr').each((index, elem) => {
@@ -35,7 +35,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, league.name), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, league.code), results);
     });
 }
 

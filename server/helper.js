@@ -66,9 +66,9 @@ function scrapeUrl(url, callback) {
 function getLeagueData(code) {
     var league = {};
 
-    for (var item in config.test) {
-        if (config.test[item].code == code) {
-            league = config.test[item];
+    for (var item in config.leagues) {
+        if (config.leagues[item].code == code) {
+            league = config.leagues[item];
             break;
         }
     }

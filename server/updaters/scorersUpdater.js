@@ -5,11 +5,11 @@ var helper = require('../helper');
 
 var scorersDataUrl = 'http://www.lequipe.fr/Football/FootballClassementChampionnat{0}_BUT_1.html';
 var leagues = [
-    { name: config.leagues.bundesliga, code: '2297' },
-    { name: config.leagues.liga, code: '2301' },
-    { name: config.leagues.ligue1, code: '2282' },
-    { name: config.leagues.serieA, code: '2303' },
-    { name: config.leagues.premierLeague, code: '2281' }
+    { code: config.leagues.bundesliga.code, url: '2297' },
+    { code: config.leagues.liga.code, url: '2301' },
+    { code: config.leagues.ligue1.code, url: '2282' },
+    { code: config.leagues.serieA.code, url: '2303' },
+    { code: config.leagues.premierLeague.code, url: '2281' }
 ];
 
 // Updates scorers of current year
@@ -21,7 +21,7 @@ function update() {
 
 // Updates the scorers of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.code), function($) {
+    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.url), function($) {
         var results = [];
 
         $('#col-gauche > section > div > table > tbody > tr').each((index, elem) => {
@@ -36,7 +36,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, league.name), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, league.code), results);
     });
 }
 

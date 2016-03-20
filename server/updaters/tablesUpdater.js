@@ -5,11 +5,11 @@ var helper = require('../helper');
 
 var tableDataUrl = 'http://www.lequipe.fr/Football/{0}-classement.html';
 var leagues = [
-    { name: config.leagues.bundesliga, code: 'championnat-d-allemagne' },
-    { name: config.leagues.liga, code: 'championnat-d-espagne' },
-    { name: config.leagues.ligue1, code: 'ligue-1' },
-    { name: config.leagues.serieA, code: 'championnat-d-italie' },
-    { name: config.leagues.premierLeague, code: 'championnat-d-angleterre' }
+    { code: config.leagues.bundesliga.code, url: 'championnat-d-allemagne' },
+    { code: config.leagues.liga.code, url: 'championnat-d-espagne' },
+    { code: config.leagues.ligue1.code, url: 'ligue-1' },
+    { code: config.leagues.serieA.code, url: 'championnat-d-italie' },
+    { code: config.leagues.premierLeague.code, url: 'championnat-d-angleterre' }
 ];
 
 // Updates tables of current year
@@ -21,7 +21,7 @@ function update() {
 
 // Updates the table of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.code), function($) {
+    helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url), function($) {
         var results = [];
 
         $('#col-gauche > section > div.v6-page > table > tbody > tr').each((index, elem) => {
@@ -41,7 +41,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.name), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code), results);
     });
 }
 
