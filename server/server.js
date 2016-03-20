@@ -7,6 +7,7 @@ var app = express();
 
 // Middlewares configuration
 app.use(express.static('build'));
+app.use(express.static('data', { 'extensions': ['png'] }));
 
 // Handlebars configuration
 app.set('views', 'client/views');

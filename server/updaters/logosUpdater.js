@@ -36,7 +36,7 @@ function updateLogos(league) {
         });
 
         for (var i = 0; i < results.length; i++) {
-            var path = helper.stringFormat(config.paths.image, league.name, helper.stringSanitize(results[i].team));
+            var path = helper.stringFormat(config.paths.imageData, league.name, helper.stringSanitize(results[i].team));
             downloadImage(results[i].src, path);
         }
     });
