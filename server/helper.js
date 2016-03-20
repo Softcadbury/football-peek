@@ -1,6 +1,8 @@
 'use strict';
 
-// Sanitize a string to be a filename
+var config = require('./config');
+
+// Sanitizes a string to be a filename
 function stringSanitize(str) {
     return str
         .toLowerCase()
@@ -17,7 +19,7 @@ function stringSanitize(str) {
         .replace(/[^a-z0-9]/gi, '_');
 }
 
-// Format a string with arguments
+// Formats a string with arguments
 function stringFormat(str) {
     for (var i = 0; i + 1 < arguments.length; i++) {
         str = str.replace('{' + i + '}', arguments[i + 1]);
@@ -26,7 +28,7 @@ function stringFormat(str) {
     return str;
 }
 
-// Read a json file and call the callback with its content
+// Reads a json file and call the callback with its content
 function readJsonFile(path, callback) {
     var jsonfile = require('jsonfile');
     jsonfile.readFile(path, { throws: false }, (err, data) => {
@@ -34,7 +36,7 @@ function readJsonFile(path, callback) {
     });
 }
 
-// Write content in a json file
+// Writes content in a json file
 function writeJsonFile(path, content) {
     var fs = require('fs');
     fs.writeFile(path, JSON.stringify(content, null, 4), (err) => {
@@ -46,7 +48,7 @@ function writeJsonFile(path, content) {
     });
 }
 
-// Scrape an url and call the callback with its content
+// Scrapes an url and call the callback with its content
 function scrapeUrl(url, callback) {
     var request = require('request');
     var cheerio = require('cheerio');
@@ -60,10 +62,27 @@ function scrapeUrl(url, callback) {
     });
 }
 
+// Gets the data of a league
+function getLeagueData(code) {
+    var league = {};
+
+    for (var item in config.test) {
+        if (config.test[item].code == code) {
+            league = config.test[item];
+            break;
+        }
+    }
+
+    league.logo = stringFormat('./{0}/images/{1}.png', league.code, 'logo');
+
+    return league;
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl
+    scrapeUrl: scrapeUrl,
+    getLeagueData: getLeagueData
 };

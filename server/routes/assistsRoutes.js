@@ -9,7 +9,8 @@ var router = express.Router();
 router.route('/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.assistsData, req.params.league), data => {
-            res.render('assists/assists', { data: data });
+            var league = helper.getLeagueData(req.params.league);
+            res.render('assists/assists', { league: league, data: data });
         });
     });
 
@@ -17,7 +18,8 @@ router.route('/:league')
 router.route('/mini/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.assistsData, req.params.league), data => {
-            res.render('assists/assistsMini', { data: [].concat(data.splice(0, 9)) });
+            var league = helper.getLeagueData(req.params.league);
+            res.render('assists/assistsMini', { league: league, data: [].concat(data.splice(0, 9)) });
         });
     });
 

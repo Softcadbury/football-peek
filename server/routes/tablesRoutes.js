@@ -9,10 +9,7 @@ var router = express.Router();
 router.route('/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
-            var league = {
-                name: 'Premier League',
-                logo: helper.stringFormat('./{0}/images/{1}.png', req.params.league, 'logo')
-            };
+            var league = helper.getLeagueData(req.params.league);
             res.render('tables/table', { league: league, data: data });
         });
     });
@@ -21,7 +18,8 @@ router.route('/:league')
 router.route('/mini/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
-            res.render('tables/tableMini', { data: [].concat(data.splice(0, 5), data.splice(-4, 4)) });
+            var league = helper.getLeagueData(req.params.league);
+            res.render('tables/tableMini', { league: league, data: [].concat(data.splice(0, 5), data.splice(-4, 4)) });
         });
     });
 
