@@ -24,7 +24,9 @@
 </head>
 <body>
     <div id="test">
-        <span data-bind="text: test"></span>
+        <div data-bind="foreach: components">
+            <span data-bind="text: league.name"></span>
+        </div>
     </div>
 	<div id="main">
         <div class="gridster"><div>

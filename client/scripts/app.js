@@ -35,10 +35,45 @@ $(document).ready(function() {
     }
 });
 
-function GridConfigurtionViewModel() {
-    var test = ko.observable('test');
+var leagues = {
+    bundesliga: {
+        code: 'bundesliga',
+        name: 'Bundesliga'
+    },
+    liga: {
+        code: 'liga',
+        name: 'Liga'
+    },
+    ligue1: {
+        code: 'ligue-1',
+        name: 'Ligue 1'
+    },
+    premierLeague: {
+        code: 'premier-league',
+        name: 'Premier League'
+    },
+    serieA: {
+        code: 'serie-a',
+        name: 'Serie A'
+    }
+}
+
+function GridConfigurtionViewModel() {    
+    var components = ko.observableArray();
+    
+    for (var item in leagues) {
+        components.push({
+            league: leagues[item],
+            displayTable: ko.observable(false),
+            displayTableMini: ko.observable(false),
+            displayScorers: ko.observable(false),
+            displayScorersMini: ko.observable(false),
+            displayAssists: ko.observable(false),
+            displayAssistsMini: ko.observable(false)
+        });
+    } 
 
     return {
-        test: test
+        components: components
     };
 }
