@@ -3,28 +3,40 @@
         "rank": "1",
         "team": "Paris-SG",
         "points": "77",
-        "played": "30",
+        "played": "31",
         "win": "24",
         "draw": "5",
-        "lost": "1",
+        "lost": "2",
         "goalsFor": "77",
-        "goalsAgainst": "15",
-        "goalDifference": "+62"
+        "goalsAgainst": "17",
+        "goalDifference": "+60"
     },
     {
         "rank": "2",
         "team": "Monaco",
-        "points": "52",
-        "played": "30",
-        "win": "13",
+        "points": "55",
+        "played": "31",
+        "win": "14",
         "draw": "13",
         "lost": "4",
-        "goalsFor": "44",
+        "goalsFor": "46",
         "goalsAgainst": "34",
-        "goalDifference": "+10"
+        "goalDifference": "+12"
     },
     {
         "rank": "3",
+        "team": "Nice",
+        "points": "50",
+        "played": "31",
+        "win": "14",
+        "draw": "8",
+        "lost": "9",
+        "goalsFor": "46",
+        "goalsAgainst": "33",
+        "goalDifference": "+13"
+    },
+    {
+        "rank": "4",
         "team": "Lyon",
         "points": "49",
         "played": "31",
@@ -36,7 +48,7 @@
         "goalDifference": "+16"
     },
     {
-        "rank": "4",
+        "rank": "5",
         "team": "Rennes",
         "points": "48",
         "played": "31",
@@ -46,18 +58,6 @@
         "goalsFor": "47",
         "goalsAgainst": "38",
         "goalDifference": "+9"
-    },
-    {
-        "rank": "5",
-        "team": "Nice",
-        "points": "47",
-        "played": "30",
-        "win": "13",
-        "draw": "8",
-        "lost": "9",
-        "goalsFor": "43",
-        "goalsAgainst": "33",
-        "goalDifference": "+10"
     },
     {
         "rank": "6",
@@ -193,18 +193,6 @@
     },
     {
         "rank": "17",
-        "team": "GFC Ajaccio",
-        "points": "33",
-        "played": "30",
-        "win": "7",
-        "draw": "12",
-        "lost": "11",
-        "goalsFor": "31",
-        "goalsAgainst": "40",
-        "goalDifference": "-9"
-    },
-    {
-        "rank": "18",
         "team": "Reims",
         "points": "33",
         "played": "31",
@@ -214,6 +202,18 @@
         "goalsFor": "34",
         "goalsAgainst": "44",
         "goalDifference": "-10"
+    },
+    {
+        "rank": "18",
+        "team": "GFC Ajaccio",
+        "points": "33",
+        "played": "31",
+        "win": "7",
+        "draw": "12",
+        "lost": "12",
+        "goalsFor": "31",
+        "goalsAgainst": "43",
+        "goalDifference": "-12"
     },
     {
         "rank": "19",
