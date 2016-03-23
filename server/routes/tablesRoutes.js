@@ -10,12 +10,7 @@ router.route('/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
-
-            for (var i = 0; i < data.length; i++) {
-                data[i].logo = helper.stringFormat(config.paths.imageData.replace('/data', ''), league.code, helper.stringSanitize(data[i].team));
-                console.log(data[i].logo);
-            }
-
+            helper.AddLogos(league, data);
             res.render('tables/table', { league: league, data: data });
         });
     });
@@ -25,6 +20,7 @@ router.route('/mini/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
+            helper.AddLogos(league);
             res.render('tables/tableMini', { league: league, data: [].concat(data.splice(0, 6), data.splice(-3, 3)) });
         });
     });

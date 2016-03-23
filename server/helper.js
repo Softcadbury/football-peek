@@ -74,9 +74,20 @@ function getLeagueData(code) {
         }
     }
 
-    league.logo = stringFormat(config.paths.imageData.replace('/data', ''), league.code, 'logo');
-
     return league;
+}
+
+// Add the logo for a league and its data (optional)
+function AddLogos(league, data) {
+    var imageDataPath = config.paths.imageData.replace('/data', '');
+
+    league.logo = stringFormat(imageDataPath, league.code, 'logo');
+
+    if (data) {
+        for (var i = 0; i < data.length; i++) {
+            data[i].logo = stringFormat(imageDataPath, league.code, stringSanitize(data[i].team));
+        }
+    }
 }
 
 module.exports = {
@@ -85,5 +96,6 @@ module.exports = {
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
     scrapeUrl: scrapeUrl,
-    getLeagueData: getLeagueData
+    getLeagueData: getLeagueData,
+    AddLogos: AddLogos
 };
