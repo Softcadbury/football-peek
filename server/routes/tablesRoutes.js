@@ -10,6 +10,12 @@ router.route('/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
+
+            for (var i = 0; i < data.length; i++) {
+                data[i].logo = helper.stringFormat(config.paths.imageData.replace('/data', ''), league.code, helper.stringSanitize(data[i].team));
+                console.log(data[i].logo);
+            }
+
             res.render('tables/table', { league: league, data: data });
         });
     });
