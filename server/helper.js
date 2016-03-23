@@ -1,6 +1,7 @@
 'use strict';
 
 var config = require('./config');
+var leagues = require('../common/leagues');
 
 // Sanitizes a string to be a filename
 function stringSanitize(str) {
@@ -66,9 +67,9 @@ function scrapeUrl(url, callback) {
 function getLeagueData(code) {
     var league = {};
 
-    for (var item in config.leagues) {
-        if (config.leagues[item].code == code) {
-            league = config.leagues[item];
+    for (var item in leagues) {
+        if (leagues[item].code == code) {
+            league = leagues[item];
             break;
         }
     }

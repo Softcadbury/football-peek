@@ -2,20 +2,21 @@
 
 var config = require('../config');
 var helper = require('../helper');
+var leagues = require('../../common/leagues');
 
 var assistsDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
-var leagues = [
-    { code: config.leagues.bundesliga.code, url: 'german-bundesliga/10' },
-    { code: config.leagues.liga.code, url: 'spanish-primera-division/15' },
-    { code: config.leagues.ligue1.code, url: 'french-ligue-1/9' },
-    { code: config.leagues.serieA.code, url: 'italian-serie-a/12' },
-    { code: config.leagues.premierLeague.code, url: 'barclays-premier-league/23' }
+var leaguesExtended = [
+    { code: leagues.bundesliga.code, url: 'german-bundesliga/10' },
+    { code: leagues.liga.code, url: 'spanish-primera-division/15' },
+    { code: leagues.ligue1.code, url: 'french-ligue-1/9' },
+    { code: leagues.serieA.code, url: 'italian-serie-a/12' },
+    { code: leagues.premierLeague.code, url: 'barclays-premier-league/23' }
 ];
 
 // Updates assists of current year
 function update() {
-    for (var i = 0; i < leagues.length; i++) {
-        updateData(leagues[i]);
+    for (var i = 0; i < leaguesExtended.length; i++) {
+        updateData(leaguesExtended[i]);
     }
 }
 

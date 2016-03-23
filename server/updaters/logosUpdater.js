@@ -2,22 +2,23 @@
 
 var config = require('../config');
 var helper = require('../helper');
+var leagues = require('../../common/leagues');
 var request = require('request');
 var fs = require('fs');
 
 var tableDataUrl = 'http://www.lequipe.fr/Football/{0}-classement.html';
-var leagues = [
-    { code: config.leagues.bundesliga.code, url: 'championnat-d-allemagne' },
-    { code: config.leagues.liga.code, url: 'championnat-d-espagne' },
-    { code: config.leagues.ligue1.code, url: 'ligue-1' },
-    { code: config.leagues.serieA.code, url: 'championnat-d-italie' },
-    { code: config.leagues.premierLeague.code, url: 'championnat-d-angleterre' }
+var leaguesExtended = [
+    { code: leagues.bundesliga.code, url: 'championnat-d-allemagne' },
+    { code: leagues.liga.code, url: 'championnat-d-espagne' },
+    { code: leagues.ligue1.code, url: 'ligue-1' },
+    { code: leagues.serieA.code, url: 'championnat-d-italie' },
+    { code: leagues.premierLeague.code, url: 'championnat-d-angleterre' }
 ];
 
 // Updates logos of current year
 function update() {
-    for (var i = 0; i < leagues.length; i++) {
-        updateLogos(leagues[i]);
+    for (var i = 0; i < leaguesExtended.length; i++) {
+        updateLogos(leaguesExtended[i]);
     }
 }
 
