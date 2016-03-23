@@ -27,8 +27,10 @@ gulp.task('check', () => {
 
 // Build the application
 gulp.task('build', () => {
+    var browserify = require('gulp-browserify');
     var uglify = require('gulp-uglify');
-    gulp.src(['./common/**/*.js', './client/scripts/**/*.js'])
+    gulp.src('client/scripts/app.js')
+        .pipe(browserify())
         .pipe(uglify())
         .pipe(gulp.dest('./build/js'));
 

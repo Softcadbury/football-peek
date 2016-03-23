@@ -68,7 +68,7 @@ function getLeagueData(code) {
     var league = {};
 
     for (var item in leagues) {
-        if (leagues[item].code == code) {
+        if (leagues[item].code === code) {
             league = leagues[item];
             break;
         }

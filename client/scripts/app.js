@@ -35,32 +35,11 @@ $(document).ready(function() {
     }
 });
 
-var leagues = {
-    bundesliga: {
-        code: 'bundesliga',
-        name: 'Bundesliga'
-    },
-    liga: {
-        code: 'liga',
-        name: 'Liga'
-    },
-    ligue1: {
-        code: 'ligue-1',
-        name: 'Ligue 1'
-    },
-    premierLeague: {
-        code: 'premier-league',
-        name: 'Premier League'
-    },
-    serieA: {
-        code: 'serie-a',
-        name: 'Serie A'
-    }
-}
+var leagues = require('../../common/leagues');
 
-function GridConfigurtionViewModel() {    
+function GridConfigurtionViewModel() {
     var components = ko.observableArray();
-    
+
     for (var item in leagues) {
         components.push({
             league: leagues[item],
@@ -71,7 +50,7 @@ function GridConfigurtionViewModel() {
             displayAssists: ko.observable(false),
             displayAssistsMini: ko.observable(false)
         });
-    } 
+    }
 
     return {
         components: components
