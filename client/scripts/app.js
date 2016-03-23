@@ -1,5 +1,9 @@
+'use strict';
+
+var GridConfigurationViewModel = require('./viewmodels/gridConfiguration.viewmodel');
+
 $(document).ready(function() {
-    ko.applyBindings(new GridConfigurtionViewModel(), document.getElementById('test'));
+    ko.applyBindings(new GridConfigurationViewModel(), document.getElementById('test'));
 
     var gridster = $('.gridster').gridster({
         widget_margins: [5, 5],
@@ -34,25 +38,3 @@ $(document).ready(function() {
         });
     }
 });
-
-var leagues = require('../../common/leagues');
-
-function GridConfigurtionViewModel() {
-    var components = ko.observableArray();
-
-    for (var item in leagues) {
-        components.push({
-            league: leagues[item],
-            displayTable: ko.observable(false),
-            displayTableMini: ko.observable(false),
-            displayScorers: ko.observable(false),
-            displayScorersMini: ko.observable(false),
-            displayAssists: ko.observable(false),
-            displayAssistsMini: ko.observable(false)
-        });
-    }
-
-    return {
-        components: components
-    };
-}
