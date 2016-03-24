@@ -25,7 +25,15 @@
 <body>
     <div id="test">
         <div data-bind="foreach: components">
-            <span data-bind="text: league.name"></span>
+            <div>
+                <span data-bind="text: league.name"></span>
+                <input type="checkbox" data-bind="checked: displayTable" /> displayTable
+                <input type="checkbox" data-bind="checked: displayTableMini" /> displayTableMini
+                <input type="checkbox" data-bind="checked: displayScorers" /> displayScorers
+                <input type="checkbox" data-bind="checked: displayScorersMini" /> displayScorersMini
+                <input type="checkbox" data-bind="checked: displayAssists" /> displayAssists
+                <input type="checkbox" data-bind="checked: displayAssistsMini" /> displayAssistsMini
+            </div>
         </div>
     </div>
 	<div id="main">
