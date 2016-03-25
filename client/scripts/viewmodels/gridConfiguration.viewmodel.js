@@ -22,23 +22,24 @@ function GridConfigurationViewModel() {
         };
 
         (function(league) {
-            component.displayTable.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/' + league.code, 4, 4); });
-            component.displayTableMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/mini/' + league.code, 2, 2); });
-            component.displayScorers.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/scorers/' + league.code, 3, 4); });
-            component.displayScorersMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/scorers/mini/' + league.code, 2, 2); });
-            component.displayAssists.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/assists/' + league.code, 3, 4); });
-            component.displayAssistsMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/assists/mini/' + league.code, 2, 2); });
+            var code = league.code;
+            component.displayTable.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/' + code, '#table-' + code, 4, 4); });
+            component.displayTableMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/mini/' + code, '#table-mini-' + code, 2, 2); });
+            component.displayScorers.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/scorers/' + code, '#scorers-' + code, 3, 4); });
+            component.displayScorersMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/scorers/mini/' + code, '#scorers-mini-' + code, 2, 2); });
+            component.displayAssists.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/assists/' + code, '#assists-' + code, 3, 4); });
+            component.displayAssistsMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/assists/mini/' + code, '#assists-mini-' + code, 2, 2); });
         })(leagues[item]);
 
         components.push(component);
     }
 
     // Manage the new value of the display
-    function manageNewDisplayValue(newValue, url, sizeX, sizeY) {
+    function manageNewDisplayValue(newValue, url, id, sizeX, sizeY) {
         if (newValue) {
             add(url, sizeX, sizeY);
         } else {
-            // todo remove component
+            gridster.remove_widget($(id));
         }
     }
 
