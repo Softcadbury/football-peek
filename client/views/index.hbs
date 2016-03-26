@@ -25,14 +25,14 @@
 <body>
     <div id="grid-configuration">
         <div data-bind="foreach: components">
-            <div>
+            <div class="grid-configuration-component">
                 <span data-bind="text: league.name"></span>
-                <input type="checkbox" data-bind="checked: displayTable" /> Table
-                <input type="checkbox" data-bind="checked: displayTableMini" /> Table mini
-                <input type="checkbox" data-bind="checked: displayScorers" /> Scorers
-                <input type="checkbox" data-bind="checked: displayScorersMini" /> Scorers mini
-                <input type="checkbox" data-bind="checked: displayAssists" /> Assists
-                <input type="checkbox" data-bind="checked: displayAssistsMini" /> Assists mini
+                <div data-bind="css: { selected: displayTable }, click: function(){ displayTable(!displayTable()); }">Table</div>
+                <div data-bind="css: { selected: displayTableMini }, click: function(){ displayTableMini(!displayTableMini()); }">Table mini</div>
+                <div data-bind="css: { selected: displayScorers }, click: function(){ displayScorers(!displayScorers()); }">Scorers</div>
+                <div data-bind="css: { selected: displayScorersMini }, click: function(){ displayScorersMini(!displayScorersMini()); }">Scorers mini</div>
+                <div data-bind="css: { selected: displayAssists }, click: function(){ displayAssists(!displayAssists()); }">Assists</div>
+                <div data-bind="css: { selected: displayAssistsMini }, click: function(){ displayAssistsMini(!displayAssistsMini()); }">Assists mini</div>
             </div>
         </div>
     </div>

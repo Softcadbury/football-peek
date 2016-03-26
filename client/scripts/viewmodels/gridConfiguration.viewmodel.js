@@ -21,15 +21,14 @@ function GridConfigurationViewModel() {
             displayAssistsMini: ko.observable(false)
         };
 
-        (function(league) {
-            var code = league.code;
+        (function(code) {
             component.displayTable.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/' + code, '#table-' + code, 4, 4); });
             component.displayTableMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/mini/' + code, '#table-mini-' + code, 2, 2); });
             component.displayScorers.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/scorers/' + code, '#scorers-' + code, 3, 4); });
             component.displayScorersMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/scorers/mini/' + code, '#scorers-mini-' + code, 2, 2); });
             component.displayAssists.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/assists/' + code, '#assists-' + code, 3, 4); });
             component.displayAssistsMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/assists/mini/' + code, '#assists-mini-' + code, 2, 2); });
-        })(leagues[item]);
+        })(leagues[item].code);
 
         components.push(component);
     }
