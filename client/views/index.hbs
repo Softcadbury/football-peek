@@ -23,9 +23,9 @@
     <!-- endinject -->
 </head>
 <body>
-    <div id="grid-configuration">
+    <div id="leagues-configuration">
         <div data-bind="foreach: components">
-            <div class="grid-configuration-component">
+            <div class="league-configuration">
                 <span data-bind="text: league.name"></span>
                 <div data-bind="css: { selected: displayTable }, click: function(){ displayTable(!displayTable()); }">Table</div>
                 <div data-bind="css: { selected: displayTableMini }, click: function(){ displayTableMini(!displayTableMini()); }">Table mini</div>
