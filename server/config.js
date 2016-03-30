@@ -8,6 +8,7 @@ function config() {
             tableData: './data/{0}/table.json',
             scorersData: './data/{0}/scorers.json',
             assistsData: './data/{0}/assists.json',
+            resultsData: './data/{0}/results.json',
             imageData: './data/{0}/images/{1}.png'
         }
     };
