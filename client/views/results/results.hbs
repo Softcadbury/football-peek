@@ -1,0 +1,28 @@
+<table class="table-data" id="results-{{league.code}}">
+    <tr>
+        <td colspan="10">
+            <div class="table-data-title">
+                <img src={{league.logo}} />
+                <h1>{{league.name}} results</h1>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th class="table-data-main" title="Home">Home</th>
+        <th title="Goals">Goals</th>
+        <th class="table-data-main" title="Away">Away</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td class="table-data-main">
+            <img src={{this.homeLogo}} onerror="this.style.display='none'" />
+            <span>{{this.homeName}}</span>
+        </td>
+        <td>{{this.goals}}</td>
+        <td class="table-data-main">
+            <img src={{this.awayLogo}} onerror="this.style.display='none'" />
+            <span>{{this.awayName}}</span>
+        </td>
+    </tr>
+    {{/each}}
+</table>
