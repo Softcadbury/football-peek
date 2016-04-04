@@ -20,6 +20,9 @@ function LeagueConfigurationViewModel(gridster, league) {
     var displayAssistsMini = ko.observable(false);
     displayAssistsMini.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/assists/mini/' + league.code, '#assists-mini-' + league.code, 2, 2); });
 
+    var displayResults = ko.observable(false);
+    displayResults.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/results/' + league.code, '#results-' + league.code, 3, 3); });
+
     // Manage the new value of the display property
     function manageNewDisplayValue(newValue, url, id, sizeX, sizeY) {
         if (newValue) {
@@ -47,7 +50,8 @@ function LeagueConfigurationViewModel(gridster, league) {
         displayScorers: displayScorers,
         displayScorersMini: displayScorersMini,
         displayAssists: displayAssists,
-        displayAssistsMini: displayAssistsMini
+        displayAssistsMini: displayAssistsMini,
+        displayResults: displayResults
     };
 }
 

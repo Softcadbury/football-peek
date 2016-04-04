@@ -31,3 +31,6 @@ app.use('/scorers', scorersRoutes);
 
 var assistsRoutes = require('./routes/assistsRoutes');
 app.use('/assists', assistsRoutes);
+
+var resultsRoutes = require('./routes/resultsRoutes');
+app.use('/results', resultsRoutes);

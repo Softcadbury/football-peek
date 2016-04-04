@@ -7,21 +7,20 @@
             </div>
         </td>
     </tr>
-    <tr>
+    <tr><th title="Date">Date</th>
         <th class="table-data-main" title="Home">Home</th>
-        <th title="Goals">Goals</th>
+        <th title="Score">Score</th>
         <th class="table-data-main" title="Away">Away</th>
     </tr>
     {{#each data}}
     <tr>
+        <td>{{this.date}}</td>
         <td class="table-data-main">
-            <img src={{this.homeLogo}} onerror="this.style.display='none'" />
-            <span>{{this.homeName}}</span>
+            <span>{{this.homeTeam}}</span>
         </td>
-        <td>{{this.goals}}</td>
+        <td>{{this.score}}</td>
         <td class="table-data-main">
-            <img src={{this.awayLogo}} onerror="this.style.display='none'" />
-            <span>{{this.awayName}}</span>
+            <span>{{this.awayTeam}}</span>
         </td>
     </tr>
     {{/each}}
