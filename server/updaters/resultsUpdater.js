@@ -4,13 +4,13 @@ var config = require('../config');
 var helper = require('../helper');
 var leagues = require('../../common/leagues');
 
-var resultsDataUrl = 'http://www.lequipe.fr/Football/{0}.html';
+var resultsDataUrl = 'http://www.flashscores.co.uk/football/{0}/';
 var leaguesExtended = [
-    { code: leagues.bundesliga.code, url: 'championnat-d-allemagne-resultats' },
-    { code: leagues.liga.code, url: 'championnat-d-espagne-resultats' },
-    { code: leagues.ligue1.code, url: 'ligue-1-resultats' },
-    { code: leagues.serieA.code, url: 'championnat-d-italie-resultats' },
-    { code: leagues.premierLeague.code, url: 'championnat-d-angleterre-resultats' }
+    { code: leagues.bundesliga.code, url: 'germany/bundesliga' },
+    { code: leagues.liga.code, url: 'spain/primera-division' },
+    { code: leagues.ligue1.code, url: 'france/ligue-1' },
+    { code: leagues.serieA.code, url: 'italy/serie-a' },
+    { code: leagues.premierLeague.code, url: 'england/premier-league' }
 ];
 
 // Updates results of current year
@@ -25,8 +25,12 @@ function updateData(league) {
     helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url), function($) {
         var results = [];
 
-        $('#CONT > div > h2 ').each((index, elem) => {
+        $('#fs-summary-results > table > tr.stage-finished').each((index, elem) => {
+            console.log('------------------------------------------------');
+            console.log('------------------------------------------------');
+            console.log('------------------------------------------------');
             console.log($(elem).html());
+
             // results.push({
             //     rank: $(elem).find('td[headers=rank]').text() || '-',
             //     name: $(elem).find('td[headers=player]').text(),
@@ -35,7 +39,7 @@ function updateData(league) {
             // });
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
+        //helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
     });
 }
 
