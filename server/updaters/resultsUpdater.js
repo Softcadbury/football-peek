@@ -4,13 +4,13 @@ var config = require('../config');
 var helper = require('../helper');
 var leagues = require('../../common/leagues');
 
-var resultsDataUrl = 'http://www.flashscores.co.uk/football/{0}/';
+var resultsDataUrl = 'http://www.football.fr/football/{0}/resultats.html';
 var leaguesExtended = [
-    { code: leagues.bundesliga.code, url: 'germany/bundesliga' },
-    { code: leagues.liga.code, url: 'spain/primera-division' },
-    { code: leagues.ligue1.code, url: 'france/ligue-1' },
-    { code: leagues.serieA.code, url: 'italy/serie-a' },
-    { code: leagues.premierLeague.code, url: 'england/premier-league' }
+    { code: leagues.bundesliga.code, url: 'allemagne' },
+    { code: leagues.liga.code, url: 'espagne' },
+    { code: leagues.ligue1.code, url: 'ligue-1' },
+    { code: leagues.serieA.code, url: 'italie' },
+    { code: leagues.premierLeague.code, url: 'angleterre' }
 ];
 
 // Updates results of current year
@@ -24,22 +24,22 @@ function update() {
 function updateData(league) {
     helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url), function($) {
         var results = [];
+        var currentDate;
 
-        $('#fs-summary-results > table > tr.stage-finished').each((index, elem) => {
-            console.log('------------------------------------------------');
-            console.log('------------------------------------------------');
-            console.log('------------------------------------------------');
-            console.log($(elem).html());
-
-            // results.push({
-            //     rank: $(elem).find('td[headers=rank]').text() || '-',
-            //     name: $(elem).find('td[headers=player]').text(),
-            //     team: $(elem).find('td[headers=team]').text(),
-            //     goals: $(elem).find('td[headers=goals]').text()
-            // });
+        $('.results tr').each((index, elem) => {
+            if ($(elem).hasClass('white')) {
+                currentDate = $(elem).find('td').text();
+            } else if (!$(elem).hasClass('hidden')) {
+                results.push({
+                    date: currentDate,
+                    homeTeam: $(elem).find('.team1 .name').text(),
+                    awayTeam: $(elem).find('.team2 .name').text(),
+                    score: $(elem).find('.score a').text()
+                });
+            }
         });
 
-        //helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
     });
 }
 
