@@ -7,6 +7,7 @@ gulp.task('update', () => {
     require('./server/updaters/tablesUpdater').update();
     require('./server/updaters/scorersUpdater').update();
     require('./server/updaters/assistsUpdater').update();
+    require('./server/updaters/resultsUpdater').update();
 });
 
 // Updates logos
