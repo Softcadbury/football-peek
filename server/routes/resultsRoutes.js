@@ -10,6 +10,7 @@ router.route('/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.resultsData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
+            helper.AddLogos(league);
             res.render('results/results', { league: league, data: data });
         });
     });
