@@ -3,7 +3,7 @@
 var leagues = require('../../../common/leagues');
 var LeagueConfigurationViewModel = require('./leagueConfiguration.viewmodel');
 
-// Viewmodel used to configure components of leagues
+// View model used to configure components of leagues
 function LeaguesConfigurationViewModel() {
     var components = ko.observableArray();
 
