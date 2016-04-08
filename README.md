@@ -13,4 +13,4 @@ Data from http://www.lequipe.fr/
 Data from http://www.espnfc.com/
 
 ### Results
-Data from http:/www.football.fr
+Data from http://www.football.fr
