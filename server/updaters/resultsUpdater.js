@@ -46,7 +46,8 @@ function updateData(league) {
 // Convert a french date to a nomalized date "samedi 02 avril 2016" => "02/04/2016"
 function convertDate(date) {
     var parts = date.split(' ');
-    var frenchMonths = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+    var frenchMonths = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
+                        'août', 'septembre', 'octobre', 'novembre', 'décembre'];
     var indexOfMonth = frenchMonths.indexOf(parts[2]) + 1;
 
     return parts[1] + '/' + indexOfMonth + '/' + parts[3];

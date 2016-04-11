@@ -11,7 +11,7 @@ router.route('/:league')
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
             helper.AddLogos(league, data);
-            res.render('tables/table', { league: league, data: data });
+            res.render('components/tables/table', { league: league, data: data });
         });
     });
 
@@ -21,7 +21,7 @@ router.route('/mini/:league')
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
             helper.AddLogos(league);
-            res.render('tables/tableMini', { league: league, data: [].concat(data.splice(0, 6), data.splice(-3, 3)) });
+            res.render('components/tables/tableMini', { league: league, data: [].concat(data.splice(0, 6), data.splice(-3, 3)) });
         });
     });
 

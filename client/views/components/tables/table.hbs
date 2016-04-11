@@ -1,7 +1,7 @@
-<table class="table-data" id="table-{{league.code}}">
+<table class="component" id="table-{{league.code}}">
     <tr>
         <td colspan="10">
-            <div class="table-data-title">
+            <div class="component-title">
                 <img src={{league.logo}} />
                 <h1>{{league.name}} table</h1>
             </div>
@@ -9,7 +9,7 @@
     </tr>
     <tr>
         <th title="Position">#</th>
-        <th class="table-data-main" title="Team">Team</th>
+        <th class="component-main-column" title="Team">Team</th>
         <th title="Points">Pts</th>
         <th title="Matches played">Pld</th>
         <th title="Matches won">W</th>
@@ -22,7 +22,7 @@
     {{#each data}}
     <tr>
         <td>{{this.rank}}</td>
-        <td class="table-data-main">
+        <td class="component-main-column">
             <img src={{this.logo}} onerror="this.style.display='none'" />
             <span>{{this.team}}</span>
         </td>

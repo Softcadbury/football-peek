@@ -1,7 +1,7 @@
 'use strict';
 
-var LeaguesConfigurationViewModel = require('./viewmodels/leaguesConfiguration.viewmodel');
+var ConfigurationViewModel = require('./viewmodels/configuration.viewmodel');
 
 $(document).ready(function() {
-    ko.applyBindings(new LeaguesConfigurationViewModel(), document.getElementById('leagues-configuration'));
+    ko.applyBindings(new ConfigurationViewModel(), document.getElementById('configuration'));
 });

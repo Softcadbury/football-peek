@@ -11,7 +11,7 @@ router.route('/:league')
         helper.readJsonFile(helper.stringFormat(config.paths.assistsData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
             helper.AddLogos(league, data);
-            res.render('assists/assists', { league: league, data: data });
+            res.render('components/assists/assists', { league: league, data: data });
         });
     });
 
@@ -21,7 +21,7 @@ router.route('/mini/:league')
         helper.readJsonFile(helper.stringFormat(config.paths.assistsData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
             helper.AddLogos(league);
-            res.render('assists/assistsMini', { league: league, data: [].concat(data.splice(0, 9)) });
+            res.render('components/assists/assistsMini', { league: league, data: [].concat(data.splice(0, 9)) });
         });
     });
 

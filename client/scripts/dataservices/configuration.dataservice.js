@@ -1,7 +1,7 @@
 'use strict';
 
 // Data service used to configure components of leagues
-function LeaguesConfigurationDataService() {
+function configurationDataService() {
     function getConfiguration() {
         return JSON.parse(ko.toJSON(localStorage.configuration));
     }
@@ -16,4 +16,4 @@ function LeaguesConfigurationDataService() {
     };
 }
 
-module.exports = LeaguesConfigurationDataService;
+module.exports = configurationDataService;

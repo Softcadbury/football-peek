@@ -1,10 +1,10 @@
 'use strict';
 
 var leagues = require('../../../common/leagues');
-var LeagueConfigurationViewModel = require('./leagueConfiguration.viewmodel');
+var ConfigurationLeagueViewModel = require('./configurationLeague.viewmodel');
 
 // View model used to configure components of leagues
-function LeaguesConfigurationViewModel() {
+function ConfigurationViewModel() {
     var components = ko.observableArray();
 
     var gridster = $('.gridster').gridster({
@@ -13,7 +13,7 @@ function LeaguesConfigurationViewModel() {
     }).data('gridster');
 
     for (var item in leagues) {
-        var component = new LeagueConfigurationViewModel(gridster, leagues[item]);
+        var component = new ConfigurationLeagueViewModel(gridster, leagues[item]);
         components.push(component);
     }
 
@@ -22,4 +22,4 @@ function LeaguesConfigurationViewModel() {
     };
 }
 
-module.exports = LeaguesConfigurationViewModel;
+module.exports = ConfigurationViewModel;

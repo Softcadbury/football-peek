@@ -1,7 +1,7 @@
 'use strict';
 
 // View model used to configure components of a specified league
-function LeagueConfigurationViewModel(gridster, league) {
+function ConfigurationLeagueViewModel(gridster, league) {
     var displayTable = ko.observable(false);
     displayTable.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/', '#table-', 4, 4); });
 
@@ -55,4 +55,4 @@ function LeagueConfigurationViewModel(gridster, league) {
     };
 }
 
-module.exports = LeagueConfigurationViewModel;
+module.exports = ConfigurationLeagueViewModel;

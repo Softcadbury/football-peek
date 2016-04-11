@@ -17,15 +17,16 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.css">
     <!-- inject:css -->
-    <link rel="stylesheet" href="/css/gridster.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/configuration.css">
+    <link rel="stylesheet" href="/css/content.css">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/table.css">
     <!-- endinject -->
 </head>
 <body>
-    <div id="leagues-configuration">
+    <div id="configuration">
         <div data-bind="foreach: components">
-            <div class="league-configuration">
+            <div class="configuration-league">
                 <span data-bind="text: league.name"></span>
                 <div data-bind="css: { selected: displayTable }, click: function(){ displayTable(!displayTable()); }">Table</div>
                 <div data-bind="css: { selected: displayTableMini }, click: function(){ displayTableMini(!displayTableMini()); }">Table mini</div>
@@ -37,7 +38,7 @@
             </div>
         </div>
     </div>
-	<div id="main">
+	<div id="content">
         <div class="gridster"></div>
     </div>
 </body>
