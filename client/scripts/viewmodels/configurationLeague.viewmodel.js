@@ -1,7 +1,7 @@
 'use strict';
 
 // View model used to configure components of a specified league
-function ConfigurationLeagueViewModel(gridster, league) {
+function ConfigurationLeagueViewModel($grid, league) {
     var displayTable = ko.observable(false);
     displayTable.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/', '#table-', 4, 4); });
 
@@ -28,7 +28,7 @@ function ConfigurationLeagueViewModel(gridster, league) {
         if (newValue) {
             add(url + league.code, sizeX, sizeY);
         } else {
-            gridster.remove_widget($(id + league.code));
+            $grid.packery('remove', $(id + league.code).parent());
         }
     }
 
@@ -38,7 +38,11 @@ function ConfigurationLeagueViewModel(gridster, league) {
             type: 'GET',
             url: url,
             success: function(data) {
-                gridster.add_widget.apply(gridster, [data, sizeX, sizeY]);
+                var $item = $('<div class="grid-item">' + data + '</div>');
+                $grid.append($item).packery('appended', $item);
+
+                var $items = $grid.find('.grid-item').draggable();
+                $grid.packery('bindUIDraggableEvents', $items);
             }
         });
     }

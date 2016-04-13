@@ -7,13 +7,15 @@ var ConfigurationLeagueViewModel = require('./configurationLeague.viewmodel');
 function ConfigurationViewModel() {
     var components = ko.observableArray();
 
-    var gridster = $('.gridster').gridster({
-        widget_margins: [5, 5],
-        widget_base_dimensions: [100, 100]
-    }).data('gridster');
+    var $grid = $('.grid').packery({
+        itemSelector: '.grid-item',
+        gutter: 10,
+        columnWidth: 200,
+        rawHeight: 200
+    });
 
     for (var item in leagues) {
-        var component = new ConfigurationLeagueViewModel(gridster, leagues[item]);
+        var component = new ConfigurationLeagueViewModel($grid, leagues[item]);
         components.push(component);
     }
 
