@@ -28,7 +28,7 @@ function ConfigurationLeagueViewModel($grid, league) {
         if (newValue) {
             add(url + league.code, sizeX, sizeY);
         } else {
-            $grid.packery('remove', $(id + league.code).parent());
+            $grid.packery('remove', $(id + league.code));
         }
     }
 
@@ -38,11 +38,9 @@ function ConfigurationLeagueViewModel($grid, league) {
             type: 'GET',
             url: url,
             success: function(data) {
-                var $item = $('<div class="grid-item">' + data + '</div>');
+                var $item = $(data);
                 $grid.append($item).packery('appended', $item);
-
-                var $items = $grid.find('.grid-item').draggable();
-                $grid.packery('bindUIDraggableEvents', $items);
+                $grid.packery('bindUIDraggableEvents', $item.draggable());
             }
         });
     }

@@ -1,8 +1,21 @@
 .component {
+    background-color: #DDD;
     border: 1px solid #CCC;
     border-collapse: collapse;
     border-radius: 4px;
     font-size: 13px !important;
+    float: left;
+
+    &:hover {
+        border-color: hsla(0, 0%, 100%, 0.5);
+        cursor: move;
+    }
+
+    &.ui-draggable-dragging,
+    &.is-positioning-post-drag {
+        border-color: #C90;
+        z-index: 2;
+    }
 
     th, td {
         border-collapse: collapse;

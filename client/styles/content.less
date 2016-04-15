@@ -1,41 +1,5 @@
 #content {
-    .grid {
-        background: #DDD;
-        max-width: 1200px;
-
-        &:after {
-            content: '';
-            display: block;
-            clear: both;
-        }
-    }
-
-    .grid-item {
-        float: left;
-        width: 200px;
-        height: 200px;
-        background: #C09;
-        border: 2px solid hsla(0, 0%, 0%, 0.5);
-
-        &:hover {
-            border-color: hsla(0, 0%, 100%, 0.5);
-            cursor: move;
-        }
-
-        &.ui-draggable-dragging,
-        &.is-positioning-post-drag {
-            background: #C90;
-            z-index: 2;
-        }
-    }
-
-    .grid-item-width2 {
-        width: 300px;
-    }
-
-    .grid-item-height2 {
-        height: 300px;
-    }
+    margin: 10px 20px;
 
     .packery-drop-placeholder {
         outline: 3px dashed hsla(0, 0%, 0%, 0.5);
