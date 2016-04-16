@@ -1,7 +1,9 @@
 'use strict';
 
+var gridHelper = require('../helpers/grid.helper');
+
 // View model used to configure components of a specified league
-function ConfigurationLeagueViewModel($grid, league) {
+function ConfigurationLeagueViewModel(league) {
     var displayTable = ko.observable(false);
     displayTable.subscribe(function(newValue) { manageNewDisplayValue(newValue, '/tables/', '#table-', 4, 4); });
 
@@ -25,24 +27,15 @@ function ConfigurationLeagueViewModel($grid, league) {
 
     // Manage the new value of the display property
     function manageNewDisplayValue(newValue, url, id, sizeX, sizeY) {
-        if (newValue) {
-            add(url + league.code, sizeX, sizeY);
+        if (newValue) {            
+            $.ajax({
+                type: 'GET',
+                url: (url + league.code),
+                success: gridHelper.addComponent
+            });
         } else {
-            $grid.packery('remove', $(id + league.code));
+            gridHelper.removeComponent(id + league.code);
         }
-    }
-
-    // Add a component in the grid
-    function add(url, sizeX, sizeY) {
-        $.ajax({
-            type: 'GET',
-            url: url,
-            success: function(data) {
-                var $item = $(data);
-                $grid.append($item).packery('appended', $item);
-                $grid.packery('bindUIDraggableEvents', $item.draggable());
-            }
-        });
     }
 
     return {
