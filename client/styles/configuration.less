@@ -1,9 +1,13 @@
 #configuration {
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
     display: none;
-    margin: 8px;
+    padding: 10px 15px;
 
     .configuration-league {
-        padding-bottom: 5px;
+        &:not(:last-child) {
+            padding-bottom: 5px;            
+        }
 
         span {
             display: inline-block;
@@ -20,10 +24,11 @@
             padding: 10px 2px;
             text-align: center;
             vertical-align: top;
-            width: 80px;
+            width: 85px;
 
             &.selected {
-                background-color: #609B34;
+                background-color: #004756;
+                color: white;
             }
         }
     }
