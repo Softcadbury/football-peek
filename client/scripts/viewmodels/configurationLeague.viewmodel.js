@@ -1,6 +1,7 @@
 'use strict';
 
 var gridHelper = require('../helpers/grid.helper');
+var configurationDataService = require('../dataservices/configuration.dataservice');
 
 // View model used to configure components of a specified league
 function ConfigurationLeagueViewModel(league) {
@@ -28,12 +29,14 @@ function ConfigurationLeagueViewModel(league) {
     // Manage the new value of the display property
     function manageNewDisplayValue(newValue, url, id) {
         if (newValue) {
+            configurationDataService.addComponent(url, id);
             $.ajax({
                 type: 'GET',
                 url: (url + league.code),
                 success: gridHelper.addComponent
             });
         } else {
+            configurationDataService.removeComponents(url, id);
             gridHelper.removeComponent(id + league.code);
         }
     }
