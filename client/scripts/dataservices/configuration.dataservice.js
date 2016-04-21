@@ -6,17 +6,17 @@ function getComponents() {
 }
 
 // Adds a component
-function addComponent(url, id) {
+function addComponent(url) {
     var components = getComponents() || [];
-    components.push({ url: url, id: id });
+    components.push({ url: url });
     localStorage.setItem('components', JSON.stringify(components));
 }
 
 // Removes a component
-function removeComponents(url, id) {
+function removeComponents(url) {
     var components = getComponents() || [];
     components = components.filter(function (component) {
-        return component.url !== url && component.id !== url;
+        return component.url !== url;
     });
     localStorage.setItem('components', JSON.stringify(components));
 }
