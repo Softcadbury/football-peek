@@ -9,6 +9,19 @@ function ConfigurationComponentViewModel(league, name, url, id) {
     var urlFull = url + league.code;
     var idFull = id + league.code;
 
+    checkComponentDisplay();
+
+    // Display the component if saved in the dataservice
+    function checkComponentDisplay() {
+        var isComponentDisplay = configurationDataService.getComponents().some(function (component) {
+            return component.url === urlFull;
+        });
+
+        if (isComponentDisplay) {
+            toggleDisplayValue();
+        }
+    }
+
     // Toglle the display property of the component
     function toggleDisplayValue() {
         isDisplayed(!isDisplayed());
