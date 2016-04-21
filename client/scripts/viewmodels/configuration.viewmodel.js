@@ -5,15 +5,15 @@ var ConfigurationLeagueViewModel = require('./configurationLeague.viewmodel');
 
 // View model used to configure components of leagues
 function ConfigurationViewModel() {
-    var components = ko.observableArray();
+    var configurationLeagues = ko.observableArray();
 
     for (var item in leagues) {
-        var component = new ConfigurationLeagueViewModel(leagues[item]);
-        components.push(component);
+        var configurationLeague = new ConfigurationLeagueViewModel(leagues[item]);
+        configurationLeagues.push(configurationLeague);
     }
 
     return {
-        components: components
+        configurationLeagues: configurationLeagues
     };
 }
 

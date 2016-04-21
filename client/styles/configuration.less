@@ -9,26 +9,31 @@
             padding-bottom: 5px;            
         }
 
-        span {
+        .configuration-league-name {
             display: inline-block;
             padding-top: 10px;
             width: 110px;
         }
-
-        div {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 4px;
-            cursor: pointer;
+        
+        .configuration-components {
             display: inline-block;
-            padding: 10px 2px;
-            text-align: center;
             vertical-align: top;
-            width: 85px;
+            
+            div {
+                background-color: white;
+                border: 1px solid black;
+                border-radius: 4px;
+                cursor: pointer;
+                display: inline-block;
+                padding: 10px 2px;
+                text-align: center;
+                vertical-align: top;
+                width: 85px;
 
-            &.selected {
-                background-color: #004756;
-                color: white;
+                &.selected {
+                    background-color: #004756;
+                    color: white;
+                }
             }
         }
     }

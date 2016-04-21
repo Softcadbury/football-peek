@@ -29,16 +29,14 @@
         <div class="menu-item" data-bind="click: toggleConfigurationVisibility">Configuration</div>
     </div>
     <div id="configuration">
-        <div data-bind="foreach: components">
+        <div data-bind="foreach: configurationLeagues">
             <div class="configuration-league">
-                <span data-bind="text: league.name"></span>
-                <div data-bind="css: { selected: displayTable }, click: function(){ displayTable(!displayTable()); }">Table</div>
-                <div data-bind="css: { selected: displayTableMini }, click: function(){ displayTableMini(!displayTableMini()); }">Table mini</div>
-                <div data-bind="css: { selected: displayScorers }, click: function(){ displayScorers(!displayScorers()); }">Scorers</div>
-                <div data-bind="css: { selected: displayScorersMini }, click: function(){ displayScorersMini(!displayScorersMini()); }">Scorers mini</div>
-                <div data-bind="css: { selected: displayAssists }, click: function(){ displayAssists(!displayAssists()); }">Assists</div>
-                <div data-bind="css: { selected: displayAssistsMini }, click: function(){ displayAssistsMini(!displayAssistsMini()); }">Assists mini</div>
-                <div data-bind="css: { selected: displayResults }, click: function(){ displayResults(!displayResults()); }">Results</div>
+                <span class="configuration-league-name" data-bind="text: league.name"></span>
+                <div class="configuration-components" data-bind="foreach: configurationComponents">
+                    <div data-bind="css: { selected: isDisplayed }, click: toggleDisplayValue">
+                        <span data-bind="text: name"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
