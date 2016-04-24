@@ -26,7 +26,9 @@
 </head>
 <body>
     <div id="menu">
-        <div class="menu-item" data-bind="click: toggleConfigurationVisibility">Configuration</div>
+        <div class="menu-item" data-bind="click: toggleConfigurationVisibility, css: { 'menu-item-open': isConfigurationToggled}">
+            Configuration
+        </div>
     </div>
     <div id="configuration">
         <div data-bind="foreach: configurationLeagues">
