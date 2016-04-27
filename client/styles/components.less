@@ -3,31 +3,30 @@
     border: 1px solid #CCC;
     border-collapse: collapse;
     border-radius: 4px;
+    cursor: move;
     font-size: 13px !important;
     float: left;
 
-    &:hover {
-        border-color: hsla(0, 0%, 100%, 0.5);
-        cursor: move;
-    }
-
-    &.ui-draggable-dragging,
-    &.is-positioning-post-drag {
-        border-color: #C90;
+    &.ui-draggable-dragging {
         z-index: 2;
     }
 
-    th, td {
-        border-collapse: collapse;
-        text-align: center;
+    &.component-big {
+        height: 460px;
+        margin: 6px;
+        width: 460px;
     }
 
-    td {
-        min-width: 26px;
+    &.component-large {
+        height: 230px;
+        margin: 3px 6px;
+        width: 460px;
     }
-    
-    tr:nth-child(even) {
-        background: #ebebeb;
+
+    &.component-mini {
+        height: 230px;
+        margin: 3px;
+        width: 230px;
     }
 
     .component-title {
@@ -43,6 +42,19 @@
         }
     }
 
+    tr:nth-child(even) {
+        background: #ebebeb;
+    }
+
+    th, td {
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    td {
+        min-width: 26px;
+    }
+
     .component-main-column {
         text-align: left;
 
@@ -53,7 +65,7 @@
         span {
             text-overflow: ellipsis;
             white-space: nowrap;
-            max-width: 105px;
+            max-width: 130px;
             display: inline-block;
             overflow: hidden;
         }

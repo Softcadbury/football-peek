@@ -6,8 +6,8 @@ var $grid;
 function initializeGrid() {
     $grid = $('#content').packery({
         itemSelector: '.component',
-        columnWidth: 1,
-        rowHeight: 1
+        columnWidth: 236,
+        rowHeight: 236
     });
 }
 
