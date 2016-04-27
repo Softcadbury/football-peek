@@ -77,16 +77,12 @@ function getLeagueData(code) {
     return league;
 }
 
-// Add the logo for a league and its data (optional)
+// Add logos for the data of a league
 function AddLogos(league, data) {
-    var imageDataPath = config.paths.imageData.replace('/data', '');
+    var imageDataPath = league.logo.replace('logo', '{0}');
 
-    league.logo = stringFormat(imageDataPath, league.code, 'logo');
-
-    if (data) {
-        for (var i = 0; i < data.length; i++) {
-            data[i].logo = stringFormat(imageDataPath, league.code, stringSanitize(data[i].team));
-        }
+    for (var i = 0; i < data.length; i++) {
+        data[i].logo = stringFormat(imageDataPath, stringSanitize(data[i].team));
     }
 }
 

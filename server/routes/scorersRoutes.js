@@ -20,7 +20,6 @@ router.route('/mini/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.scorersData, req.params.league), data => {
             var league = helper.getLeagueData(req.params.league);
-            helper.AddLogos(league);
             res.render('components/scorers/scorersMini', { league: league, data: [].concat(data.splice(0, 9)) });
         });
     });

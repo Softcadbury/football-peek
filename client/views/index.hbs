@@ -33,7 +33,7 @@
     <div id="configuration">
         <div data-bind="foreach: configurationLeagues">
             <div class="configuration-league">
-                <img class="configuration-league-logo" data-bind="attr: { src: './' + league.code + '/images/logo.png' }" />
+                <img class="configuration-league-logo" data-bind="attr: { src: league.logo }" />
                 <span class="configuration-league-name" data-bind="text: league.name"></span>
                 <div class="configuration-components" data-bind="foreach: configurationComponents">
                     <div data-bind="css: { selected: isDisplayed }, click: toggleDisplayValue">
