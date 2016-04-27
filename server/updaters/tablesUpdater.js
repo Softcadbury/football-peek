@@ -2,7 +2,7 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var leagues = require('../../common/leagues');
+var leagues = require('../../data/leagues');
 
 var tableDataUrl = 'http://www.lequipe.fr/Football/{0}-classement.html';
 var leaguesExtended = [

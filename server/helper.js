@@ -1,7 +1,7 @@
 'use strict';
 
 var config = require('./config');
-var leagues = require('../common/leagues');
+var leagues = require('../data/leagues');
 
 // Sanitizes a string to be a filename
 function stringSanitize(str) {

@@ -1,6 +1,6 @@
 'use strict';
 
-var leagues = require('../../../common/leagues');
+var leagues = require('../../../data/leagues');
 var ConfigurationLeagueViewModel = require('./configurationLeague.viewmodel');
 
 // View model used to configure components of leagues

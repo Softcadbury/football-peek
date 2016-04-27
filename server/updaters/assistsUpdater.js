@@ -2,7 +2,7 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var leagues = require('../../common/leagues');
+var leagues = require('../../data/leagues');
 
 var assistsDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
 var leaguesExtended = [
