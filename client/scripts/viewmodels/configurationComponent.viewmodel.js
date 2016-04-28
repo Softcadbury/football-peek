@@ -1,7 +1,7 @@
 'use strict';
 
-var configurationDataService = require('../dataservices/configuration.dataservice');
 var gridHelper = require('../helpers/grid.helper');
+var configurationDataService = require('../dataservices/configuration.dataservice');
 
 // View model used to configure a component
 function ConfigurationComponentViewModel(league, name, url, id) {

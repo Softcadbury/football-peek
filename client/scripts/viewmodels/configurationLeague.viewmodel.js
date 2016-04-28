@@ -1,6 +1,5 @@
 'use strict';
 
-var gridHelper = require('../helpers/grid.helper');
 var configurationDataService = require('../dataservices/configuration.dataservice');
 var ConfigurationComponentViewModel = require('./configurationComponent.viewmodel');
 
