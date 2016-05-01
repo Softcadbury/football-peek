@@ -1,18 +1,17 @@
 'use strict';
 
+var leagues = require('../../../data/leagues');
+
 // View model used for the menu
 function MenuViewModel() {
-    var isConfigurationToggled = ko.observable(false);
+    var items = ko.observableArray();
 
-    // Toggle the visibility of the configuration
-    function toggleConfigurationVisibility() {
-        isConfigurationToggled(!isConfigurationToggled());
-        $('#configuration').toggle();
+    for (var item in leagues) {
+        items.push(leagues[item]);
     }
 
     return {
-        isConfigurationToggled: isConfigurationToggled,
-        toggleConfigurationVisibility: toggleConfigurationVisibility
+        items: items
     };
 }
 

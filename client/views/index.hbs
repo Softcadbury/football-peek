@@ -26,8 +26,14 @@
 </head>
 <body>
     <div id="menu">
-        <div class="menu-item" data-bind="click: toggleConfigurationVisibility, css: { 'menu-item-open': isConfigurationToggled}">
+        <!--<div class="menu-item" data-bind="click: toggleConfigurationVisibility, css: { 'menu-item-open': isConfigurationToggled}">
             Configuration
+        </div>-->
+        <div data-bind="foreach: items">
+            <div class="menu-item">
+                <img class="configuration-league-logo" data-bind="attr: { src: logo }" />
+                <span class="configuration-league-name" data-bind="text: name"></span>
+            </div>
         </div>
     </div>
     <div id="configuration">
