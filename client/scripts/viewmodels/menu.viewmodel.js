@@ -8,7 +8,7 @@ function MenuViewModel() {
     var items = ko.observableArray();
 
     for (var item in leagues) {        
-        var menuLeague = new MenuLeagueViewModel(leagues[item]);
+        var menuLeague = new MenuLeagueViewModel(leagues[item], items);
         items.push(menuLeague);
     }
 

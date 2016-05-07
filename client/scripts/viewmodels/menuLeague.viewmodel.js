@@ -3,24 +3,27 @@
 var componentDataService = require('../dataservices/component.dataservice');
 
 // View model used to manage components of a specified league
-function ConfigurationLeagueViewModel(league) {
+function ConfigurationLeagueViewModel(league, items) {
     var isSelected = ko.observable(false);
     
-    function select(){
+    function select() {
+        items().forEach(function(item){ item.isSelected(false); });
+        isSelected(true);
+        
         componentDataService.getLeagueResults(league.code).done(function(data){
-            $('#content-results').append(data);
+            $('#content-results').html(data);
         });
         
         componentDataService.getLeagueTable(league.code).done(function(data){
-            $('#content-table').append(data);
+            $('#content-table').html(data);
         });
         
         componentDataService.getLeagueScorers(league.code).done(function(data){
-            $('#content-scorers').append(data);
+            $('#content-scorers').html(data);
         });
         
         componentDataService.getLeagueAssists(league.code).done(function(data){
-            $('#content-assists').append(data);
+            $('#content-assists').html(data);
         });
     }
     
