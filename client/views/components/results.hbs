@@ -1,9 +1,8 @@
-<table class="component component-large" id="results-{{league.code}}">
+<table class="component component-large">
     <tr>
         <td colspan="10">
             <div class="component-title">
-                <img src={{league.logo}} />
-                <h1>{{league.name}} results</h1>
+                <h1>Results</h1>
             </div>
         </td>
     </tr>
@@ -16,11 +15,13 @@
     <tr>
         <td>{{this.date}}</td>
         <td class="component-main-column component-right-column">
+            <img src={{this.logo}} onerror="this.style.display='none'" />
             <span>{{this.homeTeam}}</span>
         </td>
         <td>{{this.score}}</td>
         <td class="component-main-column">
             <span>{{this.awayTeam}}</span>
+            <img src={{this.logo}} onerror="this.style.display='none'" />
         </td>
     </tr>
     {{/each}}

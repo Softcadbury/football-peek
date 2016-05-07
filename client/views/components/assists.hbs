@@ -1,17 +1,16 @@
-<table class="component component-mini" id="scorers-mini-{{league.code}}">
+<table class="component component-big">
     <tr>
         <td colspan="10">
             <div class="component-title">
-                <img src={{league.logo}} />
-                <h1>{{league.name}} top scorers</h1>
+                <h1>Top Assists</h1>
             </div>
         </td>
     </tr>
     <tr>
         <th title="Position">#</th>
         <th class="component-main-column" title="Player name">Name</th>
+        <th class="component-main-column" title="Team">Team</th>
         <th title="Goals">Goals</th>
-        <th title="Matches played">Pld</th>
     </tr>
     {{#each data}}
     <tr>
@@ -19,8 +18,11 @@
         <td class="component-main-column">
             <span>{{this.name}}</span>
         </td>
+        <td class="component-main-column">
+            <img src={{this.logo}} onerror="this.style.display='none'" />
+            <span>{{this.team}}</span>
+        </td>
         <td>{{this.goals}}</td>
-        <td>{{this.played}}</td>
     </tr>
     {{/each}}
 </table>

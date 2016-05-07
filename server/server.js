@@ -26,14 +26,5 @@ require('./crons/updaterCron').start();
 var indexRoutes = require('./routes/indexRoutes');
 app.use('/', indexRoutes);
 
-var tablesRoutes = require('./routes/tablesRoutes');
-app.use('/tables', tablesRoutes);
-
-var scorersRoutes = require('./routes/scorersRoutes');
-app.use('/scorers', scorersRoutes);
-
-var assistsRoutes = require('./routes/assistsRoutes');
-app.use('/assists', assistsRoutes);
-
-var resultsRoutes = require('./routes/resultsRoutes');
-app.use('/results', resultsRoutes);
+var componentsRoutes = require('./routes/componentsRoutes');
+app.use('/components', componentsRoutes);
