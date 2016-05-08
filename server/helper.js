@@ -79,10 +79,8 @@ function getLeagueData(code) {
 
 // Add logos for the data of a league
 function AddLogos(league, data) {
-    var imageDataPath = league.logo.replace('logo', '{0}');
-
     for (var i = 0; i < data.length; i++) {
-        data[i].logo = stringFormat(imageDataPath, stringSanitize(data[i].team));
+        data[i].logo = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].team));
     }
 }
 
