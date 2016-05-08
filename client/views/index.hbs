@@ -26,8 +26,7 @@
     <div id="menu">
         <div data-bind="foreach: items">
             <div class="menu-item" data-bind="click: select, css: { 'menu-item-open': isSelected}">
-                <img class="configuration-league-logo" data-bind="attr: { src: league.logo }" />
-                <span class="configuration-league-name" data-bind="text: league.name"></span>
+                <span data-bind="text: league.name"></span>
             </div>
         </div>
     </div>

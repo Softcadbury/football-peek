@@ -4,28 +4,23 @@ function leagues() {
     return {
         bundesliga: {
             code: 'bundesliga',
-            name: 'Bundesliga',
-            logo: './bundesliga/images/logo.png'
+            name: 'Bundesliga'
         },
         liga: {
             code: 'liga',
-            name: 'Liga',
-            logo: './liga/images/logo.png'
+            name: 'Liga'
         },
         ligue1: {
             code: 'ligue-1',
-            name: 'Ligue 1',
-            logo: './ligue-1/images/logo.png'
+            name: 'Ligue 1'
         },
         premierLeague: {
             code: 'premier-league',
-            name: 'Premier League',
-            logo: './premier-league/images/logo.png'
+            name: 'Premier League'
         },
         serieA: {
             code: 'serie-a',
-            name: 'Serie A',
-            logo: './serie-a/images/logo.png'
+            name: 'Serie A'
         }
     };
 }
