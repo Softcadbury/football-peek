@@ -49,7 +49,7 @@ gulp.task('build', () => {
 gulp.task('start', () => {
     var nodemon = require('gulp-nodemon');
     var options = {
-        script: 'server/server.js',
+        script: 'server.js',
         delayTime: 1,
         env: { 'PORT': 5000 },
         watch: ['server']

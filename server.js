@@ -1,6 +1,6 @@
 'use strict';
 
-var config = require('./config');
+var config = require('./server/config');
 var express = require('express');
 var handlebars = require('express-handlebars');
 var app = express();
@@ -20,11 +20,11 @@ app.listen(config.port, (err) => {
 });
 
 // Starts crons
-require('./crons/updaterCron').start();
+require('./server/crons/updaterCron').start();
 
 // Regsiters routes
-var indexRoutes = require('./routes/indexRoutes');
+var indexRoutes = require('./server/routes/indexRoutes');
 app.use('/', indexRoutes);
 
-var componentsRoutes = require('./routes/componentsRoutes');
+var componentsRoutes = require('./server/routes/componentsRoutes');
 app.use('/components', componentsRoutes);
