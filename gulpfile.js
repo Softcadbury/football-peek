@@ -37,23 +37,12 @@ gulp.task('build', () => {
 
     var less = require('gulp-less');
     var minifyCSS = require('gulp-minify-css');
+    var concatCss = require('gulp-concat-css');
     gulp.src('./client/styles/**/*.less')
         .pipe(less())
+        .pipe(concatCss("app.css"))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./build/css'));
-});
-
-// Inject js and css in views
-gulp.task('inject', ['build'], function() {
-    var inject = require('gulp-inject');
-    var injectSrc = gulp.src(['./build/css/*.css', './build/js/*.js'], { read: false });
-    var injectOptions = {
-        ignorePath: '/build'
-    };
-
-    return gulp.src('./client/views/*.hbs')
-        .pipe(inject(injectSrc, injectOptions))
-        .pipe(gulp.dest('./client/views'));
 });
 
 // Start the node server
@@ -71,8 +60,8 @@ gulp.task('start', () => {
     });
 });
 
-// Manage injection, start the node server and open the browser
-gulp.task('default', ['inject', 'start'], () => {
+// Manage build, start the node server and open the browser
+gulp.task('default', ['build', 'start'], () => {
     gulp.watch(['./common/**/*.js', './client/scripts/**/*', './client/styles/**/*'], ['inject']);
 
     var openBrowser = require('gulp-open');
