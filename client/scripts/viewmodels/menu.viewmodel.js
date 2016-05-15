@@ -11,6 +11,9 @@ function MenuViewModel() {
         var menuLeague = new MenuLeagueViewModel(leagues[item], items);
         items.push(menuLeague);
     }
+    
+    // Select the first league
+    items()[0].select();
 
     return {
         items: items
