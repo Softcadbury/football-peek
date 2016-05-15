@@ -6,10 +6,15 @@ var componentDataService = require('../dataservices/component.dataservice');
 function ConfigurationLeagueViewModel(league, items) {
     var isSelected = ko.observable(false);
 
+    // Select the league
     function select() {
+        loadData();
         items().forEach(function (item) { item.isSelected(false); });
         isSelected(true);
+    }
 
+    // Loads league data in the view
+    function loadData() {
         componentDataService.getLeagueResults(league.code).done(function (data) {
             $('#content-results').html(data);
         });
