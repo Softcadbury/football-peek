@@ -19,9 +19,6 @@ app.listen(config.port, (err) => {
     console.log('running on ' + config.port);
 });
 
-// Starts crons
-require('./server/crons/updaterCron').start();
-
 // Regsiters routes
 var indexRoutes = require('./server/routes/indexRoutes');
 app.use('/', indexRoutes);
