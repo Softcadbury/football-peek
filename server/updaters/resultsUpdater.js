@@ -34,7 +34,7 @@ function updateData(league) {
                     date: currentDate,
                     homeTeam: $(elem).find('.team1 .name').text(),
                     awayTeam: $(elem).find('.team2 .name').text(),
-                    score: $(elem).find('.score a').text()
+                    score: $(elem).find('.score a').text().trim()
                 });
             }
         });
