@@ -80,7 +80,13 @@ function getLeagueData(code) {
 // Add logos for the data of a league
 function AddLogos(league, data) {
     for (var i = 0; i < data.length; i++) {
-        data[i].logo = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].team));
+        if (data[i].team) {
+            data[i].logo = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].team));
+        }
+        else {
+            data[i].logoHomeTeam = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].homeTeam));
+            data[i].logoAwayTeam = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].awayTeam));
+        }
     }
 }
 
