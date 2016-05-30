@@ -25,6 +25,7 @@ function updateData(league) {
     helper.scrapeUrl(helper.stringFormat(assistsDataUrl, league.url), function($) {
         var results = [];
 
+        // Gets results
         $('#stats-top-assists > div > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
                 results.push({
@@ -35,8 +36,17 @@ function updateData(league) {
                 });
             }
         });
-
-        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, league.code), results);
+        
+        // Saves results
+        helper.readJsonFile(helper.stringFormat(config.paths.teamsData, league.code), teams => {
+            for (var i = 0; i < results.length; i++) {
+                var closestTeam = helper.getClosestTeam(teams, results[i].team);
+                results[i].team = closestTeam.team;
+                results[i].logo = closestTeam.logo;
+            }
+            
+            helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, league.code), results);
+        });
     });
 }
 

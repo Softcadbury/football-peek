@@ -63,10 +63,16 @@ function scrapeUrl(url, callback) {
     });
 }
 
+// Gets the team object with the closest name match
+function getClosestTeam(teams, name) {
+    return teams[1];
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl
+    scrapeUrl: scrapeUrl,
+    getClosestTeam: getClosestTeam
 };

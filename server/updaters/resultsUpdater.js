@@ -26,6 +26,7 @@ function updateData(league) {
         var results = [];
         var currentDate;
 
+        // Gets results
         $('.results tr').each((index, elem) => {
             if ($(elem).hasClass('white')) {
                 currentDate = convertDate($(elem).find('td').text());
@@ -38,8 +39,21 @@ function updateData(league) {
                 });
             }
         });
-
-        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
+        
+        // Saves results
+        helper.readJsonFile(helper.stringFormat(config.paths.teamsData, league.code), teams => {
+            for (var i = 0; i < results.length; i++) {
+                var closestHomeTeam = helper.getClosestTeam(teams, results[i].homeTeam);
+                results[i].homeTeam = closestHomeTeam.team;
+                results[i].logoHomeTeam = closestHomeTeam.logo;
+                
+                var closestAwayTeam = helper.getClosestTeam(teams, results[i].awayTeam);
+                results[i].awayTeam = closestAwayTeam.team;
+                results[i].logoAwayTeam = closestAwayTeam.logo;
+            }
+            
+            helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
+        });
     });
 }
 
