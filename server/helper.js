@@ -63,39 +63,10 @@ function scrapeUrl(url, callback) {
     });
 }
 
-// Gets the data of a league
-function getLeagueData(code) {
-    var league = {};
-
-    for (var item in leagues) {
-        if (leagues[item].code === code) {
-            league = leagues[item];
-            break;
-        }
-    }
-
-    return league;
-}
-
-// Add logos for the data of a league
-function AddLogos(league, data) {
-    for (var i = 0; i < data.length; i++) {
-        if (data[i].team) {
-            data[i].logo = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].team));
-        }
-        else {
-            data[i].logoHomeTeam = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].homeTeam));
-            data[i].logoAwayTeam = stringFormat('./{0}/images/{1}.png', league.code, stringSanitize(data[i].awayTeam));
-        }
-    }
-}
-
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl,
-    getLeagueData: getLeagueData,
-    AddLogos: AddLogos
+    scrapeUrl: scrapeUrl
 };

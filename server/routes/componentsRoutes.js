@@ -9,9 +9,7 @@ var router = express.Router();
 router.route('/results/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.resultsData, req.params.league), data => {
-            var league = helper.getLeagueData(req.params.league);
-            helper.AddLogos(league, data);
-            res.render('components/results', { league: league, data: data });
+            res.render('components/results', { data: data });
         });
     });
 
@@ -19,9 +17,7 @@ router.route('/results/:league')
 router.route('/assists/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.assistsData, req.params.league), data => {
-            var league = helper.getLeagueData(req.params.league);
-            helper.AddLogos(league, data);
-            res.render('components/assists', { league: league, data: data });
+            res.render('components/assists', { data: data });
         });
     });
 
@@ -29,9 +25,7 @@ router.route('/assists/:league')
 router.route('/scorers/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.scorersData, req.params.league), data => {
-            var league = helper.getLeagueData(req.params.league);
-            helper.AddLogos(league, data);
-            res.render('components/scorers', { league: league, data: data });
+            res.render('components/scorers', { data: data });
         });
     });
 
@@ -39,9 +33,7 @@ router.route('/scorers/:league')
 router.route('/table/:league')
     .get((req, res) => {
         helper.readJsonFile(helper.stringFormat(config.paths.tableData, req.params.league), data => {
-            var league = helper.getLeagueData(req.params.league);
-            helper.AddLogos(league, data);
-            res.render('components/table', { league: league, data: data });
+            res.render('components/table', { data: data });
         });
     });
 
