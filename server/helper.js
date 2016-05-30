@@ -65,7 +65,12 @@ function scrapeUrl(url, callback) {
 
 // Gets the team object with the closest name match
 function getClosestTeam(teams, name) {
-    return teams[1];
+    var didYouMean = require('didYouMean');
+    didYouMean.returnWinningObject = true;
+    didYouMean.threshold = null;
+    didYouMean.thresholdAbsolute = null;
+    
+    return didYouMean(name, teams, 'team');
 }
 
 module.exports = {
