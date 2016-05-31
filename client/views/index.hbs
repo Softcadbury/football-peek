@@ -14,10 +14,8 @@
 <body>
     <div id="menu">
         <div data-bind="foreach: items">
-            <a data-bind="attr: { href: '/' + code }">
-                <div class="menu-item"> <!--data-bind="click: select, css: { 'menu-item-open': isSelected}">-->
-                    <span data-bind="text: name"></span>
-                </div>                
+            <a class="menu-item" data-bind="attr: { href: '/' + code }, css: { 'menu-item-open': $parent.isSelected($data)}">
+                <span data-bind="text: name"></span>
             </a>
         </div>
     </div>    

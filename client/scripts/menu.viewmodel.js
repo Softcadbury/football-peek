@@ -10,8 +10,15 @@ function MenuViewModel() {
         items.push(leagues[item]);
     }
 
+    // Use to know if the league is selected
+    function isSelected(league) {
+        var url = window.location.pathname.replace(/\//g, '');
+        return league.code == (url ? url : leagues.bundesliga.code);
+    }
+
     return {
-        items: items
+        items: items,
+        isSelected: isSelected
     };
 }
 
