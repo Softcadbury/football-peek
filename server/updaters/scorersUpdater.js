@@ -22,9 +22,10 @@ function update() {
 
 // Updates the scorers of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.url), function($) {
+    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.url), function ($) {
         var results = [];
 
+        // Gets results
         $('#col-gauche > section > div > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
                 results.push({

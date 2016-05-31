@@ -8,11 +8,13 @@
 
     .menu-item {
         cursor: pointer;
+        color: black;
         display: inline-block;
         padding: 15px 8px;
+        text-decoration: none;
 
-        &:hover {
-            color: #004756;
+        &:hover span {
+            border-bottom:5px solid #004756;
         }
 
         &.menu-item-open {

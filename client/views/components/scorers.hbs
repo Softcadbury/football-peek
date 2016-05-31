@@ -13,14 +13,13 @@
         <th title="Goals">Goals</th>
         <th title="Matches played">Pld</th>
     </tr>
-    {{#each data}}
+    {{#each scorersData}}
     <tr>
         <td>{{this.rank}}</td>
         <td class="component-main-column">
             <span>{{this.name}}</span>
         </td>
         <td class="component-main-column">
-            <img src={{this.logo}} onerror="this.style.display='none'" />
             <span>{{this.team}}</span>
         </td>
         <td>{{this.goals}}</td>

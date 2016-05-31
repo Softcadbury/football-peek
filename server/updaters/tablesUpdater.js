@@ -22,9 +22,10 @@ function update() {
 
 // Updates the table of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url), function($) {
+    helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url), function ($) {
         var results = [];
 
+        // Gets results
         $('#col-gauche > section > div.v6-page > table > tbody > tr').each((index, elem) => {
             if (index < 20) {
                 results.push({
@@ -41,6 +42,11 @@ function updateData(league) {
                 });
             }
         });
+
+        for (var i = 0; i < results.length; i++) {
+            var path = helper.stringFormat(config.paths.publicImageData, league.code, helper.stringSanitize(results[i].team));
+            results[i].logo = path;
+        }
 
         helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code), results);
     });

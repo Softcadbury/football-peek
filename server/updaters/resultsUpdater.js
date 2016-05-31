@@ -22,7 +22,7 @@ function update() {
 
 // Updates the results of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url), function($) {
+    helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url), function ($) {
         var results = [];
         var currentDate;
 
@@ -47,7 +47,7 @@ function updateData(league) {
 function convertDate(date) {
     var parts = date.split(' ');
     var frenchMonths = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
-                        'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+        'août', 'septembre', 'octobre', 'novembre', 'décembre'];
     var indexOfMonth = frenchMonths.indexOf(parts[2]) + 1;
 
     return parts[1] + '/' + indexOfMonth + '/' + parts[3];
