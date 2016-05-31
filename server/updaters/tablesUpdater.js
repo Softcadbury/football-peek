@@ -22,7 +22,7 @@ function update() {
 
 // Updates the table of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url), function($) {
+    helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url), function ($) {
         var results = [];
 
         // Gets results
@@ -42,17 +42,13 @@ function updateData(league) {
                 });
             }
         });
-        
-        // Saves results
-        helper.readJsonFile(helper.stringFormat(config.paths.teamsData, league.code), teams => {
-            for (var i = 0; i < results.length; i++) {
-                var closestTeam = helper.getClosestTeam(teams, results[i].team);
-                results[i].team = closestTeam.team;
-                results[i].logo = closestTeam.logo;
-            }
 
-            helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code), results);
-        });
+        for (var i = 0; i < results.length; i++) {
+            var path = helper.stringFormat(config.paths.publicImageData, league.code, helper.stringSanitize(results[i].team));
+            results[i].logo = path;
+        }
+
+        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code), results);
     });
 }
 

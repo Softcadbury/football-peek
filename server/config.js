@@ -9,7 +9,8 @@ function config() {
             scorersData: './data/{0}/scorers.json',
             assistsData: './data/{0}/assists.json',
             resultsData: './data/{0}/results.json',
-            imageData: './data/{0}/images/{1}.png'
+            imageData: './data/{0}/images/{1}.png',
+            publicImageData: './{0}/images/{1}.png'
         }
     };
 }

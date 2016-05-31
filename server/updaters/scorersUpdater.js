@@ -22,7 +22,7 @@ function update() {
 
 // Updates the scorers of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.url), function($) {
+    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.url), function ($) {
         var results = [];
 
         // Gets results
@@ -37,17 +37,8 @@ function updateData(league) {
                 });
             }
         });
-        
-        // Saves results
-        helper.readJsonFile(helper.stringFormat(config.paths.teamsData, league.code), teams => {
-            for (var i = 0; i < results.length; i++) {
-                var closestTeam = helper.getClosestTeam(teams, results[i].team);
-                results[i].team = closestTeam.team;
-                results[i].logo = closestTeam.logo;
-            }
-            
-            helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, league.code), results);
-        });
+
+        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, league.code), results);
     });
 }
 

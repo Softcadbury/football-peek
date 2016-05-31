@@ -22,11 +22,10 @@ function update() {
 
 // Updates the results of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url), function($) {
+    helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url), function ($) {
         var results = [];
         var currentDate;
 
-        // Gets results
         $('.results tr').each((index, elem) => {
             if ($(elem).hasClass('white')) {
                 currentDate = convertDate($(elem).find('td').text());
@@ -39,21 +38,8 @@ function updateData(league) {
                 });
             }
         });
-        
-        // Saves results
-        helper.readJsonFile(helper.stringFormat(config.paths.teamsData, league.code), teams => {
-            for (var i = 0; i < results.length; i++) {
-                var closestHomeTeam = helper.getClosestTeam(teams, results[i].homeTeam);
-                results[i].homeTeam = closestHomeTeam.team;
-                results[i].logoHomeTeam = closestHomeTeam.logo;
-                
-                var closestAwayTeam = helper.getClosestTeam(teams, results[i].awayTeam);
-                results[i].awayTeam = closestAwayTeam.team;
-                results[i].logoAwayTeam = closestAwayTeam.logo;
-            }
-            
-            helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
-        });
+
+        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
     });
 }
 
@@ -61,7 +47,7 @@ function updateData(league) {
 function convertDate(date) {
     var parts = date.split(' ');
     var frenchMonths = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
-                        'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+        'août', 'septembre', 'octobre', 'novembre', 'décembre'];
     var indexOfMonth = frenchMonths.indexOf(parts[2]) + 1;
 
     return parts[1] + '/' + indexOfMonth + '/' + parts[3];
