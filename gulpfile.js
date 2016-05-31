@@ -43,6 +43,9 @@ gulp.task('build', () => {
         .pipe(concatCss("app.css"))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./build/css'));
+
+    gulp.src('./client/images/**/*')
+        .pipe(gulp.dest('./build/images'));
 });
 
 // Start the node server
