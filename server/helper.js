@@ -1,8 +1,5 @@
 'use strict';
 
-var config = require('./config');
-var leagues = require('../data/leagues');
-
 // Sanitizes a string to be a filename
 function stringSanitize(str) {
     return str
@@ -29,12 +26,10 @@ function stringFormat(str) {
     return str;
 }
 
-// Reads a json file and call the callback with its content
-function readJsonFile(path, callback) {
+// Reads a json file and return its content
+function readJsonFile(path) {
     var jsonfile = require('jsonfile');
-    jsonfile.readFile(path, { throws: false }, (err, data) => {
-        callback(data || []);
-    });
+    return jsonfile.readFileSync(path, { throws: false });
 }
 
 // Writes content in a json file
@@ -63,21 +58,10 @@ function scrapeUrl(url, callback) {
     });
 }
 
-// Gets the team object with the closest name match
-function getClosestTeam(teams, name) {
-    var didYouMean = require('didYouMean');
-    didYouMean.returnWinningObject = true;
-    didYouMean.threshold = null;
-    didYouMean.thresholdAbsolute = null;
-    
-    return didYouMean(name, teams, 'team');
-}
-
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl,
-    getClosestTeam: getClosestTeam
+    scrapeUrl: scrapeUrl
 };

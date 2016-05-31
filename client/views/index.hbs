@@ -14,16 +14,18 @@
 <body>
     <div id="menu">
         <div data-bind="foreach: items">
-            <div class="menu-item" data-bind="click: select, css: { 'menu-item-open': isSelected}">
-                <span data-bind="text: league.name"></span>
-            </div>
+            <a data-bind="attr: { href: '/' + code }">
+                <div class="menu-item"> <!--data-bind="click: select, css: { 'menu-item-open': isSelected}">-->
+                    <span data-bind="text: name"></span>
+                </div>                
+            </a>
         </div>
-    </div>
+    </div>    
     <div id="content">
-        <div class="component-container" id="content-results"></div>
-        <div class="component-container" id="content-table"></div>
-        <div class="component-container" id="content-scorers"></div>
-        <div class="component-container" id="content-assists"></div>
+        <div class="component-container">{{> results }}</div>        
+        <div class="component-container">{{> table }}</div>
+        <div class="component-container">{{> scorers }}</div>
+        <div class="component-container">{{> assists }}</div>
     </div>
 </body>
 </html>
