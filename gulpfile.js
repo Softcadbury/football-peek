@@ -10,9 +10,9 @@ gulp.task('update', () => {
     require('./server/updaters/resultsUpdater').update();
 });
 
-// Updates teams
-gulp.task('update-teams', () => {
-    require('./server/updaters/teamsUpdater').update();
+// Updates logos
+gulp.task('update-logos', () => {
+    require('./server/updaters/logosUpdater').update();
 });
 
 // Check coding rules

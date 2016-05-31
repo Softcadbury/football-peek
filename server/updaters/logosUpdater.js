@@ -15,15 +15,15 @@ var leaguesExtended = [
     { code: leagues.premierLeague.code, url: 'championnat-d-angleterre' }
 ];
 
-// Updates teams of current year
+// Updates logos of current year
 function update() {
     for (var i = 0; i < leaguesExtended.length; i++) {
-        updateTeams(leaguesExtended[i]);
+        updateLogos(leaguesExtended[i]);
     }
 }
 
-// Updates teams of a league
-function updateTeams(league) {
+// Updates logos of a league
+function updateLogos(league) {
     helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url), function($) {
         var results = [];
 
@@ -31,21 +31,15 @@ function updateTeams(league) {
             if (index < 20) {
                 results.push({
                     team: $(elem).find('td.team .team-label').text(),
-                    logo: $(elem).find('td.team .team-label img').attr('src')
+                    src: $(elem).find('td.team .team-label img').attr('src')
                 });
             }
         });
 
         for (var i = 0; i < results.length; i++) {
-            var sanitizedTeamName = helper.stringSanitize(results[i].team);
-            var path = helper.stringFormat(config.paths.imageData, league.code, sanitizedTeamName);
-            var publicPath = helper.stringFormat(config.paths.publicImageData, league.code, sanitizedTeamName);
-            
-            downloadImage(results[i].logo, path);
-            results[i].logo = publicPath;
+            var path = helper.stringFormat(config.paths.imageData, league.code, helper.stringSanitize(results[i].team));
+            downloadImage(results[i].src, path);
         }
-
-        helper.writeJsonFile(helper.stringFormat(config.paths.teamsData, league.code), results);
     });
 }
 
