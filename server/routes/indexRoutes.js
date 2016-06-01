@@ -9,12 +9,24 @@ var router = express.Router();
 // Route for index
 router.route('/:league?')
     .get((req, res) => {
-        var league = req.params.league || leagues.bundesliga.code;
+        var currentLeague = null;
+        
+        for (var item in leagues) {
+            leagues[item].isActive = false;
+            if (req.params.league == leagues[item].code) {
+                currentLeague = leagues[item];
+            }
+        }
+        
+        currentLeague = currentLeague || leagues.bundesliga;
+        currentLeague.isActive = true;
+        
         var data = {
-            resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, league)),
-            assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, league)),
-            scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, league)),
-            tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, league))
+            leagues: leagues,
+            resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, currentLeague.code)),
+            assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentLeague.code)),
+            scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentLeague.code)),
+            tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentLeague.code))
         };
 
         res.render('index', data);
