@@ -28,13 +28,6 @@ gulp.task('check', () => {
 
 // Build the application
 gulp.task('build', () => {
-    var browserify = require('gulp-browserify');
-    var uglify = require('gulp-uglify');
-    gulp.src('client/scripts/app.js')
-        .pipe(browserify())
-        .pipe(uglify())
-        .pipe(gulp.dest('./build/js'));
-
     var less = require('gulp-less');
     var minifyCSS = require('gulp-minify-css');
     var concatCss = require('gulp-concat-css');
@@ -43,6 +36,9 @@ gulp.task('build', () => {
         .pipe(concatCss("app.css"))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./build/css'));
+
+    gulp.src('./client/images/**/*')
+        .pipe(gulp.dest('./build/images'));
 });
 
 // Start the node server
