@@ -6,8 +6,9 @@ var handlebars = require('express-handlebars');
 var app = express();
 
 // Middlewares configuration
-app.use(express.static('build'));
-app.use(express.static('data', { 'extensions': ['png'] }));
+var oneWeek = 604800000;
+app.use(express.static('build', { maxAge: oneWeek }));
+app.use(express.static('data', { maxAge: oneWeek, extensions: ['png'] }));
 
 // Handlebars configuration
 app.set('views', 'client/views');

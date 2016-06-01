@@ -58,7 +58,7 @@ gulp.task('start', () => {
 
 // Manage build, start the node server and open the browser
 gulp.task('default', ['build', 'start'], () => {
-    gulp.watch(['./common/**/*.js', './client/scripts/**/*', './client/styles/**/*'], ['build']);
+    gulp.watch(['./client/styles/**/*'], ['build']);
 
     var openBrowser = require('gulp-open');
     gulp.src('/').pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));
