@@ -19,7 +19,7 @@ gulp.task('update-logos', () => {
 gulp.task('check', () => {
     var jshint = require('gulp-jshint');
     var jscs = require('gulp-jscs');
-    gulp.src(['./*.js', './common/**/*.js', './server/**/*.js', './client/scripts/**/*.js'])
+    gulp.src(['./*.js', './server/**/*.js'])
         .pipe(jscs())
         .pipe(jscs.reporter())
         .pipe(jshint())
@@ -33,7 +33,7 @@ gulp.task('build', () => {
     var concatCss = require('gulp-concat-css');
     gulp.src('./client/styles/**/*.less')
         .pipe(less())
-        .pipe(concatCss("app.css"))
+        .pipe(concatCss('app.css'))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./build/css'));
 

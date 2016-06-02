@@ -12,7 +12,9 @@ var sitemap = sm.createSitemap({ hostname: 'http://dashboardfootball.com', cache
 sitemap.add({ url: '', changefreq: 'daily' });
 
 for (var item in leagues) {
-    sitemap.add({ url: '/' + leagues[item].code, changefreq: 'daily' });
+    if (leagues.hasOwnProperty(item)) {
+        sitemap.add({ url: '/' + leagues[item].code, changefreq: 'daily' });
+    }
 }
 
 router.route('/sitemap.xml')
@@ -27,9 +29,11 @@ router.route('/:league?')
         var currentLeague = null;
 
         for (var item in leagues) {
-            leagues[item].isActive = false;
-            if (req.params.league == leagues[item].code) {
-                currentLeague = leagues[item];
+            if (leagues.hasOwnProperty(item)) {
+                leagues[item].isActive = false;
+                if (req.params.league === leagues[item].code) {
+                    currentLeague = leagues[item];
+                }
             }
         }
 
