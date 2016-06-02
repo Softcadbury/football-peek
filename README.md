@@ -1,4 +1,4 @@
-# Football Dashboard - <a href="http://footballdashboard.azurewebsites.net/">Try it !</a>
+# Football Dashboard - <a href="http://dashboardfootball.com/">Try it !</a>
 
 ## Description
 
