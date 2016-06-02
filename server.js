@@ -7,7 +7,7 @@ var app = express();
 
 // Middlewares configuration
 var oneWeek = 604800000;
-app.use(express.static('build', { maxAge: oneWeek }));
+app.use(express.static('build'));
 app.use(express.static('data', { maxAge: oneWeek, extensions: ['png'] }));
 
 // Handlebars configuration
