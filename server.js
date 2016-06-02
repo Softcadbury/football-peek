@@ -12,7 +12,7 @@ app.use(express.static('data', { maxAge: oneWeek, extensions: ['png'] }));
 
 // Handlebars configuration
 app.set('views', 'client/views');
-app.engine('.hbs', handlebars({ extname: '.hbs', partialsDir: ['client/views/components/'] }));
+app.engine('.hbs', handlebars({ extname: '.hbs', partialsDir: ['client/views/components/', 'client/views/partials/'] }));
 app.set('view engine', '.hbs');
 
 // Starts application listening
