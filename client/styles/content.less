@@ -10,9 +10,16 @@
         vertical-align: top;
     }
 
-    .ad {
+    .ad-container {
         margin-bottom: 16px;
         height: 90px;
+        position: relative;
         width: 100%;
+
+        .ad {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
 }
