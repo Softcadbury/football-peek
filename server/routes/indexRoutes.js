@@ -42,6 +42,7 @@ router.route('/:league?')
 
         var data = {
             leagues: leagues,
+            currentLeague: currentLeague,
             resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, currentLeague.code)),
             assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentLeague.code)),
             scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentLeague.code)),

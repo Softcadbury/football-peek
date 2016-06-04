@@ -5,22 +5,32 @@
     padding: 0 8px;
     text-align: center;
 
+    #header {
+        border-radius: 4px;
+        display: inline-block;
+        background-color: white;
+        margin: 0 0 16px;
+        padding: 0 4px;
+        
+        img, h1 {
+            display: inline-block;
+            margin: 0;
+            vertical-align: top;
+        }
+        
+        img {
+            margin-right: -2px;
+            padding: 3px 5px;
+        }
+        
+        h1 {
+            margin-left: -2px;
+            padding: 15px 6px;
+        }
+    }
+
     .component-container {
         display: inline-block;
         vertical-align: top;
-    }
-
-    .ad-container {
-        margin-bottom: 16px;
-        height: 90px;
-        position: relative;
-        width: 100%;
-
-        .ad {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 100%;
-        }
     }
 }
