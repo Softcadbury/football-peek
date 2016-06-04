@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Dashboard Football - Quick access to football results</title>
+    <title>Dashboard Football - Quick access to football results - {{currentLeague.name}}</title>
     <meta charset="utf-8">
     <meta name="description" content="Quick access to football results, tables, top scorers and top assists from major leagues: Bundesliga, Liga, Ligue 1, Premier League and Serie A">
     <meta name="viewport" content="width=500, user-scalable=no" />
@@ -13,7 +13,12 @@
 <body>
     {{> menu }}
     <div id="content">
-        {{> ad }}
+        <div class="ad-container">{{> ad }}</div>
+        <div id="header">
+            <img src="/images/{{currentLeague.code}}.png" alt="logo {{currentLeague.name}}" />
+            <h1>{{currentLeague.name}}</h1>
+        </div>
+        <br />
         <div class="component-container">{{> results }}</div>
         <div class="component-container">{{> table }}</div>
         <div class="component-container">{{> scorers }}</div>
