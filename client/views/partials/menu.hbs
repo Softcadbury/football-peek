@@ -1,4 +1,7 @@
 <div id="menu">
+    <a class="menu-item menu-item-logo" href="/">
+        <img src="/images/trophy-logo.png"></img>
+    </a>
     {{#each leagues}}
     <a class="menu-item {{#if this.isActive}}menu-item-open{{/if}}" href="/{{this.code}}">
         <span>{{this.name}}</span>
