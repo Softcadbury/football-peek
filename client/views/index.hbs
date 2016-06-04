@@ -11,18 +11,10 @@
     <link rel="icon" href="/images/favicon.ico" />
 </head>
 <body>
-    <div id="menu">
-        {{#each leagues}}
-        <a class="menu-item {{#if this.isActive}}menu-item-open{{/if}}" href="/{{this.code}}">
-            <span>{{this.name}}</span>
-        </a>
-        {{/each}}
-    </div>    
+    {{> menu }}
     <div id="content">
-        <div class="ad-container">
-            <div class="ad">{{> ad }}</div>
-        </div>
-        <div class="component-container">{{> results }}</div>        
+        {{> ad }}
+        <div class="component-container">{{> results }}</div>
         <div class="component-container">{{> table }}</div>
         <div class="component-container">{{> scorers }}</div>
         <div class="component-container">{{> assists }}</div>

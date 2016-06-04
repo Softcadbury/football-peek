@@ -1,0 +1,7 @@
+<div id="menu">
+    {{#each leagues}}
+    <a class="menu-item {{#if this.isActive}}menu-item-open{{/if}}" href="/{{this.code}}">
+        <span>{{this.name}}</span>
+    </a>
+    {{/each}}
+</div>
