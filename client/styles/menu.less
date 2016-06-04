@@ -1,6 +1,6 @@
 #menu {
     background-color: white;
-    font-size: 17px !important;
+    font-size: 16px !important;
     font-weight: bold;
     height: 50px;
     text-align: center;
@@ -10,11 +10,22 @@
         cursor: pointer;
         color: black;
         display: inline-block;
-        padding: 15px 8px;
+        margin-right: -4px;
+        padding: 16px 7px;
         text-decoration: none;
 
         &:hover span {
             border-bottom:5px solid #004756;
+        }
+
+        &.menu-item-logo {
+            padding: 5px;
+            vertical-align: top;
+            
+            img {
+                height: 40px;
+                width: 40px;
+            }
         }
 
         &.menu-item-open {

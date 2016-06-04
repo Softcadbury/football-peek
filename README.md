@@ -1,8 +1,8 @@
-# Football Dashboard - <a href="http://dashboardfootball.com/">Try it !</a>
+# Dashboard Football - <a href="http://dashboardfootball.com">Try it !</a>
 
 ## Description
 
-This project is a dashboard where you can choose the football data you want to follow.
+Quickly access to football results, tables, top scorers and top assists of major leagues.
 
 ## Screenshot
 
