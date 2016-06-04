@@ -13,7 +13,7 @@ sitemap.add({ url: '', changefreq: 'daily' });
 
 for (var item in leagues) {
     if (leagues.hasOwnProperty(item)) {
-        sitemap.add({ url: '/' + leagues[item].code, changefreq: 'daily' });
+        sitemap.add({ url: '/' + leagues[item].code + '/', changefreq: 'daily' });
     }
 }
 
