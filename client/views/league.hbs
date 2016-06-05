@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Dashboard Football - Quick access to football results</title>
+    <title>Dashboard Football - Quick access to {{currentLeague.name}} results</title>
     <meta charset="utf-8">
     <meta name="description" content="Quick access to football results, tables, top scorers and top assists from major leagues: Bundesliga, Liga, Ligue 1, Premier League and Serie A">
     <meta name="keywords" content="football, dashboard football, football results, football tables, football top scorers, football top assists, bundesliga, liga, ligue 1, premier league, serie a">
@@ -11,22 +11,19 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" href="/images/favicon.ico" />
 </head>
-<body id="index">
-    <div class="wrapper">
-        {{> menu }}
-        <div class="content">
-            <div class="header">
-                <h1>Dashboard Football</h1>
-            </div>
-            <div class="leagues">
-                {{#each leagues}}
-                <a class="league-item" href="/{{this.code}}">
-                    <img src="/images/{{this.code}}.png" alt="logo {{this.name}}" />
-                    <h2>{{this.name}}</h2>
-                </a>
-                {{/each}}
-            </div>
+<body id="league">
+    {{> menu }}
+    <div class="content">
+        {{> ad }}
+        <div class="header">
+            <img src="/images/{{currentLeague.code}}.png" alt="logo {{currentLeague.name}}" />
+            <h1>{{currentLeague.name}}</h1>
         </div>
+        <br />
+        {{> results }}
+        {{> table }}
+        {{> scorers }}
+        {{> assists }}
     </div>
     {{> footer }}
     {{> analytics }}
