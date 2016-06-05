@@ -24,7 +24,24 @@ router.route('/sitemap.xml')
     });
 
 // Route for index
-router.route('/:league?')
+router.route('/')
+    .get((req, res) => {
+        for (var item in leagues) {
+            if (leagues.hasOwnProperty(item)) {
+                leagues[item].isActive = false;
+            }
+        }
+        
+        var data = {
+            leagues: leagues,
+            isIndex: true
+        };
+
+        res.render('index', data);
+    });
+
+// Route for league
+router.route('/:league')
     .get((req, res) => {
         var currentLeague = null;
 
@@ -49,7 +66,7 @@ router.route('/:league?')
             tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentLeague.code))
         };
 
-        res.render('index', data);
+        res.render('league', data);
     });
 
 module.exports = router;

@@ -1,26 +1,29 @@
-<table class="component component-large">
-    <tr>
-        <td colspan="4">
-            <div class="component-title">
-                <h3>Results</h3>
-            </div>
-        </td>
-    </tr>
-    <tr><th title="Date">Date</th>
-        <th class="component-main-column"></th>
-        <th title="Score">Score</th>
-        <th class="component-main-column"></th>
-    </tr>
-    {{#each resultsData}}
-    <tr>
-        <td>{{this.date}}</td>
-        <td class="component-main-column component-right-column">
-            <span>{{this.homeTeam}}</span>
-        </td>
-        <td>{{this.score}}</td>
-        <td class="component-main-column">
-            <span>{{this.awayTeam}}</span>
-        </td>
-    </tr>
-    {{/each}}
-</table>
+<div class="component-container">
+    <table class="component component-large">
+        <tr>
+            <td colspan="4">
+                <div class="component-title">
+                    <h3>Results</h3>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th title="Date">Date</th>
+            <th class="component-main-column"></th>
+            <th title="Score">Score</th>
+            <th class="component-main-column"></th>
+        </tr>
+        {{#each resultsData}}
+        <tr>
+            <td>{{this.date}}</td>
+            <td class="component-main-column component-right-column">
+                <span>{{this.homeTeam}}</span>
+            </td>
+            <td>{{this.score}}</td>
+            <td class="component-main-column">
+                <span>{{this.awayTeam}}</span>
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+</div>
