@@ -1,6 +1,42 @@
-#content-index {
+#index {
+    .wrapper {
+        min-height: 100%;
+        margin: 0 auto -40px;
+    }
+    
     .header {
         color: white;
         font-size: 35px;
+    }
+    
+    .leagues {
+        .league-item {
+            border-radius: 4px;
+            display: inline-block;
+            background-color: white;
+            text-decoration: none;
+            color: black;
+            margin: 0 8px 16px;
+            padding: 0 4px;
+            
+            img, h2 {
+                display: inline-block;
+                margin: 0;
+                vertical-align: top;
+            }
+            
+            img {
+                padding: 3px 5px;
+            }
+            
+            h2 {
+                padding: 17px 6px 0;
+                font-size: 22px;
+            }
+
+            &:hover h2 {
+                border-bottom:5px solid #004756;
+            }
+        }
     }
 }

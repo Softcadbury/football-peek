@@ -11,13 +11,22 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" href="/images/favicon.ico" />
 </head>
-<body>
-    {{> menu }}
-    <div class="content" id="content-index">
-        <div class="header">
-            <h1>Dashboard Football</h1>
+<body id="index">
+    <div class="wrapper">
+        {{> menu }}
+        <div class="content">
+            <div class="header">
+                <h1>Dashboard Football</h1>
+            </div>
+            <div class="leagues">
+                {{#each leagues}}
+                <a class="league-item" href="/{{this.code}}">
+                    <img src="/images/{{this.code}}.png" alt="logo {{this.name}}" />
+                    <h2>{{this.name}}</h2>
+                </a>
+                {{/each}}
+            </div>
         </div>
-        <br />
     </div>
     {{> footer }}
     {{> analytics }}
