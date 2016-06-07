@@ -2,7 +2,7 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var leagues = require('../leagues');
+var leagues = require('../data/leagues');
 var sm = require('sitemap');
 var express = require('express');
 var router = express.Router();

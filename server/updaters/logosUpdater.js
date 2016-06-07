@@ -2,7 +2,7 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var leagues = require('../leagues');
+var leagues = require('../data/leagues');
 var request = require('request');
 var fs = require('fs');
 
