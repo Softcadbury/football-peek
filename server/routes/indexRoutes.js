@@ -37,35 +37,35 @@ router.route('/')
         res.render('index', data);
     });
 
-// Route for league
-router.route('/:league')
+// Route for item
+router.route('/:item')
     .get((req, res) => {
-        var currentLeague = null;
+        var currentItem = null;
 
         items.forEach(function (item) {
             item.isActive = false;
 
-            if (req.params.league === item.code) {
-                currentLeague = item;
+            if (req.params.item === item.code) {
+                currentItem = item;
             }
         });
 
-        currentLeague = currentLeague || items[0];
-        currentLeague.isActive = true;
+        currentItem = currentItem || items[0];
+        currentItem.isActive = true;
 
         var data = {
             items: items,
-            currentLeague: currentLeague,
+            currentItem: currentItem,
         };
 
-        if (currentLeague == competitions.championsLeague || currentLeague == competitions.europaLeague) {
-            res.render('league', Object.assign({}, data));
+        if (currentItem == competitions.championsLeague || currentItem == competitions.europaLeague) {
+            res.render('competition', Object.assign(data, {}));
         } else {
-            res.render('league', Object.assign({}, data, {
-                resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, currentLeague.code)),
-                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentLeague.code)),
-                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentLeague.code)),
-                tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentLeague.code))
+            res.render('league', Object.assign(data, {
+                resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, currentItem.code)),
+                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentItem.code)),
+                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentItem.code)),
+                tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentItem.code))
             }));
         }
     });
