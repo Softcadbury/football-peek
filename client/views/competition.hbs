@@ -1,15 +1,9 @@
 <div id="league">
-    {{> menu }}
-    <div class="content">
-        {{> ad }}
-        <div class="header">
-            <img src="/images/{{currentItem.code}}.png" alt="logo {{currentItem.name}}" />
-            <h1>{{currentItem.name}}</h1>
-        </div>
-        <br />
-        {{> group }}
+    {{> ad }}
+    <div class="header">
+        <img src="/images/{{currentItem.code}}.png" alt="logo {{currentItem.name}}" />
+        <h1>{{currentItem.name}}</h1>
     </div>
-    {{> footer }}
-    {{> analytics }}
-    {{> cookieConsent }}
+    <br />
+    {{> group }}
 </div>

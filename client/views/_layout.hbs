@@ -12,6 +12,14 @@
     <link rel="icon" href="/images/favicon.ico" />
 </head>
 <body>
-{{{body}}}
+    <div class="wrapper">
+        {{> menu }}
+        <div class="content">
+            {{{body}}}
+        </div>
+    </div>
+    {{> footer }}
+    {{> analytics }}
+    {{> cookieConsent }}
 </body>
 </html>
