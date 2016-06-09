@@ -30,6 +30,7 @@ router.route('/')
         });
 
         var data = {
+            title: 'Dashboard Football - Quick access to football results',
             items: items,
             isIndex: true
         };
@@ -54,6 +55,7 @@ router.route('/:item')
         currentItem.isActive = true;
 
         var data = {
+            title: 'Dashboard Football - Quick access to ' + currentItem.name + ' results',
             items: items,
             currentItem: currentItem,
         };
