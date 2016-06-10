@@ -2,27 +2,30 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var leagues = require('../leagues');
+var leagues = require('../data/leagues');
+var competitions = require('../data/competitions');
 
-var scorersDataUrl = 'http://www.lequipe.fr/Football/FootballClassementChampionnat{0}_BUT_1.html';
-var leaguesExtended = [
-    { code: leagues.bundesliga.code, url: '2297' },
-    { code: leagues.liga.code, url: '2301' },
-    { code: leagues.ligue1.code, url: '2282' },
-    { code: leagues.serieA.code, url: '2303' },
-    { code: leagues.premierLeague.code, url: '2281' }
+var scorersDataUrl = 'http://www.lequipe.fr/Football/{0}.html';
+var itemsExtended = [
+    { code: leagues.bundesliga.code, url: 'FootballClassementChampionnat2297_BUT_1' },
+    { code: leagues.liga.code, url: 'FootballClassementChampionnat2301_BUT_1' },
+    { code: leagues.ligue1.code, url: 'FootballClassementChampionnat2282_BUT_1' },
+    { code: leagues.serieA.code, url: 'FootballClassementChampionnat2303_BUT_1' },
+    { code: leagues.premierLeague.code, url: 'FootballClassementChampionnat2281_BUT_1' },
+    { code: competitions.championsLeague.code, url: 'ligue-des-champions-classement-buteurs' },
+    { code: competitions.europaLeague.code, url: 'ligue-europa-classement-buteurs' }
 ];
 
 // Updates scorers of current year
 function update() {
-    for (var i = 0; i < leaguesExtended.length; i++) {
-        updateData(leaguesExtended[i]);
+    for (var i = 0; i < itemsExtended.length; i++) {
+        updateData(itemsExtended[i]);
     }
 }
 
-// Updates the scorers of a league
-function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, league.url), function ($) {
+// Updates the scorers of a item
+function updateData(item) {
+    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, item.url), function ($) {
         var results = [];
 
         // Gets results
@@ -38,7 +41,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, league.code), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, item.code), results);
     });
 }
 

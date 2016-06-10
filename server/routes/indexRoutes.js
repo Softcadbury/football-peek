@@ -2,7 +2,8 @@
 
 var config = require('../config');
 var helper = require('../helper');
-var leagues = require('../leagues');
+var items = require('../data/items');
+var competitions = require('../data/competitions');
 var sm = require('sitemap');
 var express = require('express');
 var router = express.Router();
@@ -11,11 +12,9 @@ var router = express.Router();
 var sitemap = sm.createSitemap({ hostname: 'http://dashboardfootball.com', cacheTime: 600000 });
 sitemap.add({ url: '', changefreq: 'daily' });
 
-for (var item in leagues) {
-    if (leagues.hasOwnProperty(item)) {
-        sitemap.add({ url: '/' + leagues[item].code + '/', changefreq: 'daily' });
-    }
-}
+items.forEach(function (item) {
+    sitemap.add({ url: '/' + item.code + '/', changefreq: 'daily' });
+});
 
 router.route('/sitemap.xml')
     .get((req, res) => {
@@ -26,47 +25,54 @@ router.route('/sitemap.xml')
 // Route for index
 router.route('/')
     .get((req, res) => {
-        for (var item in leagues) {
-            if (leagues.hasOwnProperty(item)) {
-                leagues[item].isActive = false;
-            }
-        }
-        
+        items.forEach(function (item) {
+            item.isActive = false;
+        });
+
         var data = {
-            leagues: leagues,
+            title: 'Dashboard Football - Quick access to football results',
+            items: items,
             isIndex: true
         };
 
         res.render('index', data);
     });
 
-// Route for league
-router.route('/:league')
+// Route for item
+router.route('/:item')
     .get((req, res) => {
-        var currentLeague = null;
+        var currentItem = null;
 
-        for (var item in leagues) {
-            if (leagues.hasOwnProperty(item)) {
-                leagues[item].isActive = false;
-                if (req.params.league === leagues[item].code) {
-                    currentLeague = leagues[item];
-                }
+        items.forEach(function (item) {
+            item.isActive = false;
+
+            if (req.params.item === item.code) {
+                currentItem = item;
             }
-        }
+        });
 
-        currentLeague = currentLeague || leagues.bundesliga;
-        currentLeague.isActive = true;
+        currentItem = currentItem || items[0];
+        currentItem.isActive = true;
 
         var data = {
-            leagues: leagues,
-            currentLeague: currentLeague,
-            resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, currentLeague.code)),
-            assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentLeague.code)),
-            scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentLeague.code)),
-            tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentLeague.code))
+            title: 'Dashboard Football - Quick access to ' + currentItem.name + ' results',
+            items: items,
+            currentItem: currentItem,
         };
 
-        res.render('league', data);
+        if (currentItem == competitions.championsLeague || currentItem == competitions.europaLeague) {
+            res.render('competition', Object.assign(data, {
+                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentItem.code)),
+                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentItem.code))
+            }));
+        } else {
+            res.render('league', Object.assign(data, {
+                resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, currentItem.code)),
+                tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentItem.code)),
+                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentItem.code)),
+                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentItem.code))
+            }));
+        }
     });
 
 module.exports = router;
