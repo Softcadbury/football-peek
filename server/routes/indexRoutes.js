@@ -62,14 +62,15 @@ router.route('/:item')
 
         if (currentItem == competitions.championsLeague || currentItem == competitions.europaLeague) {
             res.render('competition', Object.assign(data, {
-                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentItem.code))
+                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentItem.code)),
+                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentItem.code))
             }));
         } else {
             res.render('league', Object.assign(data, {
                 resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, currentItem.code)),
-                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentItem.code)),
+                tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentItem.code)),
                 scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, currentItem.code)),
-                tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, currentItem.code))
+                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, currentItem.code))
             }));
         }
     });
