@@ -4,7 +4,8 @@
     </a>
     {{#each items}}
     <a class="menu-item {{#if this.isActive}}menu-item-open{{/if}}" href="/{{this.code}}">
-        <h2>{{this.name}}</h2>
+        <h2 class="menu-item-big">{{this.name}}</h2>
+        <h2 class="menu-item-small">{{this.smallName}}</h2>
     </a>
     {{/each}}
 </div>
