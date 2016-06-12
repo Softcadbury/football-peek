@@ -34,5 +34,29 @@
                 width: 40px;
             }
         }
+
+        .menu-item-small {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .menu {
+        .menu-item {
+            padding: 22px 12px;
+
+            &.menu-item-logo {
+                padding: 10px 12px 8px 0;
+            }
+
+            .menu-item-big {
+                display: none;
+            }
+
+            .menu-item-small {
+                display: block;
+            }
+        }
     }
 }
