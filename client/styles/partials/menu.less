@@ -1,40 +1,38 @@
 .menu {
-    background-color: white;
+    background-color: #004365;
     text-align: center;
     width: 100%;
 
     .menu-item {
         cursor: pointer;
-        color: black;
+        color: rgba(255,255,255,0.6);
         display: inline-block;
-        height: 50px;
         margin-right: -4px;
-        padding: 16px;
+        padding: 22px 16px;
         text-decoration: none;
 
         h2 {
             font-size: 16px !important;
-            font-weight: bold;
+            font-weight: normal;
             margin: 0;         
         }
 
         &:hover h2 {
-            border-bottom:5px solid #004756;
+            color: rgba(255,255,255,0.8);
+        }
+
+        &.menu-item-open h2 {
+            color: #fff !important;
         }
 
         &.menu-item-logo {
-            padding: 5px;
+            padding: 10px 16px 8px 0;
             vertical-align: top;
             
             img {
                 height: 40px;
                 width: 40px;
             }
-        }
-
-        &.menu-item-open {
-            background-color: #004756;
-            color: white;
         }
     }
 }
