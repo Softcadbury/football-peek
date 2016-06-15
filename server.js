@@ -1,6 +1,7 @@
 'use strict';
 
 var config = require('./server/config');
+var items = require('./server/data/items');
 var express = require('express');
 var handlebars = require('express-handlebars');
 var app = express();
@@ -12,8 +13,8 @@ app.use(express.static('data', { maxAge: oneWeek, extensions: ['png'] }));
 
 // Handlebars configuration
 app.set('views', 'client/views');
-app.engine('.hbs', handlebars({ 
-    extname: '.hbs', 
+app.engine('.hbs', handlebars({
+    extname: '.hbs',
     partialsDir: ['client/views/partials/', 'client/views/components/'],
     defaultLayout: __dirname + '/client/views/_layout.hbs'
 }));
@@ -24,6 +25,15 @@ app.listen(config.port, (err) => {
     console.log('running on ' + config.port);
 });
 
+// Restore isActive value for every items
+app.use(function (req, res, next) {
+    items.forEach(function (item) {
+        item.isActive = false;
+    });
+    next();
+});
+
 // Regsiters routes
-var indexRoutes = require('./server/routes/indexRoutes');
-app.use('/', indexRoutes);
+app.use('/', require('./server/routes/sitemapRoute'));
+app.use('/', require('./server/routes/indexRoute'));
+app.use('/', require('./server/routes/itemRoute'));
