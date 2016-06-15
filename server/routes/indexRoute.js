@@ -7,10 +7,6 @@ var router = express.Router();
 // Route for index
 router.route('/')
     .get((req, res) => {
-        items.forEach(function (item) {
-            item.isActive = false;
-        });
-
         var data = {
             title: 'Dashboard Football - Quick access to football results',
             items: items,

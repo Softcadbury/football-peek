@@ -13,8 +13,6 @@ router.route('/:item')
         var currentItem = null;
 
         items.forEach(function (item) {
-            item.isActive = false;
-
             if (req.params.item === item.code) {
                 currentItem = item;
             }
