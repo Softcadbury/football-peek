@@ -1,8 +1,8 @@
 <div id="league">
     {{> ad }}
     <div class="header-sub">
-        <img src="/images/{{currentItem.code}}.png" alt="logo {{currentItem.name}}" />
-        <h1>{{currentItem.name}}</h1>
+        <img src="/images/{{requestedItem.code}}.png" alt="logo {{requestedItem.name}}" />
+        <h1>{{requestedItem.name}}<span class="year">{{requestedYear}}</span></h1>
     </div>
     <br />
     {{> table }}

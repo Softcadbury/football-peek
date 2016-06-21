@@ -39,7 +39,7 @@ function updateData(league) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code, config.years.current), results);
     });
 }
 
