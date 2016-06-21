@@ -44,11 +44,11 @@ function updateData(league) {
         });
 
         for (var i = 0; i < results.length; i++) {
-            var path = helper.stringFormat(config.paths.publicImageData, league.code, helper.stringSanitize(results[i].team));
+            var path = helper.stringFormat(config.paths.publicImageData, league.code, config.currentYear, helper.stringSanitize(results[i].team));
             results[i].logo = path;
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code, config.currentYear), results);
     });
 }
 
