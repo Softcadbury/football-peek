@@ -29,7 +29,8 @@ router.route('/:item/:year?')
         requestedItem.isActive = true;
 
         var data = {
-            title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results',
+            title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
+            description: 'Quick access to ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedYear,
             items: items,
             requestedItem: requestedItem,
             requestedYear: requestedYear
