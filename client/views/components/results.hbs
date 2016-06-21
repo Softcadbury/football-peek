@@ -24,6 +24,10 @@
                 <span>{{this.awayTeam}}</span>
             </td>
         </tr>
+        {{else}}
+        <tr class="component-empty">
+            <td colspan="4">No data</td>
+        </tr>
         {{/each}}
     </table>
 </div>

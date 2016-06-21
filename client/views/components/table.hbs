@@ -35,6 +35,10 @@
             <td>{{this.goalsAgainst}}</td>
             <td>{{this.goalDifference}}</td>
         </tr>
+        {{else}}
+        <tr class="component-empty">
+            <td colspan="10">No data</td>
+        </tr>
         {{/each}}
     </table>
 </div>

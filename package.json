@@ -28,6 +28,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "express-handlebars": "^3.0.0",
+    "file-exists": "^1.0.0",
     "jsonfile": "^2.2.3",
     "sitemap": "^1.6.0"
   }
