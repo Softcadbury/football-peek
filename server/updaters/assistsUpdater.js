@@ -39,7 +39,7 @@ function updateData(item) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, item.code, config.currentYear), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, item.code, config.years.current), results);
     });
 }
 

@@ -41,7 +41,7 @@ function updateData(item) {
             }
         });
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, item.code, config.currentYear), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, item.code, config.years.current), results);
     });
 }
 

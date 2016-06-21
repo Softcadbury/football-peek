@@ -8,12 +8,18 @@ var express = require('express');
 var router = express.Router();
 
 // Route for item
-router.route('/:item')
+router.route('/:item/:year?')
     .get((req, res) => {
+        var requestedYear = null;
         var requestedItem = null;
-        var requestedYear = config.requestedYear;
 
-        items.forEach(function (item) {
+        if (config.years.availables.some(year => req.params.year === year)) {
+            requestedYear = req.params.year;
+        } else {
+            requestedYear = config.years.current;
+        }
+
+        items.forEach(item => {
             if (req.params.item === item.code) {
                 requestedItem = item;
             }
@@ -26,6 +32,7 @@ router.route('/:item')
             title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results',
             items: items,
             requestedItem: requestedItem,
+            requestedYear: requestedYear
         };
 
         if (requestedItem == competitions.championsLeague || requestedItem == competitions.europaLeague) {
