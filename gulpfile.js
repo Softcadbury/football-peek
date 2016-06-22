@@ -19,7 +19,7 @@ gulp.task('update-logos', () => {
 gulp.task('check', () => {
     var jshint = require('gulp-jshint');
     var jscs = require('gulp-jscs');
-    gulp.src(['./*.js', './server/**/*.js'])
+    gulp.src(['./*.js', './server/**/*.js', './client/scripts/**/*.js'])
         .pipe(jscs())
         .pipe(jscs.reporter())
         .pipe(jshint())
@@ -28,6 +28,13 @@ gulp.task('check', () => {
 
 // Build the application
 gulp.task('build', () => {
+    var browserify = require('gulp-browserify');
+    var uglify = require('gulp-uglify');
+    gulp.src('client/scripts/app.js')
+        .pipe(browserify())
+        .pipe(uglify())
+        .pipe(gulp.dest('./build/js'));
+
     var less = require('gulp-less');
     var minifyCSS = require('gulp-minify-css');
     var concatCss = require('gulp-concat-css');
@@ -58,7 +65,7 @@ gulp.task('start', () => {
 
 // Manage build, start the node server and open the browser
 gulp.task('default', ['build', 'start'], () => {
-    gulp.watch(['./client/styles/**/*'], ['build']);
+    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['build']);
 
     var openBrowser = require('gulp-open');
     gulp.src('/').pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));
