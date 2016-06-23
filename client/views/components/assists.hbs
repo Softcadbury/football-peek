@@ -1,3 +1,4 @@
+{{#if assistsData.length}}
 <div class="component-container">
     <table class="component component-big">
         <tr>
@@ -24,10 +25,7 @@
             </td>
             <td>{{this.goals}}</td>
         </tr>
-        {{else}}
-        <tr class="component-empty">
-            <td colspan="4">No data</td>
-        </tr>
         {{/each}}
     </table>
 </div>
+{{/if}}
