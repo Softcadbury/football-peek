@@ -32,6 +32,7 @@ router.route('/:item/:year?')
             title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
             description: 'Quick access to ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedYear,
             items: items,
+            years: config.years.availables,
             requestedItem: requestedItem,
             requestedYear: requestedYear
         };

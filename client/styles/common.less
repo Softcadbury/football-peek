@@ -50,8 +50,9 @@ body {
     display: inline-block;
     margin: 0 0 16px;
     padding: 4px;
+    position: relative;
     
-    img, h1 {
+    img, h1, .dropdown-arrow {
         display: inline-block;
         vertical-align: top;
     }
@@ -64,12 +65,22 @@ body {
     
     h1 {
         margin: 0;
-        padding: 15px 6px;
+        padding: 15px 0 15px 6px;
 
         .year {
+            cursor: pointer;
             font-size: 20px;
             font-weight: normal;
-            padding-left: 15px;    
+            padding-left: 18px;    
         }
+    }
+
+    .dropdown-arrow {
+        margin-top: 24px;
+    }
+
+    .dropdown-content {
+        right: 3px;
+        top: 40px;
     }
 }

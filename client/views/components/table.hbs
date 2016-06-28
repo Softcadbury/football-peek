@@ -1,3 +1,4 @@
+{{#if tableData.length}}
 <div class="component-container">
     <table class="component component-big">
         <tr>
@@ -23,7 +24,7 @@
         <tr>
             <td>{{this.rank}}</td>
             <td class="component-main-column">
-                <img src={{this.logo}} onerror="this.style.display='none'" alt="{{this.team}}" />
+                <img src={{this.logo}} onerror="this.style.display='none'" alt="Logo {{this.team}}" />
                 <span>{{this.team}}</span>
             </td>
             <td>{{this.points}}</td>
@@ -38,3 +39,4 @@
         {{/each}}
     </table>
 </div>
+{{/if}}

@@ -28,7 +28,13 @@ function stringFormat(str) {
 
 // Reads a json file and return its content
 function readJsonFile(path) {
+    var fileExists = require('file-exists');
     var jsonfile = require('jsonfile');
+
+    if (!fileExists(path)) {
+        return [];
+    }
+
     return jsonfile.readFileSync(path, { throws: false });
 }
 

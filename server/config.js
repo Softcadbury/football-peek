@@ -14,7 +14,7 @@ function config() {
         },
         years: {
             current: '2015-2016',
-            availables: ['2015-2016']
+            availables: ['2015-2016', '2014-2015']
         }
     };
 }
