@@ -24,7 +24,9 @@
         <tr>
             <td>{{this.rank}}</td>
             <td class="component-main-column">
-                <img src={{this.logo}} onerror="this.style.display='none'" alt="Logo {{this.team}}" />
+                {{#if this.logo}}
+                <img src={{this.logo}} alt="Logo {{this.team}}" />
+                {{/if}}
                 <span>{{this.team}}</span>
             </td>
             <td>{{this.points}}</td>
