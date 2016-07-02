@@ -5,13 +5,13 @@ var leagues = require('./leagues');
 
 function items() {
     return [
-        competitions.championsLeague,
-        competitions.europaLeague,
-        leagues.bundesliga,
+        leagues.premierLeague,
         leagues.liga,
         leagues.ligue1,
-        leagues.premierLeague,
-        leagues.serieA
+        leagues.serieA,
+        leagues.bundesliga,
+        competitions.championsLeague,
+        competitions.europaLeague
     ];
 }
 
