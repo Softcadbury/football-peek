@@ -16,7 +16,7 @@ items.forEach(item => {
     config.years.availables.forEach(year => {
         var changefreq = year == config.years.current ? 'daily' : 'weekly';
         sitemap.add({ url: '/' + item.code + '/' + year + '/', changefreq: changefreq });
-    })
+    });
 });
 
 router.route('/sitemap.xml')

@@ -26,6 +26,13 @@ gulp.task('check', () => {
         .pipe(jshint.reporter('jshint-stylish', { verbose: true }));
 });
 
+// Run tests
+gulp.task('test', () => {
+    var mocha = require('gulp-mocha');
+    gulp.src('./tests/*.js', { read: false })
+        .pipe(mocha({ reporter: 'spec' }));
+});
+
 // Build the application
 gulp.task('build', () => {
     var browserify = require('gulp-browserify');
