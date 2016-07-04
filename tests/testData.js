@@ -34,7 +34,8 @@ function testTableData(code, year) {
         assert.lengthOf(data, expectedNumber);
     });
 
-    testDataNotEmpty('Table', data);
+    testDataIsNotEmpty('Table', data);
+    testDataIsNumber('Table', data);
 }
 
 function testScorersData(code, year) {
@@ -44,7 +45,8 @@ function testScorersData(code, year) {
         assert.lengthOf(data, 20);
     });
 
-    testDataNotEmpty('Scorers', data);
+    testDataIsNotEmpty('Scorers', data);
+    testDataIsNumber('Scorers', data);
 }
 
 function testAssistsData(code, year) {
@@ -54,14 +56,27 @@ function testAssistsData(code, year) {
         assert.lengthOf(data, 20);
     });
 
-    testDataNotEmpty('Assists', data);
+    testDataIsNotEmpty('Assists', data);
+    testDataIsNumber('Assists', data);
 }
 
-function testDataNotEmpty(dataName, data) {
+function testDataIsNotEmpty(dataName, data) {
     it(dataName + ' should not have empty data', () => {
         data.forEach((item, index) => {
             for (var key in item) {
                 assert.notEqual('', item[key], 'Key "' + key + '" is empty for item ' + index);
+            }
+        });
+    });
+}
+
+function testDataIsNumber(dataName, data) {
+    it(dataName + ' should have number data', () => {
+        data.forEach((item, index) => {
+            for (var key in item) {
+                if (key != 'rank' && key != 'team' && key != 'name' && key != 'logo' && key != 'goalDifference') {
+                    assert.isFalse(isNaN(item[key]), 'Key "' + key + '" is not a number for item ' + index + ', with the value "' + item[key] + '"');
+                }
             }
         });
     });
