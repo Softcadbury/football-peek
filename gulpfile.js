@@ -19,7 +19,7 @@ gulp.task('update-logos', () => {
 gulp.task('check', () => {
     var jshint = require('gulp-jshint');
     var jscs = require('gulp-jscs');
-    gulp.src(['./*.js', './server/**/*.js', './client/scripts/**/*.js'])
+    gulp.src(['./*.js', './server/**/*.js', './tests/**/*.js', './client/scripts/**/*.js'])
         .pipe(jscs())
         .pipe(jscs.reporter())
         .pipe(jshint())

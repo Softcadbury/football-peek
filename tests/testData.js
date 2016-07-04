@@ -1,3 +1,4 @@
+/* global describe, it */
 'use strict';
 
 var assert = require('chai').assert;
@@ -12,11 +13,11 @@ describe('Data intergrity', () => {
         describe(item.name, () => {
             config.years.availables.forEach(year => {
                 describe(year, () => {
-                    if (item.code != competitions.championsLeague.code && item.code != competitions.europaLeague.code) {
+                    if (item.code !== competitions.championsLeague.code && item.code !== competitions.europaLeague.code) {
                         testTableData(item.code, year);
                     }
 
-                    if (year == config.years.current) {
+                    if (year === config.years.current) {
                         testScorersData(item.code, year);
                         testAssistsData(item.code, year);
                     }
@@ -30,7 +31,7 @@ function testTableData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.tableData, code, year));
 
     it('Table should have the right number of teams', () => {
-        var expectedNumber = code == leagues.bundesliga.code ? 18 : 20;
+        var expectedNumber = code === leagues.bundesliga.code ? 18 : 20;
         assert.lengthOf(data, expectedNumber);
     });
 
@@ -64,7 +65,9 @@ function testDataIsNotEmpty(dataName, data) {
     it(dataName + ' should not have empty data', () => {
         data.forEach((item, index) => {
             for (var key in item) {
-                assert.notEqual('', item[key], 'Key "' + key + '" is empty for item ' + index);
+                if (item.hasOwnProperty(key)) {
+                    assert.notEqual('', item[key], 'Key "' + key + '" is empty for item ' + index);
+                }
             }
         });
     });
@@ -74,7 +77,7 @@ function testDataIsNumber(dataName, data) {
     it(dataName + ' should have number data', () => {
         data.forEach((item, index) => {
             for (var key in item) {
-                if (key != 'rank' && key != 'team' && key != 'name' && key != 'logo' && key != 'goalDifference') {
+                if (item.hasOwnProperty(key) && key !== 'rank' && key !== 'team' && key !== 'name' && key !== 'logo' && key !== 'goalDifference') {
                     assert.isFalse(isNaN(item[key]), 'Key "' + key + '" is not a number for item ' + index + ', with the value "' + item[key] + '"');
                 }
             }
