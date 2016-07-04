@@ -37,7 +37,7 @@ router.route('/:item/:year?')
             requestedYear: requestedYear
         };
 
-        if (requestedItem == competitions.championsLeague || requestedItem == competitions.europaLeague) {
+        if (requestedItem === competitions.championsLeague || requestedItem === competitions.europaLeague) {
             res.render('competition', Object.assign(data, {
                 scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
                 assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))

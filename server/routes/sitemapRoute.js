@@ -14,7 +14,7 @@ items.forEach(item => {
     sitemap.add({ url: '/' + item.code + '/', changefreq: 'daily' });
 
     config.years.availables.forEach(year => {
-        var changefreq = year == config.years.current ? 'daily' : 'weekly';
+        var changefreq = year === config.years.current ? 'daily' : 'weekly';
         sitemap.add({ url: '/' + item.code + '/' + year + '/', changefreq: changefreq });
     });
 });
