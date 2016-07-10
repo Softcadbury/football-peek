@@ -1,0 +1,27 @@
+{{#if tournamentData.length}}
+<div class="component-container">
+    <table class="component component-large">
+        {{#each tournamentData}}
+        <tr>
+            <td colspan="4">
+                <div class="component-title">
+                    <h3>{{this.name}}</h3>
+                </div>
+            </td>
+        </tr>
+        {{#each this.results}}
+        <tr>
+            <td>{{this.date}}</td>
+            <td class="component-main-column component-right-column">
+                <span>{{this.team1}}</span>
+            </td>
+            <td>{{this.score}}</td>
+            <td class="component-main-column">
+                <span>{{this.team2}}</span>
+            </td>
+        </tr>
+        {{/each}}
+        {{/each}}
+    </table>
+</div>
+{{/if}}

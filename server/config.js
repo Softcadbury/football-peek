@@ -9,6 +9,7 @@ function config() {
             scorersData: './data/{0}/{1}/scorers.json',
             assistsData: './data/{0}/{1}/assists.json',
             resultsData: './data/{0}/{1}/results.json',
+            tournamentData: './data/{0}/{1}/tournament.json',
             imageData: './data/{0}/{1}/images/{2}.png',
             publicImageData: '/{0}/{1}/images/{2}.png'
         },
