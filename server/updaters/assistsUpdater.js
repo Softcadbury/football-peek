@@ -25,7 +25,7 @@ function update() {
 
 // Updates the assists of a item
 function updateData(item) {
-    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, item.url, config.years.current), function($) {
+    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, item.url, config.years.current), function ($) {
         var results = [];
 
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
