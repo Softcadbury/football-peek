@@ -9,8 +9,8 @@ function config() {
             scorersData: './data/{0}/{1}/scorers.json',
             assistsData: './data/{0}/{1}/assists.json',
             resultsData: './data/{0}/{1}/results.json',
-            imageData: './data/{0}/{1}/images/{2}.png',
-            publicImageData: '/{0}/{1}/images/{2}.png'
+            logosData: './data/images/logos/{0}.png',
+            flagsData: './data/images/flags/{0}.png'
         },
         years: {
             current: '2015-2016',

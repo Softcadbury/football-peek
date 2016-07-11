@@ -5,7 +5,7 @@ var helper = require('../helper');
 var leagues = require('../data/leagues');
 var competitions = require('../data/competitions');
 
-var assistsDataUrl = 'http://www.worldfootball.net/assists/{0}-2015-2016';
+var assistsDataUrl = 'http://www.worldfootball.net/assists/{0}-{1}';
 var itemsExtended = [
     { code: leagues.bundesliga.code, url: 'bundesliga' },
     { code: leagues.liga.code, url: 'esp-primera-division' },
@@ -25,7 +25,7 @@ function update() {
 
 // Updates the assists of a item
 function updateData(item) {
-    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, item.url), function($) {
+    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, item.url, config.years.current), function($) {
         var results = [];
 
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
@@ -34,11 +34,23 @@ function updateData(item) {
                     rank: $(elem).find('td:nth-child(1) > b').text() || '-',
                     name: $(elem).find(' td:nth-child(2) > a').text(),
                     country: $(elem).find('td:nth-child(4)').text(),
+                    flagSrc: $(elem).find('td:nth-child(3) > img').attr('src'),
                     team: $(elem).find('td:nth-child(5) > a:nth-child(2)').text(),
+                    logoSrc: $(elem).find('td:nth-child(5) > a:nth-child(1) > img').attr('src'),
                     goals: $(elem).find('td:nth-child(6) > b').text()
                 });
             }
         });
+
+        for (var i = 0; i < results.length; i++) {
+            results[i].flag = helper.stringSanitize(results[i].country);
+            helper.downloadImage('http:' + results[i].flagSrc, helper.stringFormat(config.paths.flagsData, results[i].flag));
+            delete results[i].flagSrc;
+
+            results[i].logo = helper.stringSanitize(results[i].team);
+            helper.downloadImage('http:' + results[i].logoSrc, helper.stringFormat(config.paths.logosData, results[i].logo));
+            delete results[i].logoSrc;
+        }
 
         helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, item.code, config.years.current), results);
     });

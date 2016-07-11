@@ -64,10 +64,22 @@ function scrapeUrl(url, callback) {
     });
 }
 
+// Download an image in a path
+function downloadImage(src, path) {
+    var request = require('request');
+    var fs = require('fs');
+    request.head(src, function(err, res, body) {
+        request(src).pipe(fs.createWriteStream(path)).on('close', function() {
+            console.log('Image updated: ' + path);
+        });
+    });
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl
+    scrapeUrl: scrapeUrl,
+    downloadImage: downloadImage
 };
