@@ -1,7 +1,7 @@
 [
     {
         "rank": "1",
-        "team": "Montpellier",
+        "team": "Montpellier HSC",
         "points": "82",
         "played": "38",
         "win": "25",
@@ -9,11 +9,12 @@
         "lost": "6",
         "goalsFor": "68",
         "goalsAgainst": "34",
-        "goalDifference": "+34"
+        "goalDifference": "34",
+        "logo": "montpellier_hsc"
     },
     {
         "rank": "2",
-        "team": "Paris Saint-Germain",
+        "team": "Paris Saint-Germain",
         "points": "79",
         "played": "38",
         "win": "23",
@@ -21,11 +22,12 @@
         "lost": "5",
         "goalsFor": "75",
         "goalsAgainst": "41",
-        "goalDifference": "+34"
+        "goalDifference": "34",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "3",
-        "team": "Lille",
+        "team": "Lille OSC",
         "points": "74",
         "played": "38",
         "win": "21",
@@ -33,11 +35,12 @@
         "lost": "6",
         "goalsFor": "72",
         "goalsAgainst": "39",
-        "goalDifference": "+33"
+        "goalDifference": "33",
+        "logo": "lille_osc"
     },
     {
         "rank": "4",
-        "team": "Lyon",
+        "team": "Olympique Lyon",
         "points": "64",
         "played": "38",
         "win": "19",
@@ -45,11 +48,12 @@
         "lost": "12",
         "goalsFor": "64",
         "goalsAgainst": "51",
-        "goalDifference": "+13"
+        "goalDifference": "13",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "5",
-        "team": "Bordeaux",
+        "team": "Girondins Bordeaux",
         "points": "61",
         "played": "38",
         "win": "16",
@@ -57,11 +61,12 @@
         "lost": "9",
         "goalsFor": "53",
         "goalsAgainst": "41",
-        "goalDifference": "+12"
+        "goalDifference": "12",
+        "logo": "girondins_bordeaux"
     },
     {
         "rank": "6",
-        "team": "Rennes",
+        "team": "Stade Rennes",
         "points": "60",
         "played": "38",
         "win": "17",
@@ -69,11 +74,12 @@
         "lost": "12",
         "goalsFor": "53",
         "goalsAgainst": "44",
-        "goalDifference": "+9"
+        "goalDifference": "9",
+        "logo": "stade_rennes"
     },
     {
         "rank": "7",
-        "team": "Saint-Étienne",
+        "team": "AS Saint-Étienne",
         "points": "57",
         "played": "38",
         "win": "16",
@@ -81,11 +87,12 @@
         "lost": "13",
         "goalsFor": "49",
         "goalsAgainst": "45",
-        "goalDifference": "+4"
+        "goalDifference": "4",
+        "logo": "as_saint_etienne"
     },
     {
         "rank": "8",
-        "team": "Toulouse",
+        "team": "Toulouse FC",
         "points": "56",
         "played": "38",
         "win": "15",
@@ -93,11 +100,12 @@
         "lost": "12",
         "goalsFor": "37",
         "goalsAgainst": "34",
-        "goalDifference": "+3"
+        "goalDifference": "3",
+        "logo": "toulouse_fc"
     },
     {
         "rank": "9",
-        "team": "Evian",
+        "team": "Évian Thonon Gaillard",
         "points": "50",
         "played": "38",
         "win": "13",
@@ -105,11 +113,12 @@
         "lost": "14",
         "goalsFor": "54",
         "goalsAgainst": "55",
-        "goalDifference": "−1"
+        "goalDifference": "-1",
+        "logo": "evian_thonon_gaillard"
     },
     {
         "rank": "10",
-        "team": "Marseille",
+        "team": "Olympique Marseille",
         "points": "48",
         "played": "38",
         "win": "12",
@@ -117,11 +126,12 @@
         "lost": "14",
         "goalsFor": "45",
         "goalsAgainst": "41",
-        "goalDifference": "+4"
+        "goalDifference": "4",
+        "logo": "olympique_marseille"
     },
     {
         "rank": "11",
-        "team": "Nancy",
+        "team": "AS Nancy",
         "points": "45",
         "played": "38",
         "win": "11",
@@ -129,11 +139,12 @@
         "lost": "15",
         "goalsFor": "38",
         "goalsAgainst": "48",
-        "goalDifference": "−10"
+        "goalDifference": "-10",
+        "logo": "as_nancy"
     },
     {
         "rank": "12",
-        "team": "Valenciennes",
+        "team": "Valenciennes FC",
         "points": "43",
         "played": "38",
         "win": "12",
@@ -141,11 +152,12 @@
         "lost": "19",
         "goalsFor": "40",
         "goalsAgainst": "50",
-        "goalDifference": "−10"
+        "goalDifference": "-10",
+        "logo": "valenciennes_fc"
     },
     {
         "rank": "13",
-        "team": "Nice",
+        "team": "OGC Nice",
         "points": "42",
         "played": "38",
         "win": "10",
@@ -153,11 +165,12 @@
         "lost": "16",
         "goalsFor": "39",
         "goalsAgainst": "46",
-        "goalDifference": "−7"
+        "goalDifference": "-7",
+        "logo": "ogc_nice"
     },
     {
         "rank": "14",
-        "team": "Sochaux",
+        "team": "FC Sochaux",
         "points": "42",
         "played": "38",
         "win": "11",
@@ -165,11 +178,12 @@
         "lost": "18",
         "goalsFor": "40",
         "goalsAgainst": "60",
-        "goalDifference": "−20"
+        "goalDifference": "-20",
+        "logo": "fc_sochaux"
     },
     {
         "rank": "15",
-        "team": "Brest",
+        "team": "Stade Brest",
         "points": "41",
         "played": "38",
         "win": "8",
@@ -177,11 +191,12 @@
         "lost": "13",
         "goalsFor": "31",
         "goalsAgainst": "38",
-        "goalDifference": "−7"
+        "goalDifference": "-7",
+        "logo": "stade_brest"
     },
     {
         "rank": "16",
-        "team": "Ajaccio",
+        "team": "AC Ajaccio",
         "points": "41",
         "played": "38",
         "win": "9",
@@ -189,11 +204,12 @@
         "lost": "15",
         "goalsFor": "40",
         "goalsAgainst": "61",
-        "goalDifference": "−21"
+        "goalDifference": "-21",
+        "logo": "ac_ajaccio"
     },
     {
         "rank": "17",
-        "team": "Lorient",
+        "team": "FC Lorient",
         "points": "39",
         "played": "38",
         "win": "9",
@@ -201,11 +217,12 @@
         "lost": "17",
         "goalsFor": "35",
         "goalsAgainst": "49",
-        "goalDifference": "−14"
+        "goalDifference": "-14",
+        "logo": "fc_lorient"
     },
     {
         "rank": "18",
-        "team": "Caen",
+        "team": "SM Caen",
         "points": "38",
         "played": "38",
         "win": "9",
@@ -213,11 +230,12 @@
         "lost": "18",
         "goalsFor": "39",
         "goalsAgainst": "59",
-        "goalDifference": "−20"
+        "goalDifference": "-20",
+        "logo": "sm_caen"
     },
     {
         "rank": "19",
-        "team": "Dijon",
+        "team": "Dijon FCO",
         "points": "36",
         "played": "38",
         "win": "9",
@@ -225,11 +243,12 @@
         "lost": "20",
         "goalsFor": "38",
         "goalsAgainst": "63",
-        "goalDifference": "−25"
+        "goalDifference": "-25",
+        "logo": "dijon_fco"
     },
     {
         "rank": "20",
-        "team": "Auxerre",
+        "team": "AJ Auxerre",
         "points": "34",
         "played": "38",
         "win": "7",
@@ -237,6 +256,7 @@
         "lost": "18",
         "goalsFor": "46",
         "goalsAgainst": "57",
-        "goalDifference": "−11"
+        "goalDifference": "-11",
+        "logo": "aj_auxerre"
     }
 ]

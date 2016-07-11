@@ -41,6 +41,7 @@ function readJsonFile(path) {
 // Writes content in a json file
 function writeJsonFile(path, content) {
     var fs = require('fs');
+
     fs.writeFile(path, JSON.stringify(content, null, 4), (err) => {
         if (err) {
             console.log(err);
@@ -54,6 +55,7 @@ function writeJsonFile(path, content) {
 function scrapeUrl(url, callback) {
     var request = require('request');
     var cheerio = require('cheerio');
+
     request(url, (err, resp, body) => {
         if (err) {
             console.log(err);
@@ -64,10 +66,26 @@ function scrapeUrl(url, callback) {
     });
 }
 
+// Download an image in a path
+function downloadImage(src, path) {
+    var fileExists = require('file-exists');
+    var request = require('request');
+    var fs = require('fs');
+
+    if (!fileExists(path)) {
+        request.head(src, function(err, res, body) {
+            request(src).pipe(fs.createWriteStream(path)).on('close', function() {
+                console.log('Image updated: ' + path);
+            });
+        });
+    }
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl
+    scrapeUrl: scrapeUrl,
+    downloadImage: downloadImage
 };

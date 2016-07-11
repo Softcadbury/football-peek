@@ -16,11 +16,9 @@ describe('Data intergrity', () => {
                     if (item.code !== competitions.championsLeague.code && item.code !== competitions.europaLeague.code) {
                         testTableData(item.code, year);
                     }
-
-                    if (year === config.years.current) {
-                        testScorersData(item.code, year);
-                        testAssistsData(item.code, year);
-                    }
+                    
+                    testScorersData(item.code, year);
+                    testAssistsData(item.code, year);
                 });
             });
         });
@@ -77,7 +75,7 @@ function testDataIsNumber(dataName, data) {
     it(dataName + ' should have number data', () => {
         data.forEach((item, index) => {
             for (var key in item) {
-                if (item.hasOwnProperty(key) && key !== 'rank' && key !== 'country' && key !== 'team' && key !== 'name' && key !== 'logo' && key !== 'goalDifference') {
+                if (item.hasOwnProperty(key) && key !== 'rank' && key !== 'country' && key !== 'team' && key !== 'name' && key !== 'logo' && key !== 'flag' && key !== 'goalDifference') {
                     assert.isFalse(isNaN(item[key]), 'Key "' + key + '" is not a number for item ' + index + ', with the value "' + item[key] + '"');
                 }
             }
