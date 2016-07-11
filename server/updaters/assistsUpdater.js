@@ -5,15 +5,15 @@ var helper = require('../helper');
 var leagues = require('../data/leagues');
 var competitions = require('../data/competitions');
 
-var assistsDataUrl = 'http://www.espnfc.com/{0}/statistics/assists';
+var assistsDataUrl = 'http://www.worldfootball.net/assists/{0}-2015-2016';
 var itemsExtended = [
-    { code: leagues.bundesliga.code, url: 'german-bundesliga/10' },
-    { code: leagues.liga.code, url: 'spanish-primera-division/15' },
-    { code: leagues.ligue1.code, url: 'french-ligue-1/9' },
-    { code: leagues.serieA.code, url: 'italian-serie-a/12' },
-    { code: leagues.premierLeague.code, url: 'barclays-premier-league/23' },
-    { code: competitions.championsLeague.code, url: 'uefa-champions-league/2' },
-    { code: competitions.europaLeague.code, url: 'uefa-europa-league/2310' }
+    { code: leagues.bundesliga.code, url: 'bundesliga' },
+    { code: leagues.liga.code, url: 'esp-primera-division' },
+    { code: leagues.ligue1.code, url: 'fra-ligue-1' },
+    { code: leagues.serieA.code, url: 'ita-serie-a' },
+    { code: leagues.premierLeague.code, url: 'eng-premier-league' },
+    { code: competitions.championsLeague.code, url: 'champions-league' },
+    { code: competitions.europaLeague.code, url: 'europa-league' }
 ];
 
 // Updates assists of current year
@@ -28,13 +28,14 @@ function updateData(item) {
     helper.scrapeUrl(helper.stringFormat(assistsDataUrl, item.url), function($) {
         var results = [];
 
-        $('#stats-top-assists > div > table > tbody > tr').each((index, elem) => {
-            if (index < 20) {
+        $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
+            if (index > 0 && index <= 20) {
                 results.push({
-                    rank: $(elem).find('td[headers=rank]').text() || '-',
-                    name: $(elem).find('td[headers=player]').text(),
-                    team: $(elem).find('td[headers=team]').text(),
-                    goals: $(elem).find('td[headers=goals]').text()
+                    rank: $(elem).find('td:nth-child(1) > b').text() || '-',
+                    name: $(elem).find(' td:nth-child(2) > a').text(),
+                    country: $(elem).find('td:nth-child(4)').text(),
+                    team: $(elem).find('td:nth-child(5) > a:nth-child(2)').text(),
+                    goals: $(elem).find('td:nth-child(6) > b').text()
                 });
             }
         });
