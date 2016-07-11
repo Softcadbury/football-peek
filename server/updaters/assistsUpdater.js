@@ -31,7 +31,7 @@ function updateData(item) {
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
             if (index > 0 && index <= 20) {
                 results.push({
-                    rank: $(elem).find('td:nth-child(1) > b').text(),
+                    rank: $(elem).find('td:nth-child(1) > b').text() || '-',
                     name: $(elem).find(' td:nth-child(2) > a').text(),
                     country: $(elem).find('td:nth-child(4)').text(),
                     team: $(elem).find('td:nth-child(5) > a:nth-child(2)').text(),
