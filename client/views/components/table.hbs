@@ -24,10 +24,8 @@
         <tr>
             <td>{{this.rank}}</td>
             <td class="component-main-column">
-                {{#if this.logo}}
-                <img src="/images/logos/{{this.logo}}.png" alt="Logo {{this.team}}" />
-                {{/if}}
-                <span>{{this.team}}</span>
+                <img src="/images/logos/{{this.logo}}.png" title="{{this.team}}" alt="Logo {{this.team}}" />
+                <span title="{{this.team}}">{{this.team}}</span>
             </td>
             <td>{{this.points}}</td>
             <td>{{this.played}}</td>
