@@ -26,7 +26,7 @@ function updateData(league) {
         var results = [];
 
         $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle > tr').each((index, elem) => {
-            if (index > 0 && index <= 20) {
+            if (index > 0) {
                 results.push({
                     rank: $(elem).find('td:nth-child(1)').text(),
                     team: $(elem).find('td:nth-child(3) > a').text(),

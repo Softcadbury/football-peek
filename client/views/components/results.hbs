@@ -8,20 +8,16 @@
                 </div>
             </td>
         </tr>
-        <tr>
-            <th title="Date">Date</th>
-            <th class="component-main-column"></th>
-            <th title="Score">Score</th>
-            <th class="component-main-column"></th>
-        </tr>
         {{#each resultsData}}
         <tr>
             <td>{{this.date}}</td>
             <td class="component-main-column component-right-column">
                 <span>{{this.homeTeam}}</span>
+                <img src="/images/logos/{{this.homeLogo}}.png" title="{{this.homeTeam}}" alt="Logo {{this.homeTeam}}" />
             </td>
             <td>{{this.score}}</td>
             <td class="component-main-column">
+                <img src="/images/logos/{{this.awayLogo}}.png" title="{{this.awayTeam}}" alt="Logo {{this.awayTeam}}" />
                 <span>{{this.awayTeam}}</span>
             </td>
         </tr>

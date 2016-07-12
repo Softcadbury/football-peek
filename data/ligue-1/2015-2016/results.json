@@ -1,62 +1,82 @@
 [
     {
-        "date": "14/5/2016",
-        "homeTeam": "Monaco",
-        "awayTeam": "Montpellier",
-        "score": "2-0"
+        "date": "14/05/2016",
+        "homeTeam": "Angers SCO",
+        "awayTeam": "Toulouse FC",
+        "score": "2:3",
+        "homeLogo": "angers_sco",
+        "awayLogo": "toulouse_fc"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "Angers",
-        "awayTeam": "Toulouse",
-        "score": "2-3"
+        "date": "",
+        "homeTeam": "AS Monaco",
+        "awayTeam": "Montpellier HSC",
+        "score": "2:0",
+        "homeLogo": "as_monaco",
+        "awayLogo": "montpellier_hsc"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "Troyes",
-        "awayTeam": "Marseille",
-        "score": "1-1"
+        "date": "",
+        "homeTeam": "AS Saint-Étienne",
+        "awayTeam": "Lille OSC",
+        "score": "0:1",
+        "homeLogo": "as_saint_etienne",
+        "awayLogo": "lille_osc"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "Lorient",
+        "date": "",
+        "homeTeam": "EA Guingamp",
+        "awayTeam": "OGC Nice",
+        "score": "2:3",
+        "homeLogo": "ea_guingamp",
+        "awayLogo": "ogc_nice"
+    },
+    {
+        "date": "",
+        "homeTeam": "ESTAC Troyes",
+        "awayTeam": "Olympique Marseille",
+        "score": "1:1",
+        "homeLogo": "estac_troyes",
+        "awayLogo": "olympique_marseille"
+    },
+    {
+        "date": "",
+        "homeTeam": "FC Lorient",
         "awayTeam": "GFC Ajaccio",
-        "score": "1-0"
+        "score": "1:0",
+        "homeLogo": "fc_lorient",
+        "awayLogo": "gfc_ajaccio"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "Saint-Etienne",
-        "awayTeam": "Lille",
-        "score": "0-1"
+        "date": "",
+        "homeTeam": "Paris Saint-Germain",
+        "awayTeam": "FC Nantes",
+        "score": "4:0",
+        "homeLogo": "paris_saint_germain",
+        "awayLogo": "fc_nantes"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "Guingamp",
-        "awayTeam": "Nice",
-        "score": "2-3"
+        "date": "",
+        "homeTeam": "SM Caen",
+        "awayTeam": "Girondins Bordeaux",
+        "score": "1:0",
+        "homeLogo": "sm_caen",
+        "awayLogo": "girondins_bordeaux"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "PSG",
-        "awayTeam": "Nantes",
-        "score": "4-0"
+        "date": "",
+        "homeTeam": "Stade Reims",
+        "awayTeam": "Olympique Lyon",
+        "score": "4:1",
+        "homeLogo": "stade_reims",
+        "awayLogo": "olympique_lyon"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "Caen",
-        "awayTeam": "Bordeaux",
-        "score": "1-0"
-    },
-    {
-        "date": "14/5/2016",
-        "homeTeam": "Reims",
-        "awayTeam": "Lyon",
-        "score": "4-1"
-    },
-    {
-        "date": "14/5/2016",
-        "homeTeam": "Rennes",
-        "awayTeam": "Bastia",
-        "score": "1-2"
+        "date": "",
+        "homeTeam": "Stade Rennes",
+        "awayTeam": "SC Bastia",
+        "score": "1:2",
+        "homeLogo": "stade_rennes",
+        "awayLogo": "sc_bastia"
     }
 ]

@@ -1,62 +1,82 @@
 [
     {
-        "date": "15/5/2016",
-        "homeTeam": "Everton",
-        "awayTeam": "Norwich",
-        "score": "3-0"
-    },
-    {
-        "date": "15/5/2016",
-        "homeTeam": "Watford",
-        "awayTeam": "Sunderland",
-        "score": "2-2"
-    },
-    {
-        "date": "15/5/2016",
-        "homeTeam": "Arsenal",
+        "date": "15/05/2016",
+        "homeTeam": "Arsenal FC",
         "awayTeam": "Aston Villa",
-        "score": "4-0"
+        "score": "4:0",
+        "homeLogo": "arsenal_fc",
+        "awayLogo": "aston_villa"
     },
     {
-        "date": "15/5/2016",
-        "homeTeam": "Southampton",
-        "awayTeam": "Crystal Palace",
-        "score": "4-1"
-    },
-    {
-        "date": "15/5/2016",
-        "homeTeam": "Chelsea",
+        "date": "",
+        "homeTeam": "Chelsea FC",
         "awayTeam": "Leicester City",
-        "score": "1-1"
+        "score": "1:1",
+        "homeLogo": "chelsea_fc",
+        "awayLogo": "leicester_city"
     },
     {
-        "date": "15/5/2016",
-        "homeTeam": "West Brom",
-        "awayTeam": "Liverpool",
-        "score": "1-1"
+        "date": "",
+        "homeTeam": "Everton FC",
+        "awayTeam": "Norwich City",
+        "score": "3:0",
+        "homeLogo": "everton_fc",
+        "awayLogo": "norwich_city"
     },
     {
-        "date": "15/5/2016",
+        "date": "",
+        "homeTeam": "Newcastle United",
+        "awayTeam": "Tottenham Hotspur",
+        "score": "5:1",
+        "homeLogo": "newcastle_united",
+        "awayLogo": "tottenham_hotspur"
+    },
+    {
+        "date": "",
+        "homeTeam": "Southampton FC",
+        "awayTeam": "Crystal Palace",
+        "score": "4:1",
+        "homeLogo": "southampton_fc",
+        "awayLogo": "crystal_palace"
+    },
+    {
+        "date": "",
+        "homeTeam": "Stoke City",
+        "awayTeam": "West Ham United",
+        "score": "2:1",
+        "homeLogo": "stoke_city",
+        "awayLogo": "west_ham_united"
+    },
+    {
+        "date": "",
         "homeTeam": "Swansea City",
         "awayTeam": "Manchester City",
-        "score": "1-1"
+        "score": "1:1",
+        "homeLogo": "swansea_city",
+        "awayLogo": "manchester_city"
     },
     {
-        "date": "15/5/2016",
-        "homeTeam": "Newcastle",
-        "awayTeam": "Tottenham",
-        "score": "5-1"
+        "date": "",
+        "homeTeam": "Watford FC",
+        "awayTeam": "Sunderland AFC",
+        "score": "2:2",
+        "homeLogo": "watford_fc",
+        "awayLogo": "sunderland_afc"
     },
     {
-        "date": "15/5/2016",
-        "homeTeam": "Stoke City",
-        "awayTeam": "West Ham",
-        "score": "2-1"
+        "date": "",
+        "homeTeam": "West Bromwich Albion",
+        "awayTeam": "Liverpool FC",
+        "score": "1:1",
+        "homeLogo": "west_bromwich_albion",
+        "awayLogo": "liverpool_fc"
     },
     {
-        "date": "17/5/2016",
+        "date": "17/05/2016",
         "homeTeam": "Manchester United",
-        "awayTeam": "Bournemouth",
-        "score": "3-1"
+        "awayTeam": "AFC Bournemouth",
+        "score": "3:1",
+        "homeLogo": "manchester_united",
+        "awayLogo": "afc_bournemouth"
     }
 ]
