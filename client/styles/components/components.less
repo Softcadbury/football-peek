@@ -13,12 +13,10 @@
     overflow: hidden;
 
     &.component-big {
-        height: 470px;
         width: 470px;
     }
 
     &.component-large {
-        height: 230px;
         width: 470px;
     }
 
@@ -26,7 +24,7 @@
         h3 {
             display: inline-block;
             font-size: 14px;
-            margin: 3px 0;
+            margin: 3px 0 5px;
         }
     }
 
@@ -35,6 +33,7 @@
     }
 
     th, td {
+        padding: 3px 0;
         text-align: center;
     }
 
@@ -61,5 +60,15 @@
 
     .component-right-column {
         text-align: right;
+    }
+
+    .component-score-column {
+        padding: 0 8px;
+    }
+
+    .component-country-column {
+        span {
+            max-width: 90px;
+        }
     }
 }

@@ -12,13 +12,13 @@
         <tr>
             <td>{{this.date}}</td>
             <td class="component-main-column component-right-column">
-                <span>{{this.homeTeam}}</span>
+                <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
                 <img src="/images/logos/{{this.homeLogo}}.png" title="{{this.homeTeam}}" alt="Logo {{this.homeTeam}}" />
             </td>
-            <td>{{this.score}}</td>
+            <td class="component-score-column">{{this.score}}</td>
             <td class="component-main-column">
                 <img src="/images/logos/{{this.awayLogo}}.png" title="{{this.awayTeam}}" alt="Logo {{this.awayTeam}}" />
-                <span>{{this.awayTeam}}</span>
+                <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
             </td>
         </tr>
         {{/each}}
