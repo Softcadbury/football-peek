@@ -16,7 +16,7 @@ describe('Data intergrity', () => {
                     if (item.code !== competitions.championsLeague.code && item.code !== competitions.europaLeague.code) {
                         testTableData(item.code, year);
                     }
-                    
+
                     testScorersData(item.code, year);
                     testAssistsData(item.code, year);
                 });

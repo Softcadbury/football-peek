@@ -1,62 +1,82 @@
 [
     {
-        "date": "13/5/2016",
-        "homeTeam": "Valencia",
+        "date": "13/05/2016",
+        "homeTeam": "Valencia CF",
         "awayTeam": "Real Sociedad",
-        "score": "0-1"
+        "score": "0:1",
+        "homeLogo": "valencia_cf",
+        "awayLogo": "real_sociedad"
     },
     {
-        "date": "14/5/2016",
-        "homeTeam": "Granada",
-        "awayTeam": "Barcelona",
-        "score": "0-3"
-    },
-    {
-        "date": "14/5/2016",
+        "date": "14/05/2016",
         "homeTeam": "Deportivo La Coruña",
         "awayTeam": "Real Madrid",
-        "score": "0-2"
+        "score": "0:2",
+        "homeLogo": "deportivo_la_coruna",
+        "awayLogo": "real_madrid"
     },
     {
-        "date": "14/5/2016",
+        "date": "",
+        "homeTeam": "Granada CF",
+        "awayTeam": "FC Barcelona",
+        "score": "0:3",
+        "homeLogo": "granada_cf",
+        "awayLogo": "fc_barcelona"
+    },
+    {
+        "date": "",
         "homeTeam": "Athletic Bilbao",
-        "awayTeam": "Sevilla",
-        "score": "3-1"
+        "awayTeam": "Sevilla FC",
+        "score": "3:1",
+        "homeLogo": "athletic_bilbao",
+        "awayLogo": "sevilla_fc"
     },
     {
-        "date": "14/5/2016",
+        "date": "",
         "homeTeam": "Atlético Madrid",
         "awayTeam": "Celta Vigo",
-        "score": "2-0"
+        "score": "2:0",
+        "homeLogo": "atletico_madrid",
+        "awayLogo": "celta_vigo"
     },
     {
-        "date": "15/5/2016",
-        "homeTeam": "Málaga",
-        "awayTeam": "Las Palmas",
-        "score": "4-1"
+        "date": "15/05/2016",
+        "homeTeam": "Málaga CF",
+        "awayTeam": "UD Las Palmas",
+        "score": "4:1",
+        "homeLogo": "malaga_cf",
+        "awayLogo": "ud_las_palmas"
     },
     {
-        "date": "15/5/2016",
-        "homeTeam": "Espanyol",
-        "awayTeam": "Eibar",
-        "score": "4-2"
+        "date": "",
+        "homeTeam": "Espanyol Barcelona",
+        "awayTeam": "SD Eibar",
+        "score": "4:2",
+        "homeLogo": "espanyol_barcelona",
+        "awayLogo": "sd_eibar"
     },
     {
-        "date": "15/5/2016",
-        "homeTeam": "Real Betis",
-        "awayTeam": "Getafe",
-        "score": "2-1"
-    },
-    {
-        "date": "15/5/2016",
-        "homeTeam": "Rayo Vallecano",
-        "awayTeam": "Levante",
-        "score": "3-1"
-    },
-    {
-        "date": "15/5/2016",
+        "date": "",
         "homeTeam": "Sporting Gijón",
-        "awayTeam": "Villarreal",
-        "score": "2-0"
+        "awayTeam": "Villarreal CF",
+        "score": "2:0",
+        "homeLogo": "sporting_gijon",
+        "awayLogo": "villarreal_cf"
+    },
+    {
+        "date": "",
+        "homeTeam": "Real Betis",
+        "awayTeam": "Getafe CF",
+        "score": "2:1",
+        "homeLogo": "real_betis",
+        "awayLogo": "getafe_cf"
+    },
+    {
+        "date": "",
+        "homeTeam": "Rayo Vallecano",
+        "awayTeam": "Levante UD",
+        "score": "3:1",
+        "homeLogo": "rayo_vallecano",
+        "awayLogo": "levante_ud"
     }
 ]

@@ -10,26 +10,26 @@
         </tr>
         <tr>
             <th title="Position">#</th>
-            <th class="component-main-column" title="Player name">Name</th>
-            <th class="component-main-column" title="Country">Country</th>
-            <th class="component-main-column" title="Team">Team</th>
-            <th title="Goals">Goals</th>
+            <th class="component-column-main" title="Player name">Name</th>
+            <th class="component-column-main" title="Country">Country</th>
+            <th class="component-column-main" title="Team">Team</th>
+            <th title="Assists">Assists</th>
         </tr>
         {{#each assistsData}}
         <tr>
             <td>{{this.rank}}</td>
-            <td class="component-main-column">
+            <td class="component-column-main">
                 <span title="{{this.name}}">{{this.name}}</span>
             </td>
-            <td class="component-main-column">
+            <td class="component-column-main component-column-country">
                 <img src="/images/flags/{{this.flag}}.png" title="{{this.country}}" alt="Flag {{this.country}}" />
                 <span title="{{this.country}}">{{this.country}}</span>
             </td>
-            <td class="component-main-column">
+            <td class="component-column-main">
                 <img src="/images/logos/{{this.logo}}.png" title="{{this.team}}" alt="Logo {{this.team}}" />
                 <span title="{{this.team}}">{{this.team}}</span>
             </td>
-            <td>{{this.goals}}</td>
+            <td>{{this.assists}}</td>
         </tr>
         {{/each}}
     </table>

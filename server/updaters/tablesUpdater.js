@@ -25,9 +25,8 @@ function updateData(league) {
     helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url, config.years.current), function ($) {
         var results = [];
 
-        // Gets results
         $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle > tr').each((index, elem) => {
-            if (index > 0 && index <= 20) {
+            if (index > 0) {
                 results.push({
                     rank: $(elem).find('td:nth-child(1)').text(),
                     team: $(elem).find('td:nth-child(3) > a').text(),
@@ -45,9 +44,7 @@ function updateData(league) {
         });
 
         for (var i = 0; i < results.length; i++) {
-            results[i].logo = helper.stringSanitize(results[i].team);
-            helper.downloadImage('http:' + results[i].logoSrc, helper.stringFormat(config.paths.logosData, results[i].logo));
-            delete results[i].logoSrc;
+            helper.manageLogoProperty(results[i]);
         }
 
         helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code, config.years.current), results);
