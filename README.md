@@ -3,18 +3,8 @@
 ## Description
 
 Quickly access to football results, tables, top scorers and top assists of major leagues and competitions.
+Data comes from http://www.worldfootball.net
 
 ## Screenshot
 
 ![alt tag](https://raw.githubusercontent.com/Softcadbury/EPortfolio/master/EPortfolio/Content/Images/preview/football-dashboard.png)
-
-## Data
-
-### Tables & Scorers
-Data from http://www.lequipe.fr and https://en.wikipedia.org
-
-### Assists
-Data from http://www.espnfc.com
-
-### Results
-Data from http://www.football.fr
