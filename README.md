@@ -3,7 +3,8 @@
 ## Description
 
 Quickly access to football results, tables, top scorers and top assists of major leagues and competitions.
-Data comes from http://www.worldfootball.net
+
+All Data comes from http://www.worldfootball.net
 
 ## Screenshot
 
