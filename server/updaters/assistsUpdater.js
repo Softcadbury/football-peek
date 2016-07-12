@@ -37,7 +37,7 @@ function updateData(item) {
                     flagSrc: $(elem).find('td:nth-child(3) > img').attr('src'),
                     team: $(elem).find('td:nth-child(5) > a:nth-child(2)').text(),
                     logoSrc: $(elem).find('td:nth-child(5) > a:nth-child(1) > img').attr('src'),
-                    goals: $(elem).find('td:nth-child(6) > b').text()
+                    assists: $(elem).find('td:nth-child(6) > b').text()
                 });
             }
         });
