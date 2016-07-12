@@ -43,13 +43,8 @@ function updateData(item) {
         });
 
         for (var i = 0; i < results.length; i++) {
-            results[i].flag = helper.stringSanitize(results[i].country);
-            helper.downloadImage('http:' + results[i].flagSrc, helper.stringFormat(config.paths.flagsData, results[i].flag));
-            delete results[i].flagSrc;
-
-            results[i].logo = helper.stringSanitize(results[i].team);
-            helper.downloadImage('http:' + results[i].logoSrc, helper.stringFormat(config.paths.logosData, results[i].logo));
-            delete results[i].logoSrc;
+            helper.manageFlagProperty(results[i]);
+            helper.manageLogoProperty(results[i]);
         }
 
         helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, item.code, config.years.current), results);

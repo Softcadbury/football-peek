@@ -66,6 +66,24 @@ function scrapeUrl(url, callback) {
     });
 }
 
+// Manage the flag property of an object
+function manageFlagProperty(item) {
+    var config = require('./config');
+
+    item.flag = stringSanitize(item.country);
+    downloadImage('http:' + item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
+    delete item.flagSrc;
+}
+
+// Manage the logo property of an object
+function manageLogoProperty(item) {
+    var config = require('./config');
+
+    item.logo = stringSanitize(item.team);
+    downloadImage('http:' + item.logoSrc, stringFormat(config.paths.logosData, item.logo));
+    delete item.logoSrc;
+}
+
 // Download an image in a path
 function downloadImage(src, path) {
     var fileExists = require('file-exists');
@@ -73,8 +91,8 @@ function downloadImage(src, path) {
     var fs = require('fs');
 
     if (!fileExists(path)) {
-        request.head(src, function(err, res, body) {
-            request(src).pipe(fs.createWriteStream(path)).on('close', function() {
+        request.head(src, function (err, res, body) {
+            request(src).pipe(fs.createWriteStream(path)).on('close', function () {
                 console.log('Image updated: ' + path);
             });
         });
@@ -87,5 +105,6 @@ module.exports = {
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
     scrapeUrl: scrapeUrl,
-    downloadImage: downloadImage
+    manageFlagProperty: manageFlagProperty,
+    manageLogoProperty: manageLogoProperty
 };

@@ -28,7 +28,6 @@ function updateData(item) {
     helper.scrapeUrl(helper.stringFormat(scorersDataUrl, item.url, config.years.current), function ($) {
         var results = [];
 
-        // Gets results
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
             if (index > 0 && index <= 20) {
                 results.push({
@@ -44,13 +43,8 @@ function updateData(item) {
         });
 
         for (var i = 0; i < results.length; i++) {
-            results[i].flag = helper.stringSanitize(results[i].country);
-            helper.downloadImage('http:' + results[i].flagSrc, helper.stringFormat(config.paths.flagsData, results[i].flag));
-            delete results[i].flagSrc;
-
-            results[i].logo = helper.stringSanitize(results[i].team);
-            helper.downloadImage('http:' + results[i].logoSrc, helper.stringFormat(config.paths.logosData, results[i].logo));
-            delete results[i].logoSrc;
+            helper.manageFlagProperty(results[i]);
+            helper.manageLogoProperty(results[i]);
         }
 
         helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, item.code, config.years.current), results);
