@@ -40,12 +40,12 @@ function testImagesExistance(dataName, data) {
     it(dataName + ' should have existing images', () => {
         data.forEach((item, index) => {
             if (item.logo) {
-                var logoPath = helper.stringFormat(config.paths.logosData, item.logo)
+                var logoPath = helper.stringFormat(config.paths.logosData, item.logo);
                 assert.isTrue(fileExists(logoPath), 'Logo does not exist for item ' + index);
             }
 
             if (item.flag) {
-                var flagPath = helper.stringFormat(config.paths.flagsData, item.flag)
+                var flagPath = helper.stringFormat(config.paths.flagsData, item.flag);
                 assert.isTrue(fileExists(flagPath), 'Flag does not exist for item ' + index);
             }
         });
