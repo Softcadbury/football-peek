@@ -1,142 +1,182 @@
 [
     {
-        "rank": "1",
-        "name": "Aubameyang Pierre-Emerick",
-        "team": "borussia dortmund",
-        "goals": "11",
-        "played": "14"
-    },
-    {
-        "rank": "2",
-        "name": "Aduriz Aritz",
-        "team": "athletic bilbao",
+        "rank": "1.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
         "goals": "10",
-        "played": "14"
+        "flag": "spain",
+        "logo": "athletic_bilbao"
     },
     {
-        "rank": "3",
-        "name": "Reus Marco",
-        "team": "borussia dortmund",
+        "rank": "2.",
+        "name": "Cédric Bakambu",
+        "country": "Congo DR",
+        "team": "Villarreal CF",
         "goals": "9",
-        "played": "13"
+        "flag": "congo_dr",
+        "logo": "villarreal_cf"
     },
     {
-        "rank": "-",
-        "name": "Bakambu Cédric",
-        "team": "villarreal",
-        "goals": "9",
-        "played": "13"
-    },
-    {
-        "rank": "5",
-        "name": "Gameiro Kevin",
-        "team": "séville fc",
+        "rank": "3.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
         "goals": "8",
-        "played": "9"
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
     },
     {
-        "rank": "6",
-        "name": "Mkhitaryan Henrikh",
-        "team": "borussia dortmund",
-        "goals": "7",
-        "played": "15"
+        "rank": "-",
+        "name": "Kevin Gameiro",
+        "country": "France",
+        "team": "Sevilla FC",
+        "goals": "8",
+        "flag": "france",
+        "logo": "sevilla_fc"
     },
     {
-        "rank": "7",
-        "name": "Bobadilla Raul",
-        "team": "augsbourg",
+        "rank": "5.",
+        "name": "Raúl Bobadilla",
+        "country": "Paraguay",
+        "team": "FC Augsburg",
         "goals": "6",
-        "played": "7"
+        "flag": "paraguay",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
-        "name": "Lamela Erik",
-        "team": "tottenham hotspur",
+        "name": "Èrik Lamela",
+        "country": "Argentina",
+        "team": "Tottenham Hotspur",
         "goals": "6",
-        "played": "8"
+        "flag": "argentina",
+        "logo": "tottenham_hotspur"
     },
     {
-        "rank": "9",
-        "name": "Samedov Aleksandr",
-        "team": "lokomotiv moscou",
+        "rank": "7.",
+        "name": "Franco Di Santo",
+        "country": "Argentina",
+        "team": "FC Schalke 04",
         "goals": "5",
-        "played": "8"
+        "flag": "argentina",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
-        "name": "Callejon Jose Maria",
-        "team": "naples",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
         "goals": "5",
-        "played": "7"
+        "flag": "spain",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
-        "name": "Mertens Dries",
-        "team": "naples",
+        "name": "David Lafata",
+        "country": "Czech Republic",
+        "team": "Sparta Praha",
         "goals": "5",
-        "played": "5"
+        "flag": "czech_republic",
+        "logo": "sparta_praha"
     },
     {
         "rank": "-",
-        "name": "Oumarou Aboubakar",
-        "team": "partizan belgrade",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
         "goals": "5",
-        "played": "5"
+        "flag": "belgium",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
-        "name": "Hamouma Romain",
-        "team": "saint-étienne",
+        "name": "Aboubakar Oumarou",
+        "country": "Cameroon",
+        "team": "Partizan",
         "goals": "5",
-        "played": "9"
+        "flag": "cameroon",
+        "logo": "partizan"
     },
     {
         "rank": "-",
-        "name": "Di Santo Franco",
-        "team": "schalke 04",
+        "name": "Marco Reus",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
         "goals": "5",
-        "played": "7"
+        "flag": "germany",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Lafata David",
-        "team": "sparta prague",
+        "name": "Aleksandr Samedov",
+        "country": "Russia",
+        "team": "Lokomotiv Moskva",
         "goals": "5",
-        "played": "9"
+        "flag": "russia",
+        "logo": "lokomotiv_moskva"
     },
     {
-        "rank": "16",
-        "name": "Acheampong Frank",
-        "team": "anderlecht",
+        "rank": "14.",
+        "name": "Frank Acheampong",
+        "country": "Ghana",
+        "team": "RSC Anderlecht",
         "goals": "4",
-        "played": "9"
+        "flag": "ghana",
+        "logo": "rsc_anderlecht"
     },
     {
         "rank": "-",
-        "name": "Commons Kris",
-        "team": "celtic glasgow",
+        "name": "Michy Batshuayi",
+        "country": "Belgium",
+        "team": "Olympique Marseille",
         "goals": "4",
-        "played": "5"
+        "flag": "belgium",
+        "logo": "olympique_marseille"
     },
     {
         "rank": "-",
-        "name": "Niasse Oumar",
-        "team": "everton",
+        "name": "Federico Bernardeschi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
         "goals": "4",
-        "played": "6"
+        "flag": "italy",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
-        "name": "Sisto Pione",
-        "team": "fc midtjylland",
+        "name": "Kris Commons",
+        "country": "Scotland",
+        "team": "Celtic FC",
         "goals": "4",
-        "played": "7"
+        "flag": "scotland",
+        "logo": "celtic_fc"
     },
     {
         "rank": "-",
-        "name": "Fernandao ",
-        "team": "fenerbahçe",
+        "name": " Fernandão",
+        "country": "Brazil",
+        "team": "Fenerbahçe",
         "goals": "4",
-        "played": "9"
+        "flag": "brazil",
+        "logo": "fenerbahce"
+    },
+    {
+        "rank": "-",
+        "name": "Manolo Gabbiadini",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Georges-Kévin N'Koudou",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "goals": "4",
+        "flag": "france",
+        "logo": "olympique_marseille"
     }
 ]

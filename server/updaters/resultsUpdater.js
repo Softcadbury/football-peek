@@ -4,13 +4,13 @@ var config = require('../config');
 var helper = require('../helper');
 var leagues = require('../data/leagues');
 
-var resultsDataUrl = 'http://www.football.fr/football/{0}/resultats.html';
+var resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag';
 var leaguesExtended = [
-    { code: leagues.bundesliga.code, url: 'allemagne' },
-    { code: leagues.liga.code, url: 'espagne' },
-    { code: leagues.ligue1.code, url: 'ligue-1' },
-    { code: leagues.serieA.code, url: 'italie' },
-    { code: leagues.premierLeague.code, url: 'angleterre' }
+    { code: leagues.bundesliga.code, url: 'bundesliga' },
+    { code: leagues.liga.code, url: 'esp-primera-division' },
+    { code: leagues.ligue1.code, url: 'fra-ligue-1' },
+    { code: leagues.serieA.code, url: 'ita-serie-a' },
+    { code: leagues.premierLeague.code, url: 'eng-premier-league' },
 ];
 
 // Updates results of current year
@@ -22,35 +22,25 @@ function update() {
 
 // Updates the results of a league
 function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url), function ($) {
+    helper.scrapeUrl(helper.stringFormat(resultsDataUrl, league.url, config.years.current), function ($) {
         var results = [];
-        var currentDate;
 
-        $('.results tr').each((index, elem) => {
-            if ($(elem).hasClass('white')) {
-                currentDate = convertDate($(elem).find('td').text());
-            } else if (!$(elem).hasClass('hidden')) {
-                results.push({
-                    date: currentDate,
-                    homeTeam: $(elem).find('.team1 .name').text(),
-                    awayTeam: $(elem).find('.team2 .name').text(),
-                    score: $(elem).find('.score a').text().trim()
-                });
-            }
+        $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
+            results.push({
+                date: $(elem).find('td:nth-child(1)').text(),
+                homeTeam: $(elem).find('td:nth-child(3) > a').text(),
+                awayTeam: $(elem).find('td:nth-child(5) > a').text(),
+                score: $(elem).find('td:nth-child(6) > a').text().split(' ')[0]
+            });
         });
+
+        for (var i = 0; i < results.length; i++) {
+            results[i].homeLogo = helper.stringSanitize(results[i].homeTeam);
+            results[i].awayLogo = helper.stringSanitize(results[i].awayTeam);
+        }
 
         helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, league.code, config.years.current), results);
     });
-}
-
-// Convert a french date to a nomalized date "samedi 02 avril 2016" => "02/04/2016"
-function convertDate(date) {
-    var parts = date.split(' ');
-    var frenchMonths = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
-        'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-    var indexOfMonth = frenchMonths.indexOf(parts[2]) + 1;
-
-    return parts[1] + '/' + indexOfMonth + '/' + parts[3];
 }
 
 module.exports = {

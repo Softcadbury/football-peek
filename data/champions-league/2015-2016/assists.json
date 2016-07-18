@@ -1,122 +1,182 @@
 [
     {
-        "rank": "1 ",
-        "name": "Alexis Sánchez",
-        "team": "Arsenal",
-        "goals": "5"
-    },
-    {
-        "rank": "-",
+        "rank": "1.",
         "name": "Kingsley Coman",
-        "team": "Bayern Munich",
-        "goals": "5"
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "france",
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "3 ",
-        "name": "Hulk",
-        "team": "Zenit St Petersburg",
-        "goals": "4"
-    },
-    {
-        "rank": "-",
-        "name": "Neymar",
-        "team": "Barcelona",
-        "goals": "4"
-    },
-    {
-        "rank": "-",
-        "name": "Thiago Alcantara",
-        "team": "Bayern Munich",
-        "goals": "4"
+        "rank": "2.",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
-        "name": "Cristiano Ronaldo",
-        "team": "Real Madrid",
-        "goals": "4"
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "assists": "5",
+        "flag": "chile",
+        "logo": "arsenal_fc"
     },
     {
-        "rank": "-",
-        "name": "Hakan Calhanoglu",
+        "rank": "4.",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
         "team": "Bayer Leverkusen",
-        "goals": "4"
-    },
-    {
-        "rank": "8 ",
-        "name": "Zlatan Ibrahimovic",
-        "team": "Paris Saint-Germain ",
-        "goals": "3"
+        "assists": "4",
+        "flag": "turkey",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
-        "name": "Gabi",
-        "team": "Atletico Madrid",
-        "goals": "3"
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "assists": "4",
+        "flag": "portugal",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Hulk",
+        "country": "Brazil",
+        "team": "Zenit St. Petersburg",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "-",
+        "name": " Thiago",
+        "country": "Spain",
+        "team": "Bayern München",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "8.",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "assists": "3",
+        "flag": "wales",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Dani Alves",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": " Douglas Costa",
+        "country": "Brazil",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": " Fernandinho",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": " Gabi",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
         "name": "Nicolás Gaitán",
-        "team": "Benfica",
-        "goals": "3"
+        "country": "Argentina",
+        "team": "SL Benfica",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "sl_benfica"
+    },
+    {
+        "rank": "-",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Paris Saint-Germain",
+        "assists": "3",
+        "flag": "sweden",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": " Isco",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
         "name": "Oleg Shatov",
-        "team": "Zenit St Petersburg",
-        "goals": "3"
-    },
-    {
-        "rank": "-",
-        "name": "Arturo Vidal",
-        "team": "Bayern Munich",
-        "goals": "3"
+        "country": "Russia",
+        "team": "Zenit St. Petersburg",
+        "assists": "3",
+        "flag": "russia",
+        "logo": "zenit_st__petersburg"
     },
     {
         "rank": "-",
         "name": "Luis Suárez",
-        "team": "Barcelona",
-        "goals": "3"
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "3",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
-        "name": "Douglas Costa",
-        "team": "Bayern Munich",
-        "goals": "3"
-    },
-    {
-        "rank": "-",
-        "name": "Isco",
-        "team": "Real Madrid",
-        "goals": "3"
-    },
-    {
-        "rank": "-",
-        "name": "Dani Alves",
-        "team": "Barcelona",
-        "goals": "3"
-    },
-    {
-        "rank": "-",
-        "name": "Fernandinho",
-        "team": "Manchester City",
-        "goals": "3"
-    },
-    {
-        "rank": "18 ",
-        "name": "Raheem Sterling",
-        "team": "Manchester City",
-        "goals": "2"
-    },
-    {
-        "rank": "-",
-        "name": "Maxime Lestienne",
-        "team": "PSV Eindhoven",
-        "goals": "2"
-    },
-    {
-        "rank": "-",
-        "name": "Juan Mata",
-        "team": "Manchester United",
-        "goals": "2"
+        "name": "Zoran Tošić",
+        "country": "Serbia",
+        "team": "CSKA Moskva",
+        "assists": "3",
+        "flag": "serbia",
+        "logo": "cska_moskva"
     }
 ]

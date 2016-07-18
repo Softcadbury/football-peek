@@ -2,11 +2,6 @@
 
 var gulp = require('gulp');
 
-// Updates logos
-gulp.task('update-logos', () => {
-    require('./server/updaters/logosUpdater').update();
-});
-
 // Updates tables
 gulp.task('update-tables', () => {
     require('./server/updaters/tablesUpdater').update();

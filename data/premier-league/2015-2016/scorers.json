@@ -1,142 +1,182 @@
 [
     {
-        "rank": "1",
-        "name": "Kane Harry",
-        "team": "tottenham hotspur",
+        "rank": "1.",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
         "goals": "25",
-        "played": "38"
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
-        "rank": "2",
-        "name": "Vardy Jamie",
-        "team": "leicester",
+        "rank": "2.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
         "goals": "24",
-        "played": "36"
+        "flag": "argentina",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Agüero Sergio",
-        "team": "manchester city",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
         "goals": "24",
-        "played": "30"
+        "flag": "england",
+        "logo": "leicester_city"
     },
     {
-        "rank": "4",
-        "name": "Lukaku Romelu",
-        "team": "everton",
+        "rank": "4.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
         "goals": "18",
-        "played": "37"
+        "flag": "belgium",
+        "logo": "everton_fc"
     },
     {
-        "rank": "5",
-        "name": "Mahrez Riyad",
-        "team": "leicester",
+        "rank": "5.",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Leicester City",
         "goals": "17",
-        "played": "37"
+        "flag": "algeria",
+        "logo": "leicester_city"
     },
     {
-        "rank": "6",
-        "name": "Giroud Olivier",
-        "team": "arsenal",
+        "rank": "6.",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Arsenal FC",
         "goals": "16",
-        "played": "38"
+        "flag": "france",
+        "logo": "arsenal_fc"
     },
     {
-        "rank": "7",
-        "name": "Defoe Jermain",
-        "team": "sunderland",
+        "rank": "-",
+        "name": "Odion Ighalo",
+        "country": "Nigeria",
+        "team": "Watford FC",
+        "goals": "16",
+        "flag": "nigeria",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "8.",
+        "name": "Jermain Defoe",
+        "country": "England",
+        "team": "Sunderland AFC",
         "goals": "15",
-        "played": "33"
+        "flag": "england",
+        "logo": "sunderland_afc"
     },
     {
-        "rank": "-",
-        "name": "Ighalo Odion Jude",
-        "team": "watford",
-        "goals": "15",
-        "played": "37"
-    },
-    {
-        "rank": "9",
-        "name": "Sanchez Alexis",
-        "team": "arsenal",
+        "rank": "9.",
+        "name": "Troy Deeney",
+        "country": "England",
+        "team": "Watford FC",
         "goals": "13",
-        "played": "30"
+        "flag": "england",
+        "logo": "watford_fc"
     },
     {
         "rank": "-",
-        "name": "Deeney Troy",
-        "team": "watford",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
         "goals": "13",
-        "played": "38"
+        "flag": "chile",
+        "logo": "arsenal_fc"
     },
     {
-        "rank": "11",
-        "name": "Diego Costa ",
-        "team": "chelsea",
+        "rank": "11.",
+        "name": "André Ayew",
+        "country": "Ghana",
+        "team": "Swansea City",
         "goals": "12",
-        "played": "28"
+        "flag": "ghana",
+        "logo": "swansea_city"
     },
     {
         "rank": "-",
-        "name": "Ayew André",
-        "team": "swansea city",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
         "goals": "12",
-        "played": "34"
+        "flag": "spain",
+        "logo": "chelsea_fc"
     },
     {
-        "rank": "13",
-        "name": "Martial Anthony",
-        "team": "manchester united",
+        "rank": "13.",
+        "name": "Marko Arnautović",
+        "country": "Austria",
+        "team": "Stoke City",
         "goals": "11",
-        "played": "31"
+        "flag": "austria",
+        "logo": "stoke_city"
     },
     {
         "rank": "-",
-        "name": "Wijnaldum Georginio",
-        "team": "newcastle united",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Southampton FC",
         "goals": "11",
-        "played": "38"
+        "flag": "senegal",
+        "logo": "southampton_fc"
     },
     {
         "rank": "-",
-        "name": "Mané Sadio",
-        "team": "southampton",
+        "name": "Anthony Martial",
+        "country": "France",
+        "team": "Manchester United",
         "goals": "11",
-        "played": "37"
+        "flag": "france",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
-        "name": "Pelle Graziano",
-        "team": "southampton",
+        "name": "Graziano Pellè",
+        "country": "Italy",
+        "team": "Southampton FC",
         "goals": "11",
-        "played": "30"
+        "flag": "italy",
+        "logo": "southampton_fc"
     },
     {
         "rank": "-",
-        "name": "Arnautovic Marko",
-        "team": "stoke city",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Swansea City",
         "goals": "11",
-        "played": "34"
+        "flag": "iceland",
+        "logo": "swansea_city"
     },
     {
         "rank": "-",
-        "name": "Sigurdsson Gylfi Thor",
-        "team": "swansea city",
+        "name": "Georginio Wijnaldum",
+        "country": "Netherlands",
+        "team": "Newcastle United",
         "goals": "11",
-        "played": "36"
+        "flag": "netherlands",
+        "logo": "newcastle_united"
     },
     {
-        "rank": "19",
-        "name": "Firmino Roberto",
-        "team": "liverpool",
+        "rank": "19.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
         "goals": "10",
-        "played": "31"
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
-        "name": "Long Shane",
-        "team": "southampton",
+        "name": "Shane Long",
+        "country": "Ireland",
+        "team": "Southampton FC",
         "goals": "10",
-        "played": "28"
+        "flag": "ireland",
+        "logo": "southampton_fc"
     }
 ]

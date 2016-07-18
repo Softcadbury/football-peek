@@ -1,7 +1,7 @@
 [
     {
         "rank": "1",
-        "team": "Milan",
+        "team": "AC Milan",
         "points": "82",
         "played": "38",
         "win": "24",
@@ -9,11 +9,12 @@
         "lost": "4",
         "goalsFor": "65",
         "goalsAgainst": "24",
-        "goalDifference": "+41"
+        "goalDifference": "41",
+        "logo": "ac_milan"
     },
     {
         "rank": "2",
-        "team": "Internazionale",
+        "team": "Inter",
         "points": "76",
         "played": "38",
         "win": "23",
@@ -21,11 +22,12 @@
         "lost": "8",
         "goalsFor": "69",
         "goalsAgainst": "42",
-        "goalDifference": "+27"
+        "goalDifference": "27",
+        "logo": "inter"
     },
     {
         "rank": "3",
-        "team": "Napoli",
+        "team": "SSC Napoli",
         "points": "70",
         "played": "38",
         "win": "21",
@@ -33,11 +35,12 @@
         "lost": "10",
         "goalsFor": "59",
         "goalsAgainst": "39",
-        "goalDifference": "+20"
+        "goalDifference": "20",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "4",
-        "team": "Udinese",
+        "team": "Udinese Calcio",
         "points": "66",
         "played": "38",
         "win": "20",
@@ -45,11 +48,12 @@
         "lost": "12",
         "goalsFor": "65",
         "goalsAgainst": "43",
-        "goalDifference": "+22"
+        "goalDifference": "22",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "5",
-        "team": "Lazio",
+        "team": "Lazio Roma",
         "points": "66",
         "played": "38",
         "win": "20",
@@ -57,11 +61,12 @@
         "lost": "12",
         "goalsFor": "55",
         "goalsAgainst": "39",
-        "goalDifference": "+16"
+        "goalDifference": "16",
+        "logo": "lazio_roma"
     },
     {
         "rank": "6",
-        "team": "Roma",
+        "team": "AS Roma",
         "points": "63",
         "played": "38",
         "win": "18",
@@ -69,7 +74,8 @@
         "lost": "11",
         "goalsFor": "59",
         "goalsAgainst": "52",
-        "goalDifference": "+7"
+        "goalDifference": "7",
+        "logo": "as_roma"
     },
     {
         "rank": "7",
@@ -81,11 +87,12 @@
         "lost": "10",
         "goalsFor": "57",
         "goalsAgainst": "47",
-        "goalDifference": "+10"
+        "goalDifference": "10",
+        "logo": "juventus"
     },
     {
         "rank": "8",
-        "team": "Palermo",
+        "team": "US Palermo",
         "points": "56",
         "played": "38",
         "win": "17",
@@ -93,11 +100,12 @@
         "lost": "16",
         "goalsFor": "58",
         "goalsAgainst": "63",
-        "goalDifference": "−5"
+        "goalDifference": "-5",
+        "logo": "us_palermo"
     },
     {
         "rank": "9",
-        "team": "Fiorentina",
+        "team": "ACF Fiorentina",
         "points": "51",
         "played": "38",
         "win": "12",
@@ -105,11 +113,12 @@
         "lost": "11",
         "goalsFor": "49",
         "goalsAgainst": "44",
-        "goalDifference": "+5"
+        "goalDifference": "5",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "10",
-        "team": "Genoa",
+        "team": "Genoa CFC",
         "points": "51",
         "played": "38",
         "win": "14",
@@ -117,11 +126,12 @@
         "lost": "15",
         "goalsFor": "45",
         "goalsAgainst": "47",
-        "goalDifference": "−2"
+        "goalDifference": "-2",
+        "logo": "genoa_cfc"
     },
     {
         "rank": "11",
-        "team": "Chievo",
+        "team": "Chievo Verona",
         "points": "46",
         "played": "38",
         "win": "11",
@@ -129,11 +139,12 @@
         "lost": "14",
         "goalsFor": "38",
         "goalsAgainst": "40",
-        "goalDifference": "−2"
+        "goalDifference": "-2",
+        "logo": "chievo_verona"
     },
     {
         "rank": "12",
-        "team": "Parma",
+        "team": "Parma FC",
         "points": "46",
         "played": "38",
         "win": "11",
@@ -141,11 +152,12 @@
         "lost": "14",
         "goalsFor": "39",
         "goalsAgainst": "47",
-        "goalDifference": "−8"
+        "goalDifference": "-8",
+        "logo": "parma_fc"
     },
     {
         "rank": "13",
-        "team": "Catania",
+        "team": "Calcio Catania",
         "points": "46",
         "played": "38",
         "win": "12",
@@ -153,11 +165,12 @@
         "lost": "16",
         "goalsFor": "40",
         "goalsAgainst": "52",
-        "goalDifference": "−12"
+        "goalDifference": "-12",
+        "logo": "calcio_catania"
     },
     {
         "rank": "14",
-        "team": "Cagliari",
+        "team": "Cagliari Calcio",
         "points": "45",
         "played": "38",
         "win": "12",
@@ -165,11 +178,12 @@
         "lost": "17",
         "goalsFor": "44",
         "goalsAgainst": "51",
-        "goalDifference": "−7"
+        "goalDifference": "-7",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "15",
-        "team": "Cesena",
+        "team": "AC Cesena",
         "points": "43",
         "played": "38",
         "win": "11",
@@ -177,23 +191,25 @@
         "lost": "17",
         "goalsFor": "38",
         "goalsAgainst": "50",
-        "goalDifference": "−12"
+        "goalDifference": "-12",
+        "logo": "ac_cesena"
     },
     {
         "rank": "16",
-        "team": "Bologna",
-        "points": "0422",
+        "team": "Bologna FC",
+        "points": "42",
         "played": "38",
         "win": "11",
         "draw": "12",
         "lost": "15",
         "goalsFor": "35",
         "goalsAgainst": "52",
-        "goalDifference": "−17"
+        "goalDifference": "-17",
+        "logo": "bologna_fc"
     },
     {
         "rank": "17",
-        "team": "Lecce",
+        "team": "US Lecce",
         "points": "41",
         "played": "38",
         "win": "11",
@@ -201,7 +217,8 @@
         "lost": "19",
         "goalsFor": "46",
         "goalsAgainst": "66",
-        "goalDifference": "−20"
+        "goalDifference": "-20",
+        "logo": "us_lecce"
     },
     {
         "rank": "18",
@@ -213,11 +230,12 @@
         "lost": "18",
         "goalsFor": "33",
         "goalsAgainst": "49",
-        "goalDifference": "−16"
+        "goalDifference": "-16",
+        "logo": "sampdoria"
     },
     {
         "rank": "19",
-        "team": "Brescia",
+        "team": "Brescia Calcio",
         "points": "32",
         "played": "38",
         "win": "7",
@@ -225,11 +243,12 @@
         "lost": "20",
         "goalsFor": "34",
         "goalsAgainst": "52",
-        "goalDifference": "−18"
+        "goalDifference": "-18",
+        "logo": "brescia_calcio"
     },
     {
         "rank": "20",
-        "team": "Bari",
+        "team": "AS Bari",
         "points": "24",
         "played": "38",
         "win": "5",
@@ -237,6 +256,7 @@
         "lost": "24",
         "goalsFor": "27",
         "goalsAgainst": "56",
-        "goalDifference": "−29"
+        "goalDifference": "-29",
+        "logo": "as_bari"
     }
 ]

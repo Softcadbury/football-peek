@@ -13,12 +13,10 @@
     overflow: hidden;
 
     &.component-big {
-        height: 470px;
         width: 470px;
     }
 
     &.component-large {
-        height: 230px;
         width: 470px;
     }
 
@@ -26,7 +24,7 @@
         h3 {
             display: inline-block;
             font-size: 14px;
-            margin: 3px 0;
+            margin: 3px 0 5px;
         }
     }
 
@@ -35,6 +33,7 @@
     }
 
     th, td {
+        padding: 3px 0;
         text-align: center;
     }
 
@@ -42,7 +41,7 @@
         min-width: 26px;
     }
 
-    .component-main-column {
+    .component-column-main {
         text-align: left;
 
         img {
@@ -63,7 +62,17 @@
         }
     }
 
-    .component-right-column {
+    .component-column-right {
         text-align: right;
+    }
+
+    .component-column-score {
+        padding: 0 8px;
+    }
+
+    .component-column-country {
+        span {
+            max-width: 90px;
+        }
     }
 }

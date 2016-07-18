@@ -8,21 +8,17 @@
                 </div>
             </td>
         </tr>
-        <tr>
-            <th title="Date">Date</th>
-            <th class="component-main-column"></th>
-            <th title="Score">Score</th>
-            <th class="component-main-column"></th>
-        </tr>
         {{#each resultsData}}
         <tr>
             <td>{{this.date}}</td>
-            <td class="component-main-column component-right-column">
-                <span>{{this.homeTeam}}</span>
+            <td class="component-column-main component-column-right">
+                <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
+                <img src="/images/logos/{{this.homeLogo}}.png" title="{{this.homeTeam}}" alt="Logo {{this.homeTeam}}" />
             </td>
-            <td>{{this.score}}</td>
-            <td class="component-main-column">
-                <span>{{this.awayTeam}}</span>
+            <td class="component-column-score">{{this.score}}</td>
+            <td class="component-column-main">
+                <img src="/images/logos/{{this.awayLogo}}.png" title="{{this.awayTeam}}" alt="Logo {{this.awayTeam}}" />
+                <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
             </td>
         </tr>
         {{/each}}

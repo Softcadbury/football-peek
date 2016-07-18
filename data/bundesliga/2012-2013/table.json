@@ -1,7 +1,7 @@
 [
     {
         "rank": "1",
-        "team": "Bayern Munich",
+        "team": "Bayern München",
         "points": "91",
         "played": "34",
         "win": "29",
@@ -9,7 +9,8 @@
         "lost": "1",
         "goalsFor": "98",
         "goalsAgainst": "18",
-        "goalDifference": "+80"
+        "goalDifference": "80",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "2",
@@ -21,7 +22,8 @@
         "lost": "6",
         "goalsFor": "81",
         "goalsAgainst": "42",
-        "goalDifference": "+39"
+        "goalDifference": "39",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "3",
@@ -33,11 +35,12 @@
         "lost": "7",
         "goalsFor": "65",
         "goalsAgainst": "39",
-        "goalDifference": "+26"
+        "goalDifference": "26",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "4",
-        "team": "Schalke 04",
+        "team": "FC Schalke 04",
         "points": "55",
         "played": "34",
         "win": "16",
@@ -45,7 +48,8 @@
         "lost": "11",
         "goalsFor": "58",
         "goalsAgainst": "50",
-        "goalDifference": "+8"
+        "goalDifference": "8",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "5",
@@ -57,7 +61,8 @@
         "lost": "11",
         "goalsFor": "45",
         "goalsAgainst": "40",
-        "goalDifference": "+5"
+        "goalDifference": "5",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "6",
@@ -69,7 +74,8 @@
         "lost": "11",
         "goalsFor": "49",
         "goalsAgainst": "46",
-        "goalDifference": "+3"
+        "goalDifference": "3",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "7",
@@ -81,11 +87,12 @@
         "lost": "14",
         "goalsFor": "42",
         "goalsAgainst": "53",
-        "goalDifference": "−11"
+        "goalDifference": "-11",
+        "logo": "hamburger_sv"
     },
     {
         "rank": "8",
-        "team": "Borussia Mönchengladbach",
+        "team": "Bor. Mönchengladbach",
         "points": "47",
         "played": "34",
         "win": "12",
@@ -93,7 +100,8 @@
         "lost": "11",
         "goalsFor": "45",
         "goalsAgainst": "49",
-        "goalDifference": "−4"
+        "goalDifference": "-4",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "9",
@@ -105,11 +113,12 @@
         "lost": "15",
         "goalsFor": "60",
         "goalsAgainst": "62",
-        "goalDifference": "−2"
+        "goalDifference": "-2",
+        "logo": "hannover_96"
     },
     {
         "rank": "10",
-        "team": "1. FC Nuremberg",
+        "team": "1. FC Nürnberg",
         "points": "44",
         "played": "34",
         "win": "11",
@@ -117,7 +126,8 @@
         "lost": "12",
         "goalsFor": "39",
         "goalsAgainst": "47",
-        "goalDifference": "−8"
+        "goalDifference": "-8",
+        "logo": "1__fc_nurnberg"
     },
     {
         "rank": "11",
@@ -129,7 +139,8 @@
         "lost": "11",
         "goalsFor": "47",
         "goalsAgainst": "52",
-        "goalDifference": "−5"
+        "goalDifference": "-5",
+        "logo": "vfl_wolfsburg"
     },
     {
         "rank": "12",
@@ -141,11 +152,12 @@
         "lost": "15",
         "goalsFor": "37",
         "goalsAgainst": "55",
-        "goalDifference": "−18"
+        "goalDifference": "-18",
+        "logo": "vfb_stuttgart"
     },
     {
         "rank": "13",
-        "team": "FSV Mainz 05",
+        "team": "1. FSV Mainz 05",
         "points": "42",
         "played": "34",
         "win": "10",
@@ -153,7 +165,8 @@
         "lost": "12",
         "goalsFor": "42",
         "goalsAgainst": "44",
-        "goalDifference": "−2"
+        "goalDifference": "-2",
+        "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "14",
@@ -165,7 +178,8 @@
         "lost": "16",
         "goalsFor": "50",
         "goalsAgainst": "66",
-        "goalDifference": "−16"
+        "goalDifference": "-16",
+        "logo": "werder_bremen"
     },
     {
         "rank": "15",
@@ -177,7 +191,8 @@
         "lost": "17",
         "goalsFor": "33",
         "goalsAgainst": "51",
-        "goalDifference": "−18"
+        "goalDifference": "-18",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "16",
@@ -189,7 +204,8 @@
         "lost": "19",
         "goalsFor": "42",
         "goalsAgainst": "67",
-        "goalDifference": "−25"
+        "goalDifference": "-25",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "17",
@@ -201,7 +217,8 @@
         "lost": "18",
         "goalsFor": "39",
         "goalsAgainst": "57",
-        "goalDifference": "−18"
+        "goalDifference": "-18",
+        "logo": "fortuna_dusseldorf"
     },
     {
         "rank": "18",
@@ -213,6 +230,7 @@
         "lost": "21",
         "goalsFor": "26",
         "goalsAgainst": "60",
-        "goalDifference": "−34"
+        "goalDifference": "-34",
+        "logo": "spvgg_greuther_furth"
     }
 ]

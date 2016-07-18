@@ -41,6 +41,7 @@ function readJsonFile(path) {
 // Writes content in a json file
 function writeJsonFile(path, content) {
     var fs = require('fs');
+
     fs.writeFile(path, JSON.stringify(content, null, 4), (err) => {
         if (err) {
             console.log(err);
@@ -54,6 +55,7 @@ function writeJsonFile(path, content) {
 function scrapeUrl(url, callback) {
     var request = require('request');
     var cheerio = require('cheerio');
+
     request(url, (err, resp, body) => {
         if (err) {
             console.log(err);
@@ -64,10 +66,45 @@ function scrapeUrl(url, callback) {
     });
 }
 
+// Manage the flag property of an object
+function manageFlagProperty(item) {
+    var config = require('./config');
+
+    item.flag = stringSanitize(item.country);
+    downloadImage('http:' + item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
+    delete item.flagSrc;
+}
+
+// Manage the logo property of an object
+function manageLogoProperty(item) {
+    var config = require('./config');
+
+    item.logo = stringSanitize(item.team);
+    downloadImage('http:' + item.logoSrc, stringFormat(config.paths.logosData, item.logo));
+    delete item.logoSrc;
+}
+
+// Download an image in a path
+function downloadImage(src, path) {
+    var fileExists = require('file-exists');
+    var request = require('request');
+    var fs = require('fs');
+
+    if (!fileExists(path)) {
+        request.head(src, function (err, res, body) {
+            request(src).pipe(fs.createWriteStream(path)).on('close', function () {
+                console.log('Image updated: ' + path);
+            });
+        });
+    }
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
     readJsonFile: readJsonFile,
     writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl
+    scrapeUrl: scrapeUrl,
+    manageFlagProperty: manageFlagProperty,
+    manageLogoProperty: manageLogoProperty
 };

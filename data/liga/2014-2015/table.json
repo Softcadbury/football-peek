@@ -1,7 +1,7 @@
 [
     {
         "rank": "1",
-        "team": "Barcelona",
+        "team": "FC Barcelona",
         "points": "94",
         "played": "38",
         "win": "30",
@@ -9,7 +9,8 @@
         "lost": "4",
         "goalsFor": "110",
         "goalsAgainst": "21",
-        "goalDifference": "+89"
+        "goalDifference": "89",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "2",
@@ -21,7 +22,8 @@
         "lost": "6",
         "goalsFor": "118",
         "goalsAgainst": "38",
-        "goalDifference": "+80"
+        "goalDifference": "80",
+        "logo": "real_madrid"
     },
     {
         "rank": "3",
@@ -33,11 +35,12 @@
         "lost": "6",
         "goalsFor": "67",
         "goalsAgainst": "29",
-        "goalDifference": "+38"
+        "goalDifference": "38",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "4",
-        "team": "Valencia",
+        "team": "Valencia CF",
         "points": "77",
         "played": "38",
         "win": "22",
@@ -45,11 +48,12 @@
         "lost": "5",
         "goalsFor": "70",
         "goalsAgainst": "32",
-        "goalDifference": "+38"
+        "goalDifference": "38",
+        "logo": "valencia_cf"
     },
     {
         "rank": "5",
-        "team": "Sevilla",
+        "team": "Sevilla FC",
         "points": "76",
         "played": "38",
         "win": "23",
@@ -57,11 +61,12 @@
         "lost": "8",
         "goalsFor": "71",
         "goalsAgainst": "45",
-        "goalDifference": "+26"
+        "goalDifference": "26",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "6",
-        "team": "Villarreal",
+        "team": "Villarreal CF",
         "points": "60",
         "played": "38",
         "win": "16",
@@ -69,7 +74,8 @@
         "lost": "10",
         "goalsFor": "48",
         "goalsAgainst": "37",
-        "goalDifference": "+11"
+        "goalDifference": "11",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "7",
@@ -81,7 +87,8 @@
         "lost": "13",
         "goalsFor": "42",
         "goalsAgainst": "41",
-        "goalDifference": "+1"
+        "goalDifference": "1",
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "8",
@@ -93,11 +100,12 @@
         "lost": "13",
         "goalsFor": "47",
         "goalsAgainst": "44",
-        "goalDifference": "+3"
+        "goalDifference": "3",
+        "logo": "celta_vigo"
     },
     {
         "rank": "9",
-        "team": "Málaga",
+        "team": "Málaga CF",
         "points": "50",
         "played": "38",
         "win": "14",
@@ -105,11 +113,12 @@
         "lost": "16",
         "goalsFor": "42",
         "goalsAgainst": "48",
-        "goalDifference": "−6"
+        "goalDifference": "-6",
+        "logo": "malaga_cf"
     },
     {
         "rank": "10",
-        "team": "Espanyol",
+        "team": "Espanyol Barcelona",
         "points": "49",
         "played": "38",
         "win": "13",
@@ -117,7 +126,8 @@
         "lost": "15",
         "goalsFor": "47",
         "goalsAgainst": "51",
-        "goalDifference": "−4"
+        "goalDifference": "-4",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "11",
@@ -129,7 +139,8 @@
         "lost": "19",
         "goalsFor": "46",
         "goalsAgainst": "68",
-        "goalDifference": "−22"
+        "goalDifference": "-22",
+        "logo": "rayo_vallecano"
     },
     {
         "rank": "12",
@@ -141,11 +152,12 @@
         "lost": "14",
         "goalsFor": "44",
         "goalsAgainst": "51",
-        "goalDifference": "−7"
+        "goalDifference": "-7",
+        "logo": "real_sociedad"
     },
     {
         "rank": "13",
-        "team": "Elche",
+        "team": "Elche CF",
         "points": "41",
         "played": "38",
         "win": "11",
@@ -153,11 +165,12 @@
         "lost": "19",
         "goalsFor": "35",
         "goalsAgainst": "62",
-        "goalDifference": "−27"
+        "goalDifference": "-27",
+        "logo": "elche_cf"
     },
     {
         "rank": "14",
-        "team": "Levante",
+        "team": "Levante UD",
         "points": "37",
         "played": "38",
         "win": "9",
@@ -165,11 +178,12 @@
         "lost": "19",
         "goalsFor": "34",
         "goalsAgainst": "67",
-        "goalDifference": "−33"
+        "goalDifference": "-33",
+        "logo": "levante_ud"
     },
     {
         "rank": "15",
-        "team": "Getafe",
+        "team": "Getafe CF",
         "points": "37",
         "played": "38",
         "win": "10",
@@ -177,7 +191,8 @@
         "lost": "21",
         "goalsFor": "33",
         "goalsAgainst": "64",
-        "goalDifference": "−31"
+        "goalDifference": "-31",
+        "logo": "getafe_cf"
     },
     {
         "rank": "16",
@@ -189,11 +204,12 @@
         "lost": "17",
         "goalsFor": "35",
         "goalsAgainst": "60",
-        "goalDifference": "−25"
+        "goalDifference": "-25",
+        "logo": "deportivo_la_coruna"
     },
     {
         "rank": "17",
-        "team": "Granada",
+        "team": "Granada CF",
         "points": "35",
         "played": "38",
         "win": "7",
@@ -201,11 +217,12 @@
         "lost": "17",
         "goalsFor": "29",
         "goalsAgainst": "64",
-        "goalDifference": "−35"
+        "goalDifference": "-35",
+        "logo": "granada_cf"
     },
     {
         "rank": "18",
-        "team": "Eibar",
+        "team": "SD Eibar",
         "points": "35",
         "played": "38",
         "win": "9",
@@ -213,11 +230,12 @@
         "lost": "21",
         "goalsFor": "34",
         "goalsAgainst": "55",
-        "goalDifference": "−21"
+        "goalDifference": "-21",
+        "logo": "sd_eibar"
     },
     {
         "rank": "19",
-        "team": "Almería",
+        "team": "UD Almería",
         "points": "32",
         "played": "38",
         "win": "8",
@@ -225,11 +243,12 @@
         "lost": "22",
         "goalsFor": "35",
         "goalsAgainst": "64",
-        "goalDifference": "−29"
+        "goalDifference": "-29",
+        "logo": "ud_almeria"
     },
     {
         "rank": "20",
-        "team": "Córdoba",
+        "team": "Córdoba CF",
         "points": "20",
         "played": "38",
         "win": "3",
@@ -237,6 +256,7 @@
         "lost": "24",
         "goalsFor": "22",
         "goalsAgainst": "68",
-        "goalDifference": "−46"
+        "goalDifference": "-46",
+        "logo": "cordoba_cf"
     }
 ]

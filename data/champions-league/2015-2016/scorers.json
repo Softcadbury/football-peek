@@ -1,142 +1,182 @@
 [
     {
-        "rank": "1",
-        "name": "Ronaldo Cristiano",
-        "team": "real madrid",
+        "rank": "1.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
         "goals": "16",
-        "played": "12"
+        "flag": "portugal",
+        "logo": "real_madrid"
     },
     {
-        "rank": "2",
-        "name": "Lewandowski Robert",
-        "team": "bayern munich",
+        "rank": "2.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
         "goals": "9",
-        "played": "12"
+        "flag": "poland",
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "3",
-        "name": "Müller Thomas",
-        "team": "bayern munich",
+        "rank": "3.",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
         "goals": "8",
-        "played": "12"
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
-        "name": "Suarez Luis",
-        "team": "fc barcelone",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
         "goals": "8",
-        "played": "9"
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
     },
     {
-        "rank": "5",
-        "name": "Griezmann Antoine",
-        "team": "atlético de madrid",
+        "rank": "5.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
         "goals": "7",
-        "played": "13"
+        "flag": "france",
+        "logo": "atletico_madrid"
     },
     {
-        "rank": "6",
-        "name": "Messi Lionel",
-        "team": "fc barcelone",
+        "rank": "6.",
+        "name": "Artem Dzyuba",
+        "country": "Russia",
+        "team": "Zenit St. Petersburg",
         "goals": "6",
-        "played": "7"
+        "flag": "russia",
+        "logo": "zenit_st__petersburg"
     },
     {
         "rank": "-",
-        "name": "Dzyuba Artem",
-        "team": "zénith saint-pétersbourg",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
         "goals": "6",
-        "played": "8"
+        "flag": "argentina",
+        "logo": "fc_barcelona"
     },
     {
-        "rank": "8",
-        "name": "Giroud Olivier",
-        "team": "arsenal",
+        "rank": "8.",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Arsenal FC",
         "goals": "5",
-        "played": "7"
+        "flag": "france",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
-        "name": "Hernandez Javier",
-        "team": "bayer leverkusen",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "Bayer Leverkusen",
         "goals": "5",
-        "played": "8"
+        "flag": "mexico",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
-        "name": "Willian ",
-        "team": "chelsea",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Paris Saint-Germain",
         "goals": "5",
-        "played": "8"
+        "flag": "sweden",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
-        "name": "Ibrahimovic Zlatan",
-        "team": "paris-sg",
+        "name": " Willian",
+        "country": "Brazil",
+        "team": "Chelsea FC",
         "goals": "5",
-        "played": "10"
+        "flag": "brazil",
+        "logo": "chelsea_fc"
     },
     {
-        "rank": "12",
-        "name": "Mehmedi Admir",
-        "team": "bayer leverkusen",
+        "rank": "12.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
         "goals": "4",
-        "played": "7"
+        "flag": "france",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
-        "name": "Gaitan Nicolas",
-        "team": "benfica",
+        "name": "Nicolás Gaitán",
+        "country": "Argentina",
+        "team": "SL Benfica",
         "goals": "4",
-        "played": "8"
+        "flag": "argentina",
+        "logo": "sl_benfica"
     },
     {
         "rank": "-",
-        "name": "Benzema Karim",
-        "team": "real madrid",
+        "name": " Hulk",
+        "country": "Brazil",
+        "team": "Zenit St. Petersburg",
         "goals": "4",
-        "played": "9"
+        "flag": "brazil",
+        "logo": "zenit_st__petersburg"
     },
     {
         "rank": "-",
-        "name": "Hulk ",
-        "team": "zénith saint-pétersbourg",
+        "name": "Admir Mehmedi",
+        "country": "Switzerland",
+        "team": "Bayer Leverkusen",
         "goals": "4",
-        "played": "7"
+        "flag": "switzerland",
+        "logo": "bayer_leverkusen"
     },
     {
-        "rank": "16",
-        "name": "Sanchez Alexis",
-        "team": "arsenal",
+        "rank": "16.",
+        "name": "Vincent Aboubakar",
+        "country": "Cameroon",
+        "team": "FC Porto",
         "goals": "3",
-        "played": "7"
-    },
-    {
-        "rank": "-",
-        "name": "Niguez Saul",
-        "team": "atlético de madrid",
-        "goals": "3",
-        "played": "13"
+        "flag": "cameroon",
+        "logo": "fc_porto"
     },
     {
         "rank": "-",
-        "name": "Jimenez Raul",
-        "team": "benfica",
+        "name": " Alex Teixeira",
+        "country": "Brazil",
+        "team": "Shakhtar Donetsk",
         "goals": "3",
-        "played": "10"
+        "flag": "brazil",
+        "logo": "shakhtar_donetsk"
     },
     {
         "rank": "-",
-        "name": "Stindl Lars",
-        "team": "borussia m'gladbach",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
         "goals": "3",
-        "played": "6"
+        "flag": "belgium",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Teixeira Alex",
-        "team": "chakhtior donetsk",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
         "goals": "3",
-        "played": "8"
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Seydou Doumbia",
+        "country": "Ivory Coast",
+        "team": "CSKA Moskva",
+        "goals": "3",
+        "flag": "ivory_coast",
+        "logo": "cska_moskva"
     }
 ]

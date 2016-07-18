@@ -1,142 +1,182 @@
 [
     {
-        "rank": "1",
-        "name": "Ibrahimovic Zlatan",
-        "team": "paris-sg",
+        "rank": "1.",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Paris Saint-Germain",
         "goals": "38",
-        "played": "31"
+        "flag": "sweden",
+        "logo": "paris_saint_germain"
     },
     {
-        "rank": "2",
-        "name": "Lacazette Alexandre",
-        "team": "lyon",
+        "rank": "2.",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Olympique Lyon",
         "goals": "21",
-        "played": "34"
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
-        "rank": "3",
-        "name": "Cavani Edinson",
-        "team": "paris-sg",
+        "rank": "3.",
+        "name": "Edinson Cavani",
+        "country": "Uruguay",
+        "team": "Paris Saint-Germain",
         "goals": "19",
-        "played": "32"
+        "flag": "uruguay",
+        "logo": "paris_saint_germain"
     },
     {
-        "rank": "4",
-        "name": "Batshuayi Michy",
-        "team": "marseille",
+        "rank": "4.",
+        "name": "Michy Batshuayi",
+        "country": "Belgium",
+        "team": "Olympique Marseille",
         "goals": "17",
-        "played": "36"
+        "flag": "belgium",
+        "logo": "olympique_marseille"
     },
     {
         "rank": "-",
-        "name": "Ben Arfa Hatem",
-        "team": "nice",
+        "name": "Hatem Ben Arfa",
+        "country": "France",
+        "team": "OGC Nice",
         "goals": "17",
-        "played": "34"
+        "flag": "france",
+        "logo": "ogc_nice"
     },
     {
         "rank": "-",
-        "name": "Ben Yedder Wissam",
-        "team": "toulouse",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Toulouse FC",
         "goals": "17",
-        "played": "35"
+        "flag": "france",
+        "logo": "toulouse_fc"
     },
     {
-        "rank": "7",
-        "name": "Germain Valère",
-        "team": "nice",
+        "rank": "7.",
+        "name": "Valère Germain",
+        "country": "France",
+        "team": "OGC Nice",
         "goals": "14",
-        "played": "38"
+        "flag": "france",
+        "logo": "ogc_nice"
     },
     {
-        "rank": "8",
-        "name": "Moukandjo Benjamin",
-        "team": "lorient",
+        "rank": "8.",
+        "name": "Benjamin Moukandjo",
+        "country": "Cameroon",
+        "team": "FC Lorient",
         "goals": "13",
-        "played": "31"
+        "flag": "cameroon",
+        "logo": "fc_lorient"
     },
     {
-        "rank": "9",
-        "name": "Delort Andy",
-        "team": "caen",
+        "rank": "9.",
+        "name": "Andy Delort",
+        "country": "France",
+        "team": "SM Caen",
         "goals": "12",
-        "played": "36"
+        "flag": "france",
+        "logo": "sm_caen"
     },
     {
         "rank": "-",
-        "name": "Dembélé Ousmane",
-        "team": "rennes",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "Stade Rennes",
         "goals": "12",
-        "played": "26"
+        "flag": "france",
+        "logo": "stade_rennes"
     },
     {
-        "rank": "11",
-        "name": "Boufal Sofiane",
-        "team": "lille",
+        "rank": "11.",
+        "name": "Sofiane Boufal",
+        "country": "Morocco",
+        "team": "Lille OSC",
         "goals": "11",
-        "played": "29"
+        "flag": "morocco",
+        "logo": "lille_osc"
     },
     {
         "rank": "-",
-        "name": "Waris Abdul Majeed",
-        "team": "lorient",
+        "name": "Martin Braithwaite",
+        "country": "Denmark",
+        "team": "Toulouse FC",
         "goals": "11",
-        "played": "21"
+        "flag": "denmark",
+        "logo": "toulouse_fc"
     },
     {
         "rank": "-",
-        "name": "Braithwaite Martin",
-        "team": "toulouse",
+        "name": "Waris Majeed",
+        "country": "Ghana",
+        "team": "FC Lorient",
         "goals": "11",
-        "played": "36"
+        "flag": "ghana",
+        "logo": "fc_lorient"
     },
     {
-        "rank": "14",
-        "name": "Diabaté Cheick",
-        "team": "bordeaux",
+        "rank": "14.",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
         "goals": "10",
-        "played": "23"
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
-        "name": "Rodelin Ronny",
-        "team": "caen",
+        "name": "Cheick Diabaté",
+        "country": "Mali",
+        "team": "Girondins Bordeaux",
         "goals": "10",
-        "played": "35"
+        "flag": "mali",
+        "logo": "girondins_bordeaux"
     },
     {
         "rank": "-",
-        "name": "Di Maria Angel",
-        "team": "paris-sg",
+        "name": "Sylvio Rodelin",
+        "country": "France",
+        "team": "Lille OSC",
         "goals": "10",
-        "played": "29"
+        "flag": "france",
+        "logo": "lille_osc"
     },
     {
-        "rank": "17",
-        "name": "N'Doye Cheikh",
-        "team": "angers",
+        "rank": "17.",
+        "name": "Kamil Grosicki",
+        "country": "Poland",
+        "team": "Stade Rennes",
         "goals": "9",
-        "played": "32"
-    },
-    {
-        "rank": "-",
-        "name": "Larbi Mohamed",
-        "team": "gfc ajaccio",
-        "goals": "9",
-        "played": "30"
+        "flag": "poland",
+        "logo": "stade_rennes"
     },
     {
         "rank": "-",
-        "name": "Lucas ",
-        "team": "paris-sg",
+        "name": " Lucas",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
         "goals": "9",
-        "played": "36"
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
-        "name": "Grosicki Kamil",
-        "team": "rennes",
+        "name": "Cheikh N'Doye",
+        "country": "Senegal",
+        "team": "Angers SCO",
         "goals": "9",
-        "played": "33"
+        "flag": "senegal",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "-",
+        "name": "Nolan Roux",
+        "country": "France",
+        "team": "AS Saint-Étienne",
+        "goals": "9",
+        "flag": "france",
+        "logo": "as_saint_etienne"
     }
 ]

@@ -1,122 +1,182 @@
 [
     {
-        "rank": "1 ",
+        "rank": "1.",
         "name": "Henrikh Mkhitaryan",
+        "country": "Armenia",
         "team": "Borussia Dortmund",
-        "goals": "15"
+        "assists": "16",
+        "flag": "armenia",
+        "logo": "borussia_dortmund"
     },
     {
-        "rank": "2 ",
+        "rank": "2.",
+        "name": "Zlatko Junuzović",
+        "country": "Austria",
+        "team": "Werder Bremen",
+        "assists": "12",
+        "flag": "austria",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "3.",
         "name": "Karim Bellarabi",
+        "country": "Germany",
         "team": "Bayer Leverkusen",
-        "goals": "11"
-    },
-    {
-        "rank": "3 ",
-        "name": "Raffael ",
-        "team": "Borussia Monchengladbach",
-        "goals": "10"
+        "assists": "11",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
-        "name": "Zlatko Junuzovic",
-        "team": "Werder Bremen",
-        "goals": "10"
-    },
-    {
-        "rank": "5 ",
-        "name": "Douglas Costa",
-        "team": "Bayern Munich",
-        "goals": "9"
-    },
-    {
-        "rank": "6 ",
-        "name": "Mahmoud Dahoud",
-        "team": "Borussia Monchengladbach",
-        "goals": "8"
+        "name": " Douglas Costa",
+        "country": "Brazil",
+        "team": "Bayern München",
+        "assists": "11",
+        "flag": "brazil",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
         "name": "Lars Stindl",
-        "team": "Borussia Monchengladbach",
-        "goals": "8"
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "assists": "11",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
     },
     {
-        "rank": "8 ",
-        "name": "Kevin Volland",
-        "team": "TSG Hoffenheim",
-        "goals": "7"
+        "rank": "6.",
+        "name": " Raffael",
+        "country": "Brazil",
+        "team": "Bor. Mönchengladbach",
+        "assists": "10",
+        "flag": "brazil",
+        "logo": "bor__monchengladbach"
     },
     {
-        "rank": "-",
-        "name": "Gonzalo Castro",
-        "team": "Borussia Dortmund",
-        "goals": "7"
+        "rank": "7.",
+        "name": "Mahmoud Dahoud",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "assists": "9",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
     },
     {
-        "rank": "-",
+        "rank": "8.",
         "name": "Shinji Kagawa",
+        "country": "Japan",
         "team": "Borussia Dortmund",
-        "goals": "7"
+        "assists": "8",
+        "flag": "japan",
+        "logo": "borussia_dortmund"
     },
     {
-        "rank": "11 ",
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "10.",
+        "name": "Gonzalo Castro",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "VfB Stuttgart",
+        "assists": "7",
+        "flag": "serbia",
+        "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "-",
         "name": "Max Kruse",
+        "country": "Germany",
         "team": "VfL Wolfsburg",
-        "goals": "6"
+        "assists": "7",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
     },
     {
         "rank": "-",
-        "name": "Leroy Sané",
-        "team": "Schalke 04",
-        "goals": "6"
+        "name": "Max Meyer",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
     },
     {
-        "rank": "-",
-        "name": "Maximilian Meyer",
-        "team": "Schalke 04",
-        "goals": "6"
-    },
-    {
-        "rank": "-",
-        "name": "Hiroshi Kiyotake",
-        "team": "Hannover 96",
-        "goals": "6"
+        "rank": "14.",
+        "name": " Caiuby",
+        "country": "Brazil",
+        "team": "FC Augsburg",
+        "assists": "6",
+        "flag": "brazil",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
         "name": "Kingsley Coman",
-        "team": "Bayern Munich",
-        "goals": "6"
-    },
-    {
-        "rank": "16 ",
-        "name": "Nicolai Müller",
-        "team": "Hamburg SV",
-        "goals": "5"
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "france",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
-        "name": "Konstantin Rausch",
-        "team": "SV Darmstadt 98",
-        "goals": "5"
+        "name": "Julian Draxler",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
-        "name": "Arturo Vidal",
-        "team": "Bayern Munich",
-        "goals": "5"
+        "name": "Matthias Ginter",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Marcel Risse",
-        "team": "FC Cologne",
-        "goals": "5"
+        "name": "Pascal Groß",
+        "country": "Germany",
+        "team": "FC Ingolstadt 04",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "fc_ingolstadt_04"
     },
     {
         "rank": "-",
-        "name": "Haris Seferovic",
-        "team": "Eintracht Frankfurt",
-        "goals": "5"
+        "name": " Jairo",
+        "country": "Spain",
+        "team": "1. FSV Mainz 05",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
+        "name": "Hiroshi Kiyotake",
+        "country": "Japan",
+        "team": "Hannover 96",
+        "assists": "6",
+        "flag": "japan",
+        "logo": "hannover_96"
     }
 ]

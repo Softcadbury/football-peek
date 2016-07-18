@@ -1,7 +1,7 @@
 [
     {
         "rank": "1",
-        "team": "Real Madrid",
+        "team": "Real Madrid",
         "points": "100",
         "played": "38",
         "win": "32",
@@ -9,11 +9,12 @@
         "lost": "2",
         "goalsFor": "121",
         "goalsAgainst": "32",
-        "goalDifference": "+89"
+        "goalDifference": "89",
+        "logo": "real_madrid"
     },
     {
         "rank": "2",
-        "team": "Barcelona",
+        "team": "FC Barcelona",
         "points": "91",
         "played": "38",
         "win": "28",
@@ -21,11 +22,12 @@
         "lost": "3",
         "goalsFor": "114",
         "goalsAgainst": "29",
-        "goalDifference": "+85"
+        "goalDifference": "85",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "3",
-        "team": "Valencia",
+        "team": "Valencia CF",
         "points": "61",
         "played": "38",
         "win": "17",
@@ -33,11 +35,12 @@
         "lost": "11",
         "goalsFor": "59",
         "goalsAgainst": "44",
-        "goalDifference": "+15"
+        "goalDifference": "15",
+        "logo": "valencia_cf"
     },
     {
         "rank": "4",
-        "team": "Málaga",
+        "team": "Málaga CF",
         "points": "58",
         "played": "38",
         "win": "17",
@@ -45,11 +48,12 @@
         "lost": "14",
         "goalsFor": "54",
         "goalsAgainst": "53",
-        "goalDifference": "+1"
+        "goalDifference": "1",
+        "logo": "malaga_cf"
     },
     {
         "rank": "5",
-        "team": "Atlético Madrid",
+        "team": "Atlético Madrid",
         "points": "56",
         "played": "38",
         "win": "15",
@@ -57,11 +61,12 @@
         "lost": "12",
         "goalsFor": "53",
         "goalsAgainst": "46",
-        "goalDifference": "+7"
+        "goalDifference": "7",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "6",
-        "team": "Levante",
+        "team": "Levante UD",
         "points": "55",
         "played": "38",
         "win": "16",
@@ -69,11 +74,12 @@
         "lost": "15",
         "goalsFor": "54",
         "goalsAgainst": "50",
-        "goalDifference": "+4"
+        "goalDifference": "4",
+        "logo": "levante_ud"
     },
     {
         "rank": "7",
-        "team": "Osasuna",
+        "team": "CA Osasuna",
         "points": "54",
         "played": "38",
         "win": "13",
@@ -81,11 +87,12 @@
         "lost": "10",
         "goalsFor": "44",
         "goalsAgainst": "61",
-        "goalDifference": "−17"
+        "goalDifference": "-17",
+        "logo": "ca_osasuna"
     },
     {
         "rank": "8",
-        "team": "Mallorca",
+        "team": "RCD Mallorca",
         "points": "52",
         "played": "38",
         "win": "14",
@@ -93,11 +100,12 @@
         "lost": "14",
         "goalsFor": "42",
         "goalsAgainst": "46",
-        "goalDifference": "−4"
+        "goalDifference": "-4",
+        "logo": "rcd_mallorca"
     },
     {
         "rank": "9",
-        "team": "Sevilla",
+        "team": "Sevilla FC",
         "points": "50",
         "played": "38",
         "win": "13",
@@ -105,11 +113,12 @@
         "lost": "14",
         "goalsFor": "48",
         "goalsAgainst": "47",
-        "goalDifference": "+1"
+        "goalDifference": "1",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "10",
-        "team": "Athletic Bilbao",
+        "team": "Athletic Bilbao",
         "points": "49",
         "played": "38",
         "win": "12",
@@ -117,11 +126,12 @@
         "lost": "13",
         "goalsFor": "49",
         "goalsAgainst": "52",
-        "goalDifference": "−3"
+        "goalDifference": "-3",
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "11",
-        "team": "Getafe",
+        "team": "Getafe CF",
         "points": "47",
         "played": "38",
         "win": "12",
@@ -129,11 +139,12 @@
         "lost": "15",
         "goalsFor": "40",
         "goalsAgainst": "51",
-        "goalDifference": "−11"
+        "goalDifference": "-11",
+        "logo": "getafe_cf"
     },
     {
         "rank": "12",
-        "team": "Real Sociedad",
+        "team": "Real Sociedad",
         "points": "47",
         "played": "38",
         "win": "12",
@@ -141,11 +152,12 @@
         "lost": "15",
         "goalsFor": "46",
         "goalsAgainst": "52",
-        "goalDifference": "−6"
+        "goalDifference": "-6",
+        "logo": "real_sociedad"
     },
     {
         "rank": "13",
-        "team": "Betis",
+        "team": "Real Betis",
         "points": "47",
         "played": "38",
         "win": "13",
@@ -153,11 +165,12 @@
         "lost": "17",
         "goalsFor": "47",
         "goalsAgainst": "56",
-        "goalDifference": "−9"
+        "goalDifference": "-9",
+        "logo": "real_betis"
     },
     {
         "rank": "14",
-        "team": "Espanyol",
+        "team": "Espanyol Barcelona",
         "points": "46",
         "played": "38",
         "win": "12",
@@ -165,11 +178,12 @@
         "lost": "16",
         "goalsFor": "46",
         "goalsAgainst": "56",
-        "goalDifference": "−10"
+        "goalDifference": "-10",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "15",
-        "team": "Rayo Vallecano",
+        "team": "Rayo Vallecano",
         "points": "43",
         "played": "38",
         "win": "13",
@@ -177,11 +191,12 @@
         "lost": "21",
         "goalsFor": "53",
         "goalsAgainst": "73",
-        "goalDifference": "−20"
+        "goalDifference": "-20",
+        "logo": "rayo_vallecano"
     },
     {
         "rank": "16",
-        "team": "Zaragoza",
+        "team": "Real Zaragoza",
         "points": "43",
         "played": "38",
         "win": "12",
@@ -189,11 +204,12 @@
         "lost": "19",
         "goalsFor": "36",
         "goalsAgainst": "61",
-        "goalDifference": "−25"
+        "goalDifference": "-25",
+        "logo": "real_zaragoza"
     },
     {
         "rank": "17",
-        "team": "Granada",
+        "team": "Granada CF",
         "points": "42",
         "played": "38",
         "win": "12",
@@ -201,11 +217,12 @@
         "lost": "20",
         "goalsFor": "35",
         "goalsAgainst": "56",
-        "goalDifference": "−21"
+        "goalDifference": "-21",
+        "logo": "granada_cf"
     },
     {
         "rank": "18",
-        "team": "Villarreal",
+        "team": "Villarreal CF",
         "points": "41",
         "played": "38",
         "win": "9",
@@ -213,11 +230,12 @@
         "lost": "15",
         "goalsFor": "39",
         "goalsAgainst": "53",
-        "goalDifference": "−14"
+        "goalDifference": "-14",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "19",
-        "team": "Sporting de Gijón",
+        "team": "Sporting Gijón",
         "points": "37",
         "played": "38",
         "win": "10",
@@ -225,11 +243,12 @@
         "lost": "21",
         "goalsFor": "42",
         "goalsAgainst": "69",
-        "goalDifference": "−27"
+        "goalDifference": "-27",
+        "logo": "sporting_gijon"
     },
     {
         "rank": "20",
-        "team": "Racing Santander",
+        "team": "Racing Santander",
         "points": "27",
         "played": "38",
         "win": "4",
@@ -237,6 +256,7 @@
         "lost": "19",
         "goalsFor": "28",
         "goalsAgainst": "63",
-        "goalDifference": "−35"
+        "goalDifference": "-35",
+        "logo": "racing_santander"
     }
 ]
