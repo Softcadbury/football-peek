@@ -22,8 +22,13 @@ gulp.task('update-results', () => {
     require('./server/updaters/resultsUpdater').update();
 });
 
+// Updates tournaments
+gulp.task('update-tournaments', () => {
+    require('./server/updaters/tournamentsUpdater').update();
+});
+
 // Updates all data except logos
-gulp.task('update', ['update-tables', 'update-scorers', 'update-assists', 'update-results']);
+gulp.task('update', ['update-tables', 'update-scorers', 'update-assists', 'update-results', 'update-tournaments']);
 
 // Check coding rules
 gulp.task('check', () => {
