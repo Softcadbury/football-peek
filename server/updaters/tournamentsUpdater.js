@@ -4,8 +4,9 @@ var config = require('../config');
 var helper = require('../helper');
 var competitions = require('../data/competitions');
 
+var parsedRoundCount;
 var tournamentDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-{2}';
-var tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale'];
+var tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale', 'sechzehntelfinale'];
 var competitionsExtended = [
     //{ code: competitions.championsLeague.code, url: 'champions-league' },
     { code: competitions.europaLeague.code, url: 'europa-league' }
@@ -20,38 +21,58 @@ function update() {
 
 // Updates the results of a competition
 function updateData(competition) {
-    helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, competition.url, config.years.current), function ($) {
-        var results = [
-            { name: "Final", results: [] },
-            { name: "Semi-finals", results: [] },
-            { name: "Quarter-finals", results: [] },
-            { name: "Eighth-finals", results: [] }
-        ];
+    parsedRoundCount = 0;
+    var results = [
+        { name: "Final", matches: [] },
+        { name: "Semi-finals", matches: [] },
+        { name: "Quarter-finals", matches: [] },
+        { name: "Eighth-finals", matches: [] },
+        { name: "Sixteenth-finals", matches: [] }
+    ];
 
-        //         {
-        //             "date": "14/5/2016",
-        //             "team1": "Leverkusen",
-        //             "team2": "FC Ingolstadt",
-        //             "score": "3-2",
-        //             "winner": "1",
-        //             "team1Logo": "1899_hoffenheim",
-        //             "team2Logo": "1899_hoffenheim"
-        //         }
+    parseRound(competition, results, 0);
+    parseRound(competition, results, 1);
+    parseRound(competition, results, 2);
+    parseRound(competition, results, 3);
+    parseRound(competition, results, 4);
+}
 
+// Parse a page of a competition
+function parseRound(competition, results, round) {
+    helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, competition.url, config.years.current, tournamentDataUrlExtensions[round]), function ($) {
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
-            results[0].results.push({
-                "team1": $(elem).find('td:nth-child(2) > a').text(),
-                "team2": $(elem).find('td:nth-child(4) > a').text(),
-                "score": $(elem).find('td:nth-child(5) > a').text().split(' ')[0],
-            });
+            var currentMatches = results[round].matches;
+
+            switch (index % 4) {
+                case 0:
+                    if (round == 0) {
+                        currentMatches.push({
+                            team1: $(elem).find('td:nth-child(3) > a').text(),
+                            team2: $(elem).find('td:nth-child(5) > a').text(),
+                            score1: $(elem).find('td:nth-child(6) > a').text().split(' ')[0]
+                        });
+
+                    } else {
+                        currentMatches.push({
+                            team1: $(elem).find('td:nth-child(2) > a').text(),
+                            team2: $(elem).find('td:nth-child(4) > a').text(),
+                            score1: $(elem).find('td:nth-child(5) > a').text().split(' ')[0]
+                        });
+                    }
+                    break;
+                case 1:
+                    currentMatches[currentMatches.length - 1].score2 = $(elem).find('td:nth-child(5) > a').text().split(' ')[0];
+                    break;
+                case 2:
+                    currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
+                    break;
+            }
         });
 
-        // for (var i = 0; i < results.length; i++) {
-        //     results[i].homeLogo = helper.stringSanitize(results[i].homeTeam);
-        //     results[i].awayLogo = helper.stringSanitize(results[i].awayTeam);
-        // }
-
-        helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, competition.code, config.years.current), results);
+        parsedRoundCount++;
+        if (parsedRoundCount == 5) {
+            helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, competition.code, config.years.current), results);
+        }
     });
 }
 

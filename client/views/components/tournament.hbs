@@ -3,22 +3,19 @@
     <table class="component component-large">
         {{#each tournamentData}}
         <tr>
-            <td colspan="4">
+            <td colspan="3">
                 <div class="component-title">
                     <h3>{{this.name}}</h3>
                 </div>
             </td>
         </tr>
-        {{#each this.results}}
+        {{#each this.matches}}
         <tr>
-            <td>{{this.date}}</td>
             <td class="component-column-main component-column-right">
                 <span title="{{this.team1}}">{{this.team1}}</span>
-                <img src="/images/logos/{{this.team1Logo}}.png" title="{{this.team1}}" alt="Logo {{this.team1}}" />
             </td>
-            <td class="component-column-score">{{this.score}}</td>
+            <td class="component-column-score">{{this.score1}} / {{this.score2}}</td>
             <td class="component-column-main">
-                <img src="/images/logos/{{this.team2Logo}}.png" title="{{this.team2}}" alt="Logo {{this.team2}}" />
                 <span title="{{this.team2}}">{{this.team2}}</span>
             </td>
         </tr>
