@@ -14,13 +14,13 @@
             {{#each this.matches}}
             <tr>
                 <td class="component-column-main component-column-right">
-                    <span title="{{this.team1}}">{{this.team1}}</span>
+                    <span class="{{#isWinner this.team1 this.winner}}is-winner{{/isWinner}}" title="{{this.team1}}">{{this.team1}}</span>
                 </td>
                 <td class="component-column-score">
                     {{this.score1}} {{#if this.score2}}/{{/if}} {{this.score2}}
                 </td>
                 <td class="component-column-main">
-                    <span title="{{this.team2}}">{{this.team2}}</span>
+                    <span class="{{#isWinner this.team2 this.winner}}is-winner{{/isWinner}}" title="{{this.team2}}">{{this.team2}}</span>
                 </td>
             </tr>
             {{/each}}

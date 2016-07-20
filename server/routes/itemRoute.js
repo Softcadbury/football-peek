@@ -34,7 +34,12 @@ router.route('/:item/:year?')
             items: items,
             years: config.years.availables,
             requestedItem: requestedItem,
-            requestedYear: requestedYear
+            requestedYear: requestedYear,
+            helpers: {
+                isWinner: function (team, winner, options) {
+                    return team == winner ? options.fn(this) : options.inverse(this);
+                }
+            }
         };
 
         if (requestedItem === competitions.championsLeague || requestedItem === competitions.europaLeague) {
