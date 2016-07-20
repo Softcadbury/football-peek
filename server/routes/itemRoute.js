@@ -34,11 +34,17 @@ router.route('/:item/:year?')
             items: items,
             years: config.years.availables,
             requestedItem: requestedItem,
-            requestedYear: requestedYear
+            requestedYear: requestedYear,
+            helpers: {
+                isWinner: function (team, winner, options) {
+                    return team == winner ? options.fn(this) : options.inverse(this);
+                }
+            }
         };
 
         if (requestedItem === competitions.championsLeague || requestedItem === competitions.europaLeague) {
             res.render('competition', Object.assign(data, {
+                tournamentData: helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, requestedItem.code, requestedYear)),
                 scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
                 assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
             }));
