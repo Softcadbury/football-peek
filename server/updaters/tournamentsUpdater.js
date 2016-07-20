@@ -45,10 +45,15 @@ function parseRound(competition, results, roundCounter, round) {
             switch (index % 4) {
                 case 0:
                     if (round == 0) {
+                        var team1 = $(elem).find('td:nth-child(3) > a').text();
+                        var team2 = $(elem).find('td:nth-child(5) > a').text();
+                        var score = $(elem).find('td:nth-child(6) > a').text().split(' ')[0];
+
                         currentMatches.push({
-                            team1: $(elem).find('td:nth-child(3) > a').text(),
-                            team2: $(elem).find('td:nth-child(5) > a').text(),
-                            score1: $(elem).find('td:nth-child(6) > a').text().split(' ')[0]
+                            team1: team1,
+                            team2: team2,
+                            score: score,
+                            winner: score.split(':')[0] > score.split(':')[1] ? team1 : team2
                         });
 
                     } else {
