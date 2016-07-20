@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Final",
+        "matches": [
+            {
+                "team1": "Borussia Dortmund",
+                "team2": "Bayern München",
+                "score": "1:2",
+                "winner": "Bayern München"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "team1": "Bayern München",
+                "team2": "FC Barcelona",
+                "score1": "4:0",
+                "score2": "0:3",
+                "winner": "Bayern München"
+            },
+            {
+                "team1": "Borussia Dortmund",
+                "team2": "Real Madrid",
+                "score1": "4:1",
+                "score2": "2:0",
+                "winner": "Borussia Dortmund"
+            }
+        ]
+    },
+    {
+        "name": "Quarter-finals",
+        "matches": [
+            {
+                "team1": "Paris Saint-Germain",
+                "team2": "FC Barcelona",
+                "score1": "2:2",
+                "score2": "1:1",
+                "winner": "FC Barcelona"
+            },
+            {
+                "team1": "Bayern München",
+                "team2": "Juventus",
+                "score1": "2:0",
+                "score2": "0:2",
+                "winner": "Bayern München"
+            },
+            {
+                "team1": "Málaga CF",
+                "team2": "Borussia Dortmund",
+                "score1": "0:0",
+                "score2": "3:2",
+                "winner": "Borussia Dortmund"
+            },
+            {
+                "team1": "Real Madrid",
+                "team2": "Galatasaray",
+                "score1": "3:0",
+                "score2": "3:2",
+                "winner": "Real Madrid"
+            }
+        ]
+    },
+    {
+        "name": "Eighth-finals",
+        "matches": []
+    },
+    {
+        "name": "Sixteenth-finals",
+        "matches": []
+    }
+]

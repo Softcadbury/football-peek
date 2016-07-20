@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Final",
+        "matches": [
+            {
+                "team1": "FC Barcelona",
+                "team2": "Manchester United",
+                "score": "3:1",
+                "winner": "FC Barcelona"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "team1": "FC Schalke 04",
+                "team2": "Manchester United",
+                "score1": "0:2",
+                "score2": "4:1",
+                "winner": "Manchester United"
+            },
+            {
+                "team1": "Real Madrid",
+                "team2": "FC Barcelona",
+                "score1": "0:2",
+                "score2": "1:1",
+                "winner": "FC Barcelona"
+            }
+        ]
+    },
+    {
+        "name": "Quarter-finals",
+        "matches": [
+            {
+                "team1": "Real Madrid",
+                "team2": "Tottenham Hotspur",
+                "score1": "4:0",
+                "score2": "0:1",
+                "winner": "Real Madrid"
+            },
+            {
+                "team1": "Inter",
+                "team2": "FC Schalke 04",
+                "score1": "2:5",
+                "score2": "2:1",
+                "winner": "FC Schalke 04"
+            },
+            {
+                "team1": "Chelsea FC",
+                "team2": "Manchester United",
+                "score1": "0:1",
+                "score2": "2:1",
+                "winner": "Manchester United"
+            },
+            {
+                "team1": "FC Barcelona",
+                "team2": "Shakhtar Donetsk",
+                "score1": "5:1",
+                "score2": "0:1",
+                "winner": "FC Barcelona"
+            }
+        ]
+    },
+    {
+        "name": "Eighth-finals",
+        "matches": []
+    },
+    {
+        "name": "Sixteenth-finals",
+        "matches": []
+    }
+]
