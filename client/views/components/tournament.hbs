@@ -2,24 +2,28 @@
 <div class="component-container">
     <table class="component component-large">
         {{#each tournamentData}}
-        <tr>
-            <td colspan="3">
-                <div class="component-title">
-                    <h3>{{this.name}}</h3>
-                </div>
-            </td>
-        </tr>
-        {{#each this.matches}}
-        <tr>
-            <td class="component-column-main component-column-right">
-                <span title="{{this.team1}}">{{this.team1}}</span>
-            </td>
-            <td class="component-column-score">{{this.score1}} / {{this.score2}}</td>
-            <td class="component-column-main">
-                <span title="{{this.team2}}">{{this.team2}}</span>
-            </td>
-        </tr>
-        {{/each}}
+            {{#if this.matches.length}}
+            <tr>
+                <td colspan="3">
+                    <div class="component-title">
+                        <h3>{{this.name}}</h3>
+                    </div>
+                </td>
+            </tr>
+            {{/if}}
+            {{#each this.matches}}
+            <tr>
+                <td class="component-column-main component-column-right">
+                    <span title="{{this.team1}}">{{this.team1}}</span>
+                </td>
+                <td class="component-column-score">
+                    {{this.score1}} {{#if this.score2}}/{{/if}} {{this.score2}}
+                </td>
+                <td class="component-column-main">
+                    <span title="{{this.team2}}">{{this.team2}}</span>
+                </td>
+            </tr>
+            {{/each}}
         {{/each}}
     </table>
 </div>
