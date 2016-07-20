@@ -47,25 +47,25 @@ function parseRound(competition, results, roundCounter, round) {
                     if (round == 0) {
                         var team1 = $(elem).find('td:nth-child(3) > a').text();
                         var team2 = $(elem).find('td:nth-child(5) > a').text();
-                        var score = $(elem).find('td:nth-child(6) > a').text().split(' ')[0];
+                        var score = parseScore($(elem).find('td:nth-child(6) > a').text());
 
                         currentMatches.push({
                             team1: team1,
                             team2: team2,
                             score: score,
-                            winner: score.split(':')[0] > score.split(':')[1] ? team1 : team2
+                            winner: score.split(' ')[0].split(':')[0] > score.split(' ')[0].split(':')[1] ? team1 : team2
                         });
 
                     } else {
                         currentMatches.push({
                             team1: $(elem).find('td:nth-child(2) > a').text(),
                             team2: $(elem).find('td:nth-child(4) > a').text(),
-                            score1: $(elem).find('td:nth-child(5) > a').text().split(' ')[0]
+                            score1: parseScore($(elem).find('td:nth-child(5) > a').text())
                         });
                     }
                     break;
                 case 1:
-                    currentMatches[currentMatches.length - 1].score2 = $(elem).find('td:nth-child(5) > a').text().split(' ')[0];
+                    currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text());
                     break;
                 case 2:
                     currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
@@ -78,6 +78,11 @@ function parseRound(competition, results, roundCounter, round) {
             helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, competition.code, config.years.current), results);
         }
     });
+}
+
+// Clean score by removing useless string
+function parseScore(score) {
+    return score.replace('pso', '').replace('aet', '');
 }
 
 module.exports = {
