@@ -6,20 +6,20 @@ var competitions = require('../data/competitions');
 
 var tournamentDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-{2}';
 var tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale', 'sechzehntelfinale'];
-var competitionsExtended = [
+var itemsExtended = [
     { code: competitions.championsLeague.code, url: 'champions-league', roundNumber: 4 },
     { code: competitions.europaLeague.code, url: 'europa-league', roundNumber: 5 }
 ];
 
 // Updates tournament of current year
 function update() {
-    for (var i = 0; i < competitionsExtended.length; i++) {
-        updateData(competitionsExtended[i]);
+    for (var i = 0; i < itemsExtended.length; i++) {
+        updateData(itemsExtended[i]);
     }
 }
 
-// Updates the results of a competition
-function updateData(competition) {
+// Updates the tournament of an item
+function updateData(item) {
     var roundCounter = { count: 0 };
     var results = [
         { name: "Final", matches: [] },
@@ -29,16 +29,16 @@ function updateData(competition) {
         { name: "Sixteenth-finals", matches: [] }
     ];
 
-    parseRound(competition, results, roundCounter, 0);
-    parseRound(competition, results, roundCounter, 1);
-    parseRound(competition, results, roundCounter, 2);
-    parseRound(competition, results, roundCounter, 3);
-    parseRound(competition, results, roundCounter, 4);
+    parseRound(item, results, roundCounter, 0);
+    parseRound(item, results, roundCounter, 1);
+    parseRound(item, results, roundCounter, 2);
+    parseRound(item, results, roundCounter, 3);
+    parseRound(item, results, roundCounter, 4);
 }
 
-// Parse a page of a competition
-function parseRound(competition, results, roundCounter, round) {
-    helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, competition.url, config.years.current, tournamentDataUrlExtensions[round]), function ($) {
+// Parse a page of an item
+function parseRound(item, results, roundCounter, round) {
+    helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, item.url, config.years.current, tournamentDataUrlExtensions[round]), function ($) {
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
             var currentMatches = results[round].matches;
 
@@ -74,8 +74,8 @@ function parseRound(competition, results, roundCounter, round) {
         });
 
         roundCounter.count++;
-        if (roundCounter.count == competition.roundNumber) {
-            helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, competition.code, config.years.current), results);
+        if (roundCounter.count == item.roundNumber) {
+            helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.years.current), results);
         }
     });
 }

@@ -5,7 +5,7 @@ var helper = require('../helper');
 var leagues = require('../data/leagues');
 
 var tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag';
-var leaguesExtended = [
+var itemsExtended = [
     { code: leagues.bundesliga.code, url: 'bundesliga' },
     { code: leagues.liga.code, url: 'esp-primera-division' },
     { code: leagues.ligue1.code, url: 'fra-ligue-1' },
@@ -15,14 +15,14 @@ var leaguesExtended = [
 
 // Updates tables of current year
 function update() {
-    for (var i = 0; i < leaguesExtended.length; i++) {
-        updateData(leaguesExtended[i]);
+    for (var i = 0; i < itemsExtended.length; i++) {
+        updateData(itemsExtended[i]);
     }
 }
 
-// Updates the table of a league
-function updateData(league) {
-    helper.scrapeUrl(helper.stringFormat(tableDataUrl, league.url, config.years.current), function ($) {
+// Updates the table of an item
+function updateData(item) {
+    helper.scrapeUrl(helper.stringFormat(tableDataUrl, item.url, config.years.current), function ($) {
         var results = [];
 
         $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle > tr').each((index, elem) => {
@@ -47,7 +47,7 @@ function updateData(league) {
             helper.manageLogoProperty(results[i]);
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, league.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, item.code, config.years.current), results);
     });
 }
 
