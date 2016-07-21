@@ -63,7 +63,7 @@ function parseRound(item, results, roundCounter, round) {
                     }
                     break;
                 case 1:
-                    currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text());
+                    currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
                     break;
                 case 2:
                     currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
@@ -79,7 +79,7 @@ function parseRound(item, results, roundCounter, round) {
 }
 
 // Clean score by removing useless parts
-function parseScore(score) {
+function parseScore(score, inverseScore) {
     var scores = score
         .replace('pso', '')
         .replace('aet', '')
@@ -89,13 +89,23 @@ function parseScore(score) {
         .trim()
         .split(' ');
 
-    var newScore = scores[0];
+    var newScorePart1 = scores[0];
 
-    if (scores.length == 4) {
-        newScore += ' (' + scores[3] + ')';
+    if (inverseScore) {
+        newScorePart1 = newScorePart1.split(':')[1] + ':' + newScorePart1.split(':')[0];
     }
 
-    return newScore;
+    if (scores.length != 4) {
+        return newScorePart1;
+    }
+
+    var newScorePart2 = scores[3];
+
+    if (inverseScore) {
+        newScorePart2 = newScorePart2.split(':')[1] + ':' + newScorePart2.split(':')[0];
+    }
+
+    return newScorePart1 + ' (' + newScorePart2 + ')';
 }
 
 module.exports = {
