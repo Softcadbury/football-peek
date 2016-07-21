@@ -23,7 +23,7 @@ function update() {
     }
 }
 
-// Updates the assists of a item
+// Updates the assists of an item
 function updateData(item) {
     helper.scrapeUrl(helper.stringFormat(assistsDataUrl, item.url, config.years.current), function ($) {
         var results = [];
