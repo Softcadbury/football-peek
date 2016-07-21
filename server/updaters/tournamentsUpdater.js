@@ -29,11 +29,9 @@ function updateData(item) {
         { name: "Sixteenth-finals", matches: [] }
     ];
 
-    parseRound(item, results, roundCounter, 0);
-    parseRound(item, results, roundCounter, 1);
-    parseRound(item, results, roundCounter, 2);
-    parseRound(item, results, roundCounter, 3);
-    parseRound(item, results, roundCounter, 4);
+    for (var i = 0; i < item.roundNumber; i++) {
+        parseRound(item, results, roundCounter, i);
+    }
 }
 
 // Parse a page of an item
@@ -80,9 +78,24 @@ function parseRound(item, results, roundCounter, round) {
     });
 }
 
-// Clean score by removing useless string
+// Clean score by removing useless parts
 function parseScore(score) {
-    return score.replace('pso', '').replace('aet', '');
+    var scores = score
+        .replace('pso', '')
+        .replace('aet', '')
+        .replace('(', '')
+        .replace(')', '')
+        .replace(new RegExp(',', 'g'), '')
+        .trim()
+        .split(' ');
+
+    var newScore = scores[0];
+
+    if (scores.length == 4) {
+        newScore += ' (' + scores[3] + ')';
+    }
+
+    return newScore;
 }
 
 module.exports = {
