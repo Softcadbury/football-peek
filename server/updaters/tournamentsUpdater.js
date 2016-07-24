@@ -37,9 +37,9 @@ function updateData(item) {
 // Parse a page of an item
 function parseRound(item, results, roundCounter, round) {
     helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, item.url, config.years.current, tournamentDataUrlExtensions[round]), function ($) {
-        $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
-            var currentMatches = results[round].matches;
+        var currentMatches = results[round].matches;
 
+        $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
             switch (index % 4) {
                 case 0:
                     if (round == 0) {
@@ -70,6 +70,11 @@ function parseRound(item, results, roundCounter, round) {
                     break;
             }
         });
+
+        for (var i = 0; i < currentMatches.length; i++) {
+            currentMatches[i].team1Logo = helper.stringSanitize(currentMatches[i].team1);
+            currentMatches[i].team2Logo = helper.stringSanitize(currentMatches[i].team2);
+        }
 
         roundCounter.count++;
         if (roundCounter.count == item.roundNumber) {

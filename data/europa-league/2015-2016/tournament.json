@@ -6,7 +6,9 @@
                 "team1": "Liverpool FC",
                 "team2": "Sevilla FC",
                 "score": "1:3",
-                "winner": "Sevilla FC"
+                "winner": "Sevilla FC",
+                "team1Logo": "liverpool_fc",
+                "team2Logo": "sevilla_fc"
             }
         ]
     },
@@ -18,14 +20,18 @@
                 "team2": "Sevilla FC",
                 "score1": "2:2",
                 "score2": "1:3",
-                "winner": "Sevilla FC"
+                "winner": "Sevilla FC",
+                "team1Logo": "shakhtar_donetsk",
+                "team2Logo": "sevilla_fc"
             },
             {
                 "team1": "Villarreal CF",
                 "team2": "Liverpool FC",
                 "score1": "1:0",
                 "score2": "0:3",
-                "winner": "Liverpool FC"
+                "winner": "Liverpool FC",
+                "team1Logo": "villarreal_cf",
+                "team2Logo": "liverpool_fc"
             }
         ]
     },
@@ -37,28 +43,36 @@
                 "team2": "Shakhtar Donetsk",
                 "score1": "1:2",
                 "score2": "0:4",
-                "winner": "Shakhtar Donetsk"
+                "winner": "Shakhtar Donetsk",
+                "team1Logo": "sporting_braga",
+                "team2Logo": "shakhtar_donetsk"
             },
             {
                 "team1": "Villarreal CF",
                 "team2": "Sparta Praha",
                 "score1": "2:1",
                 "score2": "4:2",
-                "winner": "Villarreal CF"
+                "winner": "Villarreal CF",
+                "team1Logo": "villarreal_cf",
+                "team2Logo": "sparta_praha"
             },
             {
                 "team1": "Athletic Bilbao",
                 "team2": "Sevilla FC",
                 "score1": "1:2",
                 "score2": "4:5 (2:1)",
-                "winner": "Sevilla FC"
+                "winner": "Sevilla FC",
+                "team1Logo": "athletic_bilbao",
+                "team2Logo": "sevilla_fc"
             },
             {
                 "team1": "Borussia Dortmund",
                 "team2": "Liverpool FC",
                 "score1": "1:1",
                 "score2": "3:4",
-                "winner": "Liverpool FC"
+                "winner": "Liverpool FC",
+                "team1Logo": "borussia_dortmund",
+                "team2Logo": "liverpool_fc"
             }
         ]
     },
@@ -70,56 +84,72 @@
                 "team2": "RSC Anderlecht",
                 "score1": "3:1",
                 "score2": "1:0",
-                "winner": "Shakhtar Donetsk"
+                "winner": "Shakhtar Donetsk",
+                "team1Logo": "shakhtar_donetsk",
+                "team2Logo": "rsc_anderlecht"
             },
             {
                 "team1": "FC Basel",
                 "team2": "Sevilla FC",
                 "score1": "0:0",
                 "score2": "0:3",
-                "winner": "Sevilla FC"
+                "winner": "Sevilla FC",
+                "team1Logo": "fc_basel",
+                "team2Logo": "sevilla_fc"
             },
             {
                 "team1": "Borussia Dortmund",
                 "team2": "Tottenham Hotspur",
                 "score1": "3:0",
                 "score2": "2:1",
-                "winner": "Borussia Dortmund"
+                "winner": "Borussia Dortmund",
+                "team1Logo": "borussia_dortmund",
+                "team2Logo": "tottenham_hotspur"
             },
             {
                 "team1": "Fenerbahçe",
                 "team2": "Sporting Braga",
                 "score1": "1:0",
                 "score2": "1:4",
-                "winner": "Sporting Braga"
+                "winner": "Sporting Braga",
+                "team1Logo": "fenerbahce",
+                "team2Logo": "sporting_braga"
             },
             {
                 "team1": "Villarreal CF",
                 "team2": "Bayer Leverkusen",
                 "score1": "2:0",
                 "score2": "0:0",
-                "winner": "Villarreal CF"
+                "winner": "Villarreal CF",
+                "team1Logo": "villarreal_cf",
+                "team2Logo": "bayer_leverkusen"
             },
             {
                 "team1": "Athletic Bilbao",
                 "team2": "Valencia CF",
                 "score1": "1:0",
                 "score2": "1:2",
-                "winner": "Athletic Bilbao"
+                "winner": "Athletic Bilbao",
+                "team1Logo": "athletic_bilbao",
+                "team2Logo": "valencia_cf"
             },
             {
                 "team1": "Liverpool FC",
                 "team2": "Manchester United",
                 "score1": "2:0",
                 "score2": "1:1",
-                "winner": "Liverpool FC"
+                "winner": "Liverpool FC",
+                "team1Logo": "liverpool_fc",
+                "team2Logo": "manchester_united"
             },
             {
                 "team1": "Sparta Praha",
                 "team2": "Lazio Roma",
                 "score1": "1:1",
                 "score2": "3:0",
-                "winner": "Sparta Praha"
+                "winner": "Sparta Praha",
+                "team1Logo": "sparta_praha",
+                "team2Logo": "lazio_roma"
             }
         ]
     },
@@ -131,112 +161,144 @@
                 "team2": "Lokomotiv Moskva",
                 "score1": "2:0",
                 "score2": "1:1",
-                "winner": "Fenerbahçe"
+                "winner": "Fenerbahçe",
+                "team1Logo": "fenerbahce",
+                "team2Logo": "lokomotiv_moskva"
             },
             {
                 "team1": "ACF Fiorentina",
                 "team2": "Tottenham Hotspur",
                 "score1": "1:1",
                 "score2": "0:3",
-                "winner": "Tottenham Hotspur"
+                "winner": "Tottenham Hotspur",
+                "team1Logo": "acf_fiorentina",
+                "team2Logo": "tottenham_hotspur"
             },
             {
                 "team1": "Borussia Dortmund",
                 "team2": "FC Porto",
                 "score1": "2:0",
                 "score2": "1:0",
-                "winner": "Borussia Dortmund"
+                "winner": "Borussia Dortmund",
+                "team1Logo": "borussia_dortmund",
+                "team2Logo": "fc_porto"
             },
             {
                 "team1": "RSC Anderlecht",
                 "team2": "Olympiakos Piräus",
                 "score1": "1:0",
                 "score2": "2:1",
-                "winner": "RSC Anderlecht"
+                "winner": "RSC Anderlecht",
+                "team1Logo": "rsc_anderlecht",
+                "team2Logo": "olympiakos_piraus"
             },
             {
                 "team1": "FC Midtjylland",
                 "team2": "Manchester United",
                 "score1": "2:1",
                 "score2": "1:5",
-                "winner": "Manchester United"
+                "winner": "Manchester United",
+                "team1Logo": "fc_midtjylland",
+                "team2Logo": "manchester_united"
             },
             {
                 "team1": "Sevilla FC",
                 "team2": "Molde FK",
                 "score1": "3:0",
                 "score2": "0:1",
-                "winner": "Sevilla FC"
+                "winner": "Sevilla FC",
+                "team1Logo": "sevilla_fc",
+                "team2Logo": "molde_fk"
             },
             {
                 "team1": "Villarreal CF",
                 "team2": "SSC Napoli",
                 "score1": "1:0",
                 "score2": "1:1",
-                "winner": "Villarreal CF"
+                "winner": "Villarreal CF",
+                "team1Logo": "villarreal_cf",
+                "team2Logo": "ssc_napoli"
             },
             {
                 "team1": "AS Saint-Étienne",
                 "team2": "FC Basel",
                 "score1": "3:2",
                 "score2": "1:2",
-                "winner": "FC Basel"
+                "winner": "FC Basel",
+                "team1Logo": "as_saint_etienne",
+                "team2Logo": "fc_basel"
             },
             {
                 "team1": "Valencia CF",
                 "team2": "Rapid Wien",
                 "score1": "6:0",
                 "score2": "4:0",
-                "winner": "Valencia CF"
+                "winner": "Valencia CF",
+                "team1Logo": "valencia_cf",
+                "team2Logo": "rapid_wien"
             },
             {
                 "team1": "FC Augsburg",
                 "team2": "Liverpool FC",
                 "score1": "0:0",
                 "score2": "0:1",
-                "winner": "Liverpool FC"
+                "winner": "Liverpool FC",
+                "team1Logo": "fc_augsburg",
+                "team2Logo": "liverpool_fc"
             },
             {
                 "team1": "Sparta Praha",
                 "team2": "FK Krasnodar",
                 "score1": "1:0",
                 "score2": "3:0",
-                "winner": "Sparta Praha"
+                "winner": "Sparta Praha",
+                "team1Logo": "sparta_praha",
+                "team2Logo": "fk_krasnodar"
             },
             {
                 "team1": "Galatasaray",
                 "team2": "Lazio Roma",
                 "score1": "1:1",
                 "score2": "1:3",
-                "winner": "Lazio Roma"
+                "winner": "Lazio Roma",
+                "team1Logo": "galatasaray",
+                "team2Logo": "lazio_roma"
             },
             {
                 "team1": "FC Sion",
                 "team2": "Sporting Braga",
                 "score1": "1:2",
                 "score2": "2:2",
-                "winner": "Sporting Braga"
+                "winner": "Sporting Braga",
+                "team1Logo": "fc_sion",
+                "team2Logo": "sporting_braga"
             },
             {
                 "team1": "Shakhtar Donetsk",
                 "team2": "FC Schalke 04",
                 "score1": "0:0",
                 "score2": "3:0",
-                "winner": "Shakhtar Donetsk"
+                "winner": "Shakhtar Donetsk",
+                "team1Logo": "shakhtar_donetsk",
+                "team2Logo": "fc_schalke_04"
             },
             {
                 "team1": "Olympique Marseille",
                 "team2": "Athletic Bilbao",
                 "score1": "0:1",
                 "score2": "1:1",
-                "winner": "Athletic Bilbao"
+                "winner": "Athletic Bilbao",
+                "team1Logo": "olympique_marseille",
+                "team2Logo": "athletic_bilbao"
             },
             {
                 "team1": "Sporting CP",
                 "team2": "Bayer Leverkusen",
                 "score1": "0:1",
                 "score2": "1:3",
-                "winner": "Bayer Leverkusen"
+                "winner": "Bayer Leverkusen",
+                "team1Logo": "sporting_cp",
+                "team2Logo": "bayer_leverkusen"
             }
         ]
     }
