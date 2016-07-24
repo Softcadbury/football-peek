@@ -22,11 +22,11 @@ function update() {
 function updateData(item) {
     var roundCounter = { count: 0 };
     var results = [
-        { name: "Final", matches: [] },
-        { name: "Semi-finals", matches: [] },
-        { name: "Quarter-finals", matches: [] },
-        { name: "Eighth-finals", matches: [] },
-        { name: "Sixteenth-finals", matches: [] }
+        { name: 'Final', matches: [] },
+        { name: 'Semi-finals', matches: [] },
+        { name: 'Quarter-finals', matches: [] },
+        { name: 'Eighth-finals', matches: [] },
+        { name: 'Sixteenth-finals', matches: [] }
     ];
 
     for (var i = 0; i < item.roundNumber; i++) {
@@ -42,7 +42,7 @@ function parseRound(item, results, roundCounter, round) {
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
             switch (index % 4) {
                 case 0:
-                    if (round == 0) {
+                    if (round === 0) {
                         var team1 = $(elem).find('td:nth-child(3) > a').text();
                         var team2 = $(elem).find('td:nth-child(5) > a').text();
                         var score = parseScore($(elem).find('td:nth-child(6) > a').text());
@@ -53,7 +53,6 @@ function parseRound(item, results, roundCounter, round) {
                             score: score,
                             winner: score.split(' ')[0].split(':')[0] > score.split(' ')[0].split(':')[1] ? team1 : team2
                         });
-
                     } else {
                         currentMatches.push({
                             team1: $(elem).find('td:nth-child(2) > a').text(),
@@ -77,7 +76,7 @@ function parseRound(item, results, roundCounter, round) {
         }
 
         roundCounter.count++;
-        if (roundCounter.count == item.roundNumber) {
+        if (roundCounter.count === item.roundNumber) {
             helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.years.current), results);
         }
     });
@@ -100,7 +99,7 @@ function parseScore(score, inverseScore) {
         newScorePart1 = newScorePart1.split(':')[1] + ':' + newScorePart1.split(':')[0];
     }
 
-    if (scores.length != 4) {
+    if (scores.length !== 4) {
         return newScorePart1;
     }
 

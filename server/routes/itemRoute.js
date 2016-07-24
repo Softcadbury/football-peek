@@ -37,7 +37,7 @@ router.route('/:item/:year?')
             requestedYear: requestedYear,
             helpers: {
                 isWinner: function (team, winner, options) {
-                    return team == winner ? options.fn(this) : options.inverse(this);
+                    return team === winner ? options.fn(this) : options.inverse(this);
                 }
             }
         };

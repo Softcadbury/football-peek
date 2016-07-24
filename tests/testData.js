@@ -77,7 +77,7 @@ function testTournamentData(code, year) {
         assert.lengthOf(data[1].matches, 2);
         assert.lengthOf(data[2].matches, 4);
         assert.lengthOf(data[3].matches, 8);
-        assert.isTrue(data[4].matches.length == 16 || data[4].matches.length == 0);
+        assert.isTrue(data[4].matches.length === 16 || data[4].matches.length === 0);
     });
 }
 
