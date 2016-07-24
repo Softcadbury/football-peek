@@ -72,22 +72,22 @@ function testImagesExistance(dataName, data) {
 
             if (item.team1Logo) {
                 var team1LogoPath = helper.stringFormat(config.paths.logosData, item.team1Logo);
-                assert.isTrue(fileExists(team1LogoPath), 'Logo team 1 does not exist for item ' + index);
+                assert.isTrue(fileExists(team1LogoPath), 'Team 1 logo does not exist for item ' + index);
             }
 
             if (item.team2Logo) {
                 var team2LogoPath = helper.stringFormat(config.paths.logosData, item.team2Logo);
-                assert.isTrue(fileExists(team2LogoPath), 'Logo team 2 does not exist for item ' + index);
+                assert.isTrue(fileExists(team2LogoPath), 'Team 2 logo does not exist for item ' + index);
             }
 
-            if (item.homeLogo) {
-                var homeLogoPath = helper.stringFormat(config.paths.logosData, item.homeLogo);
-                assert.isTrue(fileExists(homeLogoPath), 'Logo home does not exist for item ' + index);
+            if (item.homeTeamLogo) {
+                var homeTeamLogoPath = helper.stringFormat(config.paths.logosData, item.homeTeamLogo);
+                assert.isTrue(fileExists(homeTeamLogoPath), 'Home team logo does not exist for item ' + index);
             }
 
-            if (item.awayLogo) {
-                var awayLogoPath = helper.stringFormat(config.paths.logosData, item.awayLogo);
-                assert.isTrue(fileExists(awayLogoPath), 'Logo away does not exist for item ' + index);
+            if (item.awayTeamLogo) {
+                var awayTeamLogoPath = helper.stringFormat(config.paths.logosData, item.awayTeamLogo);
+                assert.isTrue(fileExists(awayTeamLogoPath), 'Away team logo does not exist for item ' + index);
             }
         });
     });
