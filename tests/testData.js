@@ -13,7 +13,9 @@ describe('Data intergrity', () => {
         describe(item.name, () => {
             config.years.availables.forEach(year => {
                 describe(year, () => {
-                    if (item.code !== competitions.championsLeague.code && item.code !== competitions.europaLeague.code) {
+                    if (item.code === competitions.championsLeague.code || item.code === competitions.europaLeague.code) {
+                        testTournamentData(item.code, year);
+                    } else {
                         testTableData(item.code, year);
                         testResultData(item.code, year);
                     }
@@ -28,42 +30,55 @@ describe('Data intergrity', () => {
 
 function testTableData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.tableData, code, year));
+    testDataIsNotEmpty('Table', data);
+    testDataIsNumber('Table', data);
 
     it('Table should have the right number of teams', () => {
         var expectedNumber = code === leagues.bundesliga.code ? 18 : 20;
         assert.lengthOf(data, expectedNumber);
     });
-
-    testDataIsNotEmpty('Table', data);
-    testDataIsNumber('Table', data);
 }
 
 function testScorersData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, year));
+    testDataIsNotEmpty('Scorers', data);
+    testDataIsNumber('Scorers', data);
 
     it('Scorers should have the right number of players', () => {
         assert.lengthOf(data, 20);
     });
-
-    testDataIsNotEmpty('Scorers', data);
-    testDataIsNumber('Scorers', data);
 }
 
 function testAssistsData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.assistsData, code, year));
+    testDataIsNotEmpty('Assists', data);
+    testDataIsNumber('Assists', data);
 
     it('Assists should have the right number of players', () => {
         assert.lengthOf(data, 20);
     });
-
-    testDataIsNotEmpty('Assists', data);
-    testDataIsNumber('Assists', data);
 }
 
 function testResultData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
-
     testDataIsNotEmpty('Results', data);
+}
+
+function testTournamentData(code, year) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, code, year));
+    testDataIsNotEmpty('Tournament Final', data[0].matches);
+    testDataIsNotEmpty('Tournament Semi-finals', data[1].matches);
+    testDataIsNotEmpty('Tournament Quarter-finals', data[2].matches);
+    testDataIsNotEmpty('Tournament Eighth-finals', data[3].matches);
+    testDataIsNotEmpty('Tournament Sixteenth-finals', data[4].matches);
+
+    it('Tournament should have the right number of matches', () => {
+        assert.lengthOf(data[0].matches, 1);
+        assert.lengthOf(data[1].matches, 2);
+        assert.lengthOf(data[2].matches, 4);
+        assert.lengthOf(data[3].matches, 8);
+        assert.isTrue(data[4].matches.length === 16 || data[4].matches.length === 0);
+    });
 }
 
 function testDataIsNotEmpty(dataName, data) {

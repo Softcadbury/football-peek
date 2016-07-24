@@ -35,8 +35,8 @@ function updateData(item) {
         });
 
         for (var i = 0; i < results.length; i++) {
-            results[i].homeLogo = helper.stringSanitize(results[i].homeTeam);
-            results[i].awayLogo = helper.stringSanitize(results[i].awayTeam);
+            results[i].homeTeamLogo = helper.stringSanitize(results[i].homeTeam);
+            results[i].awayTeamLogo = helper.stringSanitize(results[i].awayTeam);
         }
 
         helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.years.current), results);
