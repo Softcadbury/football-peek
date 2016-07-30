@@ -48,9 +48,8 @@ gulp.task('test', () => {
         .pipe(mocha({ reporter: 'spec' }));
 });
 
-// Build the application
-gulp.task('build', () => {
-    // Sprites
+// Build the sprite
+gulp.task('build-sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
         imgName: 'images/sprite.png',
@@ -60,7 +59,10 @@ gulp.task('build', () => {
     gulp.src('data/images/**/*.gif')
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('./client'));
+});
 
+// Build the application
+gulp.task('build', () => {
     // Javascript
     var browserify = require('gulp-browserify');
     var uglify = require('gulp-uglify');

@@ -74,8 +74,8 @@ function testImagesExistance(dataName, data) {
     });
 }
 
-function assertImage(name, message) {
-    if (name) {
-        assert.isTrue(spriteFileContent.indexOf('icon-' + name) != -1, message);
+function assertImage(imageName, failureMessage) {
+    if (imageName) {
+        assert.isTrue(spriteFileContent.indexOf('icon-' + imageName) != -1, failureMessage);
     }
 }
