@@ -50,6 +50,18 @@ gulp.task('test', () => {
 
 // Build the application
 gulp.task('build', () => {
+    // Sprites
+    var spritesmith = require('gulp.spritesmith');
+    var spritesmithOptions = spritesmith({
+        imgName: 'images/sprite.png',
+        cssName: 'styles/sprite.css'
+    });
+
+    gulp.src('data/images/**/*.gif')
+        .pipe(spritesmithOptions)
+        .pipe(gulp.dest('./client'));
+
+    // Javascript
     var browserify = require('gulp-browserify');
     var uglify = require('gulp-uglify');
     gulp.src('client/scripts/app.js')
@@ -57,15 +69,17 @@ gulp.task('build', () => {
         .pipe(uglify())
         .pipe(gulp.dest('./build/js'));
 
+    // Css
     var less = require('gulp-less');
     var minifyCSS = require('gulp-minify-css');
     var concatCss = require('gulp-concat-css');
-    gulp.src('./client/styles/**/*.less')
+    gulp.src('./client/styles/**/*')
         .pipe(less())
         .pipe(concatCss('app.css'))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./build/css'));
 
+    // Images
     gulp.src('./client/images/**/*')
         .pipe(gulp.dest('./build/images'));
 });
