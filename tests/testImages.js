@@ -2,13 +2,17 @@
 'use strict';
 
 var assert = require('chai').assert;
-var fileExists = require('file-exists');
+var fs = require('fs');
 var config = require('../server/config');
 var helper = require('../server/helper');
 var items = require('../server/data/items');
 var competitions = require('../server/data/competitions');
 
+var spriteFileContent;
+
 describe('Images intergrity', () => {
+    spriteFileContent = fs.readFileSync('./client/styles/sprite.css', 'utf8');
+
     items.forEach(item => {
         describe(item.name, () => {
             config.years.availables.forEach(year => {
@@ -60,35 +64,18 @@ function testTournamentImages(code, year) {
 function testImagesExistance(dataName, data) {
     it(dataName + ' should have existing images', () => {
         data.forEach((item, index) => {
-            if (item.flag) {
-                var flagPath = helper.stringFormat(config.paths.flagsData, item.flag);
-                assert.isTrue(fileExists(flagPath), 'Flag does not exist for item ' + index);
-            }
-
-            if (item.logo) {
-                var logoPath = helper.stringFormat(config.paths.logosData, item.logo);
-                assert.isTrue(fileExists(logoPath), 'Logo does not exist for item ' + index);
-            }
-
-            if (item.team1Logo) {
-                var team1LogoPath = helper.stringFormat(config.paths.logosData, item.team1Logo);
-                assert.isTrue(fileExists(team1LogoPath), 'Team 1 logo does not exist for item ' + index);
-            }
-
-            if (item.team2Logo) {
-                var team2LogoPath = helper.stringFormat(config.paths.logosData, item.team2Logo);
-                assert.isTrue(fileExists(team2LogoPath), 'Team 2 logo does not exist for item ' + index);
-            }
-
-            if (item.homeTeamLogo) {
-                var homeTeamLogoPath = helper.stringFormat(config.paths.logosData, item.homeTeamLogo);
-                assert.isTrue(fileExists(homeTeamLogoPath), 'Home team logo does not exist for item ' + index);
-            }
-
-            if (item.awayTeamLogo) {
-                var awayTeamLogoPath = helper.stringFormat(config.paths.logosData, item.awayTeamLogo);
-                assert.isTrue(fileExists(awayTeamLogoPath), 'Away team logo does not exist for item ' + index);
-            }
+            assertImage(item.flag, 'Flag does not exist for item ' + index + ': ' + item.flag);
+            assertImage(item.logo, 'Logo does not exist for item ' + index + ': ' + item.logo);
+            assertImage(item.team1Logo, 'Team 1 logo does not exist for item ' + index + ': ' + item.team1Logo);
+            assertImage(item.team2Logo, 'Team 2 logo does not exist for item ' + index + ': ' + item.team2Logo);
+            assertImage(item.homeTeamLogo, 'Home team logo does not exist for item ' + index + ': ' + item.homeTeamLogo);
+            assertImage(item.awayTeamLogo, 'Away team logo does not exist for item ' + index + ': ' + item.awayTeamLogo);
         });
     });
+}
+
+function assertImage(name, message) {
+    if (name) {
+        assert.isTrue(spriteFileContent.indexOf('icon-' + name) != -1, message);
+    }
 }
