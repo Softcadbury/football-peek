@@ -15,7 +15,7 @@
             <tr>
                 <td class="component-column-main component-column-right">
                     <span class="{{#isWinner this.team1 this.winner}}is-winner{{/isWinner}}" title="{{this.team1}}">{{this.team1}}</span>
-                    <img src="/images/logos/{{this.team1Logo}}.png" title="{{this.team1}}" alt="{{this.team1}} logo" />
+                    <span class="icon-{{this.team1Logo}}" title="{{this.team1}}"></span>
                 </td>
                 <td class="component-column-score">
                     {{#if this.score}}
@@ -27,7 +27,7 @@
                     {{/if}}
                 </td>
                 <td class="component-column-main">
-                    <img src="/images/logos/{{this.team2Logo}}.png" title="{{this.team2}}" alt="{{this.team2}} logo" />
+                    <span class="icon-{{this.team2Logo}}" title="{{this.team2}}"></span>
                     <span class="{{#isWinner this.team2 this.winner}}is-winner{{/isWinner}}" title="{{this.team2}}">{{this.team2}}</span>                
                 </td>
             </tr>

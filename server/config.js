@@ -10,8 +10,8 @@ function config() {
             assistsData: './data/{0}/{1}/assists.json',
             resultsData: './data/{0}/{1}/results.json',
             tournamentData: './data/{0}/{1}/tournament.json',
-            logosData: './data/images/logos/{0}.png',
-            flagsData: './data/images/flags/{0}.png'
+            logosData: './data/images/logos/{0}.gif',
+            flagsData: './data/images/flags/{0}.gif'
         },
         years: {
             current: '2015-2016',
