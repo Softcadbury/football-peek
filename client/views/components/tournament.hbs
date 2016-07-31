@@ -1,6 +1,6 @@
 {{#if tournamentData.length}}
 <div class="component-container">
-    <table class="component component-large">
+    <table class="component">
         {{#each tournamentData}}
             {{#if this.matches.length}}
             <tr>
@@ -15,7 +15,7 @@
             <tr>
                 <td class="component-column-main component-column-right">
                     <span class="{{#isWinner this.team1 this.winner}}is-winner{{/isWinner}}" title="{{this.team1}}">{{this.team1}}</span>
-                    <span class="icon-{{this.team1Logo}}" title="{{this.team1}}"></span>
+                    <div class="icon-logo icon-{{this.team1Logo}}" title="{{this.team1}}"></div>
                 </td>
                 <td class="component-column-score">
                     {{#if this.score}}
@@ -27,7 +27,7 @@
                     {{/if}}
                 </td>
                 <td class="component-column-main">
-                    <span class="icon-{{this.team2Logo}}" title="{{this.team2}}"></span>
+                    <div class="icon-logo icon-{{this.team2Logo}}" title="{{this.team2}}"></div>
                     <span class="{{#isWinner this.team2 this.winner}}is-winner{{/isWinner}}" title="{{this.team2}}">{{this.team2}}</span>                
                 </td>
             </tr>

@@ -1,6 +1,6 @@
 {{#if scorersData.length}}
 <div class="component-container">
-    <table class="component component-big">
+    <table class="component">
         <tr>
             <td colspan="5">
                 <div class="component-title">
@@ -22,11 +22,11 @@
                 <span title="{{this.name}}">{{this.name}}</span>
             </td>
             <td class="component-column-main component-column-country">
-                <span class="icon-{{this.flag}}" title="{{this.country}}"></span>
+                <div class="icon-flag icon-{{this.flag}}" title="{{this.country}}"></div>
                 <span title="{{this.country}}">{{this.country}}</span>
             </td>
             <td class="component-column-main">
-                <span class="icon-{{this.logo}}" title="{{this.team}}"></span>
+                <div class="icon-logo icon-{{this.logo}}" title="{{this.team}}"></div>
                 <span title="{{this.team}}">{{this.team}}</span>
             </td>
             <td>{{this.goals}}</td>
