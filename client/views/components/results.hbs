@@ -1,6 +1,6 @@
 {{#if resultsData.length}}
 <div class="component-container">
-    <table class="component component-large">
+    <table class="component">
         <tr>
             <td colspan="4">
                 <div class="component-title">
@@ -13,11 +13,11 @@
             <td>{{this.date}}</td>
             <td class="component-column-main component-column-right">
                 <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
-                <span class="icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></span>
+                <div class="icon-logo icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></div>
             </td>
             <td class="component-column-score">{{this.score}}</td>
             <td class="component-column-main">
-                <span class="icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></span>
+                <div class="icon-logo icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></div>
                 <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
             </td>
         </tr>
