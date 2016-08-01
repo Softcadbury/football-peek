@@ -56,7 +56,7 @@ gulp.task('build-sprite', () => {
         cssName: 'styles/sprite.css'
     });
 
-    gulp.src('data/images/**/*.gif')
+    gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('./client'));
 });
