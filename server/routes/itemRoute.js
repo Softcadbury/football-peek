@@ -20,6 +20,8 @@ router.route('/:item/:year?')
         }
 
         items.forEach(item => {
+            item.isActive = false;
+
             if (req.params.item === item.code) {
                 requestedItem = item;
             }
