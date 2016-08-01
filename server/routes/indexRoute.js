@@ -7,6 +7,10 @@ var router = express.Router();
 // Route for index
 router.route('/')
     .get((req, res) => {
+        items.forEach(item => {
+            item.isActive = false;
+        });
+
         var data = {
             title: 'Dashboard Football - Quick access to football results',
             description: 'Quick access to football results, tables, top scorers and top assists from major leagues and competitions',
