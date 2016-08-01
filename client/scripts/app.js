@@ -1,11 +1,15 @@
 'use strict';
 
-$(document).ready(function () {
-    $(document).on('mouseup', function (e) {
-        if ($(e.target).is('#dropdown-label-years') || $(e.target).is('#dropdown-arrow-years')) {
-            $('#dropdown-content-years').toggle();
+var contentElement = document.getElementById('dropdown-content-years');
+
+if (contentElement) {
+    contentElement.style.display = 'none';
+
+    document.addEventListener("click", function (e) {
+        if (e.target.id == 'dropdown-arrow-years' || e.target.id == 'dropdown-label-years') {
+            contentElement.style.display = contentElement.style.display == 'none' ? 'block' : 'none';
         } else {
-            $('#dropdown-content-years').hide();
+            contentElement.style.display = 'none';
         }
     });
-});
+}
