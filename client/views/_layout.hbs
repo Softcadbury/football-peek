@@ -2,13 +2,14 @@
 <html lang="fr">
 <head>
     <title>{{title}}</title>
+
     <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="/css/app.css"> 
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=500, user-scalable=no" />
     <meta name="google-site-verification" content="aATT_f6PldxBk3EryS4fOnpyPi1bKXBaY65XXP8qLxU" />
     <meta name="msvalidate.01" content="4D14DCE33A7CA61F72054A4F9D6A4A04" />
-
-    <!-- Description -->
     <meta name="description" content="{{description}}">
     <meta name="keywords" content="football, dashboard football, football results, football tables, football top scorers, football top assists, champions league, europa league, bundesliga, liga, ligue 1, premier league, serie a">
 
@@ -27,11 +28,6 @@
     <meta property="og:description" content="{{description}}" />
     <meta property="og:site_name" content="Dashboard Football" />
     <meta property="fb:app_id" content="1106832712721900" />
-
-    <!-- Scripts & Styles -->
-    <link rel="stylesheet" href="/css/app.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="/js/app.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -41,6 +37,7 @@
         </div>
     </div>
     {{> footer }}
+    <script src="/js/app.js"></script>
     {{> analytics }}
     {{> cookieConsent }}
 </body>
