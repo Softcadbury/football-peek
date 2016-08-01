@@ -4,11 +4,13 @@ var config = require('./server/config');
 var items = require('./server/data/items');
 var express = require('express');
 var handlebars = require('express-handlebars');
+var compression = require('compression');
 var app = express();
 
 // Middlewares configuration
-var oneDay = 86400000;
-app.use(express.static('build', { maxAge: oneDay }));
+app.use(compression());
+var oneWeek = 604800000;
+app.use(express.static('build', { maxAge: oneWeek }));
 
 // Handlebars configuration
 app.set('views', 'client/views');
