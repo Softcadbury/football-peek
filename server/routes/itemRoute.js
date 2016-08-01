@@ -10,6 +10,9 @@ var router = express.Router();
 // Route for item
 router.route('/:item/:year?')
     .get((req, res) => {
+        var oneDay = 86400000;
+        res.setHeader('Cache-Control', 'public, max-age=' + oneDay);
+
         var requestedYear = null;
         var requestedItem = null;
 

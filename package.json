@@ -33,6 +33,7 @@
     "request": "^2.69.0"
   },
   "dependencies": {
+    "compression": "^1.6.2",
     "express": "^4.13.4",
     "express-handlebars": "^3.0.0",
     "file-exists": "^1.0.0",
