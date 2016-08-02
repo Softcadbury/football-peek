@@ -10,7 +10,7 @@ var router = express.Router();
 // Route for item
 router.route('/:item/:year?')
     .get((req, res) => {
-        // Define requested year
+        var requestedItem = items.find(item => item.code === req.params.item) || items[0];
         var requestedYear = null;
 
         if (config.years.availables.some(year => req.params.year === year)) {
@@ -27,17 +27,6 @@ router.route('/:item/:year?')
             var oneMonth = 2592000000;
             res.setHeader('Cache-Control', 'public, max-age=' + oneMonth);
         }
-
-        // Define requested item
-        var requestedItem = null;
-
-        items.forEach(item => {
-            if (req.params.item === item.code) {
-                requestedItem = item;
-            }
-        });
-
-        requestedItem = requestedItem || items[0];
 
         var data = {
             title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
