@@ -17,8 +17,7 @@ router.route('/')
         var data = {
             title: 'Dashboard Football - Quick access to football results',
             description: 'Quick access to football results, tables, top scorers and top assists from major leagues and competitions',
-            items: items,
-            isIndex: true
+            items: items
         };
 
         res.render('index', data);
