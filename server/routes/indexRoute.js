@@ -7,8 +7,8 @@ var router = express.Router();
 // Route for index
 router.route('/')
     .get((req, res) => {
-        var oneWeek = 604800000;
-        res.setHeader('Cache-Control', 'public, max-age=' + oneWeek);
+        var oneMonth = 2592000000;
+        res.setHeader('Cache-Control', 'public, max-age=' + oneMonth);
 
         items.forEach(item => {
             item.isActive = false;

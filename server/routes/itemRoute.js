@@ -10,17 +10,26 @@ var router = express.Router();
 // Route for item
 router.route('/:item/:year?')
     .get((req, res) => {
-        var oneDay = 86400000;
-        res.setHeader('Cache-Control', 'public, max-age=' + oneDay);
-
+        // Define requested year
         var requestedYear = null;
-        var requestedItem = null;
 
         if (config.years.availables.some(year => req.params.year === year)) {
             requestedYear = req.params.year;
         } else {
             requestedYear = config.years.current;
         }
+
+        // Set cache time depending on the requested year
+        if (requestedYear === config.years.current) {
+            var oneDay = 86400000;
+            res.setHeader('Cache-Control', 'public, max-age=' + oneDay);
+        } else {
+            var oneMonth = 2592000000;
+            res.setHeader('Cache-Control', 'public, max-age=' + oneMonth);
+        }
+
+        // Define requested item
+        var requestedItem = null;
 
         items.forEach(item => {
             item.isActive = false;
