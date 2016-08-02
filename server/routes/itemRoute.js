@@ -32,15 +32,12 @@ router.route('/:item/:year?')
         var requestedItem = null;
 
         items.forEach(item => {
-            item.isActive = false;
-
             if (req.params.item === item.code) {
                 requestedItem = item;
             }
         });
 
         requestedItem = requestedItem || items[0];
-        requestedItem.isActive = true;
 
         var data = {
             title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
@@ -50,6 +47,9 @@ router.route('/:item/:year?')
             requestedItem: requestedItem,
             requestedYear: requestedYear,
             helpers: {
+                isActive: function (code, options) {
+                    return code === requestedItem.code ? options.fn(this) : options.inverse(this);
+                },
                 isWinner: function (team, winner, options) {
                     return team === winner ? options.fn(this) : options.inverse(this);
                 }

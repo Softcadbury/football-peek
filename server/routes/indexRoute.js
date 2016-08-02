@@ -10,14 +10,15 @@ router.route('/')
         var oneMonth = 2592000000;
         res.setHeader('Cache-Control', 'public, max-age=' + oneMonth);
 
-        items.forEach(item => {
-            item.isActive = false;
-        });
-
         var data = {
             title: 'Dashboard Football - Quick access to football results',
             description: 'Quick access to football results, tables, top scorers and top assists from major leagues and competitions',
-            items: items
+            items: items,
+            helpers: {
+                isActive: function (code, options) {
+                    return options.inverse(this);
+                }
+            }
         };
 
         res.render('index', data);
