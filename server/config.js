@@ -16,6 +16,11 @@ function config() {
         years: {
             current: '2015-2016',
             availables: ['2015-2016', '2014-2015', '2013-2014', '2012-2013', '2011-2012', '2010-2011']
+        },
+        cachePeriods: {
+            oneHour: 3600000,
+            oneWeek: 604800000,
+            oneMonth: 2592000000
         }
     };
 }

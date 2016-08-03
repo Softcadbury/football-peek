@@ -1,5 +1,6 @@
 'use strict';
 
+var config = require('../config');
 var items = require('../data/items');
 var express = require('express');
 var router = express.Router();
@@ -7,8 +8,7 @@ var router = express.Router();
 // Route for index
 router.route('/')
     .get((req, res) => {
-        var oneMonth = 2592000000;
-        res.setHeader('Cache-Control', 'public, max-age=' + oneMonth);
+        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneWeek);
 
         var data = {
             title: 'Dashboard Football - Quick access to football results',

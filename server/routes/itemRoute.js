@@ -19,14 +19,9 @@ router.route('/:item/:year?')
             requestedYear = config.years.current;
         }
 
-        // Set cache time depending on the requested year
-        if (requestedYear === config.years.current) {
-            var oneDay = 86400000;
-            res.setHeader('Cache-Control', 'public, max-age=' + oneDay);
-        } else {
-            var oneMonth = 2592000000;
-            res.setHeader('Cache-Control', 'public, max-age=' + oneMonth);
-        }
+        // Set cache period depending on the requested year
+        var cachePeriod = requestedYear === config.years.current ? config.cachePeriods.oneHour : config.cachePeriods.oneMonth;
+        res.setHeader('Cache-Control', 'public, max-age=' + cachePeriod);
 
         var data = {
             title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
