@@ -10,11 +10,8 @@ var router = express.Router();
 // Route for item
 router.route('/:item/:year?')
     .get((req, res) => {
-        var oneDay = 86400000;
-        res.setHeader('Cache-Control', 'public, max-age=' + oneDay);
-
+        var requestedItem = items.find(item => item.code === req.params.item) || items[0];
         var requestedYear = null;
-        var requestedItem = null;
 
         if (config.years.availables.some(year => req.params.year === year)) {
             requestedYear = req.params.year;
@@ -22,16 +19,9 @@ router.route('/:item/:year?')
             requestedYear = config.years.current;
         }
 
-        items.forEach(item => {
-            item.isActive = false;
-
-            if (req.params.item === item.code) {
-                requestedItem = item;
-            }
-        });
-
-        requestedItem = requestedItem || items[0];
-        requestedItem.isActive = true;
+        // Set cache period depending on the requested year
+        var cachePeriod = requestedYear === config.years.current ? config.cachePeriods.oneHour : config.cachePeriods.oneMonth;
+        res.setHeader('Cache-Control', 'public, max-age=' + cachePeriod);
 
         var data = {
             title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
@@ -41,6 +31,9 @@ router.route('/:item/:year?')
             requestedItem: requestedItem,
             requestedYear: requestedYear,
             helpers: {
+                isActive: function (code, options) {
+                    return code === requestedItem.code ? options.fn(this) : options.inverse(this);
+                },
                 isWinner: function (team, winner, options) {
                     return team === winner ? options.fn(this) : options.inverse(this);
                 }

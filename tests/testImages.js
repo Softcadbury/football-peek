@@ -76,6 +76,6 @@ function testImagesExistance(dataName, data) {
 
 function assertImage(imageName, failureMessage) {
     if (imageName) {
-        assert.isTrue(spriteFileContent.indexOf('icon-' + imageName) != -1, failureMessage);
+        assert.isTrue(spriteFileContent.indexOf('icon-' + imageName) !== -1, failureMessage);
     }
 }

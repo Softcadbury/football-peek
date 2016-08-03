@@ -1,5 +1,6 @@
 'use strict';
 
+var config = require('../config');
 var items = require('../data/items');
 var express = require('express');
 var router = express.Router();
@@ -7,18 +8,17 @@ var router = express.Router();
 // Route for index
 router.route('/')
     .get((req, res) => {
-        var oneWeek = 604800000;
-        res.setHeader('Cache-Control', 'public, max-age=' + oneWeek);
-
-        items.forEach(item => {
-            item.isActive = false;
-        });
+        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneWeek);
 
         var data = {
             title: 'Dashboard Football - Quick access to football results',
             description: 'Quick access to football results, tables, top scorers and top assists from major leagues and competitions',
             items: items,
-            isIndex: true
+            helpers: {
+                isActive: function (code, options) {
+                    return options.inverse(this);
+                }
+            }
         };
 
         res.render('index', data);
