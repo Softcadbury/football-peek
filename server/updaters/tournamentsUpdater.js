@@ -20,7 +20,7 @@ function update() {
 
 // Updates the tournament of an item
 function updateData(item) {
-    var roundCounter = { count: 0 };
+    var promises = [];
     var results = [
         { name: 'Final', matches: [] },
         { name: 'Semi-finals', matches: [] },
@@ -30,55 +30,58 @@ function updateData(item) {
     ];
 
     for (var i = 0; i < item.roundNumber; i++) {
-        parseRound(item, results, roundCounter, i);
+        promises.push(parseRound(item, results, i));
     }
+
+    Promise.all(promises).then(() => {
+        helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.years.current), results);
+    });
 }
 
 // Parse a page of an item
-function parseRound(item, results, roundCounter, round) {
-    helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, item.url, config.years.current, tournamentDataUrlExtensions[round]), function ($) {
-        var currentMatches = results[round].matches;
+function parseRound(item, results, round) {
+    return new Promise((resolve, reject) => {
+        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, item.url, config.years.current, tournamentDataUrlExtensions[round]), function ($) {
+            var currentMatches = results[round].matches;
 
-        $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
-            switch (index % 4) {
-                case 0:
-                    if (round === 0) {
-                        var team1 = $(elem).find('td:nth-child(3) > a').text();
-                        var team2 = $(elem).find('td:nth-child(5) > a').text();
-                        var score = parseScore($(elem).find('td:nth-child(6) > a').text());
+            $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
+                switch (index % 4) {
+                    case 0:
+                        if (round === 0) {
+                            var team1 = $(elem).find('td:nth-child(3) > a').text();
+                            var team2 = $(elem).find('td:nth-child(5) > a').text();
+                            var score = parseScore($(elem).find('td:nth-child(6) > a').text());
 
-                        currentMatches.push({
-                            team1: team1,
-                            team2: team2,
-                            score: score,
-                            winner: score.split(' ')[0].split(':')[0] > score.split(' ')[0].split(':')[1] ? team1 : team2
-                        });
-                    } else {
-                        currentMatches.push({
-                            team1: $(elem).find('td:nth-child(2) > a').text(),
-                            team2: $(elem).find('td:nth-child(4) > a').text(),
-                            score1: parseScore($(elem).find('td:nth-child(5) > a').text())
-                        });
-                    }
-                    break;
-                case 1:
-                    currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
-                    break;
-                case 2:
-                    currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
-                    break;
+                            currentMatches.push({
+                                team1: team1,
+                                team2: team2,
+                                score: score,
+                                winner: score.split(' ')[0].split(':')[0] > score.split(' ')[0].split(':')[1] ? team1 : team2
+                            });
+                        } else {
+                            currentMatches.push({
+                                team1: $(elem).find('td:nth-child(2) > a').text(),
+                                team2: $(elem).find('td:nth-child(4) > a').text(),
+                                score1: parseScore($(elem).find('td:nth-child(5) > a').text())
+                            });
+                        }
+                        break;
+                    case 1:
+                        currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
+                        break;
+                    case 2:
+                        currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
+                        break;
+                }
+            });
+
+            for (var i = 0; i < currentMatches.length; i++) {
+                currentMatches[i].team1Logo = helper.stringSanitize(currentMatches[i].team1);
+                currentMatches[i].team2Logo = helper.stringSanitize(currentMatches[i].team2);
             }
+
+            resolve();
         });
-
-        for (var i = 0; i < currentMatches.length; i++) {
-            currentMatches[i].team1Logo = helper.stringSanitize(currentMatches[i].team1);
-            currentMatches[i].team2Logo = helper.stringSanitize(currentMatches[i].team2);
-        }
-
-        roundCounter.count++;
-        if (roundCounter.count === item.roundNumber) {
-            helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.years.current), results);
-        }
     });
 }
 
