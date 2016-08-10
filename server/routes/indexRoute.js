@@ -8,7 +8,7 @@ var router = express.Router();
 // Route for index
 router.route('/')
     .get((req, res) => {
-        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneWeek);
+        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneHour);
 
         var data = {
             title: 'Dashboard Football - Quick access to football results',

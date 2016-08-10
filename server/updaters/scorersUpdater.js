@@ -42,6 +42,10 @@ function updateData(item) {
             }
         });
 
+        if (results.length < 2) {
+            return;
+        }
+
         for (var i = 0; i < results.length; i++) {
             helper.manageFlagProperty(results[i]);
             helper.manageLogoProperty(results[i]);
