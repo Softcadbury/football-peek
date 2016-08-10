@@ -10,6 +10,8 @@ var router = express.Router();
 // Route for item
 router.route('/:item/:year?')
     .get((req, res) => {
+        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneHour);
+
         var requestedItem = items.find(item => item.code === req.params.item) || items[0];
         var requestedYear = null;
 
@@ -18,10 +20,6 @@ router.route('/:item/:year?')
         } else {
             requestedYear = config.years.current;
         }
-
-        // Set cache period depending on the requested year
-        var cachePeriod = requestedYear === config.years.current ? config.cachePeriods.oneHour : config.cachePeriods.oneMonth;
-        res.setHeader('Cache-Control', 'public, max-age=' + cachePeriod);
 
         var data = {
             title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
