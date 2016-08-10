@@ -22,7 +22,7 @@ router.route('/:item/:year?')
         }
 
         var data = {
-            title: 'Dashboard Football - Quick access to ' + requestedItem.name + ' results for season ' + requestedYear,
+            title: 'Dashboard Football - ' + requestedItem.name + ' results - Season ' + requestedYear,
             description: 'Quick access to ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedYear,
             items: items,
             years: config.years.availables,
