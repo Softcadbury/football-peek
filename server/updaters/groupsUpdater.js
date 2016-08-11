@@ -23,7 +23,7 @@ function updateData(item) {
     var results = [];
 
     for (var i = 0; i < item.groupNumber; i++) {
-        results.push({ group: resultsDataUrlExtensions[i], matches: [] });
+        results.push({ group: resultsDataUrlExtensions[i], matches: [], table: [] });
     }
 
     var promises = [];
@@ -55,6 +55,30 @@ function parseRound(item, results, groupIndex) {
             for (var i = 0; i < currentMatches.length; i++) {
                 currentMatches[i].homeTeamLogo = helper.stringSanitize(currentMatches[i].homeTeam);
                 currentMatches[i].awayTeamLogo = helper.stringSanitize(currentMatches[i].awayTeam);
+            }
+
+            var currentTable = results[groupIndex].table;
+
+            $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle > tr').each((index, elem) => {
+                if (index > 0) {
+                    currentTable.push({
+                        rank: $(elem).find('td:nth-child(1)').text(),
+                        team: $(elem).find('td:nth-child(3) > a').text(),
+                        logoSrc: $(elem).find('td:nth-child(2) > img').attr('src'),
+                        points: $(elem).find('td:nth-child(10)').text(),
+                        played: $(elem).find('td:nth-child(4)').text(),
+                        win: $(elem).find('td:nth-child(5)').text(),
+                        draw: $(elem).find('td:nth-child(6)').text(),
+                        lost: $(elem).find('td:nth-child(7)').text(),
+                        goalsFor: $(elem).find('td:nth-child(8)').text().split(':')[0],
+                        goalsAgainst: $(elem).find('td:nth-child(8)').text().split(':')[1],
+                        goalDifference: $(elem).find('td:nth-child(9)').text()
+                    });
+                }
+            });
+
+            for (var i = 0; i < currentTable.length; i++) {
+                helper.manageLogoProperty(currentTable[i]);
             }
 
             resolve();
