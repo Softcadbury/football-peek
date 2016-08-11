@@ -40,10 +40,10 @@ function updateData(item) {
 }
 
 // Parse a page of an item
-function parseRound(item, results, round) {
+function parseRound(item, results, roundIndex) {
     return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, item.url, config.years.current, round + 1), function ($) {
-            var currentMatches = results[round].matches;
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, item.url, config.years.current, roundIndex + 1), function ($) {
+            var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
                 if (index < (item.roundNumber + 2) / 4) {
