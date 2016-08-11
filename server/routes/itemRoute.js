@@ -43,6 +43,7 @@ router.route('/:item/:year?')
 function renderCompetition(res, data, requestedItem, requestedYear) {
     res.render('competition', Object.assign(data, {
         tournamentData: helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, requestedItem.code, requestedYear)),
+        groupsData: helper.readJsonFile(helper.stringFormat(config.paths.groupsData, requestedItem.code, requestedYear)),
         scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
         assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
     }));
@@ -51,8 +52,8 @@ function renderCompetition(res, data, requestedItem, requestedYear) {
 // Render a league item
 function renderLeague(res, data, requestedItem, requestedYear) {
     res.render('league', Object.assign(data, {
-        resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, requestedItem.code, requestedYear)),
         tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, requestedItem.code, requestedYear)),
+        resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, requestedItem.code, requestedYear)),
         scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
         assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
     }));
