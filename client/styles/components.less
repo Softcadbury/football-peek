@@ -1,6 +1,16 @@
 .component-container {
     display: inline-block;
+    position: relative;
     vertical-align: top;
+
+    .dropdown-content {
+        height: 300px;
+        left:0;
+        margin: auto;
+        right:0;
+        top: 35px;
+        width: 150px;
+    }
 }
 
 .component {
@@ -15,9 +25,16 @@
 
     .component-title {
         h3 {
+            cursor: pointer;
             display: inline-block;
             font-size: 17px;
             margin: 3px 0 5px;
+        }
+
+        .dropdown-arrow {
+            display: inline-block;
+            margin-top: 4px;
+            vertical-align: top;
         }
     }
 

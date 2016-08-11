@@ -49,7 +49,7 @@ function testAssistsImages(code, year) {
 
 function testResultsImages(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
-    testImagesExistance('Results', data);
+    testImagesExistance('Results', data[0].matches);
 }
 
 function testTournamentImages(code, year) {
