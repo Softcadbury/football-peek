@@ -51,7 +51,7 @@ function parseRound(item, results, round) {
                         date: $(elem).find('td:nth-child(1)').text(),
                         homeTeam: $(elem).find('td:nth-child(3) > a').text(),
                         awayTeam: $(elem).find('td:nth-child(5) > a').text(),
-                        score: $(elem).find('td:nth-child(6) > a').text().split(' ')[0]
+                        score: $(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-'
                     });
                 }
             });
