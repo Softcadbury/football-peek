@@ -1,24 +1,23 @@
 <div class="component-container">
+    <ul class="dropdown-content" id="dropdown-content-rounds">
+        {{#each resultsData}}
+        <li>
+            <a href="#/round-{{this.round}}">Round {{this.round}}</a>
+        </li>
+        {{/each}}
+    </ul>
     <table class="component">
         <tr>
             <td colspan="4">
                 <div class="component-title">
-                    <h3 id="dropdown-label-rounds">Round 23</h3>
+                    <h3 id="dropdown-label-rounds"></span></h3>
                     <div class="dropdown-arrow" id="dropdown-arrow-rounds"></div>
-                    <ul class="dropdown-content" id="dropdown-content-rounds">
-                        {{#each resultsData}}
-                        <li>
-                            <a href="" class="year">Round {{this.round}}</a>
-                        </li>
-                        {{/each}}
-                    </ul>
                 </div>
             </td>
         </tr>
         {{#each resultsData}}
-        <!--{{this.round}}-->
             {{#each this.matches}}
-            <tr>
+            <tr class="round-content round-{{../round}}-content" style="display:none;">
                 <td>{{this.date}}</td>
                 <td class="component-column-main component-column-right">
                     <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
