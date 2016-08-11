@@ -13,13 +13,7 @@ router.route('/:item/:year?')
         res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneHour);
 
         var requestedItem = items.find(item => item.code === req.params.item) || items[0];
-        var requestedYear = null;
-
-        if (config.years.availables.some(year => req.params.year === year)) {
-            requestedYear = req.params.year;
-        } else {
-            requestedYear = config.years.current;
-        }
+        var requestedYear = config.years.availables.find(year => req.params.year === year) || config.years.current;
 
         var data = {
             title: 'Dashboard Football - ' + requestedItem.name + ' results - Season ' + requestedYear,
@@ -39,19 +33,29 @@ router.route('/:item/:year?')
         };
 
         if (requestedItem === competitions.championsLeague || requestedItem === competitions.europaLeague) {
-            res.render('competition', Object.assign(data, {
-                tournamentData: helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, requestedItem.code, requestedYear)),
-                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
-                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
-            }));
+            renderCompetition(res, data, requestedItem, requestedYear);
         } else {
-            res.render('league', Object.assign(data, {
-                resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, requestedItem.code, requestedYear)),
-                tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, requestedItem.code, requestedYear)),
-                scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
-                assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
-            }));
+            renderLeague(res, data, requestedItem, requestedYear);
         }
     });
+
+// Render a competition item
+function renderCompetition(res, data, requestedItem, requestedYear) {
+    res.render('competition', Object.assign(data, {
+        tournamentData: helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, requestedItem.code, requestedYear)),
+        scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
+        assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
+    }));
+}
+
+// Render a league item
+function renderLeague(res, data, requestedItem, requestedYear) {
+    res.render('league', Object.assign(data, {
+        resultsData: helper.readJsonFile(helper.stringFormat(config.paths.resultsData, requestedItem.code, requestedYear)),
+        tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, requestedItem.code, requestedYear)),
+        scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
+        assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
+    }));
+}
 
 module.exports = router;
