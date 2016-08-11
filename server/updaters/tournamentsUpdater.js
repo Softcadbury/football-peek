@@ -20,7 +20,6 @@ function update() {
 
 // Updates the tournament of an item
 function updateData(item) {
-    var promises = [];
     var results = [
         { name: 'Final', matches: [] },
         { name: 'Semi-finals', matches: [] },
@@ -28,6 +27,8 @@ function updateData(item) {
         { name: 'Eighth-finals', matches: [] },
         { name: 'Sixteenth-finals', matches: [] }
     ];
+
+    var promises = [];
 
     for (var i = 0; i < item.roundNumber; i++) {
         promises.push(parseRound(item, results, i));

@@ -1,26 +1,36 @@
 {{#if resultsData.length}}
 <div class="component-container">
+    <ul class="dropdown-content" id="dropdown-content-rounds">
+        {{#each resultsData}}
+        <li>
+            <a href="#/round-{{this.round}}">Round {{this.round}}</a>
+        </li>
+        {{/each}}
+    </ul>
     <table class="component">
         <tr>
             <td colspan="4">
                 <div class="component-title">
-                    <h3>Last Results</h3>
+                    <h3 id="dropdown-label-rounds"></span></h3>
+                    <div class="dropdown-arrow" id="dropdown-arrow-rounds"></div>
                 </div>
             </td>
         </tr>
         {{#each resultsData}}
-        <tr>
-            <td>{{this.date}}</td>
-            <td class="component-column-main component-column-right">
-                <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
-                <div class="icon-logo icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></div>
-            </td>
-            <td class="component-column-score">{{this.score}}</td>
-            <td class="component-column-main">
-                <div class="icon-logo icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></div>
-                <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
-            </td>
-        </tr>
+            {{#each this.matches}}
+            <tr class="round-content round-{{../round}}-content" style="display:none;">
+                <td>{{this.date}}</td>
+                <td class="component-column-main component-column-right">
+                    <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
+                    <div class="icon-logo icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></div>
+                </td>
+                <td class="component-column-score">{{this.score}}</td>
+                <td class="component-column-main">
+                    <div class="icon-logo icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></div>
+                    <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
+                </td>
+            </tr>
+            {{/each}}
         {{/each}}
     </table>
 </div>

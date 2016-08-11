@@ -61,7 +61,7 @@ function testAssistsData(code, year) {
 
 function testResultData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
-    testDataIsNotEmpty('Results', data);
+    testDataIsNotEmpty('Results', data[0].matches);
 }
 
 function testTournamentData(code, year) {
