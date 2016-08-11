@@ -45,33 +45,35 @@ function parseRound(item, results, round) {
             var currentMatches = results[round].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
-                switch (index % 4) {
-                    case 0:
-                        if (round === 0) {
-                            var team1 = $(elem).find('td:nth-child(3) > a').text();
-                            var team2 = $(elem).find('td:nth-child(5) > a').text();
-                            var score = parseScore($(elem).find('td:nth-child(6) > a').text());
+                if (round === 0) {
+                    var team1 = $(elem).find('td:nth-child(3) > a').text();
+                    var team2 = $(elem).find('td:nth-child(5) > a').text();
 
-                            currentMatches.push({
-                                team1: team1,
-                                team2: team2,
-                                score: score,
-                                winner: score.split(' ')[0].split(':')[0] > score.split(' ')[0].split(':')[1] ? team1 : team2
-                            });
-                        } else {
+                    var score = parseScore($(elem).find('td:nth-child(6) > a').text());
+                    var finalScore = score.split(' ').length === 1 ? score : score.split(' ')[1].replace('(', '').replace(')', '');
+
+                    currentMatches.push({
+                        team1: team1,
+                        team2: team2,
+                        score: score,
+                        winner: finalScore.split(':')[0] > finalScore.split(':')[1] ? team1 : team2
+                    });
+                } else {
+                    switch (index % 4) {
+                        case 0:
                             currentMatches.push({
                                 team1: $(elem).find('td:nth-child(2) > a').text(),
                                 team2: $(elem).find('td:nth-child(4) > a').text(),
                                 score1: parseScore($(elem).find('td:nth-child(5) > a').text())
                             });
-                        }
-                        break;
-                    case 1:
-                        currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
-                        break;
-                    case 2:
-                        currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
-                        break;
+                            break;
+                        case 1:
+                            currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
+                            break;
+                        case 2:
+                            currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
+                            break;
+                    }
                 }
             });
 
@@ -112,7 +114,7 @@ function parseScore(score, inverseScore) {
         newScorePart2 = newScorePart2.split(':')[1] + ':' + newScorePart2.split(':')[0];
     }
 
-    return newScorePart1 + ' (' + newScorePart2 + ')';
+    return newScorePart2 + ' (' + newScorePart1 + ')';
 }
 
 module.exports = {
