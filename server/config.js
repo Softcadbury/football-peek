@@ -17,7 +17,7 @@ function config() {
             flagsData: './data/images/flags/{0}.gif'
         },
         years: {
-            current: '2016-2017',
+            current: '2015-2016',
             availables: ['2016-2017', '2015-2016', '2014-2015', '2013-2014', '2012-2013', '2011-2012', '2010-2011']
         }
     };
