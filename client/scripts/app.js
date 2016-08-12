@@ -2,6 +2,10 @@
 
 initDropdown('dropdown-label-years', 'dropdown-arrow-years', 'dropdown-content-years');
 initDropdown('dropdown-label-rounds', 'dropdown-arrow-rounds', 'dropdown-content-rounds');
+initDropdown('dropdown-label-groups', 'dropdown-arrow-groups', 'dropdown-content-groups');
+
+manageLists();
+window.onhashchange = manageLists;
 
 function initDropdown(labelId, arrowId, contentId) {
     var contentElement = document.getElementById(contentId);
@@ -17,25 +21,33 @@ function initDropdown(labelId, arrowId, contentId) {
     }
 }
 
-displayRound();
-window.onhashchange = displayRound;
+function manageLists() {
+    var roundLabel = document.getElementById('dropdown-label-rounds');
+    var groupLabel = document.getElementById('dropdown-label-groups');
 
-function displayRound() {
-    var roundRequested = location.hash.replace('#/round-', '') || 1;
-    var label = document.getElementById('dropdown-label-rounds');
-    var rounds = document.getElementsByClassName('round-content');
+    if (roundLabel) {
+        var rounds = document.getElementsByClassName('round-content');
+        var roundRequested = location.hash.replace('#/round-', '') || 1;
+        roundLabel.innerHTML = 'Round ' + roundRequested;
 
-    if (!label) {
-        return;
-    }
+        for (var i = 0; i < rounds.length; i++) {
+            if (rounds[i].className.indexOf('round-' + roundRequested + '-content') != -1) {
+                rounds[i].style.display = '';
+            } else {
+                rounds[i].style.display = 'none';
+            }
+        }
+    } else if (groupLabel) {
+        var groups = document.getElementsByClassName('group-content');
+        var groupRequested = location.hash.replace('#/group-', '') || 'a';
+        groupLabel.innerHTML = 'Group ' + groupRequested;
 
-    label.innerHTML = 'Round ' + roundRequested;
-
-    for (var i = 0; i < rounds.length; i++) {
-        if (rounds[i].className.indexOf('round-' + roundRequested + '-content') != -1) {
-            rounds[i].style.display = '';
-        } else {
-            rounds[i].style.display = 'none';
+        for (var i = 0; i < groups.length; i++) {
+            if (groups[i].className.indexOf('group-' + groupRequested + '-content') != -1) {
+                groups[i].style.display = '';
+            } else {
+                groups[i].style.display = 'none';
+            }
         }
     }
 }

@@ -13,11 +13,12 @@ function config() {
             assistsData: './data/{0}/{1}/assists.json',
             resultsData: './data/{0}/{1}/results.json',
             tournamentData: './data/{0}/{1}/tournament.json',
+            groupsData: './data/{0}/{1}/groups.json',
             logosData: './data/images/logos/{0}.gif',
             flagsData: './data/images/flags/{0}.gif'
         },
         years: {
-            current: '2015-2016',
+            current: '2016-2017',
             availables: ['2016-2017', '2015-2016', '2014-2015', '2013-2014', '2012-2013', '2011-2012', '2010-2011']
         }
     };

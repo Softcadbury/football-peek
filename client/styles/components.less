@@ -10,6 +10,10 @@
         right:0;
         top: 35px;
         width: 150px;
+
+        li {
+            text-align: center;
+        }
     }
 }
 
@@ -25,7 +29,6 @@
 
     .component-title {
         h3 {
-            cursor: pointer;
             display: inline-block;
             font-size: 17px;
             margin: 3px 0 5px;
@@ -94,4 +97,18 @@
             max-width: 90px;
         }
     }
+
+    td.table-container {
+        padding: 0;
+
+        table {
+            background-color: #ebebeb;
+            border-collapse: collapse;
+            width: 100%;
+
+            tr:nth-child(even) {
+                background: #DDD;
+            }
+        }
+    }  
 }

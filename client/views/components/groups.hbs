@@ -1,0 +1,79 @@
+{{#if groupsData.length}}
+<div class="component-container">
+    <ul class="dropdown-content" id="dropdown-content-groups">
+        {{#each groupsData}}
+        <li>
+            <a href="#/group-{{this.group}}">Group {{this.group}}</a>
+        </li>
+        {{/each}}
+    </ul>
+    <table class="component">
+        <tr>
+            <td colspan="4">
+                <div class="component-title">
+                    <h3 class="dropdown-label" id="dropdown-label-groups"></span></h3>
+                    <div class="dropdown-arrow" id="dropdown-arrow-groups"></div>
+                </div>
+            </td>
+        </tr>
+        {{#each groupsData}}
+            <tr class="group-content group-{{group}}-content" style="display:none;">
+                <td colspan="4" class="table-container">
+                    <table>
+                        <tr>
+                            <th title="Position">#</th>
+                            <th class="component-column-main" title="Team">Team</th>
+                            <th title="Points">Pts</th>
+                            <th title="Matches played">Pld</th>
+                            <th title="Matches won">W</th>
+                            <th title="Matches drawn">D</th>
+                            <th title="Matches lost">L</th>
+                            <th title="Goals for">F</th>
+                            <th title="Goals against">A</th>
+                            <th title="Goal differencence">+/-</th>
+                        </tr>
+                        {{#each this.table}}
+                        <tr>
+                            <td>{{this.rank}}</td>
+                            <td class="component-column-main">
+                                <div class="icon-logo icon-{{this.logo}}" title="{{this.team}}"></div>
+                                <span title="{{this.team}}">{{this.team}}</span>
+                            </td>
+                            <td>{{this.points}}</td>
+                            <td>{{this.played}}</td>
+                            <td>{{this.win}}</td>
+                            <td>{{this.draw}}</td>
+                            <td>{{this.lost}}</td>
+                            <td>{{this.goalsFor}}</td>
+                            <td>{{this.goalsAgainst}}</td>
+                            <td>{{this.goalDifference}}</td>
+                        </tr>
+                        {{/each}} 
+                    </table>
+                </td>
+            </tr>
+            <tr class="group-content group-{{group}}-content" style="display:none;">
+                <td colspan="4">
+                    <div class="component-title">
+                        <h3>Results</h3>
+                    </div>
+                </td>
+            </tr>
+            {{#each this.matches}}
+            <tr class="group-content group-{{../group}}-content" style="display:none;">
+                <td>{{this.date}}</td>
+                <td class="component-column-main component-column-right">
+                    <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
+                    <div class="icon-logo icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></div>
+                </td>
+                <td class="component-column-score">{{this.score}}</td>
+                <td class="component-column-main">
+                    <div class="icon-logo icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></div>
+                    <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
+                </td>
+            </tr>
+            {{/each}}       
+        {{/each}}
+    </table>
+</div>
+{{/if}}
