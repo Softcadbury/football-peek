@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "Hull City",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "2",
+        "goalsAgainst": "1",
+        "goalDifference": "1",
+        "logo": "hull_city"
+    },
+    {
+        "rank": "2",
         "team": "AFC Bournemouth",
         "points": "0",
         "played": "0",
@@ -76,32 +89,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "everton_fc"
-    },
-    {
-        "rank": " ",
-        "team": "Hull City",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "hull_city"
-    },
-    {
-        "rank": " ",
-        "team": "Leicester City",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "leicester_city"
     },
     {
         "rank": " ",
@@ -258,5 +245,18 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "west_ham_united"
+    },
+    {
+        "rank": "20",
+        "team": "Leicester City",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "2",
+        "goalDifference": "-1",
+        "logo": "leicester_city"
     }
 ]
