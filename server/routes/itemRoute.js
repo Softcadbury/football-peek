@@ -10,7 +10,7 @@ var router = express.Router();
 // Route for item
 router.route('/:item/:year?')
     .get((req, res) => {
-        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneHour);
+        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.tenMinutes);
 
         var requestedItem = items.find(item => item.code === req.params.item) || items[0];
         var requestedYear = config.years.availables.find(year => req.params.year === year) || config.years.current;

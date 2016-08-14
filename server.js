@@ -9,7 +9,7 @@ var app = express();
 
 // Middlewares configuration
 app.use(compression());
-app.use(express.static('build', { maxAge: config.cachePeriods.oneHour }));
+app.use(express.static('build', { maxAge: config.cachePeriods.tenMinutes }));
 
 // Handlebars configuration
 app.set('views', 'client/views');
