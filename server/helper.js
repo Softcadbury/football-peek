@@ -69,7 +69,6 @@ function scrapeUrl(url, callback) {
 // Manage the flag property of an object
 function manageFlagProperty(item) {
     var config = require('./config');
-
     item.flag = stringSanitize(item.country);
     downloadImage('http:' + item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
     delete item.flagSrc;
@@ -78,7 +77,6 @@ function manageFlagProperty(item) {
 // Manage the logo property of an object
 function manageLogoProperty(item) {
     var config = require('./config');
-
     item.logo = stringSanitize(item.team);
     downloadImage('http:' + item.logoSrc, stringFormat(config.paths.logosData, item.logo));
     delete item.logoSrc;

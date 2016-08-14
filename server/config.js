@@ -5,7 +5,8 @@ function config() {
     return {
         port: process.env.PORT || 5000,
         cachePeriods: {
-            oneHour: 3600000
+            oneHour: 3600000,
+            tenMinutes: 600000
         },
         paths: {
             tableData: './data/{0}/{1}/table.json',
