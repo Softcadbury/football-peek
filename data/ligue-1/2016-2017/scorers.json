@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "3",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "2.",
         "name": "Mevlüt Erdinç",
         "country": "Turkey",
         "team": "FC Metz",
@@ -36,7 +45,7 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "AS Monaco",
@@ -142,6 +151,15 @@
         "goals": "1",
         "flag": "uruguay",
         "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "-",
+        "name": "Malang Sarr",
+        "country": "France",
+        "team": "OGC Nice",
+        "goals": "1",
+        "flag": "france",
+        "logo": "ogc_nice"
     },
     {
         "rank": "-",

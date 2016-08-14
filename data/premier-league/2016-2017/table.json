@@ -1,6 +1,32 @@
 [
     {
         "rank": "1",
+        "team": "Manchester United",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "3",
+        "goalsAgainst": "1",
+        "goalDifference": "2",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "2",
+        "team": "Liverpool FC",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "4",
+        "goalsAgainst": "3",
+        "goalDifference": "1",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "3",
         "team": "Hull City",
         "points": "3",
         "played": "1",
@@ -26,7 +52,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "3",
+        "rank": "5",
         "team": "Swansea City",
         "points": "3",
         "played": "1",
@@ -52,7 +78,7 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "5",
+        "rank": "7",
         "team": "Everton FC",
         "points": "1",
         "played": "1",
@@ -130,33 +156,7 @@
         "logo": "watford_fc"
     },
     {
-        "rank": "11",
-        "team": "AFC Bournemouth",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": " ",
-        "team": "Arsenal FC",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": " ",
+        "rank": "13",
         "team": "Chelsea FC",
         "points": "0",
         "played": "0",
@@ -167,32 +167,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": " ",
-        "team": "Liverpool FC",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": " ",
-        "team": "Manchester United",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "manchester_united"
     },
     {
         "rank": " ",
@@ -208,7 +182,20 @@
         "logo": "west_ham_united"
     },
     {
-        "rank": "17",
+        "rank": "15",
+        "team": "Arsenal FC",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "3",
+        "goalsAgainst": "4",
+        "goalDifference": "-1",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "16",
         "team": "Leicester City",
         "points": "0",
         "played": "1",
@@ -234,7 +221,7 @@
         "logo": "sunderland_afc"
     },
     {
-        "rank": "19",
+        "rank": "18",
         "team": "Burnley FC",
         "points": "0",
         "played": "1",
@@ -258,5 +245,18 @@
         "goalsAgainst": "1",
         "goalDifference": "-1",
         "logo": "crystal_palace"
+    },
+    {
+        "rank": "20",
+        "team": "AFC Bournemouth",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "3",
+        "goalDifference": "-2",
+        "logo": "afc_bournemouth"
     }
 ]
