@@ -2,38 +2,26 @@
 
 var gulp = require('gulp');
 
-// Updates tables
-gulp.task('update-tables', () => {
-    require('./server/updaters/tablesUpdater').update();
-});
+// Updates data
+// Format: gulp up / gulp up -l / gulp up -c / gulp up -l ligue-1
+gulp.task('up', () => {
+    var argv = require('yargs').argv;
+    var leagueArg = argv.l;
+    var competitionArg = argv.c;
 
-// Updates scorers
-gulp.task('update-scorers', () => {
-    require('./server/updaters/scorersUpdater').update();
-});
+    if (leagueArg || !competitionArg) {
+        require('./server/updaters/tablesUpdater').update(leagueArg);
+        require('./server/updaters/resultsUpdater').update(leagueArg);
+    }
+    
+    if (competitionArg || !leagueArg) {
+        require('./server/updaters/tournamentsUpdater').update(competitionArg);
+        require('./server/updaters/groupsUpdater').update(competitionArg);
+    }
 
-// Updates assists
-gulp.task('update-assists', () => {
-    require('./server/updaters/assistsUpdater').update();
+    require('./server/updaters/scorersUpdater').update(leagueArg || competitionArg);
+    require('./server/updaters/assistsUpdater').update(leagueArg || competitionArg);
 });
-
-// Updates results
-gulp.task('update-results', () => {
-    require('./server/updaters/resultsUpdater').update();
-});
-
-// Updates tournaments
-gulp.task('update-tournaments', () => {
-    require('./server/updaters/tournamentsUpdater').update();
-});
-
-// Updates groups
-gulp.task('update-groups', () => {
-    require('./server/updaters/groupsUpdater').update();
-});
-
-// Updates all data
-gulp.task('update', ['update-tables', 'update-scorers', 'update-assists', 'update-results', 'update-tournaments', 'update-groups']);
 
 // Check coding rules
 gulp.task('check', () => {
@@ -54,7 +42,7 @@ gulp.task('test', () => {
 });
 
 // Build the sprite
-gulp.task('build-sprite', () => {
+gulp.task('sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
         imgName: 'images/sprite.png',
