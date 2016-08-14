@@ -14,10 +14,8 @@ var itemsExtended = [
 ];
 
 // Updates tables of current year
-function update() {
-    for (var i = 0; i < itemsExtended.length; i++) {
-        updateData(itemsExtended[i]);
-    }
+function update(arg) {
+    helper.runUpdate(itemsExtended, updateData, arg);
 }
 
 // Updates the table of an item

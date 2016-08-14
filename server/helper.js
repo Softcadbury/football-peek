@@ -97,6 +97,19 @@ function downloadImage(src, path) {
     }
 }
 
+// Helper to run an update of data
+function runUpdate(itemsExtended, updateData, arg) {
+    var itemArg = itemsExtended.find(item => item.code === arg);
+
+    if (itemArg) {
+        updateData(itemArg);
+    } else {
+        for (var i = 0; i < itemsExtended.length; i++) {
+            updateData(itemsExtended[i]);
+        }
+    }
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
@@ -104,5 +117,6 @@ module.exports = {
     writeJsonFile: writeJsonFile,
     scrapeUrl: scrapeUrl,
     manageFlagProperty: manageFlagProperty,
-    manageLogoProperty: manageLogoProperty
+    manageLogoProperty: manageLogoProperty,
+    runUpdate: runUpdate
 };
