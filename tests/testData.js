@@ -15,6 +15,7 @@ describe('Data intergrity', () => {
                 describe(year, () => {
                     if (item.code === competitions.championsLeague.code || item.code === competitions.europaLeague.code) {
                         testTournamentData(item.code, year);
+                        testGroupsData(item.code, year);
                     } else {
                         testTableData(item.code, year);
                         testResultData(item.code, year);
@@ -28,6 +29,32 @@ describe('Data intergrity', () => {
     });
 });
 
+function testTournamentData(code, year) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, code, year));
+    testDataIsNotEmpty('Tournament Final', data[0].matches);
+    testDataIsNotEmpty('Tournament Semi-finals', data[1].matches);
+    testDataIsNotEmpty('Tournament Quarter-finals', data[2].matches);
+    testDataIsNotEmpty('Tournament Eighth-finals', data[3].matches);
+    testDataIsNotEmpty('Tournament Sixteenth-finals', data[4].matches);
+
+    it('Tournament should have the right number of matches', () => {
+        assert.lengthOf(data[0].matches, 1);
+        assert.lengthOf(data[1].matches, 2);
+        assert.lengthOf(data[2].matches, 4);
+        assert.lengthOf(data[3].matches, 8);
+        assert.isTrue(data[4].matches.length === 16 || data[4].matches.length === 0);
+    });
+}
+
+function testGroupsData(code, year) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, code, year));
+    for (var i = 0; i < data.length; i++) {
+        testDataIsNotEmpty('Group (matches) ' + i, data[i].matches);
+        testDataIsNotEmpty('Group (table) ' + i, data[i].table);
+        testDataIsNumber('Group (table) ' + i, data[i].table);
+    }
+}
+
 function testTableData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.tableData, code, year));
     testDataIsNotEmpty('Table', data);
@@ -37,6 +64,13 @@ function testTableData(code, year) {
         var expectedNumber = code === leagues.bundesliga.code ? 18 : 20;
         assert.lengthOf(data, expectedNumber);
     });
+}
+
+function testResultData(code, year) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
+    for (var i = 0; i < data.length; i++) {
+        testDataIsNotEmpty('Result ' + i, data[i].matches);
+    }
 }
 
 function testScorersData(code, year) {
@@ -56,28 +90,6 @@ function testAssistsData(code, year) {
 
     it('Assists should have the right number of players', () => {
         assert.lengthOf(data, 20);
-    });
-}
-
-function testResultData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
-    testDataIsNotEmpty('Results', data[0].matches);
-}
-
-function testTournamentData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, code, year));
-    testDataIsNotEmpty('Tournament Final', data[0].matches);
-    testDataIsNotEmpty('Tournament Semi-finals', data[1].matches);
-    testDataIsNotEmpty('Tournament Quarter-finals', data[2].matches);
-    testDataIsNotEmpty('Tournament Eighth-finals', data[3].matches);
-    testDataIsNotEmpty('Tournament Sixteenth-finals', data[4].matches);
-
-    it('Tournament should have the right number of matches', () => {
-        assert.lengthOf(data[0].matches, 1);
-        assert.lengthOf(data[1].matches, 2);
-        assert.lengthOf(data[2].matches, 4);
-        assert.lengthOf(data[3].matches, 8);
-        assert.isTrue(data[4].matches.length === 16 || data[4].matches.length === 0);
     });
 }
 
