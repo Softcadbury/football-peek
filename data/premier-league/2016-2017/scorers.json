@@ -55,12 +55,30 @@
     },
     {
         "rank": "-",
+        "name": "James Collins",
+        "country": "Wales",
+        "team": "West Ham United",
+        "goals": "1",
+        "flag": "wales",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
         "goals": "1",
         "flag": "england",
         "logo": "sunderland_afc"
+    },
+    {
+        "rank": "-",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
@@ -79,6 +97,15 @@
         "goals": "1",
         "flag": "netherlands",
         "logo": "swansea_city"
+    },
+    {
+        "rank": "-",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "goals": "1",
+        "flag": "belgium",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "goals": "1",
         "flag": "england",
         "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Salomón Rondón",
-        "country": "Venezuela",
-        "team": "West Bromwich Albion",
-        "goals": "1",
-        "flag": "venezuela",
-        "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Wayne Rooney",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "1",
-        "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Xherdan Shaqiri",
-        "country": "Switzerland",
-        "team": "Stoke City",
-        "goals": "1",
-        "flag": "switzerland",
-        "logo": "stoke_city"
     }
 ]
