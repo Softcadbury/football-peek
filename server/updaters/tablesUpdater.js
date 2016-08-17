@@ -4,13 +4,13 @@ var config = require('../config');
 var helper = require('../helper');
 var leagues = require('../data/leagues');
 
-var tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag';
+var tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
 var itemsExtended = [
-    { code: leagues.bundesliga.code, url: 'bundesliga' },
-    { code: leagues.liga.code, url: 'esp-primera-division' },
-    { code: leagues.ligue1.code, url: 'fra-ligue-1' },
-    { code: leagues.serieA.code, url: 'ita-serie-a' },
-    { code: leagues.premierLeague.code, url: 'eng-premier-league' }
+    { code: leagues.bundesliga.code, url: 'bundesliga', extra: '' },
+    { code: leagues.liga.code, url: 'esp-primera-division', extra: '_2' },
+    { code: leagues.ligue1.code, url: 'fra-ligue-1', extra: '' },
+    { code: leagues.serieA.code, url: 'ita-serie-a', extra: '' },
+    { code: leagues.premierLeague.code, url: 'eng-premier-league', extra: '' }
 ];
 
 // Updates tables of current year
@@ -20,7 +20,7 @@ function update(arg) {
 
 // Updates the table of an item
 function updateData(item) {
-    helper.scrapeUrl(helper.stringFormat(tableDataUrl, item.url, config.years.current), function ($) {
+    helper.scrapeUrl(helper.stringFormat(tableDataUrl, item.url, config.years.current, item.extra), function ($) {
         var results = [];
 
         $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle > tr').each((index, elem) => {

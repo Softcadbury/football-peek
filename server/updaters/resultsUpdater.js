@@ -4,13 +4,13 @@ var config = require('../config');
 var helper = require('../helper');
 var leagues = require('../data/leagues');
 
-var resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag/{2}';
+var resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}/{3}';
 var itemsExtended = [
-    { code: leagues.bundesliga.code, url: 'bundesliga', roundNumber: 34 },
-    { code: leagues.liga.code, url: 'esp-primera-division', roundNumber: 38 },
-    { code: leagues.ligue1.code, url: 'fra-ligue-1', roundNumber: 38 },
-    { code: leagues.serieA.code, url: 'ita-serie-a', roundNumber: 38 },
-    { code: leagues.premierLeague.code, url: 'eng-premier-league', roundNumber: 38 },
+    { code: leagues.bundesliga.code, url: 'bundesliga', extra: '', roundNumber: 34 },
+    { code: leagues.liga.code, url: 'esp-primera-division', extra: '_2', roundNumber: 38 },
+    { code: leagues.ligue1.code, url: 'fra-ligue-1', extra: '', roundNumber: 38 },
+    { code: leagues.serieA.code, url: 'ita-serie-a', extra: '', roundNumber: 38 },
+    { code: leagues.premierLeague.code, url: 'eng-premier-league', extra: '', roundNumber: 38 },
 ];
 
 // Updates results of current year
@@ -40,7 +40,7 @@ function updateData(item) {
 // Parse a page of an item
 function parseRound(item, results, roundIndex) {
     return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, item.url, config.years.current, roundIndex + 1), function ($) {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, item.url, config.years.current, item.extra, roundIndex + 1), function ($) {
             var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
