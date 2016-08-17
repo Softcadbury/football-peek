@@ -3,7 +3,7 @@
         <img src="/images/trophy-logo.png" alt="logo" />
     </a>
     {{#each items}}
-    <a class="menu-item {{#isActive this.code}}menu-item-open{{/isActive}}" href="/{{this.code}}">
+    <a class="menu-item {{#isActive this.code}}menu-item-open{{/isActive}}" href="/{{this.code}}{{#if this.round}}/#/round-{{this.round}}{{/if}}">
         <h2 class="menu-item-big">{{this.name}}</h2>
         <h2 class="menu-item-small">{{this.smallName}}</h2>
     </a>
