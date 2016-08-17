@@ -19,6 +19,7 @@ describe('Images intergrity', () => {
                 describe(year, () => {
                     if (item.code === competitions.championsLeague.code || item.code === competitions.europaLeague.code) {
                         testTournamentImages(item.code, year);
+                        testGroupImages(item.code, year);
                     } else {
                         testTableImages(item.code, year);
                         testResultsImages(item.code, year);
@@ -32,9 +33,30 @@ describe('Images intergrity', () => {
     });
 });
 
+function testTournamentImages(code, year) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, code, year));
+    testImagesExistance('Tournament Final', data[0].matches);
+    testImagesExistance('Tournament Semi-finals', data[1].matches);
+    testImagesExistance('Tournament Quarter-finals', data[2].matches);
+    testImagesExistance('Tournament Eighth-finals', data[3].matches);
+    testImagesExistance('Tournament Sixteenth-finals', data[4].matches);
+}
+
+function testGroupImages(code, year) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, code, year));
+    for (var i = 0; i < data.length; i++) {
+        testImagesExistance('Group ' + i, data[i].matches);
+    }
+}
+
 function testTableImages(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, year));
     testImagesExistance('Table', data);
+}
+
+function testResultsImages(code, year) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
+    testImagesExistance('Results', data[0].matches);
 }
 
 function testScorersImages(code, year) {
@@ -45,20 +67,6 @@ function testScorersImages(code, year) {
 function testAssistsImages(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.assistsData, code, year));
     testImagesExistance('Assists', data);
-}
-
-function testResultsImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
-    testImagesExistance('Results', data[0].matches);
-}
-
-function testTournamentImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, code, year));
-    testImagesExistance('Tournament Final', data[0].matches);
-    testImagesExistance('Tournament Semi-finals', data[1].matches);
-    testImagesExistance('Tournament Quarter-finals', data[2].matches);
-    testImagesExistance('Tournament Eighth-finals', data[3].matches);
-    testImagesExistance('Tournament Sixteenth-finals', data[4].matches);
 }
 
 function testImagesExistance(dataName, data) {
