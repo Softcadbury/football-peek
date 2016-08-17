@@ -27,6 +27,19 @@
     },
     {
         "rank": "3",
+        "team": "Chelsea FC",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "2",
+        "goalsAgainst": "1",
+        "goalDifference": "1",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": " ",
         "team": "Hull City",
         "points": "3",
         "played": "1",
@@ -52,7 +65,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "5",
+        "rank": "6",
         "team": "Swansea City",
         "points": "3",
         "played": "1",
@@ -78,7 +91,7 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "7",
+        "rank": "8",
         "team": "Everton FC",
         "points": "1",
         "played": "1",
@@ -156,33 +169,7 @@
         "logo": "watford_fc"
     },
     {
-        "rank": "13",
-        "team": "Chelsea FC",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": " ",
-        "team": "West Ham United",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "15",
+        "rank": "14",
         "team": "Arsenal FC",
         "points": "0",
         "played": "1",
@@ -195,7 +182,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "16",
+        "rank": "15",
         "team": "Leicester City",
         "points": "0",
         "played": "1",
@@ -219,6 +206,19 @@
         "goalsAgainst": "2",
         "goalDifference": "-1",
         "logo": "sunderland_afc"
+    },
+    {
+        "rank": " ",
+        "team": "West Ham United",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "2",
+        "goalDifference": "-1",
+        "logo": "west_ham_united"
     },
     {
         "rank": "18",
