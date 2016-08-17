@@ -19,7 +19,6 @@ var data = {
 // Route for index
 router.route('/')
     .get((req, res) => {
-        res.setHeader('Cache-Control', 'public, max-age=' + config.cachePeriods.oneHour);
         res.render('index', data);
     });
 

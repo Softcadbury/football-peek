@@ -8,8 +8,9 @@ var compression = require('compression');
 var app = express();
 
 // Middlewares configuration
+var tenMinutes = 600000;
 app.use(compression());
-app.use(express.static('build', { maxAge: config.cachePeriods.tenMinutes }));
+app.use(express.static('build', { maxAge: tenMinutes }));
 
 // Handlebars configuration
 app.set('views', 'client/views');
