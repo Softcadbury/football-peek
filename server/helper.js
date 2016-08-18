@@ -110,6 +110,25 @@ function runUpdate(itemsExtended, updateData, arg) {
     }
 }
 
+// Get the current round of a league
+function getLeagueRound(leagueCode) {
+    var config = require('./config');
+    var results = readJsonFile(stringFormat(config.paths.resultsData, leagueCode, config.years.current));
+    var round = 1;
+
+    for (var i = 0; i < results.length; i++) {
+        var result = results[i];
+
+        if (result.matches.filter(p => p.score == '-:-').length == result.matches.length) {
+            break;
+        }
+
+        round = result.round;
+    }
+
+    return round;
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
@@ -118,5 +137,6 @@ module.exports = {
     scrapeUrl: scrapeUrl,
     manageFlagProperty: manageFlagProperty,
     manageLogoProperty: manageLogoProperty,
-    runUpdate: runUpdate
+    runUpdate: runUpdate,
+    getLeagueRound: getLeagueRound
 };
