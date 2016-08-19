@@ -2,14 +2,14 @@
     {
         "rank": "1",
         "team": "Manchester United",
-        "points": "3",
-        "played": "1",
-        "win": "1",
+        "points": "6",
+        "played": "2",
+        "win": "2",
         "draw": "0",
         "lost": "0",
-        "goalsFor": "3",
+        "goalsFor": "5",
         "goalsAgainst": "1",
-        "goalDifference": "2",
+        "goalDifference": "4",
         "logo": "manchester_united"
     },
     {
@@ -118,19 +118,6 @@
     },
     {
         "rank": " ",
-        "team": "Southampton FC",
-        "points": "1",
-        "played": "1",
-        "win": "0",
-        "draw": "1",
-        "lost": "0",
-        "goalsFor": "1",
-        "goalsAgainst": "1",
-        "goalDifference": "0",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": " ",
         "team": "Stoke City",
         "points": "1",
         "played": "1",
@@ -167,6 +154,19 @@
         "goalsAgainst": "1",
         "goalDifference": "0",
         "logo": "watford_fc"
+    },
+    {
+        "rank": "13",
+        "team": "Southampton FC",
+        "points": "1",
+        "played": "2",
+        "win": "0",
+        "draw": "1",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "3",
+        "goalDifference": "-2",
+        "logo": "southampton_fc"
     },
     {
         "rank": "14",

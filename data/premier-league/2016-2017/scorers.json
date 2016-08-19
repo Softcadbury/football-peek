@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "3",
+        "flag": "sweden",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "2.",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -9,7 +18,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -106,15 +115,6 @@
         "goals": "1",
         "flag": "belgium",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "1",
-        "flag": "sweden",
-        "logo": "manchester_united"
     },
     {
         "rank": "-",
