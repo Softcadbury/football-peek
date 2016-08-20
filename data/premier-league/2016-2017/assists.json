@@ -18,7 +18,16 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "assists": "2",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "4.",
         "name": "Michy Batshuayi",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -34,6 +43,15 @@
         "assists": "1",
         "flag": "england",
         "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "assists": "1",
+        "flag": "belgium",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -70,6 +88,15 @@
         "assists": "1",
         "flag": "uruguay",
         "logo": "hull_city"
+    },
+    {
+        "rank": "-",
+        "name": "Kelechi Iheanacho",
+        "country": "Nigeria",
+        "team": "Manchester City",
+        "assists": "1",
+        "flag": "nigeria",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -133,15 +160,6 @@
         "assists": "1",
         "flag": "england",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "assists": "1",
-        "flag": "england",
-        "logo": "manchester_city"
     },
     {
         "rank": "-",
