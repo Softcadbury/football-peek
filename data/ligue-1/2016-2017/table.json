@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "AS Monaco",
+        "points": "4",
+        "played": "2",
+        "win": "1",
+        "draw": "1",
+        "lost": "0",
+        "goalsFor": "3",
+        "goalsAgainst": "2",
+        "goalDifference": "1",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "3",
         "team": "FC Metz",
         "points": "3",
         "played": "1",
@@ -39,20 +52,7 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "4",
-        "team": "FC Nantes",
-        "points": "3",
-        "played": "1",
-        "win": "1",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "1",
-        "goalsAgainst": "0",
-        "goalDifference": "1",
-        "logo": "fc_nantes"
-    },
-    {
-        "rank": " ",
+        "rank": "5",
         "team": "Montpellier HSC",
         "points": "3",
         "played": "1",
@@ -92,6 +92,19 @@
     },
     {
         "rank": "8",
+        "team": "FC Nantes",
+        "points": "3",
+        "played": "2",
+        "win": "1",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "1",
+        "goalDifference": "0",
+        "logo": "fc_nantes"
+    },
+    {
+        "rank": "9",
         "team": "SM Caen",
         "points": "3",
         "played": "2",
@@ -104,20 +117,7 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "9",
-        "team": "AS Monaco",
-        "points": "1",
-        "played": "1",
-        "win": "0",
-        "draw": "1",
-        "lost": "0",
-        "goalsFor": "2",
-        "goalsAgainst": "2",
-        "goalDifference": "0",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": " ",
+        "rank": "10",
         "team": "EA Guingamp",
         "points": "1",
         "played": "1",

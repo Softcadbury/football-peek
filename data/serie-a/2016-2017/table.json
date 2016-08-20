@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "AS Roma",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "4",
+        "goalsAgainst": "0",
+        "goalDifference": "4",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "2",
         "team": "AC Milan",
         "points": "0",
         "played": "0",
@@ -24,19 +37,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": " ",
-        "team": "AS Roma",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "as_roma"
     },
     {
         "rank": " ",
@@ -235,19 +235,6 @@
     },
     {
         "rank": " ",
-        "team": "Udinese Calcio",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": " ",
         "team": "US Palermo",
         "points": "0",
         "played": "0",
@@ -258,5 +245,18 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "us_palermo"
+    },
+    {
+        "rank": "20",
+        "team": "Udinese Calcio",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "0",
+        "goalsAgainst": "4",
+        "goalDifference": "-4",
+        "logo": "udinese_calcio"
     }
 ]

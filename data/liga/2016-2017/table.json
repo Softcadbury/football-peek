@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "FC Barcelona",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "6",
+        "goalsAgainst": "2",
+        "goalDifference": "4",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2",
         "team": "Deportivo La Coruña",
         "points": "3",
         "played": "1",
@@ -13,7 +26,7 @@
         "logo": "deportivo_la_coruna"
     },
     {
-        "rank": "2",
+        "rank": "3",
         "team": "CA Osasuna",
         "points": "1",
         "played": "1",
@@ -39,7 +52,7 @@
         "logo": "malaga_cf"
     },
     {
-        "rank": "4",
+        "rank": "5",
         "team": "Athletic Bilbao",
         "points": "0",
         "played": "0",
@@ -118,19 +131,6 @@
     },
     {
         "rank": " ",
-        "team": "FC Barcelona",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": " ",
         "team": "Granada CF",
         "points": "0",
         "played": "0",
@@ -141,19 +141,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "granada_cf"
-    },
-    {
-        "rank": " ",
-        "team": "Real Betis",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "real_betis"
     },
     {
         "rank": " ",
@@ -247,7 +234,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "20",
+        "rank": "19",
         "team": "SD Eibar",
         "points": "0",
         "played": "1",
@@ -258,5 +245,18 @@
         "goalsAgainst": "2",
         "goalDifference": "-1",
         "logo": "sd_eibar"
+    },
+    {
+        "rank": "20",
+        "team": "Real Betis",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "2",
+        "goalsAgainst": "6",
+        "goalDifference": "-4",
+        "logo": "real_betis"
     }
 ]
