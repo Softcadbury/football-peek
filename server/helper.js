@@ -99,7 +99,11 @@ function downloadImage(src, path) {
 
 // Helper to run an update of data
 function runUpdate(itemsExtended, updateData, arg) {
-    var itemArg = itemsExtended.find(item => item.code === arg);
+    if (!arg) {
+        return;
+    }
+
+    var itemArg = itemsExtended.find(itemExtended => itemExtended.item.smallName.toLowerCase() === arg);
 
     if (itemArg) {
         updateData(itemArg);
@@ -111,7 +115,7 @@ function runUpdate(itemsExtended, updateData, arg) {
 }
 
 // Get the current round of a league
-function getLeagueRound(leagueCode) {
+function getLeagueCurrentRound(leagueCode) {
     var config = require('./config');
     var results = readJsonFile(stringFormat(config.paths.resultsData, leagueCode, config.years.current));
     var round = 1;
@@ -138,5 +142,5 @@ module.exports = {
     manageFlagProperty: manageFlagProperty,
     manageLogoProperty: manageLogoProperty,
     runUpdate: runUpdate,
-    getLeagueRound: getLeagueRound
+    getLeagueCurrentRound: getLeagueCurrentRound
 };

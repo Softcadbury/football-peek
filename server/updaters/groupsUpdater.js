@@ -6,39 +6,39 @@ var competitions = require('../data/competitions');
 
 var resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-gruppe-{2}';
 var resultsDataUrlExtensions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'];
-var itemsExtended = [
-    { code: competitions.championsLeague.code, url: 'champions-league', groupNumber: 8 },
-    { code: competitions.europaLeague.code, url: 'europa-league', groupNumber: 12 }
+var competitionsExtended = [
+    { item: competitions.championsLeague, url: 'champions-league', groupNumber: 8 },
+    { item: competitions.europaLeague, url: 'europa-league', groupNumber: 12 }
 ];
 
 // Updates results of current year
-function update(arg) {
-    helper.runUpdate(itemsExtended, updateData, arg);
+function update(competitionArg) {
+    helper.runUpdate(competitionsExtended, updateData, competitionArg);
 }
 
-// Updates the results of an item
-function updateData(item) {
+// Updates the results of an itemExtended
+function updateData(itemExtended) {
     var results = [];
 
-    for (var i = 0; i < item.groupNumber; i++) {
+    for (var i = 0; i < itemExtended.groupNumber; i++) {
         results.push({ group: resultsDataUrlExtensions[i], matches: [], table: [] });
     }
 
     var promises = [];
 
-    for (var i = 0; i < item.groupNumber; i++) {
-        promises.push(parseRound(item, results, i));
+    for (var i = 0; i < itemExtended.groupNumber; i++) {
+        promises.push(parseRound(itemExtended, results, i));
     }
 
     Promise.all(promises).then(() => {
-        helper.writeJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.groupsData, itemExtended.item.code, config.years.current), results);
     });
 }
 
-// Parse a page of an item
-function parseRound(item, results, groupIndex) {
+// Parse a page of an itemExtended
+function parseRound(itemExtended, results, groupIndex) {
     return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, item.url, config.years.current, resultsDataUrlExtensions[groupIndex]), function ($) {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, resultsDataUrlExtensions[groupIndex]), function ($) {
             var currentMatches = results[groupIndex].matches;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {

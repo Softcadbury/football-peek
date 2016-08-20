@@ -6,18 +6,18 @@ var competitions = require('../data/competitions');
 
 var tournamentDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-{2}';
 var tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale', 'sechzehntelfinale'];
-var itemsExtended = [
-    { code: competitions.championsLeague.code, url: 'champions-league', roundNumber: 4 },
-    { code: competitions.europaLeague.code, url: 'europa-league', roundNumber: 5 }
+var competitionsExtended = [
+    { item: competitions.championsLeague, url: 'champions-league', roundNumber: 4 },
+    { item: competitions.europaLeague, url: 'europa-league', roundNumber: 5 }
 ];
 
 // Updates tournament of current year
-function update(arg) {
-    helper.runUpdate(itemsExtended, updateData, arg);
+function update(competitionArg) {
+    helper.runUpdate(competitionsExtended, updateData, competitionArg);
 }
 
-// Updates the tournament of an item
-function updateData(item) {
+// Updates the tournament of an itemExtended
+function updateData(itemExtended) {
     var results = [
         { name: 'Final', matches: [] },
         { name: 'Semi-finals', matches: [] },
@@ -28,19 +28,19 @@ function updateData(item) {
 
     var promises = [];
 
-    for (var i = 0; i < item.roundNumber; i++) {
-        promises.push(parseRound(item, results, i));
+    for (var i = 0; i < itemExtended.roundNumber; i++) {
+        promises.push(parseRound(itemExtended, results, i));
     }
 
     Promise.all(promises).then(() => {
-        helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.years.current), results);
     });
 }
 
-// Parse a page of an item
-function parseRound(item, results, roundIndex) {
+// Parse a page of an itemExtended
+function parseRound(itemExtended, results, roundIndex) {
     return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, item.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), function ($) {
+        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), function ($) {
             var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
