@@ -2,6 +2,7 @@
 'use strict';
 
 var assert = require('chai').assert;
+var fileExists = require('file-exists');
 var config = require('../server/config');
 var helper = require('../server/helper');
 var items = require('../server/data/items');
@@ -30,7 +31,13 @@ describe('Data intergrity', () => {
 });
 
 function testTournamentData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, code, year));
+    var path = helper.stringFormat(config.paths.tournamentData, code, year);
+
+    if (!fileExists(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
     testDataIsNotEmpty('Tournament Final', data[0].matches);
     testDataIsNotEmpty('Tournament Semi-finals', data[1].matches);
     testDataIsNotEmpty('Tournament Quarter-finals', data[2].matches);
@@ -47,11 +54,24 @@ function testTournamentData(code, year) {
 }
 
 function testGroupsData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, code, year));
+    var path = helper.stringFormat(config.paths.groupsData, code, year);
+
+    if (!fileExists(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
     for (var i = 0; i < data.length; i++) {
         testDataIsNotEmpty('Group (matches) ' + i, data[i].matches);
         testDataIsNotEmpty('Group (table) ' + i, data[i].table);
         testDataIsNumber('Group (table) ' + i, data[i].table);
+
+        (function (j) {
+            it('Group should have the right number of matches', () => {
+                assert.lengthOf(data[j].matches, 12);
+                assert.lengthOf(data[j].table, 4);
+            });
+        })(i);
     }
 }
 
