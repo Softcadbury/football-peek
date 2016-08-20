@@ -62,9 +62,9 @@ function testGroupsData(code, year) {
 
     var data = helper.readJsonFile(path);
     for (var i = 0; i < data.length; i++) {
-        testDataIsNotEmpty('Group (matches) ' + i, data[i].matches);
-        testDataIsNotEmpty('Group (table) ' + i, data[i].table);
-        testDataIsNumber('Group (table) ' + i, data[i].table);
+        testDataIsNotEmpty('Group Matches' + i, data[i].matches);
+        testDataIsNotEmpty('Group Table' + i, data[i].table);
+        testDataIsNumber('Group Table' + i, data[i].table);
 
         (function (j) {
             it('Group should have the right number of matches', () => {
@@ -89,12 +89,18 @@ function testTableData(code, year) {
 function testResultData(code, year) {
     var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
     for (var i = 0; i < data.length; i++) {
-        testDataIsNotEmpty('Result ' + i, data[i].matches);
+        testDataIsNotEmpty('Result' + i, data[i].matches);
     }
 }
 
 function testScorersData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, year));
+    var path = helper.stringFormat(config.paths.scorersData, code, year);
+
+    if (!fileExists(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
     testDataIsNotEmpty('Scorers', data);
     testDataIsNumber('Scorers', data);
 
@@ -104,7 +110,13 @@ function testScorersData(code, year) {
 }
 
 function testAssistsData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.assistsData, code, year));
+    var path = helper.stringFormat(config.paths.assistsData, code, year);
+
+    if (!fileExists(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
     testDataIsNotEmpty('Assists', data);
     testDataIsNumber('Assists', data);
 

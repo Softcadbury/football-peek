@@ -58,8 +58,8 @@ function testGroupImages(code, year) {
 
     var data = helper.readJsonFile(path);
     for (var i = 0; i < data.length; i++) {
-        testImagesExistance('Group ' + i, data[i].matches);
-        testImagesExistance('Table ' + i, data[i].table);
+        testImagesExistance('Group Matches' + i, data[i].matches);
+        testImagesExistance('Group Table' + i, data[i].table);
     }
 }
 
