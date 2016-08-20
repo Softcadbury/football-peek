@@ -5,17 +5,17 @@ var helper = require('../helper');
 var leagues = require('../data/leagues');
 var competitions = require('../data/competitions');
 
-var scorersDataUrl = 'http://www.worldfootball.net/goalgetter/{0}-{1}';
+var scorersDataUrl = 'http://www.worldfootball.net/goalgetter/{0}-{1}{2}';
 var itemsExtended = [
-    { item: leagues.bundesliga, url: 'bundesliga' },
-    { item: leagues.liga, url: 'esp-primera-division' },
-    { item: leagues.ligue1, url: 'fra-ligue-1' },
-    { item: leagues.serieA, url: 'ita-serie-a' },
-    { item: leagues.premierLeague, url: 'eng-premier-league' }
+    { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
+    { item: leagues.liga, url: 'esp-primera-division', extra: '_2' },
+    { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
+    { item: leagues.serieA, url: 'ita-serie-a', extra: '' },
+    { item: leagues.premierLeague, url: 'eng-premier-league', extra: '' }
 ];
 var competitionsExtended = [
-    { item: competitions.championsLeague, url: 'champions-league' },
-    { item: competitions.europaLeague, url: 'europa-league' }
+    { item: competitions.championsLeague, url: 'champions-league', extra: '' },
+    { item: competitions.europaLeague, url: 'europa-league', extra: '' }
 ];
 
 // Updates scorers of current year
@@ -26,7 +26,7 @@ function update(leagueArg, competitionArg) {
 
 // Updates the scorers of a itemExtended
 function updateData(itemExtended) {
-    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, itemExtended.url, config.years.current), function ($) {
+    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, itemExtended.url, config.years.current, itemExtended.extra), function ($) {
         var results = [];
 
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
