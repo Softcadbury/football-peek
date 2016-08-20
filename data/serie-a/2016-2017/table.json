@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "Juventus",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "2",
+        "goalsAgainst": "1",
+        "goalDifference": "1",
+        "logo": "juventus"
+    },
+    {
+        "rank": "3",
         "team": "AC Milan",
         "points": "0",
         "played": "0",
@@ -24,19 +37,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "ac_milan"
-    },
-    {
-        "rank": " ",
-        "team": "ACF Fiorentina",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "acf_fiorentina"
     },
     {
         "rank": " ",
@@ -144,19 +144,6 @@
     },
     {
         "rank": " ",
-        "team": "Juventus",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "juventus"
-    },
-    {
-        "rank": " ",
         "team": "Lazio Roma",
         "points": "0",
         "played": "0",
@@ -245,6 +232,19 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "us_palermo"
+    },
+    {
+        "rank": "19",
+        "team": "ACF Fiorentina",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "2",
+        "goalDifference": "-1",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "20",

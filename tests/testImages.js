@@ -2,6 +2,7 @@
 'use strict';
 
 var assert = require('chai').assert;
+var fileExists = require('file-exists');
 var fs = require('fs');
 var config = require('../server/config');
 var helper = require('../server/helper');
@@ -34,7 +35,13 @@ describe('Images intergrity', () => {
 });
 
 function testTournamentImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, code, year));
+    var path = helper.stringFormat(config.paths.tournamentData, code, year);
+
+    if (!fileExists(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
     testImagesExistance('Tournament Final', data[0].matches);
     testImagesExistance('Tournament Semi-finals', data[1].matches);
     testImagesExistance('Tournament Quarter-finals', data[2].matches);
@@ -43,9 +50,16 @@ function testTournamentImages(code, year) {
 }
 
 function testGroupImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, code, year));
+    var path = helper.stringFormat(config.paths.groupsData, code, year);
+
+    if (!fileExists(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
     for (var i = 0; i < data.length; i++) {
-        testImagesExistance('Group ' + i, data[i].matches);
+        testImagesExistance('Group Matches' + i, data[i].matches);
+        testImagesExistance('Group Table' + i, data[i].table);
     }
 }
 
