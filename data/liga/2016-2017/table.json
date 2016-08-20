@@ -1,6 +1,45 @@
 [
     {
         "rank": "1",
+        "team": "Deportivo La Coruña",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "2",
+        "goalsAgainst": "1",
+        "goalDifference": "1",
+        "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "2",
+        "team": "CA Osasuna",
+        "points": "1",
+        "played": "1",
+        "win": "0",
+        "draw": "1",
+        "lost": "0",
+        "goalsFor": "1",
+        "goalsAgainst": "1",
+        "goalDifference": "0",
+        "logo": "ca_osasuna"
+    },
+    {
+        "rank": " ",
+        "team": "Málaga CF",
+        "points": "1",
+        "played": "1",
+        "win": "0",
+        "draw": "1",
+        "lost": "0",
+        "goalsFor": "1",
+        "goalsAgainst": "1",
+        "goalDifference": "0",
+        "logo": "malaga_cf"
+    },
+    {
+        "rank": "4",
         "team": "Athletic Bilbao",
         "points": "0",
         "played": "0",
@@ -24,19 +63,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": " ",
-        "team": "CA Osasuna",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "ca_osasuna"
     },
     {
         "rank": " ",
@@ -79,19 +105,6 @@
     },
     {
         "rank": " ",
-        "team": "Deportivo La Coruña",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": " ",
         "team": "Espanyol Barcelona",
         "points": "0",
         "played": "0",
@@ -131,19 +144,6 @@
     },
     {
         "rank": " ",
-        "team": "Málaga CF",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "malaga_cf"
-    },
-    {
-        "rank": " ",
         "team": "Real Betis",
         "points": "0",
         "played": "0",
@@ -180,19 +180,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "real_sociedad"
-    },
-    {
-        "rank": " ",
-        "team": "SD Eibar",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "sd_eibar"
     },
     {
         "rank": " ",
@@ -258,5 +245,18 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "villarreal_cf"
+    },
+    {
+        "rank": "20",
+        "team": "SD Eibar",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "2",
+        "goalDifference": "-1",
+        "logo": "sd_eibar"
     }
 ]
