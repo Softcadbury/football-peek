@@ -23,12 +23,12 @@ app.engine('.hbs', handlebars({
 }));
 app.set('view engine', '.hbs');
 
-// Set leagues rounds
-leagues.bundesliga.round = helper.getLeagueRound(leagues.bundesliga.code);
-leagues.liga.round = helper.getLeagueRound(leagues.liga.code);
-leagues.ligue1.round = helper.getLeagueRound(leagues.ligue1.code);
-leagues.premierLeague.round = helper.getLeagueRound(leagues.premierLeague.code);
-leagues.serieA.round = helper.getLeagueRound(leagues.serieA.code);
+// Set leagues current rounds
+leagues.bundesliga.currentRound = helper.getLeagueCurrentRound(leagues.bundesliga.code);
+leagues.liga.currentRound = helper.getLeagueCurrentRound(leagues.liga.code);
+leagues.ligue1.currentRound = helper.getLeagueCurrentRound(leagues.ligue1.code);
+leagues.premierLeague.currentRound = helper.getLeagueCurrentRound(leagues.premierLeague.code);
+leagues.serieA.currentRound = helper.getLeagueCurrentRound(leagues.serieA.code);
 
 // Starts application listening
 app.listen(config.port, (err) => {

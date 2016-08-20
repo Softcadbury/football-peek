@@ -20,16 +20,21 @@ function update(leagueArg) {
 
 // Updates the results of an itemExtended
 function updateData(itemExtended) {
-    var results = [];
-
-    for (var i = 0; i < itemExtended.roundNumber; i++) {
-        results.push({ round: i + 1, matches: [] });
-    }
-
+    var results = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.years.current));
     var promises = [];
 
-    for (var i = 0; i < itemExtended.roundNumber; i++) {
-        promises.push(parseRound(itemExtended, results, i));
+    if (!results.length) {
+        for (var i = 0; i < itemExtended.roundNumber; i++) {
+            results.push({ round: i + 1, matches: [] });
+            promises.push(parseRound(itemExtended, results, i));
+        }
+    } else {
+        var currentRound = helper.getLeagueCurrentRound(itemExtended.item.code);
+        var maxRound = Math.min(itemExtended.roundNumber, currentRound + 1);
+
+        for (var i =  currentRound - 1; i < maxRound; i++) {
+            promises.push(parseRound(itemExtended, results, i));
+        }
     }
 
     Promise.all(promises).then(() => {
@@ -42,6 +47,7 @@ function parseRound(itemExtended, results, roundIndex) {
     return new Promise((resolve, reject) => {
         helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, itemExtended.extra, roundIndex + 1), function ($) {
             var currentMatches = results[roundIndex].matches;
+            currentMatches.splice(0, currentMatches.length);
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
                 if (index < (itemExtended.roundNumber + 2) / 4) {
