@@ -7,23 +7,26 @@ var competitions = require('../data/competitions');
 
 var scorersDataUrl = 'http://www.worldfootball.net/goalgetter/{0}-{1}';
 var itemsExtended = [
-    { code: leagues.bundesliga.code, url: 'bundesliga' },
-    { code: leagues.liga.code, url: 'esp-primera-division' },
-    { code: leagues.ligue1.code, url: 'fra-ligue-1' },
-    { code: leagues.serieA.code, url: 'ita-serie-a' },
-    { code: leagues.premierLeague.code, url: 'eng-premier-league' },
-    { code: competitions.championsLeague.code, url: 'champions-league' },
-    { code: competitions.europaLeague.code, url: 'europa-league' }
+    { item: leagues.bundesliga, url: 'bundesliga' },
+    { item: leagues.liga, url: 'esp-primera-division' },
+    { item: leagues.ligue1, url: 'fra-ligue-1' },
+    { item: leagues.serieA, url: 'ita-serie-a' },
+    { item: leagues.premierLeague, url: 'eng-premier-league' }
+];
+var competitionsExtended = [
+    { item: competitions.championsLeague, url: 'champions-league' },
+    { item: competitions.europaLeague, url: 'europa-league' }
 ];
 
 // Updates scorers of current year
-function update(arg) {
-    helper.runUpdate(itemsExtended, updateData, arg);
+function update(leagueArg, competitionArg) {
+    helper.runUpdate(itemsExtended, updateData, leagueArg);
+    helper.runUpdate(competitionsExtended, updateData, competitionArg);
 }
 
-// Updates the scorers of a item
-function updateData(item) {
-    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, item.url, config.years.current), function ($) {
+// Updates the scorers of a itemExtended
+function updateData(itemExtended) {
+    helper.scrapeUrl(helper.stringFormat(scorersDataUrl, itemExtended.url, config.years.current), function ($) {
         var results = [];
 
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
@@ -49,7 +52,7 @@ function updateData(item) {
             helper.manageLogoProperty(results[i]);
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.scorersData, itemExtended.item.code, config.years.current), results);
     });
 }
 

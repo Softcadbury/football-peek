@@ -99,7 +99,11 @@ function downloadImage(src, path) {
 
 // Helper to run an update of data
 function runUpdate(itemsExtended, updateData, arg) {
-    var itemArg = itemsExtended.find(item => item.code === arg);
+    if (!arg) {
+        return;
+    }
+
+    var itemArg = itemsExtended.find(itemExtended => itemExtended.item.smallName.toLowerCase() === arg);
 
     if (itemArg) {
         updateData(itemArg);

@@ -3,24 +3,18 @@
 var gulp = require('gulp');
 
 // Updates data
-// Format: gulp up / gulp up -l / gulp up -c / gulp up -l ligue-1
+// Format: gulp up / gulp up -l / gulp up -c / gulp up -l eng
 gulp.task('up', () => {
     var argv = require('yargs').argv;
     var leagueArg = argv.l;
     var competitionArg = argv.c;
 
-    if (leagueArg || !competitionArg) {
-        require('./server/updaters/tablesUpdater').update(leagueArg);
-        require('./server/updaters/resultsUpdater').update(leagueArg);
-    }
-    
-    if (competitionArg || !leagueArg) {
-        require('./server/updaters/tournamentsUpdater').update(competitionArg);
-        require('./server/updaters/groupsUpdater').update(competitionArg);
-    }
-
-    require('./server/updaters/scorersUpdater').update(leagueArg || competitionArg);
-    require('./server/updaters/assistsUpdater').update(leagueArg || competitionArg);
+    require('./server/updaters/tablesUpdater').update(leagueArg);
+    require('./server/updaters/resultsUpdater').update(leagueArg);
+    require('./server/updaters/tournamentsUpdater').update(competitionArg);
+    require('./server/updaters/groupsUpdater').update(competitionArg);
+    require('./server/updaters/scorersUpdater').update(leagueArg, competitionArg);
+    require('./server/updaters/assistsUpdater').update(leagueArg, competitionArg);
 });
 
 // Check coding rules
