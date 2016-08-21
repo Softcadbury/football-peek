@@ -29,7 +29,7 @@ function updateData(itemExtended) {
             promises.push(parseRound(itemExtended, results, i));
         }
     } else {
-        var currentRound = helper.getLeagueCurrentRound(itemExtended.item.code);
+        var currentRound = helper.getLeagueCurrentRound(results);
         var maxRound = Math.min(itemExtended.roundNumber, currentRound + 1);
 
         for (var i =  currentRound - 1; i < maxRound; i++) {

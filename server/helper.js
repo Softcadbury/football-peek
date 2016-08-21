@@ -115,13 +115,11 @@ function runUpdate(itemsExtended, updateData, arg) {
 }
 
 // Get the current round of a league
-function getLeagueCurrentRound(leagueCode) {
-    var config = require('./config');
-    var results = readJsonFile(stringFormat(config.paths.resultsData, leagueCode, config.years.current));
+function getLeagueCurrentRound(resultsData) {
     var round = 1;
 
-    for (var i = 0; i < results.length; i++) {
-        var result = results[i];
+    for (var i = 0; i < resultsData.length; i++) {
+        var result = resultsData[i];
 
         if (result.matches.filter(p => p.score == '-:-').length == result.matches.length) {
             break;
