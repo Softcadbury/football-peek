@@ -27,7 +27,7 @@ function manageLists() {
 
     if (roundLabel) {
         var rounds = document.getElementsByClassName('round-content');
-        var roundRequested = location.hash.replace('#/round-', '') || 1;
+        var roundRequested = location.hash.replace('#/round-', '') || window.currentRound || 1;
         roundLabel.innerHTML = 'Round ' + roundRequested;
 
         for (var i = 0; i < rounds.length; i++) {

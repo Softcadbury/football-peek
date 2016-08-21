@@ -54,13 +54,31 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Christian Stuani",
+        "country": "Uruguay",
+        "team": "Middlesbrough FC",
+        "goals": "2",
+        "flag": "uruguay",
+        "logo": "middlesbrough_fc"
+    },
+    {
+        "rank": "8.",
         "name": " Álvaro Negredo",
         "country": "Spain",
         "team": "Middlesbrough FC",
         "goals": "1",
         "flag": "spain",
         "logo": "middlesbrough_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Michail Antonio",
+        "country": "England",
+        "team": "West Ham United",
+        "goals": "1",
+        "flag": "england",
+        "logo": "west_ham_united"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "1",
         "flag": "belgium",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Abel Hernández",
-        "country": "Uruguay",
-        "team": "Hull City",
-        "goals": "1",
-        "flag": "uruguay",
-        "logo": "hull_city"
-    },
-    {
-        "rank": "-",
-        "name": "Adam Lallana",
-        "country": "England",
-        "team": "Liverpool FC",
-        "goals": "1",
-        "flag": "england",
-        "logo": "liverpool_fc"
     }
 ]

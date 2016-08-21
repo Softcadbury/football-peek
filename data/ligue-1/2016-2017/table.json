@@ -40,6 +40,19 @@
     },
     {
         "rank": "4",
+        "team": "EA Guingamp",
+        "points": "4",
+        "played": "2",
+        "win": "1",
+        "draw": "1",
+        "lost": "0",
+        "goalsFor": "4",
+        "goalsAgainst": "3",
+        "goalDifference": "1",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "5",
         "team": "AS Monaco",
         "points": "4",
         "played": "2",
@@ -52,7 +65,7 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "5",
+        "rank": "6",
         "team": "SC Bastia",
         "points": "3",
         "played": "2",
@@ -65,7 +78,20 @@
         "logo": "sc_bastia"
     },
     {
-        "rank": "6",
+        "rank": "7",
+        "team": "AS Saint-Étienne",
+        "points": "3",
+        "played": "2",
+        "win": "1",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "5",
+        "goalsAgainst": "4",
+        "goalDifference": "1",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "8",
         "team": "FC Metz",
         "points": "3",
         "played": "1",
@@ -78,7 +104,7 @@
         "logo": "fc_metz"
     },
     {
-        "rank": "7",
+        "rank": "9",
         "team": "Stade Rennes",
         "points": "3",
         "played": "2",
@@ -91,20 +117,7 @@
         "logo": "stade_rennes"
     },
     {
-        "rank": "8",
-        "team": "Montpellier HSC",
-        "points": "3",
-        "played": "1",
-        "win": "1",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "1",
-        "goalsAgainst": "0",
-        "goalDifference": "1",
-        "logo": "montpellier_hsc"
-    },
-    {
-        "rank": " ",
+        "rank": "10",
         "team": "Paris Saint-Germain",
         "points": "3",
         "played": "1",
@@ -117,7 +130,7 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "Lille OSC",
         "points": "3",
         "played": "2",
@@ -130,7 +143,7 @@
         "logo": "lille_osc"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "FC Nantes",
         "points": "3",
         "played": "2",
@@ -143,7 +156,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "12",
+        "rank": "13",
         "team": "SM Caen",
         "points": "3",
         "played": "2",
@@ -156,7 +169,20 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "13",
+        "rank": "14",
+        "team": "Montpellier HSC",
+        "points": "3",
+        "played": "2",
+        "win": "1",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "2",
+        "goalsAgainst": "3",
+        "goalDifference": "-1",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "15",
         "team": "Girondins Bordeaux",
         "points": "3",
         "played": "2",
@@ -169,43 +195,17 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "14",
-        "team": "EA Guingamp",
-        "points": "1",
-        "played": "1",
-        "win": "0",
-        "draw": "1",
-        "lost": "0",
-        "goalsFor": "2",
-        "goalsAgainst": "2",
-        "goalDifference": "0",
-        "logo": "ea_guingamp"
-    },
-    {
-        "rank": "15",
+        "rank": "16",
         "team": "Olympique Marseille",
         "points": "1",
-        "played": "1",
+        "played": "2",
         "win": "0",
         "draw": "1",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "16",
-        "team": "AS Saint-Étienne",
-        "points": "0",
-        "played": "1",
-        "win": "0",
-        "draw": "0",
         "lost": "1",
-        "goalsFor": "2",
-        "goalsAgainst": "3",
+        "goalsFor": "1",
+        "goalsAgainst": "2",
         "goalDifference": "-1",
-        "logo": "as_saint_etienne"
+        "logo": "olympique_marseille"
     },
     {
         "rank": "17",

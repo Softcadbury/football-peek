@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Lucas Deaux",
+        "country": "France",
+        "team": "EA Guingamp",
+        "assists": "2",
+        "flag": "france",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "-",
+        "name": " Éder",
+        "country": "Portugal",
+        "team": "Lille OSC",
+        "assists": "2",
+        "flag": "portugal",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
         "name": "Jordan Ferri",
         "country": "France",
         "team": "Olympique Lyon",
@@ -9,13 +27,40 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Jean Michaël Seri",
+        "country": "Ivory Coast",
+        "team": "OGC Nice",
+        "assists": "2",
+        "flag": "ivory_coast",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Óscar Trejo",
+        "country": "Argentina",
+        "team": "Toulouse FC",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "6.",
         "name": " Anthony Lopes",
         "country": "Portugal",
         "team": "Olympique Lyon",
         "assists": "1",
         "flag": "portugal",
         "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Ludovic Baal",
+        "country": "French Guyana",
+        "team": "Stade Rennes",
+        "assists": "1",
+        "flag": "french_guyana",
+        "logo": "stade_rennes"
     },
     {
         "rank": "-",
@@ -55,12 +100,21 @@
     },
     {
         "rank": "-",
-        "name": "Lucas Deaux",
+        "name": "Marcus Coco",
         "country": "France",
         "team": "EA Guingamp",
         "assists": "1",
         "flag": "france",
         "logo": "ea_guingamp"
+    },
+    {
+        "rank": "-",
+        "name": "Romain Danzé",
+        "country": "France",
+        "team": "Stade Rennes",
+        "assists": "1",
+        "flag": "france",
+        "logo": "stade_rennes"
     },
     {
         "rank": "-",
@@ -73,21 +127,21 @@
     },
     {
         "rank": "-",
+        "name": "Sadio Diallo",
+        "country": "Guinea",
+        "team": "SC Bastia",
+        "assists": "1",
+        "flag": "guinea",
+        "logo": "sc_bastia"
+    },
+    {
+        "rank": "-",
         "name": "Nabil Dirar",
         "country": "Morocco",
         "team": "AS Monaco",
         "assists": "1",
         "flag": "morocco",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": " Éder",
-        "country": "Portugal",
-        "team": "Lille OSC",
-        "assists": "1",
-        "flag": "portugal",
-        "logo": "lille_osc"
     },
     {
         "rank": "-",
@@ -118,65 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Waris Majeed",
-        "country": "Ghana",
-        "team": "FC Lorient",
-        "assists": "1",
-        "flag": "ghana",
-        "logo": "fc_lorient"
-    },
-    {
-        "rank": "-",
-        "name": "Casimir Ninga",
-        "country": "Chad",
-        "team": "Montpellier HSC",
-        "assists": "1",
-        "flag": "chad",
-        "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "-",
-        "name": "Julien Palmieri",
+        "name": "Maxime Lopez",
         "country": "France",
-        "team": "Lille OSC",
+        "team": "Olympique Marseille",
         "assists": "1",
         "flag": "france",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Romain Philippoteaux",
-        "country": "France",
-        "team": "FC Lorient",
-        "assists": "1",
-        "flag": "france",
-        "logo": "fc_lorient"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Yves Polomat",
-        "country": "France",
-        "team": "AS Saint-Étienne",
-        "assists": "1",
-        "flag": "france",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": "Ismaïla Sarr",
-        "country": "Senegal",
-        "team": "FC Metz",
-        "assists": "1",
-        "flag": "senegal",
-        "logo": "fc_metz"
-    },
-    {
-        "rank": "-",
-        "name": "Jean Michaël Seri",
-        "country": "Ivory Coast",
-        "team": "OGC Nice",
-        "assists": "1",
-        "flag": "ivory_coast",
-        "logo": "ogc_nice"
+        "logo": "olympique_marseille"
     }
 ]
