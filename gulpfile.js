@@ -80,7 +80,7 @@ gulp.task('start', () => {
         script: 'server.js',
         delayTime: 1,
         env: { 'PORT': 5000 },
-        watch: ['server']
+        watch: ['server.js']
     };
 
     return nodemon(options).on('restart', () => {
