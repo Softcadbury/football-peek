@@ -9,7 +9,7 @@ var app = express();
 
 // Set cron
 var CronJob = require('cron').CronJob;
-new CronJob('0 */15 * * * *', function () {
+new CronJob('0 */1 * * * *', function () {
     console.log('run update');
     require('./server/updaters/tablesUpdater').update(true);
     require('./server/updaters/resultsUpdater').update(true);
