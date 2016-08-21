@@ -14,6 +14,32 @@
     },
     {
         "rank": "2",
+        "team": "Genoa CFC",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "3",
+        "goalsAgainst": "1",
+        "goalDifference": "2",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "3",
+        "team": "AC Milan",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "3",
+        "goalsAgainst": "2",
+        "goalDifference": "1",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "4",
         "team": "Juventus",
         "points": "3",
         "played": "1",
@@ -26,20 +52,20 @@
         "logo": "juventus"
     },
     {
-        "rank": "3",
-        "team": "AC Milan",
-        "points": "0",
-        "played": "0",
-        "win": "0",
+        "rank": "5",
+        "team": "Sampdoria",
+        "points": "3",
+        "played": "1",
+        "win": "1",
         "draw": "0",
         "lost": "0",
-        "goalsFor": "0",
+        "goalsFor": "1",
         "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "ac_milan"
+        "goalDifference": "1",
+        "logo": "sampdoria"
     },
     {
-        "rank": " ",
+        "rank": "6",
         "team": "Atalanta",
         "points": "0",
         "played": "0",
@@ -66,19 +92,6 @@
     },
     {
         "rank": " ",
-        "team": "Cagliari Calcio",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": " ",
         "team": "Chievo Verona",
         "points": "0",
         "played": "0",
@@ -92,19 +105,6 @@
     },
     {
         "rank": " ",
-        "team": "Empoli FC",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "empoli_fc"
-    },
-    {
-        "rank": " ",
         "team": "FC Crotone",
         "points": "0",
         "played": "0",
@@ -115,19 +115,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "fc_crotone"
-    },
-    {
-        "rank": " ",
-        "team": "Genoa CFC",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "genoa_cfc"
     },
     {
         "rank": " ",
@@ -170,19 +157,6 @@
     },
     {
         "rank": " ",
-        "team": "Sampdoria",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": " ",
         "team": "Sassuolo Calcio",
         "points": "0",
         "played": "0",
@@ -209,19 +183,6 @@
     },
     {
         "rank": " ",
-        "team": "Torino FC",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": " ",
         "team": "US Palermo",
         "points": "0",
         "played": "0",
@@ -234,7 +195,20 @@
         "logo": "us_palermo"
     },
     {
-        "rank": "19",
+        "rank": "16",
+        "team": "Torino FC",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "2",
+        "goalsAgainst": "3",
+        "goalDifference": "-1",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "17",
         "team": "ACF Fiorentina",
         "points": "0",
         "played": "1",
@@ -245,6 +219,32 @@
         "goalsAgainst": "2",
         "goalDifference": "-1",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "18",
+        "team": "Empoli FC",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "0",
+        "goalsAgainst": "1",
+        "goalDifference": "-1",
+        "logo": "empoli_fc"
+    },
+    {
+        "rank": "19",
+        "team": "Cagliari Calcio",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "3",
+        "goalDifference": "-2",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "20",

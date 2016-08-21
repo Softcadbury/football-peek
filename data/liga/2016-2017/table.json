@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "Real Madrid",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "3",
+        "goalsAgainst": "0",
+        "goalDifference": "3",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "3",
         "team": "Sevilla FC",
         "points": "3",
         "played": "1",
@@ -26,7 +39,7 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "3",
+        "rank": "4",
         "team": "Deportivo La Coruña",
         "points": "3",
         "played": "1",
@@ -39,7 +52,20 @@
         "logo": "deportivo_la_coruna"
     },
     {
-        "rank": "4",
+        "rank": " ",
+        "team": "Sporting Gijón",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "2",
+        "goalsAgainst": "1",
+        "goalDifference": "1",
+        "logo": "sporting_gijon"
+    },
+    {
+        "rank": "6",
         "team": "CA Osasuna",
         "points": "1",
         "played": "1",
@@ -91,20 +117,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "8",
-        "team": "Athletic Bilbao",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": " ",
+        "rank": "10",
         "team": "Atlético Madrid",
         "points": "0",
         "played": "0",
@@ -157,45 +170,6 @@
     },
     {
         "rank": " ",
-        "team": "Real Madrid",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": " ",
-        "team": "Real Sociedad",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": " ",
-        "team": "Sporting Gijón",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "sporting_gijon"
-    },
-    {
-        "rank": " ",
         "team": "UD Las Palmas",
         "points": "0",
         "played": "0",
@@ -221,7 +195,20 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "18",
+        "rank": "16",
+        "team": "Athletic Bilbao",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "2",
+        "goalDifference": "-1",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": " ",
         "team": "SD Eibar",
         "points": "0",
         "played": "1",
@@ -234,7 +221,7 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "19",
+        "rank": "18",
         "team": "Espanyol Barcelona",
         "points": "0",
         "played": "1",
@@ -245,6 +232,19 @@
         "goalsAgainst": "6",
         "goalDifference": "-2",
         "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "19",
+        "team": "Real Sociedad",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "0",
+        "goalsAgainst": "3",
+        "goalDifference": "-3",
+        "logo": "real_sociedad"
     },
     {
         "rank": "20",

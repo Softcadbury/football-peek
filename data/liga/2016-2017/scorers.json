@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "goals": "2",
+        "flag": "wales",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
@@ -36,7 +45,7 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -100,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": " Marco Asensio",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Mosquera",
         "country": "Spain",
         "team": "Deportivo La Coruña",
@@ -160,23 +178,5 @@
         "goals": "1",
         "flag": "spain",
         "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Arda Turan",
-        "country": "Turkey",
-        "team": "FC Barcelona",
-        "goals": "1",
-        "flag": "turkey",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Franco Vázquez",
-        "country": "Italy",
-        "team": "Sevilla FC",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "sevilla_fc"
     }
 ]
