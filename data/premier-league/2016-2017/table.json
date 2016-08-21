@@ -65,7 +65,20 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "6",
+        "rank": " ",
+        "team": "Middlesbrough FC",
+        "points": "4",
+        "played": "2",
+        "win": "1",
+        "draw": "1",
+        "lost": "0",
+        "goalsFor": "3",
+        "goalsAgainst": "2",
+        "goalDifference": "1",
+        "logo": "middlesbrough_fc"
+    },
+    {
+        "rank": "7",
         "team": "Tottenham Hotspur",
         "points": "4",
         "played": "2",
@@ -78,7 +91,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "7",
+        "rank": "8",
         "team": "Burnley FC",
         "points": "3",
         "played": "2",
@@ -91,7 +104,7 @@
         "logo": "burnley_fc"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "West Bromwich Albion",
         "points": "3",
         "played": "2",
@@ -104,7 +117,20 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "9",
+        "rank": " ",
+        "team": "West Ham United",
+        "points": "3",
+        "played": "2",
+        "win": "1",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "2",
+        "goalsAgainst": "2",
+        "goalDifference": "0",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "11",
         "team": "Liverpool FC",
         "points": "3",
         "played": "2",
@@ -117,7 +143,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "10",
+        "rank": "12",
         "team": "Swansea City",
         "points": "3",
         "played": "2",
@@ -130,20 +156,7 @@
         "logo": "swansea_city"
     },
     {
-        "rank": "11",
-        "team": "Middlesbrough FC",
-        "points": "1",
-        "played": "1",
-        "win": "0",
-        "draw": "1",
-        "lost": "0",
-        "goalsFor": "1",
-        "goalsAgainst": "1",
-        "goalDifference": "0",
-        "logo": "middlesbrough_fc"
-    },
-    {
-        "rank": "12",
+        "rank": "13",
         "team": "Arsenal FC",
         "points": "1",
         "played": "2",
@@ -156,7 +169,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "Watford FC",
         "points": "1",
         "played": "2",
@@ -169,7 +182,7 @@
         "logo": "watford_fc"
     },
     {
-        "rank": "14",
+        "rank": "15",
         "team": "Leicester City",
         "points": "1",
         "played": "2",
@@ -182,7 +195,7 @@
         "logo": "leicester_city"
     },
     {
-        "rank": "15",
+        "rank": "16",
         "team": "Southampton FC",
         "points": "1",
         "played": "2",
@@ -195,7 +208,7 @@
         "logo": "southampton_fc"
     },
     {
-        "rank": "16",
+        "rank": "17",
         "team": "Stoke City",
         "points": "1",
         "played": "2",
@@ -208,46 +221,20 @@
         "logo": "stoke_city"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "Sunderland AFC",
         "points": "0",
-        "played": "1",
+        "played": "2",
         "win": "0",
         "draw": "0",
-        "lost": "1",
-        "goalsFor": "1",
-        "goalsAgainst": "2",
-        "goalDifference": "-1",
+        "lost": "2",
+        "goalsFor": "2",
+        "goalsAgainst": "4",
+        "goalDifference": "-2",
         "logo": "sunderland_afc"
     },
     {
-        "rank": " ",
-        "team": "West Ham United",
-        "points": "0",
-        "played": "1",
-        "win": "0",
-        "draw": "0",
-        "lost": "1",
-        "goalsFor": "1",
-        "goalsAgainst": "2",
-        "goalDifference": "-1",
-        "logo": "west_ham_united"
-    },
-    {
         "rank": "19",
-        "team": "AFC Bournemouth",
-        "points": "0",
-        "played": "1",
-        "win": "0",
-        "draw": "0",
-        "lost": "1",
-        "goalsFor": "1",
-        "goalsAgainst": "3",
-        "goalDifference": "-2",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "20",
         "team": "Crystal Palace",
         "points": "0",
         "played": "2",
@@ -258,5 +245,18 @@
         "goalsAgainst": "2",
         "goalDifference": "-2",
         "logo": "crystal_palace"
+    },
+    {
+        "rank": "20",
+        "team": "AFC Bournemouth",
+        "points": "0",
+        "played": "2",
+        "win": "0",
+        "draw": "0",
+        "lost": "2",
+        "goalsFor": "1",
+        "goalsAgainst": "4",
+        "goalDifference": "-3",
+        "logo": "afc_bournemouth"
     }
 ]

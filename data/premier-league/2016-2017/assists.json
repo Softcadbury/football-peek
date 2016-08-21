@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Álvaro Negredo",
+        "country": "Spain",
+        "team": "Middlesbrough FC",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "middlesbrough_fc"
+    },
+    {
+        "rank": "-",
         "name": "Anthony Martial",
         "country": "France",
         "team": "Manchester United",
@@ -27,7 +36,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Ross Barkley",
         "country": "England",
         "team": "Everton FC",
@@ -169,14 +178,5 @@
         "assists": "1",
         "flag": "nigeria",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Alex Iwobi",
-        "country": "Nigeria",
-        "team": "Arsenal FC",
-        "assists": "1",
-        "flag": "nigeria",
-        "logo": "arsenal_fc"
     }
 ]

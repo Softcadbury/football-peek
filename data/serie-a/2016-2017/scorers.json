@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "AC Milan",
+        "goals": "3",
+        "flag": "colombia",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "2.",
         "name": "Diego Perotti",
         "country": "Argentina",
         "team": "AS Roma",
@@ -9,7 +18,16 @@
         "logo": "as_roma"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
