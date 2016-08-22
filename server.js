@@ -8,14 +8,14 @@ var compression = require('compression');
 var app = express();
 
 // Set cron
-var CronJob = require('cron').CronJob;
-new CronJob('0 */15 * * * *', function () {
-    console.log('run update');
-    require('./server/updaters/tablesUpdater').update(true);
-    require('./server/updaters/resultsUpdater').update(true);
-    require('./server/updaters/scorersUpdater').update(true);
-    require('./server/updaters/assistsUpdater').update(true);
-}, null, true);
+// var CronJob = require('cron').CronJob;
+// new CronJob('0 */15 * * * *', function () {
+//     console.log('run update');
+//     require('./server/updaters/tablesUpdater').update(true);
+//     require('./server/updaters/resultsUpdater').update(true);
+//     require('./server/updaters/scorersUpdater').update(true);
+//     require('./server/updaters/assistsUpdater').update(true);
+// }, null, true);
 
 // Middlewares configuration
 var tenMinutes = 600000;
