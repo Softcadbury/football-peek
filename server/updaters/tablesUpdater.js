@@ -41,6 +41,11 @@ function updateData(itemExtended) {
             }
         });
 
+        if (results.length < 2) {
+            console.log('Error while updating table: ' + itemExtended.item.code)
+            return;
+        }
+
         for (var i = 0; i < results.length; i++) {
             helper.manageLogoProperty(results[i]);
         }
