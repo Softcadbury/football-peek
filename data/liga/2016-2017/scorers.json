@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "goals": "2",
+        "flag": "wales",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
@@ -36,7 +45,7 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -61,6 +70,15 @@
         "goals": "1",
         "flag": "spain",
         "logo": "ca_osasuna"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Gameiro",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "goals": "1",
+        "flag": "france",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -97,6 +115,24 @@
         "goals": "1",
         "flag": "spain",
         "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
+        "name": " Manu García",
+        "country": "Spain",
+        "team": "CD Alavés",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "cd_alaves"
+    },
+    {
+        "rank": "-",
+        "name": " Marco Asensio",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "1",
         "flag": "argentina",
         "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Ramis",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Samu Castillejo",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Arda Turan",
-        "country": "Turkey",
-        "team": "FC Barcelona",
-        "goals": "1",
-        "flag": "turkey",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Franco Vázquez",
-        "country": "Italy",
-        "team": "Sevilla FC",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "sevilla_fc"
     }
 ]
