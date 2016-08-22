@@ -31,6 +31,11 @@ function updateData(itemExtended) {
     }
 
     Promise.all(promises).then(() => {
+        if (results.some(p => p.matches.length < 2) || results.some(p => p.table.length < 2)) {
+            console.log('Error while updating groups: ' + itemExtended.item.code)
+            return;
+        }
+
         helper.writeJsonFile(helper.stringFormat(config.paths.groupsData, itemExtended.item.code, config.years.current), results);
     });
 }

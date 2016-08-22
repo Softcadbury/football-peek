@@ -44,6 +44,7 @@ function updateData(itemExtended) {
         });
 
         if (results.length < 2) {
+            console.log('Error while updating assists: ' + itemExtended.item.code)
             return;
         }
 

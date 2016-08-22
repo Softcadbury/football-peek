@@ -38,6 +38,11 @@ function updateData(itemExtended) {
     }
 
     Promise.all(promises).then(() => {
+        if (results.some(p => p.matches.length < 2)) {
+            console.log('Error while updating result: ' + itemExtended.item.code)
+            return;
+        }
+
         helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.years.current), results);
     });
 }

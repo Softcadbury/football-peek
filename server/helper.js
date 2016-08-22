@@ -44,7 +44,7 @@ function writeJsonFile(path, content) {
 
     fs.writeFile(path, JSON.stringify(content, null, 4), (err) => {
         if (err) {
-            console.log(err);
+            console.log('Error while writing: ' + path + ' -> ' + err);
         } else {
             console.log('File updated: ' + path);
         }
@@ -58,10 +58,14 @@ function scrapeUrl(url, callback) {
 
     request(url, (err, resp, body) => {
         if (err) {
-            console.log(err);
+            console.log('Error while requesting: ' + url + ' -> ' + err);
         } else {
             var $ = cheerio.load(body);
-            callback($);
+            try {
+                callback($);
+            } catch (e) {
+                console.log('Error while analysing: ' + url + ' -> ' + e);
+            }
         }
     });
 }
@@ -90,9 +94,13 @@ function downloadImage(src, path) {
 
     if (!fileExists(path)) {
         request.head(src, function (err, res, body) {
-            request(src).pipe(fs.createWriteStream(path)).on('close', function () {
-                console.log('Image updated: ' + path);
-            });
+            if (err) {
+                console.log('Error while downloading image: ' + path + ' -> ' + err);
+            } else {
+                request(src).pipe(fs.createWriteStream(path)).on('close', function () {
+                    console.log('Image downloaded: ' + path);
+                });
+            }
         });
     }
 }
