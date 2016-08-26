@@ -88,6 +88,10 @@ function parseRound(itemExtended, results, roundIndex) {
 
 // Clean score by removing useless parts
 function parseScore(score, inverseScore) {
+    if (!score) {
+        return '-:-';
+    }
+
     var scores = score
         .replace('pso', '')
         .replace('aet', '')
