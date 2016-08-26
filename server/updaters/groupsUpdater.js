@@ -47,12 +47,14 @@ function parseRound(itemExtended, results, groupIndex) {
             var currentMatches = results[groupIndex].matches;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
-                currentMatches.push({
-                    date: $(elem).find('td:nth-child(1)').text(),
-                    homeTeam: $(elem).find('td:nth-child(3) > a').text(),
-                    awayTeam: $(elem).find('td:nth-child(5) > a').text(),
-                    score: $(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-'
-                });
+                if (index < 12) {
+                    currentMatches.push({
+                        date: $(elem).find('td:nth-child(1)').text(),
+                        homeTeam: $(elem).find('td:nth-child(3) > a').text(),
+                        awayTeam: $(elem).find('td:nth-child(5) > a').text(),
+                        score: $(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-'
+                    });
+                }
             });
 
             for (var i = 0; i < currentMatches.length; i++) {
