@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
@@ -9,13 +18,31 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": "Gareth Bale",
         "country": "Wales",
         "team": "Real Madrid",
         "goals": "2",
         "flag": "wales",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "UD Las Palmas",
+        "goals": "2",
+        "flag": "ghana",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil El Zhar",
+        "country": "Morocco",
+        "team": "UD Las Palmas",
+        "goals": "2",
+        "flag": "morocco",
+        "logo": "ud_las_palmas"
     },
     {
         "rank": "-",
@@ -63,7 +90,16 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "8.",
+        "rank": "11.",
+        "name": "Sergio Araujo",
+        "country": "Argentina",
+        "team": "UD Las Palmas",
+        "goals": "1",
+        "flag": "argentina",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -73,12 +109,21 @@
     },
     {
         "rank": "-",
-        "name": "Kevin-Prince Boateng",
-        "country": "Ghana",
-        "team": "UD Las Palmas",
+        "name": "Jérémie Boga",
+        "country": "France",
+        "team": "Granada CF",
         "goals": "1",
-        "flag": "ghana",
-        "logo": "ud_las_palmas"
+        "flag": "france",
+        "logo": "granada_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Charles",
+        "country": "Brazil",
+        "team": "Málaga CF",
+        "goals": "1",
+        "flag": "brazil",
+        "logo": "malaga_cf"
     },
     {
         "rank": "-",
@@ -109,15 +154,6 @@
     },
     {
         "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
         "name": " Jonathan Viera",
         "country": "Spain",
         "team": "UD Las Palmas",
@@ -127,56 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Juanmi",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
         "name": " Juanpi",
         "country": "Venezuela",
         "team": "Málaga CF",
         "goals": "1",
         "flag": "venezuela",
         "logo": "malaga_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Hiroshi Kiyotake",
-        "country": "Japan",
-        "team": "Sevilla FC",
-        "goals": "1",
-        "flag": "japan",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Lucas Pérez",
-        "country": "Spain",
-        "team": "Deportivo La Coruña",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": " Manu García",
-        "country": "Spain",
-        "team": "CD Alavés",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "cd_alaves"
-    },
-    {
-        "rank": "-",
-        "name": " Marco Asensio",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Mosquera",
-        "country": "Spain",
-        "team": "Deportivo La Coruña",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "deportivo_la_coruna"
     }
 ]
