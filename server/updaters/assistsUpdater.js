@@ -6,7 +6,7 @@ var leagues = require('../data/leagues');
 var competitions = require('../data/competitions');
 
 var assistsDataUrl = 'http://www.worldfootball.net/assists/{0}-{1}{2}';
-var itemsExtended = [
+var leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '_2' },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
@@ -20,7 +20,7 @@ var competitionsExtended = [
 
 // Updates assists of current year
 function update(leagueArg, competitionArg) {
-    helper.runUpdate(itemsExtended, updateData, leagueArg);
+    helper.runUpdate(leaguesExtended, updateData, leagueArg);
     helper.runUpdate(competitionsExtended, updateData, competitionArg);
 }
 
@@ -43,7 +43,7 @@ function updateData(itemExtended) {
             }
         });
 
-        if (results.length < 2) {
+        if (results.length < 5) {
             console.log('Error while updating assists: ' + itemExtended.item.code)
             return;
         }
