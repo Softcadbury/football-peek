@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "2.",
         "name": "Carlos Bacca",
         "country": "Colombia",
         "team": "AC Milan",
@@ -9,7 +18,43 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Franck Kessié",
+        "country": "Ivory Coast",
+        "team": "Atalanta",
+        "goals": "3",
+        "flag": "ivory_coast",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Diego Perotti",
+        "country": "Argentina",
+        "team": "AS Roma",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "5.",
+        "name": "Daniele Baselli",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -19,12 +64,21 @@
     },
     {
         "rank": "-",
-        "name": "Franck Kessié",
-        "country": "Ivory Coast",
-        "team": "Atalanta",
+        "name": "Marco Borriello",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
         "goals": "2",
-        "flag": "ivory_coast",
-        "logo": "atalanta"
+        "flag": "italy",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Sami Khedira",
+        "country": "Germany",
+        "team": "Juventus",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -37,30 +91,30 @@
     },
     {
         "rank": "-",
-        "name": "Diego Perotti",
-        "country": "Argentina",
-        "team": "AS Roma",
+        "name": "Arkadiusz Milik",
+        "country": "Poland",
+        "team": "SSC Napoli",
         "goals": "2",
-        "flag": "argentina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "6.",
-        "name": "Daniele Baselli",
-        "country": "Italy",
-        "team": "Torino FC",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "torino_fc"
+        "flag": "poland",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
-        "name": "Andrea Belotti",
+        "name": "Leonardo Pavoletti",
         "country": "Italy",
-        "team": "Torino FC",
-        "goals": "1",
+        "team": "Genoa CFC",
+        "goals": "2",
         "flag": "italy",
-        "logo": "torino_fc"
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "13.",
+        "name": "Edgar Barreto",
+        "country": "Paraguay",
+        "team": "Sampdoria",
+        "goals": "1",
+        "flag": "paraguay",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -70,24 +124,6 @@
         "goals": "1",
         "flag": "england",
         "logo": "pescara_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Borriello",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -109,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sassuolo Calcio",
+        "goals": "1",
+        "flag": "france",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Mattia Destro",
         "country": "Italy",
         "team": "Bologna FC",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Gonzalo Higuaí­n",
-        "country": "Argentina",
-        "team": "Juventus",
+        "name": " Felipe",
+        "country": "Brazil",
+        "team": "Udinese Calcio",
         "goals": "1",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Wesley Hoedt",
-        "country": "Netherlands",
-        "team": "Lazio Roma",
-        "goals": "1",
-        "flag": "netherlands",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Nikola Kalinić",
-        "country": "Croatia",
-        "team": "ACF Fiorentina",
-        "goals": "1",
-        "flag": "croatia",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Sami Khedira",
-        "country": "Germany",
-        "team": "Juventus",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Diego Laxalt",
-        "country": "Uruguay",
-        "team": "Genoa CFC",
-        "goals": "1",
-        "flag": "uruguay",
-        "logo": "genoa_cfc"
+        "flag": "brazil",
+        "logo": "udinese_calcio"
     }
 ]

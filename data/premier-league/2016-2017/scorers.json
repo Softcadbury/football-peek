@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Michail Antonio",
+        "country": "England",
+        "team": "West Ham United",
+        "goals": "2",
+        "flag": "england",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
         "name": "Étienne Capoue",
         "country": "France",
         "team": "Watford FC",
@@ -37,11 +46,38 @@
     },
     {
         "rank": "-",
+        "name": "Jermain Defoe",
+        "country": "England",
+        "team": "Sunderland AFC",
+        "goals": "2",
+        "flag": "england",
+        "logo": "sunderland_afc"
+    },
+    {
+        "rank": "-",
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
         "goals": "2",
         "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Leroy Fer",
+        "country": "Netherlands",
+        "team": "Swansea City",
+        "goals": "2",
+        "flag": "netherlands",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "-",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "goals": "2",
+        "flag": "belgium",
         "logo": "chelsea_fc"
     },
     {
@@ -55,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "2",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Christian Stuani",
         "country": "Uruguay",
         "team": "Middlesbrough FC",
@@ -63,22 +108,13 @@
         "logo": "middlesbrough_fc"
     },
     {
-        "rank": "8.",
+        "rank": "13.",
         "name": " Álvaro Negredo",
         "country": "Spain",
         "team": "Middlesbrough FC",
         "goals": "1",
         "flag": "spain",
         "logo": "middlesbrough_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Michail Antonio",
-        "country": "England",
-        "team": "West Ham United",
-        "goals": "1",
-        "flag": "england",
-        "logo": "west_ham_united"
     },
     {
         "rank": "-",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Jermain Defoe",
+        "name": "Scott Dann",
         "country": "England",
-        "team": "Sunderland AFC",
+        "team": "Crystal Palace",
         "goals": "1",
         "flag": "england",
-        "logo": "sunderland_afc"
-    },
-    {
-        "rank": "-",
-        "name": "Adama Diomandé",
-        "country": "Norway",
-        "team": "Hull City",
-        "goals": "1",
-        "flag": "norway",
-        "logo": "hull_city"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Fer",
-        "country": "Netherlands",
-        "team": "Swansea City",
-        "goals": "1",
-        "flag": "netherlands",
-        "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": "Andre Gray",
-        "country": "England",
-        "team": "Burnley FC",
-        "goals": "1",
-        "flag": "england",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Eden Hazard",
-        "country": "Belgium",
-        "team": "Chelsea FC",
-        "goals": "1",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
+        "logo": "crystal_palace"
     }
 ]

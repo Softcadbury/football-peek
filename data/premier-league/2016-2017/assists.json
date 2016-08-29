@@ -10,11 +10,29 @@
     },
     {
         "rank": "-",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "assists": "2",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Anthony Martial",
         "country": "France",
         "team": "Manchester United",
         "assists": "2",
         "flag": "france",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Wayne Rooney",
+        "country": "England",
+        "team": "Manchester United",
+        "assists": "2",
+        "flag": "england",
         "logo": "manchester_united"
     },
     {
@@ -27,13 +45,31 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "4.",
+        "rank": "6.",
+        "name": "Harry Arter",
+        "country": "Ireland",
+        "team": "AFC Bournemouth",
+        "assists": "1",
+        "flag": "ireland",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "-",
         "name": "Ross Barkley",
         "country": "England",
         "team": "Everton FC",
         "assists": "1",
         "flag": "england",
         "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Modou Barrow",
+        "country": "Gambia",
+        "team": "Swansea City",
+        "assists": "1",
+        "flag": "gambia",
+        "logo": "swansea_city"
     },
     {
         "rank": "-",
@@ -64,21 +100,21 @@
     },
     {
         "rank": "-",
+        "name": " David Silva",
+        "country": "Spain",
+        "team": "Manchester City",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Curtis Davies",
         "country": "England",
         "team": "Hull City",
         "assists": "1",
         "flag": "england",
         "logo": "hull_city"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
-        "assists": "1",
-        "flag": "belgium",
-        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -97,6 +133,24 @@
         "assists": "1",
         "flag": "belgium",
         "logo": "burnley_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Danny Drinkwater",
+        "country": "England",
+        "team": "Leicester City",
+        "assists": "1",
+        "flag": "england",
+        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -124,59 +178,5 @@
         "assists": "1",
         "flag": "england",
         "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Adlène Guédioura",
-        "country": "Algeria",
-        "team": "Watford FC",
-        "assists": "1",
-        "flag": "algeria",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Abel Hernández",
-        "country": "Uruguay",
-        "team": "Hull City",
-        "assists": "1",
-        "flag": "uruguay",
-        "logo": "hull_city"
-    },
-    {
-        "rank": "-",
-        "name": "Mason Holgate",
-        "country": "England",
-        "team": "Everton FC",
-        "assists": "1",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Kelechi Iheanacho",
-        "country": "Nigeria",
-        "team": "Manchester City",
-        "assists": "1",
-        "flag": "nigeria",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Alex Iwobi",
-        "country": "Nigeria",
-        "team": "Arsenal FC",
-        "assists": "1",
-        "flag": "nigeria",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "assists": "1",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     }
 ]
