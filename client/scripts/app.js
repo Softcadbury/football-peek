@@ -48,8 +48,9 @@ function manageRoundsDropdown() {
         // Init previous button
         var previous = document.getElementById('dropdown-arrow-rounds-previous');
         if (roundRequested > 1) {
+            var previousRound = parseInt(roundRequested) - 1;
+            previous.setAttribute('href', '#/round-' + previousRound);
             previous.style.display = '';
-            previous.setAttribute('href', '#/round-' + (parseInt(roundRequested) - 1));
         } else {
             previous.style.display = 'none';
         }
@@ -57,8 +58,9 @@ function manageRoundsDropdown() {
         // Init next button
         var next = document.getElementById('dropdown-arrow-rounds-next');
         if (roundRequested < window.numberOfRounds) {
+            var nextRound = parseInt(roundRequested) + 1;
+            next.setAttribute('href', '#/round-' + nextRound);
             next.style.display = '';
-            next.setAttribute('href', '#/round-' + (parseInt(roundRequested) + 1));
         } else {
             next.style.display = 'none';
         }
@@ -71,6 +73,7 @@ function manageGroupsDropdown() {
     if (groupLabel) {
         var groups = document.getElementsByClassName('group-content');
         var groupRequested = location.hash.replace('#/group-', '') || 'a';
+        var groupRequestedIndex = groupRequested.charCodeAt(0);
 
         // Set component title
         groupLabel.innerHTML = 'Group ' + groupRequested;
@@ -82,6 +85,26 @@ function manageGroupsDropdown() {
             } else {
                 groups[i].style.display = 'none';
             }
+        }
+
+        // Init previous button
+        var previous = document.getElementById('dropdown-arrow-groups-previous');
+        if (groupRequestedIndex > 96 + 1) {
+            var previousGroup = String.fromCharCode(groupRequestedIndex - 1);
+            previous.setAttribute('href', '#/group-' + previousGroup);
+            previous.style.display = '';
+        } else {
+            previous.style.display = 'none';
+        }
+
+        // Init next button
+        var next = document.getElementById('dropdown-arrow-groups-next');
+        if (groupRequestedIndex < 96 + window.numberOfGroups) {
+            var nextGroup = String.fromCharCode(groupRequestedIndex + 1);
+            next.setAttribute('href', '#/group-' + nextGroup);
+            next.style.display = '';
+        } else {
+            next.style.display = 'none';
         }
     }
 }
