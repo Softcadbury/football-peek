@@ -5,7 +5,7 @@ var helper = require('../helper');
 var leagues = require('../data/leagues');
 
 var tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
-var itemsExtended = [
+var leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '_2' },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
@@ -15,7 +15,7 @@ var itemsExtended = [
 
 // Updates tables of current year
 function update(leagueArg) {
-    helper.runUpdate(itemsExtended, updateData, leagueArg);
+    helper.runUpdate(leaguesExtended, updateData, leagueArg);
 }
 
 // Updates the table of an itemExtended
@@ -41,7 +41,7 @@ function updateData(itemExtended) {
             }
         });
 
-        if (results.length < 2) {
+        if (results.length < 18) {
             console.log('Error while updating table: ' + itemExtended.item.code)
             return;
         }

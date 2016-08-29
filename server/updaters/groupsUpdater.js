@@ -19,19 +19,15 @@ function update(competitionArg) {
 // Updates the results of an itemExtended
 function updateData(itemExtended) {
     var results = [];
-
-    for (var i = 0; i < itemExtended.groupNumber; i++) {
-        results.push({ group: resultsDataUrlExtensions[i], matches: [], table: [] });
-    }
-
     var promises = [];
 
     for (var i = 0; i < itemExtended.groupNumber; i++) {
+        results.push({ group: resultsDataUrlExtensions[i], matches: [], table: [] });
         promises.push(parseRound(itemExtended, results, i));
     }
 
     Promise.all(promises).then(() => {
-        if (results.some(p => p.matches.length < 2) || results.some(p => p.table.length < 2)) {
+        if (results.some(p => p.matches.length != 12) || results.some(p => p.table.length != 4)) {
             console.log('Error while updating groups: ' + itemExtended.item.code)
             return;
         }

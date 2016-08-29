@@ -6,6 +6,7 @@ var competitions = require('../data/competitions');
 
 var tournamentDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-{2}';
 var tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale', 'sechzehntelfinale'];
+var tournamentDataUrlExtensionsNames = ['Final', 'Semi-finals', 'Quarter-finals', 'Eighth-finals', 'Sixteenth-finals']
 var competitionsExtended = [
     { item: competitions.championsLeague, url: 'champions-league', roundNumber: 4 },
     { item: competitions.europaLeague, url: 'europa-league', roundNumber: 5 }
@@ -18,21 +19,21 @@ function update(competitionArg) {
 
 // Updates the tournament of an itemExtended
 function updateData(itemExtended) {
-    var results = [
-        { name: 'Final', matches: [] },
-        { name: 'Semi-finals', matches: [] },
-        { name: 'Quarter-finals', matches: [] },
-        { name: 'Eighth-finals', matches: [] },
-        { name: 'Sixteenth-finals', matches: [] }
-    ];
-
+    var results = [];
     var promises = [];
 
     for (var i = 0; i < itemExtended.roundNumber; i++) {
+        results.push({ name: tournamentDataUrlExtensionsNames[i], matches: [] });
         promises.push(parseRound(itemExtended, results, i));
     }
 
     Promise.all(promises).then(() => {
+        if (itemExtended.roundNumber == 4 && results[3].matches.length != 8 ||
+            itemExtended.roundNumber == 5 && results[4].matches.length != 16) {
+            console.log('Error while updating tournament: ' + itemExtended.item.code)
+            return;
+        }
+
         helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.years.current), results);
     });
 }
@@ -88,6 +89,10 @@ function parseRound(itemExtended, results, roundIndex) {
 
 // Clean score by removing useless parts
 function parseScore(score, inverseScore) {
+    if (!score) {
+        return '-:-';
+    }
+
     var scores = score
         .replace('pso', '')
         .replace('aet', '')
