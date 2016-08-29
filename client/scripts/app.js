@@ -4,8 +4,13 @@ initDropdown('dropdown-label-years', 'dropdown-arrow-years', 'dropdown-content-y
 initDropdown('dropdown-label-rounds', 'dropdown-arrow-rounds', 'dropdown-content-rounds');
 initDropdown('dropdown-label-groups', 'dropdown-arrow-groups', 'dropdown-content-groups');
 
-manageLists();
-window.onhashchange = manageLists;
+manageRoundsDropdown();
+manageGroupsDropdown();
+
+window.onhashchange = function () {
+    manageRoundsDropdown();
+    manageGroupsDropdown();
+};
 
 function initDropdown(labelId, arrowId, contentId) {
     var contentElement = document.getElementById(contentId);
@@ -21,15 +26,17 @@ function initDropdown(labelId, arrowId, contentId) {
     }
 }
 
-function manageLists() {
+function manageRoundsDropdown() {
     var roundLabel = document.getElementById('dropdown-label-rounds');
-    var groupLabel = document.getElementById('dropdown-label-groups');
 
     if (roundLabel) {
         var rounds = document.getElementsByClassName('round-content');
         var roundRequested = location.hash.replace('#/round-', '') || window.currentRound || 1;
+
+        // Set component title
         roundLabel.innerHTML = 'Round ' + roundRequested;
 
+        // Hide or show rows depending of the requested round
         for (var i = 0; i < rounds.length; i++) {
             if (rounds[i].className.indexOf('round-' + roundRequested + '-content') != -1) {
                 rounds[i].style.display = '';
@@ -37,11 +44,38 @@ function manageLists() {
                 rounds[i].style.display = 'none';
             }
         }
-    } else if (groupLabel) {
+
+        // Init previous button
+        var previous = document.getElementById('dropdown-arrow-rounds-previous');
+        if (roundRequested > 1) {
+            previous.style.display = '';
+            previous.setAttribute('href', '#/round-' + (parseInt(roundRequested) - 1));
+        } else {
+            previous.style.display = 'none';
+        }
+
+        // Init next button
+        var next = document.getElementById('dropdown-arrow-rounds-next');
+        if (roundRequested < window.numberOfRounds) {
+            next.style.display = '';
+            next.setAttribute('href', '#/round-' + (parseInt(roundRequested) + 1));
+        } else {
+            next.style.display = 'none';
+        }
+    }
+}
+
+function manageGroupsDropdown() {
+    var groupLabel = document.getElementById('dropdown-label-groups');
+
+    if (groupLabel) {
         var groups = document.getElementsByClassName('group-content');
         var groupRequested = location.hash.replace('#/group-', '') || 'a';
+
+        // Set component title
         groupLabel.innerHTML = 'Group ' + groupRequested;
 
+        // Hide or show rows depending of the requested group
         for (var i = 0; i < groups.length; i++) {
             if (groups[i].className.indexOf('group-' + groupRequested + '-content') != -1) {
                 groups[i].style.display = '';
