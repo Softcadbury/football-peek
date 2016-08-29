@@ -9,7 +9,16 @@
         "logo": "atalanta"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "2",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "3.",
         "name": "Ignazio Abate",
         "country": "Italy",
         "team": "AC Milan",
@@ -64,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Giorgio Chiellini",
         "country": "Italy",
         "team": "Juventus",
@@ -91,15 +109,6 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "assists": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
         "name": "Blerim Džemaili",
         "country": "Switzerland",
         "team": "Bologna FC",
@@ -109,12 +118,30 @@
     },
     {
         "rank": "-",
+        "name": "Stephan El Shaarawy",
+        "country": "Italy",
+        "team": "AS Roma",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Josip Iličič",
         "country": "Slovenia",
         "team": "ACF Fiorentina",
         "assists": "1",
         "flag": "slovenia",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Mauricio Isla",
+        "country": "Chile",
+        "team": "Cagliari Calcio",
+        "assists": "1",
+        "flag": "chile",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "assists": "1",
         "flag": "serbia",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Cristian Molinaro",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Radja Nainggolan",
-        "country": "Belgium",
-        "team": "AS Roma",
-        "assists": "1",
-        "flag": "belgium",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "M'Baye Niang",
-        "country": "France",
-        "team": "AC Milan",
-        "assists": "1",
-        "flag": "france",
-        "logo": "ac_milan"
     }
 ]
