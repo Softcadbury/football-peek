@@ -39,20 +39,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": " ",
-        "team": "Sassuolo Calcio",
-        "points": "6",
-        "played": "2",
-        "win": "2",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "3",
-        "goalsAgainst": "1",
-        "goalDifference": "2",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "5",
+        "rank": "4",
         "team": "AS Roma",
         "points": "4",
         "played": "2",
@@ -63,6 +50,19 @@
         "goalsAgainst": "2",
         "goalDifference": "4",
         "logo": "as_roma"
+    },
+    {
+        "rank": "5",
+        "team": "Pescara Calcio",
+        "points": "4",
+        "played": "2",
+        "win": "1",
+        "draw": "1",
+        "lost": "0",
+        "goalsFor": "5",
+        "goalsAgainst": "2",
+        "goalDifference": "3",
+        "logo": "pescara_calcio"
     },
     {
         "rank": "6",
@@ -157,6 +157,19 @@
     },
     {
         "rank": "13",
+        "team": "Sassuolo Calcio",
+        "points": "3",
+        "played": "2",
+        "win": "1",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "1",
+        "goalsAgainst": "3",
+        "goalDifference": "-2",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "14",
         "team": "Bologna FC",
         "points": "3",
         "played": "2",
@@ -167,19 +180,6 @@
         "goalsAgainst": "5",
         "goalDifference": "-3",
         "logo": "bologna_fc"
-    },
-    {
-        "rank": "14",
-        "team": "Pescara Calcio",
-        "points": "1",
-        "played": "2",
-        "win": "0",
-        "draw": "1",
-        "lost": "1",
-        "goalsFor": "3",
-        "goalsAgainst": "4",
-        "goalDifference": "-1",
-        "logo": "pescara_calcio"
     },
     {
         "rank": "15",
