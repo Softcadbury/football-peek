@@ -7,7 +7,7 @@ var groupsUpdater = require('./groupsUpdater');
 var scorersUpdater = require('./scorersUpdater');
 var assistsUpdater = require('./assistsUpdater');
 
-// Update league data
+// Updates league data
 function updateLeague(leagueArg) {
     leagueArg = leagueArg || true;
 
@@ -17,7 +17,7 @@ function updateLeague(leagueArg) {
     assistsUpdater.update(leagueArg, null);
 }
 
-// Update competition data
+// Updates competition data
 function updateCompetition(competitionArg) {
     competitionArg = competitionArg || true;
 

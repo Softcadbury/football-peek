@@ -44,7 +44,7 @@ function updateData(itemExtended) {
         });
 
         if (results.length < 5) {
-            console.log('Error while updating scorers: ' + itemExtended.item.code)
+            console.log('Error while updating scorers: ' + itemExtended.item.code);
             return;
         }
 

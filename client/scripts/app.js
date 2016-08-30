@@ -38,7 +38,7 @@ function manageRoundsDropdown() {
 
         // Hide or show rows depending of the requested round
         for (var i = 0; i < rounds.length; i++) {
-            if (rounds[i].className.indexOf('round-' + roundRequested + '-content') != -1) {
+            if (rounds[i].className.indexOf('round-' + roundRequested + '-content') !== -1) {
                 rounds[i].style.display = '';
             } else {
                 rounds[i].style.display = 'none';
@@ -80,7 +80,7 @@ function manageGroupsDropdown() {
 
         // Hide or show rows depending of the requested group
         for (var i = 0; i < groups.length; i++) {
-            if (groups[i].className.indexOf('group-' + groupRequested + '-content') != -1) {
+            if (groups[i].className.indexOf('group-' + groupRequested + '-content') !== -1) {
                 groups[i].style.display = '';
             } else {
                 groups[i].style.display = 'none';
