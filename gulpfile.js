@@ -9,12 +9,8 @@ gulp.task('up', () => {
     var leagueArg = argv.l;
     var competitionArg = argv.c;
 
-    require('./server/updaters/tablesUpdater').update(leagueArg);
-    require('./server/updaters/resultsUpdater').update(leagueArg);
-    require('./server/updaters/tournamentsUpdater').update(competitionArg);
-    require('./server/updaters/groupsUpdater').update(competitionArg);
-    require('./server/updaters/scorersUpdater').update(leagueArg, competitionArg);
-    require('./server/updaters/assistsUpdater').update(leagueArg, competitionArg);
+    require('./server/updaters/mainUpdater').updateLeague(leagueArg);
+    require('./server/updaters/mainUpdater').updateCompetition(competitionArg);
 });
 
 // Check coding rules

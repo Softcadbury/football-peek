@@ -11,10 +11,8 @@ var app = express();
 var CronJob = require('cron').CronJob;
 new CronJob('00 55 23 * * *', function () {
     console.log('Run update');
-    require('./server/updaters/tablesUpdater').update(true);
-    require('./server/updaters/resultsUpdater').update(true);
-    require('./server/updaters/scorersUpdater').update(true);
-    require('./server/updaters/assistsUpdater').update(true);
+    require('./server/updaters/mainUpdater').updateLeague();
+    require('./server/updaters/mainUpdater').updateCompetition();
 }, null, true, 'Europe/Paris');
 
 // Middlewares configuration
