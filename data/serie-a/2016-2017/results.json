@@ -173,20 +173,36 @@
         "round": 3,
         "matches": [
             {
-                "date": "11/09/2016",
-                "homeTeam": "Atalanta",
-                "awayTeam": "Torino FC",
+                "date": "10/09/2016",
+                "homeTeam": "Juventus",
+                "awayTeam": "Sassuolo Calcio",
                 "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "torino_fc"
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "",
+                "homeTeam": "US Palermo",
+                "awayTeam": "SSC Napoli",
+                "score": "-:-",
+                "homeTeamLogo": "us_palermo",
+                "awayTeamLogo": "ssc_napoli"
+            },
+            {
+                "date": "11/09/2016",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Cagliari Calcio",
                 "score": "-:-",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Torino FC",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "torino_fc"
             },
             {
                 "date": "",
@@ -198,27 +214,11 @@
             },
             {
                 "date": "",
-                "homeTeam": "Empoli FC",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "empoli_fc",
-                "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "ACF Fiorentina",
                 "score": "-:-",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "acf_fiorentina"
-            },
-            {
-                "date": "",
-                "homeTeam": "Juventus",
-                "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "",
@@ -230,11 +230,19 @@
             },
             {
                 "date": "",
-                "homeTeam": "US Palermo",
-                "awayTeam": "SSC Napoli",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Sampdoria",
                 "score": "-:-",
-                "homeTeamLogo": "us_palermo",
-                "awayTeamLogo": "ssc_napoli"
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "sampdoria"
+            },
+            {
+                "date": "",
+                "homeTeam": "Empoli FC",
+                "awayTeam": "FC Crotone",
+                "score": "-:-",
+                "homeTeamLogo": "empoli_fc",
+                "awayTeamLogo": "fc_crotone"
             },
             {
                 "date": "",
@@ -243,14 +251,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "pescara_calcio",
                 "awayTeamLogo": "inter"
-            },
-            {
-                "date": "",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Sampdoria",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "sampdoria"
             }
         ]
     },

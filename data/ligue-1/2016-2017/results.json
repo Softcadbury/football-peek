@@ -258,7 +258,23 @@
         "round": 4,
         "matches": [
             {
+                "date": "09/09/2016",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "AS Saint-Étienne",
+                "score": "-:-",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "as_saint_etienne"
+            },
+            {
                 "date": "10/09/2016",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Girondins Bordeaux",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "girondins_bordeaux"
+            },
+            {
+                "date": "",
                 "homeTeam": "Angers SCO",
                 "awayTeam": "Dijon FCO",
                 "score": "-:-",
@@ -298,15 +314,7 @@
                 "awayTeamLogo": "as_nancy"
             },
             {
-                "date": "",
-                "homeTeam": "Olympique Lyon",
-                "awayTeam": "Girondins Bordeaux",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_lyon",
-                "awayTeamLogo": "girondins_bordeaux"
-            },
-            {
-                "date": "",
+                "date": "11/09/2016",
                 "homeTeam": "FC Nantes",
                 "awayTeam": "FC Metz",
                 "score": "-:-",
@@ -315,27 +323,19 @@
             },
             {
                 "date": "",
-                "homeTeam": "OGC Nice",
-                "awayTeam": "Olympique Marseille",
-                "score": "-:-",
-                "homeTeamLogo": "ogc_nice",
-                "awayTeamLogo": "olympique_marseille"
-            },
-            {
-                "date": "",
-                "homeTeam": "Paris Saint-Germain",
-                "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
-                "homeTeamLogo": "paris_saint_germain",
-                "awayTeamLogo": "as_saint_etienne"
-            },
-            {
-                "date": "",
                 "homeTeam": "Stade Rennes",
                 "awayTeam": "SM Caen",
                 "score": "-:-",
                 "homeTeamLogo": "stade_rennes",
                 "awayTeamLogo": "sm_caen"
+            },
+            {
+                "date": "",
+                "homeTeam": "OGC Nice",
+                "awayTeam": "Olympique Marseille",
+                "score": "-:-",
+                "homeTeamLogo": "ogc_nice",
+                "awayTeamLogo": "olympique_marseille"
             }
         ]
     },
