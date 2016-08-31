@@ -7,7 +7,7 @@ var handlebars = require('express-handlebars');
 var compression = require('compression');
 var app = express();
 
-// Set cron
+// Setup crons
 var CronJob = require('cron').CronJob;
 ['00 00 19 * * *', '00 00 21 * * *', '00 00 23 * * *', '00 30 23 * * *'].forEach(function (time) {
     new CronJob(time, function () {

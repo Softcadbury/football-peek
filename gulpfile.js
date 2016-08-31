@@ -3,14 +3,19 @@
 var gulp = require('gulp');
 
 // Updates data
-// Format: gulp up / gulp up -l / gulp up -c / gulp up -l eng
+// Format: gulp up -l / gulp up -c / gulp up -l eng
 gulp.task('up', () => {
     var argv = require('yargs').argv;
-    var leagueArg = argv.l;
-    var competitionArg = argv.c;
 
-    require('./server/updaters/mainUpdater').updateLeague(leagueArg);
-    require('./server/updaters/mainUpdater').updateCompetition(competitionArg);
+    var leagueArg = argv.l;
+    if (leagueArg) {
+        require('./server/updaters/mainUpdater').updateLeague(leagueArg);
+    }
+
+    var competitionArg = argv.c;
+    if (competitionArg) {
+        require('./server/updaters/mainUpdater').updateCompetition(competitionArg);
+    }
 });
 
 // Check coding rules
