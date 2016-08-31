@@ -129,7 +129,7 @@ function getLeagueCurrentRound(resultsData) {
     for (var i = 0; i < resultsData.length; i++) {
         var result = resultsData[i];
 
-        if (result.matches.filter(p => p.score == '-:-').length == result.matches.length) {
+        if (result.matches.filter(p => p.score === '-:-').length === result.matches.length) {
             break;
         }
 

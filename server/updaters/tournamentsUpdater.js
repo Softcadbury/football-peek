@@ -30,7 +30,7 @@ function updateData(itemExtended) {
     Promise.all(promises).then(() => {
         if (itemExtended.roundNumber == 4 && results[3].matches.length != 8 ||
             itemExtended.roundNumber == 5 && results[4].matches.length != 16) {
-            console.log('Error while updating tournament: ' + itemExtended.item.code)
+            console.log('Error while updating tournament: ' + itemExtended.item.code);
             return;
         }
 

@@ -7,15 +7,21 @@ var handlebars = require('express-handlebars');
 var compression = require('compression');
 var app = express();
 
-// Set cron
+// Setup crons
 var CronJob = require('cron').CronJob;
-new CronJob('00 55 23 * * *', function () {
-    console.log('Run update');
-    require('./server/updaters/tablesUpdater').update(true);
-    require('./server/updaters/resultsUpdater').update(true);
-    require('./server/updaters/scorersUpdater').update(true);
-    require('./server/updaters/assistsUpdater').update(true);
-}, null, true, 'Europe/Paris');
+['00 00 19 * * *', '00 00 21 * * *', '00 00 23 * * *', '00 30 23 * * *'].forEach(function (time) {
+    new CronJob(time, function () {
+        console.log('Run league update');
+        require('./server/updaters/mainUpdater').updateLeague();
+    }, null, true, 'Europe/Paris');
+});
+
+['00 10 19 * * *', '00 10 21 * * *', '00 10 23 * * *', '00 40 23 * * *'].forEach(function (time) {
+    new CronJob(time, function () {
+        console.log('Run competition update');
+        require('./server/updaters/mainUpdater').updateCompetition();
+    }, null, true, 'Europe/Paris');
+});
 
 // Middlewares configuration
 var tenMinutes = 600000;
