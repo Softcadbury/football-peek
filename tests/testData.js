@@ -42,14 +42,20 @@ function testTournamentData(code, year) {
     testDataIsNotEmpty('Tournament Semi-finals', data[1].matches);
     testDataIsNotEmpty('Tournament Quarter-finals', data[2].matches);
     testDataIsNotEmpty('Tournament Eighth-finals', data[3].matches);
-    testDataIsNotEmpty('Tournament Sixteenth-finals', data[4].matches);
+
+    if (data.length === 5) {
+        testDataIsNotEmpty('Tournament Sixteenth-finals', data[4].matches);
+    }
 
     it('Tournament should have the right number of matches', () => {
         assert.lengthOf(data[0].matches, 1);
         assert.lengthOf(data[1].matches, 2);
         assert.lengthOf(data[2].matches, 4);
         assert.lengthOf(data[3].matches, 8);
-        assert.isTrue(data[4].matches.length === 16 || data[4].matches.length === 0);
+
+        if (data.length === 5) {
+            assert.isTrue(data[4].matches.length === 16);
+        }
     });
 }
 
