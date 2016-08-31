@@ -27,7 +27,7 @@ function updateData(itemExtended) {
     }
 
     Promise.all(promises).then(() => {
-        if (results.some(p => p.matches.length != 12) || results.some(p => p.table.length != 4)) {
+        if (results.some(p => p.matches.length !== 12) || results.some(p => p.table.length !== 4)) {
             console.log('Error while updating groups: ' + itemExtended.item.code);
             return;
         }
@@ -78,8 +78,8 @@ function parseRound(itemExtended, results, groupIndex) {
                 }
             });
 
-            for (var i = 0; i < currentTable.length; i++) {
-                helper.manageLogoProperty(currentTable[i]);
+            for (var j = 0; j < currentTable.length; j++) {
+                helper.manageLogoProperty(currentTable[j]);
             }
 
             resolve();

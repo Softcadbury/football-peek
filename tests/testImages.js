@@ -46,7 +46,10 @@ function testTournamentImages(code, year) {
     testImagesExistance('Tournament Semi-finals', data[1].matches);
     testImagesExistance('Tournament Quarter-finals', data[2].matches);
     testImagesExistance('Tournament Eighth-finals', data[3].matches);
-    testImagesExistance('Tournament Sixteenth-finals', data[4].matches);
+
+    if (data.length === 5) {
+        testImagesExistance('Tournament Sixteenth-finals', data[4].matches);
+    }
 }
 
 function testGroupImages(code, year) {

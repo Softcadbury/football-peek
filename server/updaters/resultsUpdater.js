@@ -32,8 +32,8 @@ function updateData(itemExtended) {
         var currentRound = helper.getLeagueCurrentRound(results);
         var maxRound = Math.min(itemExtended.roundNumber, currentRound + 1);
 
-        for (var i =  currentRound - 1; i < maxRound; i++) {
-            promises.push(parseRound(itemExtended, results, i));
+        for (var j =  currentRound - 1; j < maxRound; j++) {
+            promises.push(parseRound(itemExtended, results, j));
         }
     }
 

@@ -7,20 +7,23 @@ var handlebars = require('express-handlebars');
 var compression = require('compression');
 var app = express();
 
-// Setup crons
+// Setup cron jobs
 var CronJob = require('cron').CronJob;
-['00 00 19 * * *', '00 00 21 * * *', '00 00 23 * * *', '00 30 23 * * *'].forEach(function (time) {
-    new CronJob(time, function () {
+var leagueCronJobTimes =      ['00 00 19 * * *', '00 00 21 * * *', '00 00 23 * * *', '00 30 23 * * *'];
+var competitionCronJobTimes = ['00 10 19 * * *', '00 10 21 * * *', '00 10 23 * * *', '00 40 23 * * *'];
+
+leagueCronJobTimes.forEach(function (time) {
+    (new CronJob(time, function () {
         console.log('Run league update');
         require('./server/updaters/mainUpdater').updateLeague();
-    }, null, true, 'Europe/Paris');
+    }, null, false, 'Europe/Paris')).start();
 });
 
-['00 10 19 * * *', '00 10 21 * * *', '00 10 23 * * *', '00 40 23 * * *'].forEach(function (time) {
-    new CronJob(time, function () {
+competitionCronJobTimes.forEach(function (time) {
+    (new CronJob(time, function () {
         console.log('Run competition update');
         require('./server/updaters/mainUpdater').updateCompetition();
-    }, null, true, 'Europe/Paris');
+    }, null, false, 'Europe/Paris')).start();
 });
 
 // Middlewares configuration
