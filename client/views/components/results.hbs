@@ -31,7 +31,11 @@
                     <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
                     <div class="icon-logo icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></div>
                 </td>
-                <td class="component-column-score">{{this.score}}</td>
+                <td class="component-column-score">
+                    <a href="https://www.youtube.com/results?search_query=highlights {{this.date}} {{this.homeTeam}} {{this.awayTeam}} {{this.score}}" target="_blank" rel="nofollow">
+                        {{this.score}}
+                    </a>
+                </td>
                 <td class="component-column-main">
                     <div class="icon-logo icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></div>
                     <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
