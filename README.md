@@ -2,7 +2,7 @@
 
 ## Description
 
-Quickly access to football results, tables, top scorers and top assists of major leagues and competitions.
+Quickly access to football results, tables, top scorers and top assists of major leagues and competitions (Bundesliga, Liga, Ligue 1, Premier League and Serie A, Champions League and Europa League).
 
 All Data comes from http://www.worldfootball.net
 
