@@ -124,6 +124,10 @@ function runUpdate(itemsExtended, updateData, arg) {
 
 // Get the current round of a league
 function getLeagueCurrentRound(resultsData) {
+    if (!resultsData) {
+        return 1;
+    }
+
     var round = 1;
 
     for (var i = 0; i < resultsData.length; i++) {
