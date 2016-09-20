@@ -2,11 +2,9 @@
 
 ## Description
 
-Quickly access to football results, tables, top scorers and top assists of major leagues and competitions (Bundesliga, Liga, Ligue 1, Premier League and Serie A, Champions League and Europa League).
+Quickly access to football results, tables, top scorers and top assists of major leagues (Bundesliga, Liga, Ligue 1, Premier League and Serie A) and competitions (Champions League and Europa League).
 
-All Data comes from http://www.worldfootball.net
-
-Trello: https://trello.com/b/Zf9OTx1Q/public-trello-dashboardfootball-com
+All Data comes from http://www.worldfootball.net. The Trello to present current and futur developments can be found <a href="https://trello.com/b/Zf9OTx1Q/public-trello-dashboardfootball-com">here</a>. 
 
 ## Screenshot
 
