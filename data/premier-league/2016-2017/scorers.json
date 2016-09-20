@@ -1,6 +1,51 @@
 [
     {
         "rank": "1.",
+        "name": "Michail Antonio",
+        "country": "England",
+        "team": "West Ham United",
+        "goals": "5",
+        "flag": "england",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "3.",
+        "name": "Étienne Capoue",
+        "country": "France",
+        "team": "Watford FC",
+        "goals": "4",
+        "flag": "france",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "4",
+        "flag": "sweden",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
+        "goals": "4",
+        "flag": "belgium",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "6.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -10,30 +55,57 @@
     },
     {
         "rank": "-",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
+        "name": "Leroy Fer",
+        "country": "Netherlands",
+        "team": "Swansea City",
         "goals": "3",
-        "flag": "sweden",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "3.",
-        "name": "Michail Antonio",
-        "country": "England",
-        "team": "West Ham United",
-        "goals": "2",
-        "flag": "england",
-        "logo": "west_ham_united"
+        "flag": "netherlands",
+        "logo": "swansea_city"
     },
     {
         "rank": "-",
-        "name": "Étienne Capoue",
-        "country": "France",
-        "team": "Watford FC",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "goals": "3",
+        "flag": "chile",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Robert Snodgrass",
+        "country": "Scotland",
+        "team": "Hull City",
+        "goals": "3",
+        "flag": "scotland",
+        "logo": "hull_city"
+    },
+    {
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "3",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "11.",
+        "name": "Gareth Barry",
+        "country": "England",
+        "team": "Everton FC",
         "goals": "2",
-        "flag": "france",
-        "logo": "watford_fc"
+        "flag": "england",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Nacer Chadli",
+        "country": "Belgium",
+        "team": "West Bromwich Albion",
+        "goals": "2",
+        "flag": "belgium",
+        "logo": "west_bromwich_albion"
     },
     {
         "rank": "-",
@@ -46,30 +118,39 @@
     },
     {
         "rank": "-",
+        "name": "Scott Dann",
+        "country": "England",
+        "team": "Crystal Palace",
+        "goals": "2",
+        "flag": "england",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "goals": "2",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Troy Deeney",
+        "country": "England",
+        "team": "Watford FC",
+        "goals": "2",
+        "flag": "england",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
         "goals": "2",
         "flag": "england",
         "logo": "sunderland_afc"
-    },
-    {
-        "rank": "-",
-        "name": " Diego Costa",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Fer",
-        "country": "Netherlands",
-        "team": "Swansea City",
-        "goals": "2",
-        "flag": "netherlands",
-        "logo": "swansea_city"
     },
     {
         "rank": "-",
@@ -82,101 +163,20 @@
     },
     {
         "rank": "-",
-        "name": " Nolito",
-        "country": "Spain",
+        "name": "Kelechi Iheanacho",
+        "country": "Nigeria",
         "team": "Manchester City",
         "goals": "2",
-        "flag": "spain",
+        "flag": "nigeria",
         "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Raheem Sterling",
+        "name": "Harry Kane",
         "country": "England",
-        "team": "Manchester City",
+        "team": "Tottenham Hotspur",
         "goals": "2",
         "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Stuani",
-        "country": "Uruguay",
-        "team": "Middlesbrough FC",
-        "goals": "2",
-        "flag": "uruguay",
-        "logo": "middlesbrough_fc"
-    },
-    {
-        "rank": "13.",
-        "name": " Álvaro Negredo",
-        "country": "Spain",
-        "team": "Middlesbrough FC",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "middlesbrough_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ross Barkley",
-        "country": "England",
-        "team": "Everton FC",
-        "goals": "1",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Barry",
-        "country": "England",
-        "team": "Everton FC",
-        "goals": "1",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Michy Batshuayi",
-        "country": "Belgium",
-        "team": "Chelsea FC",
-        "goals": "1",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Bojan",
-        "country": "Spain",
-        "team": "Stoke City",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "stoke_city"
-    },
-    {
-        "rank": "-",
-        "name": "Calum Chambers",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "1",
-        "flag": "england",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "James Collins",
-        "country": "Wales",
-        "team": "West Ham United",
-        "goals": "1",
-        "flag": "wales",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Scott Dann",
-        "country": "England",
-        "team": "Crystal Palace",
-        "goals": "1",
-        "flag": "england",
-        "logo": "crystal_palace"
+        "logo": "tottenham_hotspur"
     }
 ]

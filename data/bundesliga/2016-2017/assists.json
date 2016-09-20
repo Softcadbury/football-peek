@@ -1,6 +1,33 @@
 [
     {
         "rank": "1.",
+        "name": "Franck Ribéry",
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "4",
+        "flag": "france",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "2.",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "SC Freiburg",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "assists": "3",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
@@ -9,7 +36,43 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "2.",
+        "rank": "5.",
+        "name": "Pablo de Blasis",
+        "country": "Argentina",
+        "team": "1. FSV Mainz 05",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
+        "assists": "2",
+        "flag": "sweden",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Genki Haraguchi",
+        "country": "Japan",
+        "team": "Hertha BSC",
+        "assists": "2",
+        "flag": "japan",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Christian Pulisic",
+        "country": "USA",
+        "team": "Borussia Dortmund",
+        "assists": "2",
+        "flag": "usa",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "André Schürrle",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -18,13 +81,40 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Lars Stindl",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "11.",
         "name": "René Adler",
         "country": "Germany",
         "team": "Hamburger SV",
         "assists": "1",
         "flag": "germany",
         "logo": "hamburger_sv"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Baier",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "1",
+        "flag": "germany",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Stefan Bell",
+        "country": "Germany",
+        "team": "1. FSV Mainz 05",
+        "assists": "1",
+        "flag": "germany",
+        "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "-",
@@ -46,110 +136,47 @@
     },
     {
         "rank": "-",
-        "name": "Pablo de Blasis",
-        "country": "Argentina",
+        "name": "Julian Brandt",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "1",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Brosinski",
+        "country": "Germany",
         "team": "1. FSV Mainz 05",
         "assists": "1",
-        "flag": "argentina",
+        "flag": "germany",
         "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "-",
-        "name": "Diego Demme",
-        "country": "Germany",
+        "name": "Oliver Burke",
+        "country": "Scotland",
         "team": "RB Leipzig",
         "assists": "1",
-        "flag": "germany",
+        "flag": "scotland",
         "logo": "rb_leipzig"
     },
     {
         "rank": "-",
-        "name": "Bas Dost",
-        "country": "Netherlands",
-        "team": "VfL Wolfsburg",
+        "name": "Gonzalo Castro",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
         "assists": "1",
-        "flag": "netherlands",
-        "logo": "vfl_wolfsburg"
+        "flag": "germany",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Vincenzo Grifo",
-        "country": "Italy",
-        "team": "SC Freiburg",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Thorgan Hazard",
-        "country": "Belgium",
-        "team": "Bor. Mönchengladbach",
-        "assists": "1",
-        "flag": "belgium",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Szabolcs Huszti",
-        "country": "Hungary",
-        "team": "Eintracht Frankfurt",
-        "assists": "1",
-        "flag": "hungary",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
-        "assists": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": " Rafinha",
-        "country": "Brazil",
-        "team": "Bayern München",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Franck Ribéry",
+        "name": "Ousmane Dembélé",
         "country": "France",
-        "team": "Bayern München",
+        "team": "Borussia Dortmund",
         "assists": "1",
         "flag": "france",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Artjoms Rudņevs",
-        "country": "Latvia",
-        "team": "1. FC Köln",
-        "assists": "1",
-        "flag": "latvia",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Sebastian Rudy",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Benno Schmitz",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "rb_leipzig"
+        "logo": "borussia_dortmund"
     }
 ]

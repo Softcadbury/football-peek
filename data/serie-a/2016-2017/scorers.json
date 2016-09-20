@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "2.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "AC Milan",
+        "goals": "4",
+        "flag": "colombia",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
@@ -9,22 +27,49 @@
         "logo": "torino_fc"
     },
     {
-        "rank": "2.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "AC Milan",
-        "goals": "3",
-        "flag": "colombia",
-        "logo": "ac_milan"
+        "rank": "-",
+        "name": "Marco Borriello",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "inter"
     },
     {
         "rank": "-",
         "name": "Franck Kessié",
         "country": "Ivory Coast",
         "team": "Atalanta",
-        "goals": "3",
+        "goals": "4",
         "flag": "ivory_coast",
         "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Arkadiusz Milik",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "4",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "8.",
+        "name": "Gonzalo Higuaí­n",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -36,7 +81,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "5.",
+        "rank": "10.",
         "name": "Daniele Baselli",
         "country": "Italy",
         "team": "Torino FC",
@@ -64,21 +109,30 @@
     },
     {
         "rank": "-",
-        "name": "Marco Borriello",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sassuolo Calcio",
         "goals": "2",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
+        "flag": "france",
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
         "goals": "2",
-        "flag": "spain",
-        "logo": "ssc_napoli"
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -100,12 +154,12 @@
     },
     {
         "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "SSC Napoli",
+        "name": "Luís Muriel",
+        "country": "Colombia",
+        "team": "Sampdoria",
         "goals": "2",
-        "flag": "poland",
-        "logo": "ssc_napoli"
+        "flag": "colombia",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -117,66 +171,12 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "14.",
-        "name": "Edgar Barreto",
-        "country": "Paraguay",
-        "team": "Sampdoria",
-        "goals": "1",
-        "flag": "paraguay",
-        "logo": "sampdoria"
-    },
-    {
         "rank": "-",
-        "name": "Ahmad Benali",
-        "country": "England",
-        "team": "Pescara Calcio",
-        "goals": "1",
-        "flag": "england",
-        "logo": "pescara_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Gianluca Caprari",
-        "country": "Italy",
-        "team": "Pescara Calcio",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "pescara_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Danilo Cataldi",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sassuolo Calcio",
-        "goals": "1",
-        "flag": "france",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Mattia Destro",
-        "country": "Italy",
-        "team": "Bologna FC",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "name": "Stipe Perica",
+        "country": "Croatia",
+        "team": "Udinese Calcio",
+        "goals": "2",
+        "flag": "croatia",
+        "logo": "udinese_calcio"
     }
 ]
