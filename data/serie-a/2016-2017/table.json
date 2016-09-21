@@ -27,6 +27,19 @@
     },
     {
         "rank": "3",
+        "team": "AC Milan",
+        "points": "9",
+        "played": "5",
+        "win": "3",
+        "draw": "0",
+        "lost": "2",
+        "goalsFor": "8",
+        "goalsAgainst": "7",
+        "goalDifference": "1",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "4",
         "team": "AS Roma",
         "points": "7",
         "played": "4",
@@ -37,19 +50,6 @@
         "goalsAgainst": "5",
         "goalDifference": "4",
         "logo": "as_roma"
-    },
-    {
-        "rank": "4",
-        "team": "Lazio Roma",
-        "points": "7",
-        "played": "4",
-        "win": "2",
-        "draw": "1",
-        "lost": "1",
-        "goalsFor": "8",
-        "goalsAgainst": "5",
-        "goalDifference": "3",
-        "logo": "lazio_roma"
     },
     {
         "rank": "5",
@@ -66,6 +66,19 @@
     },
     {
         "rank": "6",
+        "team": "Lazio Roma",
+        "points": "7",
+        "played": "5",
+        "win": "2",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "8",
+        "goalsAgainst": "7",
+        "goalDifference": "1",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "7",
         "team": "Inter",
         "points": "7",
         "played": "4",
@@ -78,7 +91,7 @@
         "logo": "inter"
     },
     {
-        "rank": "7",
+        "rank": "8",
         "team": "Genoa CFC",
         "points": "6",
         "played": "3",
@@ -91,7 +104,7 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "ACF Fiorentina",
         "points": "6",
         "played": "3",
@@ -104,7 +117,7 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Sampdoria",
         "points": "6",
         "played": "4",
@@ -115,19 +128,6 @@
         "goalsAgainst": "5",
         "goalDifference": "0",
         "logo": "sampdoria"
-    },
-    {
-        "rank": "10",
-        "team": "AC Milan",
-        "points": "6",
-        "played": "4",
-        "win": "2",
-        "draw": "0",
-        "lost": "2",
-        "goalsFor": "6",
-        "goalsAgainst": "7",
-        "goalDifference": "-1",
-        "logo": "ac_milan"
     },
     {
         "rank": "11",

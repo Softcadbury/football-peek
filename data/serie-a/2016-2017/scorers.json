@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "AC Milan",
+        "goals": "5",
+        "flag": "colombia",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
@@ -9,16 +18,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "2.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "AC Milan",
-        "goals": "4",
-        "flag": "colombia",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
+        "rank": "3.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "M'Baye Niang",
+        "country": "France",
+        "team": "AC Milan",
+        "goals": "2",
+        "flag": "france",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": "Leonardo Pavoletti",
         "country": "Italy",
         "team": "Genoa CFC",
         "goals": "2",
         "flag": "italy",
         "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Stipe Perica",
-        "country": "Croatia",
-        "team": "Udinese Calcio",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "udinese_calcio"
     }
 ]

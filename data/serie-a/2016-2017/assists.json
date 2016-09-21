@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "3",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "2.",
         "name": "Ricardo Álvarez",
         "country": "Argentina",
         "team": "Sampdoria",
@@ -37,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sassuolo Calcio",
+        "assists": "2",
+        "flag": "france",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
@@ -46,21 +64,39 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "assists": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
         "name": "Josip Iličič",
         "country": "Slovenia",
         "team": "ACF Fiorentina",
         "assists": "2",
         "flag": "slovenia",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Mauricio Isla",
+        "country": "Chile",
+        "team": "Cagliari Calcio",
+        "assists": "2",
+        "flag": "chile",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Baldé Diao Keita",
+        "country": "Senegal",
+        "team": "Lazio Roma",
+        "assists": "2",
+        "flag": "senegal",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -117,7 +153,7 @@
         "logo": "pescara_calcio"
     },
     {
-        "rank": "14.",
+        "rank": "18.",
         "name": "Ignazio Abate",
         "country": "Italy",
         "team": "AC Milan",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Alex Sandro",
-        "country": "Brazil",
-        "team": "Juventus",
+        "name": "Haitam Aleesami",
+        "country": "Norway",
+        "team": "US Palermo",
         "assists": "1",
-        "flag": "brazil",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Dušan Basta",
-        "country": "Serbia",
-        "team": "Lazio Roma",
-        "assists": "1",
-        "flag": "serbia",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Benassi",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Biglia",
-        "country": "Argentina",
-        "team": "Lazio Roma",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Valter Birsa",
-        "country": "Slovenia",
-        "team": "Chievo Verona",
-        "assists": "1",
-        "flag": "slovenia",
-        "logo": "chievo_verona"
+        "flag": "norway",
+        "logo": "us_palermo"
     }
 ]
