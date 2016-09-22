@@ -54,7 +54,16 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Lars Stindl",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "8.",
         "name": "Pablo de Blasis",
         "country": "Argentina",
         "team": "1. FSV Mainz 05",
@@ -117,15 +126,6 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "-",
-        "name": "Lars Stindl",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
-    },
-    {
         "rank": "15.",
         "name": "René Adler",
         "country": "Germany",
@@ -133,6 +133,15 @@
         "assists": "1",
         "flag": "germany",
         "logo": "hamburger_sv"
+    },
+    {
+        "rank": "-",
+        "name": "David Alaba",
+        "country": "Austria",
+        "team": "Bayern München",
+        "assists": "1",
+        "flag": "austria",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "assists": "1",
         "flag": "germany",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Leonardo Bittencourt",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "1__fc_koln"
     }
 ]

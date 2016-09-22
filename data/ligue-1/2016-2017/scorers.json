@@ -28,12 +28,30 @@
     },
     {
         "rank": "4.",
+        "name": "Mario Balotelli",
+        "country": "Italy",
+        "team": "OGC Nice",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
         "name": "Martin Braithwaite",
         "country": "Denmark",
         "team": "Toulouse FC",
         "goals": "4",
         "flag": "denmark",
         "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Bafétimbi Gomis",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "goals": "4",
+        "flag": "france",
+        "logo": "olympique_marseille"
     },
     {
         "rank": "-",
@@ -45,13 +63,22 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "6.",
+        "rank": "8.",
         "name": " Fabinho",
         "country": "Brazil",
         "team": "AS Monaco",
         "goals": "3",
         "flag": "brazil",
         "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": " Malcom",
+        "country": "Brazil",
+        "team": "Girondins Bordeaux",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "girondins_bordeaux"
     },
     {
         "rank": "-",
@@ -63,16 +90,16 @@
         "logo": "fc_lorient"
     },
     {
-        "rank": "8.",
-        "name": "Mario Balotelli",
-        "country": "Italy",
-        "team": "OGC Nice",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "ogc_nice"
+        "rank": "-",
+        "name": "Corentin Tolisso",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "3",
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
-        "rank": "-",
+        "rank": "12.",
         "name": "Robert Berić",
         "country": "Slovenia",
         "team": "AS Saint-Étienne",
@@ -88,6 +115,15 @@
         "goals": "2",
         "flag": "algeria",
         "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "-",
+        "name": "Jimmy Briand",
+        "country": "France",
+        "team": "EA Guingamp",
+        "goals": "2",
+        "flag": "france",
+        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -109,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Bafétimbi Gomis",
+        "name": "Nabil Fekir",
         "country": "France",
-        "team": "Olympique Marseille",
+        "team": "Olympique Lyon",
         "goals": "2",
         "flag": "france",
-        "logo": "olympique_marseille"
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Thomas Lemar",
+        "name": "Gaëtan Laborde",
         "country": "France",
-        "team": "AS Monaco",
-        "goals": "2",
-        "flag": "france",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": " Malcom",
-        "country": "Brazil",
         "team": "Girondins Bordeaux",
         "goals": "2",
-        "flag": "brazil",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "-",
-        "name": "Diego Rolán",
-        "country": "Uruguay",
-        "team": "Girondins Bordeaux",
-        "goals": "2",
-        "flag": "uruguay",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "-",
-        "name": " Rony Lopes",
-        "country": "Portugal",
-        "team": "Lille OSC",
-        "goals": "2",
-        "flag": "portugal",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Frédéric Sammaritano",
-        "country": "France",
-        "team": "Dijon FCO",
-        "goals": "2",
         "flag": "france",
-        "logo": "dijon_fco"
+        "logo": "girondins_bordeaux"
     }
 ]
