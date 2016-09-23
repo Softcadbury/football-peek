@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -36,22 +45,13 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Duje Čop",
         "country": "Croatia",
         "team": "Sporting Gijón",
         "goals": "3",
         "flag": "croatia",
         "logo": "sporting_gijon"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Gabriel",
+        "country": "Brazil",
+        "team": "CD Leganés",
+        "goals": "2",
+        "flag": "brazil",
+        "logo": "cd_leganes"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
         "goals": "2",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Marko Livaja",
-        "country": "Croatia",
-        "team": "UD Las Palmas",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "ud_las_palmas"
     }
 ]

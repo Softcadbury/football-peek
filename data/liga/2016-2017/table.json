@@ -118,6 +118,19 @@
     },
     {
         "rank": "10",
+        "team": "CD Leganés",
+        "points": "7",
+        "played": "5",
+        "win": "2",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "5",
+        "goalsAgainst": "8",
+        "goalDifference": "-3",
+        "logo": "cd_leganes"
+    },
+    {
+        "rank": "11",
         "team": "Sporting Gijón",
         "points": "7",
         "played": "5",
@@ -130,33 +143,33 @@
         "logo": "sporting_gijon"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "CD Alavés",
         "points": "6",
-        "played": "4",
+        "played": "5",
         "win": "1",
         "draw": "3",
-        "lost": "0",
-        "goalsFor": "3",
-        "goalsAgainst": "2",
-        "goalDifference": "1",
+        "lost": "1",
+        "goalsFor": "4",
+        "goalsAgainst": "4",
+        "goalDifference": "0",
         "logo": "cd_alaves"
     },
     {
-        "rank": "12",
+        "rank": "13",
         "team": "Deportivo La Coruña",
         "points": "5",
-        "played": "4",
+        "played": "5",
         "win": "1",
         "draw": "2",
-        "lost": "1",
-        "goalsFor": "2",
-        "goalsAgainst": "2",
-        "goalDifference": "0",
+        "lost": "2",
+        "goalsFor": "3",
+        "goalsAgainst": "4",
+        "goalDifference": "-1",
         "logo": "deportivo_la_coruna"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "Málaga CF",
         "points": "5",
         "played": "5",
@@ -169,7 +182,20 @@
         "logo": "malaga_cf"
     },
     {
-        "rank": "14",
+        "rank": "15",
+        "team": "Espanyol Barcelona",
+        "points": "5",
+        "played": "5",
+        "win": "1",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "9",
+        "goalsAgainst": "12",
+        "goalDifference": "-3",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "16",
         "team": "Real Betis",
         "points": "5",
         "played": "5",
@@ -182,20 +208,7 @@
         "logo": "real_betis"
     },
     {
-        "rank": "15",
-        "team": "CD Leganés",
-        "points": "4",
-        "played": "4",
-        "win": "1",
-        "draw": "1",
-        "lost": "2",
-        "goalsFor": "3",
-        "goalsAgainst": "7",
-        "goalDifference": "-4",
-        "logo": "cd_leganes"
-    },
-    {
-        "rank": "16",
+        "rank": "17",
         "team": "Celta Vigo",
         "points": "4",
         "played": "5",
@@ -208,30 +221,17 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "17",
-        "team": "Espanyol Barcelona",
-        "points": "2",
-        "played": "4",
-        "win": "0",
-        "draw": "2",
-        "lost": "2",
+        "rank": "18",
+        "team": "Valencia CF",
+        "points": "3",
+        "played": "5",
+        "win": "1",
+        "draw": "0",
+        "lost": "4",
         "goalsFor": "7",
         "goalsAgainst": "11",
         "goalDifference": "-4",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "18",
-        "team": "CA Osasuna",
-        "points": "2",
-        "played": "4",
-        "win": "0",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "3",
-        "goalsAgainst": "8",
-        "goalDifference": "-5",
-        "logo": "ca_osasuna"
+        "logo": "valencia_cf"
     },
     {
         "rank": "19",
@@ -248,15 +248,15 @@
     },
     {
         "rank": "20",
-        "team": "Valencia CF",
-        "points": "0",
-        "played": "4",
+        "team": "CA Osasuna",
+        "points": "2",
+        "played": "5",
         "win": "0",
-        "draw": "0",
-        "lost": "4",
-        "goalsFor": "5",
+        "draw": "2",
+        "lost": "3",
+        "goalsFor": "4",
         "goalsAgainst": "10",
-        "goalDifference": "-5",
-        "logo": "valencia_cf"
+        "goalDifference": "-6",
+        "logo": "ca_osasuna"
     }
 ]
