@@ -40,12 +40,17 @@ function updateData(itemExtended) {
 function parseRound(itemExtended, results, groupIndex) {
     return new Promise((resolve, reject) => {
         helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, resultsDataUrlExtensions[groupIndex]), function ($) {
+            var date;
             var currentMatches = results[groupIndex].matches;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
                 if (index < 12) {
+                    var displayDate = $(elem).find('td:nth-child(1)').text();
+                    date = displayDate || date;
+
                     currentMatches.push({
-                        date: $(elem).find('td:nth-child(1)').text(),
+                        date: date,
+                        displayDate: displayDate,
                         homeTeam: $(elem).find('td:nth-child(3) > a').text(),
                         awayTeam: $(elem).find('td:nth-child(5) > a').text(),
                         score: $(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-'
