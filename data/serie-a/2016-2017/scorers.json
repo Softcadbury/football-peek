@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "2.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "AC Milan",
+        "goals": "5",
+        "flag": "colombia",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
@@ -9,16 +27,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "2.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "AC Milan",
-        "goals": "4",
-        "flag": "colombia",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
@@ -37,12 +46,21 @@
     },
     {
         "rank": "-",
-        "name": "Mauro Icardi",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "4",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
-        "team": "Inter",
+        "team": "Juventus",
         "goals": "4",
         "flag": "argentina",
-        "logo": "inter"
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -63,13 +81,13 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "8.",
-        "name": "Gonzalo Higuaí­n",
-        "country": "Argentina",
-        "team": "Juventus",
+        "rank": "10.",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sassuolo Calcio",
         "goals": "3",
-        "flag": "argentina",
-        "logo": "juventus"
+        "flag": "france",
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
@@ -81,7 +99,25 @@
         "logo": "as_roma"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "AS Roma",
+        "goals": "3",
+        "flag": "egypt",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Simone Verdi",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "14.",
         "name": "Daniele Baselli",
         "country": "Italy",
         "team": "Torino FC",
@@ -109,21 +145,21 @@
     },
     {
         "rank": "-",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sassuolo Calcio",
+        "name": "Lucas Castro",
+        "country": "Argentina",
+        "team": "Chievo Verona",
         "goals": "2",
-        "flag": "france",
-        "logo": "sassuolo_calcio"
+        "flag": "argentina",
+        "logo": "chievo_verona"
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
+        "name": "Mattia Destro",
+        "country": "Italy",
+        "team": "Bologna FC",
         "goals": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "flag": "italy",
+        "logo": "bologna_fc"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "2",
         "flag": "germany",
         "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "2",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Luís Muriel",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Leonardo Pavoletti",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Stipe Perica",
-        "country": "Croatia",
-        "team": "Udinese Calcio",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "udinese_calcio"
     }
 ]

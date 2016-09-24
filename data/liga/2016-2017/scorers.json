@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -36,13 +45,13 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "5.",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
+        "rank": "6.",
+        "name": "Duje Čop",
+        "country": "Croatia",
+        "team": "Sporting Gijón",
         "goals": "3",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
+        "flag": "croatia",
+        "logo": "sporting_gijon"
     },
     {
         "rank": "-",
@@ -72,7 +81,16 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "11.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -109,12 +127,21 @@
     },
     {
         "rank": "-",
-        "name": "Duje Čop",
-        "country": "Croatia",
-        "team": "Sporting Gijón",
+        "name": "Mehdi Carcela-Gonzalez",
+        "country": "Morocco",
+        "team": "Granada CF",
         "goals": "2",
-        "flag": "croatia",
-        "logo": "sporting_gijon"
+        "flag": "morocco",
+        "logo": "granada_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Correa",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -136,47 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Gabriel",
+        "country": "Brazil",
+        "team": "CD Leganés",
+        "goals": "2",
+        "flag": "brazil",
+        "logo": "cd_leganes"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
         "goals": "2",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Marko Livaja",
-        "country": "Croatia",
-        "team": "UD Las Palmas",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": " Momo",
-        "country": "Spain",
-        "team": "UD Las Palmas",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": " Pablo Sarabia",
-        "country": "Spain",
-        "team": "Sevilla FC",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Pablo Piatti",
-        "country": "Argentina",
-        "team": "Espanyol Barcelona",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "espanyol_barcelona"
     }
 ]

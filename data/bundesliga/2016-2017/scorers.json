@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "5",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
@@ -9,7 +18,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
+        "name": "Anthony Modeste",
+        "country": "France",
+        "team": "1. FC Köln",
+        "goals": "4",
+        "flag": "france",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "-",
         "name": "Joel Pohjanpalo",
         "country": "Finland",
         "team": "Bayer Leverkusen",
@@ -18,7 +36,16 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "3.",
+        "rank": "5.",
+        "name": "Pablo de Blasis",
+        "country": "Argentina",
+        "team": "1. FSV Mainz 05",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
         "name": "Thorgan Hazard",
         "country": "Belgium",
         "team": "Bor. Mönchengladbach",
@@ -28,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Anthony Modeste",
-        "country": "France",
-        "team": "1. FC Köln",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "SC Freiburg",
         "goals": "3",
-        "flag": "france",
-        "logo": "1__fc_koln"
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -45,16 +72,16 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "6.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "goals": "2",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "rb_leipzig"
     },
     {
-        "rank": "-",
+        "rank": "10.",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -73,11 +100,20 @@
     },
     {
         "rank": "-",
-        "name": "Pablo de Blasis",
-        "country": "Argentina",
+        "name": "Daniel Didavi",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Yunus Mallı",
+        "country": "Turkey",
         "team": "1. FSV Mainz 05",
         "goals": "2",
-        "flag": "argentina",
+        "flag": "turkey",
         "logo": "1__fsv_mainz_05"
     },
     {
@@ -100,12 +136,21 @@
     },
     {
         "rank": "-",
-        "name": "Maximilian Philipp",
+        "name": "Nils Petersen",
         "country": "Germany",
         "team": "SC Freiburg",
         "goals": "2",
         "flag": "germany",
         "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Łukasz Piszczek",
+        "country": "Poland",
+        "team": "Borussia Dortmund",
+        "goals": "2",
+        "flag": "poland",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -118,65 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Julian Schieber",
-        "country": "Germany",
-        "team": "Hertha BSC",
+        "name": " Raphaël Guerreiro",
+        "country": "Portugal",
+        "team": "Borussia Dortmund",
         "goals": "2",
-        "flag": "germany",
-        "logo": "hertha_bsc"
+        "flag": "portugal",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Kostas Stafylidis",
-        "country": "Greece",
-        "team": "FC Augsburg",
-        "goals": "2",
-        "flag": "greece",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "goals": "2",
-        "flag": "germany",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Bobby Wood",
-        "country": "USA",
-        "team": "Hamburger SV",
-        "goals": "2",
-        "flag": "usa",
-        "logo": "hamburger_sv"
-    },
-    {
-        "rank": "-",
-        "name": " Xabi Alonso",
-        "country": "Spain",
+        "name": "Franck Ribéry",
+        "country": "France",
         "team": "Bayern München",
         "goals": "2",
-        "flag": "spain",
+        "flag": "france",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "19.",
-        "name": "Leonardo Bittencourt",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Vladimír Darida",
-        "country": "Czech Republic",
-        "team": "Hertha BSC",
-        "goals": "1",
-        "flag": "czech_republic",
-        "logo": "hertha_bsc"
     }
 ]
