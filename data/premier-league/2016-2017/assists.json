@@ -4,12 +4,12 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "3",
+        "assists": "4",
         "flag": "belgium",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Kelechi Iheanacho",
         "country": "Nigeria",
         "team": "Manchester City",
@@ -28,6 +28,15 @@
     },
     {
         "rank": "-",
+        "name": "Adam Lallana",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "3",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Dimitri Payet",
         "country": "France",
         "team": "West Ham United",
@@ -36,13 +45,31 @@
         "logo": "west_ham_united"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": " Álvaro Negredo",
         "country": "Spain",
         "team": "Middlesbrough FC",
         "assists": "2",
         "flag": "spain",
         "logo": "middlesbrough_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Arter",
+        "country": "Ireland",
+        "team": "AFC Bournemouth",
+        "assists": "2",
+        "flag": "ireland",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "-",
+        "name": "Daley Blind",
+        "country": "Netherlands",
+        "team": "Manchester United",
+        "assists": "2",
+        "flag": "netherlands",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -61,6 +88,24 @@
         "assists": "2",
         "flag": "belgium",
         "logo": "west_bromwich_albion"
+    },
+    {
+        "rank": "-",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Stewart Downing",
+        "country": "England",
+        "team": "Middlesbrough FC",
+        "assists": "2",
+        "flag": "england",
+        "logo": "middlesbrough_fc"
     },
     {
         "rank": "-",
@@ -118,65 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "assists": "2",
+        "flag": "chile",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": " Santi Cazorla",
         "country": "Spain",
         "team": "Arsenal FC",
         "assists": "2",
         "flag": "spain",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "assists": "2",
-        "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Kyle Walker",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "assists": "2",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Georginio Wijnaldum",
-        "country": "Netherlands",
-        "team": "Liverpool FC",
-        "assists": "2",
-        "flag": "netherlands",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "18.",
-        "name": "Harry Arter",
-        "country": "Ireland",
-        "team": "AFC Bournemouth",
-        "assists": "1",
-        "flag": "ireland",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Ross Barkley",
-        "country": "England",
-        "team": "Everton FC",
-        "assists": "1",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Modou Barrow",
-        "country": "Gambia",
-        "team": "Swansea City",
-        "assists": "1",
-        "flag": "gambia",
-        "logo": "swansea_city"
     }
 ]

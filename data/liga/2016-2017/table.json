@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "FC Barcelona",
+        "points": "13",
+        "played": "6",
+        "win": "4",
+        "draw": "1",
+        "lost": "1",
+        "goalsFor": "19",
+        "goalsAgainst": "6",
+        "goalDifference": "13",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2",
         "team": "Real Madrid",
         "points": "13",
         "played": "5",
@@ -13,33 +26,46 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "2",
-        "team": "Sevilla FC",
-        "points": "11",
-        "played": "5",
-        "win": "3",
-        "draw": "2",
-        "lost": "0",
-        "goalsFor": "10",
-        "goalsAgainst": "6",
-        "goalDifference": "4",
-        "logo": "sevilla_fc"
-    },
-    {
         "rank": "3",
-        "team": "FC Barcelona",
-        "points": "10",
-        "played": "5",
-        "win": "3",
-        "draw": "1",
-        "lost": "1",
-        "goalsFor": "14",
+        "team": "Athletic Bilbao",
+        "points": "12",
+        "played": "6",
+        "win": "4",
+        "draw": "0",
+        "lost": "2",
+        "goalsFor": "9",
         "goalsAgainst": "6",
-        "goalDifference": "8",
-        "logo": "fc_barcelona"
+        "goalDifference": "3",
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "4",
+        "team": "Sevilla FC",
+        "points": "11",
+        "played": "6",
+        "win": "3",
+        "draw": "2",
+        "lost": "1",
+        "goalsFor": "11",
+        "goalsAgainst": "9",
+        "goalDifference": "2",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "5",
+        "team": "SD Eibar",
+        "points": "10",
+        "played": "6",
+        "win": "3",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "8",
+        "goalsAgainst": "6",
+        "goalDifference": "2",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "6",
         "team": "Atlético Madrid",
         "points": "9",
         "played": "5",
@@ -52,7 +78,7 @@
         "logo": "atletico_madrid"
     },
     {
-        "rank": "5",
+        "rank": "7",
         "team": "UD Las Palmas",
         "points": "9",
         "played": "5",
@@ -65,7 +91,7 @@
         "logo": "ud_las_palmas"
     },
     {
-        "rank": "6",
+        "rank": "8",
         "team": "Villarreal CF",
         "points": "9",
         "played": "5",
@@ -78,20 +104,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "7",
-        "team": "Athletic Bilbao",
-        "points": "9",
-        "played": "5",
-        "win": "3",
-        "draw": "0",
-        "lost": "2",
-        "goalsFor": "6",
-        "goalsAgainst": "5",
-        "goalDifference": "1",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "8",
+        "rank": "9",
         "team": "Real Betis",
         "points": "8",
         "played": "6",
@@ -104,30 +117,17 @@
         "logo": "real_betis"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Real Sociedad",
         "points": "7",
-        "played": "5",
+        "played": "6",
         "win": "2",
         "draw": "1",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "8",
-        "goalsAgainst": "7",
-        "goalDifference": "1",
+        "goalsAgainst": "9",
+        "goalDifference": "-1",
         "logo": "real_sociedad"
-    },
-    {
-        "rank": "10",
-        "team": "SD Eibar",
-        "points": "7",
-        "played": "5",
-        "win": "2",
-        "draw": "1",
-        "lost": "2",
-        "goalsFor": "6",
-        "goalsAgainst": "6",
-        "goalDifference": "0",
-        "logo": "sd_eibar"
     },
     {
         "rank": "11",
@@ -146,13 +146,13 @@
         "rank": "12",
         "team": "Sporting Gijón",
         "points": "7",
-        "played": "5",
+        "played": "6",
         "win": "2",
         "draw": "1",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "5",
-        "goalsAgainst": "9",
-        "goalDifference": "-4",
+        "goalsAgainst": "14",
+        "goalDifference": "-9",
         "logo": "sporting_gijon"
     },
     {

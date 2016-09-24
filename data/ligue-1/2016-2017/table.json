@@ -81,13 +81,13 @@
         "rank": "7",
         "team": "Olympique Lyon",
         "points": "10",
-        "played": "6",
+        "played": "7",
         "win": "3",
         "draw": "1",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "13",
-        "goalsAgainst": "8",
-        "goalDifference": "5",
+        "goalsAgainst": "9",
+        "goalDifference": "4",
         "logo": "olympique_lyon"
     },
     {
@@ -170,6 +170,19 @@
     },
     {
         "rank": "14",
+        "team": "FC Lorient",
+        "points": "6",
+        "played": "7",
+        "win": "2",
+        "draw": "0",
+        "lost": "5",
+        "goalsFor": "4",
+        "goalsAgainst": "11",
+        "goalDifference": "-7",
+        "logo": "fc_lorient"
+    },
+    {
+        "rank": "15",
         "team": "SM Caen",
         "points": "6",
         "played": "6",
@@ -182,7 +195,7 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "15",
+        "rank": "16",
         "team": "Olympique Marseille",
         "points": "5",
         "played": "6",
@@ -195,7 +208,7 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "16",
+        "rank": "17",
         "team": "FC Nantes",
         "points": "5",
         "played": "6",
@@ -208,7 +221,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "AS Nancy",
         "points": "5",
         "played": "6",
@@ -221,7 +234,7 @@
         "logo": "as_nancy"
     },
     {
-        "rank": "18",
+        "rank": "19",
         "team": "Lille OSC",
         "points": "4",
         "played": "6",
@@ -234,7 +247,7 @@
         "logo": "lille_osc"
     },
     {
-        "rank": "19",
+        "rank": "20",
         "team": "Dijon FCO",
         "points": "4",
         "played": "6",
@@ -245,18 +258,5 @@
         "goalsAgainst": "10",
         "goalDifference": "-5",
         "logo": "dijon_fco"
-    },
-    {
-        "rank": "20",
-        "team": "FC Lorient",
-        "points": "3",
-        "played": "6",
-        "win": "1",
-        "draw": "0",
-        "lost": "5",
-        "goalsFor": "3",
-        "goalsAgainst": "11",
-        "goalDifference": "-8",
-        "logo": "fc_lorient"
     }
 ]
