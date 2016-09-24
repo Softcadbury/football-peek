@@ -135,7 +135,7 @@ function testDataIsNotEmpty(dataName, data) {
     it(dataName + ' should not have empty data', () => {
         data.forEach((item, index) => {
             for (var key in item) {
-                if (item.hasOwnProperty(key) && key !== 'date') {
+                if (item.hasOwnProperty(key) && key !== 'displayDate') {
                     assert.notEqual('', item[key], 'Key "' + key + '" is empty for item ' + index);
                 }
             }
