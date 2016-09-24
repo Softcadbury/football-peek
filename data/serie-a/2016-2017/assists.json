@@ -1,12 +1,75 @@
 [
     {
         "rank": "1.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "3",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Ladislav Krejčí",
+        "country": "Czech Republic",
+        "team": "Bologna FC",
+        "assists": "3",
+        "flag": "czech_republic",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "3.",
+        "name": "Ricardo Álvarez",
+        "country": "Argentina",
+        "team": "Sampdoria",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
+        "name": "Éver Banega",
+        "country": "Argentina",
+        "team": "Inter",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Valter Birsa",
+        "country": "Slovenia",
+        "team": "Chievo Verona",
+        "assists": "2",
+        "flag": "slovenia",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Andrea Conti",
         "country": "Italy",
         "team": "Atalanta",
         "assists": "2",
         "flag": "italy",
         "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
@@ -19,11 +82,29 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sassuolo Calcio",
+        "assists": "2",
+        "flag": "france",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Stephan El Shaarawy",
+        "country": "Italy",
         "team": "AS Roma",
         "assists": "2",
-        "flag": "bosnia_herzegovina",
+        "flag": "italy",
         "logo": "as_roma"
     },
     {
@@ -34,6 +115,33 @@
         "assists": "2",
         "flag": "slovenia",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Mauricio Isla",
+        "country": "Chile",
+        "team": "Cagliari Calcio",
+        "assists": "2",
+        "flag": "chile",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Baldé Diao Keita",
+        "country": "Senegal",
+        "team": "Lazio Roma",
+        "assists": "2",
+        "flag": "senegal",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -63,120 +171,12 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "8.",
-        "name": "Ignazio Abate",
+        "rank": "-",
+        "name": "Manuel Pasqual",
         "country": "Italy",
-        "team": "AC Milan",
-        "assists": "1",
+        "team": "Empoli FC",
+        "assists": "2",
         "flag": "italy",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Ricardo Álvarez",
-        "country": "Argentina",
-        "team": "Sampdoria",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Dušan Basta",
-        "country": "Serbia",
-        "team": "Lazio Roma",
-        "assists": "1",
-        "flag": "serbia",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Benassi",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Biglia",
-        "country": "Argentina",
-        "team": "Lazio Roma",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Giacomo Bonaventura",
-        "country": "Italy",
-        "team": "AC Milan",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Boyé",
-        "country": "Argentina",
-        "team": "Torino FC",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Fabrizio Cacciatore",
-        "country": "Italy",
-        "team": "Chievo Verona",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Candreva",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Giorgio Chiellini",
-        "country": "Italy",
-        "team": "Juventus",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sassuolo Calcio",
-        "assists": "1",
-        "flag": "france",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Alfred Duncan",
-        "country": "Ghana",
-        "team": "Sassuolo Calcio",
-        "assists": "1",
-        "flag": "ghana",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "juventus"
+        "logo": "empoli_fc"
     }
 ]

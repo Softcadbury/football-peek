@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Edinson Cavani",
+        "country": "Uruguay",
+        "team": "Paris Saint-Germain",
+        "goals": "6",
+        "flag": "uruguay",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Olympique Lyon",
@@ -9,13 +18,112 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
+        "name": "Mevlüt Erdinç",
+        "country": "Turkey",
+        "team": "FC Metz",
+        "goals": "5",
+        "flag": "turkey",
+        "logo": "fc_metz"
+    },
+    {
+        "rank": "4.",
+        "name": "Mario Balotelli",
+        "country": "Italy",
+        "team": "OGC Nice",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
         "name": "Martin Braithwaite",
         "country": "Denmark",
         "team": "Toulouse FC",
-        "goals": "2",
+        "goals": "4",
         "flag": "denmark",
         "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Bafétimbi Gomis",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "goals": "4",
+        "flag": "france",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
+        "name": " Lucas",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "8.",
+        "name": " Fabinho",
+        "country": "Brazil",
+        "team": "AS Monaco",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": " Malcom",
+        "country": "Brazil",
+        "team": "Girondins Bordeaux",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "-",
+        "name": "Benjamin Moukandjo",
+        "country": "Cameroon",
+        "team": "FC Lorient",
+        "goals": "3",
+        "flag": "cameroon",
+        "logo": "fc_lorient"
+    },
+    {
+        "rank": "-",
+        "name": "Corentin Tolisso",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "3",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "12.",
+        "name": "Robert Berić",
+        "country": "Slovenia",
+        "team": "AS Saint-Étienne",
+        "goals": "2",
+        "flag": "slovenia",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "-",
+        "name": "Ryad Boudebouz",
+        "country": "Algeria",
+        "team": "Montpellier HSC",
+        "goals": "2",
+        "flag": "algeria",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "-",
+        "name": "Jimmy Briand",
+        "country": "France",
+        "team": "EA Guingamp",
+        "goals": "2",
+        "flag": "france",
+        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -37,21 +145,30 @@
     },
     {
         "rank": "-",
-        "name": "Mevlüt Erdinç",
-        "country": "Turkey",
-        "team": "FC Metz",
+        "name": "Jimmy Durmaz",
+        "country": "Sweden",
+        "team": "Toulouse FC",
         "goals": "2",
-        "flag": "turkey",
-        "logo": "fc_metz"
+        "flag": "sweden",
+        "logo": "toulouse_fc"
     },
     {
         "rank": "-",
-        "name": " Fabinho",
-        "country": "Brazil",
-        "team": "AS Monaco",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Olympique Lyon",
         "goals": "2",
-        "flag": "brazil",
-        "logo": "as_monaco"
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Romain Hamouma",
+        "country": "France",
+        "team": "AS Saint-Étienne",
+        "goals": "2",
+        "flag": "france",
+        "logo": "as_saint_etienne"
     },
     {
         "rank": "-",
@@ -60,123 +177,6 @@
         "team": "Paris Saint-Germain",
         "goals": "2",
         "flag": "france",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Benjamin Moukandjo",
-        "country": "Cameroon",
-        "team": "FC Lorient",
-        "goals": "2",
-        "flag": "cameroon",
-        "logo": "fc_lorient"
-    },
-    {
-        "rank": "-",
-        "name": "Diego Rolán",
-        "country": "Uruguay",
-        "team": "Girondins Bordeaux",
-        "goals": "2",
-        "flag": "uruguay",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "-",
-        "name": " Rony Lopes",
-        "country": "Portugal",
-        "team": "Lille OSC",
-        "goals": "2",
-        "flag": "portugal",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Santini",
-        "country": "Croatia",
-        "team": "SM Caen",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "sm_caen"
-    },
-    {
-        "rank": "12.",
-        "name": "Dylan Bahamboula",
-        "country": "France",
-        "team": "Dijon FCO",
-        "goals": "1",
-        "flag": "france",
-        "logo": "dijon_fco"
-    },
-    {
-        "rank": "-",
-        "name": "Hervé Bazile",
-        "country": "Haiti",
-        "team": "SM Caen",
-        "goals": "1",
-        "flag": "haiti",
-        "logo": "sm_caen"
-    },
-    {
-        "rank": "-",
-        "name": "Franck Béria",
-        "country": "France",
-        "team": "Lille OSC",
-        "goals": "1",
-        "flag": "france",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Robert Berić",
-        "country": "Slovenia",
-        "team": "AS Saint-Étienne",
-        "goals": "1",
-        "flag": "slovenia",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": " Bernardo Silva",
-        "country": "Portugal",
-        "team": "AS Monaco",
-        "goals": "1",
-        "flag": "portugal",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": " Boschilia",
-        "country": "Brazil",
-        "team": "AS Monaco",
-        "goals": "1",
-        "flag": "brazil",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Ryad Boudebouz",
-        "country": "Algeria",
-        "team": "Montpellier HSC",
-        "goals": "1",
-        "flag": "algeria",
-        "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "-",
-        "name": "Rémy Cabella",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "goals": "1",
-        "flag": "france",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Paris Saint-Germain",
-        "goals": "1",
-        "flag": "uruguay",
         "logo": "paris_saint_germain"
     }
 ]
