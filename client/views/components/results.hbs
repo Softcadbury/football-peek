@@ -14,27 +14,34 @@
     </ul>
     <table class="component">
         <tr>
-            <td colspan="4">
+            <td colspan="5">
                 <div class="component-title">
-                    <a class="dropdown-arrow dropdown-arrow-previous" id="dropdown-arrow-rounds-previous"></a>
+                    <a class="icon-left-open" id="arrow-rounds-previous" href="#/" title="Previous round"></a>
                     <h3 class="dropdown-label" id="dropdown-label-rounds">Round {{currentRound}}</h3>
-                    <div class="dropdown-arrow" id="dropdown-arrow-rounds"></div>
-                    <a class="dropdown-arrow dropdown-arrow-next" id="dropdown-arrow-rounds-next"></a>
+                    <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-rounds"></div>
+                    <a class="icon-right-open" id="arrow-rounds-next" href="#/" title="Next round"></a>
                 </div>
             </td>
         </tr>
         {{#each resultsData}}
             {{#each this.matches}}
             <tr class="round-content round-{{../round}}-content" style="display:none;">
-                <td>{{this.date}}</td>
+                <td>{{this.displayDate}}</td>
                 <td class="component-column-main component-column-right">
                     <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
                     <div class="icon-logo icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></div>
                 </td>
-                <td class="component-column-score">{{this.score}}</td>
+                <td class="component-column-score">
+                    {{this.score}}
+                </td>
                 <td class="component-column-main">
                     <div class="icon-logo icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></div>
                     <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
+                </td>
+                <td class="component-column-score">
+                    <a href="https://www.youtube.com/results?search_query=highlights {{this.date}} {{this.homeTeam}} {{this.awayTeam}} {{this.score}}" target="_blank" rel="nofollow" title="Watch highlights">
+                        <i class="icon-television"></i>
+                    </a>
                 </td>
             </tr>
             {{/each}}

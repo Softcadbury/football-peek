@@ -46,7 +46,7 @@ function manageRoundsDropdown() {
         }
 
         // Init previous button
-        var previous = document.getElementById('dropdown-arrow-rounds-previous');
+        var previous = document.getElementById('arrow-rounds-previous');
         if (roundRequested > 1) {
             var previousRound = parseInt(roundRequested) - 1;
             previous.setAttribute('href', '#/round-' + previousRound);
@@ -56,7 +56,7 @@ function manageRoundsDropdown() {
         }
 
         // Init next button
-        var next = document.getElementById('dropdown-arrow-rounds-next');
+        var next = document.getElementById('arrow-rounds-next');
         if (roundRequested < window.numberOfRounds) {
             var nextRound = parseInt(roundRequested) + 1;
             next.setAttribute('href', '#/round-' + nextRound);
@@ -88,7 +88,7 @@ function manageGroupsDropdown() {
         }
 
         // Init previous button
-        var previous = document.getElementById('dropdown-arrow-groups-previous');
+        var previous = document.getElementById('arrow-groups-previous');
         if (groupRequestedIndex > 96 + 1) {
             var previousGroup = String.fromCharCode(groupRequestedIndex - 1);
             previous.setAttribute('href', '#/group-' + previousGroup);
@@ -98,7 +98,7 @@ function manageGroupsDropdown() {
         }
 
         // Init next button
-        var next = document.getElementById('dropdown-arrow-groups-next');
+        var next = document.getElementById('arrow-groups-next');
         if (groupRequestedIndex < 96 + window.numberOfGroups) {
             var nextGroup = String.fromCharCode(groupRequestedIndex + 1);
             next.setAttribute('href', '#/group-' + nextGroup);
