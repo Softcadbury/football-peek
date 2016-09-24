@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "5",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
@@ -9,16 +18,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "2.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "goals": "4",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
+        "rank": "3.",
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
@@ -55,6 +55,15 @@
     },
     {
         "rank": "-",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
         "name": "Mark Uth",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -72,7 +81,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -136,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Maximilian Philipp",
-        "country": "Germany",
-        "team": "SC Freiburg",
+        "name": "Łukasz Piszczek",
+        "country": "Poland",
+        "team": "Borussia Dortmund",
         "goals": "2",
-        "flag": "germany",
-        "logo": "sc_freiburg"
+        "flag": "poland",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Raphaël Guerreiro",
+        "country": "Portugal",
+        "team": "Borussia Dortmund",
+        "goals": "2",
+        "flag": "portugal",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Franck Ribéry",
         "country": "France",
         "team": "Bayern München",
         "goals": "2",
         "flag": "france",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Julian Schieber",
-        "country": "Germany",
-        "team": "Hertha BSC",
-        "goals": "2",
-        "flag": "germany",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Kostas Stafylidis",
-        "country": "Greece",
-        "team": "FC Augsburg",
-        "goals": "2",
-        "flag": "greece",
-        "logo": "fc_augsburg"
     }
 ]
