@@ -13,18 +13,18 @@
     </ul>
     <table class="component">
         <tr>
-            <td colspan="4">
+            <td colspan="5">
                 <div class="component-title">
-                    <a class="icon-left-open" id="arrow-groups-previous"></a>
+                    <a class="icon-left-open" id="arrow-groups-previous" href="#/" title="Previous group"></a>
                     <h3 class="dropdown-label" id="dropdown-label-groups">Group A</h3>
                     <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-groups"></div>
-                    <a class="icon-right-open" id="arrow-groups-next"></a>
+                    <a class="icon-right-open" id="arrow-groups-next" href="#/" title="Next group"></a>
                 </div>
             </td>
         </tr>
         {{#each groupsData}}
             <tr class="group-content group-{{group}}-content" style="display:none;">
-                <td colspan="4" class="table-container">
+                <td colspan="5" class="table-container">
                     <table>
                         <tr>
                             <th title="Position">#</th>
@@ -59,7 +59,7 @@
                 </td>
             </tr>
             <tr class="group-content group-{{group}}-content" style="display:none;">
-                <td colspan="4">
+                <td colspan="5">
                     <div class="component-title">
                         <h3>Results</h3>
                     </div>
@@ -67,7 +67,7 @@
             </tr>
             {{#each this.matches}}
             <tr class="group-content group-{{../group}}-content" style="display:none;">
-                <td>{{this.date}}</td>
+                <td>{{this.displayDate}}</td>
                 <td class="component-column-main component-column-right">
                     <span title="{{this.homeTeam}}">{{this.homeTeam}}</span>
                     <div class="icon-logo icon-{{this.homeTeamLogo}}" title="{{this.homeTeam}}"></div>
@@ -76,6 +76,11 @@
                 <td class="component-column-main">
                     <div class="icon-logo icon-{{this.awayTeamLogo}}" title="{{this.awayTeam}}"></div>
                     <span title="{{this.awayTeam}}">{{this.awayTeam}}</span>
+                </td>
+                <td class="component-column-score">
+                    <a href="https://www.youtube.com/results?search_query=highlights {{this.date}} {{this.homeTeam}} {{this.awayTeam}} {{this.score}}" target="_blank" rel="nofollow" title="Watch highlights">
+                        <i class="icon-television"></i>
+                    </a>
                 </td>
             </tr>
             {{/each}}       
