@@ -29,13 +29,13 @@
         "rank": "3",
         "team": "AS Roma",
         "points": "10",
-        "played": "5",
+        "played": "6",
         "win": "3",
         "draw": "1",
-        "lost": "1",
-        "goalsFor": "13",
-        "goalsAgainst": "5",
-        "goalDifference": "8",
+        "lost": "2",
+        "goalsFor": "14",
+        "goalsAgainst": "8",
+        "goalDifference": "6",
         "logo": "as_roma"
     },
     {
@@ -92,6 +92,19 @@
     },
     {
         "rank": "8",
+        "team": "Torino FC",
+        "points": "8",
+        "played": "6",
+        "win": "2",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "11",
+        "goalsAgainst": "7",
+        "goalDifference": "4",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "9",
         "team": "Genoa CFC",
         "points": "7",
         "played": "4",
@@ -104,7 +117,7 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Lazio Roma",
         "points": "7",
         "played": "5",
@@ -117,7 +130,7 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "ACF Fiorentina",
         "points": "7",
         "played": "4",
@@ -130,7 +143,7 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "Udinese Calcio",
         "points": "7",
         "played": "5",
@@ -143,7 +156,7 @@
         "logo": "udinese_calcio"
     },
     {
-        "rank": "12",
+        "rank": "13",
         "team": "Sampdoria",
         "points": "6",
         "played": "5",
@@ -156,7 +169,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "Sassuolo Calcio",
         "points": "6",
         "played": "5",
@@ -167,19 +180,6 @@
         "goalsAgainst": "8",
         "goalDifference": "-3",
         "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "14",
-        "team": "Torino FC",
-        "points": "5",
-        "played": "5",
-        "win": "1",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "8",
-        "goalsAgainst": "6",
-        "goalDifference": "2",
-        "logo": "torino_fc"
     },
     {
         "rank": "15",
