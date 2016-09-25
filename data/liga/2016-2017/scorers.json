@@ -91,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": " Tana",
+        "country": "Spain",
+        "team": "UD Las Palmas",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
         "name": "Luciano Vietto",
         "country": "Argentina",
         "team": "Sevilla FC",
@@ -108,7 +117,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
         "name": " Álex Alegría",
         "country": "Spain",
         "team": "Real Betis",
@@ -118,11 +127,29 @@
     },
     {
         "rank": "-",
+        "name": "Sergio Araujo",
+        "country": "Argentina",
+        "team": "UD Las Palmas",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
         "name": "Gareth Bale",
         "country": "Wales",
         "team": "Real Madrid",
         "goals": "2",
         "flag": "wales",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "2",
+        "flag": "france",
         "logo": "real_madrid"
     },
     {
@@ -151,32 +178,5 @@
         "goals": "2",
         "flag": "argentina",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Nabil El Zhar",
-        "country": "Morocco",
-        "team": "UD Las Palmas",
-        "goals": "2",
-        "flag": "morocco",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": " Fernando Torres",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel",
-        "country": "Brazil",
-        "team": "CD Leganés",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "cd_leganes"
     }
 ]

@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "Real Madrid",
+        "points": "14",
+        "played": "6",
+        "win": "4",
+        "draw": "2",
+        "lost": "0",
+        "goalsFor": "15",
+        "goalsAgainst": "6",
+        "goalDifference": "9",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "2",
         "team": "FC Barcelona",
         "points": "13",
         "played": "6",
@@ -11,19 +24,6 @@
         "goalsAgainst": "6",
         "goalDifference": "13",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "2",
-        "team": "Real Madrid",
-        "points": "13",
-        "played": "5",
-        "win": "4",
-        "draw": "1",
-        "lost": "0",
-        "goalsFor": "13",
-        "goalsAgainst": "4",
-        "goalDifference": "9",
-        "logo": "real_madrid"
     },
     {
         "rank": "3",
@@ -53,6 +53,19 @@
     },
     {
         "rank": "5",
+        "team": "UD Las Palmas",
+        "points": "10",
+        "played": "6",
+        "win": "3",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "14",
+        "goalsAgainst": "11",
+        "goalDifference": "3",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "6",
         "team": "SD Eibar",
         "points": "10",
         "played": "6",
@@ -65,7 +78,7 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "6",
+        "rank": "7",
         "team": "Atlético Madrid",
         "points": "9",
         "played": "5",
@@ -76,19 +89,6 @@
         "goalsAgainst": "2",
         "goalDifference": "9",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "7",
-        "team": "UD Las Palmas",
-        "points": "9",
-        "played": "5",
-        "win": "3",
-        "draw": "0",
-        "lost": "2",
-        "goalsFor": "12",
-        "goalsAgainst": "9",
-        "goalDifference": "3",
-        "logo": "ud_las_palmas"
     },
     {
         "rank": "8",
