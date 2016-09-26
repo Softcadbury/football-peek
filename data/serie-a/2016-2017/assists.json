@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
@@ -27,7 +36,16 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Francesco Zampano",
+        "country": "Italy",
+        "team": "Pescara Calcio",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "pescara_calcio"
+    },
+    {
+        "rank": "6.",
         "name": "Ricardo Álvarez",
         "country": "Argentina",
         "team": "Sampdoria",
@@ -46,21 +64,21 @@
     },
     {
         "rank": "-",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
         "assists": "2",
         "flag": "slovenia",
         "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Candreva",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "inter"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "2",
         "flag": "portugal",
         "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Cristian Molinaro",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Luís Muriel",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "assists": "2",
-        "flag": "colombia",
-        "logo": "sampdoria"
     }
 ]
