@@ -28,13 +28,13 @@
     {
         "rank": "3",
         "team": "1. FC Köln",
-        "points": "10",
-        "played": "4",
+        "points": "11",
+        "played": "5",
         "win": "3",
-        "draw": "1",
+        "draw": "2",
         "lost": "0",
-        "goalsFor": "8",
-        "goalsAgainst": "1",
+        "goalsFor": "9",
+        "goalsAgainst": "2",
         "goalDifference": "7",
         "logo": "1__fc_koln"
     },
@@ -80,13 +80,13 @@
     {
         "rank": "7",
         "team": "RB Leipzig",
-        "points": "8",
-        "played": "4",
+        "points": "9",
+        "played": "5",
         "win": "2",
-        "draw": "2",
+        "draw": "3",
         "lost": "0",
-        "goalsFor": "8",
-        "goalsAgainst": "3",
+        "goalsFor": "9",
+        "goalsAgainst": "4",
         "goalDifference": "5",
         "logo": "rb_leipzig"
     },
@@ -105,6 +105,19 @@
     },
     {
         "rank": "9",
+        "team": "1899 Hoffenheim",
+        "points": "7",
+        "played": "5",
+        "win": "1",
+        "draw": "4",
+        "lost": "0",
+        "goalsFor": "9",
+        "goalsAgainst": "8",
+        "goalDifference": "1",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "10",
         "team": "Bayer Leverkusen",
         "points": "7",
         "played": "5",
@@ -117,7 +130,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "FC Augsburg",
         "points": "7",
         "played": "5",
@@ -130,7 +143,7 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "SC Freiburg",
         "points": "6",
         "played": "5",
@@ -143,7 +156,7 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "12",
+        "rank": "13",
         "team": "VfL Wolfsburg",
         "points": "5",
         "played": "5",
@@ -154,19 +167,6 @@
         "goalsAgainst": "7",
         "goalDifference": "-3",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "13",
-        "team": "1899 Hoffenheim",
-        "points": "4",
-        "played": "4",
-        "win": "0",
-        "draw": "4",
-        "lost": "0",
-        "goalsFor": "7",
-        "goalsAgainst": "7",
-        "goalDifference": "0",
-        "logo": "1899_hoffenheim"
     },
     {
         "rank": "14",
@@ -224,13 +224,13 @@
         "rank": "18",
         "team": "FC Schalke 04",
         "points": "0",
-        "played": "4",
+        "played": "5",
         "win": "0",
         "draw": "0",
-        "lost": "4",
-        "goalsFor": "1",
-        "goalsAgainst": "8",
-        "goalDifference": "-7",
+        "lost": "5",
+        "goalsFor": "2",
+        "goalsAgainst": "10",
+        "goalDifference": "-8",
         "logo": "fc_schalke_04"
     }
 ]

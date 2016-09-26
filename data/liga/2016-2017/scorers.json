@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "goals": "5",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
@@ -9,22 +18,13 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": " Gerard",
         "country": "Spain",
         "team": "Espanyol Barcelona",
         "goals": "4",
         "flag": "spain",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "goals": "4",
-        "flag": "france",
-        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -45,7 +45,16 @@
         "logo": "real_betis"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Nicola Sansone",
+        "country": "Italy",
+        "team": "Villarreal CF",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "7.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -79,15 +88,6 @@
         "goals": "3",
         "flag": "spain",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": "Nicola Sansone",
-        "country": "Italy",
-        "team": "Villarreal CF",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Bruno Soriano",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
         "name": "Mehdi Carcela-Gonzalez",
         "country": "Morocco",
         "team": "Granada CF",
         "goals": "2",
         "flag": "morocco",
         "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Correa",
-        "country": "Argentina",
-        "team": "Atlético Madrid",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "atletico_madrid"
     }
 ]

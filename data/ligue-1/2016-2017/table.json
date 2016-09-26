@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "OGC Nice",
+        "points": "17",
+        "played": "7",
+        "win": "5",
+        "draw": "2",
+        "lost": "0",
+        "goalsFor": "12",
+        "goalsAgainst": "4",
+        "goalDifference": "8",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "2",
         "team": "AS Monaco",
         "points": "16",
         "played": "7",
@@ -11,19 +24,6 @@
         "goalsAgainst": "9",
         "goalDifference": "6",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "2",
-        "team": "OGC Nice",
-        "points": "14",
-        "played": "6",
-        "win": "4",
-        "draw": "2",
-        "lost": "0",
-        "goalsFor": "11",
-        "goalsAgainst": "4",
-        "goalDifference": "7",
-        "logo": "ogc_nice"
     },
     {
         "rank": "3",
@@ -79,6 +79,19 @@
     },
     {
         "rank": "7",
+        "team": "AS Saint-Étienne",
+        "points": "12",
+        "played": "7",
+        "win": "3",
+        "draw": "3",
+        "lost": "1",
+        "goalsFor": "10",
+        "goalsAgainst": "6",
+        "goalDifference": "4",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "8",
         "team": "EA Guingamp",
         "points": "11",
         "played": "7",
@@ -91,7 +104,7 @@
         "logo": "ea_guingamp"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "Olympique Lyon",
         "points": "10",
         "played": "7",
@@ -104,7 +117,7 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "SC Bastia",
         "points": "10",
         "played": "7",
@@ -117,7 +130,7 @@
         "logo": "sc_bastia"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "Stade Rennes",
         "points": "10",
         "played": "7",
@@ -128,19 +141,6 @@
         "goalsAgainst": "10",
         "goalDifference": "-2",
         "logo": "stade_rennes"
-    },
-    {
-        "rank": "11",
-        "team": "AS Saint-Étienne",
-        "points": "9",
-        "played": "6",
-        "win": "2",
-        "draw": "3",
-        "lost": "1",
-        "goalsFor": "7",
-        "goalsAgainst": "5",
-        "goalDifference": "2",
-        "logo": "as_saint_etienne"
     },
     {
         "rank": "12",
@@ -157,6 +157,19 @@
     },
     {
         "rank": "13",
+        "team": "Olympique Marseille",
+        "points": "8",
+        "played": "7",
+        "win": "2",
+        "draw": "2",
+        "lost": "3",
+        "goalsFor": "9",
+        "goalsAgainst": "9",
+        "goalDifference": "0",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "14",
         "team": "Dijon FCO",
         "points": "7",
         "played": "7",
@@ -169,7 +182,7 @@
         "logo": "dijon_fco"
     },
     {
-        "rank": "14",
+        "rank": "15",
         "team": "SM Caen",
         "points": "7",
         "played": "7",
@@ -182,7 +195,7 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "15",
+        "rank": "16",
         "team": "Montpellier HSC",
         "points": "6",
         "played": "7",
@@ -195,7 +208,7 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "16",
+        "rank": "17",
         "team": "FC Lorient",
         "points": "6",
         "played": "7",
@@ -208,55 +221,42 @@
         "logo": "fc_lorient"
     },
     {
-        "rank": "17",
-        "team": "Olympique Marseille",
-        "points": "5",
-        "played": "6",
-        "win": "1",
-        "draw": "2",
-        "lost": "3",
-        "goalsFor": "7",
-        "goalsAgainst": "8",
-        "goalDifference": "-1",
-        "logo": "olympique_marseille"
-    },
-    {
         "rank": "18",
         "team": "FC Nantes",
         "points": "5",
-        "played": "6",
+        "played": "7",
         "win": "1",
         "draw": "2",
-        "lost": "3",
-        "goalsFor": "2",
-        "goalsAgainst": "6",
-        "goalDifference": "-4",
+        "lost": "4",
+        "goalsFor": "3",
+        "goalsAgainst": "8",
+        "goalDifference": "-5",
         "logo": "fc_nantes"
     },
     {
         "rank": "19",
         "team": "AS Nancy",
         "points": "5",
-        "played": "6",
+        "played": "7",
         "win": "1",
         "draw": "2",
-        "lost": "3",
+        "lost": "4",
         "goalsFor": "3",
-        "goalsAgainst": "8",
-        "goalDifference": "-5",
+        "goalsAgainst": "9",
+        "goalDifference": "-6",
         "logo": "as_nancy"
     },
     {
         "rank": "20",
         "team": "Lille OSC",
         "points": "4",
-        "played": "6",
+        "played": "7",
         "win": "1",
         "draw": "1",
-        "lost": "4",
-        "goalsFor": "6",
-        "goalsAgainst": "11",
-        "goalDifference": "-5",
+        "lost": "5",
+        "goalsFor": "7",
+        "goalsAgainst": "14",
+        "goalDifference": "-7",
         "logo": "lille_osc"
     }
 ]
