@@ -1,21 +1,30 @@
 [
     {
         "rank": "1.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "goals": "5",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "5",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "3.",
         "name": " Gerard",
         "country": "Spain",
         "team": "Espanyol Barcelona",
         "goals": "4",
         "flag": "spain",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "goals": "4",
-        "flag": "france",
-        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -37,21 +46,39 @@
     },
     {
         "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
+        "name": "Nicola Sansone",
+        "country": "Italy",
+        "team": "Villarreal CF",
         "goals": "4",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
+        "flag": "italy",
+        "logo": "villarreal_cf"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
         "name": "Duje Čop",
         "country": "Croatia",
         "team": "Sporting Gijón",
         "goals": "3",
         "flag": "croatia",
         "logo": "sporting_gijon"
+    },
+    {
+        "rank": "-",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -64,12 +91,12 @@
     },
     {
         "rank": "-",
-        "name": "Nicola Sansone",
-        "country": "Italy",
-        "team": "Villarreal CF",
+        "name": " Tana",
+        "country": "Spain",
+        "team": "UD Las Palmas",
         "goals": "3",
-        "flag": "italy",
-        "logo": "villarreal_cf"
+        "flag": "spain",
+        "logo": "ud_las_palmas"
     },
     {
         "rank": "-",
@@ -90,16 +117,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "11.",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
+        "rank": "14.",
         "name": " Álex Alegría",
         "country": "Spain",
         "team": "Real Betis",
@@ -109,11 +127,29 @@
     },
     {
         "rank": "-",
+        "name": "Sergio Araujo",
+        "country": "Argentina",
+        "team": "UD Las Palmas",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
         "name": "Gareth Bale",
         "country": "Wales",
         "team": "Real Madrid",
         "goals": "2",
         "flag": "wales",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "2",
+        "flag": "france",
         "logo": "real_madrid"
     },
     {
@@ -127,56 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Bruno Soriano",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
         "name": "Mehdi Carcela-Gonzalez",
         "country": "Morocco",
         "team": "Granada CF",
         "goals": "2",
         "flag": "morocco",
         "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Correa",
-        "country": "Argentina",
-        "team": "Atlético Madrid",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Nabil El Zhar",
-        "country": "Morocco",
-        "team": "UD Las Palmas",
-        "goals": "2",
-        "flag": "morocco",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": " Fernando Torres",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel",
-        "country": "Brazil",
-        "team": "CD Leganés",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "cd_leganes"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Gameiro",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "goals": "2",
-        "flag": "france",
-        "logo": "atletico_madrid"
     }
 ]
