@@ -41,7 +41,7 @@ gulp.task('sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
         imgName: 'images/sprite.png',
-        cssName: 'styles/sprite.css'
+        cssName: 'styles/miscs/sprite.css'
     });
 
     gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
