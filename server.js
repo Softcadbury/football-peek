@@ -9,8 +9,8 @@ var app = express();
 
 // Setup cron jobs
 var CronJob = require('cron').CronJob;
-var leagueCronJobTimes =      ['00 00 19 * * *', '00 00 21 * * *', '00 00 23 * * *', '00 30 23 * * *'];
-var competitionCronJobTimes = ['00 10 19 * * *', '00 10 21 * * *', '00 10 23 * * *', '00 40 23 * * *'];
+var leagueCronJobTimes = ['00 00 17 * * *', '00 00 19 * * *', '00 00 21 * * *', '00 30 22 * * *', '00 00 23 * * *', '00 30 23 * * *', '00 00 00 * * *', '00 00 01 * * *'];
+var competitionCronJobTimes = ['00 10 21 * * 3-5', '00 10 23 * * 3-5', '00 10 00 * * *'];
 
 leagueCronJobTimes.forEach(function (time) {
     (new CronJob(time, function () {
@@ -29,7 +29,9 @@ competitionCronJobTimes.forEach(function (time) {
 // Middlewares configuration
 var tenMinutes = 600000;
 app.use(compression());
-app.use(express.static('build', { maxAge: tenMinutes }));
+app.use(express.static('build', {
+    maxAge: tenMinutes
+}));
 
 // Handlebars configuration
 app.set('views', 'client/views');
