@@ -949,19 +949,6 @@
         "table": [
             {
                 "rank": "1",
-                "team": "Real Madrid",
-                "points": "4",
-                "played": "2",
-                "win": "1",
-                "draw": "1",
-                "lost": "0",
-                "goalsFor": "4",
-                "goalsAgainst": "3",
-                "goalDifference": "1",
-                "logo": "real_madrid"
-            },
-            {
-                "rank": "2",
                 "team": "Borussia Dortmund",
                 "points": "4",
                 "played": "2",
@@ -972,6 +959,19 @@
                 "goalsAgainst": "2",
                 "goalDifference": "6",
                 "logo": "borussia_dortmund"
+            },
+            {
+                "rank": "2",
+                "team": "Real Madrid",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "3",
+                "goalDifference": "1",
+                "logo": "real_madrid"
             },
             {
                 "rank": "3",
