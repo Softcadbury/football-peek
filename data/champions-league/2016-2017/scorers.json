@@ -64,6 +64,15 @@
     },
     {
         "rank": "-",
+        "name": "Dmitriy Poloz",
+        "country": "Russia",
+        "team": "FK Rostov",
+        "goals": "2",
+        "flag": "russia",
+        "logo": "fk_rostov"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
@@ -72,7 +81,16 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Theo Walcott",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "2",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "11.",
         "name": "Marc Albrighton",
         "country": "England",
         "team": "Leicester City",
@@ -160,23 +178,5 @@
         "goals": "1",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Franco Cervi",
-        "country": "Argentina",
-        "team": "SL Benfica",
-        "goals": "1",
-        "flag": "argentina",
-        "logo": "sl_benfica"
-    },
-    {
-        "rank": "-",
-        "name": "Andreas Cornelius",
-        "country": "Denmark",
-        "team": "FC København",
-        "goals": "1",
-        "flag": "denmark",
-        "logo": "fc_k_benhavn"
     }
 ]
