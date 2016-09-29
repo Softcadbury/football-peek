@@ -4,6 +4,7 @@ var CronJob = require('cron').CronJob;
 var mainUpdater = require('./updaters/mainUpdater')
 
 var leagueCronJobTimes = [
+    '00 00 09 * * *',
     '00 00 17 * * *',
     '00 00 19 * * *',
     '00 00 21 * * *',
@@ -15,12 +16,13 @@ var leagueCronJobTimes = [
 ];
 
 var competitionCronJobTimes = [
-    '00 05 19 * * 3-5',
-    '00 05 21 * * 3-5',
-    '00 35 22 * * 3-5',
-    '00 55 22 * * 3-5',
-    '00 15 23 * * 3-5',
-    '00 35 23 * * 3-5',
+    '00 05 09 * * *',
+    '00 05 19 * * 2-4',
+    '00 05 21 * * 2-4',
+    '00 35 22 * * 2-4',
+    '00 55 22 * * 2-4',
+    '00 15 23 * * 2-4',
+    '00 35 23 * * 2-4',
     '00 55 23 * * *'
 ];
 
@@ -29,7 +31,7 @@ function setupCrons() {
     leagueCronJobTimes.forEach(function (time) {
         (new CronJob(time, function () {
             console.log('Run league update');
-            require('./server/updaters/mainUpdater').updateLeague();
+            mainUpdater.updateLeague();
         }, null, false, 'Europe/Paris')).start();
     });
 
@@ -37,7 +39,7 @@ function setupCrons() {
     competitionCronJobTimes.forEach(function (time) {
         (new CronJob(time, function () {
             console.log('Run competition update');
-            require('./server/updaters/mainUpdater').updateCompetition();
+            mainUpdater.updateCompetition();
         }, null, false, 'Europe/Paris')).start();
     });
 }
