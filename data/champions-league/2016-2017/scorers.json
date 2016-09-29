@@ -10,6 +10,15 @@
     },
     {
         "rank": "-",
+        "name": "Edinson Cavani",
+        "country": "Uruguay",
+        "team": "Paris Saint-Germain",
+        "goals": "3",
+        "flag": "uruguay",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
@@ -18,7 +27,16 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Arkadiusz Milik",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "3",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "5.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
@@ -34,6 +52,15 @@
         "goals": "2",
         "flag": "portugal",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Moussa Dembélé",
+        "country": "France",
+        "team": "Celtic FC",
+        "goals": "2",
+        "flag": "france",
+        "logo": "celtic_fc"
     },
     {
         "rank": "-",
@@ -55,11 +82,11 @@
     },
     {
         "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
+        "name": "Dries Mertens",
+        "country": "Belgium",
         "team": "SSC Napoli",
         "goals": "2",
-        "flag": "poland",
+        "flag": "belgium",
         "logo": "ssc_napoli"
     },
     {
@@ -90,7 +117,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "11.",
+        "rank": "14.",
         "name": "Marc Albrighton",
         "country": "England",
         "team": "Leicester City",
@@ -151,32 +178,5 @@
         "goals": "1",
         "flag": "brazil",
         "logo": "sporting_cp"
-    },
-    {
-        "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Bayer Leverkusen",
-        "goals": "1",
-        "flag": "turkey",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Gonzalo Castro",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Paris Saint-Germain",
-        "goals": "1",
-        "flag": "uruguay",
-        "logo": "paris_saint_germain"
     }
 ]

@@ -1,30 +1,10 @@
 'use strict';
 
 var config = require('./server/config');
-var items = require('./server/data/items');
 var express = require('express');
 var handlebars = require('express-handlebars');
 var compression = require('compression');
 var app = express();
-
-// Setup cron jobs
-var CronJob = require('cron').CronJob;
-var leagueCronJobTimes = ['00 00 17 * * *', '00 00 19 * * *', '00 00 21 * * *', '00 30 22 * * *', '00 00 23 * * *', '00 30 23 * * *', '00 00 00 * * *', '00 00 01 * * *'];
-var competitionCronJobTimes = ['00 10 21 * * 3-5', '00 10 23 * * 3-5', '00 10 00 * * *'];
-
-leagueCronJobTimes.forEach(function (time) {
-    (new CronJob(time, function () {
-        console.log('Run league update');
-        require('./server/updaters/mainUpdater').updateLeague();
-    }, null, false, 'Europe/Paris')).start();
-});
-
-competitionCronJobTimes.forEach(function (time) {
-    (new CronJob(time, function () {
-        console.log('Run competition update');
-        require('./server/updaters/mainUpdater').updateCompetition();
-    }, null, false, 'Europe/Paris')).start();
-});
 
 // Middlewares configuration
 var tenMinutes = 600000;
@@ -51,3 +31,6 @@ app.listen(config.port, (err) => {
 app.use('/', require('./server/routes/sitemapRoute'));
 app.use('/', require('./server/routes/indexRoute'));
 app.use('/', require('./server/routes/itemRoute'));
+
+// Setup cron jobs
+require('./server/cronJobs').setupCrons();
