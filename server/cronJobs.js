@@ -5,24 +5,24 @@ var mainUpdater = require('./updaters/mainUpdater')
 
 var leagueCronJobTimes = [
     '00 00 09 * * *',
-    '00 00 17 * * *',
-    '00 00 19 * * *',
-    '00 00 21 * * *',
-    '00 30 22 * * *',
-    '00 50 22 * * *',
-    '00 10 23 * * *',
-    '00 30 23 * * *',
+    '00 00 17 * * mon,fri,sat,sun',
+    '00 00 19 * * mon,fri,sat,sun',
+    '00 00 21 * * mon,fri,sat,sun',
+    '00 30 22 * * mon,fri,sat,sun',
+    '00 50 22 * * mon,fri,sat,sun',
+    '00 10 23 * * mon,fri,sat,sun',
+    '00 30 23 * * mon,fri,sat,sun',
     '00 50 23 * * *'
 ];
 
 var competitionCronJobTimes = [
     '00 05 09 * * *',
-    '00 05 19 * * 2-4',
-    '00 05 21 * * 2-4',
-    '00 35 22 * * 2-4',
-    '00 55 22 * * 2-4',
-    '00 15 23 * * 2-4',
-    '00 35 23 * * 2-4',
+    '00 05 19 * * tue,wed,thu',
+    '00 05 21 * * tue,wed,thu',
+    '00 35 22 * * tue,wed,thu',
+    '00 55 22 * * tue,wed,thu',
+    '00 15 23 * * tue,wed,thu',
+    '00 35 23 * * tue,wed,thu',
     '00 55 23 * * *'
 ];
 
