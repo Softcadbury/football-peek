@@ -57,10 +57,9 @@ function parseRound(itemExtended, results, roundIndex) {
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
                 if (index < (itemExtended.roundNumber + 2) / 4) {
+                    var isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
                     var displayDate = $(elem).find('td:nth-child(1)').text();
                     date = displayDate || date;
-
-                    var isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
 
                     currentMatches.push({
                         date: date,
