@@ -10,6 +10,24 @@
     },
     {
         "rank": "-",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "Bayer Leverkusen",
+        "goals": "5",
+        "flag": "mexico",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Vedad Ibišević",
+        "country": "Bosnia-Herzegovina",
+        "team": "Hertha BSC",
+        "goals": "5",
+        "flag": "bosnia_herzegovina",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
@@ -18,25 +36,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "3.",
-        "name": "Javier Hernández",
-        "country": "Mexico",
-        "team": "Bayer Leverkusen",
-        "goals": "4",
-        "flag": "mexico",
-        "logo": "bayer_leverkusen"
-    },
-    {
         "rank": "-",
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "4",
+        "goals": "5",
         "flag": "france",
         "logo": "1__fc_koln"
     },
     {
-        "rank": "-",
+        "rank": "6.",
         "name": "Joel Pohjanpalo",
         "country": "Finland",
         "team": "Bayer Leverkusen",
@@ -45,7 +54,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Pablo de Blasis",
         "country": "Argentina",
         "team": "1. FSV Mainz 05",
@@ -64,12 +73,12 @@
     },
     {
         "rank": "-",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
         "goals": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -117,13 +126,22 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "goals": "2",
         "flag": "germany",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Antonio Čolak",
+        "country": "Croatia",
+        "team": "SV Darmstadt 98",
+        "goals": "2",
+        "flag": "croatia",
+        "logo": "sv_darmstadt_98"
     },
     {
         "rank": "-",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
         "goals": "2",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Yoshinori Muto",
-        "country": "Japan",
-        "team": "1. FSV Mainz 05",
-        "goals": "2",
-        "flag": "japan",
-        "logo": "1__fsv_mainz_05"
+        "flag": "sweden",
+        "logo": "rb_leipzig"
     }
 ]

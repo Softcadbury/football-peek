@@ -4,7 +4,7 @@
         "name": " Giuliano",
         "country": "Brazil",
         "team": "Zenit St. Petersburg",
-        "assists": "3",
+        "assists": "5",
         "flag": "brazil",
         "logo": "zenit_st__petersburg"
     },
@@ -27,7 +27,16 @@
         "logo": "astra_giurgiu"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Gaëtan Bussmann",
+        "country": "France",
+        "team": "1. FSV Mainz 05",
+        "assists": "2",
+        "flag": "france",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "5.",
         "name": " Alexandre Pato",
         "country": "Brazil",
         "team": "Villarreal CF",
@@ -55,12 +64,12 @@
     },
     {
         "rank": "-",
-        "name": "Gaëtan Bussmann",
-        "country": "France",
-        "team": "1. FSV Mainz 05",
+        "name": " Bruno Soriano",
+        "country": "Spain",
+        "team": "Villarreal CF",
         "assists": "1",
-        "flag": "france",
-        "logo": "1__fsv_mainz_05"
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -70,6 +79,15 @@
         "assists": "1",
         "flag": "ukraine",
         "logo": "shakhtar_donetsk"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Criscito",
+        "country": "Italy",
+        "team": "Zenit St. Petersburg",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "zenit_st__petersburg"
     },
     {
         "rank": "-",
@@ -118,6 +136,24 @@
     },
     {
         "rank": "-",
+        "name": "Breel Embolo",
+        "country": "Switzerland",
+        "team": "FC Schalke 04",
+        "assists": "1",
+        "flag": "switzerland",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Fabian Frei",
+        "country": "Switzerland",
+        "team": "1. FSV Mainz 05",
+        "assists": "1",
+        "flag": "switzerland",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
         "name": "Alexander Grünwald",
         "country": "Austria",
         "team": "Austria Wien",
@@ -142,41 +178,5 @@
         "assists": "1",
         "flag": "nigeria",
         "logo": "olympiakos_piraus"
-    },
-    {
-        "rank": "-",
-        "name": "Artur Jędrzejczyk",
-        "country": "Poland",
-        "team": "FK Krasnodar",
-        "assists": "1",
-        "flag": "poland",
-        "logo": "fk_krasnodar"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolai Jørgensen",
-        "country": "Denmark",
-        "team": "Feyenoord",
-        "assists": "1",
-        "flag": "denmark",
-        "logo": "feyenoord"
-    },
-    {
-        "rank": "-",
-        "name": "Željko Ljubenović",
-        "country": "Serbia",
-        "team": "Zorya Lugansk",
-        "assists": "1",
-        "flag": "serbia",
-        "logo": "zorya_lugansk"
-    },
-    {
-        "rank": "-",
-        "name": "Robin Lod",
-        "country": "Finland",
-        "team": "Panathinaikos",
-        "assists": "1",
-        "flag": "finland",
-        "logo": "panathinaikos"
     }
 ]

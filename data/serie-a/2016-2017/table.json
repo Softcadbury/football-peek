@@ -27,6 +27,32 @@
     },
     {
         "rank": "3",
+        "team": "Lazio Roma",
+        "points": "13",
+        "played": "7",
+        "win": "4",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "13",
+        "goalsAgainst": "7",
+        "goalDifference": "6",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "4",
+        "team": "Chievo Verona",
+        "points": "13",
+        "played": "7",
+        "win": "4",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "9",
+        "goalsAgainst": "6",
+        "goalDifference": "3",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "5",
         "team": "Inter",
         "points": "11",
         "played": "6",
@@ -39,7 +65,7 @@
         "logo": "inter"
     },
     {
-        "rank": "4",
+        "rank": "6",
         "team": "AS Roma",
         "points": "10",
         "played": "6",
@@ -52,20 +78,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "5",
-        "team": "Lazio Roma",
-        "points": "10",
-        "played": "6",
-        "win": "3",
-        "draw": "1",
-        "lost": "2",
-        "goalsFor": "10",
-        "goalsAgainst": "7",
-        "goalDifference": "3",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "6",
+        "rank": "7",
         "team": "AC Milan",
         "points": "10",
         "played": "6",
@@ -76,19 +89,6 @@
         "goalsAgainst": "7",
         "goalDifference": "1",
         "logo": "ac_milan"
-    },
-    {
-        "rank": "7",
-        "team": "Chievo Verona",
-        "points": "10",
-        "played": "6",
-        "win": "3",
-        "draw": "1",
-        "lost": "2",
-        "goalsFor": "7",
-        "goalsAgainst": "6",
-        "goalDifference": "1",
-        "logo": "chievo_verona"
     },
     {
         "rank": "8",
@@ -172,30 +172,17 @@
         "rank": "14",
         "team": "Udinese Calcio",
         "points": "7",
-        "played": "6",
+        "played": "7",
         "win": "2",
         "draw": "1",
-        "lost": "3",
+        "lost": "4",
         "goalsFor": "6",
-        "goalsAgainst": "9",
-        "goalDifference": "-3",
+        "goalsAgainst": "12",
+        "goalDifference": "-6",
         "logo": "udinese_calcio"
     },
     {
         "rank": "15",
-        "team": "Pescara Calcio",
-        "points": "6",
-        "played": "6",
-        "win": "1",
-        "draw": "3",
-        "lost": "2",
-        "goalsFor": "7",
-        "goalsAgainst": "8",
-        "goalDifference": "-1",
-        "logo": "pescara_calcio"
-    },
-    {
-        "rank": "16",
         "team": "Atalanta",
         "points": "6",
         "played": "6",
@@ -206,6 +193,19 @@
         "goalsAgainst": "12",
         "goalDifference": "-3",
         "logo": "atalanta"
+    },
+    {
+        "rank": "16",
+        "team": "Pescara Calcio",
+        "points": "6",
+        "played": "7",
+        "win": "1",
+        "draw": "3",
+        "lost": "3",
+        "goalsFor": "7",
+        "goalsAgainst": "10",
+        "goalDifference": "-3",
+        "logo": "pescara_calcio"
     },
     {
         "rank": "17",
