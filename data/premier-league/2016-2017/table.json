@@ -66,6 +66,19 @@
     },
     {
         "rank": "6",
+        "team": "Manchester United",
+        "points": "13",
+        "played": "7",
+        "win": "4",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "13",
+        "goalsAgainst": "8",
+        "goalDifference": "5",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "7",
         "team": "Chelsea FC",
         "points": "13",
         "played": "7",
@@ -76,19 +89,6 @@
         "goalsAgainst": "9",
         "goalDifference": "3",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "7",
-        "team": "Manchester United",
-        "points": "12",
-        "played": "6",
-        "win": "4",
-        "draw": "0",
-        "lost": "2",
-        "goalsFor": "12",
-        "goalsAgainst": "7",
-        "goalDifference": "5",
-        "logo": "manchester_united"
     },
     {
         "rank": "8",
@@ -235,6 +235,19 @@
     },
     {
         "rank": "19",
+        "team": "Stoke City",
+        "points": "3",
+        "played": "7",
+        "win": "0",
+        "draw": "3",
+        "lost": "4",
+        "goalsFor": "5",
+        "goalsAgainst": "16",
+        "goalDifference": "-11",
+        "logo": "stoke_city"
+    },
+    {
+        "rank": "20",
         "team": "Sunderland AFC",
         "points": "2",
         "played": "7",
@@ -245,18 +258,5 @@
         "goalsAgainst": "13",
         "goalDifference": "-7",
         "logo": "sunderland_afc"
-    },
-    {
-        "rank": "20",
-        "team": "Stoke City",
-        "points": "2",
-        "played": "6",
-        "win": "0",
-        "draw": "2",
-        "lost": "4",
-        "goalsFor": "4",
-        "goalsAgainst": "15",
-        "goalDifference": "-11",
-        "logo": "stoke_city"
     }
 ]

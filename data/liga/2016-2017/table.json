@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "Atlético Madrid",
+        "points": "15",
+        "played": "7",
+        "win": "4",
+        "draw": "3",
+        "lost": "0",
+        "goalsFor": "14",
+        "goalsAgainst": "2",
+        "goalDifference": "12",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "2",
         "team": "Real Madrid",
         "points": "14",
         "played": "6",
@@ -13,7 +26,7 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "2",
+        "rank": "3",
         "team": "Sevilla FC",
         "points": "14",
         "played": "7",
@@ -26,7 +39,7 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "3",
+        "rank": "4",
         "team": "FC Barcelona",
         "points": "13",
         "played": "6",
@@ -37,19 +50,6 @@
         "goalsAgainst": "6",
         "goalDifference": "13",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "4",
-        "team": "Atlético Madrid",
-        "points": "12",
-        "played": "6",
-        "win": "3",
-        "draw": "3",
-        "lost": "0",
-        "goalsFor": "12",
-        "goalsAgainst": "2",
-        "goalDifference": "10",
-        "logo": "atletico_madrid"
     },
     {
         "rank": "5",
@@ -198,13 +198,13 @@
         "rank": "16",
         "team": "Valencia CF",
         "points": "6",
-        "played": "6",
+        "played": "7",
         "win": "2",
         "draw": "0",
-        "lost": "4",
+        "lost": "5",
         "goalsFor": "9",
-        "goalsAgainst": "12",
-        "goalDifference": "-3",
+        "goalsAgainst": "14",
+        "goalDifference": "-5",
         "logo": "valencia_cf"
     },
     {
