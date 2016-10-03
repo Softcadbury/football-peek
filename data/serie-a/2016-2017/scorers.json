@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "AC Milan",
+        "goals": "6",
+        "flag": "colombia",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
         "team": "Juventus",
@@ -18,22 +27,22 @@
         "logo": "inter"
     },
     {
-        "rank": "3.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "AC Milan",
-        "goals": "5",
-        "flag": "colombia",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
         "goals": "5",
         "flag": "italy",
         "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "5",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -45,7 +54,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Marco Borriello",
         "country": "Italy",
         "team": "Cagliari Calcio",
@@ -64,12 +73,12 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
+        "name": " Iago Falqué",
+        "country": "Spain",
+        "team": "Torino FC",
         "goals": "4",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "flag": "spain",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -99,7 +108,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Mattia Destro",
         "country": "Italy",
         "team": "Bologna FC",
@@ -109,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
+        "name": "Ilija Nestorovski",
+        "country": "Macedonia",
+        "team": "US Palermo",
         "goals": "3",
-        "flag": "spain",
-        "logo": "torino_fc"
+        "flag": "macedonia",
+        "logo": "us_palermo"
     },
     {
         "rank": "-",
@@ -124,6 +133,15 @@
         "goals": "3",
         "flag": "argentina",
         "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Andrea Petagna",
+        "country": "Italy",
+        "team": "Atalanta",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -144,39 +162,21 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "17.",
+        "rank": "19.",
+        "name": "Khouma Babacar",
+        "country": "Senegal",
+        "team": "ACF Fiorentina",
+        "goals": "2",
+        "flag": "senegal",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Daniele Baselli",
         "country": "Italy",
         "team": "Torino FC",
         "goals": "2",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Valter Birsa",
-        "country": "Slovenia",
-        "team": "Chievo Verona",
-        "goals": "2",
-        "flag": "slovenia",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Castro",
-        "country": "Argentina",
-        "team": "Chievo Verona",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "chievo_verona"
     }
 ]

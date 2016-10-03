@@ -66,19 +66,6 @@
     },
     {
         "rank": "6",
-        "team": "Bor. Mönchengladbach",
-        "points": "10",
-        "played": "5",
-        "win": "3",
-        "draw": "1",
-        "lost": "1",
-        "goalsFor": "10",
-        "goalsAgainst": "6",
-        "goalDifference": "4",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "7",
         "team": "Bayer Leverkusen",
         "points": "10",
         "played": "6",
@@ -91,7 +78,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "8",
+        "rank": "7",
         "team": "1899 Hoffenheim",
         "points": "10",
         "played": "6",
@@ -104,7 +91,7 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "9",
+        "rank": "8",
         "team": "Eintracht Frankfurt",
         "points": "10",
         "played": "6",
@@ -115,6 +102,19 @@
         "goalsAgainst": "6",
         "goalDifference": "2",
         "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "9",
+        "team": "Bor. Mönchengladbach",
+        "points": "10",
+        "played": "6",
+        "win": "3",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "10",
+        "goalsAgainst": "10",
+        "goalDifference": "0",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "10",
@@ -132,10 +132,10 @@
     {
         "rank": "11",
         "team": "1. FSV Mainz 05",
-        "points": "7",
-        "played": "5",
+        "points": "8",
+        "played": "6",
         "win": "2",
-        "draw": "1",
+        "draw": "2",
         "lost": "2",
         "goalsFor": "12",
         "goalsAgainst": "11",
@@ -158,10 +158,10 @@
     {
         "rank": "13",
         "team": "VfL Wolfsburg",
-        "points": "5",
-        "played": "5",
+        "points": "6",
+        "played": "6",
         "win": "1",
-        "draw": "2",
+        "draw": "3",
         "lost": "2",
         "goalsFor": "4",
         "goalsAgainst": "7",
@@ -196,6 +196,19 @@
     },
     {
         "rank": "16",
+        "team": "FC Schalke 04",
+        "points": "3",
+        "played": "6",
+        "win": "1",
+        "draw": "0",
+        "lost": "5",
+        "goalsFor": "6",
+        "goalsAgainst": "10",
+        "goalDifference": "-4",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "17",
         "team": "FC Ingolstadt 04",
         "points": "1",
         "played": "6",
@@ -208,7 +221,7 @@
         "logo": "fc_ingolstadt_04"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "Hamburger SV",
         "points": "1",
         "played": "6",
@@ -219,18 +232,5 @@
         "goalsAgainst": "12",
         "goalDifference": "-10",
         "logo": "hamburger_sv"
-    },
-    {
-        "rank": "18",
-        "team": "FC Schalke 04",
-        "points": "0",
-        "played": "5",
-        "win": "0",
-        "draw": "0",
-        "lost": "5",
-        "goalsFor": "2",
-        "goalsAgainst": "10",
-        "goalDifference": "-8",
-        "logo": "fc_schalke_04"
     }
 ]
