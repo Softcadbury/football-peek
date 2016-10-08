@@ -4,12 +4,21 @@
         "name": " Giuliano",
         "country": "Brazil",
         "team": "Zenit St. Petersburg",
-        "assists": "3",
+        "assists": "5",
         "flag": "brazil",
         "logo": "zenit_st__petersburg"
     },
     {
         "rank": "2.",
+        "name": " Pozuelo",
+        "country": "Spain",
+        "team": "KRC Genk",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "krc_genk"
+    },
+    {
+        "rank": "3.",
         "name": "Tal Ben Haim",
         "country": "Israel",
         "team": "Maccabi Tel Aviv",
@@ -27,7 +36,34 @@
         "logo": "astra_giurgiu"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Gaëtan Bussmann",
+        "country": "France",
+        "team": "1. FSV Mainz 05",
+        "assists": "2",
+        "flag": "france",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
+        "name": "Daryl Horgan",
+        "country": "Ireland",
+        "team": "Dundalk FC",
+        "assists": "2",
+        "flag": "ireland",
+        "logo": "dundalk_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Francesco Totti",
+        "country": "Italy",
+        "team": "AS Roma",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "8.",
         "name": " Alexandre Pato",
         "country": "Brazil",
         "team": "Villarreal CF",
@@ -55,12 +91,57 @@
     },
     {
         "rank": "-",
+        "name": " Bruno Soriano",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
         "name": "Bogdan Butko",
         "country": "Ukraine",
         "team": "Shakhtar Donetsk",
         "assists": "1",
         "flag": "ukraine",
         "logo": "shakhtar_donetsk"
+    },
+    {
+        "rank": "-",
+        "name": "Kalifa Coulibaly",
+        "country": "Mali",
+        "team": "KAA Gent",
+        "assists": "1",
+        "flag": "mali",
+        "logo": "kaa_gent"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Criscito",
+        "country": "Italy",
+        "team": "Zenit St. Petersburg",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "-",
+        "name": "Sebastián Cristóforo",
+        "country": "Uruguay",
+        "team": "ACF Fiorentina",
+        "assists": "1",
+        "flag": "uruguay",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Bagaliy Dabo",
+        "country": "France",
+        "team": "Gabala FK",
+        "assists": "1",
+        "flag": "france",
+        "logo": "gabala_fk"
     },
     {
         "rank": "-",
@@ -97,86 +178,5 @@
         "assists": "1",
         "flag": "mexico",
         "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Alexander Grünwald",
-        "country": "Austria",
-        "team": "Austria Wien",
-        "assists": "1",
-        "flag": "austria",
-        "logo": "austria_wien"
-    },
-    {
-        "rank": "-",
-        "name": "Daryl Horgan",
-        "country": "Ireland",
-        "team": "Dundalk FC",
-        "assists": "1",
-        "flag": "ireland",
-        "logo": "dundalk_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Brown Ideye",
-        "country": "Nigeria",
-        "team": "Olympiakos Piräus",
-        "assists": "1",
-        "flag": "nigeria",
-        "logo": "olympiakos_piraus"
-    },
-    {
-        "rank": "-",
-        "name": "Artur Jędrzejczyk",
-        "country": "Poland",
-        "team": "FK Krasnodar",
-        "assists": "1",
-        "flag": "poland",
-        "logo": "fk_krasnodar"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolai Jørgensen",
-        "country": "Denmark",
-        "team": "Feyenoord",
-        "assists": "1",
-        "flag": "denmark",
-        "logo": "feyenoord"
-    },
-    {
-        "rank": "-",
-        "name": "Željko Ljubenović",
-        "country": "Serbia",
-        "team": "Zorya Lugansk",
-        "assists": "1",
-        "flag": "serbia",
-        "logo": "zorya_lugansk"
-    },
-    {
-        "rank": "-",
-        "name": "Robin Lod",
-        "country": "Finland",
-        "team": "Panathinaikos",
-        "assists": "1",
-        "flag": "finland",
-        "logo": "panathinaikos"
-    },
-    {
-        "rank": "-",
-        "name": "Shane Long",
-        "country": "Ireland",
-        "team": "Southampton FC",
-        "assists": "1",
-        "flag": "ireland",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Lucio Maranhão",
-        "country": "Brazil",
-        "team": "Hapoel Be'er Sheva",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "hapoel_be_er_sheva"
     }
 ]

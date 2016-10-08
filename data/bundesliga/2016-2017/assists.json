@@ -27,16 +27,16 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
-        "assists": "3",
+        "assists": "4",
         "flag": "croatia",
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
@@ -64,6 +64,33 @@
     },
     {
         "rank": "8.",
+        "name": "Daniel Baier",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Bentaleb",
+        "country": "Algeria",
+        "team": "FC Schalke 04",
+        "assists": "2",
+        "flag": "algeria",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "Bayer Leverkusen",
+        "assists": "2",
+        "flag": "turkey",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Pablo de Blasis",
         "country": "Argentina",
         "team": "1. FSV Mainz 05",
@@ -97,6 +124,15 @@
         "assists": "2",
         "flag": "sweden",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Jerôme Gondorf",
+        "country": "Germany",
+        "team": "SV Darmstadt 98",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "sv_darmstadt_98"
     },
     {
         "rank": "-",
@@ -141,42 +177,6 @@
         "team": "Borussia Dortmund",
         "assists": "2",
         "flag": "usa",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Konstantin Rausch",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Ante Rebić",
-        "country": "Croatia",
-        "team": "Eintracht Frankfurt",
-        "assists": "2",
-        "flag": "croatia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Sebastian Rudy",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "André Schürrle",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "2",
-        "flag": "germany",
         "logo": "borussia_dortmund"
     }
 ]
