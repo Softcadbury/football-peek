@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": " Pozuelo",
+        "country": "Spain",
+        "team": "KRC Genk",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "krc_genk"
+    },
+    {
+        "rank": "3.",
         "name": "Tal Ben Haim",
         "country": "Israel",
         "team": "Maccabi Tel Aviv",
@@ -36,7 +45,25 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Daryl Horgan",
+        "country": "Ireland",
+        "team": "Dundalk FC",
+        "assists": "2",
+        "flag": "ireland",
+        "logo": "dundalk_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Francesco Totti",
+        "country": "Italy",
+        "team": "AS Roma",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "8.",
         "name": " Alexandre Pato",
         "country": "Brazil",
         "team": "Villarreal CF",
@@ -82,12 +109,30 @@
     },
     {
         "rank": "-",
+        "name": "Kalifa Coulibaly",
+        "country": "Mali",
+        "team": "KAA Gent",
+        "assists": "1",
+        "flag": "mali",
+        "logo": "kaa_gent"
+    },
+    {
+        "rank": "-",
         "name": "Domenico Criscito",
         "country": "Italy",
         "team": "Zenit St. Petersburg",
         "assists": "1",
         "flag": "italy",
         "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "-",
+        "name": "Sebastián Cristóforo",
+        "country": "Uruguay",
+        "team": "ACF Fiorentina",
+        "assists": "1",
+        "flag": "uruguay",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -133,50 +178,5 @@
         "assists": "1",
         "flag": "mexico",
         "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Breel Embolo",
-        "country": "Switzerland",
-        "team": "FC Schalke 04",
-        "assists": "1",
-        "flag": "switzerland",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Fabian Frei",
-        "country": "Switzerland",
-        "team": "1. FSV Mainz 05",
-        "assists": "1",
-        "flag": "switzerland",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Alexander Grünwald",
-        "country": "Austria",
-        "team": "Austria Wien",
-        "assists": "1",
-        "flag": "austria",
-        "logo": "austria_wien"
-    },
-    {
-        "rank": "-",
-        "name": "Daryl Horgan",
-        "country": "Ireland",
-        "team": "Dundalk FC",
-        "assists": "1",
-        "flag": "ireland",
-        "logo": "dundalk_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Brown Ideye",
-        "country": "Nigeria",
-        "team": "Olympiakos Piräus",
-        "assists": "1",
-        "flag": "nigeria",
-        "logo": "olympiakos_piraus"
     }
 ]
