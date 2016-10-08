@@ -1,7 +1,7 @@
 'use strict';
 
 var CronJob = require('cron').CronJob;
-var mainUpdater = require('./updaters/mainUpdater')
+var mainUpdater = require('./updaters/mainUpdater');
 
 var leagueCronJobTimes = [
     '00 00 09 * * *',

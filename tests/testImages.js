@@ -12,7 +12,7 @@ var competitions = require('../server/data/competitions');
 var spriteFileContent;
 
 describe('Images intergrity', () => {
-    spriteFileContent = fs.readFileSync('./client/styles/sprite.css', 'utf8');
+    spriteFileContent = fs.readFileSync('./client/styles/miscs/sprite.css', 'utf8');
 
     items.forEach(item => {
         describe(item.name, () => {
