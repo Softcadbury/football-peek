@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "7",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "2.",
         "name": "Carlos Bacca",
         "country": "Colombia",
         "team": "AC Milan",
@@ -27,7 +36,7 @@
         "logo": "inter"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
@@ -37,12 +46,12 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
         "goals": "5",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "flag": "italy",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -54,7 +63,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Marco Borriello",
         "country": "Italy",
         "team": "Cagliari Calcio",
@@ -82,15 +91,6 @@
     },
     {
         "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
         "name": "Franck Kessié",
         "country": "Ivory Coast",
         "team": "Atalanta",
@@ -108,7 +108,16 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "AS Roma",
+        "goals": "4",
+        "flag": "egypt",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "14.",
         "name": "Mattia Destro",
         "country": "Italy",
         "team": "Bologna FC",
@@ -118,12 +127,30 @@
     },
     {
         "rank": "-",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Ilija Nestorovski",
         "country": "Macedonia",
         "team": "US Palermo",
         "goals": "3",
         "flag": "macedonia",
         "logo": "us_palermo"
+    },
+    {
+        "rank": "-",
+        "name": "M'Baye Niang",
+        "country": "France",
+        "team": "AC Milan",
+        "goals": "3",
+        "flag": "france",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "AS Roma",
-        "goals": "3",
-        "flag": "egypt",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
         "name": "Simone Verdi",
         "country": "Italy",
         "team": "Bologna FC",
         "goals": "3",
         "flag": "italy",
         "logo": "bologna_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Khouma Babacar",
-        "country": "Senegal",
-        "team": "ACF Fiorentina",
-        "goals": "2",
-        "flag": "senegal",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Daniele Baselli",
-        "country": "Italy",
-        "team": "Torino FC",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "torino_fc"
     }
 ]

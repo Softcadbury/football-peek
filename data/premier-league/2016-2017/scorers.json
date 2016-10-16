@@ -4,12 +4,21 @@
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
-        "goals": "6",
+        "goals": "7",
         "flag": "spain",
         "logo": "chelsea_fc"
     },
     {
         "rank": "2.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
+        "goals": "6",
+        "flag": "belgium",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "3.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -28,21 +37,48 @@
     },
     {
         "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Everton FC",
+        "name": "Theo Walcott",
+        "country": "England",
+        "team": "Arsenal FC",
         "goals": "5",
-        "flag": "belgium",
-        "logo": "everton_fc"
+        "flag": "england",
+        "logo": "arsenal_fc"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
+        "name": "Joe Allen",
+        "country": "Wales",
+        "team": "Stoke City",
+        "goals": "4",
+        "flag": "wales",
+        "logo": "stoke_city"
+    },
+    {
+        "rank": "-",
+        "name": "Charlie Austin",
+        "country": "England",
+        "team": "Southampton FC",
+        "goals": "4",
+        "flag": "england",
+        "logo": "southampton_fc"
+    },
+    {
+        "rank": "-",
         "name": "Étienne Capoue",
         "country": "France",
         "team": "Watford FC",
         "goals": "4",
         "flag": "france",
         "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Nacer Chadli",
+        "country": "Belgium",
+        "team": "West Bromwich Albion",
+        "goals": "4",
+        "flag": "belgium",
+        "logo": "west_bromwich_albion"
     },
     {
         "rank": "-",
@@ -108,22 +144,22 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "13.",
+        "rank": "17.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "3",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Christian Benteke",
         "country": "Belgium",
         "team": "Crystal Palace",
         "goals": "3",
         "flag": "belgium",
         "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": "Nacer Chadli",
-        "country": "Belgium",
-        "team": "West Bromwich Albion",
-        "goals": "3",
-        "flag": "belgium",
-        "logo": "west_bromwich_albion"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "3",
         "flag": "england",
         "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Adam Lallana",
-        "country": "England",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "england",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Marcus Rashford",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "3",
-        "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
     }
 ]
