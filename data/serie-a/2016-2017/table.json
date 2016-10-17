@@ -27,6 +27,19 @@
     },
     {
         "rank": "3",
+        "team": "AC Milan",
+        "points": "16",
+        "played": "8",
+        "win": "5",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "15",
+        "goalsAgainst": "11",
+        "goalDifference": "4",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "4",
         "team": "SSC Napoli",
         "points": "14",
         "played": "8",
@@ -39,7 +52,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "4",
+        "rank": "5",
         "team": "Lazio Roma",
         "points": "14",
         "played": "8",
@@ -52,30 +65,17 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "5",
+        "rank": "6",
         "team": "Chievo Verona",
         "points": "13",
-        "played": "7",
+        "played": "8",
         "win": "4",
         "draw": "1",
-        "lost": "2",
-        "goalsFor": "9",
-        "goalsAgainst": "6",
-        "goalDifference": "3",
+        "lost": "3",
+        "goalsFor": "10",
+        "goalsAgainst": "9",
+        "goalDifference": "1",
         "logo": "chievo_verona"
-    },
-    {
-        "rank": "6",
-        "team": "AC Milan",
-        "points": "13",
-        "played": "7",
-        "win": "4",
-        "draw": "1",
-        "lost": "2",
-        "goalsFor": "12",
-        "goalsAgainst": "10",
-        "goalDifference": "2",
-        "logo": "ac_milan"
     },
     {
         "rank": "7",

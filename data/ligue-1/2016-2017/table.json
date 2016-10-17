@@ -133,17 +133,30 @@
         "rank": "11",
         "team": "FC Metz",
         "points": "13",
-        "played": "8",
+        "played": "9",
         "win": "4",
         "draw": "1",
-        "lost": "3",
+        "lost": "4",
         "goalsFor": "9",
-        "goalsAgainst": "15",
-        "goalDifference": "-6",
+        "goalsAgainst": "16",
+        "goalDifference": "-7",
         "logo": "fc_metz"
     },
     {
         "rank": "12",
+        "team": "Olympique Marseille",
+        "points": "12",
+        "played": "9",
+        "win": "3",
+        "draw": "3",
+        "lost": "3",
+        "goalsFor": "11",
+        "goalsAgainst": "10",
+        "goalDifference": "1",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "13",
         "team": "FC Nantes",
         "points": "11",
         "played": "9",
@@ -156,7 +169,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "SC Bastia",
         "points": "10",
         "played": "9",
@@ -169,7 +182,7 @@
         "logo": "sc_bastia"
     },
     {
-        "rank": "14",
+        "rank": "15",
         "team": "Montpellier HSC",
         "points": "10",
         "played": "9",
@@ -182,7 +195,7 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "15",
+        "rank": "16",
         "team": "SM Caen",
         "points": "10",
         "played": "9",
@@ -193,19 +206,6 @@
         "goalsAgainst": "17",
         "goalDifference": "-8",
         "logo": "sm_caen"
-    },
-    {
-        "rank": "16",
-        "team": "Olympique Marseille",
-        "points": "9",
-        "played": "8",
-        "win": "2",
-        "draw": "3",
-        "lost": "3",
-        "goalsFor": "10",
-        "goalsAgainst": "10",
-        "goalDifference": "0",
-        "logo": "olympique_marseille"
     },
     {
         "rank": "17",

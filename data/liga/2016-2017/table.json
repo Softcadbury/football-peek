@@ -53,6 +53,19 @@
     },
     {
         "rank": "5",
+        "team": "Villarreal CF",
+        "points": "16",
+        "played": "8",
+        "win": "4",
+        "draw": "4",
+        "lost": "0",
+        "goalsFor": "14",
+        "goalsAgainst": "4",
+        "goalDifference": "10",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "6",
         "team": "Athletic Bilbao",
         "points": "15",
         "played": "8",
@@ -63,19 +76,6 @@
         "goalsAgainst": "10",
         "goalDifference": "3",
         "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "6",
-        "team": "Villarreal CF",
-        "points": "13",
-        "played": "7",
-        "win": "3",
-        "draw": "4",
-        "lost": "0",
-        "goalsFor": "9",
-        "goalsAgainst": "4",
-        "goalDifference": "5",
-        "logo": "villarreal_cf"
     },
     {
         "rank": "7",
@@ -131,19 +131,6 @@
     },
     {
         "rank": "11",
-        "team": "Celta Vigo",
-        "points": "10",
-        "played": "7",
-        "win": "3",
-        "draw": "1",
-        "lost": "3",
-        "goalsFor": "9",
-        "goalsAgainst": "11",
-        "goalDifference": "-2",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "12",
         "team": "CD Leganés",
         "points": "10",
         "played": "8",
@@ -154,6 +141,19 @@
         "goalsAgainst": "13",
         "goalDifference": "-4",
         "logo": "cd_leganes"
+    },
+    {
+        "rank": "12",
+        "team": "Celta Vigo",
+        "points": "10",
+        "played": "8",
+        "win": "3",
+        "draw": "1",
+        "lost": "4",
+        "goalsFor": "9",
+        "goalsAgainst": "16",
+        "goalDifference": "-7",
+        "logo": "celta_vigo"
     },
     {
         "rank": "13",
