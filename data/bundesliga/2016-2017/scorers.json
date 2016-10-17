@@ -1,15 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Anthony Modeste",
+        "country": "France",
+        "team": "1. FC Köln",
+        "goals": "7",
+        "flag": "france",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "2.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
-        "goals": "5",
+        "goals": "6",
         "flag": "gabon",
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Javier Hernández",
         "country": "Mexico",
         "team": "Bayer Leverkusen",
@@ -36,16 +45,34 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "-",
-        "name": "Anthony Modeste",
-        "country": "France",
-        "team": "1. FC Köln",
-        "goals": "5",
-        "flag": "france",
-        "logo": "1__fc_koln"
+        "rank": "6.",
+        "name": "Pablo de Blasis",
+        "country": "Argentina",
+        "team": "1. FSV Mainz 05",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Yunus Mallı",
+        "country": "Turkey",
+        "team": "1. FSV Mainz 05",
+        "goals": "4",
+        "flag": "turkey",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
         "name": "Joel Pohjanpalo",
         "country": "Finland",
         "team": "Bayer Leverkusen",
@@ -54,13 +81,22 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "7.",
-        "name": "Pablo de Blasis",
-        "country": "Argentina",
-        "team": "1. FSV Mainz 05",
+        "rank": "10.",
+        "name": "Marco Fabián",
+        "country": "Mexico",
+        "team": "Eintracht Frankfurt",
         "goals": "3",
-        "flag": "argentina",
-        "logo": "1__fsv_mainz_05"
+        "flag": "mexico",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
+        "goals": "3",
+        "flag": "sweden",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -73,21 +109,21 @@
     },
     {
         "rank": "-",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
+        "name": "Lukas Hinterseer",
+        "country": "Austria",
+        "team": "FC Ingolstadt 04",
         "goals": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "austria",
+        "logo": "fc_ingolstadt_04"
     },
     {
         "rank": "-",
-        "name": "Yunus Mallı",
-        "country": "Turkey",
-        "team": "1. FSV Mainz 05",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
         "goals": "3",
-        "flag": "turkey",
-        "logo": "1__fsv_mainz_05"
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -118,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
@@ -126,57 +171,12 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "15.",
+        "rank": "20.",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "goals": "2",
         "flag": "germany",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Eric Maxim Choupo-Moting",
-        "country": "Cameroon",
-        "team": "FC Schalke 04",
-        "goals": "2",
-        "flag": "cameroon",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Čolak",
-        "country": "Croatia",
-        "team": "SV Darmstadt 98",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "sv_darmstadt_98"
-    },
-    {
-        "rank": "-",
-        "name": "Jhon Córdoba",
-        "country": "Colombia",
-        "team": "1. FSV Mainz 05",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Didavi",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "2",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Breel Embolo",
-        "country": "Switzerland",
-        "team": "FC Schalke 04",
-        "goals": "2",
-        "flag": "switzerland",
-        "logo": "fc_schalke_04"
     }
 ]
