@@ -40,6 +40,19 @@
     },
     {
         "rank": "4",
+        "team": "Torino FC",
+        "points": "14",
+        "played": "8",
+        "win": "4",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "17",
+        "goalsAgainst": "9",
+        "goalDifference": "8",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "5",
         "team": "SSC Napoli",
         "points": "14",
         "played": "8",
@@ -52,7 +65,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "5",
+        "rank": "6",
         "team": "Lazio Roma",
         "points": "14",
         "played": "8",
@@ -65,7 +78,7 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "6",
+        "rank": "7",
         "team": "Chievo Verona",
         "points": "13",
         "played": "8",
@@ -78,7 +91,7 @@
         "logo": "chievo_verona"
     },
     {
-        "rank": "7",
+        "rank": "8",
         "team": "Cagliari Calcio",
         "points": "13",
         "played": "8",
@@ -91,7 +104,7 @@
         "logo": "cagliari_calcio"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "Genoa CFC",
         "points": "12",
         "played": "7",
@@ -104,7 +117,7 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Sassuolo Calcio",
         "points": "12",
         "played": "8",
@@ -115,19 +128,6 @@
         "goalsAgainst": "13",
         "goalDifference": "-2",
         "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "10",
-        "team": "Torino FC",
-        "points": "11",
-        "played": "7",
-        "win": "3",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "13",
-        "goalsAgainst": "8",
-        "goalDifference": "5",
-        "logo": "torino_fc"
     },
     {
         "rank": "11",
@@ -224,13 +224,13 @@
         "rank": "18",
         "team": "US Palermo",
         "points": "6",
-        "played": "7",
+        "played": "8",
         "win": "1",
         "draw": "3",
-        "lost": "3",
-        "goalsFor": "4",
-        "goalsAgainst": "8",
-        "goalDifference": "-4",
+        "lost": "4",
+        "goalsFor": "5",
+        "goalsAgainst": "12",
+        "goalDifference": "-7",
         "logo": "us_palermo"
     },
     {
