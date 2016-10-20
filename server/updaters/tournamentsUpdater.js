@@ -28,8 +28,8 @@ function updateData(itemExtended) {
     }
 
     Promise.all(promises).then(() => {
-        if (itemExtended.roundNumber === 4 && results[3].matches.length !== 8 ||
-            itemExtended.roundNumber === 5 && results[4].matches.length !== 16) {
+        if (itemExtended.roundNumber === 4 && (results[3].matches.length !== 8 || !results[3].matches[0].team1) ||
+            itemExtended.roundNumber === 5 && (results[4].matches.length !== 16 || !results[4].matches[0].team1)) {
             console.log('Error while updating tournament: ' + itemExtended.item.code);
             return;
         }

@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "David Alaba",
+        "country": "Austria",
+        "team": "Bayern München",
+        "assists": "2",
+        "flag": "austria",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Ludwig Augustinsson",
         "country": "Sweden",
         "team": "FC København",
@@ -19,11 +28,47 @@
     },
     {
         "rank": "-",
+        "name": "Edinson Cavani",
+        "country": "Uruguay",
+        "team": "Paris Saint-Germain",
+        "assists": "2",
+        "flag": "uruguay",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "portugal",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Dani Alves",
+        "country": "Brazil",
+        "team": "Juventus",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Faouzi Ghoulam",
         "country": "Algeria",
         "team": "SSC Napoli",
         "assists": "2",
         "flag": "algeria",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "2",
+        "flag": "spain",
         "logo": "ssc_napoli"
     },
     {
@@ -46,12 +91,39 @@
     },
     {
         "rank": "-",
+        "name": " Lucas Pérez",
+        "country": "Spain",
+        "team": "Arsenal FC",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Christian Pulisic",
         "country": "USA",
         "team": "Borussia Dortmund",
         "assists": "2",
         "flag": "usa",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": " Ricardo Quaresma",
+        "country": "Portugal",
+        "team": "Beşiktaş",
+        "assists": "2",
+        "flag": "portugal",
+        "logo": "be_ikta_"
     },
     {
         "rank": "-",
@@ -63,22 +135,22 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "2",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "17.",
         "name": " Adrien Silva",
         "country": "Portugal",
         "team": "Sporting CP",
         "assists": "1",
         "flag": "portugal",
         "logo": "sporting_cp"
-    },
-    {
-        "rank": "-",
-        "name": "David Alaba",
-        "country": "Austria",
-        "team": "Bayern München",
-        "assists": "1",
-        "flag": "austria",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -106,77 +178,5 @@
         "assists": "1",
         "flag": "ivory_coast",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Sardar Azmoun",
-        "country": "Iran",
-        "team": "FK Rostov",
-        "assists": "1",
-        "flag": "iran",
-        "logo": "fk_rostov"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "assists": "1",
-        "flag": "wales",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Bayer Leverkusen",
-        "assists": "1",
-        "flag": "turkey",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Guido Carrillo",
-        "country": "Argentina",
-        "team": "AS Monaco",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Gonzalo Castro",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Maxwel Cornet",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "assists": "1",
-        "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "Mahmoud Dahoud",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Alves",
-        "country": "Brazil",
-        "team": "Juventus",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "juventus"
     }
 ]
