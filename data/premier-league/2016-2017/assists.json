@@ -9,7 +9,16 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Dimitri Payet",
+        "country": "France",
+        "team": "West Ham United",
+        "assists": "4",
+        "flag": "france",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "3.",
         "name": "Yannick Bolasie",
         "country": "Congo DR",
         "team": "Crystal Palace",
@@ -70,15 +79,6 @@
         "assists": "3",
         "flag": "serbia",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Dimitri Payet",
-        "country": "France",
-        "team": "West Ham United",
-        "assists": "3",
-        "flag": "france",
-        "logo": "west_ham_united"
     },
     {
         "rank": "-",
@@ -172,11 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Anthony Martial",
-        "country": "France",
-        "team": "Manchester United",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
         "assists": "2",
-        "flag": "france",
-        "logo": "manchester_united"
+        "flag": "belgium",
+        "logo": "everton_fc"
     }
 ]

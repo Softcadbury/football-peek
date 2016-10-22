@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "7",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "3.",
         "name": "Martin Braithwaite",
         "country": "Denmark",
         "team": "Toulouse FC",
@@ -34,15 +43,6 @@
         "goals": "6",
         "flag": "france",
         "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Alexandre Lacazette",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "6",
-        "flag": "france",
-        "logo": "olympique_lyon"
     },
     {
         "rank": "6.",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "9.",
+        "name": "Ryad Boudebouz",
+        "country": "Algeria",
+        "team": "Montpellier HSC",
+        "goals": "4",
+        "flag": "algeria",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "-",
         "name": "Famara Diedhiou",
         "country": "Senegal",
         "team": "Angers SCO",
@@ -87,6 +96,15 @@
         "team": "AS Monaco",
         "goals": "4",
         "flag": "brazil",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Thomas Lemar",
+        "country": "France",
+        "team": "AS Monaco",
+        "goals": "4",
+        "flag": "france",
         "logo": "as_monaco"
     },
     {
@@ -108,13 +126,22 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "13.",
+        "rank": "15.",
         "name": "Robert Berić",
         "country": "Slovenia",
         "team": "AS Saint-Étienne",
         "goals": "3",
         "flag": "slovenia",
         "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "-",
+        "name": "Marcus Coco",
+        "country": "France",
+        "team": "EA Guingamp",
+        "goals": "3",
+        "flag": "france",
+        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -136,7 +163,7 @@
     },
     {
         "rank": "-",
-        "name": "Thomas Lemar",
+        "name": "Valère Germain",
         "country": "France",
         "team": "AS Monaco",
         "goals": "3",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Malcom",
-        "country": "Brazil",
-        "team": "Girondins Bordeaux",
+        "name": "Kamil Grosicki",
+        "country": "Poland",
+        "team": "Stade Rennes",
         "goals": "3",
-        "flag": "brazil",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "3",
-        "flag": "france",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Thauvin",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "goals": "3",
-        "flag": "france",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Corentin Tolisso",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "3",
-        "flag": "france",
-        "logo": "olympique_lyon"
+        "flag": "poland",
+        "logo": "stade_rennes"
     }
 ]
