@@ -3,17 +3,30 @@
         "rank": "1",
         "team": "Juventus",
         "points": "21",
-        "played": "8",
+        "played": "9",
         "win": "7",
         "draw": "0",
-        "lost": "1",
+        "lost": "2",
         "goalsFor": "17",
-        "goalsAgainst": "5",
-        "goalDifference": "12",
+        "goalsAgainst": "6",
+        "goalDifference": "11",
         "logo": "juventus"
     },
     {
         "rank": "2",
+        "team": "AC Milan",
+        "points": "19",
+        "played": "9",
+        "win": "6",
+        "draw": "1",
+        "lost": "2",
+        "goalsFor": "16",
+        "goalsAgainst": "11",
+        "goalDifference": "5",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "3",
         "team": "AS Roma",
         "points": "16",
         "played": "8",
@@ -24,19 +37,6 @@
         "goalsAgainst": "10",
         "goalDifference": "9",
         "logo": "as_roma"
-    },
-    {
-        "rank": "3",
-        "team": "AC Milan",
-        "points": "16",
-        "played": "8",
-        "win": "5",
-        "draw": "1",
-        "lost": "2",
-        "goalsFor": "15",
-        "goalsAgainst": "11",
-        "goalDifference": "4",
-        "logo": "ac_milan"
     },
     {
         "rank": "4",
@@ -107,13 +107,13 @@
         "rank": "9",
         "team": "Genoa CFC",
         "points": "12",
-        "played": "7",
+        "played": "8",
         "win": "3",
         "draw": "3",
-        "lost": "1",
-        "goalsFor": "8",
-        "goalsAgainst": "5",
-        "goalDifference": "3",
+        "lost": "2",
+        "goalsFor": "9",
+        "goalsAgainst": "7",
+        "goalDifference": "2",
         "logo": "genoa_cfc"
     },
     {
@@ -144,6 +144,19 @@
     },
     {
         "rank": "12",
+        "team": "Sampdoria",
+        "points": "11",
+        "played": "9",
+        "win": "3",
+        "draw": "2",
+        "lost": "4",
+        "goalsFor": "10",
+        "goalsAgainst": "12",
+        "goalDifference": "-2",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "13",
         "team": "Bologna FC",
         "points": "11",
         "played": "8",
@@ -156,7 +169,7 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "Atalanta",
         "points": "10",
         "played": "8",
@@ -169,7 +182,7 @@
         "logo": "atalanta"
     },
     {
-        "rank": "14",
+        "rank": "15",
         "team": "ACF Fiorentina",
         "points": "9",
         "played": "7",
@@ -180,19 +193,6 @@
         "goalsAgainst": "6",
         "goalDifference": "0",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "15",
-        "team": "Sampdoria",
-        "points": "8",
-        "played": "8",
-        "win": "2",
-        "draw": "2",
-        "lost": "4",
-        "goalsFor": "8",
-        "goalsAgainst": "11",
-        "goalDifference": "-3",
-        "logo": "sampdoria"
     },
     {
         "rank": "16",

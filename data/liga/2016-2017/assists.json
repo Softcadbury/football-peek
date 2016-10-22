@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Pablo Piatti",
+        "country": "Argentina",
+        "team": "Espanyol Barcelona",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": " Sergi Roberto",
         "country": "Spain",
         "team": "FC Barcelona",
@@ -18,13 +27,22 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
         "assists": "3",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Leo Baptistão",
+        "country": "Brazil",
+        "team": "Espanyol Barcelona",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -37,6 +55,15 @@
     },
     {
         "rank": "-",
+        "name": " Nani",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
@@ -46,12 +73,12 @@
     },
     {
         "rank": "-",
-        "name": "Pablo Piatti",
-        "country": "Argentina",
-        "team": "Espanyol Barcelona",
+        "name": " Parejo",
+        "country": "Spain",
+        "team": "Valencia CF",
         "assists": "3",
-        "flag": "argentina",
-        "logo": "espanyol_barcelona"
+        "flag": "spain",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -90,7 +117,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "11.",
+        "rank": "14.",
         "name": " Antonio Luna",
         "country": "Spain",
         "team": "SD Eibar",
@@ -151,32 +178,5 @@
         "assists": "2",
         "flag": "spain",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Nabil El Zhar",
-        "country": "Morocco",
-        "team": "UD Las Palmas",
-        "assists": "2",
-        "flag": "morocco",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Ferreira-Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
-        "assists": "2",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "2",
-        "flag": "france",
-        "logo": "atletico_madrid"
     }
 ]
