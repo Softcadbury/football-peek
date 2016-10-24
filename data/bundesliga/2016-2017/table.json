@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "RB Leipzig",
+        "points": "18",
+        "played": "8",
+        "win": "5",
+        "draw": "3",
+        "lost": "0",
+        "goalsFor": "15",
+        "goalsAgainst": "6",
+        "goalDifference": "9",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "3",
         "team": "Hertha BSC",
         "points": "17",
         "played": "8",
@@ -26,7 +39,7 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "3",
+        "rank": "4",
         "team": "1899 Hoffenheim",
         "points": "16",
         "played": "8",
@@ -39,7 +52,7 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "4",
+        "rank": "5",
         "team": "1. FC Köln",
         "points": "15",
         "played": "8",
@@ -50,19 +63,6 @@
         "goalsAgainst": "6",
         "goalDifference": "7",
         "logo": "1__fc_koln"
-    },
-    {
-        "rank": "5",
-        "team": "RB Leipzig",
-        "points": "15",
-        "played": "7",
-        "win": "4",
-        "draw": "3",
-        "lost": "0",
-        "goalsFor": "12",
-        "goalsAgainst": "5",
-        "goalDifference": "7",
-        "logo": "rb_leipzig"
     },
     {
         "rank": "6",
@@ -107,13 +107,13 @@
         "rank": "9",
         "team": "1. FSV Mainz 05",
         "points": "11",
-        "played": "7",
+        "played": "8",
         "win": "3",
         "draw": "2",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "14",
-        "goalsAgainst": "12",
-        "goalDifference": "2",
+        "goalsAgainst": "15",
+        "goalDifference": "-1",
         "logo": "1__fsv_mainz_05"
     },
     {
@@ -170,19 +170,32 @@
     },
     {
         "rank": "14",
-        "team": "Werder Bremen",
+        "team": "FC Schalke 04",
         "points": "7",
-        "played": "7",
+        "played": "8",
         "win": "2",
         "draw": "1",
-        "lost": "4",
-        "goalsFor": "9",
-        "goalsAgainst": "18",
-        "goalDifference": "-9",
-        "logo": "werder_bremen"
+        "lost": "5",
+        "goalsFor": "10",
+        "goalsAgainst": "11",
+        "goalDifference": "-1",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "15",
+        "team": "Werder Bremen",
+        "points": "7",
+        "played": "8",
+        "win": "2",
+        "draw": "1",
+        "lost": "5",
+        "goalsFor": "10",
+        "goalsAgainst": "21",
+        "goalDifference": "-11",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "16",
         "team": "VfL Wolfsburg",
         "points": "6",
         "played": "8",
@@ -193,19 +206,6 @@
         "goalsAgainst": "11",
         "goalDifference": "-6",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "16",
-        "team": "FC Schalke 04",
-        "points": "4",
-        "played": "7",
-        "win": "1",
-        "draw": "1",
-        "lost": "5",
-        "goalsFor": "7",
-        "goalsAgainst": "11",
-        "goalDifference": "-4",
-        "logo": "fc_schalke_04"
     },
     {
         "rank": "17",

@@ -812,7 +812,7 @@
                 "displayDate": "23/10/2016",
                 "homeTeam": "Celta Vigo",
                 "awayTeam": "Deportivo La Coruña",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "celta_vigo",
                 "awayTeamLogo": "deportivo_la_coruna"
             },
@@ -821,7 +821,7 @@
                 "displayDate": "",
                 "homeTeam": "Sevilla FC",
                 "awayTeam": "Atlético Madrid",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sevilla_fc",
                 "awayTeamLogo": "atletico_madrid"
             },
@@ -830,7 +830,7 @@
                 "displayDate": "",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "UD Las Palmas",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "villarreal_cf",
                 "awayTeamLogo": "ud_las_palmas"
             },
@@ -839,7 +839,7 @@
                 "displayDate": "",
                 "homeTeam": "Málaga CF",
                 "awayTeam": "CD Leganés",
-                "score": "-:-",
+                "score": "4:0",
                 "homeTeamLogo": "malaga_cf",
                 "awayTeamLogo": "cd_leganes"
             },
@@ -848,7 +848,7 @@
                 "displayDate": "",
                 "homeTeam": "Real Madrid",
                 "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "real_madrid",
                 "awayTeamLogo": "athletic_bilbao"
             }
@@ -858,31 +858,58 @@
         "round": 10,
         "matches": [
             {
-                "date": "30/10/2016",
-                "displayDate": "30/10/2016",
-                "homeTeam": "UD Las Palmas",
-                "awayTeam": "Celta Vigo",
+                "date": "28/10/2016",
+                "displayDate": "28/10/2016",
+                "homeTeam": "CD Leganés",
+                "awayTeam": "Real Sociedad",
                 "score": "-:-",
-                "homeTeamLogo": "ud_las_palmas",
-                "awayTeamLogo": "celta_vigo"
+                "homeTeamLogo": "cd_leganes",
+                "awayTeamLogo": "real_sociedad"
+            },
+            {
+                "date": "29/10/2016",
+                "displayDate": "29/10/2016",
+                "homeTeam": "Sporting Gijón",
+                "awayTeam": "Sevilla FC",
+                "score": "-:-",
+                "homeTeamLogo": "sporting_gijon",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "29/10/2016",
+                "displayDate": "",
+                "homeTeam": "CD Alavés",
+                "awayTeam": "Real Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "cd_alaves",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "29/10/2016",
+                "displayDate": "",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Málaga CF",
+                "score": "-:-",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "malaga_cf"
+            },
+            {
+                "date": "29/10/2016",
+                "displayDate": "",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Granada CF",
+                "score": "-:-",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "granada_cf"
             },
             {
                 "date": "30/10/2016",
-                "displayDate": "",
+                "displayDate": "30/10/2016",
                 "homeTeam": "SD Eibar",
                 "awayTeam": "Villarreal CF",
                 "score": "-:-",
                 "homeTeamLogo": "sd_eibar",
                 "awayTeamLogo": "villarreal_cf"
-            },
-            {
-                "date": "30/10/2016",
-                "displayDate": "",
-                "homeTeam": "Real Betis",
-                "awayTeam": "Espanyol Barcelona",
-                "score": "-:-",
-                "homeTeamLogo": "real_betis",
-                "awayTeamLogo": "espanyol_barcelona"
             },
             {
                 "date": "30/10/2016",
@@ -896,51 +923,24 @@
             {
                 "date": "30/10/2016",
                 "displayDate": "",
-                "homeTeam": "CD Alavés",
-                "awayTeam": "Real Madrid",
+                "homeTeam": "Real Betis",
+                "awayTeam": "Espanyol Barcelona",
                 "score": "-:-",
-                "homeTeamLogo": "cd_alaves",
-                "awayTeamLogo": "real_madrid"
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "espanyol_barcelona"
             },
             {
                 "date": "30/10/2016",
                 "displayDate": "",
-                "homeTeam": "CD Leganés",
-                "awayTeam": "Real Sociedad",
+                "homeTeam": "UD Las Palmas",
+                "awayTeam": "Celta Vigo",
                 "score": "-:-",
-                "homeTeamLogo": "cd_leganes",
-                "awayTeamLogo": "real_sociedad"
+                "homeTeamLogo": "ud_las_palmas",
+                "awayTeamLogo": "celta_vigo"
             },
             {
-                "date": "30/10/2016",
-                "displayDate": "",
-                "homeTeam": "Atlético Madrid",
-                "awayTeam": "Málaga CF",
-                "score": "-:-",
-                "homeTeamLogo": "atletico_madrid",
-                "awayTeamLogo": "malaga_cf"
-            },
-            {
-                "date": "30/10/2016",
-                "displayDate": "",
-                "homeTeam": "Sporting Gijón",
-                "awayTeam": "Sevilla FC",
-                "score": "-:-",
-                "homeTeamLogo": "sporting_gijon",
-                "awayTeamLogo": "sevilla_fc"
-            },
-            {
-                "date": "30/10/2016",
-                "displayDate": "",
-                "homeTeam": "FC Barcelona",
-                "awayTeam": "Granada CF",
-                "score": "-:-",
-                "homeTeamLogo": "fc_barcelona",
-                "awayTeamLogo": "granada_cf"
-            },
-            {
-                "date": "30/10/2016",
-                "displayDate": "",
+                "date": "31/10/2016",
+                "displayDate": "31/10/2016",
                 "homeTeam": "Deportivo La Coruña",
                 "awayTeam": "Valencia CF",
                 "score": "-:-",

@@ -925,7 +925,7 @@
                 "displayDate": "23/10/2016",
                 "homeTeam": "SM Caen",
                 "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "sm_caen",
                 "awayTeamLogo": "as_saint_etienne"
             },
@@ -934,7 +934,7 @@
                 "displayDate": "",
                 "homeTeam": "FC Metz",
                 "awayTeam": "OGC Nice",
-                "score": "-:-",
+                "score": "2:4",
                 "homeTeamLogo": "fc_metz",
                 "awayTeamLogo": "ogc_nice"
             },
@@ -943,7 +943,7 @@
                 "displayDate": "",
                 "homeTeam": "Paris Saint-Germain",
                 "awayTeam": "Olympique Marseille",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "paris_saint_germain",
                 "awayTeamLogo": "olympique_marseille"
             }
@@ -953,8 +953,26 @@
         "round": 11,
         "matches": [
             {
+                "date": "28/10/2016",
+                "displayDate": "28/10/2016",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
                 "date": "29/10/2016",
                 "displayDate": "29/10/2016",
+                "homeTeam": "Toulouse FC",
+                "awayTeam": "Olympique Lyon",
+                "score": "-:-",
+                "homeTeamLogo": "toulouse_fc",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "29/10/2016",
+                "displayDate": "",
                 "homeTeam": "SC Bastia",
                 "awayTeam": "Dijon FCO",
                 "score": "-:-",
@@ -973,29 +991,11 @@
             {
                 "date": "29/10/2016",
                 "displayDate": "",
-                "homeTeam": "Lille OSC",
-                "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
-                "homeTeamLogo": "lille_osc",
-                "awayTeamLogo": "paris_saint_germain"
-            },
-            {
-                "date": "29/10/2016",
-                "displayDate": "",
                 "homeTeam": "FC Lorient",
                 "awayTeam": "Montpellier HSC",
                 "score": "-:-",
                 "homeTeamLogo": "fc_lorient",
                 "awayTeamLogo": "montpellier_hsc"
-            },
-            {
-                "date": "29/10/2016",
-                "displayDate": "",
-                "homeTeam": "Olympique Marseille",
-                "awayTeam": "Girondins Bordeaux",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "girondins_bordeaux"
             },
             {
                 "date": "29/10/2016",
@@ -1009,6 +1009,15 @@
             {
                 "date": "29/10/2016",
                 "displayDate": "",
+                "homeTeam": "AS Saint-Étienne",
+                "awayTeam": "AS Monaco",
+                "score": "-:-",
+                "homeTeamLogo": "as_saint_etienne",
+                "awayTeamLogo": "as_monaco"
+            },
+            {
+                "date": "30/10/2016",
+                "displayDate": "30/10/2016",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "FC Nantes",
                 "score": "-:-",
@@ -1016,7 +1025,7 @@
                 "awayTeamLogo": "fc_nantes"
             },
             {
-                "date": "29/10/2016",
+                "date": "30/10/2016",
                 "displayDate": "",
                 "homeTeam": "Stade Rennes",
                 "awayTeam": "FC Metz",
@@ -1025,22 +1034,13 @@
                 "awayTeamLogo": "fc_metz"
             },
             {
-                "date": "29/10/2016",
+                "date": "30/10/2016",
                 "displayDate": "",
-                "homeTeam": "AS Saint-Étienne",
-                "awayTeam": "AS Monaco",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Girondins Bordeaux",
                 "score": "-:-",
-                "homeTeamLogo": "as_saint_etienne",
-                "awayTeamLogo": "as_monaco"
-            },
-            {
-                "date": "29/10/2016",
-                "displayDate": "",
-                "homeTeam": "Toulouse FC",
-                "awayTeam": "Olympique Lyon",
-                "score": "-:-",
-                "homeTeamLogo": "toulouse_fc",
-                "awayTeamLogo": "olympique_lyon"
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "girondins_bordeaux"
             }
         ]
     },

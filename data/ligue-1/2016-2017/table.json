@@ -2,14 +2,14 @@
     {
         "rank": "1",
         "team": "OGC Nice",
-        "points": "23",
-        "played": "9",
-        "win": "7",
+        "points": "26",
+        "played": "10",
+        "win": "8",
         "draw": "2",
         "lost": "0",
-        "goalsFor": "16",
-        "goalsAgainst": "5",
-        "goalDifference": "11",
+        "goalsFor": "20",
+        "goalsAgainst": "7",
+        "goalDifference": "13",
         "logo": "ogc_nice"
     },
     {
@@ -28,10 +28,10 @@
     {
         "rank": "3",
         "team": "Paris Saint-Germain",
-        "points": "19",
-        "played": "9",
+        "points": "20",
+        "played": "10",
         "win": "6",
-        "draw": "1",
+        "draw": "2",
         "lost": "2",
         "goalsFor": "19",
         "goalsAgainst": "7",
@@ -79,6 +79,19 @@
     },
     {
         "rank": "7",
+        "team": "AS Saint-Étienne",
+        "points": "16",
+        "played": "10",
+        "win": "4",
+        "draw": "4",
+        "lost": "2",
+        "goalsFor": "13",
+        "goalsAgainst": "9",
+        "goalDifference": "4",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "8",
         "team": "Girondins Bordeaux",
         "points": "15",
         "played": "10",
@@ -91,7 +104,7 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "Angers SCO",
         "points": "14",
         "played": "10",
@@ -104,7 +117,7 @@
         "logo": "angers_sco"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Olympique Lyon",
         "points": "13",
         "played": "10",
@@ -117,43 +130,30 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "10",
-        "team": "AS Saint-Étienne",
+        "rank": "11",
+        "team": "Olympique Marseille",
         "points": "13",
-        "played": "9",
+        "played": "10",
         "win": "3",
         "draw": "4",
-        "lost": "2",
-        "goalsFor": "11",
-        "goalsAgainst": "9",
-        "goalDifference": "2",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "11",
-        "team": "FC Metz",
-        "points": "13",
-        "played": "9",
-        "win": "4",
-        "draw": "1",
-        "lost": "4",
-        "goalsFor": "9",
-        "goalsAgainst": "16",
-        "goalDifference": "-7",
-        "logo": "fc_metz"
-    },
-    {
-        "rank": "12",
-        "team": "Olympique Marseille",
-        "points": "12",
-        "played": "9",
-        "win": "3",
-        "draw": "3",
         "lost": "3",
         "goalsFor": "11",
         "goalsAgainst": "10",
         "goalDifference": "1",
         "logo": "olympique_marseille"
+    },
+    {
+        "rank": "12",
+        "team": "FC Metz",
+        "points": "13",
+        "played": "10",
+        "win": "4",
+        "draw": "1",
+        "lost": "5",
+        "goalsFor": "11",
+        "goalsAgainst": "20",
+        "goalDifference": "-9",
+        "logo": "fc_metz"
     },
     {
         "rank": "13",
@@ -209,19 +209,6 @@
     },
     {
         "rank": "17",
-        "team": "SM Caen",
-        "points": "10",
-        "played": "9",
-        "win": "3",
-        "draw": "1",
-        "lost": "5",
-        "goalsFor": "9",
-        "goalsAgainst": "17",
-        "goalDifference": "-8",
-        "logo": "sm_caen"
-    },
-    {
-        "rank": "18",
         "team": "Montpellier HSC",
         "points": "10",
         "played": "10",
@@ -232,6 +219,19 @@
         "goalsAgainst": "23",
         "goalDifference": "-9",
         "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "18",
+        "team": "SM Caen",
+        "points": "10",
+        "played": "10",
+        "win": "3",
+        "draw": "1",
+        "lost": "6",
+        "goalsFor": "9",
+        "goalsAgainst": "19",
+        "goalDifference": "-10",
+        "logo": "sm_caen"
     },
     {
         "rank": "19",

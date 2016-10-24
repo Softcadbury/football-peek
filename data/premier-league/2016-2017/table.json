@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "Manchester City",
+        "points": "20",
+        "played": "9",
+        "win": "6",
+        "draw": "2",
+        "lost": "1",
+        "goalsFor": "20",
+        "goalsAgainst": "9",
+        "goalDifference": "11",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "2",
         "team": "Arsenal FC",
         "points": "20",
         "played": "9",
@@ -13,7 +26,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "2",
+        "rank": "3",
         "team": "Liverpool FC",
         "points": "20",
         "played": "9",
@@ -26,20 +39,20 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "3",
-        "team": "Manchester City",
+        "rank": "4",
+        "team": "Chelsea FC",
         "points": "19",
-        "played": "8",
+        "played": "9",
         "win": "6",
         "draw": "1",
-        "lost": "1",
+        "lost": "2",
         "goalsFor": "19",
-        "goalsAgainst": "8",
-        "goalDifference": "11",
-        "logo": "manchester_city"
+        "goalsAgainst": "9",
+        "goalDifference": "10",
+        "logo": "chelsea_fc"
     },
     {
-        "rank": "4",
+        "rank": "5",
         "team": "Tottenham Hotspur",
         "points": "19",
         "played": "9",
@@ -50,19 +63,6 @@
         "goalsAgainst": "4",
         "goalDifference": "9",
         "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "5",
-        "team": "Chelsea FC",
-        "points": "16",
-        "played": "8",
-        "win": "5",
-        "draw": "1",
-        "lost": "2",
-        "goalsFor": "15",
-        "goalsAgainst": "9",
-        "goalDifference": "6",
-        "logo": "chelsea_fc"
     },
     {
         "rank": "6",
@@ -81,25 +81,25 @@
         "rank": "7",
         "team": "Manchester United",
         "points": "14",
-        "played": "8",
+        "played": "9",
         "win": "4",
         "draw": "2",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "13",
-        "goalsAgainst": "8",
-        "goalDifference": "5",
+        "goalsAgainst": "12",
+        "goalDifference": "1",
         "logo": "manchester_united"
     },
     {
         "rank": "8",
         "team": "Southampton FC",
-        "points": "12",
-        "played": "8",
+        "points": "13",
+        "played": "9",
         "win": "3",
-        "draw": "3",
+        "draw": "4",
         "lost": "2",
-        "goalsFor": "10",
-        "goalsAgainst": "7",
+        "goalsFor": "11",
+        "goalsAgainst": "8",
         "goalDifference": "3",
         "logo": "southampton_fc"
     },

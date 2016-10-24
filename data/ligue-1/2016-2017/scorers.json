@@ -45,7 +45,16 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "OGC Nice",
+        "goals": "6",
+        "flag": "france",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "7.",
         "name": "Mario Balotelli",
         "country": "Italy",
         "team": "OGC Nice",
@@ -72,7 +81,7 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Ryad Boudebouz",
         "country": "Algeria",
         "team": "Montpellier HSC",
@@ -126,7 +135,7 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
         "name": "Robert Berić",
         "country": "Slovenia",
         "team": "AS Saint-Étienne",
@@ -169,14 +178,5 @@
         "goals": "3",
         "flag": "france",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Kamil Grosicki",
-        "country": "Poland",
-        "team": "Stade Rennes",
-        "goals": "3",
-        "flag": "poland",
-        "logo": "stade_rennes"
     }
 ]

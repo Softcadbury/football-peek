@@ -4,7 +4,7 @@
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
-        "goals": "7",
+        "goals": "8",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
     },
@@ -36,7 +36,25 @@
         "logo": "inter"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "6",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "7.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
@@ -46,33 +64,33 @@
     },
     {
         "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "5",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "8.",
         "name": "Marco Borriello",
         "country": "Italy",
         "team": "Cagliari Calcio",
-        "goals": "4",
+        "goals": "5",
         "flag": "italy",
         "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
+        "name": " Iago Falqué",
+        "country": "Spain",
+        "team": "Torino FC",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "AS Roma",
+        "goals": "5",
+        "flag": "egypt",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "11.",
         "name": "Gregoire Defrel",
         "country": "France",
         "team": "Sassuolo Calcio",
@@ -82,12 +100,12 @@
     },
     {
         "rank": "-",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
+        "name": "Nikola Kalinić",
+        "country": "Croatia",
+        "team": "ACF Fiorentina",
         "goals": "4",
-        "flag": "spain",
-        "logo": "torino_fc"
+        "flag": "croatia",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -109,21 +127,30 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "AS Roma",
+        "name": "Simone Verdi",
+        "country": "Italy",
+        "team": "Bologna FC",
         "goals": "4",
-        "flag": "egypt",
-        "logo": "as_roma"
+        "flag": "italy",
+        "logo": "bologna_fc"
     },
     {
-        "rank": "14.",
+        "rank": "16.",
         "name": "Daniele Baselli",
         "country": "Italy",
         "team": "Torino FC",
         "goals": "3",
         "flag": "italy",
         "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Bernardeschi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "goals": "3",
         "flag": "argentina",
         "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Luís Muriel",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "goals": "3",
-        "flag": "colombia",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Ilija Nestorovski",
-        "country": "Macedonia",
-        "team": "US Palermo",
-        "goals": "3",
-        "flag": "macedonia",
-        "logo": "us_palermo"
-    },
-    {
-        "rank": "-",
-        "name": "M'Baye Niang",
-        "country": "France",
-        "team": "AC Milan",
-        "goals": "3",
-        "flag": "france",
-        "logo": "ac_milan"
     }
 ]
