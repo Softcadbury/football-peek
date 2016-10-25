@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "4",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": " Felipe Anderson",
         "country": "Brazil",
         "team": "Lazio Roma",
@@ -9,7 +18,16 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "AS Roma",
+        "assists": "4",
+        "flag": "egypt",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "4.",
         "name": " Alex Sandro",
         "country": "Brazil",
         "team": "Juventus",
@@ -55,11 +73,11 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
+        "name": "Alessandro Florenzi",
+        "country": "Italy",
         "team": "AS Roma",
         "assists": "3",
-        "flag": "bosnia_herzegovina",
+        "flag": "italy",
         "logo": "as_roma"
     },
     {
@@ -109,15 +127,6 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "AS Roma",
-        "assists": "3",
-        "flag": "egypt",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
@@ -135,7 +144,7 @@
         "logo": "pescara_calcio"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": "Haitam Aleesami",
         "country": "Norway",
         "team": "US Palermo",
@@ -169,14 +178,5 @@
         "assists": "2",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Giacomo Bonaventura",
-        "country": "Italy",
-        "team": "AC Milan",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "ac_milan"
     }
 ]
