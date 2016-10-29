@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "Paris Saint-Germain",
+        "points": "23",
+        "played": "11",
+        "win": "7",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "20",
+        "goalsAgainst": "7",
+        "goalDifference": "13",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "3",
         "team": "AS Monaco",
         "points": "22",
         "played": "10",
@@ -26,29 +39,16 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "3",
-        "team": "Paris Saint-Germain",
-        "points": "20",
-        "played": "10",
-        "win": "6",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "19",
-        "goalsAgainst": "7",
-        "goalDifference": "12",
-        "logo": "paris_saint_germain"
-    },
-    {
         "rank": "4",
         "team": "Toulouse FC",
         "points": "18",
-        "played": "10",
+        "played": "11",
         "win": "5",
         "draw": "3",
-        "lost": "2",
-        "goalsFor": "14",
-        "goalsAgainst": "7",
-        "goalDifference": "7",
+        "lost": "3",
+        "goalsFor": "15",
+        "goalsAgainst": "9",
+        "goalDifference": "6",
         "logo": "toulouse_fc"
     },
     {
@@ -92,6 +92,19 @@
     },
     {
         "rank": "8",
+        "team": "Olympique Lyon",
+        "points": "16",
+        "played": "11",
+        "win": "5",
+        "draw": "1",
+        "lost": "5",
+        "goalsFor": "18",
+        "goalsAgainst": "15",
+        "goalDifference": "3",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "9",
         "team": "Girondins Bordeaux",
         "points": "15",
         "played": "10",
@@ -104,7 +117,7 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Angers SCO",
         "points": "14",
         "played": "10",
@@ -115,19 +128,6 @@
         "goalsAgainst": "10",
         "goalDifference": "0",
         "logo": "angers_sco"
-    },
-    {
-        "rank": "10",
-        "team": "Olympique Lyon",
-        "points": "13",
-        "played": "10",
-        "win": "4",
-        "draw": "1",
-        "lost": "5",
-        "goalsFor": "16",
-        "goalsAgainst": "14",
-        "goalDifference": "2",
-        "logo": "olympique_lyon"
     },
     {
         "rank": "11",
@@ -198,13 +198,13 @@
         "rank": "16",
         "team": "Lille OSC",
         "points": "10",
-        "played": "10",
+        "played": "11",
         "win": "3",
         "draw": "1",
-        "lost": "6",
+        "lost": "7",
         "goalsFor": "10",
-        "goalsAgainst": "16",
-        "goalDifference": "-6",
+        "goalsAgainst": "17",
+        "goalDifference": "-7",
         "logo": "lille_osc"
     },
     {
