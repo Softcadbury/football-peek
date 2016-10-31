@@ -4,7 +4,7 @@
         "name": "Jean Michaël Seri",
         "country": "Ivory Coast",
         "team": "OGC Nice",
-        "assists": "5",
+        "assists": "7",
         "flag": "ivory_coast",
         "logo": "ogc_nice"
     },
@@ -18,7 +18,16 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Paul-Georges Ntep",
+        "country": "France",
+        "team": "Stade Rennes",
+        "assists": "4",
+        "flag": "france",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "4.",
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "AS Monaco",
@@ -109,12 +118,21 @@
     },
     {
         "rank": "-",
-        "name": "Paul-Georges Ntep",
+        "name": " Ricardo Pereira",
+        "country": "Portugal",
+        "team": "OGC Nice",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Morgan Sanson",
         "country": "France",
-        "team": "Stade Rennes",
+        "team": "Montpellier HSC",
         "assists": "3",
         "flag": "france",
-        "logo": "stade_rennes"
+        "logo": "montpellier_hsc"
     },
     {
         "rank": "-",
@@ -126,7 +144,25 @@
         "logo": "fc_metz"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": "Mariusz Stępiński",
+        "country": "Poland",
+        "team": "FC Nantes",
+        "assists": "3",
+        "flag": "poland",
+        "logo": "fc_nantes"
+    },
+    {
+        "rank": "-",
+        "name": "Óscar Trejo",
+        "country": "Argentina",
+        "team": "Toulouse FC",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "19.",
         "name": "Serge Aurier",
         "country": "Ivory Coast",
         "team": "Paris Saint-Germain",
@@ -141,42 +177,6 @@
         "team": "Stade Rennes",
         "assists": "2",
         "flag": "french_guyana",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Hervé Bazile",
-        "country": "Haiti",
-        "team": "SM Caen",
-        "assists": "2",
-        "flag": "haiti",
-        "logo": "sm_caen"
-    },
-    {
-        "rank": "-",
-        "name": "Ryad Boudebouz",
-        "country": "Algeria",
-        "team": "Montpellier HSC",
-        "assists": "2",
-        "flag": "algeria",
-        "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "-",
-        "name": "Wylan Cyprien",
-        "country": "France",
-        "team": "OGC Nice",
-        "assists": "2",
-        "flag": "france",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Romain Danzé",
-        "country": "France",
-        "team": "Stade Rennes",
-        "assists": "2",
-        "flag": "france",
         "logo": "stade_rennes"
     }
 ]

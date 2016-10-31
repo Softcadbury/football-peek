@@ -27,7 +27,16 @@
         "logo": "atletico_madrid"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "5.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -46,12 +55,30 @@
     },
     {
         "rank": "-",
+        "name": "Yannick Ferreira-Carrasco",
+        "country": "Belgium",
+        "team": "Atlético Madrid",
+        "goals": "5",
+        "flag": "belgium",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
         "goals": "5",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Rafinha",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -72,13 +99,22 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "9.",
+        "rank": "12.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
         "goals": "4",
         "flag": "france",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "UD Las Palmas",
+        "goals": "4",
+        "flag": "ghana",
+        "logo": "ud_las_palmas"
     },
     {
         "rank": "-",
@@ -91,30 +127,12 @@
     },
     {
         "rank": "-",
-        "name": "Yannick Ferreira-Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
-        "goals": "4",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Gerard",
         "country": "Spain",
         "team": "Espanyol Barcelona",
         "goals": "4",
         "flag": "spain",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "celta_vigo"
     },
     {
         "rank": "-",
@@ -127,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": " Rafinha",
-        "country": "Brazil",
-        "team": "FC Barcelona",
+        "name": " Pedro León",
+        "country": "Spain",
+        "team": "SD Eibar",
         "goals": "4",
-        "flag": "brazil",
-        "logo": "fc_barcelona"
+        "flag": "spain",
+        "logo": "sd_eibar"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "4",
         "flag": "spain",
         "logo": "malaga_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Sergio León",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": "Luciano Vietto",
-        "country": "Argentina",
-        "team": "Sevilla FC",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
     }
 ]

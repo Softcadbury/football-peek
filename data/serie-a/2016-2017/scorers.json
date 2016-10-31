@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "3.",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
@@ -18,16 +27,25 @@
         "logo": "inter"
     },
     {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "8",
-        "flag": "italy",
-        "logo": "lazio_roma"
+        "rank": "4.",
+        "name": "Gonzalo Higuaí­n",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "juventus"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "6.",
         "name": "Carlos Bacca",
         "country": "Colombia",
         "team": "AC Milan",
@@ -45,24 +63,6 @@
         "logo": "torino_fc"
     },
     {
-        "rank": "-",
-        "name": "Gonzalo Higuaí­n",
-        "country": "Argentina",
-        "team": "Juventus",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
         "rank": "8.",
         "name": "Marco Borriello",
         "country": "Italy",
@@ -70,6 +70,15 @@
         "goals": "5",
         "flag": "italy",
         "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sassuolo Calcio",
+        "goals": "5",
+        "flag": "france",
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
@@ -99,16 +108,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "12.",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sassuolo Calcio",
-        "goals": "4",
-        "flag": "france",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
+        "rank": "13.",
         "name": "Franck Kessié",
         "country": "Ivory Coast",
         "team": "Atalanta",

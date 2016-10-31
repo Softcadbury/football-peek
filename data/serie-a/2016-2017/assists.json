@@ -27,7 +27,16 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "5.",
         "name": " Alex Sandro",
         "country": "Brazil",
         "team": "Juventus",
@@ -100,12 +109,12 @@
     },
     {
         "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
+        "name": "Baldé Diao Keita",
+        "country": "Senegal",
+        "team": "Lazio Roma",
         "assists": "3",
-        "flag": "italy",
-        "logo": "ssc_napoli"
+        "flag": "senegal",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -144,7 +153,7 @@
         "logo": "pescara_calcio"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
         "name": "Emmanuel Agyemang-Badu",
         "country": "Ghana",
         "team": "Udinese Calcio",
@@ -169,14 +178,5 @@
         "assists": "2",
         "flag": "argentina",
         "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Éver Banega",
-        "country": "Argentina",
-        "team": "Inter",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "inter"
     }
 ]

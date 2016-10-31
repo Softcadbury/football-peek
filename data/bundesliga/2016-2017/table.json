@@ -27,45 +27,58 @@
     },
     {
         "rank": "3",
-        "team": "Hertha BSC",
-        "points": "17",
-        "played": "8",
-        "win": "5",
-        "draw": "2",
-        "lost": "1",
-        "goalsFor": "14",
-        "goalsAgainst": "9",
-        "goalDifference": "5",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "4",
         "team": "1899 Hoffenheim",
-        "points": "16",
-        "played": "8",
-        "win": "4",
+        "points": "19",
+        "played": "9",
+        "win": "5",
         "draw": "4",
         "lost": "0",
-        "goalsFor": "16",
+        "goalsFor": "17",
         "goalsAgainst": "10",
-        "goalDifference": "6",
+        "goalDifference": "7",
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "5",
+        "rank": "4",
         "team": "1. FC Köln",
-        "points": "15",
-        "played": "8",
-        "win": "4",
+        "points": "18",
+        "played": "9",
+        "win": "5",
         "draw": "3",
         "lost": "1",
-        "goalsFor": "13",
+        "goalsFor": "16",
         "goalsAgainst": "6",
-        "goalDifference": "7",
+        "goalDifference": "10",
         "logo": "1__fc_koln"
     },
     {
+        "rank": "5",
+        "team": "Hertha BSC",
+        "points": "17",
+        "played": "9",
+        "win": "5",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "14",
+        "goalsAgainst": "10",
+        "goalDifference": "4",
+        "logo": "hertha_bsc"
+    },
+    {
         "rank": "6",
+        "team": "Borussia Dortmund",
+        "points": "15",
+        "played": "9",
+        "win": "4",
+        "draw": "3",
+        "lost": "2",
+        "goalsFor": "20",
+        "goalsAgainst": "10",
+        "goalDifference": "10",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "7",
         "team": "Eintracht Frankfurt",
         "points": "15",
         "played": "9",
@@ -78,7 +91,7 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "7",
+        "rank": "8",
         "team": "SC Freiburg",
         "points": "15",
         "played": "9",
@@ -89,19 +102,6 @@
         "goalsAgainst": "13",
         "goalDifference": "0",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "8",
-        "team": "Borussia Dortmund",
-        "points": "14",
-        "played": "8",
-        "win": "4",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "20",
-        "goalsAgainst": "10",
-        "goalDifference": "10",
-        "logo": "borussia_dortmund"
     },
     {
         "rank": "9",
@@ -144,6 +144,19 @@
     },
     {
         "rank": "12",
+        "team": "FC Schalke 04",
+        "points": "8",
+        "played": "9",
+        "win": "2",
+        "draw": "2",
+        "lost": "5",
+        "goalsFor": "10",
+        "goalsAgainst": "11",
+        "goalDifference": "-1",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "13",
         "team": "FC Augsburg",
         "points": "8",
         "played": "9",
@@ -156,7 +169,7 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "SV Darmstadt 98",
         "points": "8",
         "played": "9",
@@ -167,19 +180,6 @@
         "goalsAgainst": "17",
         "goalDifference": "-9",
         "logo": "sv_darmstadt_98"
-    },
-    {
-        "rank": "14",
-        "team": "FC Schalke 04",
-        "points": "7",
-        "played": "8",
-        "win": "2",
-        "draw": "1",
-        "lost": "5",
-        "goalsFor": "10",
-        "goalsAgainst": "11",
-        "goalDifference": "-1",
-        "logo": "fc_schalke_04"
     },
     {
         "rank": "15",
@@ -224,13 +224,13 @@
         "rank": "18",
         "team": "Hamburger SV",
         "points": "2",
-        "played": "8",
+        "played": "9",
         "win": "0",
         "draw": "2",
-        "lost": "6",
+        "lost": "7",
         "goalsFor": "2",
-        "goalsAgainst": "15",
-        "goalDifference": "-13",
+        "goalsAgainst": "18",
+        "goalDifference": "-16",
         "logo": "hamburger_sv"
     }
 ]
