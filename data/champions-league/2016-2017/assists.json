@@ -4,7 +4,7 @@
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
-        "assists": "5",
+        "assists": "6",
         "flag": "brazil",
         "logo": "fc_barcelona"
     },
@@ -13,12 +13,12 @@
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
-        "assists": "2",
+        "assists": "3",
         "flag": "austria",
         "logo": "bayern_munchen"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Ludwig Augustinsson",
         "country": "Sweden",
         "team": "FC København",
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Mesut Özil",
+        "country": "Germany",
+        "team": "Arsenal FC",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Christian Pulisic",
         "country": "USA",
         "team": "Borussia Dortmund",
@@ -136,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "assists": "2",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
@@ -144,7 +162,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "17.",
+        "rank": "19.",
         "name": " Adrien Silva",
         "country": "Portugal",
         "team": "Sporting CP",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " André Almeida",
-        "country": "Portugal",
-        "team": "SL Benfica",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
         "assists": "1",
-        "flag": "portugal",
-        "logo": "sl_benfica"
-    },
-    {
-        "rank": "-",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "FC Porto",
-        "assists": "1",
-        "flag": "portugal",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Aurier",
-        "country": "Ivory Coast",
-        "team": "Paris Saint-Germain",
-        "assists": "1",
-        "flag": "ivory_coast",
-        "logo": "paris_saint_germain"
+        "flag": "argentina",
+        "logo": "manchester_city"
     }
 ]
