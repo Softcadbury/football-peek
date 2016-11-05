@@ -54,13 +54,40 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Marcel Risse",
+        "country": "Germany",
+        "team": "1. FC Köln",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "-",
+        "name": "Mitchell Weiser",
+        "country": "Germany",
+        "team": "Hertha BSC",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "9.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
         "assists": "3",
         "flag": "austria",
         "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Baier",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -135,16 +162,7 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "16.",
-        "name": "Daniel Baier",
-        "country": "Germany",
-        "team": "FC Augsburg",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
+        "rank": "19.",
         "name": "Nabil Bentaleb",
         "country": "Algeria",
         "team": "FC Schalke 04",
@@ -160,23 +178,5 @@
         "assists": "2",
         "flag": "germany",
         "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Bayer Leverkusen",
-        "assists": "2",
-        "flag": "turkey",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Eric Maxim Choupo-Moting",
-        "country": "Cameroon",
-        "team": "FC Schalke 04",
-        "assists": "2",
-        "flag": "cameroon",
-        "logo": "fc_schalke_04"
     }
 ]

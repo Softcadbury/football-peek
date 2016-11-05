@@ -4,7 +4,7 @@
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "8",
+        "goals": "11",
         "flag": "france",
         "logo": "1__fc_koln"
     },
@@ -18,7 +18,16 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "7",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "4.",
         "name": "Vedad Ibišević",
         "country": "Bosnia-Herzegovina",
         "team": "Hertha BSC",
@@ -27,7 +36,7 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Javier Hernández",
         "country": "Mexico",
         "team": "Bayer Leverkusen",
@@ -37,15 +46,24 @@
     },
     {
         "rank": "-",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
+        "name": "Yunus Mallı",
+        "country": "Turkey",
+        "team": "1. FSV Mainz 05",
         "goals": "5",
-        "flag": "poland",
-        "logo": "bayern_munchen"
+        "flag": "turkey",
+        "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "5",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "8.",
         "name": "Pablo de Blasis",
         "country": "Argentina",
         "team": "1. FSV Mainz 05",
@@ -61,24 +79,6 @@
         "goals": "4",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Yunus Mallı",
-        "country": "Turkey",
-        "team": "1. FSV Mainz 05",
-        "goals": "4",
-        "flag": "turkey",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Maximilian Philipp",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -100,6 +100,15 @@
     },
     {
         "rank": "12.",
+        "name": "Nabil Bentaleb",
+        "country": "Algeria",
+        "team": "FC Schalke 04",
+        "goals": "3",
+        "flag": "algeria",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
         "name": "Marco Fabián",
         "country": "Mexico",
         "team": "Eintracht Frankfurt",
@@ -115,6 +124,15 @@
         "goals": "3",
         "flag": "sweden",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "werder_bremen"
     },
     {
         "rank": "-",
@@ -136,47 +154,29 @@
     },
     {
         "rank": "-",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
+        "goals": "3",
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Naby Keita",
+        "country": "Guinea",
+        "team": "RB Leipzig",
+        "goals": "3",
+        "flag": "guinea",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
         "goals": "3",
         "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Dario Lezcano",
-        "country": "Paraguay",
-        "team": "FC Ingolstadt 04",
-        "goals": "3",
-        "flag": "paraguay",
-        "logo": "fc_ingolstadt_04"
-    },
-    {
-        "rank": "-",
-        "name": "Alexander Meier",
-        "country": "Germany",
-        "team": "Eintracht Frankfurt",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Mark Uth",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "3",
-        "flag": "germany",
         "logo": "1899_hoffenheim"
     }
 ]

@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": " Pozuelo",
+        "country": "Spain",
+        "team": "KRC Genk",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "krc_genk"
+    },
+    {
+        "rank": "-",
         "name": "Francesco Totti",
         "country": "Italy",
         "team": "AS Roma",
@@ -18,22 +27,31 @@
         "logo": "as_roma"
     },
     {
-        "rank": "3.",
-        "name": " Pozuelo",
-        "country": "Spain",
-        "team": "KRC Genk",
+        "rank": "4.",
+        "name": "Bertrand Traoré",
+        "country": "Burkina Faso",
+        "team": "AFC Ajax",
         "assists": "3",
-        "flag": "spain",
-        "logo": "krc_genk"
+        "flag": "burkina_faso",
+        "logo": "afc_ajax"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Tal Ben Haim",
         "country": "Israel",
         "team": "Maccabi Tel Aviv",
         "assists": "2",
         "flag": "israel",
         "logo": "maccabi_tel_aviv"
+    },
+    {
+        "rank": "-",
+        "name": "Davide Biondini",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
@@ -55,12 +73,30 @@
     },
     {
         "rank": "-",
+        "name": "Alexandru Chipciu",
+        "country": "Romania",
+        "team": "RSC Anderlecht",
+        "assists": "2",
+        "flag": "romania",
+        "logo": "rsc_anderlecht"
+    },
+    {
+        "rank": "-",
         "name": "Daryl Horgan",
         "country": "Ireland",
         "team": "Dundalk FC",
         "assists": "2",
         "flag": "ireland",
         "logo": "dundalk_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Raúl García",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "-",
@@ -81,13 +117,40 @@
         "logo": "austria_wien"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Arnór Ingvi Traustason",
+        "country": "Iceland",
+        "team": "Rapid Wien",
+        "assists": "2",
+        "flag": "iceland",
+        "logo": "rapid_wien"
+    },
+    {
+        "rank": "15.",
         "name": " Alexandre Pato",
         "country": "Brazil",
         "team": "Villarreal CF",
         "assists": "1",
         "flag": "brazil",
         "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Ander Herrera",
+        "country": "Spain",
+        "team": "Manchester United",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "KRC Genk",
+        "assists": "1",
+        "flag": "jamaica",
+        "logo": "krc_genk"
     },
     {
         "rank": "-",
@@ -115,68 +178,5 @@
         "assists": "1",
         "flag": "netherlands",
         "logo": "az_alkmaar"
-    },
-    {
-        "rank": "-",
-        "name": "Davide Biondini",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Soriano",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Bogdan Butko",
-        "country": "Ukraine",
-        "team": "Shakhtar Donetsk",
-        "assists": "1",
-        "flag": "ukraine",
-        "logo": "shakhtar_donetsk"
-    },
-    {
-        "rank": "-",
-        "name": "Kalifa Coulibaly",
-        "country": "Mali",
-        "team": "KAA Gent",
-        "assists": "1",
-        "flag": "mali",
-        "logo": "kaa_gent"
-    },
-    {
-        "rank": "-",
-        "name": "Domenico Criscito",
-        "country": "Italy",
-        "team": "Zenit St. Petersburg",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "zenit_st__petersburg"
-    },
-    {
-        "rank": "-",
-        "name": "Sebastián Cristóforo",
-        "country": "Uruguay",
-        "team": "ACF Fiorentina",
-        "assists": "1",
-        "flag": "uruguay",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Bagaliy Dabo",
-        "country": "France",
-        "team": "Gabala FK",
-        "assists": "1",
-        "flag": "france",
-        "logo": "gabala_fk"
     }
 ]
