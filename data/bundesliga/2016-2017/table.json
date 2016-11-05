@@ -27,6 +27,19 @@
     },
     {
         "rank": "3",
+        "team": "Hertha BSC",
+        "points": "20",
+        "played": "10",
+        "win": "6",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "17",
+        "goalsAgainst": "10",
+        "goalDifference": "7",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "4",
         "team": "1899 Hoffenheim",
         "points": "19",
         "played": "9",
@@ -39,7 +52,7 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "4",
+        "rank": "5",
         "team": "1. FC Köln",
         "points": "18",
         "played": "9",
@@ -50,19 +63,6 @@
         "goalsAgainst": "6",
         "goalDifference": "10",
         "logo": "1__fc_koln"
-    },
-    {
-        "rank": "5",
-        "team": "Hertha BSC",
-        "points": "17",
-        "played": "9",
-        "win": "5",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "14",
-        "goalsAgainst": "10",
-        "goalDifference": "4",
-        "logo": "hertha_bsc"
     },
     {
         "rank": "6",
@@ -133,13 +133,13 @@
         "rank": "11",
         "team": "Bor. Mönchengladbach",
         "points": "12",
-        "played": "9",
+        "played": "10",
         "win": "3",
         "draw": "3",
-        "lost": "3",
+        "lost": "4",
         "goalsFor": "10",
-        "goalsAgainst": "12",
-        "goalDifference": "-2",
+        "goalsAgainst": "15",
+        "goalDifference": "-5",
         "logo": "bor__monchengladbach"
     },
     {

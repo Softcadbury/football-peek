@@ -105,6 +105,19 @@
     },
     {
         "rank": "9",
+        "team": "Málaga CF",
+        "points": "15",
+        "played": "11",
+        "win": "4",
+        "draw": "3",
+        "lost": "4",
+        "goalsFor": "17",
+        "goalsAgainst": "16",
+        "goalDifference": "1",
+        "logo": "malaga_cf"
+    },
+    {
+        "rank": "10",
         "team": "Celta Vigo",
         "points": "14",
         "played": "10",
@@ -117,7 +130,7 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "UD Las Palmas",
         "points": "13",
         "played": "10",
@@ -128,19 +141,6 @@
         "goalsAgainst": "18",
         "goalDifference": "2",
         "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "11",
-        "team": "Málaga CF",
-        "points": "12",
-        "played": "10",
-        "win": "3",
-        "draw": "3",
-        "lost": "4",
-        "goalsFor": "14",
-        "goalsAgainst": "14",
-        "goalDifference": "0",
-        "logo": "malaga_cf"
     },
     {
         "rank": "12",
@@ -224,13 +224,13 @@
         "rank": "18",
         "team": "Sporting Gijón",
         "points": "9",
-        "played": "10",
+        "played": "11",
         "win": "2",
         "draw": "3",
-        "lost": "5",
-        "goalsFor": "8",
-        "goalsAgainst": "19",
-        "goalDifference": "-11",
+        "lost": "6",
+        "goalsFor": "10",
+        "goalsAgainst": "22",
+        "goalDifference": "-12",
         "logo": "sporting_gijon"
     },
     {

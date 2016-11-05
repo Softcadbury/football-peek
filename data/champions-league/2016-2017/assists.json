@@ -18,7 +18,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "4.",
         "name": "Ludwig Augustinsson",
         "country": "Sweden",
         "team": "FC København",
@@ -28,21 +37,21 @@
     },
     {
         "rank": "-",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "wales",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
         "assists": "2",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Real Madrid",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -97,6 +106,15 @@
         "assists": "2",
         "flag": "spain",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Mariano",
+        "country": "Brazil",
+        "team": "Sevilla FC",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "2",
         "flag": "uruguay",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "19.",
-        "name": " Adrien Silva",
-        "country": "Portugal",
-        "team": "Sporting CP",
-        "assists": "1",
-        "flag": "portugal",
-        "logo": "sporting_cp"
-    },
-    {
-        "rank": "-",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "manchester_city"
     }
 ]

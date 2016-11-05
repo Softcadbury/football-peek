@@ -1,6 +1,51 @@
 [
     {
         "rank": "1.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": " Giuliano",
+        "country": "Brazil",
+        "team": "Zenit St. Petersburg",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "3.",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "KRC Genk",
+        "goals": "4",
+        "flag": "jamaica",
+        "logo": "krc_genk"
+    },
+    {
+        "rank": "-",
+        "name": "Nikola Kalinić",
+        "country": "Croatia",
+        "team": "ACF Fiorentina",
+        "goals": "4",
+        "flag": "croatia",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Łukasz Teodorczyk",
+        "country": "Poland",
+        "team": "RSC Anderlecht",
+        "goals": "4",
+        "flag": "poland",
+        "logo": "rsc_anderlecht"
+    },
+    {
+        "rank": "6.",
         "name": "Khouma Babacar",
         "country": "Senegal",
         "team": "ACF Fiorentina",
@@ -10,21 +55,21 @@
     },
     {
         "rank": "-",
-        "name": "Leon Bailey",
-        "country": "Jamaica",
-        "team": "KRC Genk",
+        "name": "Ishak Belfodil",
+        "country": "Algeria",
+        "team": "Standard Liège",
         "goals": "3",
-        "flag": "jamaica",
-        "logo": "krc_genk"
+        "flag": "algeria",
+        "logo": "standard_liege"
     },
     {
         "rank": "-",
-        "name": " Giuliano",
-        "country": "Brazil",
-        "team": "Zenit St. Petersburg",
+        "name": "Facundo Ferreyra",
+        "country": "Argentina",
+        "team": "Shakhtar Donetsk",
         "goals": "3",
-        "flag": "brazil",
-        "logo": "zenit_st__petersburg"
+        "flag": "argentina",
+        "logo": "shakhtar_donetsk"
     },
     {
         "rank": "-",
@@ -46,15 +91,6 @@
     },
     {
         "rank": "-",
-        "name": "Nikola Kalinić",
-        "country": "Croatia",
-        "team": "ACF Fiorentina",
-        "goals": "3",
-        "flag": "croatia",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
         "name": "Aleksandr Kokorin",
         "country": "Russia",
         "team": "Zenit St. Petersburg",
@@ -63,7 +99,25 @@
         "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Raul Rusescu",
+        "country": "Romania",
+        "team": "Osmanlıspor FK",
+        "goals": "3",
+        "flag": "romania",
+        "logo": "osmanl_spor_fk"
+    },
+    {
+        "rank": "-",
+        "name": " Sebá",
+        "country": "Brazil",
+        "team": "Olympiakos Piräus",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "olympiakos_piraus"
+    },
+    {
+        "rank": "14.",
         "name": " Alexandre Pato",
         "country": "Brazil",
         "team": "Villarreal CF",
@@ -109,74 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Stephan El Shaarawy",
-        "country": "Italy",
-        "team": "AS Roma",
+        "name": "Robert Berić",
+        "country": "Slovenia",
+        "team": "AS Saint-Étienne",
         "goals": "2",
-        "flag": "italy",
-        "logo": "as_roma"
+        "flag": "slovenia",
+        "logo": "as_saint_etienne"
     },
     {
         "rank": "-",
-        "name": "Facundo Ferreyra",
-        "country": "Argentina",
-        "team": "Shakhtar Donetsk",
+        "name": "Thomas Buffel",
+        "country": "Belgium",
+        "team": "KRC Genk",
         "goals": "2",
-        "flag": "argentina",
-        "logo": "shakhtar_donetsk"
-    },
-    {
-        "rank": "-",
-        "name": "Raphael Holzhauser",
-        "country": "Austria",
-        "team": "Austria Wien",
-        "goals": "2",
-        "flag": "austria",
-        "logo": "austria_wien"
-    },
-    {
-        "rank": "-",
-        "name": "Víctor Ibarbo",
-        "country": "Colombia",
-        "team": "Panathinaikos",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "panathinaikos"
-    },
-    {
-        "rank": "-",
-        "name": "Václav Kadlec",
-        "country": "Czech Republic",
-        "team": "Sparta Praha",
-        "goals": "2",
-        "flag": "czech_republic",
-        "logo": "sparta_praha"
-    },
-    {
-        "rank": "-",
-        "name": "Ciarán Kilduff",
-        "country": "Ireland",
-        "team": "Dundalk FC",
-        "goals": "2",
-        "flag": "ireland",
-        "logo": "dundalk_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Viktor Kovalenko",
-        "country": "Ukraine",
-        "team": "Shakhtar Donetsk",
-        "goals": "2",
-        "flag": "ukraine",
-        "logo": "shakhtar_donetsk"
-    },
-    {
-        "rank": "-",
-        "name": "Haris Medunjanin",
-        "country": "Bosnia-Herzegovina",
-        "team": "Maccabi Tel Aviv",
-        "goals": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "maccabi_tel_aviv"
+        "flag": "belgium",
+        "logo": "krc_genk"
     }
 ]

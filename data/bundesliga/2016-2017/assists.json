@@ -63,7 +63,16 @@
         "logo": "1__fc_koln"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Mitchell Weiser",
+        "country": "Germany",
+        "team": "Hertha BSC",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "9.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
@@ -153,7 +162,7 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "18.",
+        "rank": "19.",
         "name": "Nabil Bentaleb",
         "country": "Algeria",
         "team": "FC Schalke 04",
@@ -169,14 +178,5 @@
         "assists": "2",
         "flag": "germany",
         "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Oliver Burke",
-        "country": "Scotland",
-        "team": "RB Leipzig",
-        "assists": "2",
-        "flag": "scotland",
-        "logo": "rb_leipzig"
     }
 ]
