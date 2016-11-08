@@ -4,12 +4,12 @@
         "name": "Toni Kroos",
         "country": "Germany",
         "team": "Real Madrid",
-        "assists": "5",
+        "assists": "6",
         "flag": "germany",
         "logo": "real_madrid"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
@@ -37,12 +37,12 @@
     },
     {
         "rank": "-",
-        "name": " Nani",
-        "country": "Portugal",
-        "team": "Valencia CF",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "FC Barcelona",
         "assists": "4",
-        "flag": "portugal",
-        "logo": "valencia_cf"
+        "flag": "brazil",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": " Jonathan Viera",
+        "country": "Spain",
+        "team": "UD Las Palmas",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
         "name": " Leo Baptistão",
         "country": "Brazil",
         "team": "Espanyol Barcelona",
@@ -82,12 +91,30 @@
     },
     {
         "rank": "-",
-        "name": " Neymar",
-        "country": "Brazil",
+        "name": "Lionel Messi",
+        "country": "Argentina",
         "team": "FC Barcelona",
         "assists": "3",
-        "flag": "brazil",
+        "flag": "argentina",
         "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Nani",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Pablo Sarabia",
+        "country": "Spain",
+        "team": "Sevilla FC",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "-",
@@ -135,7 +162,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "16.",
+        "rank": "19.",
         "name": " Antonio Luna",
         "country": "Spain",
         "team": "SD Eibar",
@@ -151,32 +178,5 @@
         "assists": "2",
         "flag": "portugal",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Beñat",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Camacho",
-        "country": "Spain",
-        "team": "Málaga CF",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "malaga_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Carlos Martínez",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "real_sociedad"
     }
 ]

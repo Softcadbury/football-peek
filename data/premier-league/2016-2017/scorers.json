@@ -4,7 +4,7 @@
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
-        "goals": "8",
+        "goals": "9",
         "flag": "spain",
         "logo": "chelsea_fc"
     },
@@ -13,9 +13,18 @@
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "7",
+        "goals": "8",
         "flag": "argentina",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "3.",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "goals": "7",
+        "flag": "belgium",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
@@ -27,7 +36,34 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
+        "name": "Jermain Defoe",
+        "country": "England",
+        "team": "Sunderland AFC",
+        "goals": "6",
+        "flag": "england",
+        "logo": "sunderland_afc"
+    },
+    {
+        "rank": "-",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "6",
+        "flag": "sweden",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "6",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
@@ -36,7 +72,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "5.",
+        "rank": "9.",
         "name": "Michail Antonio",
         "country": "England",
         "team": "West Ham United",
@@ -46,21 +82,30 @@
     },
     {
         "rank": "-",
-        "name": "Jermain Defoe",
+        "name": "Charlie Austin",
         "country": "England",
-        "team": "Sunderland AFC",
+        "team": "Southampton FC",
         "goals": "5",
         "flag": "england",
-        "logo": "sunderland_afc"
+        "logo": "southampton_fc"
     },
     {
         "rank": "-",
-        "name": "Eden Hazard",
-        "country": "Belgium",
-        "team": "Chelsea FC",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Liverpool FC",
         "goals": "5",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -72,7 +117,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "9.",
+        "rank": "14.",
         "name": "Joe Allen",
         "country": "Wales",
         "team": "Stoke City",
@@ -82,12 +127,12 @@
     },
     {
         "rank": "-",
-        "name": "Charlie Austin",
-        "country": "England",
-        "team": "Southampton FC",
+        "name": "Christian Benteke",
+        "country": "Belgium",
+        "team": "Crystal Palace",
         "goals": "4",
-        "flag": "england",
-        "logo": "southampton_fc"
+        "flag": "belgium",
+        "logo": "crystal_palace"
     },
     {
         "rank": "-",
@@ -109,39 +154,12 @@
     },
     {
         "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
         "name": "Leroy Fer",
         "country": "Netherlands",
         "team": "Swansea City",
         "goals": "4",
         "flag": "netherlands",
         "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "4",
-        "flag": "sweden",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "4",
         "flag": "england",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Heung-min Son",
-        "country": "South Korea",
-        "team": "Tottenham Hotspur",
-        "goals": "4",
-        "flag": "south_korea",
-        "logo": "tottenham_hotspur"
     }
 ]

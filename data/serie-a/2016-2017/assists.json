@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "assists": "5",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
@@ -18,13 +27,31 @@
         "logo": "as_roma"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": " Felipe Anderson",
         "country": "Brazil",
         "team": "Lazio Roma",
         "assists": "4",
         "flag": "brazil",
         "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Josip Iličič",
+        "country": "Slovenia",
+        "team": "ACF Fiorentina",
+        "assists": "4",
+        "flag": "slovenia",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -36,22 +63,22 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": " Suso",
+        "country": "Spain",
+        "team": "AC Milan",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "9.",
         "name": " Alex Sandro",
         "country": "Brazil",
         "team": "Juventus",
         "assists": "3",
         "flag": "brazil",
         "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Andrea Belotti",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -79,6 +106,15 @@
         "assists": "3",
         "flag": "spain",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Juan Cuadrado",
+        "country": "Colombia",
+        "team": "Juventus",
+        "assists": "3",
+        "flag": "colombia",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -118,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Faouzi Ghoulam",
+        "country": "Algeria",
+        "team": "SSC Napoli",
+        "assists": "3",
+        "flag": "algeria",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": " Iago Falqué",
         "country": "Spain",
         "team": "Torino FC",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Josip Iličič",
-        "country": "Slovenia",
-        "team": "ACF Fiorentina",
-        "assists": "3",
-        "flag": "slovenia",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
         "name": "Baldé Diao Keita",
         "country": "Senegal",
         "team": "Lazio Roma",
         "assists": "3",
         "flag": "senegal",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Ladislav Krejčí",
-        "country": "Czech Republic",
-        "team": "Bologna FC",
-        "assists": "3",
-        "flag": "czech_republic",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": "M'Baye Niang",
-        "country": "France",
-        "team": "AC Milan",
-        "assists": "3",
-        "flag": "france",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Sau",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Suso",
-        "country": "Spain",
-        "team": "AC Milan",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "ac_milan"
     }
 ]

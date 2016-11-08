@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "7",
+        "goals": "8",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "7",
+        "goals": "8",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -36,13 +36,31 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "6.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
         "goals": "5",
         "flag": "spain",
         "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "goals": "5",
+        "flag": "wales",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -99,16 +117,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
         "goals": "4",
         "flag": "brazil",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Pedro León",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Torres",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "ca_osasuna"
     }
 ]
