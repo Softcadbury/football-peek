@@ -9,11 +9,11 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
-        "assists": "5",
+        "assists": "6",
         "flag": "argentina",
         "logo": "espanyol_barcelona"
     },
@@ -46,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": " Parejo",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
         "name": " Sergi Roberto",
         "country": "Spain",
         "team": "FC Barcelona",
@@ -54,7 +63,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Ángel Correa",
         "country": "Argentina",
         "team": "Atlético Madrid",
@@ -70,6 +79,15 @@
         "assists": "3",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Joaquín",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "real_betis"
     },
     {
         "rank": "-",
@@ -118,15 +136,6 @@
     },
     {
         "rank": "-",
-        "name": " Parejo",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
         "name": "Cristiano Piccini",
         "country": "Italy",
         "team": "Real Betis",
@@ -162,21 +171,12 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "19.",
+        "rank": "20.",
         "name": " Antonio Luna",
         "country": "Spain",
         "team": "SD Eibar",
         "assists": "2",
         "flag": "spain",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Bebé",
-        "country": "Portugal",
-        "team": "SD Eibar",
-        "assists": "2",
-        "flag": "portugal",
         "logo": "sd_eibar"
     }
 ]

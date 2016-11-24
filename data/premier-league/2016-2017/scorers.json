@@ -4,7 +4,7 @@
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
-        "goals": "9",
+        "goals": "10",
         "flag": "spain",
         "logo": "chelsea_fc"
     },
@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Jermain Defoe",
+        "country": "England",
+        "team": "Sunderland AFC",
+        "goals": "7",
+        "flag": "england",
+        "logo": "sunderland_afc"
+    },
+    {
+        "rank": "-",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -36,13 +45,13 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "5.",
-        "name": "Jermain Defoe",
+        "rank": "6.",
+        "name": "Michail Antonio",
         "country": "England",
-        "team": "Sunderland AFC",
+        "team": "West Ham United",
         "goals": "6",
         "flag": "england",
-        "logo": "sunderland_afc"
+        "logo": "west_ham_united"
     },
     {
         "rank": "-",
@@ -72,16 +81,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "9.",
-        "name": "Michail Antonio",
-        "country": "England",
-        "team": "West Ham United",
-        "goals": "5",
-        "flag": "england",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Charlie Austin",
         "country": "England",
         "team": "Southampton FC",
@@ -91,12 +91,30 @@
     },
     {
         "rank": "-",
+        "name": "Étienne Capoue",
+        "country": "France",
+        "team": "Watford FC",
+        "goals": "5",
+        "flag": "france",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
         "goals": "5",
         "flag": "brazil",
         "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "5",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -117,7 +135,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "14.",
+        "rank": "16.",
         "name": "Joe Allen",
         "country": "Wales",
         "team": "Stoke City",
@@ -133,15 +151,6 @@
         "goals": "4",
         "flag": "belgium",
         "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": "Étienne Capoue",
-        "country": "France",
-        "team": "Watford FC",
-        "goals": "4",
-        "flag": "france",
-        "logo": "watford_fc"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "4",
         "flag": "scotland",
         "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": "James Milner",
-        "country": "England",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "england",
-        "logo": "liverpool_fc"
     }
 ]

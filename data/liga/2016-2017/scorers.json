@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "goals": "8",
+        "flag": "portugal",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
@@ -18,7 +27,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -45,7 +54,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -64,12 +73,12 @@
     },
     {
         "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Real Madrid",
+        "name": "Duje Čop",
+        "country": "Croatia",
+        "team": "Sporting Gijón",
         "goals": "5",
-        "flag": "portugal",
-        "logo": "real_madrid"
+        "flag": "croatia",
+        "logo": "sporting_gijon"
     },
     {
         "rank": "-",
@@ -88,6 +97,15 @@
         "goals": "5",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -117,7 +135,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "14.",
+        "rank": "16.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -136,30 +154,12 @@
     },
     {
         "rank": "-",
-        "name": "Duje Čop",
-        "country": "Croatia",
-        "team": "Sporting Gijón",
-        "goals": "4",
-        "flag": "croatia",
-        "logo": "sporting_gijon"
-    },
-    {
-        "rank": "-",
         "name": " Deyverson",
         "country": "Brazil",
         "team": "CD Alavés",
         "goals": "4",
         "flag": "brazil",
         "logo": "cd_alaves"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
