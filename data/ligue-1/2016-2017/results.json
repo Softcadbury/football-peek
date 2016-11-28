@@ -1238,20 +1238,29 @@
         "round": 14,
         "matches": [
             {
+                "date": "25/11/2016",
+                "displayDate": "25/11/2016",
+                "homeTeam": "Stade Rennes",
+                "awayTeam": "Toulouse FC",
+                "score": "1:0",
+                "homeTeamLogo": "stade_rennes",
+                "awayTeamLogo": "toulouse_fc"
+            },
+            {
                 "date": "26/11/2016",
                 "displayDate": "26/11/2016",
-                "homeTeam": "Angers SCO",
-                "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
-                "homeTeamLogo": "angers_sco",
-                "awayTeamLogo": "as_saint_etienne"
+                "homeTeam": "AS Monaco",
+                "awayTeam": "Olympique Marseille",
+                "score": "4:0",
+                "homeTeamLogo": "as_monaco",
+                "awayTeamLogo": "olympique_marseille"
             },
             {
                 "date": "26/11/2016",
                 "displayDate": "",
                 "homeTeam": "Girondins Bordeaux",
                 "awayTeam": "Dijon FCO",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "girondins_bordeaux",
                 "awayTeamLogo": "dijon_fco"
             },
@@ -1260,7 +1269,7 @@
                 "displayDate": "",
                 "homeTeam": "SM Caen",
                 "awayTeam": "EA Guingamp",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "sm_caen",
                 "awayTeamLogo": "ea_guingamp"
             },
@@ -1269,25 +1278,16 @@
                 "displayDate": "",
                 "homeTeam": "FC Metz",
                 "awayTeam": "FC Lorient",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "fc_metz",
                 "awayTeamLogo": "fc_lorient"
             },
             {
                 "date": "26/11/2016",
                 "displayDate": "",
-                "homeTeam": "AS Monaco",
-                "awayTeam": "Olympique Marseille",
-                "score": "-:-",
-                "homeTeamLogo": "as_monaco",
-                "awayTeamLogo": "olympique_marseille"
-            },
-            {
-                "date": "26/11/2016",
-                "displayDate": "",
                 "homeTeam": "Montpellier HSC",
                 "awayTeam": "AS Nancy",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "montpellier_hsc",
                 "awayTeamLogo": "as_nancy"
             },
@@ -1296,34 +1296,34 @@
                 "displayDate": "",
                 "homeTeam": "FC Nantes",
                 "awayTeam": "Lille OSC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "fc_nantes",
                 "awayTeamLogo": "lille_osc"
             },
             {
-                "date": "26/11/2016",
+                "date": "27/11/2016",
+                "displayDate": "27/11/2016",
+                "homeTeam": "Angers SCO",
+                "awayTeam": "AS Saint-Étienne",
+                "score": "1:2",
+                "homeTeamLogo": "angers_sco",
+                "awayTeamLogo": "as_saint_etienne"
+            },
+            {
+                "date": "27/11/2016",
                 "displayDate": "",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "SC Bastia",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "ogc_nice",
                 "awayTeamLogo": "sc_bastia"
             },
             {
-                "date": "26/11/2016",
-                "displayDate": "",
-                "homeTeam": "Stade Rennes",
-                "awayTeam": "Toulouse FC",
-                "score": "-:-",
-                "homeTeamLogo": "stade_rennes",
-                "awayTeamLogo": "toulouse_fc"
-            },
-            {
                 "date": "27/11/2016",
-                "displayDate": "27/11/2016",
+                "displayDate": "",
                 "homeTeam": "Olympique Lyon",
                 "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "olympique_lyon",
                 "awayTeamLogo": "paris_saint_germain"
             }

@@ -1,21 +1,30 @@
 [
     {
         "rank": "1.",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
+        "assists": "7",
+        "flag": "sweden",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "2.",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "Borussia Dortmund",
+        "assists": "5",
+        "flag": "france",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Marco Fabián",
         "country": "Mexico",
         "team": "Eintracht Frankfurt",
         "assists": "5",
         "flag": "mexico",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Emil Forsberg",
-        "country": "Sweden",
-        "team": "RB Leipzig",
-        "assists": "5",
-        "flag": "sweden",
-        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -54,21 +63,21 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
+        "name": "Julian Brandt",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "assists": "4",
         "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "Borussia Dortmund",
-        "assists": "4",
-        "flag": "france",
         "logo": "borussia_dortmund"
     },
     {
@@ -100,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Sebastian Rudy",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Mitchell Weiser",
         "country": "Germany",
         "team": "Hertha BSC",
@@ -108,7 +126,7 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "13.",
+        "rank": "15.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
@@ -127,15 +145,6 @@
     },
     {
         "rank": "-",
-        "name": "Julian Brandt",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "Bayer Leverkusen",
@@ -145,38 +154,29 @@
     },
     {
         "rank": "-",
+        "name": "Timothy Chandler",
+        "country": "USA",
+        "team": "Eintracht Frankfurt",
+        "assists": "3",
+        "flag": "usa",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
+        "team": "FC Schalke 04",
+        "assists": "3",
+        "flag": "cameroon",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
         "name": "Jhon Córdoba",
         "country": "Colombia",
         "team": "1. FSV Mainz 05",
         "assists": "3",
         "flag": "colombia",
         "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Kerem Demirbay",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Jerôme Gondorf",
-        "country": "Germany",
-        "team": "SV Darmstadt 98",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "sv_darmstadt_98"
-    },
-    {
-        "rank": "-",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
-        "assists": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
     }
 ]

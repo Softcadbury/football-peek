@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Nemanja Matić",
+        "country": "Serbia",
+        "team": "Chelsea FC",
+        "assists": "6",
+        "flag": "serbia",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "3.",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -28,12 +37,12 @@
     },
     {
         "rank": "-",
-        "name": "Nemanja Matić",
-        "country": "Serbia",
-        "team": "Chelsea FC",
+        "name": "Dimitri Payet",
+        "country": "France",
+        "team": "West Ham United",
         "assists": "5",
-        "flag": "serbia",
-        "logo": "chelsea_fc"
+        "flag": "france",
+        "logo": "west_ham_united"
     },
     {
         "rank": "-",
@@ -47,14 +56,14 @@
     {
         "rank": "-",
         "name": "Wilfried Zaha",
-        "country": "England",
+        "country": "Ivory Coast",
         "team": "Crystal Palace",
         "assists": "5",
-        "flag": "england",
+        "flag": "ivory_coast",
         "logo": "crystal_palace"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Yannick Bolasie",
         "country": "Congo DR",
         "team": "Crystal Palace",
@@ -64,12 +73,21 @@
     },
     {
         "rank": "-",
-        "name": "Dimitri Payet",
-        "country": "France",
-        "team": "West Ham United",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
         "assists": "4",
-        "flag": "france",
-        "logo": "west_ham_united"
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Matt Phillips",
+        "country": "Scotland",
+        "team": "West Bromwich Albion",
+        "assists": "4",
+        "flag": "scotland",
+        "logo": "west_bromwich_albion"
     },
     {
         "rank": "-",
@@ -81,7 +99,16 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Swansea City",
+        "assists": "4",
+        "flag": "iceland",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "13.",
         "name": " Álvaro Negredo",
         "country": "Spain",
         "team": "Middlesbrough FC",
@@ -100,21 +127,21 @@
     },
     {
         "rank": "-",
-        "name": " Diego Costa",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
         "assists": "3",
         "flag": "denmark",
         "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Jordan Henderson",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "3",
+        "flag": "england",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Matt Phillips",
-        "country": "Scotland",
-        "team": "West Bromwich Albion",
-        "assists": "3",
-        "flag": "scotland",
-        "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
         "name": " Roberto Firmino",
         "country": "Brazil",
         "team": "Liverpool FC",
         "assists": "3",
         "flag": "brazil",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
-        "assists": "3",
-        "flag": "chile",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Swansea City",
-        "assists": "3",
-        "flag": "iceland",
-        "logo": "swansea_city"
     }
 ]

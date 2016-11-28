@@ -4,9 +4,18 @@
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
-        "goals": "5",
+        "goals": "6",
         "flag": "spain",
         "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "2.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "5",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -18,13 +27,40 @@
         "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Łukasz Teodorczyk",
+        "country": "Poland",
+        "team": "RSC Anderlecht",
+        "goals": "5",
+        "flag": "poland",
+        "logo": "rsc_anderlecht"
+    },
+    {
+        "rank": "5.",
+        "name": "Khouma Babacar",
+        "country": "Senegal",
+        "team": "ACF Fiorentina",
+        "goals": "4",
+        "flag": "senegal",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "KRC Genk",
         "goals": "4",
         "flag": "jamaica",
         "logo": "krc_genk"
+    },
+    {
+        "rank": "-",
+        "name": "Guillaume Hoarau",
+        "country": "France",
+        "team": "BSC Young Boys",
+        "goals": "4",
+        "flag": "france",
+        "logo": "bsc_young_boys"
     },
     {
         "rank": "-",
@@ -37,24 +73,15 @@
     },
     {
         "rank": "-",
-        "name": "Łukasz Teodorczyk",
-        "country": "Poland",
-        "team": "RSC Anderlecht",
+        "name": "Aleksandr Kokorin",
+        "country": "Russia",
+        "team": "Zenit St. Petersburg",
         "goals": "4",
-        "flag": "poland",
-        "logo": "rsc_anderlecht"
+        "flag": "russia",
+        "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "6.",
-        "name": "Khouma Babacar",
-        "country": "Senegal",
-        "team": "ACF Fiorentina",
-        "goals": "3",
-        "flag": "senegal",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Ishak Belfodil",
         "country": "Algeria",
         "team": "Standard Liège",
@@ -73,15 +100,6 @@
     },
     {
         "rank": "-",
-        "name": "Guillaume Hoarau",
-        "country": "France",
-        "team": "BSC Young Boys",
-        "goals": "3",
-        "flag": "france",
-        "logo": "bsc_young_boys"
-    },
-    {
-        "rank": "-",
         "name": " Joãozinho",
         "country": "Brazil",
         "team": "FK Krasnodar",
@@ -91,12 +109,21 @@
     },
     {
         "rank": "-",
-        "name": "Aleksandr Kokorin",
+        "name": "Nikolay Komlichenko",
         "country": "Russia",
-        "team": "Zenit St. Petersburg",
+        "team": "Slovan Liberec",
         "goals": "3",
         "flag": "russia",
-        "logo": "zenit_st__petersburg"
+        "logo": "slovan_liberec"
+    },
+    {
+        "rank": "-",
+        "name": "Danijel Miličević",
+        "country": "Switzerland",
+        "team": "KAA Gent",
+        "goals": "3",
+        "flag": "switzerland",
+        "logo": "kaa_gent"
     },
     {
         "rank": "-",
@@ -117,7 +144,16 @@
         "logo": "olympiakos_piraus"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Youri Tielemans",
+        "country": "Belgium",
+        "team": "RSC Anderlecht",
+        "goals": "3",
+        "flag": "belgium",
+        "logo": "rsc_anderlecht"
+    },
+    {
+        "rank": "18.",
         "name": " Alexandre Pato",
         "country": "Brazil",
         "team": "Villarreal CF",
@@ -142,41 +178,5 @@
         "goals": "2",
         "flag": "brazil",
         "logo": "fk_krasnodar"
-    },
-    {
-        "rank": "-",
-        "name": "Stefanos Athanasiadis",
-        "country": "Greece",
-        "team": "PAOK Saloniki",
-        "goals": "2",
-        "flag": "greece",
-        "logo": "paok_saloniki"
-    },
-    {
-        "rank": "-",
-        "name": "Charlie Austin",
-        "country": "England",
-        "team": "Southampton FC",
-        "goals": "2",
-        "flag": "england",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Robert Berić",
-        "country": "Slovenia",
-        "team": "AS Saint-Étienne",
-        "goals": "2",
-        "flag": "slovenia",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Buffel",
-        "country": "Belgium",
-        "team": "KRC Genk",
-        "goals": "2",
-        "flag": "belgium",
-        "logo": "krc_genk"
     }
 ]
