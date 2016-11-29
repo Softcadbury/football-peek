@@ -4,12 +4,21 @@
         "name": "Jean Michaël Seri",
         "country": "Ivory Coast",
         "team": "OGC Nice",
-        "assists": "7",
+        "assists": "8",
         "flag": "ivory_coast",
         "logo": "ogc_nice"
     },
     {
         "rank": "2.",
+        "name": "Paul-Georges Ntep",
+        "country": "France",
+        "team": "Stade Rennes",
+        "assists": "5",
+        "flag": "france",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "3.",
         "name": "Younès Belhanda",
         "country": "Morocco",
         "team": "OGC Nice",
@@ -19,12 +28,57 @@
     },
     {
         "rank": "-",
-        "name": "Paul-Georges Ntep",
+        "name": " Bernardo Silva",
+        "country": "Portugal",
+        "team": "AS Monaco",
+        "assists": "4",
+        "flag": "portugal",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Loïs Diony",
         "country": "France",
-        "team": "Stade Rennes",
+        "team": "Dijon FCO",
         "assists": "4",
         "flag": "france",
-        "logo": "stade_rennes"
+        "logo": "dijon_fco"
+    },
+    {
+        "rank": "-",
+        "name": " Marçal",
+        "country": "Brazil",
+        "team": "EA Guingamp",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "-",
+        "name": "Kylian Mbappé",
+        "country": "France",
+        "team": "AS Monaco",
+        "assists": "4",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Youssouf Sabaly",
+        "country": "France",
+        "team": "Girondins Bordeaux",
+        "assists": "4",
+        "flag": "france",
+        "logo": "girondins_bordeaux"
     },
     {
         "rank": "-",
@@ -36,13 +90,22 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "5.",
-        "name": " Bernardo Silva",
-        "country": "Portugal",
-        "team": "AS Monaco",
+        "rank": "11.",
+        "name": "Ludovic Baal",
+        "country": "French Guyana",
+        "team": "Stade Rennes",
         "assists": "3",
-        "flag": "portugal",
-        "logo": "as_monaco"
+        "flag": "french_guyana",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
+        "name": "Martin Braithwaite",
+        "country": "Denmark",
+        "team": "Toulouse FC",
+        "assists": "3",
+        "flag": "denmark",
+        "logo": "toulouse_fc"
     },
     {
         "rank": "-",
@@ -55,12 +118,30 @@
     },
     {
         "rank": "-",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
+        "name": " Cafú",
+        "country": "Portugal",
+        "team": "FC Lorient",
         "assists": "3",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
+        "flag": "portugal",
+        "logo": "fc_lorient"
+    },
+    {
+        "rank": "-",
+        "name": "Souleymane Camara",
+        "country": "Senegal",
+        "team": "Montpellier HSC",
+        "assists": "3",
+        "flag": "senegal",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "-",
+        "name": "Lucas Deaux",
+        "country": "France",
+        "team": "EA Guingamp",
+        "assists": "3",
+        "flag": "france",
+        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -82,101 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Romain Hamouma",
+        "name": "Jordan Ferri",
         "country": "France",
-        "team": "AS Saint-Étienne",
+        "team": "Olympique Lyon",
         "assists": "3",
         "flag": "france",
-        "logo": "as_saint_etienne"
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
-        "name": " Marçal",
-        "country": "Brazil",
-        "team": "EA Guingamp",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "ea_guingamp"
-    },
-    {
-        "rank": "-",
-        "name": " Maxwell",
-        "country": "Brazil",
-        "team": "Paris Saint-Germain",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Kylian Mbappé",
+        "name": "Bafétimbi Gomis",
         "country": "France",
-        "team": "AS Monaco",
+        "team": "Olympique Marseille",
         "assists": "3",
         "flag": "france",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Cheikh N'Doye",
-        "country": "Senegal",
-        "team": "Angers SCO",
-        "assists": "3",
-        "flag": "senegal",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": " Ricardo Pereira",
-        "country": "Portugal",
-        "team": "OGC Nice",
-        "assists": "3",
-        "flag": "portugal",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Ismaïla Sarr",
-        "country": "Senegal",
-        "team": "FC Metz",
-        "assists": "3",
-        "flag": "senegal",
-        "logo": "fc_metz"
-    },
-    {
-        "rank": "-",
-        "name": "Mariusz Stępiński",
-        "country": "Poland",
-        "team": "FC Nantes",
-        "assists": "3",
-        "flag": "poland",
-        "logo": "fc_nantes"
-    },
-    {
-        "rank": "-",
-        "name": "Óscar Trejo",
-        "country": "Argentina",
-        "team": "Toulouse FC",
-        "assists": "3",
-        "flag": "argentina",
-        "logo": "toulouse_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Serge Aurier",
-        "country": "Ivory Coast",
-        "team": "Paris Saint-Germain",
-        "assists": "2",
-        "flag": "ivory_coast",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Ludovic Baal",
-        "country": "French Guyana",
-        "team": "Stade Rennes",
-        "assists": "2",
-        "flag": "french_guyana",
-        "logo": "stade_rennes"
+        "logo": "olympique_marseille"
     }
 ]

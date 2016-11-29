@@ -1,6 +1,33 @@
 [
     {
         "rank": "1.",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
+        "assists": "7",
+        "flag": "sweden",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "2.",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "Borussia Dortmund",
+        "assists": "5",
+        "flag": "france",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Marco Fabián",
+        "country": "Mexico",
+        "team": "Eintracht Frankfurt",
+        "assists": "5",
+        "flag": "mexico",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Vincenzo Grifo",
         "country": "Italy",
         "team": "SC Freiburg",
@@ -19,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Yunus Mallı",
+        "country": "Turkey",
+        "team": "1. FSV Mainz 05",
+        "assists": "5",
+        "flag": "turkey",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
         "name": "Franck Ribéry",
         "country": "France",
         "team": "Bayern München",
@@ -27,7 +63,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "4.",
+        "rank": "8.",
+        "name": "Julian Brandt",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -37,21 +82,21 @@
     },
     {
         "rank": "-",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "Borussia Dortmund",
+        "name": "Sead Kolašinac",
+        "country": "Bosnia-Herzegovina",
+        "team": "FC Schalke 04",
         "assists": "4",
-        "flag": "france",
-        "logo": "borussia_dortmund"
+        "flag": "bosnia_herzegovina",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
-        "name": "Marco Fabián",
-        "country": "Mexico",
-        "team": "Eintracht Frankfurt",
+        "name": "Christian Pulisic",
+        "country": "USA",
+        "team": "Borussia Dortmund",
         "assists": "4",
-        "flag": "mexico",
-        "logo": "eintracht_frankfurt"
+        "flag": "usa",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -64,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Sebastian Rudy",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Mitchell Weiser",
         "country": "Germany",
         "team": "Hertha BSC",
@@ -72,7 +126,7 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "9.",
+        "rank": "15.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
@@ -91,92 +145,38 @@
     },
     {
         "rank": "-",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
-        "assists": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Yunus Mallı",
+        "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
-        "team": "1. FSV Mainz 05",
+        "team": "Bayer Leverkusen",
         "assists": "3",
         "flag": "turkey",
-        "logo": "1__fsv_mainz_05"
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Yuya Osako",
-        "country": "Japan",
-        "team": "1. FC Köln",
-        "assists": "3",
-        "flag": "japan",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Pulisic",
+        "name": "Timothy Chandler",
         "country": "USA",
-        "team": "Borussia Dortmund",
+        "team": "Eintracht Frankfurt",
         "assists": "3",
         "flag": "usa",
-        "logo": "borussia_dortmund"
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
-        "name": " Raphaël Guerreiro",
-        "country": "Portugal",
-        "team": "Borussia Dortmund",
-        "assists": "3",
-        "flag": "portugal",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Sebastian Rudy",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Lars Stindl",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "19.",
-        "name": "Nabil Bentaleb",
-        "country": "Algeria",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
         "team": "FC Schalke 04",
-        "assists": "2",
-        "flag": "algeria",
+        "assists": "3",
+        "flag": "cameroon",
         "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
-        "name": "Leonardo Bittencourt",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "1__fc_koln"
+        "name": "Jhon Córdoba",
+        "country": "Colombia",
+        "team": "1. FSV Mainz 05",
+        "assists": "3",
+        "flag": "colombia",
+        "logo": "1__fsv_mainz_05"
     }
 ]

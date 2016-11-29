@@ -4,12 +4,66 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "5",
+        "assists": "7",
         "flag": "belgium",
         "logo": "manchester_city"
     },
     {
         "rank": "2.",
+        "name": "Nemanja Matić",
+        "country": "Serbia",
+        "team": "Chelsea FC",
+        "assists": "6",
+        "flag": "serbia",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "3.",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Adam Lallana",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "5",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Dimitri Payet",
+        "country": "France",
+        "team": "West Ham United",
+        "assists": "5",
+        "flag": "france",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": " Pedro",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Wilfried Zaha",
+        "country": "Ivory Coast",
+        "team": "Crystal Palace",
+        "assists": "5",
+        "flag": "ivory_coast",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "8.",
         "name": "Yannick Bolasie",
         "country": "Congo DR",
         "team": "Crystal Palace",
@@ -19,33 +73,42 @@
     },
     {
         "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Nemanja Matić",
-        "country": "Serbia",
+        "name": " Diego Costa",
+        "country": "Spain",
         "team": "Chelsea FC",
         "assists": "4",
-        "flag": "serbia",
+        "flag": "spain",
         "logo": "chelsea_fc"
     },
     {
         "rank": "-",
-        "name": "Dimitri Payet",
-        "country": "France",
-        "team": "West Ham United",
+        "name": "Matt Phillips",
+        "country": "Scotland",
+        "team": "West Bromwich Albion",
         "assists": "4",
-        "flag": "france",
-        "logo": "west_ham_united"
+        "flag": "scotland",
+        "logo": "west_bromwich_albion"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Wayne Rooney",
+        "country": "England",
+        "team": "Manchester United",
+        "assists": "4",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Swansea City",
+        "assists": "4",
+        "flag": "iceland",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "13.",
         "name": " Álvaro Negredo",
         "country": "Spain",
         "team": "Middlesbrough FC",
@@ -73,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Jordan Henderson",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "3",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Kelechi Iheanacho",
         "country": "Nigeria",
         "team": "Manchester City",
@@ -91,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": "Adam Lallana",
-        "country": "England",
-        "team": "Liverpool FC",
-        "assists": "3",
-        "flag": "england",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
@@ -109,74 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Pedro",
-        "country": "Spain",
-        "team": "Chelsea FC",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
         "assists": "3",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
-        "assists": "3",
-        "flag": "chile",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Wilfried Zaha",
-        "country": "England",
-        "team": "Crystal Palace",
-        "assists": "3",
-        "flag": "england",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "16.",
-        "name": "Joe Allen",
-        "country": "Wales",
-        "team": "Stoke City",
-        "assists": "2",
-        "flag": "wales",
-        "logo": "stoke_city"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Arter",
-        "country": "Ireland",
-        "team": "AFC Bournemouth",
-        "assists": "2",
-        "flag": "ireland",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Modou Barrow",
-        "country": "Gambia",
-        "team": "Swansea City",
-        "assists": "2",
-        "flag": "gambia",
-        "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": "Daley Blind",
-        "country": "Netherlands",
-        "team": "Manchester United",
-        "assists": "2",
-        "flag": "netherlands",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Nacer Chadli",
-        "country": "Belgium",
-        "team": "West Bromwich Albion",
-        "assists": "2",
-        "flag": "belgium",
-        "logo": "west_bromwich_albion"
+        "flag": "brazil",
+        "logo": "liverpool_fc"
     }
 ]
