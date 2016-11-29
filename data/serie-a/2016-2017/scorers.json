@@ -9,22 +9,22 @@
         "logo": "as_roma"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "12",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "3.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
         "goals": "10",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mauro Icardi",
-        "country": "Argentina",
-        "team": "Inter",
-        "goals": "10",
-        "flag": "argentina",
-        "logo": "inter"
     },
     {
         "rank": "4.",
@@ -100,28 +100,10 @@
     },
     {
         "rank": "-",
-        "name": "Luís Muriel",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "goals": "6",
-        "flag": "colombia",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "13.",
-        "name": "Marco Borriello",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "goals": "5",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
         "name": "Gregoire Defrel",
         "country": "France",
         "team": "Sassuolo Calcio",
-        "goals": "5",
+        "goals": "6",
         "flag": "france",
         "logo": "sassuolo_calcio"
     },
@@ -130,9 +112,27 @@
         "name": "Nikola Kalinić",
         "country": "Croatia",
         "team": "ACF Fiorentina",
-        "goals": "5",
+        "goals": "6",
         "flag": "croatia",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Luís Muriel",
+        "country": "Colombia",
+        "team": "Sampdoria",
+        "goals": "6",
+        "flag": "colombia",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "15.",
+        "name": "Marco Borriello",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
