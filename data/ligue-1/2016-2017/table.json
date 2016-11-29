@@ -42,13 +42,13 @@
         "rank": "4",
         "team": "Stade Rennes",
         "points": "24",
-        "played": "14",
+        "played": "15",
         "win": "7",
         "draw": "3",
-        "lost": "4",
-        "goalsFor": "15",
-        "goalsAgainst": "17",
-        "goalDifference": "-2",
+        "lost": "5",
+        "goalsFor": "16",
+        "goalsAgainst": "19",
+        "goalDifference": "-3",
         "logo": "stade_rennes"
     },
     {
@@ -183,19 +183,32 @@
     },
     {
         "rank": "15",
-        "team": "SM Caen",
+        "team": "Lille OSC",
         "points": "14",
-        "played": "14",
+        "played": "15",
         "win": "4",
         "draw": "2",
-        "lost": "8",
-        "goalsFor": "11",
-        "goalsAgainst": "23",
-        "goalDifference": "-12",
-        "logo": "sm_caen"
+        "lost": "9",
+        "goalsFor": "14",
+        "goalsAgainst": "21",
+        "goalDifference": "-7",
+        "logo": "lille_osc"
     },
     {
         "rank": "16",
+        "team": "SM Caen",
+        "points": "14",
+        "played": "15",
+        "win": "4",
+        "draw": "2",
+        "lost": "9",
+        "goalsFor": "13",
+        "goalsAgainst": "27",
+        "goalDifference": "-14",
+        "logo": "sm_caen"
+    },
+    {
+        "rank": "17",
         "team": "SC Bastia",
         "points": "13",
         "played": "14",
@@ -208,7 +221,7 @@
         "logo": "sc_bastia"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "FC Nantes",
         "points": "13",
         "played": "14",
@@ -221,7 +234,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "18",
+        "rank": "19",
         "team": "AS Nancy",
         "points": "13",
         "played": "14",
@@ -234,29 +247,16 @@
         "logo": "as_nancy"
     },
     {
-        "rank": "19",
-        "team": "Lille OSC",
-        "points": "11",
-        "played": "14",
-        "win": "3",
-        "draw": "2",
-        "lost": "9",
-        "goalsFor": "10",
-        "goalsAgainst": "19",
-        "goalDifference": "-9",
-        "logo": "lille_osc"
-    },
-    {
         "rank": "20",
         "team": "FC Lorient",
-        "points": "8",
-        "played": "14",
-        "win": "2",
+        "points": "11",
+        "played": "15",
+        "win": "3",
         "draw": "2",
         "lost": "10",
-        "goalsFor": "12",
-        "goalsAgainst": "26",
-        "goalDifference": "-14",
+        "goalsFor": "14",
+        "goalsAgainst": "27",
+        "goalDifference": "-13",
         "logo": "fc_lorient"
     }
 ]

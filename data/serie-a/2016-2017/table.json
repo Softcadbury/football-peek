@@ -80,31 +80,44 @@
     {
         "rank": "7",
         "team": "SSC Napoli",
-        "points": "24",
-        "played": "13",
+        "points": "25",
+        "played": "14",
         "win": "7",
-        "draw": "3",
+        "draw": "4",
         "lost": "3",
-        "goalsFor": "23",
-        "goalsAgainst": "14",
+        "goalsFor": "24",
+        "goalsAgainst": "15",
         "goalDifference": "9",
         "logo": "ssc_napoli"
     },
     {
         "rank": "8",
-        "team": "ACF Fiorentina",
-        "points": "20",
-        "played": "12",
-        "win": "5",
-        "draw": "5",
-        "lost": "2",
-        "goalsFor": "18",
-        "goalsAgainst": "11",
-        "goalDifference": "7",
-        "logo": "acf_fiorentina"
+        "team": "Inter",
+        "points": "21",
+        "played": "14",
+        "win": "6",
+        "draw": "3",
+        "lost": "5",
+        "goalsFor": "22",
+        "goalsAgainst": "18",
+        "goalDifference": "4",
+        "logo": "inter"
     },
     {
         "rank": "9",
+        "team": "ACF Fiorentina",
+        "points": "20",
+        "played": "13",
+        "win": "5",
+        "draw": "5",
+        "lost": "3",
+        "goalsFor": "20",
+        "goalsAgainst": "15",
+        "goalDifference": "5",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "10",
         "team": "Genoa CFC",
         "points": "19",
         "played": "13",
@@ -117,7 +130,7 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "Sampdoria",
         "points": "19",
         "played": "14",
@@ -130,7 +143,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "Cagliari Calcio",
         "points": "19",
         "played": "14",
@@ -141,19 +154,6 @@
         "goalsAgainst": "31",
         "goalDifference": "-9",
         "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "12",
-        "team": "Inter",
-        "points": "18",
-        "played": "13",
-        "win": "5",
-        "draw": "3",
-        "lost": "5",
-        "goalsFor": "18",
-        "goalsAgainst": "16",
-        "goalDifference": "2",
-        "logo": "inter"
     },
     {
         "rank": "13",
@@ -197,13 +197,13 @@
     {
         "rank": "16",
         "team": "Sassuolo Calcio",
-        "points": "13",
-        "played": "13",
+        "points": "14",
+        "played": "14",
         "win": "4",
-        "draw": "1",
+        "draw": "2",
         "lost": "8",
-        "goalsFor": "16",
-        "goalsAgainst": "25",
+        "goalsFor": "17",
+        "goalsAgainst": "26",
         "goalDifference": "-9",
         "logo": "sassuolo_calcio"
     },

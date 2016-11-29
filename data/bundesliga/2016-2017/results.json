@@ -1035,6 +1035,15 @@
         "round": 13,
         "matches": [
             {
+                "date": "02/12/2016",
+                "displayDate": "02/12/2016",
+                "homeTeam": "1. FSV Mainz 05",
+                "awayTeam": "Bayern München",
+                "score": "-:-",
+                "homeTeamLogo": "1__fsv_mainz_05",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
                 "date": "03/12/2016",
                 "displayDate": "03/12/2016",
                 "homeTeam": "Borussia Dortmund",
@@ -1055,15 +1064,6 @@
             {
                 "date": "03/12/2016",
                 "displayDate": "",
-                "homeTeam": "1. FSV Mainz 05",
-                "awayTeam": "Bayern München",
-                "score": "-:-",
-                "homeTeamLogo": "1__fsv_mainz_05",
-                "awayTeamLogo": "bayern_munchen"
-            },
-            {
-                "date": "03/12/2016",
-                "displayDate": "",
                 "homeTeam": "VfL Wolfsburg",
                 "awayTeam": "Hertha BSC",
                 "score": "-:-",
@@ -1073,29 +1073,11 @@
             {
                 "date": "03/12/2016",
                 "displayDate": "",
-                "homeTeam": "FC Augsburg",
-                "awayTeam": "Eintracht Frankfurt",
-                "score": "-:-",
-                "homeTeamLogo": "fc_augsburg",
-                "awayTeamLogo": "eintracht_frankfurt"
-            },
-            {
-                "date": "03/12/2016",
-                "displayDate": "",
                 "homeTeam": "Werder Bremen",
                 "awayTeam": "FC Ingolstadt 04",
                 "score": "-:-",
                 "homeTeamLogo": "werder_bremen",
                 "awayTeamLogo": "fc_ingolstadt_04"
-            },
-            {
-                "date": "03/12/2016",
-                "displayDate": "",
-                "homeTeam": "SV Darmstadt 98",
-                "awayTeam": "Hamburger SV",
-                "score": "-:-",
-                "homeTeamLogo": "sv_darmstadt_98",
-                "awayTeamLogo": "hamburger_sv"
             },
             {
                 "date": "03/12/2016",
@@ -1114,6 +1096,24 @@
                 "score": "-:-",
                 "homeTeamLogo": "rb_leipzig",
                 "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "04/12/2016",
+                "displayDate": "04/12/2016",
+                "homeTeam": "SV Darmstadt 98",
+                "awayTeam": "Hamburger SV",
+                "score": "-:-",
+                "homeTeamLogo": "sv_darmstadt_98",
+                "awayTeamLogo": "hamburger_sv"
+            },
+            {
+                "date": "04/12/2016",
+                "displayDate": "",
+                "homeTeam": "FC Augsburg",
+                "awayTeam": "Eintracht Frankfurt",
+                "score": "-:-",
+                "homeTeamLogo": "fc_augsburg",
+                "awayTeamLogo": "eintracht_frankfurt"
             }
         ]
     },
