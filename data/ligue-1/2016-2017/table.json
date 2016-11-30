@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "AS Monaco",
+        "points": "33",
+        "played": "15",
+        "win": "10",
+        "draw": "3",
+        "lost": "2",
+        "goalsFor": "44",
+        "goalsAgainst": "16",
+        "goalDifference": "28",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "2",
         "team": "OGC Nice",
         "points": "33",
         "played": "14",
@@ -11,19 +24,6 @@
         "goalsAgainst": "10",
         "goalDifference": "16",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "2",
-        "team": "AS Monaco",
-        "points": "32",
-        "played": "14",
-        "win": "10",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "43",
-        "goalsAgainst": "15",
-        "goalDifference": "28",
-        "logo": "as_monaco"
     },
     {
         "rank": "3",
@@ -171,13 +171,13 @@
     {
         "rank": "14",
         "team": "Dijon FCO",
-        "points": "14",
-        "played": "14",
+        "points": "15",
+        "played": "15",
         "win": "3",
-        "draw": "5",
+        "draw": "6",
         "lost": "6",
-        "goalsFor": "18",
-        "goalsAgainst": "21",
+        "goalsFor": "19",
+        "goalsAgainst": "22",
         "goalDifference": "-3",
         "logo": "dijon_fco"
     },
