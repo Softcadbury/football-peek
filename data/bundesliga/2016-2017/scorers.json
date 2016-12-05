@@ -4,7 +4,7 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
-        "goals": "13",
+        "goals": "15",
         "flag": "gabon",
         "logo": "borussia_dortmund"
     },
@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "9",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "4.",
         "name": "Vedad Ibišević",
         "country": "Bosnia-Herzegovina",
         "team": "Hertha BSC",
@@ -27,25 +36,25 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "4.",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
-        "goals": "7",
-        "flag": "poland",
-        "logo": "bayern_munchen"
-    },
-    {
         "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "goals": "7",
+        "goals": "8",
         "flag": "germany",
         "logo": "rb_leipzig"
     },
     {
         "rank": "6.",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "7.",
         "name": "Yunus Mallı",
         "country": "Turkey",
         "team": "1. FSV Mainz 05",
@@ -54,7 +63,7 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
@@ -90,15 +99,6 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "-",
-        "name": "Sandro Wagner",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
         "rank": "12.",
         "name": "Nabil Bentaleb",
         "country": "Algeria",
@@ -109,12 +109,30 @@
     },
     {
         "rank": "-",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "Bayer Leverkusen",
+        "goals": "4",
+        "flag": "turkey",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Pablo de Blasis",
         "country": "Argentina",
         "team": "1. FSV Mainz 05",
         "goals": "4",
         "flag": "argentina",
         "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
+        "goals": "4",
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "4",
         "flag": "finland",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "20.",
-        "name": "Stefan Bell",
-        "country": "Germany",
-        "team": "1. FSV Mainz 05",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "1__fsv_mainz_05"
     }
 ]

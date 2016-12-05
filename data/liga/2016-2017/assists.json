@@ -18,11 +18,11 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
-        "assists": "5",
+        "assists": "6",
         "flag": "brazil",
         "logo": "fc_barcelona"
     },
@@ -43,6 +43,15 @@
         "assists": "4",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Joaquín",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "real_betis"
     },
     {
         "rank": "-",
@@ -81,7 +90,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
@@ -91,12 +100,12 @@
     },
     {
         "rank": "-",
-        "name": " Joaquín",
+        "name": " Isma López",
         "country": "Spain",
-        "team": "Real Betis",
+        "team": "Sporting Gijón",
         "assists": "3",
         "flag": "spain",
-        "logo": "real_betis"
+        "logo": "sporting_gijon"
     },
     {
         "rank": "-",
@@ -118,12 +127,39 @@
     },
     {
         "rank": "-",
+        "name": "Marko Livaja",
+        "country": "Croatia",
+        "team": "UD Las Palmas",
+        "assists": "3",
+        "flag": "croatia",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
         "assists": "3",
         "flag": "argentina",
         "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Míchel",
+        "country": "Brazil",
+        "team": "UD Las Palmas",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
+        "name": " Moi Gómez",
+        "country": "Spain",
+        "team": "Sporting Gijón",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "sporting_gijon"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "assists": "3",
         "flag": "spain",
         "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Cristiano Piccini",
-        "country": "Italy",
-        "team": "Real Betis",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Samu Castillejo",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Arda Turan",
-        "country": "Turkey",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "turkey",
-        "logo": "fc_barcelona"
     }
 ]
