@@ -9,7 +9,16 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": " Giuliano",
+        "country": "Brazil",
+        "team": "Zenit St. Petersburg",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "3.",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
@@ -19,12 +28,12 @@
     },
     {
         "rank": "-",
-        "name": " Giuliano",
-        "country": "Brazil",
-        "team": "Zenit St. Petersburg",
+        "name": "Guillaume Hoarau",
+        "country": "France",
+        "team": "BSC Young Boys",
         "goals": "5",
-        "flag": "brazil",
-        "logo": "zenit_st__petersburg"
+        "flag": "france",
+        "logo": "bsc_young_boys"
     },
     {
         "rank": "-",
@@ -36,7 +45,7 @@
         "logo": "rsc_anderlecht"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Khouma Babacar",
         "country": "Senegal",
         "team": "ACF Fiorentina",
@@ -52,15 +61,6 @@
         "goals": "4",
         "flag": "jamaica",
         "logo": "krc_genk"
-    },
-    {
-        "rank": "-",
-        "name": "Guillaume Hoarau",
-        "country": "France",
-        "team": "BSC Young Boys",
-        "goals": "4",
-        "flag": "france",
-        "logo": "bsc_young_boys"
     },
     {
         "rank": "-",
@@ -81,7 +81,16 @@
         "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": " Taison",
+        "country": "Brazil",
+        "team": "Shakhtar Donetsk",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "shakhtar_donetsk"
+    },
+    {
+        "rank": "11.",
         "name": "Ishak Belfodil",
         "country": "Algeria",
         "team": "Standard Liège",
@@ -91,12 +100,39 @@
     },
     {
         "rank": "-",
+        "name": "Kalifa Coulibaly",
+        "country": "Mali",
+        "team": "KAA Gent",
+        "goals": "3",
+        "flag": "mali",
+        "logo": "kaa_gent"
+    },
+    {
+        "rank": "-",
         "name": "Facundo Ferreyra",
         "country": "Argentina",
         "team": "Shakhtar Donetsk",
         "goals": "3",
         "flag": "argentina",
         "logo": "shakhtar_donetsk"
+    },
+    {
+        "rank": "-",
+        "name": "John Guidetti",
+        "country": "Sweden",
+        "team": "Celta Vigo",
+        "goals": "3",
+        "flag": "sweden",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": "Raphael Holzhauser",
+        "country": "Austria",
+        "team": "Austria Wien",
+        "goals": "3",
+        "flag": "austria",
+        "logo": "austria_wien"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "3",
         "flag": "brazil",
         "logo": "olympiakos_piraus"
-    },
-    {
-        "rank": "-",
-        "name": "Youri Tielemans",
-        "country": "Belgium",
-        "team": "RSC Anderlecht",
-        "goals": "3",
-        "flag": "belgium",
-        "logo": "rsc_anderlecht"
-    },
-    {
-        "rank": "18.",
-        "name": " Alexandre Pato",
-        "country": "Brazil",
-        "team": "Villarreal CF",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Denis Alibec",
-        "country": "Romania",
-        "team": "Astra Giurgiu",
-        "goals": "2",
-        "flag": "romania",
-        "logo": "astra_giurgiu"
-    },
-    {
-        "rank": "-",
-        "name": " Ari",
-        "country": "Brazil",
-        "team": "FK Krasnodar",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "fk_krasnodar"
     }
 ]

@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "9",
+        "goals": "10",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "5",
+        "goals": "6",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
@@ -22,9 +22,36 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "4",
+        "goals": "5",
         "flag": "poland",
         "logo": "bayern_munchen"
+    },
+    {
+        "rank": "4.",
+        "name": " André Silva",
+        "country": "Portugal",
+        "team": "FC Porto",
+        "goals": "4",
+        "flag": "portugal",
+        "logo": "fc_porto"
+    },
+    {
+        "rank": "-",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "4",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "4",
+        "flag": "france",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -37,6 +64,15 @@
     },
     {
         "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "4",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Mesut Özil",
         "country": "Germany",
         "team": "Arsenal FC",
@@ -45,7 +81,16 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Arda Turan",
+        "country": "Turkey",
+        "team": "FC Barcelona",
+        "goals": "4",
+        "flag": "turkey",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "11.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "Beşiktaş",
@@ -61,15 +106,6 @@
         "goals": "3",
         "flag": "argentina",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "goals": "3",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -91,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": "Gonzalo Higuaí­n",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
@@ -100,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
+        "name": " Lucas Pérez",
+        "country": "Spain",
+        "team": "Arsenal FC",
         "goals": "3",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
+        "flag": "spain",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Ricardo Quaresma",
-        "country": "Portugal",
-        "team": "Beşiktaş",
+        "name": "Marco Reus",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
         "goals": "3",
-        "flag": "portugal",
-        "logo": "be_ikta_"
-    },
-    {
-        "rank": "-",
-        "name": "Eduardo Salvio",
-        "country": "Argentina",
-        "team": "SL Benfica",
-        "goals": "3",
-        "flag": "argentina",
-        "logo": "sl_benfica"
-    },
-    {
-        "rank": "-",
-        "name": "Theo Walcott",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "3",
-        "flag": "england",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "18.",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "FC Porto",
-        "goals": "2",
-        "flag": "portugal",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Sardar Azmoun",
-        "country": "Iran",
-        "team": "FK Rostov",
-        "goals": "2",
-        "flag": "iran",
-        "logo": "fk_rostov"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "goals": "2",
-        "flag": "wales",
-        "logo": "real_madrid"
+        "flag": "germany",
+        "logo": "borussia_dortmund"
     }
 ]

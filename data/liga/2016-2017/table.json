@@ -68,13 +68,13 @@
         "rank": "6",
         "team": "Real Sociedad",
         "points": "23",
-        "played": "13",
+        "played": "14",
         "win": "7",
         "draw": "2",
-        "lost": "4",
-        "goalsFor": "22",
-        "goalsAgainst": "14",
-        "goalDifference": "8",
+        "lost": "5",
+        "goalsFor": "23",
+        "goalsAgainst": "19",
+        "goalDifference": "4",
         "logo": "real_sociedad"
     },
     {
@@ -92,6 +92,19 @@
     },
     {
         "rank": "8",
+        "team": "Málaga CF",
+        "points": "21",
+        "played": "15",
+        "win": "5",
+        "draw": "6",
+        "lost": "4",
+        "goalsFor": "24",
+        "goalsAgainst": "22",
+        "goalDifference": "2",
+        "logo": "malaga_cf"
+    },
+    {
+        "rank": "9",
         "team": "SD Eibar",
         "points": "21",
         "played": "14",
@@ -104,7 +117,7 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Celta Vigo",
         "points": "21",
         "played": "14",
@@ -117,7 +130,7 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "UD Las Palmas",
         "points": "20",
         "played": "14",
@@ -128,19 +141,6 @@
         "goalsAgainst": "22",
         "goalDifference": "3",
         "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "11",
-        "team": "Málaga CF",
-        "points": "20",
-        "played": "14",
-        "win": "5",
-        "draw": "5",
-        "lost": "4",
-        "goalsFor": "23",
-        "goalsAgainst": "21",
-        "goalDifference": "2",
-        "logo": "malaga_cf"
     },
     {
         "rank": "12",
@@ -196,6 +196,19 @@
     },
     {
         "rank": "16",
+        "team": "Deportivo La Coruña",
+        "points": "13",
+        "played": "14",
+        "win": "3",
+        "draw": "4",
+        "lost": "7",
+        "goalsFor": "18",
+        "goalsAgainst": "24",
+        "goalDifference": "-6",
+        "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "17",
         "team": "Valencia CF",
         "points": "12",
         "played": "14",
@@ -208,7 +221,7 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "Sporting Gijón",
         "points": "12",
         "played": "14",
@@ -221,28 +234,15 @@
         "logo": "sporting_gijon"
     },
     {
-        "rank": "18",
-        "team": "Deportivo La Coruña",
-        "points": "10",
-        "played": "13",
-        "win": "2",
-        "draw": "4",
-        "lost": "7",
-        "goalsFor": "13",
-        "goalsAgainst": "23",
-        "goalDifference": "-10",
-        "logo": "deportivo_la_coruna"
-    },
-    {
         "rank": "19",
         "team": "Granada CF",
-        "points": "8",
-        "played": "14",
+        "points": "9",
+        "played": "15",
         "win": "1",
-        "draw": "5",
+        "draw": "6",
         "lost": "8",
-        "goalsFor": "13",
-        "goalsAgainst": "30",
+        "goalsFor": "14",
+        "goalsAgainst": "31",
         "goalDifference": "-17",
         "logo": "granada_cf"
     },
