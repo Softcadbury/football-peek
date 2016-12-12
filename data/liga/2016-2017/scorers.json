@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "11",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
@@ -9,7 +18,16 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "10",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "4.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -19,33 +37,33 @@
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "9",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "goals": "9",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "5.",
         "name": " Willian José",
         "country": "Brazil",
         "team": "Real Sociedad",
-        "goals": "7",
+        "goals": "9",
         "flag": "brazil",
         "logo": "real_sociedad"
     },
     {
         "rank": "6.",
+        "name": " Rubén Castro",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "7.",
+        "name": "Duje Čop",
+        "country": "Croatia",
+        "team": "Sporting Gijón",
+        "goals": "6",
+        "flag": "croatia",
+        "logo": "sporting_gijon"
+    },
+    {
+        "rank": "-",
         "name": "Yannick Ferreira-Carrasco",
         "country": "Belgium",
         "team": "Atlético Madrid",
@@ -82,15 +100,6 @@
     },
     {
         "rank": "-",
-        "name": " Rubén Castro",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
         "name": " Sandro",
         "country": "Spain",
         "team": "Málaga CF",
@@ -99,7 +108,7 @@
         "logo": "malaga_cf"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -136,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Duje Čop",
-        "country": "Croatia",
-        "team": "Sporting Gijón",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Real Madrid",
         "goals": "5",
-        "flag": "croatia",
-        "logo": "sporting_gijon"
+        "flag": "spain",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "5",
         "flag": "brazil",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Raúl García",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
     }
 ]

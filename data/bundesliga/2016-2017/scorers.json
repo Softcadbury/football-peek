@@ -22,7 +22,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "9",
+        "goals": "11",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -91,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "5",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
         "name": "Maximilian Philipp",
         "country": "Germany",
         "team": "SC Freiburg",
@@ -99,7 +108,16 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "12.",
+        "rank": "-",
+        "name": "Arjen Robben",
+        "country": "Netherlands",
+        "team": "Bayern München",
+        "goals": "5",
+        "flag": "netherlands",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "14.",
         "name": "Nabil Bentaleb",
         "country": "Algeria",
         "team": "FC Schalke 04",
@@ -160,23 +178,5 @@
         "goals": "4",
         "flag": "germany",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Joel Pohjanpalo",
-        "country": "Finland",
-        "team": "Bayer Leverkusen",
-        "goals": "4",
-        "flag": "finland",
-        "logo": "bayer_leverkusen"
     }
 ]

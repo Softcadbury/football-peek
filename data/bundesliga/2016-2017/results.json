@@ -1134,7 +1134,7 @@
                 "displayDate": "10/12/2016",
                 "homeTeam": "Bayern München",
                 "awayTeam": "VfL Wolfsburg",
-                "score": "-:-",
+                "score": "5:0",
                 "homeTeamLogo": "bayern_munchen",
                 "awayTeamLogo": "vfl_wolfsburg"
             },
@@ -1143,7 +1143,7 @@
                 "displayDate": "",
                 "homeTeam": "1. FC Köln",
                 "awayTeam": "Borussia Dortmund",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "1__fc_koln",
                 "awayTeamLogo": "borussia_dortmund"
             },
@@ -1152,7 +1152,7 @@
                 "displayDate": "",
                 "homeTeam": "Hamburger SV",
                 "awayTeam": "FC Augsburg",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "hamburger_sv",
                 "awayTeamLogo": "fc_augsburg"
             },
@@ -1161,7 +1161,7 @@
                 "displayDate": "",
                 "homeTeam": "FC Ingolstadt 04",
                 "awayTeam": "RB Leipzig",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "fc_ingolstadt_04",
                 "awayTeamLogo": "rb_leipzig"
             },
@@ -1170,7 +1170,7 @@
                 "displayDate": "",
                 "homeTeam": "SC Freiburg",
                 "awayTeam": "SV Darmstadt 98",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sc_freiburg",
                 "awayTeamLogo": "sv_darmstadt_98"
             },
@@ -1179,7 +1179,7 @@
                 "displayDate": "",
                 "homeTeam": "Hertha BSC",
                 "awayTeam": "Werder Bremen",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "hertha_bsc",
                 "awayTeamLogo": "werder_bremen"
             },
@@ -1188,7 +1188,7 @@
                 "displayDate": "11/12/2016",
                 "homeTeam": "Bor. Mönchengladbach",
                 "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "bor__monchengladbach",
                 "awayTeamLogo": "1__fsv_mainz_05"
             },
@@ -1197,7 +1197,7 @@
                 "displayDate": "",
                 "homeTeam": "FC Schalke 04",
                 "awayTeam": "Bayer Leverkusen",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "fc_schalke_04",
                 "awayTeamLogo": "bayer_leverkusen"
             }
@@ -1207,17 +1207,17 @@
         "round": 15,
         "matches": [
             {
-                "date": "17/12/2016",
-                "displayDate": "17/12/2016",
-                "homeTeam": "Bayer Leverkusen",
-                "awayTeam": "FC Ingolstadt 04",
+                "date": "16/12/2016",
+                "displayDate": "16/12/2016",
+                "homeTeam": "1899 Hoffenheim",
+                "awayTeam": "Borussia Dortmund",
                 "score": "-:-",
-                "homeTeamLogo": "bayer_leverkusen",
-                "awayTeamLogo": "fc_ingolstadt_04"
+                "homeTeamLogo": "1899_hoffenheim",
+                "awayTeamLogo": "borussia_dortmund"
             },
             {
                 "date": "17/12/2016",
-                "displayDate": "",
+                "displayDate": "17/12/2016",
                 "homeTeam": "FC Schalke 04",
                 "awayTeam": "SC Freiburg",
                 "score": "-:-",
@@ -1232,15 +1232,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "1__fsv_mainz_05",
                 "awayTeamLogo": "hamburger_sv"
-            },
-            {
-                "date": "17/12/2016",
-                "displayDate": "",
-                "homeTeam": "VfL Wolfsburg",
-                "awayTeam": "Eintracht Frankfurt",
-                "score": "-:-",
-                "homeTeamLogo": "vfl_wolfsburg",
-                "awayTeamLogo": "eintracht_frankfurt"
             },
             {
                 "date": "17/12/2016",
@@ -1263,6 +1254,24 @@
             {
                 "date": "17/12/2016",
                 "displayDate": "",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "Hertha BSC",
+                "score": "-:-",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "hertha_bsc"
+            },
+            {
+                "date": "17/12/2016",
+                "displayDate": "",
+                "homeTeam": "VfL Wolfsburg",
+                "awayTeam": "Eintracht Frankfurt",
+                "score": "-:-",
+                "homeTeamLogo": "vfl_wolfsburg",
+                "awayTeamLogo": "eintracht_frankfurt"
+            },
+            {
+                "date": "18/12/2016",
+                "displayDate": "18/12/2016",
                 "homeTeam": "SV Darmstadt 98",
                 "awayTeam": "Bayern München",
                 "score": "-:-",
@@ -1270,22 +1279,13 @@
                 "awayTeamLogo": "bayern_munchen"
             },
             {
-                "date": "17/12/2016",
+                "date": "18/12/2016",
                 "displayDate": "",
-                "homeTeam": "1899 Hoffenheim",
-                "awayTeam": "Borussia Dortmund",
+                "homeTeam": "Bayer Leverkusen",
+                "awayTeam": "FC Ingolstadt 04",
                 "score": "-:-",
-                "homeTeamLogo": "1899_hoffenheim",
-                "awayTeamLogo": "borussia_dortmund"
-            },
-            {
-                "date": "17/12/2016",
-                "displayDate": "",
-                "homeTeam": "RB Leipzig",
-                "awayTeam": "Hertha BSC",
-                "score": "-:-",
-                "homeTeamLogo": "rb_leipzig",
-                "awayTeamLogo": "hertha_bsc"
+                "homeTeamLogo": "bayer_leverkusen",
+                "awayTeamLogo": "fc_ingolstadt_04"
             }
         ]
     },
