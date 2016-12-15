@@ -1504,7 +1504,7 @@
                 "displayDate": "12/12/2016",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "sassuolo_calcio"
             },
@@ -1513,7 +1513,7 @@
                 "displayDate": "",
                 "homeTeam": "AS Roma",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "ac_milan"
             }
@@ -1523,17 +1523,8 @@
         "round": 17,
         "matches": [
             {
-                "date": "18/12/2016",
-                "displayDate": "18/12/2016",
-                "homeTeam": "Chievo Verona",
-                "awayTeam": "Sampdoria",
-                "score": "-:-",
-                "homeTeamLogo": "chievo_verona",
-                "awayTeamLogo": "sampdoria"
-            },
-            {
-                "date": "18/12/2016",
-                "displayDate": "",
+                "date": "17/12/2016",
+                "displayDate": "17/12/2016",
                 "homeTeam": "Empoli FC",
                 "awayTeam": "Cagliari Calcio",
                 "score": "-:-",
@@ -1541,16 +1532,16 @@
                 "awayTeamLogo": "cagliari_calcio"
             },
             {
-                "date": "18/12/2016",
+                "date": "17/12/2016",
                 "displayDate": "",
-                "homeTeam": "Genoa CFC",
-                "awayTeam": "US Palermo",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Atalanta",
                 "score": "-:-",
-                "homeTeamLogo": "genoa_cfc",
-                "awayTeamLogo": "us_palermo"
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "atalanta"
             },
             {
-                "date": "18/12/2016",
+                "date": "17/12/2016",
                 "displayDate": "",
                 "homeTeam": "Juventus",
                 "awayTeam": "AS Roma",
@@ -1560,21 +1551,21 @@
             },
             {
                 "date": "18/12/2016",
-                "displayDate": "",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "ACF Fiorentina",
+                "displayDate": "18/12/2016",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "Inter",
                 "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "acf_fiorentina"
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "inter"
             },
             {
                 "date": "18/12/2016",
                 "displayDate": "",
-                "homeTeam": "AC Milan",
-                "awayTeam": "Atalanta",
+                "homeTeam": "Chievo Verona",
+                "awayTeam": "Sampdoria",
                 "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "atalanta"
+                "homeTeamLogo": "chievo_verona",
+                "awayTeamLogo": "sampdoria"
             },
             {
                 "date": "18/12/2016",
@@ -1597,20 +1588,29 @@
             {
                 "date": "18/12/2016",
                 "displayDate": "",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "18/12/2016",
-                "displayDate": "",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "FC Crotone",
                 "score": "-:-",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "18/12/2016",
+                "displayDate": "",
+                "homeTeam": "Genoa CFC",
+                "awayTeam": "US Palermo",
+                "score": "-:-",
+                "homeTeamLogo": "genoa_cfc",
+                "awayTeamLogo": "us_palermo"
+            },
+            {
+                "date": "18/12/2016",
+                "displayDate": "",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "ACF Fiorentina",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "acf_fiorentina"
             }
         ]
     },

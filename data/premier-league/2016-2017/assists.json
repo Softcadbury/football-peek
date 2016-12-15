@@ -4,12 +4,21 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "7",
+        "assists": "8",
         "flag": "belgium",
         "logo": "manchester_city"
     },
     {
         "rank": "2.",
+        "name": "Adam Lallana",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "6",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Nemanja Matić",
         "country": "Serbia",
         "team": "Chelsea FC",
@@ -27,7 +36,7 @@
         "logo": "crystal_palace"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -43,15 +52,6 @@
         "assists": "5",
         "flag": "spain",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Adam Lallana",
-        "country": "England",
-        "team": "Liverpool FC",
-        "assists": "5",
-        "flag": "england",
-        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Matt Phillips",
+        "country": "Scotland",
+        "team": "West Bromwich Albion",
+        "assists": "5",
+        "flag": "scotland",
+        "logo": "west_bromwich_albion"
+    },
+    {
+        "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
@@ -90,7 +99,7 @@
         "logo": "swansea_city"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Yannick Bolasie",
         "country": "Congo DR",
         "team": "Crystal Palace",
@@ -136,15 +145,6 @@
     },
     {
         "rank": "-",
-        "name": "Matt Phillips",
-        "country": "Scotland",
-        "team": "West Bromwich Albion",
-        "assists": "4",
-        "flag": "scotland",
-        "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
         "name": "Wayne Rooney",
         "country": "England",
         "team": "Manchester United",
@@ -172,11 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Troy Deeney",
-        "country": "England",
-        "team": "Watford FC",
+        "name": "Chris Brunt",
+        "country": "Northern Ireland",
+        "team": "West Bromwich Albion",
         "assists": "3",
-        "flag": "england",
-        "logo": "watford_fc"
+        "flag": "northern_ireland",
+        "logo": "west_bromwich_albion"
     }
 ]

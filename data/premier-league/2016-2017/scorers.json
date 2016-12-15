@@ -9,11 +9,11 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
-        "goals": "11",
+        "goals": "12",
         "flag": "chile",
         "logo": "arsenal_fc"
     },
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "9",
+        "flag": "sweden",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
@@ -36,7 +45,7 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Christian Benteke",
         "country": "Belgium",
         "team": "Crystal Palace",
@@ -61,15 +70,6 @@
         "goals": "8",
         "flag": "belgium",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "8",
-        "flag": "sweden",
-        "logo": "manchester_united"
     },
     {
         "rank": "9.",
@@ -100,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": "Salomón Rondón",
+        "country": "Venezuela",
+        "team": "West Bromwich Albion",
+        "goals": "7",
+        "flag": "venezuela",
+        "logo": "west_bromwich_albion"
+    },
+    {
+        "rank": "-",
         "name": "Theo Walcott",
         "country": "England",
         "team": "Arsenal FC",
@@ -108,7 +117,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Charlie Austin",
         "country": "England",
         "team": "Southampton FC",
@@ -126,7 +135,16 @@
         "logo": "swansea_city"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": "Adam Lallana",
+        "country": "England",
+        "team": "Liverpool FC",
+        "goals": "6",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "17.",
         "name": "Étienne Capoue",
         "country": "France",
         "team": "Watford FC",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
+        "goals": "5",
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": " Llorente",
         "country": "Spain",
         "team": "Swansea City",
         "goals": "5",
         "flag": "spain",
         "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": "James Milner",
-        "country": "England",
-        "team": "Liverpool FC",
-        "goals": "5",
-        "flag": "england",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mesut Özil",
-        "country": "Germany",
-        "team": "Arsenal FC",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
     }
 ]
