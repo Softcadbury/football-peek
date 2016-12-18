@@ -1,6 +1,7 @@
 'use strict';
 
 var config = require('./server/config');
+var helper = require('./server/helper');
 var express = require('express');
 var handlebars = require('express-handlebars');
 var compression = require('compression');
@@ -24,7 +25,7 @@ app.set('view engine', '.hbs');
 
 // Starts application listening
 app.listen(config.port, (err) => {
-    console.log('running on ' + config.port);
+    helper.log('running on ' + config.port);
 });
 
 // Regsiters routes
