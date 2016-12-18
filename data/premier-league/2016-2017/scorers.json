@@ -4,12 +4,12 @@
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
-        "goals": "12",
+        "goals": "13",
         "flag": "spain",
         "logo": "chelsea_fc"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "11",
+        "flag": "sweden",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "4.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -27,16 +36,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "4.",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "9",
-        "flag": "sweden",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
+        "rank": "5.",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
@@ -145,6 +145,24 @@
     },
     {
         "rank": "17.",
+        "name": "Joe Allen",
+        "country": "Wales",
+        "team": "Stoke City",
+        "goals": "5",
+        "flag": "wales",
+        "logo": "stoke_city"
+    },
+    {
+        "rank": "-",
+        "name": " Álvaro Negredo",
+        "country": "Spain",
+        "team": "Middlesbrough FC",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "middlesbrough_fc"
+    },
+    {
+        "rank": "-",
         "name": "Étienne Capoue",
         "country": "France",
         "team": "Watford FC",
@@ -160,23 +178,5 @@
         "goals": "5",
         "flag": "brazil",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
-        "goals": "5",
-        "flag": "denmark",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": " Llorente",
-        "country": "Spain",
-        "team": "Swansea City",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "swansea_city"
     }
 ]
