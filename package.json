@@ -29,15 +29,15 @@
     "yargs": "^4.8.1"
   },
   "dependencies": {
-    "compression": "^1.6.2",
     "cheerio": "^0.20.0",
-    "cron": "^1.1.0",
+    "compression": "^1.6.2",
+    "cron": "^1.1.1",
     "express": "^4.13.4",
     "express-handlebars": "^3.0.0",
     "file-exists": "^1.0.0",
     "fs": "0.0.2",
-    "jsonfile": "^2.2.3",
-    "request": "^2.69.0",
-    "sitemap": "^1.6.0"
+    "jsonfile": "^2.4.0",
+    "request": "^2.79.0",
+    "sitemap": "^1.8.2",
   }
 }
