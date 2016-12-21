@@ -35,7 +35,9 @@ function readJsonFile(path) {
         return [];
     }
 
-    return jsonfile.readFileSync(path, { throws: false });
+    return jsonfile.readFileSync(path, {
+        throws: false
+    });
 }
 
 // Writes content in a json file
@@ -44,9 +46,9 @@ function writeJsonFile(path, content) {
 
     fs.writeFile(path, JSON.stringify(content, null, 4), (err) => {
         if (err) {
-            console.log('Error while writing: ' + path + ' -> ' + err);
+            log('Error while writing: ' + path + ' -> ' + err);
         } else {
-            console.log('File updated: ' + path);
+            log('File updated: ' + path);
         }
     });
 }
@@ -58,13 +60,13 @@ function scrapeUrl(url, callback) {
 
     request(url, (err, resp, body) => {
         if (err) {
-            console.log('Error while requesting: ' + url + ' -> ' + err);
+            log('Error while requesting: ' + url + ' -> ' + err);
         } else {
             var $ = cheerio.load(body);
             try {
                 callback($);
             } catch (e) {
-                console.log('Error while analysing: ' + url + ' -> ' + e);
+                log('Error while analysing: ' + url + ' -> ' + e);
             }
         }
     });
@@ -95,10 +97,10 @@ function downloadImage(src, path) {
     if (!fileExists(path)) {
         request.head(src, function (err, res, body) {
             if (err) {
-                console.log('Error while downloading image: ' + path + ' -> ' + err);
+                log('Error while downloading image: ' + path + ' -> ' + err);
             } else {
                 request(src).pipe(fs.createWriteStream(path)).on('close', function () {
-                    console.log('Image downloaded: ' + path);
+                    log('Image downloaded: ' + path);
                 });
             }
         });
@@ -143,6 +145,19 @@ function getLeagueCurrentRound(resultsData) {
     return round;
 }
 
+// Log a message in the console and a log file
+function log(message) {
+    var winston = require('winston');
+    winston.configure({
+        transports: [new(winston.transports.File)({
+                filename: 'info.log'
+            }),
+            new(winston.transports.Console)()
+        ]
+    });
+    winston.info(message);
+}
+
 module.exports = {
     stringSanitize: stringSanitize,
     stringFormat: stringFormat,
@@ -152,5 +167,6 @@ module.exports = {
     manageFlagProperty: manageFlagProperty,
     manageLogoProperty: manageLogoProperty,
     runUpdate: runUpdate,
-    getLeagueCurrentRound: getLeagueCurrentRound
+    getLeagueCurrentRound: getLeagueCurrentRound,
+    log: log
 };

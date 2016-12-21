@@ -1,6 +1,33 @@
 [
     {
         "rank": "1.",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "2.",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "goals": "12",
+        "flag": "chile",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "3.",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "11",
+        "flag": "sweden",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "4.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -9,29 +36,29 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
-        "name": " Diego Costa",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "chelsea_fc"
+        "rank": "5.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
+        "goals": "9",
+        "flag": "belgium",
+        "logo": "everton_fc"
     },
     {
-        "rank": "3.",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
+        "rank": "6.",
+        "name": "Christian Benteke",
+        "country": "Belgium",
+        "team": "Crystal Palace",
         "goals": "8",
-        "flag": "chile",
-        "logo": "arsenal_fc"
+        "flag": "belgium",
+        "logo": "crystal_palace"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
-        "goals": "7",
+        "goals": "8",
         "flag": "england",
         "logo": "sunderland_afc"
     },
@@ -40,39 +67,57 @@
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
-        "goals": "7",
+        "goals": "8",
         "flag": "belgium",
         "logo": "chelsea_fc"
     },
     {
-        "rank": "-",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "7",
-        "flag": "sweden",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Everton FC",
-        "goals": "7",
-        "flag": "belgium",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Michail Antonio",
         "country": "England",
         "team": "West Ham United",
-        "goals": "6",
+        "goals": "7",
         "flag": "england",
         "logo": "west_ham_united"
     },
     {
         "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "7",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "7",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Salomón Rondón",
+        "country": "Venezuela",
+        "team": "West Bromwich Albion",
+        "goals": "7",
+        "flag": "venezuela",
+        "logo": "west_bromwich_albion"
+    },
+    {
+        "rank": "-",
+        "name": "Theo Walcott",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "7",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "14.",
         "name": "Charlie Austin",
         "country": "England",
         "team": "Southampton FC",
@@ -91,30 +136,30 @@
     },
     {
         "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
+        "name": "Adam Lallana",
+        "country": "England",
         "team": "Liverpool FC",
         "goals": "6",
-        "flag": "senegal",
+        "flag": "england",
         "logo": "liverpool_fc"
     },
     {
-        "rank": "-",
-        "name": "Theo Walcott",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "6",
-        "flag": "england",
-        "logo": "arsenal_fc"
+        "rank": "17.",
+        "name": "Joe Allen",
+        "country": "Wales",
+        "team": "Stoke City",
+        "goals": "5",
+        "flag": "wales",
+        "logo": "stoke_city"
     },
     {
-        "rank": "13.",
-        "name": "Christian Benteke",
-        "country": "Belgium",
-        "team": "Crystal Palace",
+        "rank": "-",
+        "name": " Álvaro Negredo",
+        "country": "Spain",
+        "team": "Middlesbrough FC",
         "goals": "5",
-        "flag": "belgium",
-        "logo": "crystal_palace"
+        "flag": "spain",
+        "logo": "middlesbrough_fc"
     },
     {
         "rank": "-",
@@ -133,50 +178,5 @@
         "goals": "5",
         "flag": "brazil",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "5",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "James Milner",
-        "country": "England",
-        "team": "Liverpool FC",
-        "goals": "5",
-        "flag": "england",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Joe Allen",
-        "country": "Wales",
-        "team": "Stoke City",
-        "goals": "4",
-        "flag": "wales",
-        "logo": "stoke_city"
-    },
-    {
-        "rank": "-",
-        "name": "Nacer Chadli",
-        "country": "Belgium",
-        "team": "West Bromwich Albion",
-        "goals": "4",
-        "flag": "belgium",
-        "logo": "west_bromwich_albion"
     }
 ]

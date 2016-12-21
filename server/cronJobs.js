@@ -1,6 +1,7 @@
 'use strict';
 
 var CronJob = require('cron').CronJob;
+var helper = require('./helper');
 var mainUpdater = require('./updaters/mainUpdater');
 
 var leagueCronJobTimes = [
@@ -30,7 +31,7 @@ function setupCrons() {
     // Setup crons for leagues update
     leagueCronJobTimes.forEach(function (time) {
         (new CronJob(time, function () {
-            console.log('Run league update');
+            helper.log('Run league update');
             mainUpdater.updateLeague();
         }, null, false, 'Europe/Paris')).start();
     });
@@ -38,7 +39,7 @@ function setupCrons() {
     // Setup crons for competitions update
     competitionCronJobTimes.forEach(function (time) {
         (new CronJob(time, function () {
-            console.log('Run competition update');
+            helper.log('Run competition update');
             mainUpdater.updateCompetition();
         }, null, false, 'Europe/Paris')).start();
     });

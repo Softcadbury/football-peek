@@ -42,7 +42,7 @@ function updateData(itemExtended) {
         });
 
         if (results.length < 18) {
-            console.log('Error while updating table: ' + itemExtended.item.code);
+            helper.log('Error while updating table: ' + itemExtended.item.code);
             return;
         }
 

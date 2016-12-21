@@ -30,7 +30,7 @@ function updateData(itemExtended) {
     Promise.all(promises).then(() => {
         if (itemExtended.roundNumber === 4 && (results[3].matches.length !== 8 || !results[3].matches[0].team1) ||
             itemExtended.roundNumber === 5 && (results[4].matches.length !== 16 || !results[4].matches[0].team1)) {
-            console.log('Error while updating tournament: ' + itemExtended.item.code);
+            helper.log('Error while updating tournament: ' + itemExtended.item.code);
             return;
         }
 
@@ -41,10 +41,14 @@ function updateData(itemExtended) {
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, roundIndex) {
     return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), function ($) {
+        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), function($) {
             var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
+                if (itemExtended.roundNumber === 4 && index >= 32 || itemExtended.roundNumber === 5 && index >= 64) {
+                    return;
+                }
+
                 if (roundIndex === 0) {
                     var team1 = $(elem).find('td:nth-child(3) > a').text();
                     var team2 = $(elem).find('td:nth-child(5) > a').text();

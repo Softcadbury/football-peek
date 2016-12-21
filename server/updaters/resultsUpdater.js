@@ -39,7 +39,7 @@ function updateData(itemExtended) {
 
     Promise.all(promises).then(() => {
         if (results.some(p => p.matches.length < 9)) {
-            console.log('Error while updating result: ' + itemExtended.item.code);
+            helper.log('Error while updating result: ' + itemExtended.item.code);
             return;
         }
 

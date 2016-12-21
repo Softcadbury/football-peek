@@ -1242,7 +1242,7 @@
                 "displayDate": "03/12/2016",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Chelsea FC",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "chelsea_fc"
             },
@@ -1251,7 +1251,7 @@
                 "displayDate": "",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Southampton FC",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "southampton_fc"
             },
@@ -1260,7 +1260,7 @@
                 "displayDate": "",
                 "homeTeam": "Stoke City",
                 "awayTeam": "Burnley FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "stoke_city",
                 "awayTeamLogo": "burnley_fc"
             },
@@ -1269,7 +1269,7 @@
                 "displayDate": "",
                 "homeTeam": "Sunderland AFC",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "sunderland_afc",
                 "awayTeamLogo": "leicester_city"
             },
@@ -1278,7 +1278,7 @@
                 "displayDate": "",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Swansea City",
-                "score": "-:-",
+                "score": "5:0",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "swansea_city"
             },
@@ -1287,7 +1287,7 @@
                 "displayDate": "",
                 "homeTeam": "West Bromwich Albion",
                 "awayTeam": "Watford FC",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "west_bromwich_albion",
                 "awayTeamLogo": "watford_fc"
             },
@@ -1296,7 +1296,7 @@
                 "displayDate": "",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Arsenal FC",
-                "score": "-:-",
+                "score": "1:5",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "arsenal_fc"
             },
@@ -1305,7 +1305,7 @@
                 "displayDate": "04/12/2016",
                 "homeTeam": "AFC Bournemouth",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "4:3",
                 "homeTeamLogo": "afc_bournemouth",
                 "awayTeamLogo": "liverpool_fc"
             },
@@ -1314,7 +1314,7 @@
                 "displayDate": "",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Manchester United",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "manchester_united"
             },
@@ -1323,7 +1323,7 @@
                 "displayDate": "05/12/2016",
                 "homeTeam": "Middlesbrough FC",
                 "awayTeam": "Hull City",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "middlesbrough_fc",
                 "awayTeamLogo": "hull_city"
             }
@@ -1335,9 +1335,18 @@
             {
                 "date": "10/12/2016",
                 "displayDate": "10/12/2016",
+                "homeTeam": "Watford FC",
+                "awayTeam": "Everton FC",
+                "score": "3:2",
+                "homeTeamLogo": "watford_fc",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "10/12/2016",
+                "displayDate": "",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Stoke City",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "stoke_city"
             },
@@ -1346,81 +1355,72 @@
                 "displayDate": "",
                 "homeTeam": "Burnley FC",
                 "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "burnley_fc",
                 "awayTeamLogo": "afc_bournemouth"
             },
             {
                 "date": "10/12/2016",
                 "displayDate": "",
-                "homeTeam": "Chelsea FC",
-                "awayTeam": "West Bromwich Albion",
-                "score": "-:-",
-                "homeTeamLogo": "chelsea_fc",
-                "awayTeamLogo": "west_bromwich_albion"
-            },
-            {
-                "date": "10/12/2016",
-                "displayDate": "",
                 "homeTeam": "Hull City",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "hull_city",
                 "awayTeamLogo": "crystal_palace"
             },
             {
                 "date": "10/12/2016",
                 "displayDate": "",
-                "homeTeam": "Leicester City",
-                "awayTeam": "Manchester City",
-                "score": "-:-",
-                "homeTeamLogo": "leicester_city",
-                "awayTeamLogo": "manchester_city"
-            },
-            {
-                "date": "10/12/2016",
-                "displayDate": "",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "West Ham United",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "west_ham_united"
-            },
-            {
-                "date": "10/12/2016",
-                "displayDate": "",
-                "homeTeam": "Manchester United",
-                "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_united",
-                "awayTeamLogo": "tottenham_hotspur"
-            },
-            {
-                "date": "10/12/2016",
-                "displayDate": "",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Middlesbrough FC",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "middlesbrough_fc"
-            },
-            {
-                "date": "10/12/2016",
-                "displayDate": "",
                 "homeTeam": "Swansea City",
                 "awayTeam": "Sunderland AFC",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "swansea_city",
                 "awayTeamLogo": "sunderland_afc"
             },
             {
                 "date": "10/12/2016",
                 "displayDate": "",
-                "homeTeam": "Watford FC",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "watford_fc",
-                "awayTeamLogo": "everton_fc"
+                "homeTeam": "Leicester City",
+                "awayTeam": "Manchester City",
+                "score": "4:2",
+                "homeTeamLogo": "leicester_city",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "11/12/2016",
+                "displayDate": "11/12/2016",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "West Bromwich Albion",
+                "score": "1:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "west_bromwich_albion"
+            },
+            {
+                "date": "11/12/2016",
+                "displayDate": "",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "1:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "tottenham_hotspur"
+            },
+            {
+                "date": "11/12/2016",
+                "displayDate": "",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Middlesbrough FC",
+                "score": "1:0",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "middlesbrough_fc"
+            },
+            {
+                "date": "11/12/2016",
+                "displayDate": "",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "West Ham United",
+                "score": "2:2",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "west_ham_united"
             }
         ]
     },
@@ -1432,70 +1432,70 @@
                 "displayDate": "13/12/2016",
                 "homeTeam": "AFC Bournemouth",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "afc_bournemouth",
                 "awayTeamLogo": "leicester_city"
             },
             {
                 "date": "13/12/2016",
                 "displayDate": "",
-                "homeTeam": "Crystal Palace",
-                "awayTeam": "Manchester United",
-                "score": "-:-",
-                "homeTeamLogo": "crystal_palace",
-                "awayTeamLogo": "manchester_united"
+                "homeTeam": "Everton FC",
+                "awayTeam": "Arsenal FC",
+                "score": "2:1",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "arsenal_fc"
             },
             {
-                "date": "13/12/2016",
-                "displayDate": "",
+                "date": "14/12/2016",
+                "displayDate": "14/12/2016",
                 "homeTeam": "Middlesbrough FC",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "middlesbrough_fc",
                 "awayTeamLogo": "liverpool_fc"
             },
             {
-                "date": "13/12/2016",
+                "date": "14/12/2016",
                 "displayDate": "",
                 "homeTeam": "Sunderland AFC",
                 "awayTeam": "Chelsea FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "sunderland_afc",
                 "awayTeamLogo": "chelsea_fc"
             },
             {
-                "date": "13/12/2016",
-                "displayDate": "",
-                "homeTeam": "West Bromwich Albion",
-                "awayTeam": "Swansea City",
-                "score": "-:-",
-                "homeTeamLogo": "west_bromwich_albion",
-                "awayTeamLogo": "swansea_city"
-            },
-            {
-                "date": "13/12/2016",
+                "date": "14/12/2016",
                 "displayDate": "",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Burnley FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "burnley_fc"
             },
             {
                 "date": "14/12/2016",
-                "displayDate": "14/12/2016",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "arsenal_fc"
+                "displayDate": "",
+                "homeTeam": "Crystal Palace",
+                "awayTeam": "Manchester United",
+                "score": "1:2",
+                "homeTeamLogo": "crystal_palace",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "14/12/2016",
+                "displayDate": "",
+                "homeTeam": "West Bromwich Albion",
+                "awayTeam": "Swansea City",
+                "score": "3:1",
+                "homeTeamLogo": "west_bromwich_albion",
+                "awayTeamLogo": "swansea_city"
             },
             {
                 "date": "14/12/2016",
                 "displayDate": "",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Watford FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "watford_fc"
             },
@@ -1504,7 +1504,7 @@
                 "displayDate": "",
                 "homeTeam": "Stoke City",
                 "awayTeam": "Southampton FC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "stoke_city",
                 "awayTeamLogo": "southampton_fc"
             },
@@ -1513,7 +1513,7 @@
                 "displayDate": "",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Hull City",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "hull_city"
             }
@@ -1525,45 +1525,18 @@
             {
                 "date": "17/12/2016",
                 "displayDate": "17/12/2016",
-                "homeTeam": "AFC Bournemouth",
-                "awayTeam": "Southampton FC",
-                "score": "-:-",
-                "homeTeamLogo": "afc_bournemouth",
-                "awayTeamLogo": "southampton_fc"
-            },
-            {
-                "date": "17/12/2016",
-                "displayDate": "",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Chelsea FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "chelsea_fc"
             },
             {
                 "date": "17/12/2016",
                 "displayDate": "",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Liverpool FC",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "liverpool_fc"
-            },
-            {
-                "date": "17/12/2016",
-                "displayDate": "",
-                "homeTeam": "Manchester City",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_city",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "date": "17/12/2016",
-                "displayDate": "",
                 "homeTeam": "Middlesbrough FC",
                 "awayTeam": "Swansea City",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "middlesbrough_fc",
                 "awayTeamLogo": "swansea_city"
             },
@@ -1572,7 +1545,7 @@
                 "displayDate": "",
                 "homeTeam": "Stoke City",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "stoke_city",
                 "awayTeamLogo": "leicester_city"
             },
@@ -1581,12 +1554,48 @@
                 "displayDate": "",
                 "homeTeam": "Sunderland AFC",
                 "awayTeam": "Watford FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sunderland_afc",
                 "awayTeamLogo": "watford_fc"
             },
             {
                 "date": "17/12/2016",
+                "displayDate": "",
+                "homeTeam": "West Ham United",
+                "awayTeam": "Hull City",
+                "score": "1:0",
+                "homeTeamLogo": "west_ham_united",
+                "awayTeamLogo": "hull_city"
+            },
+            {
+                "date": "17/12/2016",
+                "displayDate": "",
+                "homeTeam": "West Bromwich Albion",
+                "awayTeam": "Manchester United",
+                "score": "0:2",
+                "homeTeamLogo": "west_bromwich_albion",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "18/12/2016",
+                "displayDate": "18/12/2016",
+                "homeTeam": "AFC Bournemouth",
+                "awayTeam": "Southampton FC",
+                "score": "-:-",
+                "homeTeamLogo": "afc_bournemouth",
+                "awayTeamLogo": "southampton_fc"
+            },
+            {
+                "date": "18/12/2016",
+                "displayDate": "",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "18/12/2016",
                 "displayDate": "",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Burnley FC",
@@ -1595,22 +1604,13 @@
                 "awayTeamLogo": "burnley_fc"
             },
             {
-                "date": "17/12/2016",
-                "displayDate": "",
-                "homeTeam": "West Bromwich Albion",
-                "awayTeam": "Manchester United",
+                "date": "19/12/2016",
+                "displayDate": "19/12/2016",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Liverpool FC",
                 "score": "-:-",
-                "homeTeamLogo": "west_bromwich_albion",
-                "awayTeamLogo": "manchester_united"
-            },
-            {
-                "date": "17/12/2016",
-                "displayDate": "",
-                "homeTeam": "West Ham United",
-                "awayTeam": "Hull City",
-                "score": "-:-",
-                "homeTeamLogo": "west_ham_united",
-                "awayTeamLogo": "hull_city"
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "liverpool_fc"
             }
         ]
     },
@@ -1620,6 +1620,15 @@
             {
                 "date": "26/12/2016",
                 "displayDate": "26/12/2016",
+                "homeTeam": "Watford FC",
+                "awayTeam": "Crystal Palace",
+                "score": "-:-",
+                "homeTeamLogo": "watford_fc",
+                "awayTeamLogo": "crystal_palace"
+            },
+            {
+                "date": "26/12/2016",
+                "displayDate": "",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "West Bromwich Albion",
                 "score": "-:-",
@@ -1647,29 +1656,11 @@
             {
                 "date": "26/12/2016",
                 "displayDate": "",
-                "homeTeam": "Hull City",
-                "awayTeam": "Manchester City",
-                "score": "-:-",
-                "homeTeamLogo": "hull_city",
-                "awayTeamLogo": "manchester_city"
-            },
-            {
-                "date": "26/12/2016",
-                "displayDate": "",
                 "homeTeam": "Leicester City",
                 "awayTeam": "Everton FC",
                 "score": "-:-",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "everton_fc"
-            },
-            {
-                "date": "26/12/2016",
-                "displayDate": "",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "Stoke City",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "stoke_city"
             },
             {
                 "date": "26/12/2016",
@@ -1683,15 +1674,6 @@
             {
                 "date": "26/12/2016",
                 "displayDate": "",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "tottenham_hotspur"
-            },
-            {
-                "date": "26/12/2016",
-                "displayDate": "",
                 "homeTeam": "Swansea City",
                 "awayTeam": "West Ham United",
                 "score": "-:-",
@@ -1701,11 +1683,29 @@
             {
                 "date": "26/12/2016",
                 "displayDate": "",
-                "homeTeam": "Watford FC",
-                "awayTeam": "Crystal Palace",
+                "homeTeam": "Hull City",
+                "awayTeam": "Manchester City",
                 "score": "-:-",
-                "homeTeamLogo": "watford_fc",
-                "awayTeamLogo": "crystal_palace"
+                "homeTeamLogo": "hull_city",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "27/12/2016",
+                "displayDate": "27/12/2016",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Stoke City",
+                "score": "-:-",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "stoke_city"
+            },
+            {
+                "date": "28/12/2016",
+                "displayDate": "28/12/2016",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "-:-",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "tottenham_hotspur"
             }
         ]
     },

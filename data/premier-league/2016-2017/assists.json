@@ -4,12 +4,21 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "7",
+        "assists": "8",
         "flag": "belgium",
         "logo": "manchester_city"
     },
     {
         "rank": "2.",
+        "name": "Adam Lallana",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "6",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Nemanja Matić",
         "country": "Serbia",
         "team": "Chelsea FC",
@@ -18,7 +27,16 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Wilfried Zaha",
+        "country": "Ivory Coast",
+        "team": "Crystal Palace",
+        "assists": "6",
+        "flag": "ivory_coast",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "5.",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -28,12 +46,12 @@
     },
     {
         "rank": "-",
-        "name": "Adam Lallana",
-        "country": "England",
-        "team": "Liverpool FC",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
         "assists": "5",
-        "flag": "england",
-        "logo": "liverpool_fc"
+        "flag": "spain",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
@@ -55,15 +73,42 @@
     },
     {
         "rank": "-",
-        "name": "Wilfried Zaha",
-        "country": "Ivory Coast",
-        "team": "Crystal Palace",
+        "name": "Matt Phillips",
+        "country": "Scotland",
+        "team": "West Bromwich Albion",
         "assists": "5",
-        "flag": "ivory_coast",
-        "logo": "crystal_palace"
+        "flag": "scotland",
+        "logo": "west_bromwich_albion"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Wayne Rooney",
+        "country": "England",
+        "team": "Manchester United",
+        "assists": "5",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "assists": "5",
+        "flag": "chile",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Swansea City",
+        "assists": "5",
+        "flag": "iceland",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "13.",
         "name": "Yannick Bolasie",
         "country": "Congo DR",
         "team": "Crystal Palace",
@@ -73,42 +118,42 @@
     },
     {
         "rank": "-",
-        "name": " Diego Costa",
-        "country": "Spain",
-        "team": "Chelsea FC",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
         "assists": "4",
-        "flag": "spain",
-        "logo": "chelsea_fc"
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
-        "name": "Matt Phillips",
-        "country": "Scotland",
-        "team": "West Bromwich Albion",
-        "assists": "4",
-        "flag": "scotland",
-        "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Wayne Rooney",
+        "name": "Jordan Henderson",
         "country": "England",
-        "team": "Manchester United",
+        "team": "Liverpool FC",
         "assists": "4",
         "flag": "england",
-        "logo": "manchester_united"
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Swansea City",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
         "assists": "4",
-        "flag": "iceland",
-        "logo": "swansea_city"
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": "Alex Oxlade-Chamberlain",
+        "country": "England",
+        "team": "Arsenal FC",
+        "assists": "4",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "18.",
         "name": " Álvaro Negredo",
         "country": "Spain",
         "team": "Middlesbrough FC",
@@ -118,65 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Steven Defour",
-        "country": "Belgium",
-        "team": "Burnley FC",
+        "name": "Nordin Amrabat",
+        "country": "Morocco",
+        "team": "Watford FC",
         "assists": "3",
-        "flag": "belgium",
-        "logo": "burnley_fc"
+        "flag": "morocco",
+        "logo": "watford_fc"
     },
     {
         "rank": "-",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
+        "name": "Chris Brunt",
+        "country": "Northern Ireland",
+        "team": "West Bromwich Albion",
         "assists": "3",
-        "flag": "denmark",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Jordan Henderson",
-        "country": "England",
-        "team": "Liverpool FC",
-        "assists": "3",
-        "flag": "england",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Kelechi Iheanacho",
-        "country": "Nigeria",
-        "team": "Manchester City",
-        "assists": "3",
-        "flag": "nigeria",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Alex Iwobi",
-        "country": "Nigeria",
-        "team": "Arsenal FC",
-        "assists": "3",
-        "flag": "nigeria",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Everton FC",
-        "assists": "3",
-        "flag": "belgium",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
+        "flag": "northern_ireland",
+        "logo": "west_bromwich_albion"
     }
 ]
