@@ -4,12 +4,21 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "11",
+        "goals": "12",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "12",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "3.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
@@ -19,24 +28,15 @@
     },
     {
         "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "goals": "10",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "4.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "9",
+        "goals": "10",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": " Willian José",
         "country": "Brazil",
         "team": "Real Sociedad",
@@ -64,6 +64,24 @@
     },
     {
         "rank": "8.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Florin Andone",
+        "country": "Romania",
+        "team": "Deportivo La Coruña",
+        "goals": "6",
+        "flag": "romania",
+        "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
         "name": "Duje Čop",
         "country": "Croatia",
         "team": "Sporting Gijón",
@@ -126,25 +144,7 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "15.",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": "Florin Andone",
-        "country": "Romania",
-        "team": "Deportivo La Coruña",
-        "goals": "5",
-        "flag": "romania",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
+        "rank": "17.",
         "name": "Gareth Bale",
         "country": "Wales",
         "team": "Real Madrid",

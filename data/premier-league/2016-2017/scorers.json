@@ -10,21 +10,21 @@
     },
     {
         "rank": "2.",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "12",
+        "flag": "sweden",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
         "goals": "12",
         "flag": "chile",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "3.",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "11",
-        "flag": "sweden",
-        "logo": "manchester_united"
     },
     {
         "rank": "4.",
@@ -36,16 +36,34 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
-        "goals": "9",
+        "goals": "10",
         "flag": "belgium",
         "logo": "everton_fc"
     },
     {
         "rank": "6.",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "goals": "9",
+        "flag": "belgium",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "7.",
+        "name": "Michail Antonio",
+        "country": "England",
+        "team": "West Ham United",
+        "goals": "8",
+        "flag": "england",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
         "name": "Christian Benteke",
         "country": "Belgium",
         "team": "Crystal Palace",
@@ -64,24 +82,24 @@
     },
     {
         "rank": "-",
-        "name": "Eden Hazard",
-        "country": "Belgium",
-        "team": "Chelsea FC",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
         "goals": "8",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "9.",
-        "name": "Michail Antonio",
-        "country": "England",
-        "team": "West Ham United",
-        "goals": "7",
-        "flag": "england",
-        "logo": "west_ham_united"
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
+        "name": "Theo Walcott",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "8",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "12.",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -91,30 +109,12 @@
     },
     {
         "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "7",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
         "name": "Salomón Rondón",
         "country": "Venezuela",
         "team": "West Bromwich Albion",
         "goals": "7",
         "flag": "venezuela",
         "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Theo Walcott",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "7",
-        "flag": "england",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "14.",
@@ -144,7 +144,16 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "17.",
+        "rank": "-",
+        "name": " Llorente",
+        "country": "Spain",
+        "team": "Swansea City",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "18.",
         "name": "Joe Allen",
         "country": "Wales",
         "team": "Stoke City",
@@ -169,14 +178,5 @@
         "goals": "5",
         "flag": "france",
         "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
     }
 ]
