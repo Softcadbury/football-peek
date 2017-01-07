@@ -10,7 +10,7 @@ var leaguesExtended = [
     { item: leagues.liga, url: 'esp-primera-division', extra: '_2', roundNumber: 38 },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '', roundNumber: 38 },
     { item: leagues.serieA, url: 'ita-serie-a', extra: '', roundNumber: 38 },
-    { item: leagues.premierLeague, url: 'eng-premier-league', extra: '', roundNumber: 38 },
+    { item: leagues.premierLeague, url: 'eng-premier-league', extra: '', roundNumber: 38 }
 ];
 
 // Updates results of current year

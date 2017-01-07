@@ -22,14 +22,12 @@ gulp.task('up', () => {
 });
 
 // Check coding rules
-gulp.task('check', () => {
-    var jshint = require('gulp-jshint');
-    var jscs = require('gulp-jscs');
-    gulp.src(['./*.js', './server/**/*.js', './tests/**/*.js', './client/scripts/**/*.js'])
-        .pipe(jscs())
-        .pipe(jscs.reporter())
-        .pipe(jshint())
-        .pipe(jshint.reporter('jshint-stylish', { verbose: true }));
+gulp.task('lint', () => {
+    var eslint = require('gulp-eslint');
+    return gulp.src(['**/*.js','!node_modules/**','!build/**'])
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError());
 });
 
 // Run tests
