@@ -5,6 +5,9 @@ var gulp = require('gulp');
 // Updates data
 // Format: gulp up -l / gulp up -c / gulp up -l eng
 gulp.task('up', () => {
+    var config = require('./server/config');
+    config.downloadImages = true;
+
     var argv = require('yargs').argv;
 
     var leagueArg = argv.l;

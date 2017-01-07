@@ -27,20 +27,11 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "4.",
-        "name": "Loïs Diony",
-        "country": "France",
-        "team": "Dijon FCO",
-        "assists": "5",
-        "flag": "france",
-        "logo": "dijon_fco"
-    },
-    {
         "rank": "-",
         "name": " Marçal",
         "country": "Brazil",
         "team": "EA Guingamp",
-        "assists": "5",
+        "assists": "6",
         "flag": "brazil",
         "logo": "ea_guingamp"
     },
@@ -49,9 +40,18 @@
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "AS Monaco",
-        "assists": "5",
+        "assists": "6",
         "flag": "france",
         "logo": "as_monaco"
+    },
+    {
+        "rank": "6.",
+        "name": "Loïs Diony",
+        "country": "France",
+        "team": "Dijon FCO",
+        "assists": "5",
+        "flag": "france",
+        "logo": "dijon_fco"
     },
     {
         "rank": "-",
@@ -118,6 +118,33 @@
     },
     {
         "rank": "-",
+        "name": "Rachid Ghezzal",
+        "country": "Algeria",
+        "team": "Olympique Lyon",
+        "assists": "4",
+        "flag": "algeria",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": " Júlio Tavares",
+        "country": "Cape Verde",
+        "team": "Dijon FCO",
+        "assists": "4",
+        "flag": "cape_verde",
+        "logo": "dijon_fco"
+    },
+    {
+        "rank": "-",
+        "name": "Thomas Lemar",
+        "country": "France",
+        "team": "AS Monaco",
+        "assists": "4",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "Cheikh N'Doye",
         "country": "Senegal",
         "team": "Angers SCO",
@@ -151,32 +178,5 @@
         "assists": "4",
         "flag": "poland",
         "logo": "fc_nantes"
-    },
-    {
-        "rank": "18.",
-        "name": "Serge Aurier",
-        "country": "Ivory Coast",
-        "team": "Paris Saint-Germain",
-        "assists": "3",
-        "flag": "ivory_coast",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": " Cafú",
-        "country": "Portugal",
-        "team": "FC Lorient",
-        "assists": "3",
-        "flag": "portugal",
-        "logo": "fc_lorient"
-    },
-    {
-        "rank": "-",
-        "name": "Souleymane Camara",
-        "country": "Senegal",
-        "team": "Montpellier HSC",
-        "assists": "3",
-        "flag": "senegal",
-        "logo": "montpellier_hsc"
     }
 ]

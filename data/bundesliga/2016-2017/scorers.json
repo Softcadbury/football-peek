@@ -13,7 +13,7 @@
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "12",
+        "goals": "13",
         "flag": "france",
         "logo": "1__fc_koln"
     },
@@ -22,12 +22,21 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "11",
+        "goals": "12",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
         "rank": "4.",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
@@ -36,7 +45,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Vedad Ibišević",
         "country": "Bosnia-Herzegovina",
         "team": "Hertha BSC",
@@ -45,25 +54,16 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "-",
-        "name": "Sandro Wagner",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "8",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
         "rank": "7.",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Werder Bremen",
-        "goals": "6",
+        "goals": "7",
         "flag": "germany",
         "logo": "werder_bremen"
     },
     {
-        "rank": "-",
+        "rank": "8.",
         "name": "Yunus Mallı",
         "country": "Turkey",
         "team": "1. FSV Mainz 05",
@@ -88,6 +88,24 @@
         "goals": "5",
         "flag": "mexico",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
+        "goals": "5",
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Florian Niederlechner",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "5",
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -126,7 +144,7 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "15.",
+        "rank": "17.",
         "name": "Nabil Bentaleb",
         "country": "Algeria",
         "team": "FC Schalke 04",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Salomon Kalou",
-        "country": "Ivory Coast",
-        "team": "Hertha BSC",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "Borussia Dortmund",
         "goals": "4",
-        "flag": "ivory_coast",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Naby Keita",
-        "country": "Guinea",
-        "team": "RB Leipzig",
-        "goals": "4",
-        "flag": "guinea",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "france",
+        "logo": "borussia_dortmund"
     }
 ]
