@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 
 // Updates data
-// Format: gulp up -l / gulp up -c / gulp up -l eng
+// Format: gulp up -l [lague small name] -c [competition small name]
 gulp.task('up', () => {
     var config = require('./server/config');
     config.downloadImages = true;
@@ -22,14 +22,12 @@ gulp.task('up', () => {
 });
 
 // Check coding rules
-gulp.task('check', () => {
-    var jshint = require('gulp-jshint');
-    var jscs = require('gulp-jscs');
-    gulp.src(['./*.js', './server/**/*.js', './tests/**/*.js', './client/scripts/**/*.js'])
-        .pipe(jscs())
-        .pipe(jscs.reporter())
-        .pipe(jshint())
-        .pipe(jshint.reporter('jshint-stylish', { verbose: true }));
+gulp.task('lint', () => {
+    var eslint = require('gulp-eslint');
+    return gulp.src(['**/*.js','!node_modules/**','!public/**'])
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError());
 });
 
 // Run tests
@@ -43,24 +41,28 @@ gulp.task('test', () => {
 gulp.task('sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
-        imgName: 'images/sprite.png',
-        cssName: 'styles/miscs/sprite.css'
+        cssName: 'client/styles/miscs/sprite.css',
+        imgName: 'public/images/sprite.png',
+        imgPath: '../../images/sprite.png'
     });
 
     gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
-        .pipe(gulp.dest('./client'));
+        .pipe(gulp.dest('.'));
 });
 
-// Build the application
+// Build the application in the public folder
 gulp.task('build', () => {
-    // Javascript
-    var browserify = require('gulp-browserify');
-    var uglify = require('gulp-uglify');
-    gulp.src('client/scripts/app.js')
-        .pipe(browserify())
-        .pipe(uglify())
-        .pipe(gulp.dest('./build/js'));
+    var webpack = require('webpack');
+    var webpackStream = require('webpack-stream');
+
+    return gulp.src('client/scripts/app.js')
+        .pipe(webpackStream({
+            output: { filename: "app.js" },
+            devtool: 'source-map',
+            plugins: [new webpack.optimize.UglifyJsPlugin()]
+        }))
+        .pipe(gulp.dest('./public/js'));
 
     // Css
     var less = require('gulp-less');
@@ -70,11 +72,7 @@ gulp.task('build', () => {
         .pipe(less())
         .pipe(concatCss('app.css'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest('./build/css'));
-
-    // Images
-    gulp.src('./client/images/**/*')
-        .pipe(gulp.dest('./build/images'));
+        .pipe(gulp.dest('./public/css'));
 });
 
 // Start the node server
@@ -94,7 +92,7 @@ gulp.task('start', () => {
 
 // Manage build, start the node server and open the browser
 gulp.task('default', ['build', 'start'], () => {
-    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['build']);
+    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['public']);
 
     var openBrowser = require('gulp-open');
     gulp.src('/').pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));

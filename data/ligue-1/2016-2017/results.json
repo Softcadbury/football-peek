@@ -1808,8 +1808,26 @@
         "round": 20,
         "matches": [
             {
+                "date": "13/01/2017",
+                "displayDate": "13/01/2017",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "AS Saint-Étienne",
+                "score": "-:-",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "as_saint_etienne"
+            },
+            {
                 "date": "14/01/2017",
                 "displayDate": "14/01/2017",
+                "homeTeam": "Stade Rennes",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "stade_rennes",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "14/01/2017",
+                "displayDate": "",
                 "homeTeam": "Angers SCO",
                 "awayTeam": "Girondins Bordeaux",
                 "score": "-:-",
@@ -1819,38 +1837,11 @@
             {
                 "date": "14/01/2017",
                 "displayDate": "",
-                "homeTeam": "SM Caen",
-                "awayTeam": "Olympique Lyon",
-                "score": "-:-",
-                "homeTeamLogo": "sm_caen",
-                "awayTeamLogo": "olympique_lyon"
-            },
-            {
-                "date": "14/01/2017",
-                "displayDate": "",
-                "homeTeam": "Lille OSC",
-                "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
-                "homeTeamLogo": "lille_osc",
-                "awayTeamLogo": "as_saint_etienne"
-            },
-            {
-                "date": "14/01/2017",
-                "displayDate": "",
                 "homeTeam": "FC Lorient",
                 "awayTeam": "EA Guingamp",
                 "score": "-:-",
                 "homeTeamLogo": "fc_lorient",
                 "awayTeamLogo": "ea_guingamp"
-            },
-            {
-                "date": "14/01/2017",
-                "displayDate": "",
-                "homeTeam": "Olympique Marseille",
-                "awayTeam": "AS Monaco",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "as_monaco"
             },
             {
                 "date": "14/01/2017",
@@ -1873,6 +1864,15 @@
             {
                 "date": "14/01/2017",
                 "displayDate": "",
+                "homeTeam": "Toulouse FC",
+                "awayTeam": "FC Nantes",
+                "score": "-:-",
+                "homeTeamLogo": "toulouse_fc",
+                "awayTeamLogo": "fc_nantes"
+            },
+            {
+                "date": "15/01/2017",
+                "displayDate": "15/01/2017",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "FC Metz",
                 "score": "-:-",
@@ -1880,22 +1880,22 @@
                 "awayTeamLogo": "fc_metz"
             },
             {
-                "date": "14/01/2017",
+                "date": "15/01/2017",
                 "displayDate": "",
-                "homeTeam": "Stade Rennes",
-                "awayTeam": "Paris Saint-Germain",
+                "homeTeam": "SM Caen",
+                "awayTeam": "Olympique Lyon",
                 "score": "-:-",
-                "homeTeamLogo": "stade_rennes",
-                "awayTeamLogo": "paris_saint_germain"
+                "homeTeamLogo": "sm_caen",
+                "awayTeamLogo": "olympique_lyon"
             },
             {
-                "date": "14/01/2017",
+                "date": "15/01/2017",
                 "displayDate": "",
-                "homeTeam": "Toulouse FC",
-                "awayTeam": "FC Nantes",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "AS Monaco",
                 "score": "-:-",
-                "homeTeamLogo": "toulouse_fc",
-                "awayTeamLogo": "fc_nantes"
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "as_monaco"
             }
         ]
     },

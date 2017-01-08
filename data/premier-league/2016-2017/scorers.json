@@ -4,7 +4,7 @@
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
-        "goals": "13",
+        "goals": "14",
         "flag": "spain",
         "logo": "chelsea_fc"
     },
@@ -13,7 +13,7 @@
         "name": "Zlatan Ibrahimović",
         "country": "Sweden",
         "team": "Manchester United",
-        "goals": "12",
+        "goals": "13",
         "flag": "sweden",
         "logo": "manchester_united"
     },
@@ -22,7 +22,7 @@
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
-        "goals": "12",
+        "goals": "13",
         "flag": "chile",
         "logo": "arsenal_fc"
     },
@@ -31,21 +31,48 @@
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "10",
+        "goals": "11",
         "flag": "argentina",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Jermain Defoe",
+        "country": "England",
+        "team": "Sunderland AFC",
+        "goals": "11",
+        "flag": "england",
+        "logo": "sunderland_afc"
     },
     {
         "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
-        "goals": "10",
+        "goals": "11",
         "flag": "belgium",
         "logo": "everton_fc"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "10",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "10",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "9.",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -54,7 +81,16 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "9",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "11.",
         "name": "Michail Antonio",
         "country": "England",
         "team": "West Ham United",
@@ -73,24 +109,6 @@
     },
     {
         "rank": "-",
-        "name": "Jermain Defoe",
-        "country": "England",
-        "team": "Sunderland AFC",
-        "goals": "8",
-        "flag": "england",
-        "logo": "sunderland_afc"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "8",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
         "name": "Theo Walcott",
         "country": "England",
         "team": "Arsenal FC",
@@ -99,13 +117,13 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "12.",
-        "name": "Harry Kane",
+        "rank": "14.",
+        "name": "Adam Lallana",
         "country": "England",
-        "team": "Tottenham Hotspur",
+        "team": "Liverpool FC",
         "goals": "7",
         "flag": "england",
-        "logo": "tottenham_hotspur"
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -117,7 +135,16 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Robert Snodgrass",
+        "country": "Scotland",
+        "team": "Hull City",
+        "goals": "7",
+        "flag": "scotland",
+        "logo": "hull_city"
+    },
+    {
+        "rank": "17.",
         "name": "Charlie Austin",
         "country": "England",
         "team": "Southampton FC",
@@ -136,12 +163,12 @@
     },
     {
         "rank": "-",
-        "name": "Adam Lallana",
-        "country": "England",
-        "team": "Liverpool FC",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Arsenal FC",
         "goals": "6",
-        "flag": "england",
-        "logo": "liverpool_fc"
+        "flag": "france",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "goals": "6",
         "flag": "spain",
         "logo": "swansea_city"
-    },
-    {
-        "rank": "18.",
-        "name": "Joe Allen",
-        "country": "Wales",
-        "team": "Stoke City",
-        "goals": "5",
-        "flag": "wales",
-        "logo": "stoke_city"
-    },
-    {
-        "rank": "-",
-        "name": " Álvaro Negredo",
-        "country": "Spain",
-        "team": "Middlesbrough FC",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "middlesbrough_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Étienne Capoue",
-        "country": "France",
-        "team": "Watford FC",
-        "goals": "5",
-        "flag": "france",
-        "logo": "watford_fc"
     }
 ]
