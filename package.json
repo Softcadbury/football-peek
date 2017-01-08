@@ -11,7 +11,6 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
-    "gulp-browserify": "^0.5.1",
     "gulp-concat-css": "^2.2.0",
     "gulp-eslint": "^3.0.1",
     "gulp-less": "^3.0.5",
@@ -19,9 +18,10 @@
     "gulp-mocha": "^2.2.0",
     "gulp-nodemon": "^2.0.6",
     "gulp-open": "^1.0.0",
-    "gulp-uglify": "^1.5.3",
     "gulp.spritesmith": "^6.2.1",
     "mocha": "^2.5.3",
+    "webpack": "^1.14.0",
+    "webpack-stream": "^3.2.0",
     "yargs": "^4.8.1"
   },
   "dependencies": {

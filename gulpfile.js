@@ -53,12 +53,15 @@ gulp.task('sprite', () => {
 
 // Build the application in the public folder
 gulp.task('build', () => {
-    // Javascript
-    var browserify = require('gulp-browserify');
-    var uglify = require('gulp-uglify');
-    gulp.src('client/scripts/app.js')
-        .pipe(browserify())
-        .pipe(uglify())
+    var webpack = require('webpack');
+    var webpackStream = require('webpack-stream');
+
+    return gulp.src('client/scripts/app.js')
+        .pipe(webpackStream({
+            output: { filename: "app.js" },
+            devtool: 'source-map',
+            plugins: [new webpack.optimize.UglifyJsPlugin()]
+        }))
         .pipe(gulp.dest('./public/js'));
 
     // Css
