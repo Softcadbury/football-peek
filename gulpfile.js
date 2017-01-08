@@ -24,7 +24,7 @@ gulp.task('up', () => {
 // Check coding rules
 gulp.task('lint', () => {
     var eslint = require('gulp-eslint');
-    return gulp.src(['**/*.js','!node_modules/**','!build/**'])
+    return gulp.src(['**/*.js','!node_modules/**','!public/**'])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
@@ -50,7 +50,7 @@ gulp.task('sprite', () => {
         .pipe(gulp.dest('./client'));
 });
 
-// Build the application
+// Build the application in the public folder
 gulp.task('build', () => {
     // Javascript
     var browserify = require('gulp-browserify');
@@ -58,7 +58,7 @@ gulp.task('build', () => {
     gulp.src('client/scripts/app.js')
         .pipe(browserify())
         .pipe(uglify())
-        .pipe(gulp.dest('./build/js'));
+        .pipe(gulp.dest('./public/js'));
 
     // Css
     var less = require('gulp-less');
@@ -68,11 +68,11 @@ gulp.task('build', () => {
         .pipe(less())
         .pipe(concatCss('app.css'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest('./build/css'));
+        .pipe(gulp.dest('./public/css'));
 
     // Images
     gulp.src('./client/images/**/*')
-        .pipe(gulp.dest('./build/images'));
+        .pipe(gulp.dest('./public/images'));
 });
 
 // Start the node server
@@ -92,7 +92,7 @@ gulp.task('start', () => {
 
 // Manage build, start the node server and open the browser
 gulp.task('default', ['build', 'start'], () => {
-    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['build']);
+    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['public']);
 
     var openBrowser = require('gulp-open');
     gulp.src('/').pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));

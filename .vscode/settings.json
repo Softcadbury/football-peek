@@ -2,8 +2,8 @@
 {
     "files.exclude": {
         ".vscode/": true,
+        "node_modules/": true,
         "backup/": true,
-        "build/": true,
-        "node_modules/": true
+        "public/": true
     }
 }
