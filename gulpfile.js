@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 
 // Updates data
-// Format: gulp up -l / gulp up -c / gulp up -l eng
+// Format: gulp up -l [lague small name] -c [competition small name]
 gulp.task('up', () => {
     var config = require('./server/config');
     config.downloadImages = true;
@@ -41,13 +41,14 @@ gulp.task('test', () => {
 gulp.task('sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
-        imgName: 'images/sprite.png',
-        cssName: 'styles/miscs/sprite.css'
+        cssName: 'client/styles/miscs/sprite.css',
+        imgName: 'public/images/sprite.png',
+        imgPath: '../../images/sprite.png'
     });
 
     gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
-        .pipe(gulp.dest('./client'));
+        .pipe(gulp.dest('.'));
 });
 
 // Build the application in the public folder
@@ -69,10 +70,6 @@ gulp.task('build', () => {
         .pipe(concatCss('app.css'))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./public/css'));
-
-    // Images
-    gulp.src('./client/images/**/*')
-        .pipe(gulp.dest('./public/images'));
 });
 
 // Start the node server
