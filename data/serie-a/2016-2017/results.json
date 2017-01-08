@@ -1713,22 +1713,49 @@
         "round": 19,
         "matches": [
             {
+                "date": "07/01/2017",
+                "displayDate": "07/01/2017",
+                "homeTeam": "Empoli FC",
+                "awayTeam": "US Palermo",
+                "score": "1:0",
+                "homeTeamLogo": "empoli_fc",
+                "awayTeamLogo": "us_palermo"
+            },
+            {
+                "date": "07/01/2017",
+                "displayDate": "",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Sampdoria",
+                "score": "2:1",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "sampdoria"
+            },
+            {
                 "date": "08/01/2017",
                 "displayDate": "08/01/2017",
+                "homeTeam": "Pescara Calcio",
+                "awayTeam": "ACF Fiorentina",
+                "score": "-:-",
+                "homeTeamLogo": "pescara_calcio",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "08/01/2017",
+                "displayDate": "",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "08/01/2017",
+                "displayDate": "",
                 "homeTeam": "Chievo Verona",
                 "awayTeam": "Atalanta",
                 "score": "-:-",
                 "homeTeamLogo": "chievo_verona",
                 "awayTeamLogo": "atalanta"
-            },
-            {
-                "date": "08/01/2017",
-                "displayDate": "",
-                "homeTeam": "Empoli FC",
-                "awayTeam": "US Palermo",
-                "score": "-:-",
-                "homeTeamLogo": "empoli_fc",
-                "awayTeamLogo": "us_palermo"
             },
             {
                 "date": "08/01/2017",
@@ -1742,47 +1769,11 @@
             {
                 "date": "08/01/2017",
                 "displayDate": "",
-                "homeTeam": "Juventus",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "bologna_fc"
-            },
-            {
-                "date": "08/01/2017",
-                "displayDate": "",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "FC Crotone",
                 "score": "-:-",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "08/01/2017",
-                "displayDate": "",
-                "homeTeam": "AC Milan",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "cagliari_calcio"
-            },
-            {
-                "date": "08/01/2017",
-                "displayDate": "",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Sampdoria",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "sampdoria"
-            },
-            {
-                "date": "08/01/2017",
-                "displayDate": "",
-                "homeTeam": "Pescara Calcio",
-                "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
-                "homeTeamLogo": "pescara_calcio",
-                "awayTeamLogo": "acf_fiorentina"
             },
             {
                 "date": "08/01/2017",
@@ -1796,11 +1787,20 @@
             {
                 "date": "08/01/2017",
                 "displayDate": "",
-                "homeTeam": "Udinese Calcio",
-                "awayTeam": "Inter",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Cagliari Calcio",
                 "score": "-:-",
-                "homeTeamLogo": "udinese_calcio",
-                "awayTeamLogo": "inter"
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "08/01/2017",
+                "displayDate": "",
+                "homeTeam": "Juventus",
+                "awayTeam": "Bologna FC",
+                "score": "-:-",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "bologna_fc"
             }
         ]
     },
