@@ -13,7 +13,7 @@
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Olympique Lyon",
-        "goals": "13",
+        "goals": "15",
         "flag": "france",
         "logo": "olympique_lyon"
     },
@@ -45,22 +45,22 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Ivan Santini",
+        "country": "Croatia",
+        "team": "SM Caen",
+        "goals": "10",
+        "flag": "croatia",
+        "logo": "sm_caen"
+    },
+    {
+        "rank": "7.",
         "name": "Mario Balotelli",
         "country": "Italy",
         "team": "OGC Nice",
         "goals": "8",
         "flag": "italy",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Santini",
-        "country": "Croatia",
-        "team": "SM Caen",
-        "goals": "8",
-        "flag": "croatia",
-        "logo": "sm_caen"
     },
     {
         "rank": "8.",
@@ -136,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": " Júlio Tavares",
+        "country": "Cape Verde",
+        "team": "Dijon FCO",
+        "goals": "6",
+        "flag": "cape_verde",
+        "logo": "dijon_fco"
+    },
+    {
+        "rank": "-",
         "name": "Thomas Lemar",
         "country": "France",
         "team": "AS Monaco",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Waris Majeed",
+        "country": "Ghana",
+        "team": "FC Lorient",
+        "goals": "6",
+        "flag": "ghana",
+        "logo": "fc_lorient"
+    },
+    {
+        "rank": "-",
         "name": "Steve Mounié",
         "country": "Benin",
         "team": "Montpellier HSC",
         "goals": "6",
         "flag": "benin",
         "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Thauvin",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "goals": "6",
-        "flag": "france",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "20.",
-        "name": "Wylan Cyprien",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "5",
-        "flag": "france",
-        "logo": "ogc_nice"
     }
 ]

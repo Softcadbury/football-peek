@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "12",
+        "goals": "14",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "12",
+        "goals": "14",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -27,11 +27,11 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "10",
+        "goals": "11",
         "flag": "spain",
         "logo": "celta_vigo"
     },
@@ -54,7 +54,16 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": " Rubén Castro",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "8.",
         "name": " Gerard",
         "country": "Spain",
         "team": "Espanyol Barcelona",
@@ -73,15 +82,6 @@
     },
     {
         "rank": "-",
-        "name": " Rubén Castro",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
         "name": " Sandro",
         "country": "Spain",
         "team": "Málaga CF",
@@ -90,7 +90,16 @@
         "logo": "malaga_cf"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Nicola Sansone",
+        "country": "Italy",
+        "team": "Villarreal CF",
+        "goals": "7",
+        "flag": "italy",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "12.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -136,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Nicola Sansone",
-        "country": "Italy",
-        "team": "Villarreal CF",
+        "name": " Pedro León",
+        "country": "Spain",
+        "team": "SD Eibar",
         "goals": "6",
-        "flag": "italy",
-        "logo": "villarreal_cf"
+        "flag": "spain",
+        "logo": "sd_eibar"
     },
     {
         "rank": "-",
@@ -153,7 +162,7 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "18.",
+        "rank": "19.",
         "name": "Gareth Bale",
         "country": "Wales",
         "team": "Real Madrid",
@@ -169,14 +178,5 @@
         "goals": "5",
         "flag": "france",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin-Prince Boateng",
-        "country": "Ghana",
-        "team": "UD Las Palmas",
-        "goals": "5",
-        "flag": "ghana",
-        "logo": "ud_las_palmas"
     }
 ]

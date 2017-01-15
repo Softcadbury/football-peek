@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
+        "assists": "8",
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Matt Phillips",
         "country": "Scotland",
         "team": "West Bromwich Albion",
@@ -18,16 +27,7 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "3.",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
-        "assists": "7",
-        "flag": "denmark",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Adam Lallana",
         "country": "England",
         "team": "Liverpool FC",
@@ -144,7 +144,16 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "17.",
+        "rank": "-",
+        "name": "Kyle Walker",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "assists": "5",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "18.",
         "name": " Álvaro Negredo",
         "country": "Spain",
         "team": "Middlesbrough FC",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Ross Barkley",
+        "country": "England",
+        "team": "Everton FC",
+        "assists": "4",
+        "flag": "england",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
         "name": "Yannick Bolasie",
         "country": "Congo DR",
         "team": "Crystal Palace",
         "assists": "4",
         "flag": "congo_dr",
         "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": " David Silva",
-        "country": "Spain",
-        "team": "Manchester City",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Jordan Henderson",
-        "country": "England",
-        "team": "Liverpool FC",
-        "assists": "4",
-        "flag": "england",
-        "logo": "liverpool_fc"
     }
 ]

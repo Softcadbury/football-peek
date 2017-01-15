@@ -4,7 +4,7 @@
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "14",
+        "goals": "15",
         "flag": "argentina",
         "logo": "inter"
     },
@@ -28,24 +28,33 @@
     },
     {
         "rank": "4.",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "11",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "5.",
         "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "10",
+        "goals": "12",
         "flag": "argentina",
         "logo": "juventus"
     },
     {
+        "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "12",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
         "rank": "6.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "11",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "7.",
         "name": "Federico Bernardeschi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -55,15 +64,15 @@
     },
     {
         "rank": "-",
-        "name": "Ciro Immobile",
+        "name": "Marco Borriello",
         "country": "Italy",
-        "team": "Lazio Roma",
+        "team": "Cagliari Calcio",
         "goals": "9",
         "flag": "italy",
-        "logo": "lazio_roma"
+        "logo": "cagliari_calcio"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": " Iago Falqué",
         "country": "Spain",
         "team": "Torino FC",
@@ -99,13 +108,13 @@
         "logo": "udinese_calcio"
     },
     {
-        "rank": "12.",
-        "name": "Marco Borriello",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
+        "rank": "13.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "AC Milan",
         "goals": "7",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
+        "flag": "colombia",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -126,16 +135,25 @@
         "logo": "us_palermo"
     },
     {
-        "rank": "15.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "AC Milan",
-        "goals": "6",
-        "flag": "colombia",
-        "logo": "ac_milan"
+        "rank": "-",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
+        "goals": "7",
+        "flag": "croatia",
+        "logo": "inter"
     },
     {
         "rank": "-",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "Genoa CFC",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "18.",
         "name": "Gregoire Defrel",
         "country": "France",
         "team": "Sassuolo Calcio",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Marek Hamšík",
+        "country": "Slovakia",
+        "team": "SSC Napoli",
+        "goals": "6",
+        "flag": "slovakia",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Franck Kessié",
         "country": "Ivory Coast",
         "team": "Atalanta",
         "goals": "6",
         "flag": "ivory_coast",
         "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Luís Muriel",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "goals": "6",
-        "flag": "colombia",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Diego Perotti",
-        "country": "Argentina",
-        "team": "AS Roma",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "Genoa CFC",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "genoa_cfc"
     }
 ]
