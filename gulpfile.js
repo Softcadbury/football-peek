@@ -9,13 +9,13 @@ gulp.task('up', () => {
     config.downloadImages = true;
 
     var argv = require('yargs').argv;
-
     var leagueArg = argv.l;
+    var competitionArg = argv.c;
+
     if (leagueArg) {
         require('./server/updaters/mainUpdater').updateLeague(leagueArg);
     }
 
-    var competitionArg = argv.c;
     if (competitionArg) {
         require('./server/updaters/mainUpdater').updateCompetition(competitionArg);
     }
@@ -24,7 +24,7 @@ gulp.task('up', () => {
 // Check coding rules
 gulp.task('lint', () => {
     var eslint = require('gulp-eslint');
-    return gulp.src(['**/*.js','!node_modules/**','!public/**'])
+    return gulp.src(['**/*.js', '!node_modules/**', '!public/**'])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
@@ -51,20 +51,14 @@ gulp.task('sprite', () => {
         .pipe(gulp.dest('.'));
 });
 
+// Clean built files
+gulp.task('clean', (cb) => {
+    var rimraf = require('rimraf');
+    rimraf('./public/js', cb);
+});
+
 // Build the application in the public folder
-gulp.task('build', () => {
-    var webpack = require('webpack');
-    var webpackStream = require('webpack-stream');
-
-    return gulp.src('client/scripts/app.js')
-        .pipe(webpackStream({
-            output: { filename: "app.js" },
-            devtool: 'source-map',
-            plugins: [new webpack.optimize.UglifyJsPlugin()]
-        }))
-        .pipe(gulp.dest('./public/js'));
-
-    // Css
+gulp.task('build', ['clean'], () => {
     var less = require('gulp-less');
     var minifyCSS = require('gulp-minify-css');
     var concatCss = require('gulp-concat-css');
@@ -73,6 +67,23 @@ gulp.task('build', () => {
         .pipe(concatCss('app.css'))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./public/css'));
+
+    var webpack = require('webpack');
+    var webpackStream = require('webpack-stream');
+    return gulp.src('client/scripts/app.js')
+        .pipe(webpackStream({
+            devtool: 'source-map',
+            plugins: [new webpack.optimize.UglifyJsPlugin()]
+        }))
+        .pipe(gulp.dest('./public/js'));
+});
+
+// Inject built files in layout view
+gulp.task('inject', ['build'], () => {
+    var inject = require('gulp-inject');
+    return gulp.src('./client/views/_layout.hbs')
+        .pipe(inject(gulp.src('./public/js/*.js', { read: false }), { ignorePath: 'public' }))
+        .pipe(gulp.dest('./client/views'));
 });
 
 // Start the node server
@@ -91,8 +102,8 @@ gulp.task('start', () => {
 });
 
 // Manage build, start the node server and open the browser
-gulp.task('default', ['build', 'start'], () => {
-    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['build']);
+gulp.task('default', ['inject', 'start'], () => {
+    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['inject']);
 
     var openBrowser = require('gulp-open');
     gulp.src('/').pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));
