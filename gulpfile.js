@@ -55,8 +55,7 @@ gulp.task('sprite', () => {
 gulp.task('build', () => {
     var webpack = require('webpack');
     var webpackStream = require('webpack-stream');
-
-    return gulp.src('client/scripts/app.js')
+    gulp.src('client/scripts/app.js')
         .pipe(webpackStream({
             output: { filename: "app.js" },
             devtool: 'source-map',
@@ -64,7 +63,6 @@ gulp.task('build', () => {
         }))
         .pipe(gulp.dest('./public/js'));
 
-    // Css
     var less = require('gulp-less');
     var minifyCSS = require('gulp-minify-css');
     var concatCss = require('gulp-concat-css');
