@@ -4,27 +4,27 @@
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
-        "goals": "14",
+        "goals": "15",
         "flag": "spain",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "14",
-        "flag": "sweden",
-        "logo": "manchester_united"
     },
     {
         "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
-        "goals": "14",
+        "goals": "15",
         "flag": "chile",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "3.",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "14",
+        "flag": "sweden",
+        "logo": "manchester_united"
     },
     {
         "rank": "4.",
@@ -63,11 +63,11 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "8.",
+        "rank": "-",
         "name": "Dele Alli",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "10",
+        "goals": "11",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
@@ -109,6 +109,24 @@
     },
     {
         "rank": "-",
+        "name": " Llorente",
+        "country": "Spain",
+        "team": "Swansea City",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "8",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Theo Walcott",
         "country": "England",
         "team": "Arsenal FC",
@@ -117,7 +135,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "14.",
+        "rank": "16.",
         "name": "Olivier Giroud",
         "country": "France",
         "team": "Arsenal FC",
@@ -153,30 +171,12 @@
         "logo": "hull_city"
     },
     {
-        "rank": "18.",
-        "name": "Charlie Austin",
-        "country": "England",
-        "team": "Southampton FC",
-        "goals": "6",
-        "flag": "england",
-        "logo": "southampton_fc"
-    },
-    {
         "rank": "-",
-        "name": "Leroy Fer",
-        "country": "Netherlands",
-        "team": "Swansea City",
-        "goals": "6",
-        "flag": "netherlands",
-        "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": " Llorente",
-        "country": "Spain",
-        "team": "Swansea City",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "swansea_city"
+        "name": "Heung-min Son",
+        "country": "South Korea",
+        "team": "Tottenham Hotspur",
+        "goals": "7",
+        "flag": "south_korea",
+        "logo": "tottenham_hotspur"
     }
 ]

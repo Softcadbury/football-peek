@@ -37,12 +37,30 @@
     },
     {
         "rank": "5.",
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Alejandro Gómez",
         "country": "Argentina",
         "team": "Atalanta",
         "assists": "6",
         "flag": "argentina",
         "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -54,13 +72,22 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "7.",
+        "rank": "9.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
         "assists": "5",
         "flag": "italy",
         "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Valter Birsa",
+        "country": "Slovenia",
+        "team": "Chievo Verona",
+        "assists": "5",
+        "flag": "slovenia",
+        "logo": "chievo_verona"
     },
     {
         "rank": "-",
@@ -91,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": "Mauro Icardi",
-        "country": "Argentina",
-        "team": "Inter",
+        "name": " Iago Falqué",
+        "country": "Spain",
+        "team": "Torino FC",
         "assists": "5",
-        "flag": "argentina",
-        "logo": "inter"
+        "flag": "spain",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -106,6 +133,24 @@
         "assists": "5",
         "flag": "italy",
         "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Ladislav Krejčí",
+        "country": "Czech Republic",
+        "team": "Bologna FC",
+        "assists": "5",
+        "flag": "czech_republic",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Adem Ljajić",
+        "country": "Serbia",
+        "team": "Torino FC",
+        "assists": "5",
+        "flag": "serbia",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -126,57 +171,12 @@
         "logo": "as_roma"
     },
     {
-        "rank": "15.",
+        "rank": "20.",
         "name": " Alex Sandro",
         "country": "Brazil",
         "team": "Juventus",
         "assists": "4",
         "flag": "brazil",
         "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Valter Birsa",
-        "country": "Slovenia",
-        "team": "Chievo Verona",
-        "assists": "4",
-        "flag": "slovenia",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Candreva",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "4",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Castro",
-        "country": "Argentina",
-        "team": "Chievo Verona",
-        "assists": "4",
-        "flag": "argentina",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Iličič",
-        "country": "Slovenia",
-        "team": "ACF Fiorentina",
-        "assists": "4",
-        "flag": "slovenia",
-        "logo": "acf_fiorentina"
     }
 ]

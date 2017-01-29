@@ -10,39 +10,39 @@
     },
     {
         "rank": "2.",
-        "name": "Anthony Modeste",
-        "country": "France",
-        "team": "1. FC Köln",
-        "goals": "13",
-        "flag": "france",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "3.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "12",
+        "goals": "14",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
-        "rank": "4.",
-        "name": "Sandro Wagner",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "9",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
+        "rank": "-",
+        "name": "Anthony Modeste",
+        "country": "France",
+        "team": "1. FC Köln",
+        "goals": "14",
+        "flag": "france",
+        "logo": "1__fc_koln"
     },
     {
-        "rank": "-",
+        "rank": "4.",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "goals": "9",
+        "goals": "11",
         "flag": "germany",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "5.",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "10",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "6.",
@@ -64,6 +64,33 @@
     },
     {
         "rank": "8.",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "Bayer Leverkusen",
+        "goals": "6",
+        "flag": "turkey",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Gomez",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "Bayer Leverkusen",
+        "goals": "6",
+        "flag": "mexico",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Yunus Mallı",
         "country": "Turkey",
         "team": "1. FSV Mainz 05",
@@ -72,22 +99,31 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Arjen Robben",
+        "country": "Netherlands",
+        "team": "Bayern München",
+        "goals": "6",
+        "flag": "netherlands",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "14.",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
         "goals": "5",
         "flag": "sweden",
         "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Javier Hernández",
-        "country": "Mexico",
-        "team": "Bayer Leverkusen",
-        "goals": "5",
-        "flag": "mexico",
-        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -100,16 +136,16 @@
     },
     {
         "rank": "-",
-        "name": "Florian Niederlechner",
+        "name": "Alexander Meier",
         "country": "Germany",
-        "team": "SC Freiburg",
+        "team": "Eintracht Frankfurt",
         "goals": "5",
         "flag": "germany",
-        "logo": "sc_freiburg"
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
-        "name": "Nils Petersen",
+        "name": "Florian Niederlechner",
         "country": "Germany",
         "team": "SC Freiburg",
         "goals": "5",
@@ -127,56 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Arjen Robben",
-        "country": "Netherlands",
-        "team": "Bayern München",
+        "name": "Marcel Sabitzer",
+        "country": "Austria",
+        "team": "RB Leipzig",
         "goals": "5",
-        "flag": "netherlands",
-        "logo": "bayern_munchen"
+        "flag": "austria",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
-        "name": "Mark Uth",
+        "name": "Lars Stindl",
         "country": "Germany",
-        "team": "1899 Hoffenheim",
+        "team": "Bor. Mönchengladbach",
         "goals": "5",
         "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "17.",
-        "name": "Nabil Bentaleb",
-        "country": "Algeria",
-        "team": "FC Schalke 04",
-        "goals": "4",
-        "flag": "algeria",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Bayer Leverkusen",
-        "goals": "4",
-        "flag": "turkey",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Pablo de Blasis",
-        "country": "Argentina",
-        "team": "1. FSV Mainz 05",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "Borussia Dortmund",
-        "goals": "4",
-        "flag": "france",
-        "logo": "borussia_dortmund"
+        "logo": "bor__monchengladbach"
     }
 ]

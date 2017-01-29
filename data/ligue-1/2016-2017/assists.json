@@ -10,19 +10,10 @@
     },
     {
         "rank": "2.",
-        "name": "Morgan Sanson",
-        "country": "France",
-        "team": "Montpellier HSC",
-        "assists": "7",
-        "flag": "france",
-        "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "3.",
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "AS Monaco",
-        "assists": "6",
+        "assists": "7",
         "flag": "portugal",
         "logo": "as_monaco"
     },
@@ -31,12 +22,21 @@
         "name": " Marçal",
         "country": "Brazil",
         "team": "EA Guingamp",
-        "assists": "6",
+        "assists": "7",
         "flag": "brazil",
         "logo": "ea_guingamp"
     },
     {
         "rank": "-",
+        "name": "Morgan Sanson",
+        "country": "France",
+        "team": "Montpellier HSC",
+        "assists": "7",
+        "flag": "france",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "5.",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "AS Monaco",
@@ -55,6 +55,15 @@
     },
     {
         "rank": "-",
+        "name": "Romain Hamouma",
+        "country": "France",
+        "team": "AS Saint-Étienne",
+        "assists": "5",
+        "flag": "france",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "-",
         "name": "Paul-Georges Ntep",
         "country": "France",
         "team": "Stade Rennes",
@@ -63,7 +72,7 @@
         "logo": "stade_rennes"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Ludovic Baal",
         "country": "French Guyana",
         "team": "Stade Rennes",
@@ -100,6 +109,24 @@
     },
     {
         "rank": "-",
+        "name": "Rémy Cabella",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "assists": "4",
+        "flag": "france",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
+        "name": "Renaud Cohade",
+        "country": "France",
+        "team": "FC Metz",
+        "assists": "4",
+        "flag": "france",
+        "logo": "fc_metz"
+    },
+    {
+        "rank": "-",
         "name": "Lucas Deaux",
         "country": "France",
         "team": "EA Guingamp",
@@ -115,6 +142,15 @@
         "assists": "4",
         "flag": "argentina",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Julien Féret",
+        "country": "France",
+        "team": "SM Caen",
+        "assists": "4",
+        "flag": "france",
+        "logo": "sm_caen"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "assists": "4",
         "flag": "france",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Cheikh N'Doye",
-        "country": "Senegal",
-        "team": "Angers SCO",
-        "assists": "4",
-        "flag": "senegal",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Ronny Rodelin",
-        "country": "France",
-        "team": "SM Caen",
-        "assists": "4",
-        "flag": "france",
-        "logo": "sm_caen"
-    },
-    {
-        "rank": "-",
-        "name": "Youssouf Sabaly",
-        "country": "France",
-        "team": "Girondins Bordeaux",
-        "assists": "4",
-        "flag": "france",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "-",
-        "name": "Mariusz Stępiński",
-        "country": "Poland",
-        "team": "FC Nantes",
-        "assists": "4",
-        "flag": "poland",
-        "logo": "fc_nantes"
     }
 ]

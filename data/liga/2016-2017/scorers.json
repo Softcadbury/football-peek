@@ -1,20 +1,20 @@
 [
     {
         "rank": "1.",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "14",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "14",
+        "goals": "16",
         "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "15",
+        "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
@@ -22,12 +22,12 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "goals": "11",
+        "goals": "12",
         "flag": "portugal",
         "logo": "real_madrid"
     },
     {
-        "rank": "-",
+        "rank": "4.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -55,19 +55,10 @@
     },
     {
         "rank": "-",
-        "name": " Rubén Castro",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "8.",
         "name": " Gerard",
         "country": "Spain",
         "team": "Espanyol Barcelona",
-        "goals": "7",
+        "goals": "8",
         "flag": "spain",
         "logo": "espanyol_barcelona"
     },
@@ -76,9 +67,45 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "7",
+        "goals": "8",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Rubén Castro",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "10.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Florin Andone",
+        "country": "Romania",
+        "team": "Deportivo La Coruña",
+        "goals": "7",
+        "flag": "romania",
+        "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
+        "name": "Duje Čop",
+        "country": "Croatia",
+        "team": "Sporting Gijón",
+        "goals": "7",
+        "flag": "croatia",
+        "logo": "sporting_gijon"
     },
     {
         "rank": "-",
@@ -99,34 +126,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "12.",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": "Florin Andone",
-        "country": "Romania",
-        "team": "Deportivo La Coruña",
-        "goals": "6",
-        "flag": "romania",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": "Duje Čop",
-        "country": "Croatia",
-        "team": "Sporting Gijón",
-        "goals": "6",
-        "flag": "croatia",
-        "logo": "sporting_gijon"
-    },
-    {
-        "rank": "-",
+        "rank": "15.",
         "name": "Yannick Ferreira-Carrasco",
         "country": "Belgium",
         "team": "Atlético Madrid",
@@ -154,29 +154,29 @@
     },
     {
         "rank": "-",
-        "name": "Luciano Vietto",
+        "name": "Pablo Piatti",
         "country": "Argentina",
-        "team": "Sevilla FC",
+        "team": "Espanyol Barcelona",
         "goals": "6",
         "flag": "argentina",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "goals": "5",
-        "flag": "wales",
-        "logo": "real_madrid"
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
-        "name": "Karim Benzema",
-        "country": "France",
+        "name": " Sergi Enrich",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Sergio Ramos",
+        "country": "Spain",
         "team": "Real Madrid",
-        "goals": "5",
-        "flag": "france",
+        "goals": "6",
+        "flag": "spain",
         "logo": "real_madrid"
     }
 ]
