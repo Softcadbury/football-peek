@@ -28,6 +28,15 @@
     },
     {
         "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "assists": "7",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Diego Perotti",
         "country": "Argentina",
         "team": "AS Roma",
@@ -36,7 +45,16 @@
         "logo": "as_roma"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": " Suso",
+        "country": "Spain",
+        "team": "AC Milan",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "7.",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
@@ -55,24 +73,24 @@
     },
     {
         "rank": "-",
-        "name": "Mauro Icardi",
-        "country": "Argentina",
-        "team": "Inter",
+        "name": "Ladislav Krejčí",
+        "country": "Czech Republic",
+        "team": "Bologna FC",
         "assists": "6",
-        "flag": "argentina",
-        "logo": "inter"
+        "flag": "czech_republic",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "10.",
+        "name": " Alex Sandro",
+        "country": "Brazil",
+        "team": "Juventus",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "juventus"
     },
     {
         "rank": "-",
-        "name": " Suso",
-        "country": "Spain",
-        "team": "AC Milan",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "9.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
@@ -136,15 +154,6 @@
     },
     {
         "rank": "-",
-        "name": "Ladislav Krejčí",
-        "country": "Czech Republic",
-        "team": "Bologna FC",
-        "assists": "5",
-        "flag": "czech_republic",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
         "name": "Adem Ljajić",
         "country": "Serbia",
         "team": "Torino FC",
@@ -169,14 +178,5 @@
         "assists": "5",
         "flag": "egypt",
         "logo": "as_roma"
-    },
-    {
-        "rank": "20.",
-        "name": " Alex Sandro",
-        "country": "Brazil",
-        "team": "Juventus",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "juventus"
     }
 ]
