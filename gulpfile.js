@@ -73,8 +73,8 @@ gulp.task('build', ['clean'], () => {
     return gulp.src('client/scripts/app.js')
         .pipe(webpackStream({
             devtool: 'source-map',
-            plugins: [new webpack.optimize.UglifyJsPlugin()]
-        }))
+            plugins: [new webpack.optimize.UglifyJsPlugin({ sourceMap: true })]
+        }, webpack))
         .pipe(gulp.dest('./public/js'));
 });
 

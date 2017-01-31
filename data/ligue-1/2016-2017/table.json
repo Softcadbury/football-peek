@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "AS Monaco",
+        "points": "49",
+        "played": "22",
+        "win": "15",
+        "draw": "4",
+        "lost": "3",
+        "goalsFor": "65",
+        "goalsAgainst": "22",
+        "goalDifference": "43",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "2",
         "team": "OGC Nice",
         "points": "49",
         "played": "22",
@@ -13,28 +26,15 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "2",
-        "team": "AS Monaco",
-        "points": "48",
-        "played": "21",
-        "win": "15",
-        "draw": "3",
-        "lost": "3",
-        "goalsFor": "64",
-        "goalsAgainst": "21",
-        "goalDifference": "43",
-        "logo": "as_monaco"
-    },
-    {
         "rank": "3",
         "team": "Paris Saint-Germain",
-        "points": "45",
-        "played": "21",
+        "points": "46",
+        "played": "22",
         "win": "14",
-        "draw": "3",
+        "draw": "4",
         "lost": "4",
-        "goalsFor": "41",
-        "goalsAgainst": "15",
+        "goalsFor": "42",
+        "goalsAgainst": "16",
         "goalDifference": "26",
         "logo": "paris_saint_germain"
     },

@@ -63,7 +63,16 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": " Williams",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "9.",
         "name": " Álex Berenguer",
         "country": "Spain",
         "team": "CA Osasuna",
@@ -136,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": " Lucas Vázquez",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
@@ -160,23 +178,5 @@
         "assists": "4",
         "flag": "spain",
         "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Moi Gómez",
-        "country": "Spain",
-        "team": "Sporting Gijón",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "sporting_gijon"
-    },
-    {
-        "rank": "-",
-        "name": " Sergi Enrich",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "sd_eibar"
     }
 ]
