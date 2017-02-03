@@ -1,14 +1,5 @@
 'use strict';
 
-window.cookieconsent_options = {
-    "message": "This website uses cookies to ensure you get the best experience on our website", 
-    "dismiss": "Got it!", 
-    "learnMore": "More info",
-    "link": null, "theme": 
-    "light-bottom" };
-
-require('cookieconsent2');
-
 initDropdown('dropdown-label-years', 'dropdown-arrow-years', 'dropdown-content-years');
 initDropdown('dropdown-label-rounds', 'dropdown-arrow-rounds', 'dropdown-content-rounds');
 initDropdown('dropdown-label-groups', 'dropdown-arrow-groups', 'dropdown-content-groups');
