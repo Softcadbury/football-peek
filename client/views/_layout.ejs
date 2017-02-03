@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{title}}</title>
-    <meta name="description" content="{{description}}">
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
 
-    <meta name="twitter:title" content="{{title}}">
-    <meta name="twitter:description" content="{{description}}">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= description %>">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="http://dashboardfootball.com/images/trophy-logo2.png">
 
-    <meta property="og:title" content="{{title}}" />
-    <meta property="og:description" content="{{description}}" />
+    <meta property="og:title" content="<%= title %>" />
+    <meta property="og:description" content="<%= description %>" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Dashboard Football" />
     <meta property="og:url" content="http://dashboardfootball.com" />
     <meta property="og:image" content="http://dashboardfootball.com/images/trophy-logo2.png" />
     <meta property="fb:app_id" content="297809827273101" />
 
-    <meta itemprop="name" content="{{title}}">
-    <meta itemprop="description" content="{{description}}">
+    <meta itemprop="name" content="<%= title %>">
+    <meta itemprop="description" content="<%= description %>">
     <meta itemprop="image" content="http://dashboardfootball.com/images/trophy-logo2.png">
 
     <meta charset="utf-8">
@@ -31,12 +31,12 @@
 </head>
 <body>
     <div class="wrapper">
-        {{> menu }}
+        <%- include('partials/menu') %>
         <div class="content">
-            {{{body}}}
+            <%- body %>
         </div>
     </div>
-    {{> footer }}
+    <%- include('partials/footer') %>
     <!-- inject:js -->
     <script src="/js/ec6a747d6dd75cb2e414.js"></script>
     <!-- endinject -->
