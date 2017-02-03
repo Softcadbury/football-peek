@@ -1,16 +1,16 @@
 <div id="league">
     <div class="header-sub">
-        <div class="header-icon icon-{{requestedItem.code}}"></div>
+        <div class="header-icon icon-<%= requestedItem.code %>"></div>
         <h1>
-            {{requestedItem.name}}
-            <span class="dropdown-label" id="dropdown-label-years">{{requestedYear}}</span>
+            <%= requestedItem.name %>
+            <span class="dropdown-label" id="dropdown-label-years"><%= requestedYear %></span>
         </h1>
-        {{> dropdownYears }}
+        <%=  dropdownYears  %>
     </div>
     <br />
-    {{> tournament }}
-    {{> groups }}
+    <%=  tournament  %>
+    <%=  groups  %>
     <br />
-    {{> scorers }}
-    {{> assists }}
+    <%=  scorers  %>
+    <%=  assists  %>
 </div>

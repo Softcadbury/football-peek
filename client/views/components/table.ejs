@@ -1,4 +1,4 @@
-{{#if tableData.length}}
+<%= #if tableData.length %>
 <div class="component-container">
     <table class="component">
         <tr>
@@ -20,23 +20,23 @@
             <th title="Goals against">A</th>
             <th title="Goal differencence">+/-</th>
         </tr>
-        {{#each tableData}}
+        <%= #each tableData %>
         <tr>
-            <td>{{this.rank}}</td>
+            <td><%= this.rank %></td>
             <td class="component-column-main">
-                <div class="icon-logo icon-{{this.logo}}" title="{{this.team}}"></div>
-                <span title="{{this.team}}">{{this.team}}</span>
+                <div class="icon-logo icon-<%= this.logo %>" title="<%= this.team %>"></div>
+                <span title="<%= this.team %>"><%= this.team %></span>
             </td>
-            <td>{{this.points}}</td>
-            <td>{{this.played}}</td>
-            <td>{{this.win}}</td>
-            <td>{{this.draw}}</td>
-            <td>{{this.lost}}</td>
-            <td>{{this.goalsFor}}</td>
-            <td>{{this.goalsAgainst}}</td>
-            <td>{{this.goalDifference}}</td>
+            <td><%= this.points %></td>
+            <td><%= this.played %></td>
+            <td><%= this.win %></td>
+            <td><%= this.draw %></td>
+            <td><%= this.lost %></td>
+            <td><%= this.goalsFor %></td>
+            <td><%= this.goalsAgainst %></td>
+            <td><%= this.goalDifference %></td>
         </tr>
-        {{/each}}
+        <%= /each %>
     </table>
 </div>
-{{/if}}
+<%= /if %>

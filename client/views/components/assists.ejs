@@ -1,4 +1,4 @@
-{{#if assistsData.length}}
+<%= #if assistsData.length %>
 <div class="component-container">
     <table class="component">
         <tr>
@@ -15,23 +15,23 @@
             <th class="component-column-main" title="Team">Team</th>
             <th title="Assists">Assists</th>
         </tr>
-        {{#each assistsData}}
+        <%= #each assistsData %>
         <tr>
-            <td>{{this.rank}}</td>
+            <td><%= this.rank %></td>
             <td class="component-column-main">
-                <span title="{{this.name}}">{{this.name}}</span>
+                <span title="<%= this.name %>"><%= this.name %></span>
             </td>
             <td class="component-column-main component-column-country">
-                <div class="icon-flag icon-{{this.flag}}" title="{{this.country}}"></div>
-                <span title="{{this.country}}">{{this.country}}</span>
+                <div class="icon-flag icon-<%= this.flag %>" title="<%= this.country %>"></div>
+                <span title="<%= this.country %>"><%= this.country %></span>
             </td>
             <td class="component-column-main">
-                <div class="icon-logo icon-{{this.logo}}" title="{{this.team}}"></div>
-                <span title="{{this.team}}">{{this.team}}</span>
+                <div class="icon-logo icon-<%= this.logo %>" title="<%= this.team %>"></div>
+                <span title="<%= this.team %>"><%= this.team %></span>
             </td>
-            <td>{{this.assists}}</td>
+            <td><%= this.assists %></td>
         </tr>
-        {{/each}}
+        <%= /each %>
     </table>
 </div>
-{{/if}}
+<%= /if %>

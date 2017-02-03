@@ -2,10 +2,10 @@
     <a class="menu-item menu-item-logo" href="/">
         <img src="/images/trophy-logo.png" alt="logo" />
     </a>
-    {{#each items}}
-    <a class="menu-item {{#isActive this.code}}menu-item-open{{/isActive}}" href="/{{this.code}}">
-        <h2 class="menu-item-big">{{this.name}}</h2>
-        <h2 class="menu-item-small">{{this.smallName}}</h2>
+    <%= #each items %>
+    <a class="menu-item <%= #isActive this.code %>menu-item-open<%= /isActive %>" href="/<%= this.code %>">
+        <h2 class="menu-item-big"><%= this.name %></h2>
+        <h2 class="menu-item-small"><%= this.smallName %></h2>
     </a>
-    {{/each}}
+    <%= /each %>
 </div>
