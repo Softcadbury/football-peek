@@ -6,7 +6,7 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "4.2.3"
+    "node": "6.9.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -30,8 +30,9 @@
     "cheerio": "^0.22.0",
     "compression": "^1.6.2",
     "cron": "^1.1.1",
+    "ejs": "^2.5.5",
     "express": "^4.13.4",
-    "express-handlebars": "^3.0.0",
+    "express-ejs-layouts": "^2.2.0",
     "file-exists": "^2.0.0",
     "fs": "0.0.2",
     "jsonfile": "^2.4.0",

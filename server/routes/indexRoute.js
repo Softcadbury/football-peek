@@ -8,15 +8,9 @@ var router = express.Router();
 var data = {
     title: 'Dashboard Football - Quick access to football results',
     description: 'Quick access to football results, tables, top scorers and top assists from major leagues and competitions',
-    items: items,
-    helpers: {
-        isActive: function (code, options) {
-            return options.inverse(this);
-        }
-    }
+    items: items
 };
 
-// Route for index
 router.route('/')
     .get((req, res) => {
         res.render('index', data);

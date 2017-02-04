@@ -3,7 +3,7 @@
 var config = require('./server/config');
 var helper = require('./server/helper');
 var express = require('express');
-var handlebars = require('express-handlebars');
+var expressLayouts = require('express-ejs-layouts');
 var compression = require('compression');
 var app = express();
 
@@ -16,12 +16,9 @@ app.use(express.static('public', {
 
 // Handlebars configuration
 app.set('views', 'client/views');
-app.engine('.hbs', handlebars({
-    extname: '.hbs',
-    partialsDir: ['client/views/partials/', 'client/views/components/'],
-    defaultLayout: __dirname + '/client/views/_layout.hbs'
-}));
-app.set('view engine', '.hbs');
+app.set('view engine', '.ejs');
+app.set('layout', '_layout');
+app.use(expressLayouts);
 
 // Starts application listening
 app.listen(config.port, (err) => {
