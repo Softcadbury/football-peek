@@ -7,8 +7,8 @@
         <ul class="dropdown-content" id="dropdown-content-groups">
             <% groupsData.forEach((group) => { %>
                 <li>
-                    <a href="#/group-<%= group.group %>">
-                        Group <%= group.group %>
+                    <a href="#/group-<%= group.name %>">
+                        Group <%= group.name %>
                     </a>
                 </li>
             <% }); %>
@@ -25,7 +25,7 @@
                 </td>
             </tr>
             <% groupsData.forEach((group) => { %>
-                <tr class="group-content group-<%= group.group %>-content" style="display:none;">
+                <tr class="group-content group-<%= group.name %>-content" style="display:none;">
                     <td colspan="5" class="table-container">
                         <table>
                             <tr>
@@ -62,7 +62,7 @@
                         </table>
                     </td>
                 </tr>
-                <tr class="group-content group-<%= group.group %>-content" style="display:none;">
+                <tr class="group-content group-<%= group.name %>-content" style="display:none;">
                     <td colspan="5">
                         <div class="component-title">
                             <h3>Results</h3>
@@ -70,7 +70,7 @@
                     </td>
                 </tr>
                 <% group.matches.forEach((matche) => { %>
-                    <tr class="group-content group-<%= group.group %>-content" style="display:none;">
+                    <tr class="group-content group-<%= group.name %>-content" style="display:none;">
                         <td>
                             <%= matche.displayDate %>
                         </td>

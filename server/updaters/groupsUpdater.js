@@ -22,7 +22,7 @@ function updateData(itemExtended) {
     var promises = [];
 
     for (var i = 0; i < itemExtended.groupNumber; i++) {
-        results.push({ group: resultsDataUrlExtensions[i], matches: [], table: [] });
+        results.push({ name: resultsDataUrlExtensions[i], matches: [], table: [] });
         promises.push(parseRound(itemExtended, results, i));
     }
 
