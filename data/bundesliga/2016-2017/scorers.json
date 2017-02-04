@@ -4,7 +4,7 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
-        "goals": "16",
+        "goals": "17",
         "flag": "gabon",
         "logo": "borussia_dortmund"
     },
@@ -13,7 +13,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "14",
+        "goals": "15",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -22,7 +22,7 @@
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "14",
+        "goals": "15",
         "flag": "france",
         "logo": "1__fc_koln"
     },
@@ -117,7 +117,25 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Lars Stindl",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "16.",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
@@ -160,23 +178,5 @@
         "goals": "5",
         "flag": "germany",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "goals": "5",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Lars Stindl",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
     }
 ]

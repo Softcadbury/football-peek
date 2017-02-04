@@ -2,27 +2,27 @@
     {
         "rank": "1",
         "team": "AS Monaco",
-        "points": "49",
-        "played": "22",
-        "win": "15",
+        "points": "52",
+        "played": "23",
+        "win": "16",
         "draw": "4",
         "lost": "3",
-        "goalsFor": "65",
+        "goalsFor": "68",
         "goalsAgainst": "22",
-        "goalDifference": "43",
+        "goalDifference": "46",
         "logo": "as_monaco"
     },
     {
         "rank": "2",
         "team": "OGC Nice",
         "points": "49",
-        "played": "22",
+        "played": "23",
         "win": "14",
         "draw": "7",
-        "lost": "1",
+        "lost": "2",
         "goalsFor": "38",
-        "goalsAgainst": "15",
-        "goalDifference": "23",
+        "goalsAgainst": "18",
+        "goalDifference": "20",
         "logo": "ogc_nice"
     },
     {
@@ -68,13 +68,13 @@
         "rank": "6",
         "team": "Olympique Marseille",
         "points": "33",
-        "played": "22",
+        "played": "23",
         "win": "9",
         "draw": "6",
-        "lost": "7",
+        "lost": "8",
         "goalsFor": "29",
-        "goalsAgainst": "27",
-        "goalDifference": "2",
+        "goalsAgainst": "28",
+        "goalDifference": "1",
         "logo": "olympique_marseille"
     },
     {
@@ -183,6 +183,19 @@
     },
     {
         "rank": "15",
+        "team": "FC Metz",
+        "points": "24",
+        "played": "22",
+        "win": "7",
+        "draw": "5",
+        "lost": "10",
+        "goalsFor": "22",
+        "goalsAgainst": "38",
+        "goalDifference": "-16",
+        "logo": "fc_metz"
+    },
+    {
+        "rank": "16",
         "team": "Montpellier HSC",
         "points": "23",
         "played": "22",
@@ -195,7 +208,7 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "16",
+        "rank": "17",
         "team": "Angers SCO",
         "points": "23",
         "played": "22",
@@ -208,7 +221,7 @@
         "logo": "angers_sco"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "SC Bastia",
         "points": "22",
         "played": "22",
@@ -221,7 +234,7 @@
         "logo": "sc_bastia"
     },
     {
-        "rank": "18",
+        "rank": "19",
         "team": "SM Caen",
         "points": "22",
         "played": "21",
@@ -232,19 +245,6 @@
         "goalsAgainst": "36",
         "goalDifference": "-12",
         "logo": "sm_caen"
-    },
-    {
-        "rank": "19",
-        "team": "FC Metz",
-        "points": "21",
-        "played": "21",
-        "win": "6",
-        "draw": "5",
-        "lost": "10",
-        "goalsFor": "21",
-        "goalsAgainst": "38",
-        "goalDifference": "-17",
-        "logo": "fc_metz"
     },
     {
         "rank": "20",

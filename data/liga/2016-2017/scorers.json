@@ -1,20 +1,20 @@
 [
     {
         "rank": "1.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "16",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
         "goals": "16",
         "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "2.",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "15",
-        "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Pablo Piatti",
+        "country": "Argentina",
+        "team": "Espanyol Barcelona",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": " Sandro",
         "country": "Spain",
         "team": "Málaga CF",
@@ -126,7 +135,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
         "name": "Kevin-Prince Boateng",
         "country": "Ghana",
         "team": "UD Las Palmas",
@@ -169,14 +178,5 @@
         "goals": "6",
         "flag": "spain",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": "Pablo Piatti",
-        "country": "Argentina",
-        "team": "Espanyol Barcelona",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "espanyol_barcelona"
     }
 ]
