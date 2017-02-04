@@ -2,89 +2,100 @@
     window.numberOfGroups = <%= groupsData.length %>;
 </script>
 
-<%= #if groupsData.length %>
-<div class="component-container">
-    <ul class="dropdown-content" id="dropdown-content-groups">
-        <%= #each groupsData %>
-        <li>
-            <a href="#/group-<%= this.group %>">Group <%= this.group %></a>
-        </li>
-        <%= /each %>
-    </ul>
-    <table class="component">
-        <tr>
-            <td colspan="5">
-                <div class="component-title">
-                    <a class="icon-left-open" id="arrow-groups-previous" href="#/" title="Previous group"></a>
-                    <h3 class="dropdown-label" id="dropdown-label-groups">Group A</h3>
-                    <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-groups"></div>
-                    <a class="icon-right-open" id="arrow-groups-next" href="#/" title="Next group"></a>
-                </div>
-            </td>
-        </tr>
-        <%= #each groupsData %>
-            <tr class="group-content group-<%= group %>-content" style="display:none;">
-                <td colspan="5" class="table-container">
-                    <table>
-                        <tr>
-                            <th title="Position">#</th>
-                            <th class="component-column-main" title="Team">Team</th>
-                            <th title="Points">Pts</th>
-                            <th title="Matches played">Pld</th>
-                            <th title="Matches won">W</th>
-                            <th title="Matches drawn">D</th>
-                            <th title="Matches lost">L</th>
-                            <th title="Goals for">F</th>
-                            <th title="Goals against">A</th>
-                            <th title="Goal differencence">+/-</th>
-                        </tr>
-                        <%= #each this.table %>
-                        <tr>
-                            <td><%= this.rank %></td>
-                            <td class="component-column-main">
-                                <div class="icon-logo icon-<%= this.logo %>" title="<%= this.team %>"></div>
-                                <span title="<%= this.team %>"><%= this.team %></span>
-                            </td>
-                            <td><%= this.points %></td>
-                            <td><%= this.played %></td>
-                            <td><%= this.win %></td>
-                            <td><%= this.draw %></td>
-                            <td><%= this.lost %></td>
-                            <td><%= this.goalsFor %></td>
-                            <td><%= this.goalsAgainst %></td>
-                            <td><%= this.goalDifference %></td>
-                        </tr>
-                        <%= /each %> 
-                    </table>
-                </td>
-            </tr>
-            <tr class="group-content group-<%= group %>-content" style="display:none;">
+<% if (groupsData.length) { %>
+    <div class="component-container">
+        <ul class="dropdown-content" id="dropdown-content-groups">
+            <% groupsData.forEach((group) => { %>
+                <li>
+                    <a href="#/group-<%= group.group %>">
+                        Group <%= group.group %>
+                    </a>
+                </li>
+            <% }); %>
+        </ul>
+        <table class="component">
+            <tr>
                 <td colspan="5">
                     <div class="component-title">
-                        <h3>Results</h3>
+                        <a class="icon-left-open" id="arrow-groups-previous" href="#/" title="Previous group"></a>
+                        <h3 class="dropdown-label" id="dropdown-label-groups">Group A</h3>
+                        <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-groups"></div>
+                        <a class="icon-right-open" id="arrow-groups-next" href="#/" title="Next group"></a>
                     </div>
                 </td>
             </tr>
-            <%= #each this.matches %>
-            <tr class="group-content group-<%= ../group %>-content" style="display:none;">
-                <td><%= this.displayDate %></td>
-                <td class="component-column-main component-column-right">
-                    <span title="<%= this.homeTeam %>"><%= this.homeTeam %></span>
-                    <div class="icon-logo icon-<%= this.homeTeamLogo %>" title="<%= this.homeTeam %>"></div>
-                </td>
-                <td class="component-column-score"><%= this.score %></td>
-                <td class="component-column-main">
-                    <div class="icon-logo icon-<%= this.awayTeamLogo %>" title="<%= this.awayTeam %>"></div>
-                    <span title="<%= this.awayTeam %>"><%= this.awayTeam %></span>
-                </td>
-                <td class="component-column-score">
-                    <a href="https://www.youtube.com/results?search_query=highlights <%= this.date %> <%= this.homeTeam %> <%= this.awayTeam %> <%= this.score %>" target="_blank" rel="nofollow" title="Watch highlights">
-                        <i class="icon-television"></i>
-                    </a>
-                </td>
-            </tr>
-            <%= /each %>       
-        <%= /each %>
-    </table>
-</div>
-<%= /if %>
+            <% groupsData.forEach((group) => { %>
+                <tr class="group-content group-<%= group.group %>-content" style="display:none;">
+                    <td colspan="5" class="table-container">
+                        <table>
+                            <tr>
+                                <th title="Position">#</th>
+                                <th class="component-column-main" title="Team">Team</th>
+                                <th title="Points">Pts</th>
+                                <th title="Matches played">Pld</th>
+                                <th title="Matches won">W</th>
+                                <th title="Matches drawn">D</th>
+                                <th title="Matches lost">L</th>
+                                <th title="Goals for">F</th>
+                                <th title="Goals against">A</th>
+                                <th title="Goal differencence">+/-</th>
+                            </tr>
+                            <% group.table.forEach((row) => { %>
+                                <tr>
+                                    <td><%= row.rank %></td>
+                                    <td class="component-column-main">
+                                        <div class="icon-logo icon-<%= row.logo %>" title="<%= row.team %>"></div>
+                                        <span title="<%= row.team %>">
+                                            <%= row.team %>
+                                        </span>
+                                    </td>
+                                    <td><%= row.points %></td>
+                                    <td><%= row.played %></td>
+                                    <td><%= row.win %></td>
+                                    <td><%= row.draw %></td>
+                                    <td><%= row.lost %></td>
+                                    <td><%= row.goalsFor %></td>
+                                    <td><%= row.goalsAgainst %></td>
+                                    <td><%= row.goalDifference %></td>
+                                </tr>
+                            <% }); %> 
+                        </table>
+                    </td>
+                </tr>
+                <tr class="group-content group-<%= group %>-content" style="display:none;">
+                    <td colspan="5">
+                        <div class="component-title">
+                            <h3>Results</h3>
+                        </div>
+                    </td>
+                </tr>
+                <% group.matches.forEach((matche) => { %>
+                    <tr class="group-content group-<%= group.group %>-content" style="display:none;">
+                        <td>
+                            <%= matche.displayDate %>
+                        </td>
+                        <td class="component-column-main component-column-right">
+                            <span title="<%= matche.homeTeam %>">
+                                <%= matche.homeTeam %>
+                            </span>
+                            <div class="icon-logo icon-<%= matche.homeTeamLogo %>" title="<%= matche.homeTeam %>"></div>
+                        </td>
+                        <td class="component-column-score">
+                            <%= matche.score %></td>
+                        <td class="component-column-main">
+                            <div class="icon-logo icon-<%= matche.awayTeamLogo %>" title="<%= matche.awayTeam %>"></div>
+                            <span title="<%= matche.awayTeam %>">
+                                <%= matche.awayTeam %>
+                            </span>
+                        </td>
+                        <td class="component-column-score">
+                            <a href="https://www.youtube.com/results?search_query=highlights <%= matche.date %> <%= matche.homeTeam %> <%= matche.awayTeam %> <%= matche.score %>" target="_blank" rel="nofollow" title="Watch highlights">
+                                <i class="icon-television"></i>
+                            </a>
+                        </td>
+                    </tr>
+                <% }); %>       
+            <% }); %>
+        </table>
+    </div>
+<% } %>

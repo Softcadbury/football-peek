@@ -1,37 +1,43 @@
-<%= #if assistsData.length %>
-<div class="component-container">
-    <table class="component">
-        <tr>
-            <td colspan="5">
-                <div class="component-title">
-                    <h3>Top Assists</h3>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <th title="Position">#</th>
-            <th class="component-column-main" title="Player name">Name</th>
-            <th class="component-column-main" title="Country">Country</th>
-            <th class="component-column-main" title="Team">Team</th>
-            <th title="Assists">Assists</th>
-        </tr>
-        <%= #each assistsData %>
-        <tr>
-            <td><%= this.rank %></td>
-            <td class="component-column-main">
-                <span title="<%= this.name %>"><%= this.name %></span>
-            </td>
-            <td class="component-column-main component-column-country">
-                <div class="icon-flag icon-<%= this.flag %>" title="<%= this.country %>"></div>
-                <span title="<%= this.country %>"><%= this.country %></span>
-            </td>
-            <td class="component-column-main">
-                <div class="icon-logo icon-<%= this.logo %>" title="<%= this.team %>"></div>
-                <span title="<%= this.team %>"><%= this.team %></span>
-            </td>
-            <td><%= this.assists %></td>
-        </tr>
-        <%= /each %>
-    </table>
-</div>
-<%= /if %>
+<% if (assistsData.length) { %>
+    <div class="component-container">
+        <table class="component">
+            <tr>
+                <td colspan="5">
+                    <div class="component-title">
+                        <h3>Top Assists</h3>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th title="Position">#</th>
+                <th class="component-column-main" title="Player name">Name</th>
+                <th class="component-column-main" title="Country">Country</th>
+                <th class="component-column-main" title="Team">Team</th>
+                <th title="Assists">Assists</th>
+            </tr>
+            <% assistsData.forEach((assist) => { %>
+                <tr>
+                    <td><%= assist.rank %></td>
+                    <td class="component-column-main">
+                        <span title="<%= assist.name %>">
+                            <%= assist.name %>
+                        </span>
+                    </td>
+                    <td class="component-column-main component-column-country">
+                        <div class="icon-flag icon-<%= assist.flag %>" title="<%= assist.country %>"></div>
+                        <span title="<%= assist.country %>">
+                            <%= assist.country %>
+                        </span>
+                    </td>
+                    <td class="component-column-main">
+                        <div class="icon-logo icon-<%= assist.logo %>" title="<%= assist.team %>"></div>
+                        <span title="<%= assist.team %>">
+                            <%= assist.team %>
+                        </span>
+                    </td>
+                    <td><%= assist.assists %></td>
+                </tr>
+            <% }); %>
+        </table>
+    </div>
+<% } %>

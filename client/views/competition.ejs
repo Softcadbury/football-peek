@@ -5,12 +5,12 @@
             <%= requestedItem.name %>
             <span class="dropdown-label" id="dropdown-label-years"><%= requestedYear %></span>
         </h1>
-        <%=  dropdownYears  %>
+        <%- include('partials/dropdownYears')  %>
     </div>
     <br />
-    <%=  tournament  %>
-    <%=  groups  %>
+    <%- include('components/tournament')  %>
+    <%- include('components/groups')  %>
     <br />
-    <%=  scorers  %>
-    <%=  assists  %>
+    <%- include('components/scorers')  %>
+    <%- include('components/assists')  %>
 </div>
