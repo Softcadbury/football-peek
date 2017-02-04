@@ -24,7 +24,7 @@ gulp.task('up', () => {
 // Check coding rules
 gulp.task('lint', () => {
     var eslint = require('gulp-eslint');
-    return gulp.src(['**/*.js', '!node_modules/**', '!public/**'])
+    return gulp.src(['**/*.js', '!node_modules/**', '!dist/**'])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
@@ -42,7 +42,7 @@ gulp.task('sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
         cssName: 'client/styles/miscs/sprite.css',
-        imgName: 'public/images/sprite.png',
+        imgName: 'dist/images/sprite.png',
         imgPath: '../../images/sprite.png'
     });
 
@@ -54,10 +54,10 @@ gulp.task('sprite', () => {
 // Clean built files
 gulp.task('clean', (cb) => {
     var rimraf = require('rimraf');
-    rimraf('./public/js', cb);
+    rimraf('./dist/js', cb);
 });
 
-// Build the application in the public folder
+// Build the application in the dist folder
 gulp.task('build', ['clean'], () => {
     var less = require('gulp-less');
     var minifyCSS = require('gulp-minify-css');
@@ -66,7 +66,7 @@ gulp.task('build', ['clean'], () => {
         .pipe(less())
         .pipe(concatCss('app.css'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest('./public/css'));
+        .pipe(gulp.dest('./dist/css'));
 
     var webpack = require('webpack');
     var webpackStream = require('webpack-stream');
@@ -75,14 +75,14 @@ gulp.task('build', ['clean'], () => {
             devtool: 'source-map',
             plugins: [new webpack.optimize.UglifyJsPlugin({ sourceMap: true })]
         }, webpack))
-        .pipe(gulp.dest('./public/js'));
+        .pipe(gulp.dest('./dist/js'));
 });
 
 // Inject built files in layout view
 gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
     return gulp.src('./client/views/_layout.hbs')
-        .pipe(inject(gulp.src('./public/js/*.js', { read: false }), { ignorePath: 'public' }))
+        .pipe(inject(gulp.src('./dist/js/*.js', { read: false }), { ignorePath: 'dist' }))
         .pipe(gulp.dest('./client/views'));
 });
 

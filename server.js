@@ -10,7 +10,7 @@ var app = express();
 // Middlewares configuration
 var tenMinutes = 600000;
 app.use(compression());
-app.use(express.static('public', {
+app.use(express.static('dist', {
     maxAge: tenMinutes
 }));
 

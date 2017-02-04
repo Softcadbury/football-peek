@@ -11,7 +11,7 @@ function competitions() {
             code: 'europa-league',
             name: 'Europa League',
             smallName: 'C3'
-        },
+        }
     };
 }
 
