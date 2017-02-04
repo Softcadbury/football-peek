@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "Borussia Dortmund",
+        "assists": "8",
+        "flag": "france",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
@@ -27,16 +36,7 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "4.",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "Borussia Dortmund",
-        "assists": "7",
-        "flag": "france",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
+        "rank": "5.",
         "name": "Franck Ribéry",
         "country": "France",
         "team": "Bayern München",
@@ -90,7 +90,25 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Sebastian Rudy",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "5",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "12.",
+        "name": "Nadiem Amiri",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -127,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Nicolai Müller",
+        "country": "Germany",
+        "team": "Hamburger SV",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "hamburger_sv"
+    },
+    {
+        "rank": "-",
         "name": "Yuya Osako",
         "country": "Japan",
         "team": "1. FC Köln",
@@ -151,32 +178,5 @@
         "assists": "4",
         "flag": "portugal",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Risse",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Arjen Robben",
-        "country": "Netherlands",
-        "team": "Bayern München",
-        "assists": "4",
-        "flag": "netherlands",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Sebastian Rudy",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
     }
 ]

@@ -7,7 +7,6 @@ var competitions = require('../data/competitions');
 var express = require('express');
 var router = express.Router();
 
-// Route for item
 router.route('/:item/:year?')
     .get((req, res) => {
         var requestedItem = items.find(item => item.code === req.params.item) || items[0];
@@ -19,15 +18,7 @@ router.route('/:item/:year?')
             items: items,
             years: config.years.availables,
             requestedItem: requestedItem,
-            requestedYear: requestedYear,
-            helpers: {
-                isActive: function (code, options) {
-                    return code === requestedItem.code ? options.fn(this) : options.inverse(this);
-                },
-                isWinner: function (team, winner, options) {
-                    return team === winner ? options.fn(this) : options.inverse(this);
-                }
-            }
+            requestedYear: requestedYear
         };
 
         if (requestedItem === competitions.championsLeague || requestedItem === competitions.europaLeague) {

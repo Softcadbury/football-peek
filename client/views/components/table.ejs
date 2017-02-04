@@ -1,0 +1,44 @@
+<% if (tableData.length) { %>
+    <div class="component-container">
+        <table class="component">
+            <tr>
+                <td colspan="10">
+                    <div class="component-title">
+                        <h3>Table</h3>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th title="Position">#</th>
+                <th class="component-column-main" title="Team">Team</th>
+                <th title="Points">Pts</th>
+                <th title="Matches played">Pld</th>
+                <th title="Matches won">W</th>
+                <th title="Matches drawn">D</th>
+                <th title="Matches lost">L</th>
+                <th title="Goals for">F</th>
+                <th title="Goals against">A</th>
+                <th title="Goal differencence">+/-</th>
+            </tr>
+            <% tableData.forEach((row) => { %>
+                <tr>
+                    <td><%= row.rank %></td>
+                    <td class="component-column-main">
+                        <div class="icon-logo icon-<%= row.logo %>" title="<%= row.team %>"></div>
+                        <span title="<%= row.team %>">
+                            <%= row.team %>
+                        </span>
+                    </td>
+                    <td><%= row.points %></td>
+                    <td><%= row.played %></td>
+                    <td><%= row.win %></td>
+                    <td><%= row.draw %></td>
+                    <td><%= row.lost %></td>
+                    <td><%= row.goalsFor %></td>
+                    <td><%= row.goalsAgainst %></td>
+                    <td><%= row.goalDifference %></td>
+                </tr>
+            <% }); %>
+        </table>
+    </div>
+<% } %>
