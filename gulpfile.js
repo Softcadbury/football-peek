@@ -78,11 +78,11 @@ gulp.task('build', ['clean'], () => {
                     test: /\.css$/,
                     use: ExtractTextPlugin.extract(['style-loader', 'css-loader'])
                 }, {
-                    test: /\.png$/,
+                    test: /\.(jpg|png|eot|woff2|ttf|svg)$/,
                     use: {
                         loader: 'file-loader',
                         options: {
-                            name: '../[path][name].[hash].[ext]'
+                            name: '[name].[hash].[ext]'
                         }
                     }
                 }]
@@ -94,20 +94,20 @@ gulp.task('build', ['clean'], () => {
                 new webpack.LoaderOptionsPlugin({
                     minimize: true
                 }),
-                new ExtractTextPlugin('../styles/app.bundle.[chunkhash].css')
+                new ExtractTextPlugin('style.bundle.[chunkhash].css')
             ],
             output: {
-                filename: 'app.bundle.[chunkhash].js'
+                filename: 'script.bundle.[chunkhash].js'
             }
         }, webpack))
-        .pipe(gulp.dest('./dist/scripts'));
+        .pipe(gulp.dest('./dist'));
 });
 
 // Inject built files in layout view
 gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
     return gulp.src('./client/views/_layout.ejs')
-        .pipe(inject(gulp.src(['./dist/**/*.js', './dist/**/*.css'], {
+        .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
             read: false
         }), {
             ignorePath: 'dist'
