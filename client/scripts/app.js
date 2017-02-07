@@ -1,5 +1,7 @@
 'use strict';
 
+import css from '../styles/index.less';
+
 initDropdown('dropdown-label-years', 'dropdown-arrow-years', 'dropdown-content-years');
 initDropdown('dropdown-label-rounds', 'dropdown-arrow-rounds', 'dropdown-content-rounds');
 initDropdown('dropdown-label-groups', 'dropdown-arrow-groups', 'dropdown-content-groups');

@@ -6,10 +6,13 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "6.9.4"
+    "node": ">=6.0",
+    "npm": ">=3.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "gulp": "^3.9.1",
     "gulp-concat-css": "^2.3.0",
     "gulp-eslint": "^3.0.1",
@@ -20,8 +23,11 @@
     "gulp-nodemon": "^2.2.1",
     "gulp-open": "^2.0.0",
     "gulp.spritesmith": "^6.3.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
     "webpack": "^2.2.1",
     "webpack-stream": "^3.2.0",
     "yargs": "^6.6.0"
