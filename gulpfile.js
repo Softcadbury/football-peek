@@ -74,15 +74,17 @@ gulp.task('build', ['clean'], () => {
                 rules: [{
                     test: /\.less$/,
                     use: ExtractTextPlugin.extract(['css-loader', 'less-loader'])
-                // }, {
-                //     test: /\.css$/,
-                //     use: ExtractTextPlugin.extract(['style-loader', 'css-loader'])
-                // }, {
-                //     test: /\.(jpe?g|png|gif|svg)$/i,
-                //     use: [
-                //         'file?hash=sha512&digest=hex&name=[hash].[ext]',
-                //         'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
-                //     ]
+                }, {
+                    test: /\.css$/,
+                    use: ExtractTextPlugin.extract(['style-loader', 'css-loader'])
+                }, {
+                    test: /\.png$/,
+                    use: {
+                        loader: 'file-loader',
+                        options: {
+                            name: '../[path][name].[hash].[ext]'
+                        }
+                    }
                 }]
             },
             plugins: [
