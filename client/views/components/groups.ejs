@@ -24,8 +24,8 @@
                     </div>
                 </td>
             </tr>
-            <% groupsData.forEach((group) => { %>
-                <tr class="group-content group-<%= group.name %>-content" style="display:none;">
+            <% groupsData.forEach((group, index) => { %>
+                <tr class="group-content group-<%= group.name %>-content" style="<%= index !== 0 ? 'display:none;': '' %>">
                     <td colspan="5" class="table-container">
                         <table>
                             <tr>

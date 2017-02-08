@@ -27,7 +27,7 @@
             </tr>
             <% resultsData.forEach((result) => { %>
                 <% result.matches.forEach((matche) => { %>
-                    <tr class="round-content round-<%= result.round %>-content" style="display:none;">
+                    <tr class="round-content round-<%= result.round %>-content" style="<%= result.round !== currentRound ? 'display:none;': '' %>">
                         <td>
                             <%= matche.displayDate %>
                         </td>
