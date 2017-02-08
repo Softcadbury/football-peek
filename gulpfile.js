@@ -61,14 +61,8 @@ gulp.task('clean', (cb) => {
     rimraf('./dist/', cb);
 });
 
-// Copy not dynamic images in the dist folder
-gulp.task('copy', () => {
-    gulp.src(['./client/images/*', '!./client/images/sprite.png'])
-        .pipe(gulp.dest('./dist'));
-});
-
 // Build the application in the dist folder
-gulp.task('build', ['clean', 'copy'], () => {
+gulp.task('build', ['clean'], () => {
     var webpack = require('webpack');
     var webpackStream = require('webpack-stream');
     var ExtractTextPlugin = require('extract-text-webpack-plugin');
