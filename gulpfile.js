@@ -33,8 +33,12 @@ gulp.task('lint', () => {
 // Run tests
 gulp.task('test', () => {
     var mocha = require('gulp-mocha');
-    gulp.src('./tests/*.js', { read: false })
-        .pipe(mocha({ reporter: 'spec' }));
+    gulp.src('./tests/*.js', {
+            read: false
+        })
+        .pipe(mocha({
+            reporter: 'spec'
+        }));
 });
 
 // Build the sprite
@@ -42,7 +46,7 @@ gulp.task('sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
         cssName: 'client/styles/miscs/sprite.css',
-        imgName: 'dist/images/sprite.png',
+        imgName: 'client/images/sprite.png',
         imgPath: '../../images/sprite.png'
     });
 
@@ -54,35 +58,60 @@ gulp.task('sprite', () => {
 // Clean built files
 gulp.task('clean', (cb) => {
     var rimraf = require('rimraf');
-    rimraf('./dist/js', cb);
+    rimraf('./dist/', cb);
 });
 
 // Build the application in the dist folder
 gulp.task('build', ['clean'], () => {
-    var less = require('gulp-less');
-    var minifyCSS = require('gulp-minify-css');
-    var concatCss = require('gulp-concat-css');
-    gulp.src('./client/styles/**/*')
-        .pipe(less())
-        .pipe(concatCss('app.css'))
-        .pipe(minifyCSS())
-        .pipe(gulp.dest('./dist/css'));
-
     var webpack = require('webpack');
     var webpackStream = require('webpack-stream');
-    return gulp.src('client/scripts/app.js')
+    var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+    return gulp.src(['client/scripts/app.js', 'client/styles/index.less'])
         .pipe(webpackStream({
             devtool: 'source-map',
-            plugins: [new webpack.optimize.UglifyJsPlugin({ sourceMap: true })]
+            module: {
+                rules: [{
+                    test: /\.less$/,
+                    use: ExtractTextPlugin.extract(['css-loader', 'less-loader'])
+                }, {
+                    test: /\.css$/,
+                    use: ExtractTextPlugin.extract(['style-loader', 'css-loader'])
+                }, {
+                    test: /\.(jpg|png|eot|woff2|ttf|svg)$/,
+                    use: {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[hash].[ext]'
+                        }
+                    }
+                }]
+            },
+            plugins: [
+                new webpack.optimize.UglifyJsPlugin({
+                    sourceMap: true
+                }),
+                new webpack.LoaderOptionsPlugin({
+                    minimize: true
+                }),
+                new ExtractTextPlugin('style.bundle.[chunkhash].css')
+            ],
+            output: {
+                filename: 'script.bundle.[chunkhash].js'
+            }
         }, webpack))
-        .pipe(gulp.dest('./dist/js'));
+        .pipe(gulp.dest('./dist'));
 });
 
 // Inject built files in layout view
 gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
-    return gulp.src('./client/views/_layout.hbs')
-        .pipe(inject(gulp.src('./dist/js/*.js', { read: false }), { ignorePath: 'dist' }))
+    return gulp.src('./client/views/_layout.ejs')
+        .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
+            read: false
+        }), {
+            ignorePath: 'dist'
+        }))
         .pipe(gulp.dest('./client/views'));
 });
 
@@ -92,7 +121,9 @@ gulp.task('start', () => {
     var options = {
         script: 'server.js',
         delayTime: 1,
-        env: { 'PORT': 5000 },
+        env: {
+            'PORT': 5000
+        },
         watch: ['server.js']
     };
 
@@ -106,5 +137,8 @@ gulp.task('default', ['inject', 'start'], () => {
     gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['inject']);
 
     var openBrowser = require('gulp-open');
-    gulp.src('/').pipe(openBrowser({ uri: '127.0.0.1:5000', app: 'chrome' }));
+    gulp.src('/').pipe(openBrowser({
+        uri: '127.0.0.1:5000',
+        app: 'chrome'
+    }));
 });

@@ -8,10 +8,13 @@ var compression = require('compression');
 var app = express();
 
 // Middlewares configuration
-var tenMinutes = 600000;
+var oneWeek = 604800000;
 app.use(compression());
+app.use(express.static('client/images', {
+    maxAge: oneWeek
+}));
 app.use(express.static('dist', {
-    maxAge: tenMinutes
+    maxAge: oneWeek
 }));
 
 // Handlebars configuration
