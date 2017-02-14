@@ -115,6 +115,8 @@ gulp.task('build', ['clean'], () => {
 // Inject built files in layout view
 gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
+    inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
+
     return gulp.src('./client/views/_layout.ejs')
         .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
             read: false
