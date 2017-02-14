@@ -4,7 +4,7 @@
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
-        "goals": "15",
+        "goals": "18",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
     },
@@ -13,12 +13,30 @@
         "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "15",
+        "goals": "18",
         "flag": "argentina",
         "logo": "juventus"
     },
     {
-        "rank": "-",
+        "rank": "3.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "17",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "4.",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "16",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "5.",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
@@ -27,40 +45,40 @@
         "logo": "inter"
     },
     {
-        "rank": "4.",
-        "name": "Andrea Belotti",
-        "country": "Italy",
-        "team": "Torino FC",
-        "goals": "14",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "5.",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "13",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
         "rank": "6.",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "11",
+        "goals": "12",
         "flag": "italy",
         "logo": "lazio_roma"
     },
     {
         "rank": "7.",
+        "name": "Federico Bernardeschi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "10",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Marco Borriello",
         "country": "Italy",
         "team": "Cagliari Calcio",
         "goals": "10",
         "flag": "italy",
         "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": " Iago Falqué",
+        "country": "Spain",
+        "team": "Torino FC",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -81,22 +99,40 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "10.",
-        "name": "Federico Bernardeschi",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
+        "rank": "12.",
+        "name": "Alejandro Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
         "goals": "9",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
+        "flag": "argentina",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
+        "name": "Marek Hamšík",
+        "country": "Slovakia",
+        "team": "SSC Napoli",
         "goals": "9",
-        "flag": "spain",
-        "logo": "torino_fc"
+        "flag": "slovakia",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Muriel",
+        "country": "Colombia",
+        "team": "Sampdoria",
+        "goals": "9",
+        "flag": "colombia",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
+        "name": "Ilija Nestorovski",
+        "country": "Macedonia",
+        "team": "US Palermo",
+        "goals": "9",
+        "flag": "macedonia",
+        "logo": "us_palermo"
     },
     {
         "rank": "-",
@@ -108,7 +144,7 @@
         "logo": "udinese_calcio"
     },
     {
-        "rank": "13.",
+        "rank": "17.",
         "name": "Carlos Bacca",
         "country": "Colombia",
         "team": "AC Milan",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Ilija Nestorovski",
-        "country": "Macedonia",
-        "team": "US Palermo",
-        "goals": "8",
-        "flag": "macedonia",
-        "logo": "us_palermo"
-    },
-    {
-        "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "AS Roma",
         "goals": "8",
         "flag": "egypt",
         "logo": "as_roma"
-    },
-    {
-        "rank": "18.",
-        "name": "Luís Muriel",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "goals": "7",
-        "flag": "colombia",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
-        "goals": "7",
-        "flag": "croatia",
-        "logo": "inter"
-    },
-    {
-        "rank": "20.",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sassuolo Calcio",
-        "goals": "6",
-        "flag": "france",
-        "logo": "sassuolo_calcio"
     }
 ]

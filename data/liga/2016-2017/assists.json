@@ -28,12 +28,39 @@
     },
     {
         "rank": "4.",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "6",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "5.",
         "name": "Ángel Correa",
         "country": "Argentina",
         "team": "Atlético Madrid",
         "assists": "5",
         "flag": "argentina",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Gameiro",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "5",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Mikel Oyarzabal",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "real_sociedad"
     },
     {
         "rank": "-",
@@ -64,15 +91,6 @@
     },
     {
         "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "5",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
         "name": " Williams",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -81,7 +99,7 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "10.",
+        "rank": "12.",
         "name": " Álex Berenguer",
         "country": "Spain",
         "team": "CA Osasuna",
@@ -109,15 +127,6 @@
     },
     {
         "rank": "-",
-        "name": "Kevin Gameiro",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "4",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -133,6 +142,15 @@
         "assists": "4",
         "flag": "spain",
         "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Juanfran",
+        "country": "Spain",
+        "team": "Deportivo La Coruña",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "deportivo_la_coruna"
     },
     {
         "rank": "-",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "assists": "4",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Míchel",
+        "name": " Marcelo",
         "country": "Brazil",
-        "team": "UD Las Palmas",
+        "team": "Real Madrid",
         "assists": "4",
         "flag": "brazil",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": " Mikel Oyarzabal",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "real_sociedad"
+        "logo": "real_madrid"
     }
 ]

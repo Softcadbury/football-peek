@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "goals": "17",
+        "flag": "chile",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "2.",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
@@ -9,7 +18,7 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -19,15 +28,15 @@
     },
     {
         "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
         "goals": "15",
-        "flag": "chile",
-        "logo": "arsenal_fc"
+        "flag": "sweden",
+        "logo": "manchester_united"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
@@ -37,19 +46,10 @@
     },
     {
         "rank": "-",
-        "name": "Zlatan Ibrahimović",
-        "country": "Sweden",
-        "team": "Manchester United",
-        "goals": "14",
-        "flag": "sweden",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "6.",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "13",
+        "goals": "14",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
@@ -72,7 +72,16 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "11",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "10.",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -81,22 +90,13 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Christian Benteke",
         "country": "Belgium",
         "team": "Crystal Palace",
         "goals": "9",
         "flag": "belgium",
         "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "9",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
     },
     {
         "rank": "12.",
@@ -136,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Swansea City",
+        "goals": "8",
+        "flag": "iceland",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "-",
         "name": "Theo Walcott",
         "country": "England",
         "team": "Arsenal FC",
@@ -144,7 +153,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
         "name": "Troy Deeney",
         "country": "England",
         "team": "Watford FC",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Salomón Rondón",
-        "country": "Venezuela",
-        "team": "West Bromwich Albion",
+        "name": " Pedro",
+        "country": "Spain",
+        "team": "Chelsea FC",
         "goals": "7",
-        "flag": "venezuela",
-        "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Swansea City",
-        "goals": "7",
-        "flag": "iceland",
-        "logo": "swansea_city"
+        "flag": "spain",
+        "logo": "chelsea_fc"
     }
 ]
