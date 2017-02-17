@@ -17,7 +17,9 @@ router.route('/:item/:year?')
             items: items,
             years: config.years.availables,
             requestedItem: requestedItem,
-            requestedYear: requestedYear
+            requestedYear: requestedYear,
+            scorersData: getData(config.paths.scorersData, requestedItem, requestedYear),
+            assistsData: getData(config.paths.assistsData, requestedItem, requestedYear)
         };
 
         if (requestedItem.isCompetition) {
@@ -29,25 +31,29 @@ router.route('/:item/:year?')
 
 // Render a competition item
 function renderCompetition(res, data, requestedItem, requestedYear) {
+    var tournamentData = getData(config.paths.tournamentData, requestedItem, requestedYear);
+    var groupsData = getData(config.paths.groupsData, requestedItem, requestedYear);
+
     res.render('competition', Object.assign(data, {
-        tournamentData: helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, requestedItem.code, requestedYear)),
-        groupsData: helper.readJsonFile(helper.stringFormat(config.paths.groupsData, requestedItem.code, requestedYear)),
-        scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
-        assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
+        tournamentData,
+        groupsData
     }));
 }
 
 // Render a league item
 function renderLeague(res, data, requestedItem, requestedYear) {
-    var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, requestedItem.code, requestedYear));
+    var resultsData = getData(config.paths.resultsData, requestedItem, requestedYear);
+    var tableData = getData(config.paths.tableData, requestedItem, requestedYear);
 
     res.render('league', Object.assign(data, {
-        currentRound: helper.getLeagueCurrentRound(resultsData),
-        resultsData: resultsData,
-        tableData: helper.readJsonFile(helper.stringFormat(config.paths.tableData, requestedItem.code, requestedYear)),
-        scorersData: helper.readJsonFile(helper.stringFormat(config.paths.scorersData, requestedItem.code, requestedYear)),
-        assistsData: helper.readJsonFile(helper.stringFormat(config.paths.assistsData, requestedItem.code, requestedYear))
+        resultsData,
+        tableData,
+        currentRound: helper.getLeagueCurrentRound(resultsData)
     }));
+}
+
+function getData(dataPath, requestedItem, requestedYear) {
+    return helper.readJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedYear));
 }
 
 module.exports = router;
