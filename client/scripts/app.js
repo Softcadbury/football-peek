@@ -48,7 +48,7 @@ function manageRoundsDropdown() {
         // Init previous button
         var previous = document.getElementById('arrow-rounds-previous');
         if (roundRequested > 1) {
-            var previousRound = parseInt(roundRequested) - 1;
+            var previousRound = parseInt(roundRequested, 10) - 1;
             previous.setAttribute('href', '#/round-' + previousRound);
             previous.style.display = '';
         } else {
@@ -58,7 +58,7 @@ function manageRoundsDropdown() {
         // Init next button
         var next = document.getElementById('arrow-rounds-next');
         if (roundRequested < window.numberOfRounds) {
-            var nextRound = parseInt(roundRequested) + 1;
+            var nextRound = parseInt(roundRequested, 10) + 1;
             next.setAttribute('href', '#/round-' + nextRound);
             next.style.display = '';
         } else {
