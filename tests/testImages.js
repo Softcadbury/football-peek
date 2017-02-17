@@ -7,7 +7,6 @@ var fs = require('fs');
 var config = require('../server/config');
 var helper = require('../server/helper');
 var items = require('../server/data/items');
-var competitions = require('../server/data/competitions');
 
 var spriteFileContent;
 
@@ -18,7 +17,7 @@ describe('Images intergrity', () => {
         describe(item.name, () => {
             config.years.availables.forEach(year => {
                 describe(year, () => {
-                    if (item.code === competitions.championsLeague.code || item.code === competitions.europaLeague.code) {
+                    if (item.isCompetition) {
                         testTournamentImages(item.code, year);
                         testGroupImages(item.code, year);
                     } else {

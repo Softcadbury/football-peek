@@ -3,7 +3,6 @@
 var config = require('../config');
 var helper = require('../helper');
 var items = require('../data/items');
-var competitions = require('../data/competitions');
 var express = require('express');
 var router = express.Router();
 
@@ -21,7 +20,7 @@ router.route('/:item/:year?')
             requestedYear: requestedYear
         };
 
-        if (requestedItem === competitions.championsLeague || requestedItem === competitions.europaLeague) {
+        if (requestedItem.isCompetition) {
             renderCompetition(res, data, requestedItem, requestedYear);
         } else {
             renderLeague(res, data, requestedItem, requestedYear);

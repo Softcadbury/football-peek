@@ -7,14 +7,13 @@ var config = require('../server/config');
 var helper = require('../server/helper');
 var items = require('../server/data/items');
 var leagues = require('../server/data/leagues');
-var competitions = require('../server/data/competitions');
 
 describe('Data intergrity', () => {
     items.forEach(item => {
         describe(item.name, () => {
             config.years.availables.forEach(year => {
                 describe(year, () => {
-                    if (item.code === competitions.championsLeague.code || item.code === competitions.europaLeague.code) {
+                    if (item.isCompetition) {
                         testTournamentData(item.code, year);
                         testGroupsData(item.code, year);
                     } else {
