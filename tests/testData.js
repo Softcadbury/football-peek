@@ -72,7 +72,7 @@ function testGroupsData(code, year) {
         testDataIsNotEmpty('Group Table' + i, data[i].table);
         testDataIsNumber('Group Table' + i, data[i].table);
 
-        (function (j) {
+        ((j) => {
             it('Group should have the right number of matches', () => {
                 assert.lengthOf(data[j].matches, 12);
                 assert.lengthOf(data[j].table, 4);

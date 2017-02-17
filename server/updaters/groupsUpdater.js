@@ -38,8 +38,8 @@ function updateData(itemExtended) {
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, groupIndex) {
-    return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, resultsDataUrlExtensions[groupIndex]), function ($) {
+    return new Promise((resolve) => {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, resultsDataUrlExtensions[groupIndex]), ($) => {
             var date;
             var currentMatches = results[groupIndex].matches;
 

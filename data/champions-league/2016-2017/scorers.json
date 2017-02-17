@@ -13,7 +13,7 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "6",
+        "goals": "7",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
@@ -22,12 +22,21 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "5",
+        "goals": "6",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
         "rank": "4.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "5",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "5.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "FC Porto",
@@ -46,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
         "goals": "4",
-        "flag": "france",
-        "logo": "real_madrid"
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
@@ -90,7 +99,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "Beşiktaş",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Dmitriy Poloz",
-        "country": "Russia",
-        "team": "FK Rostov",
-        "goals": "3",
-        "flag": "russia",
-        "logo": "fk_rostov"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Reus",
+        "name": "Thomas Müller",
         "country": "Germany",
-        "team": "Borussia Dortmund",
+        "team": "Bayern München",
         "goals": "3",
         "flag": "germany",
-        "logo": "borussia_dortmund"
+        "logo": "bayern_munchen"
     }
 ]

@@ -49,8 +49,8 @@ function updateData(itemExtended) {
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, roundIndex) {
-    return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, itemExtended.extra, roundIndex + 1), function ($) {
+    return new Promise((resolve) => {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, itemExtended.extra, roundIndex + 1), ($) => {
             var date;
             var currentMatches = results[roundIndex].matches;
             currentMatches.splice(0, currentMatches.length);

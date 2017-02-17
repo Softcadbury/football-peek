@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Nicolai Müller",
+        "country": "Germany",
+        "team": "Hamburger SV",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "hamburger_sv"
+    },
+    {
+        "rank": "-",
         "name": "Franck Ribéry",
         "country": "France",
         "team": "Bayern München",
@@ -45,13 +54,22 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Bayer Leverkusen",
         "assists": "6",
         "flag": "germany",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Kerem Demirbay",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -63,13 +81,31 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "11.",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "Bayer Leverkusen",
         "assists": "5",
         "flag": "turkey",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Jhon Córdoba",
+        "country": "Colombia",
+        "team": "1. FSV Mainz 05",
+        "assists": "5",
+        "flag": "colombia",
+        "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "-",
@@ -82,15 +118,6 @@
     },
     {
         "rank": "-",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "5",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
         "name": "Sebastian Rudy",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -99,7 +126,7 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "12.",
+        "rank": "15.",
         "name": "Nadiem Amiri",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -109,21 +136,30 @@
     },
     {
         "rank": "-",
+        "name": "Karim Bellarabi",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Bentaleb",
+        "country": "Algeria",
+        "team": "FC Schalke 04",
+        "assists": "4",
+        "flag": "algeria",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
         "name": "Gonzalo Castro",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "assists": "4",
         "flag": "germany",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Kerem Demirbay",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "assists": "4",
         "flag": "bosnia_herzegovina",
         "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolai Müller",
-        "country": "Germany",
-        "team": "Hamburger SV",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "hamburger_sv"
-    },
-    {
-        "rank": "-",
-        "name": "Yuya Osako",
-        "country": "Japan",
-        "team": "1. FC Köln",
-        "assists": "4",
-        "flag": "japan",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Pulisic",
-        "country": "USA",
-        "team": "Borussia Dortmund",
-        "assists": "4",
-        "flag": "usa",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": " Raphaël Guerreiro",
-        "country": "Portugal",
-        "team": "Borussia Dortmund",
-        "assists": "4",
-        "flag": "portugal",
-        "logo": "borussia_dortmund"
     }
 ]

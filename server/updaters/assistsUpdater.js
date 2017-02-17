@@ -26,7 +26,7 @@ function update(leagueArg, competitionArg) {
 
 // Updates the assists of an itemExtended
 function updateData(itemExtended) {
-    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, itemExtended.url, config.years.current, itemExtended.extra), function ($) {
+    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, itemExtended.url, config.years.current, itemExtended.extra), ($) => {
         var results = [];
 
         $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {

@@ -40,8 +40,8 @@ function updateData(itemExtended) {
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, roundIndex) {
-    return new Promise((resolve, reject) => {
-        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), function($) {
+    return new Promise((resolve) => {
+        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), ($) => {
             var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
@@ -76,6 +76,8 @@ function parseRound(itemExtended, results, roundIndex) {
                             break;
                         case 2:
                             currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
+                            break;
+                        default:
                             break;
                     }
                 }

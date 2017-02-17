@@ -10,21 +10,21 @@
     },
     {
         "rank": "2.",
+        "name": "Anthony Modeste",
+        "country": "France",
+        "team": "1. FC Köln",
+        "goals": "16",
+        "flag": "france",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "3.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
         "goals": "15",
         "flag": "poland",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Anthony Modeste",
-        "country": "France",
-        "team": "1. FC Köln",
-        "goals": "15",
-        "flag": "france",
-        "logo": "1__fc_koln"
     },
     {
         "rank": "4.",
@@ -46,6 +46,15 @@
     },
     {
         "rank": "6.",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "Bayer Leverkusen",
+        "goals": "8",
+        "flag": "mexico",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Vedad Ibišević",
         "country": "Bosnia-Herzegovina",
         "team": "Hertha BSC",
@@ -54,7 +63,7 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -63,7 +72,16 @@
         "logo": "werder_bremen"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Arjen Robben",
+        "country": "Netherlands",
+        "team": "Bayern München",
+        "goals": "7",
+        "flag": "netherlands",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "10.",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "Bayer Leverkusen",
@@ -79,15 +97,6 @@
         "goals": "6",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Javier Hernández",
-        "country": "Mexico",
-        "team": "Bayer Leverkusen",
-        "goals": "6",
-        "flag": "mexico",
-        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -109,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": "Arjen Robben",
-        "country": "Netherlands",
-        "team": "Bayern München",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "SC Freiburg",
         "goals": "6",
-        "flag": "netherlands",
-        "logo": "bayern_munchen"
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -135,13 +144,22 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
         "goals": "5",
         "flag": "sweden",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Bor. Mönchengladbach",
+        "goals": "5",
+        "flag": "belgium",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "5",
         "flag": "germany",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Niederlechner",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Maximilian Philipp",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "sc_freiburg"
     }
 ]

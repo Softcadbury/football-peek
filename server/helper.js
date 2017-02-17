@@ -103,11 +103,11 @@ function downloadImage(src, path) {
     var fs = require('fs');
 
     if (!fileExists(path)) {
-        request.head(src, function(err, res, body) {
+        request.head(src, (err) => {
             if (err) {
                 log('Error while downloading image: ' + path + ' -> ' + err);
             } else {
-                request(src).pipe(fs.createWriteStream(path)).on('close', function() {
+                request(src).pipe(fs.createWriteStream(path)).on('close', () => {
                     log('Image downloaded: ' + path);
                 });
             }
@@ -157,10 +157,10 @@ function getLeagueCurrentRound(resultsData) {
 function log(message) {
     var winston = require('winston');
     winston.configure({
-        transports: [new(winston.transports.File)({
+        transports: [new (winston.transports.File)({
                 filename: 'info.log'
             }),
-            new(winston.transports.Console)()
+            new (winston.transports.Console)()
         ]
     });
     winston.info(message);

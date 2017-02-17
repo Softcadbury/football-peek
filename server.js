@@ -24,7 +24,7 @@ app.set('layout', '_layout');
 app.use(expressLayouts);
 
 // Starts application listening
-app.listen(config.port, (err) => {
+app.listen(config.port, () => {
     helper.log('running on ' + config.port);
 });
 

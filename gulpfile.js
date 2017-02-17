@@ -55,6 +55,15 @@ gulp.task('sprite', () => {
         .pipe(gulp.dest('.'));
 });
 
+// Optimize images
+gulp.task('optim', () => {
+    var imagemin = require('gulp-imagemin');
+
+    gulp.src('client/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('client/images'));
+});
+
 // Clean built files
 gulp.task('clean', (cb) => {
     var rimraf = require('rimraf');
@@ -106,6 +115,8 @@ gulp.task('build', ['clean'], () => {
 // Inject built files in layout view
 gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
+    inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
+
     return gulp.src('./client/views/_layout.ejs')
         .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
             read: false
