@@ -13,12 +13,12 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "assists": "4",
+        "assists": "5",
         "flag": "portugal",
         "logo": "real_madrid"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Ousmane Dembélé",
         "country": "France",
         "team": "Borussia Dortmund",
@@ -61,6 +61,15 @@
         "assists": "3",
         "flag": "sweden",
         "logo": "fc_k_benhavn"
+    },
+    {
+        "rank": "-",
+        "name": " Dani Carvajal",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -126,7 +135,7 @@
         "logo": "dinamo_kiev"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
         "name": " Alex Telles",
         "country": "Brazil",
         "team": "FC Porto",
@@ -169,14 +178,5 @@
         "assists": "2",
         "flag": "mexico",
         "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Alves",
-        "country": "Brazil",
-        "team": "Juventus",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "juventus"
     }
 ]

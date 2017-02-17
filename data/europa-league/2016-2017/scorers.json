@@ -1,15 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "8",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "2.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
-        "goals": "6",
+        "goals": "7",
         "flag": "spain",
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": " Giuliano",
         "country": "Brazil",
         "team": "Zenit St. Petersburg",
@@ -18,22 +27,22 @@
         "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "3.",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "5",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Guillaume Hoarau",
         "country": "France",
         "team": "BSC Young Boys",
         "goals": "5",
         "flag": "france",
         "logo": "bsc_young_boys"
+    },
+    {
+        "rank": "-",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "Manchester United",
+        "goals": "5",
+        "flag": "sweden",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -45,7 +54,7 @@
         "logo": "rsc_anderlecht"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Khouma Babacar",
         "country": "Senegal",
         "team": "ACF Fiorentina",
@@ -90,7 +99,7 @@
         "logo": "shakhtar_donetsk"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Ishak Belfodil",
         "country": "Algeria",
         "team": "Standard Liège",
@@ -106,6 +115,15 @@
         "goals": "3",
         "flag": "mali",
         "logo": "kaa_gent"
+    },
+    {
+        "rank": "-",
+        "name": "Giorgos Efrem",
+        "country": "Cyprus",
+        "team": "APOEL Nikosia",
+        "goals": "3",
+        "flag": "cyprus",
+        "logo": "apoel_nikosia"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "3",
         "flag": "switzerland",
         "logo": "kaa_gent"
-    },
-    {
-        "rank": "-",
-        "name": "Raul Rusescu",
-        "country": "Romania",
-        "team": "Osmanlıspor FK",
-        "goals": "3",
-        "flag": "romania",
-        "logo": "osmanl_spor_fk"
-    },
-    {
-        "rank": "-",
-        "name": " Sebá",
-        "country": "Brazil",
-        "team": "Olympiakos Piräus",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "olympiakos_piraus"
     }
 ]
