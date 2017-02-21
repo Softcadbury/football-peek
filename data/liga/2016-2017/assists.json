@@ -13,12 +13,12 @@
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
-        "assists": "7",
+        "assists": "8",
         "flag": "brazil",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
@@ -27,16 +27,25 @@
         "logo": "espanyol_barcelona"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "assists": "6",
+        "assists": "7",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
     {
         "rank": "5.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "6",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "6.",
         "name": "Ángel Correa",
         "country": "Argentina",
         "team": "Atlético Madrid",
@@ -52,6 +61,15 @@
         "assists": "5",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Isco",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -99,7 +117,7 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "12.",
+        "rank": "14.",
         "name": " Álex Berenguer",
         "country": "Spain",
         "team": "CA Osasuna",
@@ -124,15 +142,6 @@
         "assists": "4",
         "flag": "turkey",
         "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "4",
-        "flag": "france",
-        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -168,15 +177,6 @@
         "team": "Real Madrid",
         "assists": "4",
         "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Marcelo",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "4",
-        "flag": "brazil",
         "logo": "real_madrid"
     }
 ]

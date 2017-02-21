@@ -9,11 +9,11 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "16",
+        "goals": "17",
         "flag": "france",
         "logo": "1__fc_koln"
     },
@@ -22,7 +22,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "15",
+        "goals": "16",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -31,12 +31,21 @@
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "goals": "11",
+        "goals": "12",
         "flag": "germany",
         "logo": "rb_leipzig"
     },
     {
         "rank": "5.",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "Bayer Leverkusen",
+        "goals": "10",
+        "flag": "mexico",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Sandro Wagner",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -45,20 +54,11 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "6.",
-        "name": "Javier Hernández",
-        "country": "Mexico",
-        "team": "Bayer Leverkusen",
-        "goals": "8",
-        "flag": "mexico",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
+        "rank": "7.",
         "name": "Vedad Ibišević",
         "country": "Bosnia-Herzegovina",
         "team": "Hertha BSC",
-        "goals": "8",
+        "goals": "9",
         "flag": "bosnia_herzegovina",
         "logo": "hertha_bsc"
     },
@@ -67,9 +67,18 @@
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Werder Bremen",
-        "goals": "7",
+        "goals": "8",
         "flag": "germany",
         "logo": "werder_bremen"
+    },
+    {
+        "rank": "9.",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -81,7 +90,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "Bayer Leverkusen",
@@ -91,12 +100,30 @@
     },
     {
         "rank": "-",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
+        "goals": "6",
+        "flag": "sweden",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Mario Gomez",
         "country": "Germany",
         "team": "VfL Wolfsburg",
         "goals": "6",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "6",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -110,15 +137,6 @@
     {
         "rank": "-",
         "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "6",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Maximilian Philipp",
         "country": "Germany",
         "team": "SC Freiburg",
         "goals": "6",
@@ -144,39 +162,21 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "17.",
-        "name": "Emil Forsberg",
-        "country": "Sweden",
-        "team": "RB Leipzig",
+        "rank": "19.",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "Borussia Dortmund",
         "goals": "5",
-        "flag": "sweden",
-        "logo": "rb_leipzig"
+        "flag": "france",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Thorgan Hazard",
-        "country": "Belgium",
-        "team": "Bor. Mönchengladbach",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "SC Freiburg",
         "goals": "5",
-        "flag": "belgium",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Salomon Kalou",
-        "country": "Ivory Coast",
-        "team": "Hertha BSC",
-        "goals": "5",
-        "flag": "ivory_coast",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Alexander Meier",
-        "country": "Germany",
-        "team": "Eintracht Frankfurt",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "eintracht_frankfurt"
+        "flag": "italy",
+        "logo": "sc_freiburg"
     }
 ]
