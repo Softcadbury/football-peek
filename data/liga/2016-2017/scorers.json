@@ -1,20 +1,20 @@
 [
     {
         "rank": "1.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "19",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2.",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
         "goals": "18",
         "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "2.",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "17",
-        "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
@@ -31,12 +31,21 @@
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "11",
+        "goals": "12",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
         "rank": "5.",
+        "name": "Kevin Gameiro",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "goals": "9",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -63,7 +72,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -79,6 +88,15 @@
         "goals": "8",
         "flag": "france",
         "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Yannick Ferreira-Carrasco",
+        "country": "Belgium",
+        "team": "Atlético Madrid",
+        "goals": "8",
+        "flag": "belgium",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -99,7 +117,7 @@
         "logo": "real_betis"
     },
     {
-        "rank": "12.",
+        "rank": "14.",
         "name": "Florin Andone",
         "country": "Romania",
         "team": "Deportivo La Coruña",
@@ -118,12 +136,12 @@
     },
     {
         "rank": "-",
-        "name": "Yannick Ferreira-Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Real Madrid",
         "goals": "7",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
+        "flag": "spain",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "7",
         "flag": "italy",
         "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Sergio León",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "20.",
-        "name": "Kevin-Prince Boateng",
-        "country": "Ghana",
-        "team": "UD Las Palmas",
-        "goals": "6",
-        "flag": "ghana",
-        "logo": "ud_las_palmas"
     }
 ]
