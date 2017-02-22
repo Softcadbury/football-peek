@@ -118,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "assists": "3",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
@@ -135,7 +144,16 @@
         "logo": "dinamo_kiev"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": " Alex Telles",
         "country": "Brazil",
         "team": "FC Porto",
@@ -160,23 +178,5 @@
         "assists": "2",
         "flag": "turkey",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Paris Saint-Germain",
-        "assists": "2",
-        "flag": "uruguay",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Jesús Corona",
-        "country": "Mexico",
-        "team": "FC Porto",
-        "assists": "2",
-        "flag": "mexico",
-        "logo": "fc_porto"
     }
 ]
