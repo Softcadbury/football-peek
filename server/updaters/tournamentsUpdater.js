@@ -45,7 +45,7 @@ function parseRound(itemExtended, results, roundIndex) {
             var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
-                if (itemExtended.roundNumber === 4 && index >= 32 || itemExtended.roundNumber === 5 && index >= 64) {
+                if (index >= Math.pow(2, roundIndex + 2)) {
                     return;
                 }
 

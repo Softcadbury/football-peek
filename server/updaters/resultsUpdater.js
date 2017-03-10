@@ -56,19 +56,21 @@ function parseRound(itemExtended, results, roundIndex) {
             currentMatches.splice(0, currentMatches.length);
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
-                if (index < (itemExtended.roundNumber + 2) / 4) {
-                    var isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
-                    var displayDate = $(elem).find('td:nth-child(1)').text();
-                    date = displayDate || date;
-
-                    currentMatches.push({
-                        date: date,
-                        displayDate: displayDate,
-                        homeTeam: $(elem).find('td:nth-child(3) > a').text(),
-                        awayTeam: $(elem).find('td:nth-child(5) > a').text(),
-                        score: isLiveScore ? '-:-' : ($(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-')
-                    });
+                if (index >= (itemExtended.roundNumber + 2) / 4) {
+                    return;
                 }
+
+                var isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
+                var displayDate = $(elem).find('td:nth-child(1)').text();
+                date = displayDate || date;
+
+                currentMatches.push({
+                    date: date,
+                    displayDate: displayDate,
+                    homeTeam: $(elem).find('td:nth-child(3) > a').text(),
+                    awayTeam: $(elem).find('td:nth-child(5) > a').text(),
+                    score: isLiveScore ? '-:-' : ($(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-')
+                });
             });
 
             for (var i = 0; i < currentMatches.length; i++) {
