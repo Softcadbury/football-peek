@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
+        "assists": "10",
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Swansea City",
+        "assists": "10",
+        "flag": "iceland",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "3.",
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
@@ -9,16 +27,16 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "2.",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
-        "assists": "8",
-        "flag": "denmark",
-        "logo": "tottenham_hotspur"
+        "rank": "-",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "assists": "9",
+        "flag": "chile",
+        "logo": "arsenal_fc"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Matt Phillips",
         "country": "Scotland",
         "team": "West Bromwich Albion",
@@ -27,25 +45,16 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
-        "assists": "8",
-        "flag": "chile",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Swansea City",
-        "assists": "8",
-        "flag": "iceland",
-        "logo": "swansea_city"
-    },
-    {
         "rank": "6.",
+        "name": " Cesc Fàbregas",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Adam Lallana",
         "country": "England",
         "team": "Liverpool FC",
@@ -54,13 +63,22 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "7.",
-        "name": " Cesc Fàbregas",
+        "rank": "-",
+        "name": " Pedro",
         "country": "Spain",
         "team": "Chelsea FC",
-        "assists": "6",
+        "assists": "7",
         "flag": "spain",
         "logo": "chelsea_fc"
+    },
+    {
+        "rank": "9.",
+        "name": "Ross Barkley",
+        "country": "England",
+        "team": "Everton FC",
+        "assists": "6",
+        "flag": "england",
+        "logo": "everton_fc"
     },
     {
         "rank": "-",
@@ -99,22 +117,22 @@
         "logo": "crystal_palace"
     },
     {
-        "rank": "12.",
-        "name": "Ross Barkley",
-        "country": "England",
-        "team": "Everton FC",
-        "assists": "5",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "14.",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
         "assists": "5",
         "flag": "brazil",
         "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": " David Silva",
+        "country": "Spain",
+        "team": "Manchester City",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -127,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": " Pedro",
-        "country": "Spain",
-        "team": "Chelsea FC",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
         "assists": "5",
-        "flag": "spain",
-        "logo": "chelsea_fc"
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "5",
         "flag": "england",
         "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "19.",
-        "name": " Álvaro Negredo",
-        "country": "Spain",
-        "team": "Middlesbrough FC",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "middlesbrough_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Bolasie",
-        "country": "Congo DR",
-        "team": "Crystal Palace",
-        "assists": "4",
-        "flag": "congo_dr",
-        "logo": "crystal_palace"
     }
 ]

@@ -9,7 +9,16 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "9",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "3.",
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
@@ -18,25 +27,25 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
-        "assists": "7",
+        "assists": "8",
         "flag": "argentina",
         "logo": "espanyol_barcelona"
     },
     {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
+        "rank": "5.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
         "team": "FC Barcelona",
         "assists": "7",
-        "flag": "uruguay",
+        "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -45,7 +54,43 @@
         "logo": "atletico_madrid"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": " Marcelo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "6",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Mikel Oyarzabal",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": " Nani",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "assists": "6",
+        "flag": "portugal",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Pablo Sarabia",
+        "country": "Spain",
+        "team": "Sevilla FC",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "11.",
         "name": "Ángel Correa",
         "country": "Argentina",
         "team": "Atlético Madrid",
@@ -73,30 +118,21 @@
     },
     {
         "rank": "-",
-        "name": " Mikel Oyarzabal",
+        "name": " Jonathan Viera",
         "country": "Spain",
-        "team": "Real Sociedad",
+        "team": "UD Las Palmas",
         "assists": "5",
         "flag": "spain",
-        "logo": "real_sociedad"
+        "logo": "ud_las_palmas"
     },
     {
         "rank": "-",
-        "name": " Nani",
-        "country": "Portugal",
-        "team": "Valencia CF",
-        "assists": "5",
-        "flag": "portugal",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Pablo Sarabia",
+        "name": " Koke",
         "country": "Spain",
-        "team": "Sevilla FC",
+        "team": "Atlético Madrid",
         "assists": "5",
         "flag": "spain",
-        "logo": "sevilla_fc"
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -109,6 +145,24 @@
     },
     {
         "rank": "-",
+        "name": " Sergi Enrich",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Sergi Roberto",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": " Williams",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -117,66 +171,12 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "14.",
+        "rank": "20.",
         "name": " Álex Berenguer",
         "country": "Spain",
         "team": "CA Osasuna",
         "assists": "4",
         "flag": "spain",
         "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": " Carles Gil",
-        "country": "Spain",
-        "team": "Deportivo La Coruña",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": "Emre Çolak",
-        "country": "Turkey",
-        "team": "Deportivo La Coruña",
-        "assists": "4",
-        "flag": "turkey",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": " Joaquín",
-        "country": "Spain",
-        "team": "Real Betis",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Juanfran",
-        "country": "Spain",
-        "team": "Deportivo La Coruña",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": " Leo Baptistão",
-        "country": "Brazil",
-        "team": "Espanyol Barcelona",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Lucas Vázquez",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "real_madrid"
     }
 ]

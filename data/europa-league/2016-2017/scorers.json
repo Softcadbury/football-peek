@@ -9,22 +9,22 @@
         "logo": "as_roma"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": " Giuliano",
+        "country": "Brazil",
+        "team": "Zenit St. Petersburg",
+        "goals": "8",
+        "flag": "brazil",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "3.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
         "goals": "7",
         "flag": "spain",
         "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "3.",
-        "name": " Giuliano",
-        "country": "Brazil",
-        "team": "Zenit St. Petersburg",
-        "goals": "6",
-        "flag": "brazil",
-        "logo": "zenit_st__petersburg"
     },
     {
         "rank": "4.",
@@ -46,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Nikola Kalinić",
+        "country": "Croatia",
+        "team": "ACF Fiorentina",
+        "goals": "5",
+        "flag": "croatia",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Łukasz Teodorczyk",
         "country": "Poland",
         "team": "RSC Anderlecht",
@@ -54,7 +63,7 @@
         "logo": "rsc_anderlecht"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Khouma Babacar",
         "country": "Senegal",
         "team": "ACF Fiorentina",
@@ -73,12 +82,21 @@
     },
     {
         "rank": "-",
-        "name": "Nikola Kalinić",
-        "country": "Croatia",
-        "team": "ACF Fiorentina",
+        "name": "Kalifa Coulibaly",
+        "country": "Mali",
+        "team": "KAA Gent",
         "goals": "4",
-        "flag": "croatia",
-        "logo": "acf_fiorentina"
+        "flag": "mali",
+        "logo": "kaa_gent"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "4",
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -91,6 +109,24 @@
     },
     {
         "rank": "-",
+        "name": "Fedor Smolov",
+        "country": "Russia",
+        "team": "FK Krasnodar",
+        "goals": "4",
+        "flag": "russia",
+        "logo": "fk_krasnodar"
+    },
+    {
+        "rank": "-",
+        "name": "Nicolae Stanciu",
+        "country": "Romania",
+        "team": "RSC Anderlecht",
+        "goals": "4",
+        "flag": "romania",
+        "logo": "rsc_anderlecht"
+    },
+    {
+        "rank": "-",
         "name": " Taison",
         "country": "Brazil",
         "team": "Shakhtar Donetsk",
@@ -99,7 +135,7 @@
         "logo": "shakhtar_donetsk"
     },
     {
-        "rank": "12.",
+        "rank": "16.",
         "name": "Ishak Belfodil",
         "country": "Algeria",
         "team": "Standard Liège",
@@ -109,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Kalifa Coulibaly",
-        "country": "Mali",
-        "team": "KAA Gent",
+        "name": "Kasper Dolberg",
+        "country": "Denmark",
+        "team": "AFC Ajax",
         "goals": "3",
-        "flag": "mali",
-        "logo": "kaa_gent"
+        "flag": "denmark",
+        "logo": "afc_ajax"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "3",
         "flag": "sweden",
         "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": "Raphael Holzhauser",
-        "country": "Austria",
-        "team": "Austria Wien",
-        "goals": "3",
-        "flag": "austria",
-        "logo": "austria_wien"
-    },
-    {
-        "rank": "-",
-        "name": " Joãozinho",
-        "country": "Brazil",
-        "team": "FK Krasnodar",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "fk_krasnodar"
-    },
-    {
-        "rank": "-",
-        "name": "Nikolay Komlichenko",
-        "country": "Russia",
-        "team": "Slovan Liberec",
-        "goals": "3",
-        "flag": "russia",
-        "logo": "slovan_liberec"
-    },
-    {
-        "rank": "-",
-        "name": "Danijel Miličević",
-        "country": "Switzerland",
-        "team": "KAA Gent",
-        "goals": "3",
-        "flag": "switzerland",
-        "logo": "kaa_gent"
     }
 ]

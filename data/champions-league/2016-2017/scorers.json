@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "10",
+        "goals": "11",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,21 +13,30 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "7",
+        "goals": "8",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
     {
         "rank": "3.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "7",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "6",
+        "goals": "7",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -45,22 +54,22 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "5",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "8.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "FC Porto",
         "goals": "4",
         "flag": "portugal",
         "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "goals": "4",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -100,12 +109,12 @@
     },
     {
         "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "FC Barcelona",
         "goals": "4",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
+        "flag": "brazil",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -126,7 +135,16 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": "Theo Walcott",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "4",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "17.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "Beşiktaş",
@@ -160,23 +178,5 @@
         "goals": "3",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": " Lucas Pérez",
-        "country": "Spain",
-        "team": "Arsenal FC",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "goals": "3",
-        "flag": "poland",
-        "logo": "ssc_napoli"
     }
 ]
