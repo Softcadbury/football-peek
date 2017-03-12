@@ -4,12 +4,12 @@
         "name": "Toni Kroos",
         "country": "Germany",
         "team": "Real Madrid",
-        "assists": "9",
+        "assists": "10",
         "flag": "germany",
         "logo": "real_madrid"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": " Marcelo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "7",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
@@ -45,7 +54,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -64,12 +73,12 @@
     },
     {
         "rank": "-",
-        "name": " Marcelo",
-        "country": "Brazil",
-        "team": "Real Madrid",
+        "name": " Koke",
+        "country": "Spain",
+        "team": "Atlético Madrid",
         "assists": "6",
-        "flag": "brazil",
-        "logo": "real_madrid"
+        "flag": "spain",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -99,7 +108,16 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
+        "name": "Emre Çolak",
+        "country": "Turkey",
+        "team": "Deportivo La Coruña",
+        "assists": "5",
+        "flag": "turkey",
+        "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
         "name": "Ángel Correa",
         "country": "Argentina",
         "team": "Atlético Madrid",
@@ -124,15 +142,6 @@
         "assists": "5",
         "flag": "spain",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Koke",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "assists": "5",
         "flag": "spain",
         "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "20.",
-        "name": " Álex Berenguer",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "ca_osasuna"
     }
 ]

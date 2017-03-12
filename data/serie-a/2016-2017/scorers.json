@@ -13,12 +13,21 @@
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
-        "goals": "19",
+        "goals": "20",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
     },
     {
         "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "20",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "4.",
         "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
         "team": "Juventus",
@@ -27,22 +36,13 @@
         "logo": "juventus"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
-        "goals": "18",
+        "goals": "19",
         "flag": "belgium",
         "logo": "ssc_napoli"
-    },
-    {
-        "rank": "5.",
-        "name": "Mauro Icardi",
-        "country": "Argentina",
-        "team": "Inter",
-        "goals": "17",
-        "flag": "argentina",
-        "logo": "inter"
     },
     {
         "rank": "6.",
@@ -55,6 +55,15 @@
     },
     {
         "rank": "7.",
+        "name": "Nikola Kalinić",
+        "country": "Croatia",
+        "team": "ACF Fiorentina",
+        "goals": "13",
+        "flag": "croatia",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "8.",
         "name": "Carlos Bacca",
         "country": "Colombia",
         "team": "AC Milan",
@@ -70,15 +79,6 @@
         "goals": "12",
         "flag": "italy",
         "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Nikola Kalinić",
-        "country": "Croatia",
-        "team": "ACF Fiorentina",
-        "goals": "12",
-        "flag": "croatia",
-        "logo": "acf_fiorentina"
     },
     {
         "rank": "10.",
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "10",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Luis Muriel",
         "country": "Colombia",
         "team": "Sampdoria",
@@ -135,7 +144,16 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "16.",
+        "rank": "-",
+        "name": "Cyril Théréau",
+        "country": "France",
+        "team": "Udinese Calcio",
+        "goals": "10",
+        "flag": "france",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "18.",
         "name": "Alejandro Gómez",
         "country": "Argentina",
         "team": "Atalanta",
@@ -160,23 +178,5 @@
         "goals": "9",
         "flag": "croatia",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "AS Roma",
-        "goals": "9",
-        "flag": "egypt",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Cyril Théréau",
-        "country": "France",
-        "team": "Udinese Calcio",
-        "goals": "9",
-        "flag": "france",
-        "logo": "udinese_calcio"
     }
 ]
