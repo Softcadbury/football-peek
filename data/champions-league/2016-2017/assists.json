@@ -4,7 +4,7 @@
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
-        "assists": "7",
+        "assists": "10",
         "flag": "brazil",
         "logo": "fc_barcelona"
     },
@@ -28,6 +28,15 @@
     },
     {
         "rank": "-",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "assists": "4",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
@@ -36,7 +45,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
@@ -73,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": " Douglas Costa",
+        "country": "Brazil",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Faouzi Ghoulam",
         "country": "Algeria",
         "team": "SSC Napoli",
@@ -82,12 +100,30 @@
     },
     {
         "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Mesut Özil",
         "country": "Germany",
         "team": "Arsenal FC",
         "assists": "3",
         "flag": "germany",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Christian Pulisic",
+        "country": "USA",
+        "team": "Borussia Dortmund",
+        "assists": "3",
+        "flag": "usa",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -118,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "assists": "3",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
@@ -133,50 +178,5 @@
         "assists": "3",
         "flag": "ukraine",
         "logo": "dinamo_kiev"
-    },
-    {
-        "rank": "16.",
-        "name": " Alex Telles",
-        "country": "Brazil",
-        "team": "FC Porto",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "assists": "2",
-        "flag": "wales",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Bayer Leverkusen",
-        "assists": "2",
-        "flag": "turkey",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Paris Saint-Germain",
-        "assists": "2",
-        "flag": "uruguay",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Jesús Corona",
-        "country": "Mexico",
-        "team": "FC Porto",
-        "assists": "2",
-        "flag": "mexico",
-        "logo": "fc_porto"
     }
 ]

@@ -22,8 +22,17 @@
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "AS Monaco",
-        "assists": "7",
+        "assists": "8",
         "flag": "portugal",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "4.",
+        "name": "Thomas Lemar",
+        "country": "France",
+        "team": "AS Monaco",
+        "assists": "7",
+        "flag": "france",
         "logo": "as_monaco"
     },
     {
@@ -36,7 +45,16 @@
         "logo": "ea_guingamp"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Kylian Mbappé",
+        "country": "France",
+        "team": "AS Monaco",
+        "assists": "7",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "7.",
         "name": "Ryad Boudebouz",
         "country": "Algeria",
         "team": "Montpellier HSC",
@@ -55,24 +73,24 @@
     },
     {
         "rank": "-",
-        "name": "Thomas Lemar",
+        "name": "Thomas Mangani",
         "country": "France",
-        "team": "AS Monaco",
+        "team": "Angers SCO",
         "assists": "6",
         "flag": "france",
-        "logo": "as_monaco"
+        "logo": "angers_sco"
     },
     {
         "rank": "-",
-        "name": "Kylian Mbappé",
+        "name": "Florian Thauvin",
         "country": "France",
-        "team": "AS Monaco",
+        "team": "Olympique Marseille",
         "assists": "6",
         "flag": "france",
-        "logo": "as_monaco"
+        "logo": "olympique_marseille"
     },
     {
-        "rank": "9.",
+        "rank": "11.",
         "name": "Ludovic Baal",
         "country": "French Guyana",
         "team": "Stade Rennes",
@@ -91,6 +109,24 @@
     },
     {
         "rank": "-",
+        "name": "Leo Dubois",
+        "country": "France",
+        "team": "FC Nantes",
+        "assists": "5",
+        "flag": "france",
+        "logo": "fc_nantes"
+    },
+    {
+        "rank": "-",
+        "name": "Valentin Eysseric",
+        "country": "France",
+        "team": "OGC Nice",
+        "assists": "5",
+        "flag": "france",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
         "name": "Romain Hamouma",
         "country": "France",
         "team": "AS Saint-Étienne",
@@ -106,6 +142,15 @@
         "assists": "5",
         "flag": "cape_verde",
         "logo": "dijon_fco"
+    },
+    {
+        "rank": "-",
+        "name": "Maxime Lopez",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "assists": "5",
+        "flag": "france",
+        "logo": "olympique_marseille"
     },
     {
         "rank": "-",
@@ -133,50 +178,5 @@
         "assists": "5",
         "flag": "france",
         "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Almamy Touré",
-        "country": "Mali",
-        "team": "AS Monaco",
-        "assists": "5",
-        "flag": "mali",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Óscar Trejo",
-        "country": "Argentina",
-        "team": "Toulouse FC",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "toulouse_fc"
-    },
-    {
-        "rank": "18.",
-        "name": "Younès Belhanda",
-        "country": "Morocco",
-        "team": "OGC Nice",
-        "assists": "4",
-        "flag": "morocco",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Martin Braithwaite",
-        "country": "Denmark",
-        "team": "Toulouse FC",
-        "assists": "4",
-        "flag": "denmark",
-        "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jimmy Briand",
-        "country": "France",
-        "team": "EA Guingamp",
-        "assists": "4",
-        "flag": "france",
-        "logo": "ea_guingamp"
     }
 ]
