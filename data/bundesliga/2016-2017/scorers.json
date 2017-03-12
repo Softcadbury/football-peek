@@ -4,7 +4,7 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
-        "goals": "21",
+        "goals": "22",
         "flag": "gabon",
         "logo": "borussia_dortmund"
     },
@@ -13,7 +13,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "19",
+        "goals": "21",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -22,7 +22,7 @@
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "17",
+        "goals": "19",
         "flag": "france",
         "logo": "1__fc_koln"
     },
@@ -73,6 +73,33 @@
     },
     {
         "rank": "9.",
+        "name": "Mario Gomez",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "8",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
         "name": "Arjen Robben",
         "country": "Netherlands",
         "team": "Bayern München",
@@ -81,7 +108,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "10.",
+        "rank": "13.",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
@@ -91,34 +118,7 @@
     },
     {
         "rank": "-",
-        "name": "Mario Gomez",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "7",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
         "name": "Florian Niederlechner",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Maximilian Philipp",
         "country": "Germany",
         "team": "SC Freiburg",
         "goals": "7",
@@ -154,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
+        "goals": "6",
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
         "name": "Max Kruse",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -169,14 +178,5 @@
         "goals": "6",
         "flag": "turkey",
         "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "6",
-        "flag": "germany",
-        "logo": "sc_freiburg"
     }
 ]

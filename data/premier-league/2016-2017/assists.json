@@ -1,21 +1,21 @@
 [
     {
         "rank": "1.",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Swansea City",
+        "assists": "11",
+        "flag": "iceland",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "2.",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
         "assists": "10",
         "flag": "denmark",
         "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Swansea City",
-        "assists": "10",
-        "flag": "iceland",
-        "logo": "swansea_city"
     },
     {
         "rank": "3.",
@@ -46,6 +46,15 @@
     },
     {
         "rank": "6.",
+        "name": "Ross Barkley",
+        "country": "England",
+        "team": "Everton FC",
+        "assists": "7",
+        "flag": "england",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
         "name": " Cesc Fàbregas",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -72,16 +81,7 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "9.",
-        "name": "Ross Barkley",
-        "country": "England",
-        "team": "Everton FC",
-        "assists": "6",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Nemanja Matić",
         "country": "Serbia",
         "team": "Chelsea FC",
@@ -145,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
+        "assists": "5",
+        "flag": "belgium",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -169,14 +178,5 @@
         "assists": "5",
         "flag": "england",
         "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Kyle Walker",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "assists": "5",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     }
 ]

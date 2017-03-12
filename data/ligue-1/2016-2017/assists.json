@@ -4,12 +4,12 @@
         "name": "Morgan Sanson",
         "country": "France",
         "team": "Montpellier HSC",
-        "assists": "10",
+        "assists": "11",
         "flag": "france",
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Jean Michaël Seri",
         "country": "Ivory Coast",
         "team": "OGC Nice",
@@ -22,27 +22,36 @@
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "AS Monaco",
-        "assists": "8",
+        "assists": "9",
         "flag": "portugal",
         "logo": "as_monaco"
     },
     {
         "rank": "4.",
+        "name": " Marçal",
+        "country": "Brazil",
+        "team": "EA Guingamp",
+        "assists": "8",
+        "flag": "brazil",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "5.",
+        "name": "Ryad Boudebouz",
+        "country": "Algeria",
+        "team": "Montpellier HSC",
+        "assists": "7",
+        "flag": "algeria",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "-",
         "name": "Thomas Lemar",
         "country": "France",
         "team": "AS Monaco",
         "assists": "7",
         "flag": "france",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": " Marçal",
-        "country": "Brazil",
-        "team": "EA Guingamp",
-        "assists": "7",
-        "flag": "brazil",
-        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -54,16 +63,7 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "7.",
-        "name": "Ryad Boudebouz",
-        "country": "Algeria",
-        "team": "Montpellier HSC",
-        "assists": "6",
-        "flag": "algeria",
-        "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Loïs Diony",
         "country": "France",
         "team": "Dijon FCO",
@@ -100,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": "Lucas Deaux",
+        "country": "France",
+        "team": "EA Guingamp",
+        "assists": "5",
+        "flag": "france",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "-",
         "name": "Ángel Di María",
         "country": "Argentina",
         "team": "Paris Saint-Germain",
@@ -124,6 +133,15 @@
         "assists": "5",
         "flag": "france",
         "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Radamel Falcao",
+        "country": "Colombia",
+        "team": "AS Monaco",
+        "assists": "5",
+        "flag": "colombia",
+        "logo": "as_monaco"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "5",
         "flag": "france",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Cheikh N'Doye",
-        "country": "Senegal",
-        "team": "Angers SCO",
-        "assists": "5",
-        "flag": "senegal",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Paul-Georges Ntep",
-        "country": "France",
-        "team": "Stade Rennes",
-        "assists": "5",
-        "flag": "france",
-        "logo": "stade_rennes"
     }
 ]
