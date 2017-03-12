@@ -40,27 +40,27 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "12",
+        "goals": "13",
         "flag": "france",
         "logo": "atletico_madrid"
     },
     {
         "rank": "6.",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "7.",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
         "goals": "10",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -82,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": "Pablo Piatti",
+        "country": "Argentina",
+        "team": "Espanyol Barcelona",
+        "goals": "9",
+        "flag": "argentina",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": " Willian José",
         "country": "Brazil",
         "team": "Real Sociedad",
@@ -90,7 +99,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -106,6 +115,15 @@
         "goals": "8",
         "flag": "romania",
         "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
+        "name": "Duje Čop",
+        "country": "Croatia",
+        "team": "Sporting Gijón",
+        "goals": "8",
+        "flag": "croatia",
+        "logo": "sporting_gijon"
     },
     {
         "rank": "-",
@@ -145,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": "Pablo Piatti",
-        "country": "Argentina",
-        "team": "Espanyol Barcelona",
-        "goals": "8",
-        "flag": "argentina",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
         "name": " Rubén Castro",
         "country": "Spain",
         "team": "Real Betis",
@@ -162,21 +171,12 @@
         "logo": "real_betis"
     },
     {
-        "rank": "19.",
+        "rank": "20.",
         "name": "Gareth Bale",
         "country": "Wales",
         "team": "Real Madrid",
         "goals": "7",
         "flag": "wales",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "7",
-        "flag": "france",
         "logo": "real_madrid"
     }
 ]
