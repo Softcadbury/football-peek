@@ -32,7 +32,7 @@ describe('Data intergrity', () => {
 function testTournamentData(code, year) {
     var path = helper.stringFormat(config.paths.tournamentData, code, year);
 
-    if (!fileExists(path)) {
+    if (!fileExists.sync(path)) {
         return;
     }
 
@@ -61,7 +61,7 @@ function testTournamentData(code, year) {
 function testGroupsData(code, year) {
     var path = helper.stringFormat(config.paths.groupsData, code, year);
 
-    if (!fileExists(path)) {
+    if (!fileExists.sync(path)) {
         return;
     }
 
@@ -101,7 +101,7 @@ function testResultData(code, year) {
 function testScorersData(code, year) {
     var path = helper.stringFormat(config.paths.scorersData, code, year);
 
-    if (!fileExists(path)) {
+    if (!fileExists.sync(path)) {
         return;
     }
 
@@ -117,7 +117,7 @@ function testScorersData(code, year) {
 function testAssistsData(code, year) {
     var path = helper.stringFormat(config.paths.assistsData, code, year);
 
-    if (!fileExists(path)) {
+    if (!fileExists.sync(path)) {
         return;
     }
 

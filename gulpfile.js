@@ -103,10 +103,10 @@ gulp.task('build', ['clean'], () => {
                 new webpack.LoaderOptionsPlugin({
                     minimize: true
                 }),
-                new ExtractTextPlugin('style.bundle.[chunkhash].css')
+                new ExtractTextPlugin('style.bundle.[hash].css')
             ],
             output: {
-                filename: 'script.bundle.[chunkhash].js'
+                filename: 'script.bundle.[hash].js'
             }
         }, webpack))
         .pipe(gulp.dest('./dist'));
