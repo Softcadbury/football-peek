@@ -36,7 +36,7 @@ describe('Images intergrity', () => {
 function testTournamentImages(code, year) {
     var path = helper.stringFormat(config.paths.tournamentData, code, year);
 
-    if (!fileExists(path)) {
+    if (!fileExists.sync(path)) {
         return;
     }
 
@@ -54,7 +54,7 @@ function testTournamentImages(code, year) {
 function testGroupImages(code, year) {
     var path = helper.stringFormat(config.paths.groupsData, code, year);
 
-    if (!fileExists(path)) {
+    if (!fileExists.sync(path)) {
         return;
     }
 
