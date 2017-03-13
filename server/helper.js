@@ -31,7 +31,7 @@ function readJsonFile(path) {
     var fileExists = require('file-exists');
     var jsonfile = require('jsonfile');
 
-    if (!fileExists.sync(path)) {
+    if (!fileExists(path)) {
         return [];
     }
 
@@ -102,7 +102,7 @@ function downloadImage(src, path) {
     var request = require('request');
     var fs = require('fs');
 
-    if (!fileExists.sync(path)) {
+    if (!fileExists(path)) {
         request.head(src, (err) => {
             if (err) {
                 log('Error while downloading image: ' + path + ' -> ' + err);
