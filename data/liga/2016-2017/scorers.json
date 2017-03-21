@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "23",
+        "goals": "25",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "21",
+        "goals": "22",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -31,7 +31,7 @@
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "14",
+        "goals": "15",
         "flag": "spain",
         "logo": "celta_vigo"
     },
@@ -40,7 +40,7 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "13",
+        "goals": "14",
         "flag": "france",
         "logo": "atletico_madrid"
     },
@@ -73,6 +73,15 @@
     },
     {
         "rank": "9.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -91,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": " Rubén Castro",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
         "name": " Willian José",
         "country": "Brazil",
         "team": "Real Sociedad",
@@ -99,22 +117,31 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "12.",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
+        "rank": "14.",
         "name": "Florin Andone",
         "country": "Romania",
         "team": "Deportivo La Coruña",
         "goals": "8",
         "flag": "romania",
         "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "8",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "UD Las Palmas",
+        "goals": "8",
+        "flag": "ghana",
+        "logo": "ud_las_palmas"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "goals": "8",
         "flag": "brazil",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Pedro León",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Rubén Castro",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "20.",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "goals": "7",
-        "flag": "wales",
-        "logo": "real_madrid"
     }
 ]

@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "assists": "10",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
@@ -18,16 +27,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "3.",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
-        "assists": "9",
-        "flag": "belgium",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
@@ -82,6 +82,15 @@
     },
     {
         "rank": "10.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
+        "assists": "6",
+        "flag": "belgium",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
         "name": "Nemanja Matić",
         "country": "Serbia",
         "team": "Chelsea FC",
@@ -117,7 +126,16 @@
         "logo": "crystal_palace"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
+        "name": "Nacer Chadli",
+        "country": "Belgium",
+        "team": "West Bromwich Albion",
+        "assists": "5",
+        "flag": "belgium",
+        "logo": "west_bromwich_albion"
+    },
+    {
+        "rank": "-",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -145,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Everton FC",
-        "assists": "5",
-        "flag": "belgium",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -169,14 +178,5 @@
         "assists": "5",
         "flag": "england",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Junior Stanislas",
-        "country": "England",
-        "team": "AFC Bournemouth",
-        "assists": "5",
-        "flag": "england",
-        "logo": "afc_bournemouth"
     }
 ]

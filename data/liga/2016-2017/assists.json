@@ -9,7 +9,16 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "assists": "10",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "3.",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
@@ -27,16 +36,16 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "4.",
-        "name": " Neymar",
-        "country": "Brazil",
-        "team": "FC Barcelona",
-        "assists": "8",
-        "flag": "brazil",
-        "logo": "fc_barcelona"
+        "rank": "5.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "7",
+        "flag": "france",
+        "logo": "atletico_madrid"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": " Jonathan Viera",
         "country": "Spain",
         "team": "UD Las Palmas",
@@ -63,16 +72,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "8.",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "6",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
+        "rank": "9.",
         "name": " Koke",
         "country": "Spain",
         "team": "Atlético Madrid",
@@ -108,7 +108,16 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": " Parejo",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "14.",
         "name": "Emre Çolak",
         "country": "Turkey",
         "team": "Deportivo La Coruña",
@@ -124,6 +133,15 @@
         "assists": "5",
         "flag": "argentina",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "assists": "5",
+        "flag": "portugal",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -145,12 +163,12 @@
     },
     {
         "rank": "-",
-        "name": " Parejo",
+        "name": " Pedro León",
         "country": "Spain",
-        "team": "Valencia CF",
+        "team": "SD Eibar",
         "assists": "5",
         "flag": "spain",
-        "logo": "valencia_cf"
+        "logo": "sd_eibar"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "5",
         "flag": "colombia",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Sergi Enrich",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Sergi Roberto",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "fc_barcelona"
     }
 ]

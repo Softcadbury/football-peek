@@ -30,13 +30,40 @@
         "name": "Quarter-finals",
         "matches": [
             {
-                "team1": "",
-                "team2": "",
+                "team1": "RSC Anderlecht",
+                "team2": "Manchester United",
                 "score1": "-:-",
                 "score2": "-:-",
                 "winner": "",
-                "team1Logo": "",
-                "team2Logo": ""
+                "team1Logo": "rsc_anderlecht",
+                "team2Logo": "manchester_united"
+            },
+            {
+                "team1": "Celta Vigo",
+                "team2": "KRC Genk",
+                "score1": "-:-",
+                "score2": "-:-",
+                "winner": "",
+                "team1Logo": "celta_vigo",
+                "team2Logo": "krc_genk"
+            },
+            {
+                "team1": "AFC Ajax",
+                "team2": "FC Schalke 04",
+                "score1": "-:-",
+                "score2": "-:-",
+                "winner": "",
+                "team1Logo": "afc_ajax",
+                "team2Logo": "fc_schalke_04"
+            },
+            {
+                "team1": "Olympique Lyon",
+                "team2": "Beşiktaş",
+                "score1": "-:-",
+                "score2": "-:-",
+                "winner": "",
+                "team1Logo": "olympique_lyon",
+                "team2Logo": "be_ikta_"
             }
         ]
     },

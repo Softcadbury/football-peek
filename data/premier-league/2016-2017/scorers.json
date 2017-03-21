@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Everton FC",
+        "goals": "21",
+        "flag": "belgium",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "2.",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -9,31 +18,22 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Everton FC",
-        "goals": "19",
-        "flag": "belgium",
-        "logo": "everton_fc"
+        "rank": "3.",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "goals": "18",
+        "flag": "chile",
+        "logo": "arsenal_fc"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
         "goals": "17",
         "flag": "spain",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
-        "goals": "17",
-        "flag": "chile",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "5.",
@@ -46,6 +46,15 @@
     },
     {
         "rank": "6.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "14",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
@@ -54,25 +63,16 @@
         "logo": "sunderland_afc"
     },
     {
-        "rank": "7.",
-        "name": "Dele Alli",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "13",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
         "rank": "8.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "12",
+        "goals": "13",
         "flag": "argentina",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "9.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
