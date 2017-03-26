@@ -4,27 +4,27 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
-        "goals": "22",
+        "goals": "23",
         "flag": "gabon",
         "logo": "borussia_dortmund"
     },
     {
         "rank": "2.",
+        "name": "Anthony Modeste",
+        "country": "France",
+        "team": "1. FC Köln",
+        "goals": "22",
+        "flag": "france",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "3.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
         "goals": "21",
         "flag": "poland",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "3.",
-        "name": "Anthony Modeste",
-        "country": "France",
-        "team": "1. FC Köln",
-        "goals": "19",
-        "flag": "france",
-        "logo": "1__fc_koln"
     },
     {
         "rank": "4.",
@@ -37,6 +37,24 @@
     },
     {
         "rank": "5.",
+        "name": "Vedad Ibišević",
+        "country": "Bosnia-Herzegovina",
+        "team": "Hertha BSC",
+        "goals": "11",
+        "flag": "bosnia_herzegovina",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "11",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "7.",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -54,40 +72,31 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "-",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
-        "goals": "10",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Sandro Wagner",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "10",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
         "rank": "9.",
         "name": "Mario Gomez",
         "country": "Germany",
         "team": "VfL Wolfsburg",
-        "goals": "8",
+        "goals": "9",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "-",
+        "rank": "10.",
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
         "goals": "8",
         "flag": "croatia",
         "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Florian Niederlechner",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -108,22 +117,13 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
         "goals": "7",
         "flag": "sweden",
         "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Niederlechner",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
