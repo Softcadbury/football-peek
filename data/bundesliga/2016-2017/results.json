@@ -2153,6 +2153,15 @@
         "round": 26,
         "matches": [
             {
+                "date": "31/03/2017",
+                "displayDate": "31/03/2017",
+                "homeTeam": "Hertha BSC",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "-:-",
+                "homeTeamLogo": "hertha_bsc",
+                "awayTeamLogo": "1899_hoffenheim"
+            },
+            {
                 "date": "01/04/2017",
                 "displayDate": "01/04/2017",
                 "homeTeam": "FC Schalke 04",
@@ -2160,33 +2169,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "fc_schalke_04",
                 "awayTeamLogo": "borussia_dortmund"
-            },
-            {
-                "date": "01/04/2017",
-                "displayDate": "",
-                "homeTeam": "Eintracht Frankfurt",
-                "awayTeam": "Bor. Mönchengladbach",
-                "score": "-:-",
-                "homeTeamLogo": "eintracht_frankfurt",
-                "awayTeamLogo": "bor__monchengladbach"
-            },
-            {
-                "date": "01/04/2017",
-                "displayDate": "",
-                "homeTeam": "FC Ingolstadt 04",
-                "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
-                "homeTeamLogo": "fc_ingolstadt_04",
-                "awayTeamLogo": "1__fsv_mainz_05"
-            },
-            {
-                "date": "01/04/2017",
-                "displayDate": "",
-                "homeTeam": "Bayer Leverkusen",
-                "awayTeam": "VfL Wolfsburg",
-                "score": "-:-",
-                "homeTeamLogo": "bayer_leverkusen",
-                "awayTeamLogo": "vfl_wolfsburg"
             },
             {
                 "date": "01/04/2017",
@@ -2227,11 +2209,29 @@
             {
                 "date": "01/04/2017",
                 "displayDate": "",
-                "homeTeam": "Hertha BSC",
-                "awayTeam": "1899 Hoffenheim",
+                "homeTeam": "Eintracht Frankfurt",
+                "awayTeam": "Bor. Mönchengladbach",
                 "score": "-:-",
-                "homeTeamLogo": "hertha_bsc",
-                "awayTeamLogo": "1899_hoffenheim"
+                "homeTeamLogo": "eintracht_frankfurt",
+                "awayTeamLogo": "bor__monchengladbach"
+            },
+            {
+                "date": "02/04/2017",
+                "displayDate": "02/04/2017",
+                "homeTeam": "FC Ingolstadt 04",
+                "awayTeam": "1. FSV Mainz 05",
+                "score": "-:-",
+                "homeTeamLogo": "fc_ingolstadt_04",
+                "awayTeamLogo": "1__fsv_mainz_05"
+            },
+            {
+                "date": "02/04/2017",
+                "displayDate": "",
+                "homeTeam": "Bayer Leverkusen",
+                "awayTeam": "VfL Wolfsburg",
+                "score": "-:-",
+                "homeTeamLogo": "bayer_leverkusen",
+                "awayTeamLogo": "vfl_wolfsburg"
             }
         ]
     },
