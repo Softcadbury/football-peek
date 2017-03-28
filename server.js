@@ -25,6 +25,7 @@ app.listen(config.port, () => {
 });
 
 // Regsiters routes
+app.use('/', require('./server/routes/manifestRoute'));
 app.use('/', require('./server/routes/sitemapRoute'));
 app.use('/', require('./server/routes/indexRoute'));
 app.use('/', require('./server/routes/itemRoute'));
