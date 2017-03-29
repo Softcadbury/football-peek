@@ -26,9 +26,9 @@ app.listen(config.port, () => {
 
 // Force https
 app.use((req, res, next) => {
-    // if (process.env.NODE_ENV === 'production' && !req.secure) {
-    //     return res.redirect(['https://', req.get('Host'), req.url].join(''));
-    // }
+    if (process.env.NODE_ENV === 'production' && req.protocol === 'http' && !req.secure) {
+        return res.redirect(['https://', req.get('Host'), req.url].join(''));
+    }
     next();
 });
 
