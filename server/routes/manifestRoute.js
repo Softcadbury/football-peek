@@ -7,7 +7,7 @@ router.route('/manifest.json')
     .get((req, res) => {
         res.setHeader('Content-Type', 'application/json');
         res.send(JSON.stringify({
-            'short_name': 'Dashboard Football',
+            'short_name': 'DashFoot',
             'name': 'Dashboard Football',
             'start_url': 'dashboardfootball.com',
             'display': 'standalone',
