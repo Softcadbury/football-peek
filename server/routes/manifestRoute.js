@@ -7,10 +7,12 @@ router.route('/manifest.json')
     .get((req, res) => {
         res.setHeader('Content-Type', 'application/json');
         res.send(JSON.stringify({
-            'short_name': 'Football',
+            'short_name': 'Dashboard Football',
             'name': 'Dashboard Football',
             'start_url': 'dashboardfootball.com',
             'display': 'standalone',
+            'theme_color': '#004365',
+            'background_color': '#004365',
             'icons': [
                 {
                     'src': '/trophy-logo-48x48.png',
