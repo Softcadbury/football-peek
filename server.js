@@ -10,12 +10,8 @@ var app = express();
 // Middlewares configuration
 var oneWeek = 604800000;
 app.use(compression());
-app.use(express.static('client/images', {
-    maxAge: oneWeek
-}));
-app.use(express.static('dist', {
-    maxAge: oneWeek
-}));
+app.use(express.static('client/images', { maxAge: oneWeek }));
+app.use(express.static('dist', { maxAge: oneWeek }));
 
 // Handlebars configuration
 app.set('views', 'client/views');
@@ -28,7 +24,16 @@ app.listen(config.port, () => {
     helper.log('running on ' + config.port);
 });
 
+// Force https
+// app.use((req, res, next) => {
+//     if (process.env.NODE_ENV === 'production' && req.protocol === 'http' && !req.secure) {
+//         return res.redirect(['https://', req.get('Host'), req.url].join(''));
+//     }
+//     next();
+// });
+
 // Regsiters routes
+app.use('/', require('./server/routes/manifestRoute'));
 app.use('/', require('./server/routes/sitemapRoute'));
 app.use('/', require('./server/routes/indexRoute'));
 app.use('/', require('./server/routes/itemRoute'));
