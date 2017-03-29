@@ -25,12 +25,12 @@ app.listen(config.port, () => {
 });
 
 // Force https
-app.use((req, res, next) => {
-    if (process.env.NODE_ENV === 'production' && req.protocol === 'http' && !req.secure) {
-        return res.redirect(['https://', req.get('Host'), req.url].join(''));
-    }
-    next();
-});
+// app.use((req, res, next) => {
+//     if (process.env.NODE_ENV === 'production' && req.protocol === 'http' && !req.secure) {
+//         return res.redirect(['https://', req.get('Host'), req.url].join(''));
+//     }
+//     next();
+// });
 
 // Regsiters routes
 app.use('/', require('./server/routes/manifestRoute'));
