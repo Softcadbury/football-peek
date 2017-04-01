@@ -4,27 +4,27 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
-        "goals": "23",
+        "goals": "24",
         "flag": "gabon",
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "24",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "3.",
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
         "goals": "22",
         "flag": "france",
         "logo": "1__fc_koln"
-    },
-    {
-        "rank": "3.",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
-        "goals": "21",
-        "flag": "poland",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "4.",
@@ -72,7 +72,16 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "10",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "10.",
         "name": "Mario Gomez",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -81,13 +90,13 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "10.",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
+        "rank": "11.",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
         "goals": "8",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
+        "flag": "sweden",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -117,13 +126,22 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "14.",
-        "name": "Emil Forsberg",
-        "country": "Sweden",
-        "team": "RB Leipzig",
+        "rank": "15.",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "Werder Bremen",
         "goals": "7",
-        "flag": "sweden",
-        "logo": "rb_leipzig"
+        "flag": "germany",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "-",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -135,7 +153,7 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "Bayer Leverkusen",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Salomon Kalou",
-        "country": "Ivory Coast",
-        "team": "Hertha BSC",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "SC Freiburg",
         "goals": "6",
-        "flag": "ivory_coast",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Max Kruse",
-        "country": "Germany",
-        "team": "Werder Bremen",
-        "goals": "6",
-        "flag": "germany",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Yunus Mallı",
-        "country": "Turkey",
-        "team": "1. FSV Mainz 05",
-        "goals": "6",
-        "flag": "turkey",
-        "logo": "1__fsv_mainz_05"
+        "flag": "italy",
+        "logo": "sc_freiburg"
     }
 ]

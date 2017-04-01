@@ -72,11 +72,11 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "9.",
+        "rank": "-",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
-        "goals": "12",
+        "goals": "13",
         "flag": "senegal",
         "logo": "liverpool_fc"
     },
@@ -109,21 +109,21 @@
     },
     {
         "rank": "13.",
+        "name": "Christian Benteke",
+        "country": "Belgium",
+        "team": "Crystal Palace",
+        "goals": "10",
+        "flag": "belgium",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "14.",
         "name": "Michail Antonio",
         "country": "England",
         "team": "West Ham United",
         "goals": "9",
         "flag": "england",
         "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Benteke",
-        "country": "Belgium",
-        "team": "Crystal Palace",
-        "goals": "9",
-        "flag": "belgium",
-        "logo": "crystal_palace"
     },
     {
         "rank": "-",
@@ -144,7 +144,16 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "17.",
+        "rank": "-",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "9",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "18.",
         "name": "Olivier Giroud",
         "country": "France",
         "team": "Arsenal FC",
@@ -169,14 +178,5 @@
         "goals": "8",
         "flag": "spain",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Swansea City",
-        "goals": "8",
-        "flag": "iceland",
-        "logo": "swansea_city"
     }
 ]

@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
+        "assists": "12",
+        "flag": "sweden",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "2.",
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
@@ -9,16 +18,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "2.",
-        "name": "Emil Forsberg",
-        "country": "Sweden",
-        "team": "RB Leipzig",
-        "assists": "10",
-        "flag": "sweden",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
+        "rank": "3.",
         "name": "Vincenzo Grifo",
         "country": "Italy",
         "team": "SC Freiburg",
@@ -54,7 +54,16 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Franck Ribéry",
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "8",
+        "flag": "france",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "8.",
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
@@ -79,15 +88,6 @@
         "assists": "7",
         "flag": "japan",
         "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Franck Ribéry",
-        "country": "France",
-        "team": "Bayern München",
-        "assists": "7",
-        "flag": "france",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
