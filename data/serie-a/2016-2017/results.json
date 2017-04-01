@@ -2762,7 +2762,7 @@
                 "displayDate": "01/04/2017",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "lazio_roma"
             },
@@ -2853,8 +2853,26 @@
         "round": 31,
         "matches": [
             {
-                "date": "09/04/2017",
-                "displayDate": "09/04/2017",
+                "date": "08/04/2017",
+                "displayDate": "08/04/2017",
+                "homeTeam": "Empoli FC",
+                "awayTeam": "Pescara Calcio",
+                "score": "-:-",
+                "homeTeamLogo": "empoli_fc",
+                "awayTeamLogo": "pescara_calcio"
+            },
+            {
+                "date": "08/04/2017",
+                "displayDate": "",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Sassuolo Calcio",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "sassuolo_calcio"
+            },
+            {
+                "date": "08/04/2017",
+                "displayDate": "",
                 "homeTeam": "Juventus",
                 "awayTeam": "Chievo Verona",
                 "score": "-:-",
@@ -2863,7 +2881,7 @@
             },
             {
                 "date": "09/04/2017",
-                "displayDate": "",
+                "displayDate": "09/04/2017",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "ACF Fiorentina",
                 "score": "-:-",
@@ -2891,29 +2909,11 @@
             {
                 "date": "09/04/2017",
                 "displayDate": "",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "09/04/2017",
-                "displayDate": "",
                 "homeTeam": "AC Milan",
                 "awayTeam": "US Palermo",
                 "score": "-:-",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "us_palermo"
-            },
-            {
-                "date": "09/04/2017",
-                "displayDate": "",
-                "homeTeam": "Empoli FC",
-                "awayTeam": "Pescara Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "empoli_fc",
-                "awayTeamLogo": "pescara_calcio"
             },
             {
                 "date": "09/04/2017",
@@ -2927,20 +2927,20 @@
             {
                 "date": "09/04/2017",
                 "displayDate": "",
-                "homeTeam": "Atalanta",
-                "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "sassuolo_calcio"
-            },
-            {
-                "date": "09/04/2017",
-                "displayDate": "",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Torino FC",
                 "score": "-:-",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "09/04/2017",
+                "displayDate": "",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "SSC Napoli",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "ssc_napoli"
             }
         ]
     },
