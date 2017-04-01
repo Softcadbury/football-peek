@@ -2875,7 +2875,7 @@
                 "displayDate": "",
                 "homeTeam": "SC Bastia",
                 "awayTeam": "Lille OSC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "sc_bastia",
                 "awayTeamLogo": "lille_osc"
             },
@@ -2948,6 +2948,15 @@
         "round": 32,
         "matches": [
             {
+                "date": "07/04/2017",
+                "displayDate": "07/04/2017",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "OGC Nice",
+                "score": "-:-",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "ogc_nice"
+            },
+            {
                 "date": "08/04/2017",
                 "displayDate": "08/04/2017",
                 "homeTeam": "Angers SCO",
@@ -2986,15 +2995,6 @@
             {
                 "date": "08/04/2017",
                 "displayDate": "",
-                "homeTeam": "Lille OSC",
-                "awayTeam": "OGC Nice",
-                "score": "-:-",
-                "homeTeamLogo": "lille_osc",
-                "awayTeamLogo": "ogc_nice"
-            },
-            {
-                "date": "08/04/2017",
-                "displayDate": "",
                 "homeTeam": "Olympique Lyon",
                 "awayTeam": "FC Lorient",
                 "score": "-:-",
@@ -3011,16 +3011,16 @@
                 "awayTeamLogo": "stade_rennes"
             },
             {
-                "date": "08/04/2017",
-                "displayDate": "",
-                "homeTeam": "Paris Saint-Germain",
-                "awayTeam": "EA Guingamp",
+                "date": "09/04/2017",
+                "displayDate": "09/04/2017",
+                "homeTeam": "Toulouse FC",
+                "awayTeam": "Olympique Marseille",
                 "score": "-:-",
-                "homeTeamLogo": "paris_saint_germain",
-                "awayTeamLogo": "ea_guingamp"
+                "homeTeamLogo": "toulouse_fc",
+                "awayTeamLogo": "olympique_marseille"
             },
             {
-                "date": "08/04/2017",
+                "date": "09/04/2017",
                 "displayDate": "",
                 "homeTeam": "AS Saint-Étienne",
                 "awayTeam": "FC Nantes",
@@ -3029,13 +3029,13 @@
                 "awayTeamLogo": "fc_nantes"
             },
             {
-                "date": "08/04/2017",
+                "date": "09/04/2017",
                 "displayDate": "",
-                "homeTeam": "Toulouse FC",
-                "awayTeam": "Olympique Marseille",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "EA Guingamp",
                 "score": "-:-",
-                "homeTeamLogo": "toulouse_fc",
-                "awayTeamLogo": "olympique_marseille"
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "ea_guingamp"
             }
         ]
     },
