@@ -1,5 +1,5 @@
-<select>
+<select onchange="location = this.value;">
     <% years.forEach((year) => { %>
-        <option value="<%= year %>" <%= year == requestedYear ? 'selected="selected"' : '' %> ><%= year %></option>
+        <option value="/<%= requestedItem.code %>/<%= year %>" <%= year == requestedYear ? 'selected="selected"' : '' %> ><%= year %></option>
     <% }); %>
 </select>

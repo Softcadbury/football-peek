@@ -7,9 +7,11 @@
                         <% if (previousAndNextGroupUrls.previous) { %>
                             <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous round"></a>
                         <% } %>
-                        <select>
+                        <select onchange="location = this.value;">
                             <% resultsData.forEach((result) => { %>
-                                <option value="<%= result.round %>" <%= result.round == requestedRound ? 'selected="selected"' : '' %> >Round <%= result.round %></option>
+                                <option
+                                    value="/<%= requestedItem.code %>/<%= requestedYear %>/<%= result.round %>"
+                                    <%= result.round == requestedRound ? 'selected="selected"' : '' %> >Round <%= result.round %></option>
                             <% }); %>
                         </select>
                         <% if (previousAndNextGroupUrls.next) { %>
