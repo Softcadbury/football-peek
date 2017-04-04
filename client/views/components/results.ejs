@@ -1,8 +1,3 @@
-<script>
-    window.currentRound = <%= currentRound %>;
-    window.numberOfRounds = <%= resultsData.length %>;
-</script>
-
 <% if (resultsData.length) { %>
     <div class="component-container">
         <ul class="dropdown-content" id="dropdown-content-rounds">
@@ -19,14 +14,14 @@
                 <td colspan="5">
                     <div class="component-title">
                         <a class="icon-left-open" id="arrow-rounds-previous" href="#/" title="Previous round"></a>
-                        <h3 class="dropdown-label" id="dropdown-label-rounds">Round <%= currentRound %></h3>
+                        <h3 class="dropdown-label">Round <%= requestedRound %></h3>
                         <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-rounds"></div>
                         <a class="icon-right-open" id="arrow-rounds-next" href="#/" title="Next round"></a>
                     </div>
                 </td>
             </tr>
             <% resultsData.forEach((result) => { %>
-                <% if (result.round == currentRound) { %>
+                <% if (result.round == requestedRound) { %>
                     <% result.matches.forEach((matche) => { %>
                         <tr class="round-content">
                             <td>

@@ -34,11 +34,13 @@ router.route('/:item/:year?/:roundOrGroup?')
 function renderCompetition(res, data, requestedItem, requestedYear, requestedRoundOrGroup) {
     var tournamentData = getData(config.paths.tournamentData, requestedItem, requestedYear);
     var groupsData = getData(config.paths.groupsData, requestedItem, requestedYear);
+    var requestedGroup = requestedRoundOrGroup || 'a';
 
     res.render('competition', Object.assign(data, {
         tournamentData,
         groupsData,
-        currentGroup: requestedRoundOrGroup || 'a'
+        requestedYear: requestedYear,
+        requestedGroup: requestedGroup
     }));
 }
 
@@ -46,11 +48,13 @@ function renderCompetition(res, data, requestedItem, requestedYear, requestedRou
 function renderLeague(res, data, requestedItem, requestedYear, requestedRoundOrGroup) {
     var resultsData = getData(config.paths.resultsData, requestedItem, requestedYear);
     var tableData = getData(config.paths.tableData, requestedItem, requestedYear);
+    var requestedRound = requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData);
 
     res.render('league', Object.assign(data, {
         resultsData,
         tableData,
-        currentRound: requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData)
+        requestedYear: requestedYear,
+        requestedRound: requestedRound
     }));
 }
 

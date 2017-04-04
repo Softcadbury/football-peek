@@ -1,8 +1,3 @@
-<script>
-    window.currentGroup = <%= currentGroup %>;
-    window.numberOfGroups = <%= groupsData.length %>;
-</script>
-
 <% if (groupsData.length) { %>
     <div class="component-container">
         <ul class="dropdown-content" id="dropdown-content-groups">
@@ -19,14 +14,14 @@
                 <td colspan="5">
                     <div class="component-title">
                         <a class="icon-left-open" id="arrow-groups-previous" href="#/" title="Previous group"></a>
-                        <h3 class="dropdown-label" id="dropdown-label-groups">Group A</h3>
+                        <h3 class="dropdown-label">Group <%= requestedGroup %></h3>
                         <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-groups"></div>
                         <a class="icon-right-open" id="arrow-groups-next" href="#/" title="Next group"></a>
                     </div>
                 </td>
             </tr>
             <% groupsData.forEach((group, index) => { %>
-                <% if (group.name === currentGroup) { %>
+                <% if (group.name === requestedGroup) { %>
                     <tr class="group-content">
                         <td colspan="5" class="table-container">
                             <table>
