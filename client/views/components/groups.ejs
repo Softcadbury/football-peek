@@ -13,10 +13,14 @@
             <tr>
                 <td colspan="5">
                     <div class="component-title">
-                        <a class="icon-left-open" href="<%= previousGroupUrl %>" title="Previous group"></a>
+                        <% if (previousAndNextGroupUrls.previous) { %>
+                            <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous group"></a>
+                        <% } %>
                         <h3 class="dropdown-label">Group <%= requestedGroup %></h3>
                         <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-groups"></div>
-                        <a class="icon-right-open" href="<%= nextGroupUrl %>" title="Next group"></a>
+                        <% if (previousAndNextGroupUrls.next) { %>
+                            <a class="icon-right-open" href="<%= previousAndNextGroupUrls.next %>" title="Next group"></a>
+                        <% } %>
                     </div>
                 </td>
             </tr>

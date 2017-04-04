@@ -13,10 +13,14 @@
             <tr>
                 <td colspan="5">
                     <div class="component-title">
-                        <a class="icon-left-open" href="<%= previousRoundUrl %>" title="Previous round"></a>
+                        <% if (previousAndNextGroupUrls.previous) { %>
+                            <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous round"></a>
+                        <% } %>
                         <h3 class="dropdown-label">Round <%= requestedRound %></h3>
                         <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-rounds"></div>
-                        <a class="icon-right-open" href="<%= nextRoundUrl %>" title="Next round"></a>
+                        <% if (previousAndNextGroupUrls.next) { %>
+                            <a class="icon-right-open" href="<%= previousAndNextGroupUrls.next %>" title="Next round"></a>
+                        <% } %>
                     </div>
                 </td>
             </tr>
