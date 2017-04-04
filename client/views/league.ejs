@@ -1,15 +1,13 @@
 <div id="league">
     <div class="header-sub">
         <div class="header-icon icon-<%= requestedItem.code %>"></div>
-        <h1>
-            <%= requestedItem.name %>
-            <%- include('partials/dropdownYears')  %>
-        </h1>
+        <h1><%= requestedItem.name %></h1>
+        <%- include('partials/dropdownYears') %>
     </div>
     <br />
-    <%- include('components/results')  %>
-    <%- include('components/table')  %>
+    <%- include('components/results') %>
+    <%- include('components/table') %>
     <br />
-    <%- include('components/scorers')  %>
-    <%- include('components/assists')  %>
+    <%- include('components/scorers') %>
+    <%- include('components/assists') %>
 </div>
