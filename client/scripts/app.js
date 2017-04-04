@@ -30,20 +30,10 @@ function manageRoundsDropdown() {
     var roundLabel = document.getElementById('dropdown-label-rounds');
 
     if (roundLabel) {
-        var rounds = document.getElementsByClassName('round-content');
         var roundRequested = location.hash.replace('#/round-', '') || window.currentRound || 1;
 
         // Set component title
         roundLabel.innerHTML = 'Round ' + roundRequested;
-
-        // Hide or show rows depending of the requested round
-        for (var i = 0; i < rounds.length; i++) {
-            if (rounds[i].className.indexOf('round-' + roundRequested + '-content') !== -1) {
-                rounds[i].style.display = '';
-            } else {
-                rounds[i].style.display = 'none';
-            }
-        }
 
         // Init previous button
         var previous = document.getElementById('arrow-rounds-previous');
@@ -71,21 +61,11 @@ function manageGroupsDropdown() {
     var groupLabel = document.getElementById('dropdown-label-groups');
 
     if (groupLabel) {
-        var groups = document.getElementsByClassName('group-content');
         var groupRequested = location.hash.replace('#/group-', '') || 'a';
         var groupRequestedIndex = groupRequested.charCodeAt(0);
 
         // Set component title
         groupLabel.innerHTML = 'Group ' + groupRequested;
-
-        // Hide or show rows depending of the requested group
-        for (var i = 0; i < groups.length; i++) {
-            if (groups[i].className.indexOf('group-' + groupRequested + '-content') !== -1) {
-                groups[i].style.display = '';
-            } else {
-                groups[i].style.display = 'none';
-            }
-        }
 
         // Init previous button
         var previous = document.getElementById('arrow-groups-previous');
