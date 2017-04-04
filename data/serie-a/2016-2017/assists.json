@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": " Felipe Anderson",
+        "country": "Brazil",
+        "team": "Lazio Roma",
+        "assists": "9",
+        "flag": "brazil",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Marek Hamšík",
         "country": "Slovakia",
         "team": "SSC Napoli",
@@ -27,7 +36,16 @@
         "logo": "inter"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "AS Roma",
+        "assists": "9",
+        "flag": "egypt",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "6.",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -43,15 +61,6 @@
         "assists": "8",
         "flag": "italy",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": " Felipe Anderson",
-        "country": "Brazil",
-        "team": "Lazio Roma",
-        "assists": "8",
-        "flag": "brazil",
-        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -91,15 +100,15 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "AS Roma",
+        "name": "Andrea Petagna",
+        "country": "Italy",
+        "team": "Atalanta",
         "assists": "8",
-        "flag": "egypt",
-        "logo": "as_roma"
+        "flag": "italy",
+        "logo": "atalanta"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
@@ -118,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "assists": "7",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
@@ -126,7 +144,16 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "15.",
+        "rank": "17.",
+        "name": "Éver Banega",
+        "country": "Argentina",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Alessandro Diamanti",
         "country": "Italy",
         "team": "US Palermo",
@@ -151,32 +178,5 @@
         "assists": "6",
         "flag": "italy",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Senad Lulić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Lazio Roma",
-        "assists": "6",
-        "flag": "bosnia_herzegovina",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "assists": "6",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Muriel",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "assists": "6",
-        "flag": "colombia",
-        "logo": "sampdoria"
     }
 ]

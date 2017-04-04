@@ -46,6 +46,15 @@
     },
     {
         "rank": "6.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "14",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Dele Alli",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -63,16 +72,7 @@
         "logo": "sunderland_afc"
     },
     {
-        "rank": "8.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "13",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "9.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -153,7 +153,16 @@
         "logo": "leicester_city"
     },
     {
-        "rank": "18.",
+        "rank": "-",
+        "name": "Theo Walcott",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "9",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "19.",
         "name": "Olivier Giroud",
         "country": "France",
         "team": "Arsenal FC",
@@ -169,14 +178,5 @@
         "goals": "8",
         "flag": "england",
         "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Pedro",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "chelsea_fc"
     }
 ]
