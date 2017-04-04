@@ -66,32 +66,20 @@ function getData(dataPath, requestedItem, requestedYear) {
 
 function getPreviousAndNextGroupUrls(requestedItemCode, requestedYear, requestedGroup, numberOfGroups) {
     var requestedGroupCharCode = requestedGroup.charCodeAt(0);
-    var urls = {};
 
-    if (requestedGroupCharCode > 96 + 1) {
-        urls.previous = getRoundOrGroupUrl(requestedItemCode, requestedYear, String.fromCharCode(requestedGroupCharCode - 1));
-    }
-
-    if (requestedGroupCharCode < 96 + numberOfGroups) {
-        urls.next = getRoundOrGroupUrl(requestedItemCode, requestedYear, String.fromCharCode(requestedGroupCharCode + 1));
-    }
-
-    return urls;
+    return {
+        previous: requestedGroupCharCode > 96 + 1 ? getRoundOrGroupUrl(requestedItemCode, requestedYear, String.fromCharCode(requestedGroupCharCode - 1)) : null,
+        next: requestedGroupCharCode < 96 + numberOfGroups ? getRoundOrGroupUrl(requestedItemCode, requestedYear, String.fromCharCode(requestedGroupCharCode + 1)) : null
+    };
 }
 
 function getPreviousAndNextRoundUrls(requestedItemCode, requestedYear, requestedRound, numberOfRounds) {
     var requestedRoundNumber = parseInt(requestedRound, 10);
-    var urls = {};
 
-    if (requestedRoundNumber > 1) {
-        urls.previous = getRoundOrGroupUrl(requestedItemCode, requestedYear, requestedRoundNumber - 1);
-    }
-
-    if (requestedRoundNumber < numberOfRounds) {
-        urls.next = getRoundOrGroupUrl(requestedItemCode, requestedYear, requestedRoundNumber + 1);
-    }
-
-    return urls;
+    return {
+        previous: requestedRoundNumber > 1 ? getRoundOrGroupUrl(requestedItemCode, requestedYear, requestedRoundNumber - 1) : null,
+        next: requestedRoundNumber < numberOfRounds ? getRoundOrGroupUrl(requestedItemCode, requestedYear, requestedRoundNumber + 1) : null
+    };
 }
 
 function getRoundOrGroupUrl(requestedItemCode, requestedYear, roundOrGroup) {
