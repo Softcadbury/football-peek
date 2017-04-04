@@ -26,33 +26,35 @@
                 </td>
             </tr>
             <% resultsData.forEach((result) => { %>
-                <% result.matches.forEach((matche) => { %>
-                    <tr class="round-content round-<%= result.round %>-content" style="<%= result.round !== currentRound ? 'display:none;': '' %>">
-                        <td>
-                            <%= matche.displayDate %>
-                        </td>
-                        <td class="component-column-main component-column-right">
-                            <span title="<%= matche.homeTeam %>">
-                                <%= matche.homeTeam %>
-                            </span>
-                            <div class="icon-logo icon-<%= matche.homeTeamLogo %>" title="<%= matche.homeTeam %>"></div>
-                        </td>
-                        <td class="component-column-score">
-                            <%= matche.score %>
-                        </td>
-                        <td class="component-column-main">
-                            <div class="icon-logo icon-<%= matche.awayTeamLogo %>" title="<%= matche.awayTeam %>"></div>
-                            <span title="<%= matche.awayTeam %>">
-                                <%= matche.awayTeam %>
-                            </span>
-                        </td>
-                        <td class="component-column-score">
-                            <a href="https://www.youtube.com/results?search_query=highlights <%= matche.date %> <%= matche.homeTeam %> <%= matche.awayTeam %> <%= matche.score %>" target="_blank" rel="nofollow" title="Watch highlights">
-                                <i class="icon-television"></i>
-                            </a>
-                        </td>
-                    </tr>
-                <% }); %>
+                <% if (result.round == currentRound) { %>
+                    <% result.matches.forEach((matche) => { %>
+                        <tr class="round-content">
+                            <td>
+                                <%= matche.displayDate %>
+                            </td>
+                            <td class="component-column-main component-column-right">
+                                <span title="<%= matche.homeTeam %>">
+                                    <%= matche.homeTeam %>
+                                </span>
+                                <div class="icon-logo icon-<%= matche.homeTeamLogo %>" title="<%= matche.homeTeam %>"></div>
+                            </td>
+                            <td class="component-column-score">
+                                <%= matche.score %>
+                            </td>
+                            <td class="component-column-main">
+                                <div class="icon-logo icon-<%= matche.awayTeamLogo %>" title="<%= matche.awayTeam %>"></div>
+                                <span title="<%= matche.awayTeam %>">
+                                    <%= matche.awayTeam %>
+                                </span>
+                            </td>
+                            <td class="component-column-score">
+                                <a href="https://www.youtube.com/results?search_query=highlights <%= matche.date %> <%= matche.homeTeam %> <%= matche.awayTeam %> <%= matche.score %>" target="_blank" rel="nofollow" title="Watch highlights">
+                                    <i class="icon-television"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    <% }); %>
+                <% } %>
             <% }); %>
         </table>
     </div>
