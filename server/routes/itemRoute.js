@@ -35,12 +35,16 @@ function renderCompetition(res, data, requestedItem, requestedYear, requestedRou
     var tournamentData = getData(config.paths.tournamentData, requestedItem, requestedYear);
     var groupsData = getData(config.paths.groupsData, requestedItem, requestedYear);
     var requestedGroup = requestedRoundOrGroup || 'a';
+    var previousGroupUrl = '/' + requestedItem.code + '/' + requestedYear + '/' + (String.fromCharCode(requestedGroup.charCodeAt(0) - 1));
+    var nextGroupUrl = '/' + requestedItem.code + '/' + requestedYear + '/' + (String.fromCharCode(requestedGroup.charCodeAt(0) + 1));
 
     res.render('competition', Object.assign(data, {
         tournamentData,
         groupsData,
         requestedYear: requestedYear,
-        requestedGroup: requestedGroup
+        requestedGroup: requestedGroup,
+        previousGroupUrl: previousGroupUrl,
+        nextGroupUrl: nextGroupUrl
     }));
 }
 
@@ -49,12 +53,16 @@ function renderLeague(res, data, requestedItem, requestedYear, requestedRoundOrG
     var resultsData = getData(config.paths.resultsData, requestedItem, requestedYear);
     var tableData = getData(config.paths.tableData, requestedItem, requestedYear);
     var requestedRound = requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData);
+    var previousRoundUrl = '/' + requestedItem.code + '/' + requestedYear + '/' + (parseInt(requestedRound, 10) - 1);
+    var nextRoundUrl = '/' + requestedItem.code + '/' + requestedYear + '/' + (parseInt(requestedRound, 10) + 1);
 
     res.render('league', Object.assign(data, {
         resultsData,
         tableData,
         requestedYear: requestedYear,
-        requestedRound: requestedRound
+        requestedRound: requestedRound,
+        previousRoundUrl: previousRoundUrl,
+        nextRoundUrl: nextRoundUrl
     }));
 }
 
