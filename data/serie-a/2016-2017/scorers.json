@@ -4,16 +4,16 @@
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
-        "goals": "22",
+        "goals": "23",
         "flag": "italy",
         "logo": "torino_fc"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
-        "goals": "21",
+        "goals": "23",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
     },
@@ -55,6 +55,15 @@
     },
     {
         "rank": "7.",
+        "name": "Alejandro Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "14",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
         "name": "Nikola Kalinić",
         "country": "Croatia",
         "team": "ACF Fiorentina",
@@ -63,22 +72,22 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
+        "name": "Marco Borriello",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "goals": "13",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "10.",
         "name": "Carlos Bacca",
         "country": "Colombia",
         "team": "AC Milan",
         "goals": "12",
         "flag": "colombia",
         "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Borriello",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "goals": "12",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -90,13 +99,13 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "11.",
-        "name": "Alejandro Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
+        "rank": "12.",
+        "name": "Marek Hamšík",
+        "country": "Slovakia",
+        "team": "SSC Napoli",
         "goals": "11",
-        "flag": "argentina",
-        "logo": "atalanta"
+        "flag": "slovakia",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -108,22 +117,13 @@
         "logo": "udinese_calcio"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Federico Bernardeschi",
         "country": "Italy",
         "team": "ACF Fiorentina",
         "goals": "10",
         "flag": "italy",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Marek Hamšík",
-        "country": "Slovakia",
-        "team": "SSC Napoli",
-        "goals": "10",
-        "flag": "slovakia",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
