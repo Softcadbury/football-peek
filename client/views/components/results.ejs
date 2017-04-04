@@ -1,14 +1,5 @@
 <% if (resultsData.length) { %>
     <div class="component-container">
-        <ul class="dropdown-content" id="dropdown-content-rounds">
-            <% resultsData.forEach((result) => { %>
-                <li>
-                    <a href="#/round-<%= result.round %>">
-                        Round <%= result.round %>
-                    </a>
-                </li>
-            <% }); %>
-        </ul>
         <table class="component">
             <tr>
                 <td colspan="5">
@@ -16,8 +7,11 @@
                         <% if (previousAndNextGroupUrls.previous) { %>
                             <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous round"></a>
                         <% } %>
-                        <h3 class="dropdown-label">Round <%= requestedRound %></h3>
-                        <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-rounds"></div>
+                        <select>
+                            <% resultsData.forEach((result) => { %>
+                                <option value="<%= result.round %>" <%= result.round == requestedRound ? 'selected="selected"' : '' %> >Round <%= result.round %></option>
+                            <% }); %>
+                        </select>
                         <% if (previousAndNextGroupUrls.next) { %>
                             <a class="icon-right-open" href="<%= previousAndNextGroupUrls.next %>" title="Next round"></a>
                         <% } %>

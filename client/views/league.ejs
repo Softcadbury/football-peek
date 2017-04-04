@@ -3,9 +3,8 @@
         <div class="header-icon icon-<%= requestedItem.code %>"></div>
         <h1>
             <%= requestedItem.name %>
-            <span class="dropdown-label" id="dropdown-label-years"><%= requestedYear %></span>
+            <%- include('partials/dropdownYears')  %>
         </h1>
-        <%- include('partials/dropdownYears')  %>
     </div>
     <br />
     <%- include('components/results')  %>

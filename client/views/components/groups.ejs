@@ -1,14 +1,5 @@
 <% if (groupsData.length) { %>
     <div class="component-container">
-        <ul class="dropdown-content" id="dropdown-content-groups">
-            <% groupsData.forEach((group) => { %>
-                <li>
-                    <a href="#/group-<%= group.name %>">
-                        Group <%= group.name %>
-                    </a>
-                </li>
-            <% }); %>
-        </ul>
         <table class="component">
             <tr>
                 <td colspan="5">
@@ -16,8 +7,11 @@
                         <% if (previousAndNextGroupUrls.previous) { %>
                             <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous group"></a>
                         <% } %>
-                        <h3 class="dropdown-label">Group <%= requestedGroup %></h3>
-                        <div class="dropdown-arrow icon-down-open" id="dropdown-arrow-groups"></div>
+                        <select>
+                            <% groupsData.forEach((group) => { %>
+                                <option value="<%= group.name %>" <%= group.name == requestedGroup ? 'selected="selected"' : '' %> >Group <%= group.name %></option>
+                            <% }); %>
+                        </select>
                         <% if (previousAndNextGroupUrls.next) { %>
                             <a class="icon-right-open" href="<%= previousAndNextGroupUrls.next %>" title="Next group"></a>
                         <% } %>
