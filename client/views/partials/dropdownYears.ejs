@@ -1,10 +1,5 @@
-<div class="dropdown-arrow icon-down-open" id="dropdown-arrow-years"></div>
-<ul class="dropdown-content" id="dropdown-content-years">
+<select onchange="location = this.value;">
     <% years.forEach((year) => { %>
-        <li>
-            <a class="year" href="/<%= requestedItem.code %>/<%= year %>">
-                <%= year %>
-            </a>
-        </li>
+        <option value="/<%= requestedItem.code %>/<%= year %>" <%= year == requestedYear ? 'selected="selected"' : '' %> ><%= year %></option>
     <% }); %>
-</ul>
+</select>
