@@ -7,7 +7,7 @@
                         <% if (previousAndNextGroupUrls.previous) { %>
                             <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous round"></a>
                         <% } %>
-                        <select onchange="location = this.value;">
+                        <select onchange="location = this.value;" aria-label="Rounds">
                             <% resultsData.forEach((result) => { %>
                                 <option
                                     value="/<%= requestedItem.code %>/<%= requestedYear %>/<%= result.round %>"
@@ -43,7 +43,7 @@
                                 </span>
                             </td>
                             <td class="component-column-score">
-                                <a href="https://www.youtube.com/results?search_query=highlights <%= matche.date %> <%= matche.homeTeam %> <%= matche.awayTeam %> <%= matche.score %>" target="_blank" rel="nofollow" title="Watch highlights">
+                                <a href="https://www.youtube.com/results?search_query=highlights <%= matche.date %> <%= matche.homeTeam %> <%= matche.awayTeam %> <%= matche.score %>" target="_blank" rel="nofollow noopener noreferrer" title="Watch highlights">
                                     <i class="icon-television"></i>
                                 </a>
                             </td>
