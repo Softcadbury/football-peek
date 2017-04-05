@@ -1,4 +1,4 @@
-# Dashboard Football - <a href="http://dashboardfootball.com">Try it !</a>
+# Dashboard Football - <a href="https://dashboardfootball.com">Try it !</a>
 
 ## Description
 

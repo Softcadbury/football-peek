@@ -7,7 +7,7 @@
                         <% if (previousAndNextGroupUrls.previous) { %>
                             <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous group"></a>
                         <% } %>
-                        <select onchange="location = this.value;">
+                        <select onchange="location = this.value;" aria-label="Groups">
                             <% groupsData.forEach((group) => { %>
                                 <option
                                     value="/<%= requestedItem.code %>/<%= requestedYear %>/<%= group.name %>"
@@ -78,7 +78,8 @@
                                 <div class="icon-logo icon-<%= matche.homeTeamLogo %>" title="<%= matche.homeTeam %>"></div>
                             </td>
                             <td class="component-column-score">
-                                <%= matche.score %></td>
+                                <%= matche.score %>
+                            </td>
                             <td class="component-column-main">
                                 <div class="icon-logo icon-<%= matche.awayTeamLogo %>" title="<%= matche.awayTeam %>"></div>
                                 <span title="<%= matche.awayTeam %>">
@@ -86,7 +87,7 @@
                                 </span>
                             </td>
                             <td class="component-column-score">
-                                <a href="https://www.youtube.com/results?search_query=highlights <%= matche.date %> <%= matche.homeTeam %> <%= matche.awayTeam %> <%= matche.score %>" target="_blank" rel="nofollow" title="Watch highlights">
+                                <a href="https://www.youtube.com/results?search_query=highlights <%= matche.date %> <%= matche.homeTeam %> <%= matche.awayTeam %> <%= matche.score %>" target="_blank" rel="nofollow noopener noreferrer" title="Watch highlights">
                                     <i class="icon-television"></i>
                                 </a>
                             </td>
