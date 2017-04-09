@@ -13,7 +13,7 @@
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Olympique Lyon",
-        "goals": "23",
+        "goals": "24",
         "flag": "france",
         "logo": "olympique_lyon"
     },
@@ -22,12 +22,12 @@
         "name": "Radamel Falcao",
         "country": "Colombia",
         "team": "AS Monaco",
-        "goals": "16",
+        "goals": "17",
         "flag": "colombia",
         "logo": "as_monaco"
     },
     {
-        "rank": "-",
+        "rank": "4.",
         "name": "Bafétimbi Gomis",
         "country": "France",
         "team": "Olympique Marseille",
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Mario Balotelli",
+        "country": "Italy",
+        "team": "OGC Nice",
+        "goals": "13",
+        "flag": "italy",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
         "name": "Steve Mounié",
         "country": "Benin",
         "team": "Montpellier HSC",
@@ -45,13 +54,22 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "AS Monaco",
         "goals": "12",
         "flag": "france",
         "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Benjamin Moukandjo",
+        "country": "Cameroon",
+        "team": "FC Lorient",
+        "goals": "12",
+        "flag": "cameroon",
+        "logo": "fc_lorient"
     },
     {
         "rank": "-",
@@ -63,16 +81,7 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "8.",
-        "name": "Mario Balotelli",
-        "country": "Italy",
-        "team": "OGC Nice",
-        "goals": "11",
-        "flag": "italy",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Alassane Pléa",
         "country": "France",
         "team": "OGC Nice",
@@ -90,7 +99,7 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Ryad Boudebouz",
         "country": "Algeria",
         "team": "Montpellier HSC",
@@ -106,15 +115,6 @@
         "goals": "10",
         "flag": "denmark",
         "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Benjamin Moukandjo",
-        "country": "Cameroon",
-        "team": "FC Lorient",
-        "goals": "10",
-        "flag": "cameroon",
-        "logo": "fc_lorient"
     },
     {
         "rank": "14.",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "19.",
+        "name": "Enzo Crivelli",
+        "country": "France",
+        "team": "SC Bastia",
+        "goals": "8",
+        "flag": "france",
+        "logo": "sc_bastia"
+    },
+    {
+        "rank": "-",
         "name": "Wylan Cyprien",
         "country": "France",
         "team": "OGC Nice",
         "goals": "8",
         "flag": "france",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolas de Préville",
-        "country": "France",
-        "team": "Lille OSC",
-        "goals": "8",
-        "flag": "france",
-        "logo": "lille_osc"
     }
 ]

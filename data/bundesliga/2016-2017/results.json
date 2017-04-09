@@ -2279,7 +2279,7 @@
                 "displayDate": "05/04/2017",
                 "homeTeam": "SV Darmstadt 98",
                 "awayTeam": "Bayer Leverkusen",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "sv_darmstadt_98",
                 "awayTeamLogo": "bayer_leverkusen"
             },
@@ -2288,7 +2288,7 @@
                 "displayDate": "",
                 "homeTeam": "Bor. Mönchengladbach",
                 "awayTeam": "Hertha BSC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "bor__monchengladbach",
                 "awayTeamLogo": "hertha_bsc"
             },
@@ -2297,7 +2297,7 @@
                 "displayDate": "",
                 "homeTeam": "FC Augsburg",
                 "awayTeam": "FC Ingolstadt 04",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "fc_augsburg",
                 "awayTeamLogo": "fc_ingolstadt_04"
             },
@@ -2306,7 +2306,7 @@
                 "displayDate": "",
                 "homeTeam": "VfL Wolfsburg",
                 "awayTeam": "SC Freiburg",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "vfl_wolfsburg",
                 "awayTeamLogo": "sc_freiburg"
             },
@@ -2315,7 +2315,7 @@
                 "displayDate": "",
                 "homeTeam": "1. FSV Mainz 05",
                 "awayTeam": "RB Leipzig",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "1__fsv_mainz_05",
                 "awayTeamLogo": "rb_leipzig"
             }
@@ -2325,20 +2325,20 @@
         "round": 28,
         "matches": [
             {
-                "date": "08/04/2017",
-                "displayDate": "08/04/2017",
-                "homeTeam": "Bayern München",
-                "awayTeam": "Borussia Dortmund",
-                "score": "-:-",
-                "homeTeamLogo": "bayern_munchen",
-                "awayTeamLogo": "borussia_dortmund"
+                "date": "07/04/2017",
+                "displayDate": "07/04/2017",
+                "homeTeam": "Eintracht Frankfurt",
+                "awayTeam": "Werder Bremen",
+                "score": "2:2",
+                "homeTeamLogo": "eintracht_frankfurt",
+                "awayTeamLogo": "werder_bremen"
             },
             {
                 "date": "08/04/2017",
-                "displayDate": "",
+                "displayDate": "08/04/2017",
                 "homeTeam": "RB Leipzig",
                 "awayTeam": "Bayer Leverkusen",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "rb_leipzig",
                 "awayTeamLogo": "bayer_leverkusen"
             },
@@ -2347,7 +2347,7 @@
                 "displayDate": "",
                 "homeTeam": "1. FC Köln",
                 "awayTeam": "Bor. Mönchengladbach",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "1__fc_koln",
                 "awayTeamLogo": "bor__monchengladbach"
             },
@@ -2356,7 +2356,7 @@
                 "displayDate": "",
                 "homeTeam": "SC Freiburg",
                 "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sc_freiburg",
                 "awayTeamLogo": "1__fsv_mainz_05"
             },
@@ -2365,45 +2365,45 @@
                 "displayDate": "",
                 "homeTeam": "FC Schalke 04",
                 "awayTeam": "VfL Wolfsburg",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "fc_schalke_04",
                 "awayTeamLogo": "vfl_wolfsburg"
             },
             {
                 "date": "08/04/2017",
                 "displayDate": "",
+                "homeTeam": "Hamburger SV",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "2:1",
+                "homeTeamLogo": "hamburger_sv",
+                "awayTeamLogo": "1899_hoffenheim"
+            },
+            {
+                "date": "08/04/2017",
+                "displayDate": "",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Borussia Dortmund",
+                "score": "4:1",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "09/04/2017",
+                "displayDate": "09/04/2017",
                 "homeTeam": "Hertha BSC",
                 "awayTeam": "FC Augsburg",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "hertha_bsc",
                 "awayTeamLogo": "fc_augsburg"
             },
             {
-                "date": "08/04/2017",
-                "displayDate": "",
-                "homeTeam": "Eintracht Frankfurt",
-                "awayTeam": "Werder Bremen",
-                "score": "-:-",
-                "homeTeamLogo": "eintracht_frankfurt",
-                "awayTeamLogo": "werder_bremen"
-            },
-            {
-                "date": "08/04/2017",
+                "date": "09/04/2017",
                 "displayDate": "",
                 "homeTeam": "FC Ingolstadt 04",
                 "awayTeam": "SV Darmstadt 98",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "fc_ingolstadt_04",
                 "awayTeamLogo": "sv_darmstadt_98"
-            },
-            {
-                "date": "08/04/2017",
-                "displayDate": "",
-                "homeTeam": "Hamburger SV",
-                "awayTeam": "1899 Hoffenheim",
-                "score": "-:-",
-                "homeTeamLogo": "hamburger_sv",
-                "awayTeamLogo": "1899_hoffenheim"
             }
         ]
     },
@@ -2413,29 +2413,11 @@
             {
                 "date": "15/04/2017",
                 "displayDate": "15/04/2017",
-                "homeTeam": "Bayer Leverkusen",
-                "awayTeam": "Bayern München",
-                "score": "-:-",
-                "homeTeamLogo": "bayer_leverkusen",
-                "awayTeamLogo": "bayern_munchen"
-            },
-            {
-                "date": "15/04/2017",
-                "displayDate": "",
                 "homeTeam": "1899 Hoffenheim",
                 "awayTeam": "Bor. Mönchengladbach",
                 "score": "-:-",
                 "homeTeamLogo": "1899_hoffenheim",
                 "awayTeamLogo": "bor__monchengladbach"
-            },
-            {
-                "date": "15/04/2017",
-                "displayDate": "",
-                "homeTeam": "SV Darmstadt 98",
-                "awayTeam": "FC Schalke 04",
-                "score": "-:-",
-                "homeTeamLogo": "sv_darmstadt_98",
-                "awayTeamLogo": "fc_schalke_04"
             },
             {
                 "date": "15/04/2017",
@@ -2454,15 +2436,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "fc_augsburg",
                 "awayTeamLogo": "1__fc_koln"
-            },
-            {
-                "date": "15/04/2017",
-                "displayDate": "",
-                "homeTeam": "Werder Bremen",
-                "awayTeam": "Hamburger SV",
-                "score": "-:-",
-                "homeTeamLogo": "werder_bremen",
-                "awayTeamLogo": "hamburger_sv"
             },
             {
                 "date": "15/04/2017",
@@ -2490,6 +2463,33 @@
                 "score": "-:-",
                 "homeTeamLogo": "rb_leipzig",
                 "awayTeamLogo": "sc_freiburg"
+            },
+            {
+                "date": "15/04/2017",
+                "displayDate": "",
+                "homeTeam": "Bayer Leverkusen",
+                "awayTeam": "Bayern München",
+                "score": "-:-",
+                "homeTeamLogo": "bayer_leverkusen",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "16/04/2017",
+                "displayDate": "16/04/2017",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Hamburger SV",
+                "score": "-:-",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "hamburger_sv"
+            },
+            {
+                "date": "16/04/2017",
+                "displayDate": "",
+                "homeTeam": "SV Darmstadt 98",
+                "awayTeam": "FC Schalke 04",
+                "score": "-:-",
+                "homeTeamLogo": "sv_darmstadt_98",
+                "awayTeamLogo": "fc_schalke_04"
             }
         ]
     },

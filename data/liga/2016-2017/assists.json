@@ -4,26 +4,26 @@
         "name": "Toni Kroos",
         "country": "Germany",
         "team": "Real Madrid",
-        "assists": "10",
+        "assists": "11",
         "flag": "germany",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Neymar",
-        "country": "Brazil",
-        "team": "FC Barcelona",
-        "assists": "10",
-        "flag": "brazil",
-        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "assists": "10",
+        "assists": "11",
         "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "3.",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "assists": "10",
+        "flag": "brazil",
         "logo": "fc_barcelona"
     },
     {
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "assists": "8",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "6.",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -64,15 +73,15 @@
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
+        "name": " Pablo Sarabia",
+        "country": "Spain",
+        "team": "Sevilla FC",
         "assists": "7",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
+        "flag": "spain",
+        "logo": "sevilla_fc"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
@@ -109,15 +118,6 @@
     },
     {
         "rank": "-",
-        "name": " Pablo Sarabia",
-        "country": "Spain",
-        "team": "Sevilla FC",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
         "name": " Parejo",
         "country": "Spain",
         "team": "Valencia CF",
@@ -126,7 +126,34 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": " Sergi Enrich",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "16.",
+        "name": " Antonio Luna",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Beñat",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
         "name": "Emre Çolak",
         "country": "Turkey",
         "team": "Deportivo La Coruña",
@@ -151,32 +178,5 @@
         "assists": "5",
         "flag": "spain",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Gameiro",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "5",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Isco",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Pedro León",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "sd_eibar"
     }
 ]
