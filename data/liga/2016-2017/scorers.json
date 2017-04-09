@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "25",
+        "goals": "27",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "23",
+        "goals": "24",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -31,7 +31,7 @@
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "15",
+        "goals": "16",
         "flag": "spain",
         "logo": "celta_vigo"
     },
@@ -40,7 +40,7 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "14",
+        "goals": "15",
         "flag": "france",
         "logo": "atletico_madrid"
     },
@@ -64,12 +64,48 @@
     },
     {
         "rank": "8.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "goals": "10",
+        "flag": "france",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
         "goals": "10",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Pedro León",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": "Pablo Piatti",
+        "country": "Argentina",
+        "team": "Espanyol Barcelona",
+        "goals": "10",
+        "flag": "argentina",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -90,16 +126,7 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "11.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
-        "goals": "9",
-        "flag": "france",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "15.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -118,21 +145,21 @@
     },
     {
         "rank": "-",
-        "name": " Pedro León",
+        "name": " Sandro",
         "country": "Spain",
-        "team": "SD Eibar",
+        "team": "Málaga CF",
         "goals": "9",
         "flag": "spain",
-        "logo": "sd_eibar"
+        "logo": "malaga_cf"
     },
     {
         "rank": "-",
-        "name": "Pablo Piatti",
-        "country": "Argentina",
-        "team": "Espanyol Barcelona",
+        "name": " Sergio León",
+        "country": "Spain",
+        "team": "CA Osasuna",
         "goals": "9",
-        "flag": "argentina",
-        "logo": "espanyol_barcelona"
+        "flag": "spain",
+        "logo": "ca_osasuna"
     },
     {
         "rank": "-",
@@ -144,39 +171,12 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "17.",
+        "rank": "20.",
         "name": "Florin Andone",
         "country": "Romania",
         "team": "Deportivo La Coruña",
         "goals": "8",
         "flag": "romania",
         "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin-Prince Boateng",
-        "country": "Ghana",
-        "team": "UD Las Palmas",
-        "goals": "8",
-        "flag": "ghana",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": "Duje Čop",
-        "country": "Croatia",
-        "team": "Sporting Gijón",
-        "goals": "8",
-        "flag": "croatia",
-        "logo": "sporting_gijon"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Ferreira-Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
-        "goals": "8",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
     }
 ]

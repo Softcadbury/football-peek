@@ -4,7 +4,7 @@
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
-        "goals": "21",
+        "goals": "23",
         "flag": "belgium",
         "logo": "everton_fc"
     },
@@ -36,11 +36,11 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": "Zlatan Ibrahimović",
         "country": "Sweden",
         "team": "Manchester United",
-        "goals": "16",
+        "goals": "17",
         "flag": "sweden",
         "logo": "manchester_united"
     },
@@ -49,7 +49,7 @@
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "14",
+        "goals": "16",
         "flag": "argentina",
         "logo": "manchester_city"
     },
@@ -58,12 +58,12 @@
         "name": "Dele Alli",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "14",
+        "goals": "16",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "-",
+        "rank": "8.",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
@@ -72,7 +72,25 @@
         "logo": "sunderland_afc"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "goals": "14",
+        "flag": "belgium",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "10.",
+        "name": "Joshua King",
+        "country": "Norway",
+        "team": "AFC Bournemouth",
+        "goals": "13",
+        "flag": "norway",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "-",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -81,22 +99,13 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "10.",
-        "name": "Eden Hazard",
+        "rank": "12.",
+        "name": "Christian Benteke",
         "country": "Belgium",
-        "team": "Chelsea FC",
+        "team": "Crystal Palace",
         "goals": "11",
         "flag": "belgium",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Joshua King",
-        "country": "Norway",
-        "team": "AFC Bournemouth",
-        "goals": "11",
-        "flag": "norway",
-        "logo": "afc_bournemouth"
+        "logo": "crystal_palace"
     },
     {
         "rank": "-",
@@ -108,22 +117,31 @@
         "logo": "swansea_city"
     },
     {
-        "rank": "13.",
-        "name": "Christian Benteke",
-        "country": "Belgium",
-        "team": "Crystal Palace",
-        "goals": "10",
-        "flag": "belgium",
-        "logo": "crystal_palace"
+        "rank": "-",
+        "name": "Heung-min Son",
+        "country": "South Korea",
+        "team": "Tottenham Hotspur",
+        "goals": "11",
+        "flag": "south_korea",
+        "logo": "tottenham_hotspur"
     },
     {
-        "rank": "-",
+        "rank": "15.",
         "name": "Troy Deeney",
         "country": "England",
         "team": "Watford FC",
         "goals": "10",
         "flag": "england",
         "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "10",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -135,7 +153,16 @@
         "logo": "leicester_city"
     },
     {
-        "rank": "16.",
+        "rank": "-",
+        "name": "Theo Walcott",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "10",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "19.",
         "name": "Michail Antonio",
         "country": "England",
         "team": "West Ham United",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Roberto Firmino",
+        "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
         "goals": "9",
         "flag": "brazil",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Theo Walcott",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "9",
-        "flag": "england",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "Arsenal FC",
-        "goals": "8",
-        "flag": "france",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Andre Gray",
-        "country": "England",
-        "team": "Burnley FC",
-        "goals": "8",
-        "flag": "england",
-        "logo": "burnley_fc"
     }
 ]
