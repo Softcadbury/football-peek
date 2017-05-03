@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "27",
+        "goals": "33",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "24",
+        "goals": "26",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -22,7 +22,7 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "goals": "19",
+        "goals": "20",
         "flag": "portugal",
         "logo": "real_madrid"
     },
@@ -31,7 +31,7 @@
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "16",
+        "goals": "17",
         "flag": "spain",
         "logo": "celta_vigo"
     },
@@ -40,7 +40,7 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "15",
+        "goals": "16",
         "flag": "france",
         "logo": "atletico_madrid"
     },
@@ -49,45 +49,126 @@
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
-        "goals": "12",
+        "goals": "15",
         "flag": "spain",
         "logo": "athletic_bilbao"
     },
     {
         "rank": "7.",
-        "name": " Gerard",
+        "name": " Morata",
         "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "11",
+        "team": "Real Madrid",
+        "goals": "13",
         "flag": "spain",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "8.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
-        "goals": "10",
-        "flag": "france",
-        "logo": "sevilla_fc"
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
+        "name": " Sandro",
+        "country": "Spain",
+        "team": "Málaga CF",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "malaga_cf"
+    },
+    {
+        "rank": "9.",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "10",
+        "goals": "12",
         "flag": "france",
         "logo": "atletico_madrid"
     },
     {
         "rank": "-",
-        "name": " Morata",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "12",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "12.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "goals": "11",
+        "flag": "france",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Rubén Castro",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Sergi Enrich",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "15.",
+        "name": "Cédric Bakambu",
+        "country": "Congo DR",
+        "team": "Villarreal CF",
+        "goals": "10",
+        "flag": "congo_dr",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "UD Las Palmas",
+        "goals": "10",
+        "flag": "ghana",
+        "logo": "ud_las_palmas"
+    },
+    {
+        "rank": "-",
+        "name": "Yannick Ferreira-Carrasco",
+        "country": "Belgium",
+        "team": "Atlético Madrid",
+        "goals": "10",
+        "flag": "belgium",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Isco",
         "country": "Spain",
         "team": "Real Madrid",
         "goals": "10",
         "flag": "spain",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Juanmi",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "real_sociedad"
     },
     {
         "rank": "-",
@@ -97,86 +178,5 @@
         "goals": "10",
         "flag": "spain",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": "Pablo Piatti",
-        "country": "Argentina",
-        "team": "Espanyol Barcelona",
-        "goals": "10",
-        "flag": "argentina",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Rubén Castro",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Sergi Enrich",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "15.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "9",
-        "flag": "france",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Neymar",
-        "country": "Brazil",
-        "team": "FC Barcelona",
-        "goals": "9",
-        "flag": "brazil",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Sandro",
-        "country": "Spain",
-        "team": "Málaga CF",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "malaga_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Sergio León",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "9",
-        "flag": "brazil",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "20.",
-        "name": "Florin Andone",
-        "country": "Romania",
-        "team": "Deportivo La Coruña",
-        "goals": "8",
-        "flag": "romania",
-        "logo": "deportivo_la_coruna"
     }
 ]

@@ -4,16 +4,16 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "11",
+        "assists": "13",
         "flag": "belgium",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
-        "assists": "11",
+        "assists": "12",
         "flag": "denmark",
         "logo": "tottenham_hotspur"
     },
@@ -22,12 +22,21 @@
         "name": "Gylfi Sigurðsson",
         "country": "Iceland",
         "team": "Swansea City",
-        "assists": "11",
+        "assists": "12",
         "flag": "iceland",
         "logo": "swansea_city"
     },
     {
         "rank": "4.",
+        "name": " Cesc Fàbregas",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "9",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
@@ -36,7 +45,34 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Wilfried Zaha",
+        "country": "Ivory Coast",
+        "team": "Crystal Palace",
+        "assists": "9",
+        "flag": "ivory_coast",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "7.",
+        "name": "Ross Barkley",
+        "country": "England",
+        "team": "Everton FC",
+        "assists": "8",
+        "flag": "england",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Pedro",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Matt Phillips",
         "country": "Scotland",
         "team": "West Bromwich Albion",
@@ -45,22 +81,13 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "6.",
-        "name": "Ross Barkley",
-        "country": "England",
-        "team": "Everton FC",
-        "assists": "7",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Cesc Fàbregas",
+        "rank": "10.",
+        "name": " David Silva",
         "country": "Spain",
-        "team": "Chelsea FC",
+        "team": "Manchester City",
         "assists": "7",
         "flag": "spain",
-        "logo": "chelsea_fc"
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -73,11 +100,11 @@
     },
     {
         "rank": "-",
-        "name": " Pedro",
-        "country": "Spain",
+        "name": "Nemanja Matić",
+        "country": "Serbia",
         "team": "Chelsea FC",
         "assists": "7",
-        "flag": "spain",
+        "flag": "serbia",
         "logo": "chelsea_fc"
     },
     {
@@ -90,16 +117,16 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
-        "name": "Wilfried Zaha",
-        "country": "Ivory Coast",
-        "team": "Crystal Palace",
-        "assists": "7",
-        "flag": "ivory_coast",
-        "logo": "crystal_palace"
+        "rank": "14.",
+        "name": " Ander Herrera",
+        "country": "Spain",
+        "team": "Manchester United",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "manchester_united"
     },
     {
-        "rank": "12.",
+        "rank": "-",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -109,12 +136,21 @@
     },
     {
         "rank": "-",
-        "name": " David Silva",
+        "name": " Diego Costa",
         "country": "Spain",
-        "team": "Manchester City",
+        "team": "Chelsea FC",
         "assists": "6",
         "flag": "spain",
-        "logo": "manchester_city"
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "assists": "6",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -127,12 +163,12 @@
     },
     {
         "rank": "-",
-        "name": "Nemanja Matić",
-        "country": "Serbia",
-        "team": "Chelsea FC",
+        "name": "Kevin Mirallas",
+        "country": "Belgium",
+        "team": "Everton FC",
         "assists": "6",
-        "flag": "serbia",
-        "logo": "chelsea_fc"
+        "flag": "belgium",
+        "logo": "everton_fc"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "assists": "6",
         "flag": "germany",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Dimitri Payet",
-        "country": "France",
-        "team": "West Ham United",
-        "assists": "6",
-        "flag": "france",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "assists": "6",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Georginio Wijnaldum",
-        "country": "Netherlands",
-        "team": "Liverpool FC",
-        "assists": "6",
-        "flag": "netherlands",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "20.",
-        "name": "Marc Albrighton",
-        "country": "England",
-        "team": "Leicester City",
-        "assists": "5",
-        "flag": "england",
-        "logo": "leicester_city"
     }
 ]

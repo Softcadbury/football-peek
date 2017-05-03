@@ -1,6 +1,9 @@
 {
   "name": "football",
   "version": "1.0.0",
+  "repository": "https://github.com/Softcadbury/DashboardFootball.git",
+  "author": "Softcadbury <romain.parage@gmail.com>",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -11,7 +14,7 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "css-loader": "0.28.0",
+    "css-loader": "0.28.1",
     "extract-text-webpack-plugin": "2.1.0",
     "file-loader": "0.11.1",
     "gulp": "3.9.1",
@@ -21,18 +24,18 @@
     "gulp-inject": "4.2.0",
     "gulp-less": "3.3.0",
     "gulp-minify-css": "1.2.4",
-    "gulp-mocha": "4.3.0",
+    "gulp-mocha": "4.3.1",
     "gulp-nodemon": "2.2.1",
     "gulp-open": "2.0.0",
     "gulp.spritesmith": "6.4.0",
     "less": "2.7.2",
     "less-loader": "4.0.3",
-    "mocha": "3.2.0",
+    "mocha": "3.3.0",
     "rimraf": "2.6.1",
-    "style-loader": "0.16.1",
-    "webpack": "2.3.3",
+    "style-loader": "0.17.0",
+    "webpack": "2.4.1",
     "webpack-stream": "3.2.0",
-    "yargs": "7.0.2"
+    "yargs": "8.0.1"
   },
   "dependencies": {
     "cheerio": "0.22.0",
@@ -43,7 +46,7 @@
     "express-ejs-layouts": "2.3.0",
     "file-exists": "3.0.2",
     "fs": "0.0.2",
-    "jsonfile": "2.4.0",
+    "jsonfile": "3.0.0",
     "request": "2.81.0",
     "sitemap": "1.12.0",
     "winston": "2.3.1"
