@@ -4,7 +4,7 @@
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Everton FC",
-        "goals": "23",
+        "goals": "24",
         "flag": "belgium",
         "logo": "everton_fc"
     },
@@ -13,27 +13,45 @@
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "19",
+        "goals": "21",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
     {
         "rank": "3.",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "19",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
-        "goals": "18",
+        "goals": "19",
         "flag": "chile",
         "logo": "arsenal_fc"
     },
     {
-        "rank": "4.",
-        "name": " Diego Costa",
-        "country": "Spain",
-        "team": "Chelsea FC",
+        "rank": "5.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "18",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "6.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
         "goals": "17",
-        "flag": "spain",
-        "logo": "chelsea_fc"
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -45,25 +63,34 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "6.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "16",
-        "flag": "argentina",
-        "logo": "manchester_city"
+        "rank": "8.",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "goals": "15",
+        "flag": "belgium",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
-        "name": "Dele Alli",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "16",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
+        "name": "Joshua King",
+        "country": "Norway",
+        "team": "AFC Bournemouth",
+        "goals": "15",
+        "flag": "norway",
+        "logo": "afc_bournemouth"
     },
     {
-        "rank": "8.",
+        "rank": "10.",
+        "name": "Christian Benteke",
+        "country": "Belgium",
+        "team": "Crystal Palace",
+        "goals": "14",
+        "flag": "belgium",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "-",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
@@ -72,25 +99,7 @@
         "logo": "sunderland_afc"
     },
     {
-        "rank": "-",
-        "name": "Eden Hazard",
-        "country": "Belgium",
-        "team": "Chelsea FC",
-        "goals": "14",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "10.",
-        "name": "Joshua King",
-        "country": "Norway",
-        "team": "AFC Bournemouth",
-        "goals": "13",
-        "flag": "norway",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
+        "rank": "12.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -99,20 +108,11 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "12.",
-        "name": "Christian Benteke",
-        "country": "Belgium",
-        "team": "Crystal Palace",
-        "goals": "11",
-        "flag": "belgium",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
+        "rank": "13.",
         "name": " Llorente",
         "country": "Spain",
         "team": "Swansea City",
-        "goals": "11",
+        "goals": "12",
         "flag": "spain",
         "logo": "swansea_city"
     },
@@ -121,22 +121,31 @@
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
-        "goals": "11",
+        "goals": "12",
         "flag": "south_korea",
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "15.",
-        "name": "Troy Deeney",
+        "rank": "-",
+        "name": "Jamie Vardy",
         "country": "England",
-        "team": "Watford FC",
-        "goals": "10",
+        "team": "Leicester City",
+        "goals": "12",
         "flag": "england",
-        "logo": "watford_fc"
+        "logo": "leicester_city"
     },
     {
-        "rank": "-",
+        "rank": "16.",
         "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "11",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "17.",
+        "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
         "goals": "10",
@@ -145,12 +154,12 @@
     },
     {
         "rank": "-",
-        "name": "Jamie Vardy",
+        "name": "Troy Deeney",
         "country": "England",
-        "team": "Leicester City",
+        "team": "Watford FC",
         "goals": "10",
         "flag": "england",
-        "logo": "leicester_city"
+        "logo": "watford_fc"
     },
     {
         "rank": "-",
@@ -162,21 +171,12 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "19.",
-        "name": "Michail Antonio",
-        "country": "England",
-        "team": "West Ham United",
+        "rank": "20.",
+        "name": " Álvaro Negredo",
+        "country": "Spain",
+        "team": "Middlesbrough FC",
         "goals": "9",
-        "flag": "england",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "9",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
+        "flag": "spain",
+        "logo": "middlesbrough_fc"
     }
 ]
