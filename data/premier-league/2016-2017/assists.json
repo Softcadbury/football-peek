@@ -4,7 +4,7 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "13",
+        "assists": "15",
         "flag": "belgium",
         "logo": "manchester_city"
     },
@@ -31,12 +31,12 @@
         "name": " Cesc Fàbregas",
         "country": "Spain",
         "team": "Chelsea FC",
-        "assists": "9",
+        "assists": "10",
         "flag": "spain",
         "logo": "chelsea_fc"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
@@ -64,6 +64,15 @@
     },
     {
         "rank": "-",
+        "name": "Nemanja Matić",
+        "country": "Serbia",
+        "team": "Chelsea FC",
+        "assists": "8",
+        "flag": "serbia",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": " Pedro",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -81,7 +90,7 @@
         "logo": "west_bromwich_albion"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": " David Silva",
         "country": "Spain",
         "team": "Manchester City",
@@ -100,12 +109,21 @@
     },
     {
         "rank": "-",
-        "name": "Nemanja Matić",
-        "country": "Serbia",
-        "team": "Chelsea FC",
+        "name": "Alex Oxlade-Chamberlain",
+        "country": "England",
+        "team": "Arsenal FC",
         "assists": "7",
-        "flag": "serbia",
-        "logo": "chelsea_fc"
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mesut Özil",
+        "country": "Germany",
+        "team": "Arsenal FC",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -117,7 +135,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "14.",
+        "rank": "16.",
         "name": " Ander Herrera",
         "country": "Spain",
         "team": "Manchester United",
@@ -160,23 +178,5 @@
         "assists": "6",
         "flag": "belgium",
         "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Mirallas",
-        "country": "Belgium",
-        "team": "Everton FC",
-        "assists": "6",
-        "flag": "belgium",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mesut Özil",
-        "country": "Germany",
-        "team": "Arsenal FC",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "arsenal_fc"
     }
 ]

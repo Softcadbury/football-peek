@@ -22,7 +22,7 @@
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
-        "goals": "19",
+        "goals": "20",
         "flag": "spain",
         "logo": "chelsea_fc"
     },
@@ -31,7 +31,7 @@
         "name": "Alexis Sánchez",
         "country": "Chile",
         "team": "Arsenal FC",
-        "goals": "19",
+        "goals": "20",
         "flag": "chile",
         "logo": "arsenal_fc"
     },
@@ -64,6 +64,15 @@
     },
     {
         "rank": "8.",
+        "name": "Jermain Defoe",
+        "country": "England",
+        "team": "Sunderland AFC",
+        "goals": "15",
+        "flag": "england",
+        "logo": "sunderland_afc"
+    },
+    {
+        "rank": "-",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -81,7 +90,7 @@
         "logo": "afc_bournemouth"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Christian Benteke",
         "country": "Belgium",
         "team": "Crystal Palace",
@@ -90,16 +99,16 @@
         "logo": "crystal_palace"
     },
     {
-        "rank": "-",
-        "name": "Jermain Defoe",
-        "country": "England",
-        "team": "Sunderland AFC",
-        "goals": "14",
-        "flag": "england",
-        "logo": "sunderland_afc"
+        "rank": "12.",
+        "name": " Llorente",
+        "country": "Spain",
+        "team": "Swansea City",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "swansea_city"
     },
     {
-        "rank": "12.",
+        "rank": "-",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -108,16 +117,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "13.",
-        "name": " Llorente",
-        "country": "Spain",
-        "team": "Swansea City",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
+        "rank": "14.",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "10",
+        "flag": "france",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Theo Walcott",
         "country": "England",
         "team": "Arsenal FC",
         "goals": "10",
         "flag": "england",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "20.",
-        "name": " Álvaro Negredo",
-        "country": "Spain",
-        "team": "Middlesbrough FC",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "middlesbrough_fc"
     }
 ]

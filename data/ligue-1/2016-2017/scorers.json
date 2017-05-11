@@ -4,7 +4,7 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "31",
+        "goals": "33",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
@@ -31,7 +31,7 @@
         "name": "Bafétimbi Gomis",
         "country": "France",
         "team": "Olympique Marseille",
-        "goals": "17",
+        "goals": "18",
         "flag": "france",
         "logo": "olympique_marseille"
     },
@@ -49,27 +49,27 @@
         "name": "Mario Balotelli",
         "country": "Italy",
         "team": "OGC Nice",
-        "goals": "14",
+        "goals": "15",
         "flag": "italy",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Kylian Mbappé",
-        "country": "France",
-        "team": "AS Monaco",
-        "goals": "14",
-        "flag": "france",
-        "logo": "as_monaco"
     },
     {
         "rank": "-",
         "name": "Ivan Santini",
         "country": "Croatia",
         "team": "SM Caen",
-        "goals": "14",
+        "goals": "15",
         "flag": "croatia",
         "logo": "sm_caen"
+    },
+    {
+        "rank": "8.",
+        "name": "Kylian Mbappé",
+        "country": "France",
+        "team": "AS Monaco",
+        "goals": "14",
+        "flag": "france",
+        "logo": "as_monaco"
     },
     {
         "rank": "9.",
@@ -91,6 +91,15 @@
     },
     {
         "rank": "11.",
+        "name": "Jimmy Briand",
+        "country": "France",
+        "team": "EA Guingamp",
+        "goals": "12",
+        "flag": "france",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "12.",
         "name": "Ryad Boudebouz",
         "country": "Algeria",
         "team": "Montpellier HSC",
@@ -117,22 +126,13 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Martin Braithwaite",
         "country": "Denmark",
         "team": "Toulouse FC",
         "goals": "10",
         "flag": "denmark",
         "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jimmy Briand",
-        "country": "France",
-        "team": "EA Guingamp",
-        "goals": "10",
-        "flag": "france",
-        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -145,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": " Lucas",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "10",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
         "name": "Emiliano Sala",
         "country": "Argentina",
         "team": "FC Nantes",
@@ -153,7 +162,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "18.",
+        "rank": "19.",
         "name": "Enzo Crivelli",
         "country": "France",
         "team": "SC Bastia",
@@ -169,14 +178,5 @@
         "goals": "9",
         "flag": "france",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": " Júlio Tavares",
-        "country": "Cape Verde",
-        "team": "Dijon FCO",
-        "goals": "9",
-        "flag": "cape_verde",
-        "logo": "dijon_fco"
     }
 ]

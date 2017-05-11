@@ -3,6 +3,14 @@
         "name": "Final",
         "matches": [
             {
+                "team1": "Juventus",
+                "team2": "Real Madrid",
+                "score": "-:-",
+                "winner": "Real Madrid",
+                "team1Logo": "juventus",
+                "team2Logo": "real_madrid"
+            },
+            {
                 "team1": "",
                 "team2": "",
                 "score": "-:-",
@@ -19,17 +27,17 @@
                 "team1": "Real Madrid",
                 "team2": "Atlético Madrid",
                 "score1": "3:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:2",
+                "winner": "Real Madrid",
                 "team1Logo": "real_madrid",
                 "team2Logo": "atletico_madrid"
             },
             {
                 "team1": "AS Monaco",
                 "team2": "Juventus",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "0:2",
+                "score2": "1:2",
+                "winner": "Juventus",
                 "team1Logo": "as_monaco",
                 "team2Logo": "juventus"
             }
