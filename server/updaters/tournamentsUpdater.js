@@ -50,17 +50,25 @@ function parseRound(itemExtended, results, roundIndex) {
                 }
 
                 if (roundIndex === 0) {
+                    if (index !== 0) {
+                        return;
+                    }
+
                     var team1 = $(elem).find('td:nth-child(3) > a').text();
                     var team2 = $(elem).find('td:nth-child(5) > a').text();
-
                     var score = parseScore($(elem).find('td:nth-child(6) > a').text());
                     var finalScore = score.split(' ').length === 1 ? score : score.split(' ')[1].replace('(', '').replace(')', '');
+                    var winner = '';
+
+                    if (finalScore !== '-:-') {
+                        winner = finalScore.split(':')[0] > finalScore.split(':')[1] ? team1 : team2;
+                    }
 
                     currentMatches.push({
                         team1: team1,
                         team2: team2,
                         score: score,
-                        winner: finalScore.split(':')[0] > finalScore.split(':')[1] ? team1 : team2
+                        winner: winner
                     });
                 } else {
                     switch (index % 4) {
