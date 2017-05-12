@@ -4,12 +4,21 @@
         "name": "Alejandro Gómez",
         "country": "Argentina",
         "team": "Atalanta",
-        "assists": "11",
+        "assists": "12",
         "flag": "argentina",
         "logo": "atalanta"
     },
     {
         "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "AS Roma",
+        "assists": "12",
+        "flag": "egypt",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "3.",
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
@@ -18,13 +27,22 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
         "assists": "10",
         "flag": "italy",
         "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "10",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -36,22 +54,13 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "AS Roma",
-        "assists": "10",
-        "flag": "egypt",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "6.",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
+        "rank": "7.",
+        "name": " Borja Valero",
+        "country": "Spain",
+        "team": "ACF Fiorentina",
         "assists": "9",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "flag": "spain",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -70,6 +79,15 @@
         "assists": "9",
         "flag": "argentina",
         "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Senad Lulić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Lazio Roma",
+        "assists": "9",
+        "flag": "bosnia_herzegovina",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -99,22 +117,22 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "12.",
+        "rank": "14.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
         "assists": "8",
         "flag": "slovenia",
         "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": " Borja Valero",
-        "country": "Spain",
-        "team": "ACF Fiorentina",
-        "assists": "8",
-        "flag": "spain",
-        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -153,30 +171,12 @@
         "logo": "torino_fc"
     },
     {
-        "rank": "18.",
-        "name": "Andrea Belotti",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
         "rank": "-",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "lazio_roma"
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "assists": "8",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
     }
 ]

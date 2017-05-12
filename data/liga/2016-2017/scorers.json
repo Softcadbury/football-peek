@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "33",
+        "goals": "35",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "26",
+        "goals": "27",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -54,40 +54,40 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "7.",
+        "rank": "-",
         "name": " Morata",
         "country": "Spain",
         "team": "Real Madrid",
-        "goals": "13",
+        "goals": "15",
         "flag": "spain",
         "logo": "real_madrid"
     },
     {
-        "rank": "-",
+        "rank": "8.",
         "name": " Sandro",
         "country": "Spain",
         "team": "Málaga CF",
-        "goals": "13",
+        "goals": "14",
         "flag": "spain",
         "logo": "malaga_cf"
     },
     {
         "rank": "9.",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "10.",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
         "goals": "12",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -100,6 +100,15 @@
     },
     {
         "rank": "12.",
+        "name": "Cédric Bakambu",
+        "country": "Congo DR",
+        "team": "Villarreal CF",
+        "goals": "11",
+        "flag": "congo_dr",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -126,13 +135,13 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "15.",
-        "name": "Cédric Bakambu",
-        "country": "Congo DR",
-        "team": "Villarreal CF",
+        "rank": "16.",
+        "name": "Florin Andone",
+        "country": "Romania",
+        "team": "Deportivo La Coruña",
         "goals": "10",
-        "flag": "congo_dr",
-        "logo": "villarreal_cf"
+        "flag": "romania",
+        "logo": "deportivo_la_coruna"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "10",
         "flag": "spain",
         "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Pedro León",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "sd_eibar"
     }
 ]

@@ -4,7 +4,7 @@
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
-        "assists": "16",
+        "assists": "17",
         "flag": "sweden",
         "logo": "rb_leipzig"
     },
@@ -27,7 +27,16 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Franck Ribéry",
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "11",
+        "flag": "france",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "5.",
         "name": "Vincenzo Grifo",
         "country": "Italy",
         "team": "SC Freiburg",
@@ -36,16 +45,16 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "-",
-        "name": "Franck Ribéry",
-        "country": "France",
-        "team": "Bayern München",
-        "assists": "10",
-        "flag": "france",
-        "logo": "bayern_munchen"
+        "rank": "6.",
+        "name": "Fin Bartels",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "assists": "9",
+        "flag": "germany",
+        "logo": "werder_bremen"
     },
     {
-        "rank": "6.",
+        "rank": "-",
         "name": "Sebastian Rudy",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -54,22 +63,22 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "7.",
-        "name": "Fin Bartels",
-        "country": "Germany",
-        "team": "Werder Bremen",
-        "assists": "8",
-        "flag": "germany",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Kerem Demirbay",
         "country": "Germany",
         "team": "1899 Hoffenheim",
         "assists": "8",
         "flag": "germany",
         "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Zlatko Junuzović",
+        "country": "Austria",
+        "team": "Werder Bremen",
+        "assists": "8",
+        "flag": "austria",
+        "logo": "werder_bremen"
     },
     {
         "rank": "-",
@@ -99,7 +108,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -144,7 +153,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
         "name": "Karim Bellarabi",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Gonzalo Castro",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Mahmoud Dahoud",
         "country": "Germany",
         "team": "Bor. Mönchengladbach",
         "assists": "6",
         "flag": "germany",
         "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Heller",
-        "country": "Germany",
-        "team": "SV Darmstadt 98",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "sv_darmstadt_98"
-    },
-    {
-        "rank": "-",
-        "name": "Zlatko Junuzović",
-        "country": "Austria",
-        "team": "Werder Bremen",
-        "assists": "6",
-        "flag": "austria",
-        "logo": "werder_bremen"
     }
 ]
