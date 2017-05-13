@@ -22,10 +22,14 @@
             </tr>
             <% resultsData.forEach((result) => { %>
                 <% if (result.round == requestedRound) { %>
+                    <% var currentDate; %>
                     <% result.matches.forEach((matche) => { %>
                         <tr class="round-content">
                             <td>
-                                <%= matche.displayDate %>
+                                <% if (currentDate !== matche.date) { %>
+                                    <%= matche.date %>
+                                    <% currentDate = matche.date; %>
+                                <% } %>
                             </td>
                             <td class="component-column-main component-column-right">
                                 <span title="<%= matche.homeTeam %>">

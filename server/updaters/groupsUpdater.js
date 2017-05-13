@@ -40,8 +40,8 @@ function updateData(itemExtended) {
 function parseRound(itemExtended, results, groupIndex) {
     return new Promise((resolve) => {
         helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, resultsDataUrlExtensions[groupIndex]), ($) => {
-            var date;
             var currentMatches = results[groupIndex].matches;
+            var currentDate;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
                 if (index >= 12) {
@@ -49,12 +49,10 @@ function parseRound(itemExtended, results, groupIndex) {
                 }
 
                 var isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
-                var displayDate = $(elem).find('td:nth-child(1)').text();
-                date = displayDate || date;
+                currentDate = $(elem).find('td:nth-child(1)').text() || currentDate;
 
                 currentMatches.push({
-                    date: date,
-                    displayDate: displayDate,
+                    date: currentDate,
                     homeTeam: $(elem).find('td:nth-child(3) > a').text(),
                     awayTeam: $(elem).find('td:nth-child(5) > a').text(),
                     score: isLiveScore ? '-:-' : ($(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-')
