@@ -66,10 +66,14 @@
                             </div>
                         </td>
                     </tr>
+                    <% var currentDate; %>
                     <% group.matches.forEach((matche) => { %>
                         <tr class="group-content">
                             <td>
-                                <%= matche.displayDate %>
+                                <% if (currentDate !== matche.date) { %>
+                                    <%= matche.date %>
+                                    <% currentDate = matche.date; %>
+                                <% } %>
                             </td>
                             <td class="component-column-main component-column-right">
                                 <span title="<%= matche.homeTeam %>">

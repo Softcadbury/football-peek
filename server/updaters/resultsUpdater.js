@@ -32,7 +32,7 @@ function updateData(itemExtended) {
         var currentRound = helper.getLeagueCurrentRound(results);
         var maxRound = Math.min(itemExtended.roundNumber, currentRound + 1);
 
-        for (var j =  currentRound - 1; j < maxRound; j++) {
+        for (var j = currentRound - 1; j < maxRound; j++) {
             promises.push(parseRound(itemExtended, results, j));
         }
     }
@@ -51,9 +51,9 @@ function updateData(itemExtended) {
 function parseRound(itemExtended, results, roundIndex) {
     return new Promise((resolve) => {
         helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, itemExtended.extra, roundIndex + 1), ($) => {
-            var date;
             var currentMatches = results[roundIndex].matches;
             currentMatches.splice(0, currentMatches.length);
+            var currentDate;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
                 if (index >= (itemExtended.roundNumber + 2) / 4) {
@@ -61,12 +61,10 @@ function parseRound(itemExtended, results, roundIndex) {
                 }
 
                 var isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
-                var displayDate = $(elem).find('td:nth-child(1)').text();
-                date = displayDate || date;
+                currentDate = $(elem).find('td:nth-child(1)').text() || currentDate;
 
                 currentMatches.push({
-                    date: date,
-                    displayDate: displayDate,
+                    date: currentDate,
                     homeTeam: $(elem).find('td:nth-child(3) > a').text(),
                     awayTeam: $(elem).find('td:nth-child(5) > a').text(),
                     score: isLiveScore ? '-:-' : ($(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-')
