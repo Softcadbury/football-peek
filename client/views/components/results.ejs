@@ -38,7 +38,9 @@
                                 <div class="icon-logo icon-<%= matche.homeTeamLogo %>" title="<%= matche.homeTeam %>"></div>
                             </td>
                             <td class="component-column-score">
-                                <%= matche.score %>
+                                <span title="Score on <%= matche.date %>">
+                                    <%= matche.score %>
+                                </span>
                             </td>
                             <td class="component-column-main">
                                 <div class="icon-logo icon-<%= matche.awayTeamLogo %>" title="<%= matche.awayTeam %>"></div>

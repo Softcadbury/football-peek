@@ -21,11 +21,17 @@
                         </td>
                         <td class="component-column-score">
                             <% if (matche.score) { %>
-                                <%= matche.score %>
+                                <span title="Score on <%= matche.date %>">
+                                    <%= matche.score %>
+                                </span>
                             <% } else { %>
-                                <%= matche.score1 %>
+                                <span title="Score on <%= matche.date1 %>">
+                                    <%= matche.score1 %>
+                                </span>
                                 <span class="score-separation">-</span>
-                                <%= matche.score2 %>
+                                <span title="Score on <%= matche.date2 %>">
+                                    <%= matche.score2 %>
+                                </span>
                             <% } %>
                         </td>
                         <td class="component-column-main">
