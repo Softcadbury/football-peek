@@ -1,0 +1,12 @@
+<% 
+    var highlightsData = date + ' ' + team1 + ' ' + team2 + ' ' + score;
+    var highlightsHref = 'https://www.youtube.com/results?search_query=highlights ' + highlightsData;
+%>
+<a href="<%= highlightsHref %>" target="_blank" rel="nofollow noopener noreferrer">
+    <span title="Score on <%= date %>">
+        <%= score %>
+    </span>
+    <% if (score != '-:-') { %>
+        <i class="icon-television" title="Watch highlights"></i>
+    <% } %>
+</a>

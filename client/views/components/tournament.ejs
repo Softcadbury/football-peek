@@ -21,17 +21,23 @@
                         </td>
                         <td class="component-column-score">
                             <% if (matche.score) { %>
-                                <span title="Score on <%= matche.date %>">
-                                    <%= matche.score %>
-                                </span>
+                                <%- include('score', {
+                                    date: matche.date,
+                                    score: matche.score,
+                                    team1: matche.team1,
+                                    team2: matche.team2 }); %>
                             <% } else { %>
-                                <span title="Score on <%= matche.date1 %>">
-                                    <%= matche.score1 %>
-                                </span>
+                                <%- include('score', {
+                                    date: matche.date1,
+                                    score: matche.score1,
+                                    team1: matche.team1,
+                                    team2: matche.team2 }); %>
                                 <span class="score-separation">-</span>
-                                <span title="Score on <%= matche.date2 %>">
-                                    <%= matche.score2 %>
-                                </span>
+                                <%- include('score', {
+                                    date: matche.date2,
+                                    score: matche.score2,
+                                    team1: matche.team1,
+                                    team2: matche.team2 }); %>
                             <% } %>
                         </td>
                         <td class="component-column-main">
