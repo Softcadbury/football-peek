@@ -107,13 +107,13 @@
         "rank": "9",
         "team": "Espanyol Barcelona",
         "points": "53",
-        "played": "36",
+        "played": "37",
         "win": "14",
         "draw": "11",
-        "lost": "11",
+        "lost": "12",
         "goalsFor": "47",
-        "goalsAgainst": "48",
-        "goalDifference": "-1",
+        "goalsAgainst": "49",
+        "goalDifference": "-2",
         "logo": "espanyol_barcelona"
     },
     {
@@ -131,6 +131,19 @@
     },
     {
         "rank": "11",
+        "team": "Valencia CF",
+        "points": "46",
+        "played": "37",
+        "win": "13",
+        "draw": "7",
+        "lost": "17",
+        "goalsFor": "55",
+        "goalsAgainst": "62",
+        "goalDifference": "-7",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "12",
         "team": "Málaga CF",
         "points": "45",
         "played": "36",
@@ -143,7 +156,7 @@
         "logo": "malaga_cf"
     },
     {
-        "rank": "12",
+        "rank": "13",
         "team": "Celta Vigo",
         "points": "44",
         "played": "35",
@@ -154,19 +167,6 @@
         "goalsAgainst": "60",
         "goalDifference": "-11",
         "logo": "celta_vigo"
-    },
-    {
-        "rank": "13",
-        "team": "Valencia CF",
-        "points": "43",
-        "played": "36",
-        "win": "12",
-        "draw": "7",
-        "lost": "17",
-        "goalsFor": "54",
-        "goalsAgainst": "62",
-        "goalDifference": "-8",
-        "logo": "valencia_cf"
     },
     {
         "rank": "14",
@@ -235,28 +235,28 @@
     },
     {
         "rank": "19",
-        "team": "Granada CF",
-        "points": "20",
-        "played": "36",
+        "team": "CA Osasuna",
+        "points": "22",
+        "played": "37",
         "win": "4",
-        "draw": "8",
-        "lost": "24",
-        "goalsFor": "28",
-        "goalsAgainst": "78",
-        "goalDifference": "-50",
-        "logo": "granada_cf"
+        "draw": "10",
+        "lost": "23",
+        "goalsFor": "40",
+        "goalsAgainst": "89",
+        "goalDifference": "-49",
+        "logo": "ca_osasuna"
     },
     {
         "rank": "20",
-        "team": "CA Osasuna",
-        "points": "19",
-        "played": "36",
-        "win": "3",
-        "draw": "10",
-        "lost": "23",
-        "goalsFor": "38",
-        "goalsAgainst": "88",
-        "goalDifference": "-50",
-        "logo": "ca_osasuna"
+        "team": "Granada CF",
+        "points": "20",
+        "played": "37",
+        "win": "4",
+        "draw": "8",
+        "lost": "25",
+        "goalsFor": "29",
+        "goalsAgainst": "80",
+        "goalDifference": "-51",
+        "logo": "granada_cf"
     }
 ]

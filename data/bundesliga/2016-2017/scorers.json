@@ -1,21 +1,21 @@
 [
     {
         "rank": "1.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "goals": "28",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "28",
+        "goals": "30",
         "flag": "poland",
         "logo": "bayern_munchen"
+    },
+    {
+        "rank": "2.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "29",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "3.",
@@ -31,7 +31,7 @@
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "goals": "19",
+        "goals": "21",
         "flag": "germany",
         "logo": "rb_leipzig"
     },
@@ -40,27 +40,27 @@
         "name": "Mario Gomez",
         "country": "Germany",
         "team": "VfL Wolfsburg",
-        "goals": "15",
+        "goals": "16",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
     },
     {
         "rank": "6.",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "15",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "7.",
         "name": "Max Kruse",
         "country": "Germany",
         "team": "Werder Bremen",
         "goals": "14",
         "flag": "germany",
         "logo": "werder_bremen"
-    },
-    {
-        "rank": "7.",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "13",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
     },
     {
         "rank": "8.",
@@ -72,7 +72,16 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Arjen Robben",
+        "country": "Netherlands",
+        "team": "Bayern München",
+        "goals": "12",
+        "flag": "netherlands",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "10.",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -88,15 +97,6 @@
         "goals": "11",
         "flag": "germany",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Arjen Robben",
-        "country": "Netherlands",
-        "team": "Bayern München",
-        "goals": "11",
-        "flag": "netherlands",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -127,6 +127,15 @@
     },
     {
         "rank": "15.",
+        "name": "Guido Burgstaller",
+        "country": "Austria",
+        "team": "FC Schalke 04",
+        "goals": "9",
+        "flag": "austria",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
         "name": "Nils Petersen",
         "country": "Germany",
         "team": "SC Freiburg",
@@ -135,16 +144,16 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "16.",
-        "name": "Guido Burgstaller",
-        "country": "Austria",
-        "team": "FC Schalke 04",
-        "goals": "8",
-        "flag": "austria",
-        "logo": "fc_schalke_04"
+        "rank": "-",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
-        "rank": "-",
+        "rank": "18.",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Maximilian Philipp",
-        "country": "Germany",
-        "team": "SC Freiburg",
+        "name": "Ádám Szalai",
+        "country": "Hungary",
+        "team": "1899 Hoffenheim",
         "goals": "8",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "20.",
-        "name": "Fin Bartels",
-        "country": "Germany",
-        "team": "Werder Bremen",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "werder_bremen"
+        "flag": "hungary",
+        "logo": "1899_hoffenheim"
     }
 ]
