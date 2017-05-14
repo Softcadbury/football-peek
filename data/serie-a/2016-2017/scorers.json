@@ -126,7 +126,16 @@
         "logo": "fc_crotone"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "16.",
         "name": "Federico Bernardeschi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -154,12 +163,12 @@
     },
     {
         "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
         "goals": "11",
-        "flag": "spain",
-        "logo": "ssc_napoli"
+        "flag": "italy",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "11",
         "flag": "czech_republic",
         "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "Genoa CFC",
-        "goals": "11",
-        "flag": "argentina",
-        "logo": "genoa_cfc"
     }
 ]
