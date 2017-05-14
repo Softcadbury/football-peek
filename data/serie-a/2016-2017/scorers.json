@@ -72,20 +72,11 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "9.",
-        "name": "Alejandro Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "goals": "14",
-        "flag": "argentina",
-        "logo": "atalanta"
-    },
-    {
         "rank": "-",
         "name": "Nikola Kalinić",
         "country": "Croatia",
         "team": "ACF Fiorentina",
-        "goals": "14",
+        "goals": "15",
         "flag": "croatia",
         "logo": "acf_fiorentina"
     },
@@ -94,9 +85,18 @@
         "name": "Baldé Diao Keita",
         "country": "Senegal",
         "team": "Lazio Roma",
-        "goals": "14",
+        "goals": "15",
         "flag": "senegal",
         "logo": "lazio_roma"
+    },
+    {
+        "rank": "11.",
+        "name": "Alejandro Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "14",
+        "flag": "argentina",
+        "logo": "atalanta"
     },
     {
         "rank": "12.",
@@ -126,7 +126,16 @@
         "logo": "fc_crotone"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "16.",
         "name": "Federico Bernardeschi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -154,12 +163,12 @@
     },
     {
         "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
         "goals": "11",
-        "flag": "spain",
-        "logo": "ssc_napoli"
+        "flag": "italy",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "11",
         "flag": "czech_republic",
         "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "Genoa CFC",
-        "goals": "11",
-        "flag": "argentina",
-        "logo": "genoa_cfc"
     }
 ]

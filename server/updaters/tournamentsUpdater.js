@@ -65,6 +65,7 @@ function parseRound(itemExtended, results, roundIndex) {
                     }
 
                     currentMatches.push({
+                        date: $(elem).find('td:nth-child(1)').text(), 
                         team1: team1,
                         team2: team2,
                         score: score,
@@ -83,7 +84,10 @@ function parseRound(itemExtended, results, roundIndex) {
                             currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
                             break;
                         case 2:
-                            currentMatches[currentMatches.length - 1].winner = $(elem).find('td:nth-child(5) > b').text();
+                            var match = currentMatches[currentMatches.length - 1];
+                            match.date1 = $(elem).find('td:nth-child(2)').text().split(' ')[2];
+                            match.date2 = $(elem).find('td:nth-child(4)').text().split(' ')[3];
+                            match.winner = $(elem).find('td:nth-child(5) > b').text();
                             break;
                         default:
                             break;

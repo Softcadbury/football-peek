@@ -18,22 +18,22 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Arsenal FC",
+        "goals": "21",
+        "flag": "chile",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "4.",
         "name": " Diego Costa",
         "country": "Spain",
         "team": "Chelsea FC",
         "goals": "20",
         "flag": "spain",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
-        "goals": "20",
-        "flag": "chile",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "5.",
@@ -64,6 +64,24 @@
     },
     {
         "rank": "8.",
+        "name": "Joshua King",
+        "country": "Norway",
+        "team": "AFC Bournemouth",
+        "goals": "16",
+        "flag": "norway",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "9.",
+        "name": "Christian Benteke",
+        "country": "Belgium",
+        "team": "Crystal Palace",
+        "goals": "15",
+        "flag": "belgium",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "-",
         "name": "Jermain Defoe",
         "country": "England",
         "team": "Sunderland AFC",
@@ -81,34 +99,16 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "-",
-        "name": "Joshua King",
-        "country": "Norway",
-        "team": "AFC Bournemouth",
-        "goals": "15",
-        "flag": "norway",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "11.",
-        "name": "Christian Benteke",
-        "country": "Belgium",
-        "team": "Crystal Palace",
-        "goals": "14",
-        "flag": "belgium",
-        "logo": "crystal_palace"
-    },
-    {
         "rank": "12.",
         "name": " Llorente",
         "country": "Spain",
         "team": "Swansea City",
-        "goals": "13",
+        "goals": "14",
         "flag": "spain",
         "logo": "swansea_city"
     },
     {
-        "rank": "-",
+        "rank": "13.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -118,6 +118,15 @@
     },
     {
         "rank": "14.",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "12",
+        "flag": "france",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
@@ -135,7 +144,7 @@
         "logo": "leicester_city"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": " Roberto Firmino",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -144,7 +153,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -160,15 +169,6 @@
         "goals": "10",
         "flag": "england",
         "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "Arsenal FC",
-        "goals": "10",
-        "flag": "france",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
