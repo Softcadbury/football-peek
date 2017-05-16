@@ -4,7 +4,7 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "33",
+        "goals": "35",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
@@ -13,7 +13,7 @@
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Olympique Lyon",
-        "goals": "24",
+        "goals": "26",
         "flag": "france",
         "logo": "olympique_lyon"
     },
@@ -22,7 +22,7 @@
         "name": "Radamel Falcao",
         "country": "Colombia",
         "team": "AS Monaco",
-        "goals": "19",
+        "goals": "21",
         "flag": "colombia",
         "logo": "as_monaco"
     },
@@ -31,7 +31,7 @@
         "name": "Bafétimbi Gomis",
         "country": "France",
         "team": "Olympique Marseille",
-        "goals": "18",
+        "goals": "19",
         "flag": "france",
         "logo": "olympique_marseille"
     },
@@ -72,22 +72,22 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Steve Mounié",
+        "country": "Benin",
+        "team": "Montpellier HSC",
+        "goals": "14",
+        "flag": "benin",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "10.",
         "name": "Benjamin Moukandjo",
         "country": "Cameroon",
         "team": "FC Lorient",
         "goals": "13",
         "flag": "cameroon",
         "logo": "fc_lorient"
-    },
-    {
-        "rank": "-",
-        "name": "Steve Mounié",
-        "country": "Benin",
-        "team": "Montpellier HSC",
-        "goals": "13",
-        "flag": "benin",
-        "logo": "montpellier_hsc"
     },
     {
         "rank": "11.",
@@ -99,13 +99,40 @@
         "logo": "ea_guingamp"
     },
     {
-        "rank": "12.",
+        "rank": "-",
+        "name": " Lucas",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "12",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Emiliano Sala",
+        "country": "Argentina",
+        "team": "FC Nantes",
+        "goals": "12",
+        "flag": "argentina",
+        "logo": "fc_nantes"
+    },
+    {
+        "rank": "14.",
         "name": "Ryad Boudebouz",
         "country": "Algeria",
         "team": "Montpellier HSC",
         "goals": "11",
         "flag": "algeria",
         "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "-",
+        "name": "Martin Braithwaite",
+        "country": "Denmark",
+        "team": "Toulouse FC",
+        "goals": "11",
+        "flag": "denmark",
+        "logo": "toulouse_fc"
     },
     {
         "rank": "-",
@@ -118,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Loïs Diony",
+        "country": "France",
+        "team": "Dijon FCO",
+        "goals": "11",
+        "flag": "france",
+        "logo": "dijon_fco"
+    },
+    {
+        "rank": "-",
         "name": "Alassane Pléa",
         "country": "France",
         "team": "OGC Nice",
@@ -126,57 +162,21 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "15.",
-        "name": "Martin Braithwaite",
-        "country": "Denmark",
-        "team": "Toulouse FC",
-        "goals": "10",
-        "flag": "denmark",
-        "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Loïs Diony",
-        "country": "France",
-        "team": "Dijon FCO",
-        "goals": "10",
-        "flag": "france",
-        "logo": "dijon_fco"
-    },
-    {
-        "rank": "-",
-        "name": " Lucas",
-        "country": "Brazil",
-        "team": "Paris Saint-Germain",
-        "goals": "10",
-        "flag": "brazil",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Emiliano Sala",
-        "country": "Argentina",
-        "team": "FC Nantes",
-        "goals": "10",
-        "flag": "argentina",
-        "logo": "fc_nantes"
-    },
-    {
         "rank": "19.",
         "name": "Enzo Crivelli",
         "country": "France",
         "team": "SC Bastia",
-        "goals": "9",
+        "goals": "10",
         "flag": "france",
         "logo": "sc_bastia"
     },
     {
-        "rank": "-",
-        "name": "Valère Germain",
+        "rank": "20.",
+        "name": "Nabil Fekir",
         "country": "France",
-        "team": "AS Monaco",
+        "team": "Olympique Lyon",
         "goals": "9",
         "flag": "france",
-        "logo": "as_monaco"
+        "logo": "olympique_lyon"
     }
 ]

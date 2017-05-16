@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "27",
+        "goals": "28",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -22,7 +22,7 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "goals": "20",
+        "goals": "22",
         "flag": "portugal",
         "logo": "real_madrid"
     },
@@ -31,12 +31,21 @@
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "17",
+        "goals": "18",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
         "rank": "5.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "16",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -45,16 +54,7 @@
         "logo": "atletico_madrid"
     },
     {
-        "rank": "6.",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "15",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
+        "rank": "7.",
         "name": " Morata",
         "country": "Spain",
         "team": "Real Madrid",
@@ -81,7 +81,16 @@
         "logo": "espanyol_barcelona"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "goals": "13",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "11.",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
@@ -99,7 +108,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Cédric Bakambu",
         "country": "Congo DR",
         "team": "Villarreal CF",
@@ -135,7 +144,7 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": "Florin Andone",
         "country": "Romania",
         "team": "Deportivo La Coruña",
@@ -169,14 +178,5 @@
         "goals": "10",
         "flag": "spain",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Juanmi",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "real_sociedad"
     }
 ]
