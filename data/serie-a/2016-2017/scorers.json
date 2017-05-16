@@ -18,7 +18,16 @@
         "logo": "torino_fc"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "25",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "4.",
         "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
         "team": "Juventus",
@@ -34,15 +43,6 @@
         "goals": "24",
         "flag": "argentina",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "24",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "6.",
@@ -63,16 +63,16 @@
         "logo": "cagliari_calcio"
     },
     {
-        "rank": "8.",
+        "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
-        "goals": "15",
+        "goals": "16",
         "flag": "italy",
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
+        "rank": "9.",
         "name": "Nikola Kalinić",
         "country": "Croatia",
         "team": "ACF Fiorentina",
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "AS Roma",
@@ -117,22 +126,13 @@
         "logo": "as_roma"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Diego Falcinelli",
         "country": "Italy",
         "team": "FC Crotone",
         "goals": "12",
         "flag": "italy",
         "logo": "fc_crotone"
-    },
-    {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "16.",
@@ -142,6 +142,15 @@
         "goals": "11",
         "flag": "italy",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Mattia Destro",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "goals": "11",
+        "flag": "italy",
+        "logo": "bologna_fc"
     },
     {
         "rank": "-",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Fabio Quagliarella",
-        "country": "Italy",
-        "team": "Sampdoria",
+        "name": "Radja Nainggolan",
+        "country": "Belgium",
+        "team": "AS Roma",
         "goals": "11",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Patrik Schick",
-        "country": "Czech Republic",
-        "team": "Sampdoria",
-        "goals": "11",
-        "flag": "czech_republic",
-        "logo": "sampdoria"
+        "flag": "belgium",
+        "logo": "as_roma"
     }
 ]
