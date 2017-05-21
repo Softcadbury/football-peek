@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": " Marcelo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "11",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
@@ -27,16 +36,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "4.",
-        "name": " Marcelo",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "10",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
+        "rank": "5.",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
@@ -64,6 +64,33 @@
     },
     {
         "rank": "8.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "8",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Isco",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Koke",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Lucas Vázquez",
         "country": "Spain",
         "team": "Real Madrid",
@@ -72,21 +99,12 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "9.",
+        "rank": "12.",
         "name": "Ángel Correa",
         "country": "Argentina",
         "team": "Atlético Madrid",
         "assists": "7",
         "flag": "argentina",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "7",
-        "flag": "france",
         "logo": "atletico_madrid"
     },
     {
@@ -97,15 +115,6 @@
         "assists": "7",
         "flag": "spain",
         "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": " Koke",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "assists": "7",
-        "flag": "spain",
-        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -135,7 +144,16 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "16.",
+        "rank": "-",
+        "name": " Sergi Enrich",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "18.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Isco",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Jordi Alba",
         "country": "Spain",
         "team": "FC Barcelona",
         "assists": "6",
         "flag": "spain",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Rakitić",
-        "country": "Croatia",
-        "team": "FC Barcelona",
-        "assists": "6",
-        "flag": "croatia",
         "logo": "fc_barcelona"
     }
 ]

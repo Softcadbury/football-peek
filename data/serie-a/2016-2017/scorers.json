@@ -4,27 +4,27 @@
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
-        "goals": "27",
+        "goals": "28",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
     },
     {
         "rank": "2.",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "27",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "3.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
         "goals": "25",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "25",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "4.",
@@ -55,6 +55,15 @@
     },
     {
         "rank": "7.",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "17",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "8.",
         "name": "Marco Borriello",
         "country": "Italy",
         "team": "Cagliari Calcio",
@@ -64,15 +73,24 @@
     },
     {
         "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
+        "name": "Baldé Diao Keita",
+        "country": "Senegal",
+        "team": "Lazio Roma",
         "goals": "16",
-        "flag": "italy",
-        "logo": "ssc_napoli"
+        "flag": "senegal",
+        "logo": "lazio_roma"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
+        "name": "Alejandro Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "15",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
         "name": "Nikola Kalinić",
         "country": "Croatia",
         "team": "ACF Fiorentina",
@@ -82,24 +100,15 @@
     },
     {
         "rank": "-",
-        "name": "Baldé Diao Keita",
-        "country": "Senegal",
-        "team": "Lazio Roma",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "AS Roma",
         "goals": "15",
-        "flag": "senegal",
-        "logo": "lazio_roma"
+        "flag": "egypt",
+        "logo": "as_roma"
     },
     {
-        "rank": "11.",
-        "name": "Alejandro Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "goals": "14",
-        "flag": "argentina",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Carlos Bacca",
         "country": "Colombia",
         "team": "AC Milan",
@@ -117,15 +126,6 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "AS Roma",
-        "goals": "13",
-        "flag": "egypt",
-        "logo": "as_roma"
-    },
-    {
         "rank": "15.",
         "name": "Diego Falcinelli",
         "country": "Italy",
@@ -135,7 +135,25 @@
         "logo": "fc_crotone"
     },
     {
-        "rank": "16.",
+        "rank": "-",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "Genoa CFC",
+        "goals": "12",
+        "flag": "argentina",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "-",
+        "name": "Cyril Théréau",
+        "country": "France",
+        "team": "Udinese Calcio",
+        "goals": "12",
+        "flag": "france",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "18.",
         "name": "Federico Bernardeschi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -160,23 +178,5 @@
         "goals": "11",
         "flag": "slovakia",
         "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
-        "goals": "11",
-        "flag": "spain",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Radja Nainggolan",
-        "country": "Belgium",
-        "team": "AS Roma",
-        "goals": "11",
-        "flag": "belgium",
-        "logo": "as_roma"
     }
 ]
