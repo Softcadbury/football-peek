@@ -13,7 +13,7 @@
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Olympique Lyon",
-        "goals": "26",
+        "goals": "28",
         "flag": "france",
         "logo": "olympique_lyon"
     },
@@ -31,7 +31,7 @@
         "name": "Bafétimbi Gomis",
         "country": "France",
         "team": "Olympique Marseille",
-        "goals": "19",
+        "goals": "20",
         "flag": "france",
         "logo": "olympique_marseille"
     },
@@ -55,6 +55,15 @@
     },
     {
         "rank": "-",
+        "name": "Kylian Mbappé",
+        "country": "France",
+        "team": "AS Monaco",
+        "goals": "15",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "Ivan Santini",
         "country": "Croatia",
         "team": "SM Caen",
@@ -63,13 +72,13 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "8.",
-        "name": "Kylian Mbappé",
+        "rank": "9.",
+        "name": "Nicolas de Préville",
         "country": "France",
-        "team": "AS Monaco",
+        "team": "Lille OSC",
         "goals": "14",
         "flag": "france",
-        "logo": "as_monaco"
+        "logo": "lille_osc"
     },
     {
         "rank": "-",
@@ -81,7 +90,7 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Benjamin Moukandjo",
         "country": "Cameroon",
         "team": "FC Lorient",
@@ -90,7 +99,7 @@
         "logo": "fc_lorient"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Jimmy Briand",
         "country": "France",
         "team": "EA Guingamp",
@@ -117,7 +126,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Ryad Boudebouz",
         "country": "Algeria",
         "team": "Montpellier HSC",
@@ -133,15 +142,6 @@
         "goals": "11",
         "flag": "denmark",
         "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolas de Préville",
-        "country": "France",
-        "team": "Lille OSC",
-        "goals": "11",
-        "flag": "france",
-        "logo": "lille_osc"
     },
     {
         "rank": "-",
@@ -171,12 +171,12 @@
         "logo": "sc_bastia"
     },
     {
-        "rank": "20.",
-        "name": "Nabil Fekir",
+        "rank": "-",
+        "name": "Valère Germain",
         "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "9",
+        "team": "AS Monaco",
+        "goals": "10",
         "flag": "france",
-        "logo": "olympique_lyon"
+        "logo": "as_monaco"
     }
 ]

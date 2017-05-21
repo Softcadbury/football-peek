@@ -22,7 +22,7 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "goals": "22",
+        "goals": "25",
         "flag": "portugal",
         "logo": "real_madrid"
     },
@@ -31,7 +31,7 @@
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "18",
+        "goals": "19",
         "flag": "spain",
         "logo": "celta_vigo"
     },
@@ -90,7 +90,25 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": " Rubén Castro",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "12.",
+        "name": "Florin Andone",
+        "country": "Romania",
+        "team": "Deportivo La Coruña",
+        "goals": "12",
+        "flag": "romania",
+        "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Gameiro",
         "country": "France",
         "team": "Atlético Madrid",
@@ -108,7 +126,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "13.",
+        "rank": "15.",
         "name": "Cédric Bakambu",
         "country": "Congo DR",
         "team": "Villarreal CF",
@@ -127,12 +145,21 @@
     },
     {
         "rank": "-",
-        "name": " Rubén Castro",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "11",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Juanmi",
         "country": "Spain",
-        "team": "Real Betis",
+        "team": "Real Sociedad",
         "goals": "11",
         "flag": "spain",
-        "logo": "real_betis"
+        "logo": "real_sociedad"
     },
     {
         "rank": "-",
@@ -144,39 +171,12 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "17.",
-        "name": "Florin Andone",
-        "country": "Romania",
-        "team": "Deportivo La Coruña",
-        "goals": "10",
-        "flag": "romania",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
+        "rank": "20.",
         "name": "Kevin-Prince Boateng",
         "country": "Ghana",
         "team": "UD Las Palmas",
         "goals": "10",
         "flag": "ghana",
         "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Ferreira-Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
-        "goals": "10",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Isco",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "real_madrid"
     }
 ]

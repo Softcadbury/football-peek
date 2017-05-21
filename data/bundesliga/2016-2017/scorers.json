@@ -1,21 +1,21 @@
 [
     {
         "rank": "1.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "31",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "2.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
         "goals": "30",
         "flag": "poland",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "2.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "goals": "29",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
     },
     {
         "rank": "3.",
@@ -54,31 +54,31 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "7.",
+        "rank": "-",
         "name": "Max Kruse",
         "country": "Germany",
         "team": "Werder Bremen",
-        "goals": "14",
+        "goals": "15",
         "flag": "germany",
         "logo": "werder_bremen"
     },
     {
         "rank": "8.",
+        "name": "Arjen Robben",
+        "country": "Netherlands",
+        "team": "Bayern München",
+        "goals": "13",
+        "flag": "netherlands",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "9.",
         "name": "Vedad Ibišević",
         "country": "Bosnia-Herzegovina",
         "team": "Hertha BSC",
         "goals": "12",
         "flag": "bosnia_herzegovina",
         "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Arjen Robben",
-        "country": "Netherlands",
-        "team": "Bayern München",
-        "goals": "12",
-        "flag": "netherlands",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "10.",
@@ -88,6 +88,15 @@
         "goals": "11",
         "flag": "germany",
         "logo": "werder_bremen"
+    },
+    {
+        "rank": "-",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "Bayer Leverkusen",
+        "goals": "11",
+        "flag": "mexico",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -117,31 +126,22 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "14.",
-        "name": "Javier Hernández",
-        "country": "Mexico",
-        "team": "Bayer Leverkusen",
+        "rank": "15.",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
         "goals": "10",
-        "flag": "mexico",
-        "logo": "bayer_leverkusen"
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
         "name": "Guido Burgstaller",
         "country": "Austria",
         "team": "FC Schalke 04",
         "goals": "9",
         "flag": "austria",
         "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "9",
-        "flag": "germany",
-        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -154,6 +154,15 @@
     },
     {
         "rank": "18.",
+        "name": "Fin Bartels",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "-",
         "name": "Emil Forsberg",
         "country": "Sweden",
         "team": "RB Leipzig",
@@ -169,14 +178,5 @@
         "goals": "8",
         "flag": "guinea",
         "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Ádám Szalai",
-        "country": "Hungary",
-        "team": "1899 Hoffenheim",
-        "goals": "8",
-        "flag": "hungary",
-        "logo": "1899_hoffenheim"
     }
 ]
