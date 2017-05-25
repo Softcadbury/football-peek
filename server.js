@@ -10,7 +10,6 @@ var app = express();
 // Middlewares configuration
 var oneWeek = 604800000;
 app.use(compression());
-app.use(express.static('client/statics'));
 app.use(express.static('client/images', { maxAge: oneWeek }));
 app.use(express.static('dist', { maxAge: oneWeek }));
 
