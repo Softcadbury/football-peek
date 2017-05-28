@@ -1,5 +1,9 @@
 'use strict';
 
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('/service-worker.js');
+}
+
 document.onkeydown = function (e) {
     switch (e.keyCode) {
         case 37:
