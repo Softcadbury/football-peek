@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "11",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
@@ -36,13 +45,22 @@
         "logo": "as_roma"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
         "assists": "10",
         "flag": "italy",
         "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": " Felipe Anderson",
+        "country": "Brazil",
+        "team": "Lazio Roma",
+        "assists": "10",
+        "flag": "brazil",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -63,16 +81,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "8.",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "9",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -88,15 +97,6 @@
         "assists": "9",
         "flag": "spain",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": " Felipe Anderson",
-        "country": "Brazil",
-        "team": "Lazio Roma",
-        "assists": "9",
-        "flag": "brazil",
-        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -145,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Miralem Pjanić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Juventus",
+        "assists": "9",
+        "flag": "bosnia_herzegovina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
@@ -153,7 +162,7 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "18.",
+        "rank": "19.",
         "name": " Iago Falqué",
         "country": "Spain",
         "team": "Torino FC",
@@ -169,14 +178,5 @@
         "assists": "8",
         "flag": "czech_republic",
         "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Adem Ljajić",
-        "country": "Serbia",
-        "team": "Torino FC",
-        "assists": "8",
-        "flag": "serbia",
-        "logo": "torino_fc"
     }
 ]

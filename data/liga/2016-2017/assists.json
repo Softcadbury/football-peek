@@ -19,15 +19,6 @@
     },
     {
         "rank": "3.",
-        "name": " Marcelo",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "11",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "FC Barcelona",
@@ -36,7 +27,16 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "5.",
+        "rank": "4.",
+        "name": " Marcelo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "10",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Pablo Piatti",
         "country": "Argentina",
         "team": "Espanyol Barcelona",
@@ -54,16 +54,16 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
-        "name": " Pablo Sarabia",
-        "country": "Spain",
-        "team": "Sevilla FC",
-        "assists": "9",
-        "flag": "spain",
-        "logo": "sevilla_fc"
+        "rank": "7.",
+        "name": "Ángel Correa",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "assists": "8",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
     },
     {
-        "rank": "8.",
+        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -99,16 +99,16 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "12.",
-        "name": "Ángel Correa",
-        "country": "Argentina",
-        "team": "Atlético Madrid",
-        "assists": "7",
-        "flag": "argentina",
-        "logo": "atletico_madrid"
+        "rank": "-",
+        "name": " Pablo Sarabia",
+        "country": "Spain",
+        "team": "Sevilla FC",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "sevilla_fc"
     },
     {
-        "rank": "-",
+        "rank": "13.",
         "name": " Jonathan Viera",
         "country": "Spain",
         "team": "UD Las Palmas",
@@ -154,6 +154,15 @@
     },
     {
         "rank": "18.",
+        "name": "Emre Çolak",
+        "country": "Turkey",
+        "team": "Deportivo La Coruña",
+        "assists": "6",
+        "flag": "turkey",
+        "logo": "deportivo_la_coruna"
+    },
+    {
+        "rank": "-",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
@@ -169,14 +178,5 @@
         "assists": "6",
         "flag": "brazil",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Jordi Alba",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "fc_barcelona"
     }
 ]
