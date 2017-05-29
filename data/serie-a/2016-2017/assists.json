@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "13",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "13",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "AS Roma",
@@ -9,7 +27,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "2.",
+        "rank": "4.",
         "name": "Alejandro Gómez",
         "country": "Argentina",
         "team": "Atalanta",
@@ -18,31 +36,13 @@
         "logo": "atalanta"
     },
     {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "assists": "12",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Domenico Berardi",
         "country": "Italy",
         "team": "Sassuolo Calcio",
         "assists": "11",
         "flag": "italy",
         "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "assists": "11",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
     },
     {
         "rank": "6.",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "10",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
@@ -81,7 +90,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -106,15 +115,6 @@
         "assists": "9",
         "flag": "argentina",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "assists": "9",
-        "flag": "italy",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -154,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Kevin Strootman",
+        "country": "Netherlands",
+        "team": "AS Roma",
+        "assists": "9",
+        "flag": "netherlands",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
@@ -162,21 +171,12 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "19.",
+        "rank": "20.",
         "name": " Iago Falqué",
         "country": "Spain",
         "team": "Torino FC",
         "assists": "8",
         "flag": "spain",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ladislav Krejčí",
-        "country": "Czech Republic",
-        "team": "Bologna FC",
-        "assists": "8",
-        "flag": "czech_republic",
-        "logo": "bologna_fc"
     }
 ]
