@@ -45,7 +45,25 @@
         "logo": "sassuolo_calcio"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Marek Hamšík",
+        "country": "Slovakia",
+        "team": "SSC Napoli",
+        "assists": "11",
+        "flag": "slovakia",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "7.",
+        "name": " Borja Valero",
+        "country": "Spain",
+        "team": "ACF Fiorentina",
+        "assists": "10",
+        "flag": "spain",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
@@ -61,15 +79,6 @@
         "assists": "10",
         "flag": "brazil",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Marek Hamšík",
-        "country": "Slovakia",
-        "team": "SSC Napoli",
-        "assists": "10",
-        "flag": "slovakia",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -90,7 +99,16 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "assists": "9",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -100,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": " Borja Valero",
+        "name": " Iago Falqué",
         "country": "Spain",
-        "team": "ACF Fiorentina",
+        "team": "Torino FC",
         "assists": "9",
         "flag": "spain",
-        "logo": "acf_fiorentina"
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Kevin Strootman",
-        "country": "Netherlands",
-        "team": "AS Roma",
-        "assists": "9",
-        "flag": "netherlands",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
         "assists": "9",
         "flag": "spain",
         "logo": "ac_milan"
-    },
-    {
-        "rank": "20.",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
-        "assists": "8",
-        "flag": "spain",
-        "logo": "torino_fc"
     }
 ]
