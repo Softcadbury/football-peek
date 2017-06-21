@@ -8,8 +8,8 @@ router.route('/manifest.json')
         res.setHeader('Content-Type', 'application/json');
         res.send(JSON.stringify({
             'short_name': 'DashFoot',
-            'name': 'Dashboard Football',
-            'start_url': 'dashboardfootball.com',
+            'name': 'Football Peek',
+            'start_url': 'footballpeek.com',
             'display': 'standalone',
             'theme_color': '#004365',
             'background_color': '#004365',
