@@ -15,19 +15,19 @@ router.route('/manifest.json')
             'background_color': '#004365',
             'icons': [
                 {
-                    'src': '/trophy-logo-48x48.png',
+                    'src': '/icon-48x48.png',
                     'type': 'image/png',
                     'sizes': '48x48'
                 },
                 {
-                    'src': '/trophy-logo-128x128.png',
+                    'src': '/icon-128x128.png',
                     'type': 'image/png',
                     'sizes': '128x128'
                 },
                 {
-                    'src': '/trophy-logo-200x200.png',
+                    'src': '/icon-512x512.png',
                     'type': 'image/png',
-                    'sizes': '200x200'
+                    'sizes': '512x512'
                 }
             ]
         }, null, 3));
