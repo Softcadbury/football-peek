@@ -6,7 +6,7 @@ var sm = require('sitemap');
 var express = require('express');
 var router = express.Router();
 
-var sitemap = sm.createSitemap({ hostname: 'http://dashboardfootball.com', cacheTime: 600000 });
+var sitemap = sm.createSitemap({ hostname: 'https://footballpeek.com/', cacheTime: 600000 });
 sitemap.add({ url: '', changefreq: 'daily' });
 
 items.forEach(item => {

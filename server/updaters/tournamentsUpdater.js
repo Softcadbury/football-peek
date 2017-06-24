@@ -65,7 +65,7 @@ function parseRound(itemExtended, results, roundIndex) {
                     }
 
                     currentMatches.push({
-                        date: $(elem).find('td:nth-child(1)').text(), 
+                        date: $(elem).find('td:nth-child(1)').text(),
                         team1: team1,
                         team2: team2,
                         score: score,

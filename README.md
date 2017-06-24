@@ -1,10 +1,12 @@
-# Dashboard Football - <a href="https://dashboardfootball.com">Try it !</a>
+# Football Peek - <a href="https://footballpeek.com/">Try it !</a>
 
 ## Description
 
-Quickly access to football results, tables, top scorers and top assists of major leagues (Bundesliga, Liga, Ligue 1, Premier League and Serie A) and competitions (Champions League and Europa League).
+Football Peek is the quickest access to football resutls.
 
-All Data comes from http://www.worldfootball.net. The Trello to present current and futur developments can be found <a href="https://trello.com/b/Zf9OTx1Q/public-trello-dashboardfootball-com">here</a>. 
+It gives you an overview of football results, tables, top scorers and top assists of the major leagues (Bundesliga, Liga, Ligue 1, Premier League and Serie A) and competitions (Champions League and Europa League).
+
+All Data comes from http://www.worldfootball.net. The Trello to present current and future developments can be found <a href="hhttps://trello.com/b/Zf9OTx1Q/football-peek">here</a>. 
 
 ## Screenshot
 
