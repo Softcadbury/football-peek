@@ -5,8 +5,8 @@ var express = require('express');
 var router = express.Router();
 
 var data = {
-    title: 'Dashboard Football - Quick access to football results',
-    description: 'Quick access to football results, tables, top scorers and top assists from major leagues and competitions',
+    title: 'Football Peek - The quickest access to football results',
+    description: 'Access football results, tables, top scorers and top assists from the major leagues and competitions',
     items: items
 };
 

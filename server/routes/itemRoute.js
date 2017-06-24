@@ -13,8 +13,8 @@ router.route('/:item/:year?/:roundOrGroup?')
         var requestedRoundOrGroup = req.params.roundOrGroup;
 
         var data = {
-            title: 'Dashboard Football - ' + requestedItem.name + ' results - Season ' + requestedYear,
-            description: 'Quick access to ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedYear,
+            title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedYear,
+            description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedYear,
             items: items,
             years: config.years.availables,
             requestedItem: requestedItem,

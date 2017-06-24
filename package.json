@@ -1,7 +1,7 @@
 {
   "name": "football",
-  "version": "1.0.0",
-  "repository": "https://github.com/Softcadbury/DashboardFootball.git",
+  "version": "2.0.0",
+  "repository": "https://github.com/Softcadbury/football-peek.git",
   "author": "Softcadbury <romain.parage@gmail.com>",
   "license": "MIT",
   "main": "server.js",
@@ -10,7 +10,7 @@
   },
   "engines": {
     "node": ">=6.0",
-    "npm": ">=3.0"
+    "npm": ">=4.0"
   },
   "devDependencies": {
     "chai": "4.0.1",
