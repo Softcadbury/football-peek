@@ -13,12 +13,12 @@
     "npm": ">=4.0"
   },
   "devDependencies": {
-    "chai": "4.0.1",
+    "chai": "4.0.2",
     "css-loader": "0.28.4",
-    "extract-text-webpack-plugin": "2.1.0",
-    "file-loader": "0.11.1",
+    "extract-text-webpack-plugin": "2.1.2",
+    "file-loader": "0.11.2",
     "gulp": "3.9.1",
-    "gulp-eslint": "3.0.1",
+    "gulp-eslint": "4.0.0",
     "gulp-imagemin": "3.3.0",
     "gulp-inject": "4.2.0",
     "gulp-mocha": "4.3.1",
@@ -29,10 +29,10 @@
     "less-loader": "4.0.4",
     "mocha": "3.4.2",
     "rimraf": "2.6.1",
-    "style-loader": "0.18.1",
-    "webpack": "2.6.1",
+    "style-loader": "0.18.2",
+    "webpack": "3.0.0",
     "webpack-stream": "3.2.0",
-    "yargs": "8.0.1"
+    "yargs": "8.0.2"
   },
   "dependencies": {
     "cheerio": "0.22.0",
