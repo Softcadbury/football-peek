@@ -1,11 +1,11 @@
 'use strict';
 
 var gulp = require('gulp');
+var config = require('./server/config');
 
 // Updates data
 // Format: gulp up -l [lague small name] -c [competition small name]
 gulp.task('up', () => {
-    var config = require('./server/config');
     config.downloadImages = true;
 
     var argv = require('yargs').argv;
@@ -133,7 +133,7 @@ gulp.task('start', () => {
         script: 'server.js',
         delayTime: 1,
         env: {
-            'PORT': 5000
+            'PORT': config.port
         },
         watch: ['server.js']
     };
@@ -149,7 +149,7 @@ gulp.task('default', ['inject', 'start'], () => {
 
     var openBrowser = require('gulp-open');
     gulp.src('/').pipe(openBrowser({
-        uri: '127.0.0.1:5000',
+        uri: '127.0.0.1:' + config.port,
         app: 'chrome'
     }));
 });
