@@ -123,7 +123,7 @@ gulp.task('inject', ['build'], () => {
         }), {
             ignorePath: 'dist'
         }))
-        .pipe(gulp.dest('./client/views'));
+        .pipe(gulp.dest('./client/views/commons'));
 });
 
 // Start the node server
