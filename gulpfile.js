@@ -76,7 +76,7 @@ gulp.task('build', ['clean'], () => {
     var webpackStream = require('webpack-stream');
     var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-    return gulp.src(['client/scripts/app.js', 'client/styles/index.less'])
+    return gulp.src(['client/scripts/app.js', 'client/styles/app.less'])
         .pipe(webpackStream({
             devtool: 'source-map',
             module: {
