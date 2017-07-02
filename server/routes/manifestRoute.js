@@ -7,7 +7,7 @@ router.route('/manifest.json')
     .get((req, res) => {
         res.setHeader('Content-Type', 'application/json');
         res.send(JSON.stringify({
-            'short_name': 'Foot Peek',
+            'short_name': 'Football Peek',
             'name': 'Football Peek',
             'start_url': 'footballpeek.com',
             'display': 'standalone',
