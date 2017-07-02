@@ -117,7 +117,7 @@ gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
-    return gulp.src('./client/views/_layout.ejs')
+    return gulp.src('./client/views/commons/_layout.ejs')
         .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
             read: false
         }), {
