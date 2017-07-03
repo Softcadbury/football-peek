@@ -11,7 +11,7 @@ router.route('/manifest.json')
             'name': 'Football Peek',
             'start_url': 'footballpeek.com',
             'display': 'standalone',
-            'theme_color': '#00838f',
+            'theme_color': '#074c72',
             'background_color': '#00838f',
             'icons': [
                 {
