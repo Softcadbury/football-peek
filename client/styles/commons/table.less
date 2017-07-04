@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    tr {
+        border-bottom: 1px solid #d0d0d0;
+    }
+    th {
+        &.main {
+            text-align: left;
+            padding: 5px 5px;
+        }
+    }
+    td {
+        vertical-align: top;
+        padding: 5px 5px;
+        max-width: 30px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        &.main {
+            text-align: left;
+        }
+        &.main-small {
+            width: 20%;
+        }
+        &.main-big {
+            width: 30%;
+        }
+        span {
+            margin-top: 2px;
+            &.is-winner {
+                text-decoration: underline;
+            }
+        }
+    }
+    .icon-flag,
+    .icon-logo {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .icon-flag {
+        margin-top: 4px;
+    }
+}
