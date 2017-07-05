@@ -1,43 +1,45 @@
 <% if (scorersData.length) { %>
-    <div class="component-container">
-        <table class="component">
-            <tr>
-                <td colspan="5">
-                    <div class="component-title">
-                        <h3>Top Scorers</h3>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th title="Position">#</th>
-                <th class="component-column-main" title="Player name">Name</th>
-                <th class="component-column-main" title="Country">Country</th>
-                <th class="component-column-main" title="Team">Team</th>
-                <th title="Goals">Goals</th>
-            </tr>
-            <% scorersData.forEach((scorer) => { %>
+    <div class="card component">
+        <h3>Top Scorer</h3>
+        <table>
+            <thead>
                 <tr>
-                    <td><%= scorer.rank %></td>
-                    <td class="component-column-main">
-                        <span title="<%= scorer.name %>">
-                            <%= scorer.name %>
-                        </span>
-                    </td>
-                    <td class="component-column-main component-column-country">
-                        <div class="icon-flag icon-<%= scorer.flag %>" title="<%= scorer.country %>"></div>
-                        <span title="<%= scorer.country %>">
-                            <%= scorer.country %>
-                        </span>
-                    </td>
-                    <td class="component-column-main">
-                        <div class="icon-logo icon-<%= scorer.logo %>" title="<%= scorer.team %>"></div>
-                        <span title="<%= scorer.team %>">
-                            <%= scorer.team %>
-                        </span>
-                    </td>
-                    <td><%= scorer.goals %></td>
+                    <th title="Position">#</th>
+                    <th class="main" title="Player name">Name</th>
+                    <th class="main" title="Country" colspan="2">Country</th>
+                    <th class="main" title="Team" colspan="2">Team</th>
+                    <th title="Goals">Goals</th>
                 </tr>
-            <% }); %>
+            </thead>
+            <tbody>
+                <% scorersData.forEach((scorer) => { %>
+                    <tr>
+                        <td><%= scorer.rank %></td>
+                        <td class="main main-big">
+                            <span title="<%= scorer.name %>">
+                                <%= scorer.name %>
+                            </span>
+                        </td>
+                        <td>
+                            <div class="icon-flag icon-<%= scorer.flag %>" title="<%= scorer.country %>"></div>
+                        </td>
+                        <td class="main main-small">
+                            <span title="<%= scorer.country %>">
+                                <%= scorer.country %>
+                            </span>
+                        </td>
+                        <td>
+                            <div class="icon-logo icon-<%= scorer.logo %>" title="<%= scorer.team %>"></div>
+                        </td>
+                        <td class="main main-big">
+                            <span title="<%= scorer.team %>">
+                                <%= scorer.team %>
+                            </span>
+                        </td>
+                        <td><%= scorer.goals %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
         </table>
     </div>
 <% } %>
