@@ -1,18 +1,19 @@
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    tr {
+    tr:not(:last-child),
+    tr:first-child {
         border-bottom: 1px solid #d0d0d0;
     }
     th {
+        padding: 5px 2px;
         &.main {
             text-align: left;
-            padding: 5px 5px;
         }
     }
     td {
         vertical-align: top;
-        padding: 5px 5px;
+        padding: 5px 2px;
         max-width: 30px;
         overflow: hidden;
         text-overflow: ellipsis;
