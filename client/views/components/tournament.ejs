@@ -1,22 +1,18 @@
 <% if (tournamentData.length) { %>
-    <div class="component-container">
-        <table class="component">
-            <% tournamentData.forEach((round) => { %>
-                <% if (round.matches.length) { %>
-                    <tr>
-                        <td colspan="3">
-                            <div class="component-title">
-                                <h3><%= round.name %></h3>
-                            </div>
-                        </td>
-                    </tr>
-                <% } %>
+    <div class="card component">
+        <% tournamentData.forEach((round) => { %>
+            <% if (round.matches.length) { %>
+                <h3><%= round.name %></h3>
+            <% } %>
+            <table>
                 <% round.matches.forEach((matche) => { %>
                     <tr>
-                        <td class="component-column-main component-column-right">
+                        <td class="main main-big">
                             <span class="<%= matche.team1 == matche.winner ? 'is-winner' : '' %>" title="<%= matche.team1 %>">
                                 <%= matche.team1 %>
                             </span>
+                        </td>
+                        <td>
                             <div class="icon-logo icon-<%= matche.team1Logo %>" title="<%= matche.team1 %>"></div>
                         </td>
                         <td class="component-column-score">
@@ -40,15 +36,17 @@
                                     team2: matche.team2 }); %>
                             <% } %>
                         </td>
-                        <td class="component-column-main">
+                        <td>
                             <div class="icon-logo icon-<%= matche.team2Logo %>" title="<%= matche.team2 %>"></div>
+                        </td>
+                        <td class="component-column-main">
                             <span class="<%= matche.team2 == matche.winner ? 'is-winner' : '' %>" title="<%= matche.team2 %>">
                                 <%= matche.team2 %>
                             </span>
                         </td>
                     </tr>
                 <% }); %>
-            <% }); %>
-        </table>
+            </table>
+        <% }); %>
     </div>
 <% } %>
