@@ -5,7 +5,7 @@
     </div>
     <div class="cards">
         <% items.forEach((item) => { %>
-            <a class="card" href="/<%= item.code %>">
+            <a class="card card-clickable" href="/<%= item.code %>">
                 <div class="card-icon icon-<%= item.code %>"></div>
                 <div class="card-title">
                     <h2><%= item.name %></h2>
