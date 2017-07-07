@@ -5,7 +5,7 @@
             <thead>
                 <tr>
                     <th class="data-min" title="Position">#</th>
-                    <th class="data-40" title="Player name">Name</th>
+                    <th class="data-50" title="Player name">Name</th>
                     <th class="data-min" title="Country">Country</th>
                     <th class="data-15"></th>
                     <th class="data-min" title="Team">Team</th>
@@ -16,9 +16,7 @@
             <tbody>
                 <% scorersData.forEach((scorer) => { %>
                     <tr>
-                        <td class="data-min">
-                            <%= scorer.rank %>
-                        </td>
+                        <td class="data-min"><%= scorer.rank %></td>
                         <td class="data-50">
                             <span title="<%= scorer.name %>">
                                 <%= scorer.name %>
@@ -40,9 +38,7 @@
                                 <%= scorer.team %>
                             </span>
                         </td>
-                        <td class="data-min">
-                            <%= scorer.goals %>
-                        </td>
+                        <td class="data-min"><%= scorer.goals %></td>
                     </tr>
                 <% }); %>
             </tbody>
