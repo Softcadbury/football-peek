@@ -1,6 +1,7 @@
 .component {
     max-width: 470px;
     margin: 0 8px 22px;
+    padding: 10px 0 5px !important;
     h3 {
         margin: 3px 0 8px;
     }
@@ -9,42 +10,45 @@
 .component-table {
     border-collapse: collapse;
     border-spacing: 0;
+    table-layout: fixed;
     width: 100%;
     tr:not(:last-child),
     tr:first-child {
         border-bottom: 1px solid #d0d0d0;
     }
-    th {
+    th,
+    td {
         padding: 5px 2px;
-        &.main {
-            text-align: left;
-        }
+        text-align: left;
     }
     td {
         vertical-align: top;
-        padding: 5px 2px;
-        max-width: 25px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        &.main {
-            text-align: left;
-        }
-        &.main-1 {
-            width: 20%;
-        }
-        &.main-2 {
-            width: 30%;
-        }
-        &.main-3 {
-            width: 40%;
-        }
         span {
             margin-top: 2px;
             &.is-winner {
                 text-decoration: underline;
             }
         }
+    }
+    .data-min {
+        width: 24px;
+        text-align: center;
+    }
+    .data-15 {
+        width: 15%;
+    }
+    .data-30 {
+        width: 30%;
+    }
+    .data-50 {
+        width: 50%;
+    }
+    .overflow-to-left {
+        direction: rtl;
+        padding-right: 5px;
     }
     .icon-flag,
     .icon-logo {

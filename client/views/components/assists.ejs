@@ -4,39 +4,45 @@
         <table class="component-table">
             <thead>
                 <tr>
-                    <th title="Position">#</th>
-                    <th class="main" title="Player name">Name</th>
-                    <th class="main" title="Country" colspan="2">Country</th>
-                    <th class="main" title="Team" colspan="2">Team</th>
-                    <th title="Assists">Assists</th>
+                    <th class="data-min" title="Position">#</th>
+                    <th class="data-40" title="Player name">Name</th>
+                    <th class="data-min" title="Country">Country</th>
+                    <th class="data-15"></th>
+                    <th class="data-min" title="Team">Team</th>
+                    <th class="data-30"></th>
+                    <th class="data-min overflow-to-left" title="Assists">Assists</th>
                 </tr>
             </thead>
             <tbody>
                 <% assistsData.forEach((assist) => { %>
                     <tr>
-                        <td><%= assist.rank %></td>
-                        <td class="main main-3">
+                        <td class="data-min">
+                            <%= assist.rank %>
+                        </td>
+                        <td class="data-50">
                             <span title="<%= assist.name %>">
                                 <%= assist.name %>
                             </span>
                         </td>
-                        <td>
+                        <td class="data-min">
                             <div class="icon-flag icon-<%= assist.flag %>" title="<%= assist.country %>"></div>
                         </td>
-                        <td class="main main-1">
+                        <td class="data-15">
                             <span title="<%= assist.country %>">
                                 <%= assist.country %>
                             </span>
                         </td>
-                        <td>
+                        <td class="data-min">
                             <div class="icon-logo icon-<%= assist.logo %>" title="<%= assist.team %>"></div>
                         </td>
-                        <td class="main main-2">
+                        <td class="data-30">
                             <span title="<%= assist.team %>">
                                 <%= assist.team %>
                             </span>
                         </td>
-                        <td><%= assist.assists %></td>
+                        <td class="data-min">
+                            <%= assist.assists %>
+                        </td>
                     </tr>
                 <% }); %>
             </tbody>
