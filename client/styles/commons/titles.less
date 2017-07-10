@@ -28,7 +28,7 @@
     h1 {
         font-size: 28px;
         margin: 0;
-        padding: 15px 0 15px 6px;
+        padding: 15px 0 0 6px;
     }
     select,
     option {
@@ -36,5 +36,14 @@
         text-transform: capitalize;
         margin: 19px 5px 0;
         padding: 0 3px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        h1 {
+            font-size: 22px;
+            padding: 18px 0 0 0;
+        }
     }
 }
