@@ -4,48 +4,50 @@
             <% if (round.matches.length) { %>
                 <h3><%= round.name %></h3>
             <% } %>
-            <table>
-                <% round.matches.forEach((matche) => { %>
-                    <tr>
-                        <td class="main main-big">
-                            <span class="<%= matche.team1 == matche.winner ? 'is-winner' : '' %>" title="<%= matche.team1 %>">
-                                <%= matche.team1 %>
-                            </span>
-                        </td>
-                        <td>
-                            <div class="icon-logo icon-<%= matche.team1Logo %>" title="<%= matche.team1 %>"></div>
-                        </td>
-                        <td class="component-column-score">
-                            <% if (matche.score) { %>
-                                <%- include('score', {
-                                    date: matche.date,
-                                    score: matche.score,
-                                    team1: matche.team1,
-                                    team2: matche.team2 }); %>
-                            <% } else { %>
-                                <%- include('score', {
-                                    date: matche.date1,
-                                    score: matche.score1,
-                                    team1: matche.team1,
-                                    team2: matche.team2 }); %>
-                                <span class="score-separation">-</span>
-                                <%- include('score', {
-                                    date: matche.date2,
-                                    score: matche.score2,
-                                    team1: matche.team1,
-                                    team2: matche.team2 }); %>
-                            <% } %>
-                        </td>
-                        <td>
-                            <div class="icon-logo icon-<%= matche.team2Logo %>" title="<%= matche.team2 %>"></div>
-                        </td>
-                        <td class="component-column-main">
-                            <span class="<%= matche.team2 == matche.winner ? 'is-winner' : '' %>" title="<%= matche.team2 %>">
-                                <%= matche.team2 %>
-                            </span>
-                        </td>
-                    </tr>
-                <% }); %>
+            <table class="component-table">
+                <tbody>
+                    <% round.matches.forEach((matche) => { %>
+                        <tr>
+                            <td class="align-to-right">
+                                <span class="<%= matche.team1 == matche.winner ? 'is-winner' : '' %>" title="<%= matche.team1 %>">
+                                    <%= matche.team1 %>
+                                </span>
+                            </td>
+                            <td class="data-min">
+                                <div class="icon-logo icon-<%= matche.team1Logo %>" title="<%= matche.team1 %>"></div>
+                            </td>
+                            <td class="data-score">
+                                <% if (matche.score) { %>
+                                    <%- include('score', {
+                                        date: matche.date,
+                                        score: matche.score,
+                                        team1: matche.team1,
+                                        team2: matche.team2 }); %>
+                                <% } else { %>
+                                    <%- include('score', {
+                                        date: matche.date1,
+                                        score: matche.score1,
+                                        team1: matche.team1,
+                                        team2: matche.team2 }); %>
+                                    <span class="score-separation">-</span>
+                                    <%- include('score', {
+                                        date: matche.date2,
+                                        score: matche.score2,
+                                        team1: matche.team1,
+                                        team2: matche.team2 }); %>
+                                <% } %>
+                            </td>
+                            <td class="data-min">
+                                <div class="icon-logo icon-<%= matche.team2Logo %>" title="<%= matche.team2 %>"></div>
+                            </td>
+                            <td>
+                                <span class="<%= matche.team2 == matche.winner ? 'is-winner' : '' %>" title="<%= matche.team2 %>">
+                                    <%= matche.team2 %>
+                                </span>
+                            </td>
+                        </tr>
+                    <% }); %>
+                </tbody>
             </table>
         <% }); %>
     </div>
