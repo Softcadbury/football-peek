@@ -22,7 +22,7 @@
                         <% var currentDate; %>
                         <% result.matches.forEach((matche) => { %>
                             <tr>
-                                <td class="data-date">
+                                <td class="data-date data-hide">
                                     <% if (currentDate !== matche.date) { %>
                                         <%= matche.date %>
                                         <% currentDate = matche.date; %>
