@@ -17,7 +17,7 @@ app.use(express.static('dist', { maxAge: oneWeek }));
 // Handlebars configuration
 app.set('views', 'client/views');
 app.set('view engine', '.ejs');
-app.set('layout', '_layout');
+app.set('layout', 'commons/_layout');
 app.use(expressLayouts);
 
 // Starts application listening

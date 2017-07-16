@@ -12,7 +12,7 @@ var data = {
 
 router.route('/')
     .get((req, res) => {
-        res.render('home', data);
+        res.render('pages/home', data);
     });
 
 module.exports = router;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon-apple.png">
+
+    <meta name="theme-color" content="#074c72">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Football Peek">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Football Peek">
+
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= description %>">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://footballpeek.com/icon-512x512.png">
+
+    <meta property="og:title" content="<%= title %>" />
+    <meta property="og:description" content="<%= description %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Football Peek" />
+    <meta property="og:url" content="https://footballpeek.com" />
+    <meta property="og:image" content="https://footballpeek.com/icon-512x512.png" />
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:width" content="512">
+    <meta property="fb:app_id" content="297809827273101" />
+
+    <meta itemprop="name" content="<%= title %>">
+    <meta itemprop="description" content="<%= description %>">
+    <meta itemprop="image" content="https://footballpeek.com/icon-512x512.png">
+
+    <meta name="google-site-verification" content="hym2iRq2xcev3t1ukGgCr_ElURihWq27JBn83IzXHKQ" />
+    <meta name="google-site-verification" content="aATT_f6PldxBk3EryS4fOnpyPi1bKXBaY65XXP8qLxU" />
+    <meta name="msvalidate.01" content="4D14DCE33A7CA61F72054A4F9D6A4A04" />
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/style.bundle.8cc80ee3abb9fde2b4cf.css">
+    <!-- endinject -->
+</head>
+<body>
+    <div id="app">
+        <%- include('header') %>
+        <section>
+            <%- body %>
+        </section>
+    </div>
+    <%- include('footer') %>
+    <!-- inject:js -->
+    <script src="/script.bundle.8cc80ee3abb9fde2b4cf.js" async></script>
+    <!-- endinject -->
+</body>
+</html>

@@ -1,0 +1,5 @@
+<select onchange="location = this.value;" aria-label="Years">
+    <% years.forEach((year) => { %>
+        <option value="/<%= requestedItem.code %>/<%= year %>" <%= year == requestedYear ? 'selected="selected"' : '' %> ><%= year %></option>
+    <% }); %>
+</select>

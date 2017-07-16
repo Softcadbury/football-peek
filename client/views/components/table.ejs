@@ -1,44 +1,45 @@
 <% if (tableData.length) { %>
-    <div class="component-container">
-        <table class="component">
-            <tr>
-                <td colspan="10">
-                    <div class="component-title">
-                        <h3>Table</h3>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th title="Position">#</th>
-                <th class="component-column-main" title="Team">Team</th>
-                <th title="Points">Pts</th>
-                <th title="Matches played">Pld</th>
-                <th title="Matches won">W</th>
-                <th title="Matches drawn">D</th>
-                <th title="Matches lost">L</th>
-                <th title="Goals for">F</th>
-                <th title="Goals against">A</th>
-                <th title="Goal differencence">+/-</th>
-            </tr>
-            <% tableData.forEach((row) => { %>
+    <div class="card component">
+        <h3 class="component-title">Table</h3>
+        <table class="component-table">
+            <thead>
                 <tr>
-                    <td><%= row.rank %></td>
-                    <td class="component-column-main">
-                        <div class="icon-logo icon-<%= row.logo %>" title="<%= row.team %>"></div>
-                        <span title="<%= row.team %>">
-                            <%= row.team %>
-                        </span>
-                    </td>
-                    <td><%= row.points %></td>
-                    <td><%= row.played %></td>
-                    <td><%= row.win %></td>
-                    <td><%= row.draw %></td>
-                    <td><%= row.lost %></td>
-                    <td><%= row.goalsFor %></td>
-                    <td><%= row.goalsAgainst %></td>
-                    <td><%= row.goalDifference %></td>
+                    <th class="data-min" title="Position">#</th>
+                    <th class="data-min" title="Team">Team</th>
+                    <th></th>
+                    <th class="data-min" title="Points">Pts</th>
+                    <th class="data-min" title="Matches played">Pld</th>
+                    <th class="data-min" title="Matches won">W</th>
+                    <th class="data-min" title="Matches drawn">D</th>
+                    <th class="data-min" title="Matches lost">L</th>
+                    <th class="data-min data-hide" title="Goals for">F</th>
+                    <th class="data-min data-hide" title="Goals against">A</th>
+                    <th class="data-min" title="Goal differencence">+/-</th>
                 </tr>
-            <% }); %>
+            </thead>
+            <tbody>
+                <% tableData.forEach((row) => { %>
+                    <tr>
+                        <td class="data-min"><%= row.rank %></td>
+                        <td class="data-min">
+                            <div class="icon-logo icon-<%= row.logo %>" title="<%= row.team %>"></div>
+                        </td>
+                        <td>
+                            <span title="<%= row.team %>">
+                                <%= row.team %>
+                            </span>
+                        </td>
+                        <td class="data-min"><%= row.points %></td>
+                        <td class="data-min"><%= row.played %></td>
+                        <td class="data-min"><%= row.win %></td>
+                        <td class="data-min"><%= row.draw %></td>
+                        <td class="data-min"><%= row.lost %></td>
+                        <td class="data-min data-hide"><%= row.goalsFor %></td>
+                        <td class="data-min data-hide"><%= row.goalsAgainst %></td>
+                        <td class="data-min"><%= row.goalDifference %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
         </table>
     </div>
 <% } %>

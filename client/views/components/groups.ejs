@@ -1,103 +1,102 @@
 <% if (groupsData.length) { %>
-    <div class="component-container">
-        <table class="component">
-            <tr>
-                <td colspan="5">
-                    <div class="component-title">
-                        <% if (previousAndNextGroupUrls.previous) { %>
-                            <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous group"></a>
-                        <% } %>
-                        <select onchange="location = this.value;" aria-label="Groups">
-                            <% groupsData.forEach((group) => { %>
-                                <option
-                                    value="/<%= requestedItem.code %>/<%= requestedYear %>/<%= group.name %>"
-                                    <%= group.name == requestedGroup ? 'selected="selected"' : '' %> >Group <%= group.name %></option>
-                            <% }); %>
-                        </select>
-                        <% if (previousAndNextGroupUrls.next) { %>
-                            <a class="icon-right-open" href="<%= previousAndNextGroupUrls.next %>" title="Next group"></a>
-                        <% } %>
-                    </div>
-                </td>
-            </tr>
-            <% groupsData.forEach((group, index) => { %>
-                <% if (group.name === requestedGroup) { %>
-                    <tr class="group-content">
-                        <td colspan="5" class="table-container">
-                            <table>
-                                <tr>
-                                    <th title="Position">#</th>
-                                    <th class="component-column-main" title="Team">Team</th>
-                                    <th title="Points">Pts</th>
-                                    <th title="Matches played">Pld</th>
-                                    <th title="Matches won">W</th>
-                                    <th title="Matches drawn">D</th>
-                                    <th title="Matches lost">L</th>
-                                    <th title="Goals for">F</th>
-                                    <th title="Goals against">A</th>
-                                    <th title="Goal differencence">+/-</th>
-                                </tr>
-                                <% group.table.forEach((row) => { %>
-                                    <tr>
-                                        <td><%= row.rank %></td>
-                                        <td class="component-column-main">
-                                            <div class="icon-logo icon-<%= row.logo %>" title="<%= row.team %>"></div>
-                                            <span title="<%= row.team %>">
-                                                <%= row.team %>
-                                            </span>
-                                        </td>
-                                        <td><%= row.points %></td>
-                                        <td><%= row.played %></td>
-                                        <td><%= row.win %></td>
-                                        <td><%= row.draw %></td>
-                                        <td><%= row.lost %></td>
-                                        <td><%= row.goalsFor %></td>
-                                        <td><%= row.goalsAgainst %></td>
-                                        <td><%= row.goalDifference %></td>
-                                    </tr>
-                                <% }); %> 
-                            </table>
-                        </td>
-                    </tr>
-                    <tr class="group-content">
-                        <td colspan="5">
-                            <div class="component-title">
-                                <h3>Results</h3>
-                            </div>
-                        </td>
-                    </tr>
-                    <% var currentDate; %>
-                    <% group.matches.forEach((matche) => { %>
-                        <tr class="group-content">
-                            <td>
-                                <% if (currentDate !== matche.date) { %>
-                                    <%= matche.date %>
-                                    <% currentDate = matche.date; %>
-                                <% } %>
-                            </td>
-                            <td class="component-column-main component-column-right">
-                                <span title="<%= matche.homeTeam %>">
-                                    <%= matche.homeTeam %>
-                                </span>
-                                <div class="icon-logo icon-<%= matche.homeTeamLogo %>" title="<%= matche.homeTeam %>"></div>
-                            </td>
-                            <td class="component-column-score">
-                                <%- include('score', {
-                                    date: matche.date,
-                                    score: matche.score,
-                                    team1: matche.homeTeam,
-                                    team2: matche.awayTeam }); %>
-                            </td>
-                            <td class="component-column-main">
-                                <div class="icon-logo icon-<%= matche.awayTeamLogo %>" title="<%= matche.awayTeam %>"></div>
-                                <span title="<%= matche.awayTeam %>">
-                                    <%= matche.awayTeam %>
-                                </span>
-                            </td>
+    <div class="card component">
+        <div class="component-selection">
+            <% if (previousAndNextGroupUrls.previous) { %>
+                <a class="icon-left-open" href="<%= previousAndNextGroupUrls.previous %>" title="Previous group"></a>
+            <% } %>
+            <select onchange="location = this.value;" aria-label="Groups">
+                <% groupsData.forEach((group) => { %>
+                    <option
+                        value="/<%= requestedItem.code %>/<%= requestedYear %>/<%= group.name %>"
+                        <%= group.name == requestedGroup ? 'selected="selected"' : '' %> >Group <%= group.name %></option>
+                <% }); %>
+            </select>
+            <% if (previousAndNextGroupUrls.next) { %>
+                <a class="icon-right-open" href="<%= previousAndNextGroupUrls.next %>" title="Next group"></a>
+            <% } %>
+        </div>
+        <% groupsData.forEach((group, index) => { %>
+            <% if (group.name === requestedGroup) { %>
+                <table class="component-table">
+                    <thead>
+                        <tr>
+                            <th class="data-min" title="Position">#</th>
+                            <th class="data-min" title="Team">Team</th>
+                            <th></th>
+                            <th class="data-min" title="Points">Pts</th>
+                            <th class="data-min" title="Matches played">Pld</th>
+                            <th class="data-min" title="Matches won">W</th>
+                            <th class="data-min" title="Matches drawn">D</th>
+                            <th class="data-min" title="Matches lost">L</th>
+                            <th class="data-min data-hide" title="Goals for">F</th>
+                            <th class="data-min data-hide" title="Goals against">A</th>
+                            <th class="data-min" title="Goal differencence">+/-</th>
                         </tr>
-                    <% }); %>
-                <% } %>
-            <% }); %>
-        </table>
+                    </thead>
+                    <tbody>
+                        <% group.table.forEach((row) => { %>
+                            <tr>
+                                <td class="data-min"><%= row.rank %></td>
+                                <td class="data-min">
+                                    <div class="icon-logo icon-<%= row.logo %>" title="<%= row.team %>"></div>
+                                </td>
+                                <td>
+                                    <span title="<%= row.team %>">
+                                        <%= row.team %>
+                                    </span>
+                                </td>
+                                <td class="data-min"><%= row.points %></td>
+                                <td class="data-min"><%= row.played %></td>
+                                <td class="data-min"><%= row.win %></td>
+                                <td class="data-min"><%= row.draw %></td>
+                                <td class="data-min"><%= row.lost %></td>
+                                <td class="data-min data-hide"><%= row.goalsFor %></td>
+                                <td class="data-min data-hide"><%= row.goalsAgainst %></td>
+                                <td class="data-min"><%= row.goalDifference %></td>
+                            </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+                <h3 class="component-title-surrounded">Results</h3>
+                <table class="component-table">                
+                    <tbody>
+                        <% var currentDate; %>
+                        <% group.matches.forEach((matche) => { %>
+                            <tr class="group-content">
+                                <td class="data-date data-hide">
+                                    <% if (currentDate !== matche.date) { %>
+                                        <%= matche.date %>
+                                        <% currentDate = matche.date; %>
+                                    <% } %>
+                                </td>
+                                <td class="align-to-right">
+                                    <span title="<%= matche.homeTeam %>">
+                                        <%= matche.homeTeam %>
+                                    </span>
+                                </td>
+                                <td class="data-min">
+                                    <div class="icon-logo icon-<%= matche.homeTeamLogo %>" title="<%= matche.homeTeam %>"></div>
+                                </td>
+                                <td class="data-score">
+                                    <%- include('score', {
+                                        date: matche.date,
+                                        score: matche.score,
+                                        team1: matche.homeTeam,
+                                        team2: matche.awayTeam }); %>
+                                </td>
+                                <td class="data-min">
+                                    <div class="icon-logo icon-<%= matche.awayTeamLogo %>" title="<%= matche.awayTeam %>"></div>
+                                </td>
+                                <td>
+                                    <span title="<%= matche.awayTeam %>">
+                                        <%= matche.awayTeam %>
+                                    </span>
+                                </td>
+                            </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+            <% } %>
+        <% }); %>
     </div>
 <% } %>
