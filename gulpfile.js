@@ -45,7 +45,7 @@ gulp.task('test', () => {
 gulp.task('sprite', () => {
     var spritesmith = require('gulp.spritesmith');
     var spritesmithOptions = spritesmith({
-        cssName: 'client/styles/miscs/sprite.css',
+        cssName: 'client/styles/misc/sprite.css',
         imgName: 'client/images/sprite.png',
         imgPath: '../../images/sprite.png'
     });
@@ -117,13 +117,13 @@ gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
-    return gulp.src('./client/views/_layout.ejs')
+    return gulp.src('./client/views/commons/_layout.ejs')
         .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
             read: false
         }), {
             ignorePath: 'dist'
         }))
-        .pipe(gulp.dest('./client/views'));
+        .pipe(gulp.dest('./client/views/commons'));
 });
 
 // Start the node server

@@ -1,43 +1,41 @@
 <% if (assistsData.length) { %>
-    <div class="component-container">
-        <table class="component">
-            <tr>
-                <td colspan="5">
-                    <div class="component-title">
-                        <h3>Top Assists</h3>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th title="Position">#</th>
-                <th class="component-column-main" title="Player name">Name</th>
-                <th class="component-column-main" title="Country">Country</th>
-                <th class="component-column-main" title="Team">Team</th>
-                <th title="Assists">Assists</th>
-            </tr>
-            <% assistsData.forEach((assist) => { %>
+    <div class="card component">
+        <h3 class="component-title">Top Assists</h3>
+        <table class="component-table">
+            <thead>
                 <tr>
-                    <td><%= assist.rank %></td>
-                    <td class="component-column-main">
-                        <span title="<%= assist.name %>">
-                            <%= assist.name %>
-                        </span>
-                    </td>
-                    <td class="component-column-main component-column-country">
-                        <div class="icon-flag icon-<%= assist.flag %>" title="<%= assist.country %>"></div>
-                        <span title="<%= assist.country %>">
-                            <%= assist.country %>
-                        </span>
-                    </td>
-                    <td class="component-column-main">
-                        <div class="icon-logo icon-<%= assist.logo %>" title="<%= assist.team %>"></div>
-                        <span title="<%= assist.team %>">
-                            <%= assist.team %>
-                        </span>
-                    </td>
-                    <td><%= assist.assists %></td>
+                    <th class="data-min" title="Position">#</th>
+                    <th class="data-min" title="Player name">Name</th>
+                    <th class="data-50"></th>
+                    <th class="data-min" title="Team">Team</th>
+                    <th class="data-50"></th>
+                    <th class="data-min overflow-to-left" title="Assists">Assists</th>
                 </tr>
-            <% }); %>
+            </thead>
+            <tbody>
+                <% assistsData.forEach((assist) => { %>
+                    <tr>
+                        <td class="data-min"><%= assist.rank %></td>
+                        <td class="data-min">
+                            <div class="icon-flag icon-<%= assist.flag %>" title="<%= assist.country %>"></div>
+                        </td>
+                        <td class="data-50">
+                            <span title="<%= assist.name %>">
+                                <%= assist.name %>
+                            </span>
+                        </td>
+                        <td class="data-min">
+                            <div class="icon-logo icon-<%= assist.logo %>" title="<%= assist.team %>"></div>
+                        </td>
+                        <td class="data-50">
+                            <span title="<%= assist.team %>">
+                                <%= assist.team %>
+                            </span>
+                        </td>
+                        <td class="data-min"><%= assist.assists %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
         </table>
     </div>
 <% } %>

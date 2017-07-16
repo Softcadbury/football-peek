@@ -1,0 +1,17 @@
+<div id="home">
+    <div class="title-main">
+        <h1>Football Peek</h1>
+        <h3>The quickest access to football results</h3>
+    </div>
+    <div class="cards">
+        <% items.forEach((item) => { %>
+            <a class="card card-clickable" href="/<%= item.code %>">
+                <div class="card-icon icon-<%= item.code %>"></div>
+                <div class="card-title">
+                    <h2><%= item.name %></h2>
+                </div>
+            </a>
+        <% }); %>
+    </div>
+    <%- include('../commons/ad') %>
+</div>

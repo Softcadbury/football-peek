@@ -1,0 +1,17 @@
+<header>
+    <nav>
+        <a class="header-item" href="/">
+            <img class="header-item-logo" src="/icon-48x48.png" alt="logo" />
+        </a> 
+        <% items.forEach((item) => { %>
+            <a class="header-item <%= locals.requestedItem && item.code == requestedItem.code ? 'header-item-open' : '' %>" href="/<%= item.code %>">
+                <span class="header-item-big">
+                    <%= item.name %>
+                </span>
+                <span class="header-item-small">
+                    <%= item.smallName %>
+                </span>
+            </a>
+        <% }); %>
+    </nav>
+</header>

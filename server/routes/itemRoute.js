@@ -36,7 +36,7 @@ function renderCompetition(res, data, requestedItem, requestedYear, requestedRou
     var groupsData = getData(config.paths.groupsData, requestedItem, requestedYear);
     var requestedGroup = requestedRoundOrGroup || 'a';
 
-    res.render('competition', Object.assign(data, {
+    res.render('pages/competition', Object.assign(data, {
         tournamentData,
         groupsData,
         requestedYear: requestedYear,
@@ -51,7 +51,7 @@ function renderLeague(res, data, requestedItem, requestedYear, requestedRoundOrG
     var tableData = getData(config.paths.tableData, requestedItem, requestedYear);
     var requestedRound = requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData);
 
-    res.render('league', Object.assign(data, {
+    res.render('pages/league', Object.assign(data, {
         resultsData,
         tableData,
         requestedYear: requestedYear,

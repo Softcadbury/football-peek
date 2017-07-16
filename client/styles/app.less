@@ -1,8 +1,47 @@
-@import "common.less";
-@import "home.less";
+@import "commons/ad.less";
+@import "commons/card.less";
+@import "commons/footer.less";
+@import "commons/header.less";
+@import "commons/titles.less";
 @import "components/components.less";
-@import "miscs/sprite.css";
-@import "partials/footer.less";
-@import "partials/menu.less";
-@import "partials/ad.less";
+@import "pages/home.less";
+@import "misc/sprite.css";
 @import "../fontello/css/fontello.css";
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+    color: #212121;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    * {
+        box-sizing: border-box;
+    }
+}
+
+#app {
+    min-height: 100%;
+    margin: 0 auto -40px;
+    padding: 64px 0 40px;
+}
+
+section {
+    margin: auto;
+    max-width: 1000px;
+    padding: 12px 8px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 12px 0 0;
+    }
+}
