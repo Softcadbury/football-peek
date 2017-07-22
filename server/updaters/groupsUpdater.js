@@ -43,7 +43,7 @@ function parseRound(itemExtended, results, groupIndex) {
             var currentMatches = results[groupIndex].matches;
             var currentDate;
 
-            $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
+            $('#site > div.white > div.content > div > div:nth-child(4) > div > table tr').each((index, elem) => {
                 if (index >= 12) {
                     return;
                 }
@@ -66,7 +66,7 @@ function parseRound(itemExtended, results, groupIndex) {
 
             var currentTable = results[groupIndex].table;
 
-            $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle > tr').each((index, elem) => {
+            $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {
                 if (index <= 0) {
                     return;
                 }

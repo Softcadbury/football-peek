@@ -29,7 +29,7 @@ function updateData(itemExtended) {
     helper.scrapeUrl(helper.stringFormat(scorersDataUrl, itemExtended.url, config.years.current, itemExtended.extra), ($) => {
         var results = [];
 
-        $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
+        $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
             if (index <= 0 || index > 20) {
                 return;
             }

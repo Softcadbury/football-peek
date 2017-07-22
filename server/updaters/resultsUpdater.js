@@ -55,7 +55,7 @@ function parseRound(itemExtended, results, roundIndex) {
             currentMatches.splice(0, currentMatches.length);
             var currentDate;
 
-            $('#site > div.white > div.content > div > div:nth-child(4) > div > table > tr').each((index, elem) => {
+            $('#site > div.white > div.content > div > div:nth-child(4) > div > table tr').each((index, elem) => {
                 if (index >= (itemExtended.roundNumber + 2) / 4) {
                     return;
                 }

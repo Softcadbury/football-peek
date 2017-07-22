@@ -44,7 +44,7 @@ function parseRound(itemExtended, results, roundIndex) {
         helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), ($) => {
             var currentMatches = results[roundIndex].matches;
 
-            $('#site > div.white > div.content > div > div.box > div > table > tr').each((index, elem) => {
+            $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
                 if (index >= Math.pow(2, roundIndex + 2)) {
                     return;
                 }
