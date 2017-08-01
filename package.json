@@ -35,15 +35,15 @@
     "yargs": "8.0.2"
   },
   "dependencies": {
-    "cheerio": "0.22.0",
-    "compression": "1.6.2",
+    "cheerio": "1.0.0-rc.2",
+    "compression": "1.7.0",
     "cron": "1.2.1",
     "ejs": "2.5.6",
     "express": "4.15.3",
     "express-ejs-layouts": "2.3.0",
     "file-exists": "4.0.0",
     "fs": "0.0.2",
-    "jsonfile": "3.0.0",
+    "jsonfile": "3.0.1",
     "request": "2.81.0",
     "sitemap": "1.13.0",
     "winston": "2.3.1"

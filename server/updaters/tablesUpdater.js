@@ -23,7 +23,7 @@ function updateData(itemExtended) {
     helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.years.current, itemExtended.extra), ($) => {
         var results = [];
 
-        $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle > tr').each((index, elem) => {
+        $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {
             if (index <= 0) {
                 return;
             }

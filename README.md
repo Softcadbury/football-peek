@@ -10,4 +10,4 @@ All Data comes from http://www.worldfootball.net. The Trello to present current 
 
 ## Screenshot
 
-![alt tag](https://raw.githubusercontent.com/Softcadbury/EPortfolio/master/EPortfolio/Content/Images/preview/football-dashboard.png)
+![alt tag](https://raw.githubusercontent.com/Softcadbury/EPortfolio/master/EPortfolio/Content/Images/preview/football-peek.png)
