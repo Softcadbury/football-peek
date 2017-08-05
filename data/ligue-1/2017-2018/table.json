@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "AS Monaco",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "3",
+        "goalsAgainst": "2",
+        "goalDifference": "1",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "2",
         "team": "Amiens SC",
         "points": "0",
         "played": "0",
@@ -24,19 +37,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "angers_sco"
-    },
-    {
-        "rank": " ",
-        "team": "AS Monaco",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "as_monaco"
     },
     {
         "rank": " ",
@@ -247,16 +247,16 @@
         "logo": "stade_rennes"
     },
     {
-        "rank": " ",
+        "rank": "20",
         "team": "Toulouse FC",
         "points": "0",
-        "played": "0",
+        "played": "1",
         "win": "0",
         "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
+        "lost": "1",
+        "goalsFor": "2",
+        "goalsAgainst": "3",
+        "goalDifference": "-1",
         "logo": "toulouse_fc"
     }
 ]

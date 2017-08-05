@@ -32,15 +32,13 @@ var competitionCronJobTimes = [
 ];
 
 function setupCrons() {
-    // Season is over :'(
-
     // Setup crons for leagues update
-    // leagueCronJobTimes.forEach((time) => {
-    //     (new CronJob(time, () => {
-    //         helper.log('Run league update');
-    //         mainUpdater.updateLeague();
-    //     }, null, false, 'Europe/Paris')).start();
-    // });
+    leagueCronJobTimes.forEach((time) => {
+        (new CronJob(time, () => {
+            helper.log('Run league update');
+            mainUpdater.updateLeague();
+        }, null, false, 'Europe/Paris')).start();
+    });
 
     // Setup crons for competitions update
     // competitionCronJobTimes.forEach((time) => {
