@@ -102,7 +102,7 @@ function downloadImage(src, path) {
     var request = require('request');
     var fs = require('fs');
 
-    if (!fileExists.sync(path)) {
+    if (!fileExists.sync(path) && !path.endsWith('/.gif')) {
         request.head(src, (err) => {
             if (err) {
                 log('Error while downloading image: ' + path + ' -> ' + err);

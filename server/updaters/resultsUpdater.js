@@ -7,7 +7,7 @@ var leagues = require('../data/leagues');
 var resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}/{3}';
 var leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '', roundNumber: 34 },
-    { item: leagues.liga, url: 'esp-primera-division', extra: '_2', roundNumber: 38 },
+    { item: leagues.liga, url: 'esp-primera-division', extra: '', roundNumber: 38 },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '', roundNumber: 38 },
     { item: leagues.serieA, url: 'ita-serie-a', extra: '', roundNumber: 38 },
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '', roundNumber: 38 }
