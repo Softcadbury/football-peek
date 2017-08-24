@@ -73,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Wayne Rooney",
+        "country": "England",
+        "team": "Everton FC",
+        "goals": "2",
+        "flag": "england",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
@@ -90,7 +99,7 @@
         "logo": "burnley_fc"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -169,14 +178,5 @@
         "goals": "1",
         "flag": "france",
         "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Manolo Gabbiadini",
-        "country": "Italy",
-        "team": "Southampton FC",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "southampton_fc"
     }
 ]
