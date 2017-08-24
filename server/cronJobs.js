@@ -41,12 +41,12 @@ function setupCrons() {
     });
 
     // Setup crons for competitions update
-    // competitionCronJobTimes.forEach((time) => {
-    //     (new CronJob(time, () => {
-    //         helper.log('Run competition update');
-    //         mainUpdater.updateCompetition();
-    //     }, null, false, 'Europe/Paris')).start();
-    // });
+    competitionCronJobTimes.forEach((time) => {
+        (new CronJob(time, () => {
+            helper.log('Run competition update');
+            mainUpdater.updateCompetition();
+        }, null, false, 'Europe/Paris')).start();
+    });
 }
 
 module.exports = {
