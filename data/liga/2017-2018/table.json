@@ -53,6 +53,32 @@
     },
     {
         "rank": " ",
+        "team": "Levante UD",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "1",
+        "goalsAgainst": "0",
+        "goalDifference": "1",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": " ",
+        "team": "SD Eibar",
+        "points": "3",
+        "played": "1",
+        "win": "1",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "1",
+        "goalsAgainst": "0",
+        "goalDifference": "1",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": " ",
         "team": "Valencia CF",
         "points": "3",
         "played": "1",
@@ -65,7 +91,7 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "6",
+        "rank": "8",
         "team": "Atlético Madrid",
         "points": "1",
         "played": "1",
@@ -91,7 +117,7 @@
         "logo": "girona_fc"
     },
     {
-        "rank": "8",
+        "rank": "10",
         "team": "Espanyol Barcelona",
         "points": "1",
         "played": "1",
@@ -117,7 +143,7 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "10",
+        "rank": "12",
         "team": "Athletic Bilbao",
         "points": "1",
         "played": "1",
@@ -143,59 +169,7 @@
         "logo": "getafe_cf"
     },
     {
-        "rank": "12",
-        "team": "Levante UD",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": " ",
-        "team": "Málaga CF",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "malaga_cf"
-    },
-    {
-        "rank": " ",
-        "team": "SD Eibar",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": " ",
-        "team": "Villarreal CF",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "16",
+        "rank": "14",
         "team": "Celta Vigo",
         "points": "0",
         "played": "1",
@@ -208,7 +182,7 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "17",
+        "rank": "15",
         "team": "CD Alavés",
         "points": "0",
         "played": "1",
@@ -222,6 +196,19 @@
     },
     {
         "rank": " ",
+        "team": "Málaga CF",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "0",
+        "goalsAgainst": "1",
+        "goalDifference": "-1",
+        "logo": "malaga_cf"
+    },
+    {
+        "rank": " ",
         "team": "UD Las Palmas",
         "points": "0",
         "played": "1",
@@ -232,6 +219,19 @@
         "goalsAgainst": "1",
         "goalDifference": "-1",
         "logo": "ud_las_palmas"
+    },
+    {
+        "rank": " ",
+        "team": "Villarreal CF",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "0",
+        "goalsAgainst": "1",
+        "goalDifference": "-1",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "19",
