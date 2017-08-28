@@ -4,7 +4,7 @@
         "name": "Henrikh Mkhitaryan",
         "country": "Armenia",
         "team": "Manchester United",
-        "assists": "4",
+        "assists": "5",
         "flag": "armenia",
         "logo": "manchester_united"
     },
@@ -16,6 +16,15 @@
         "assists": "2",
         "flag": "england",
         "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": " David Silva",
+        "country": "Spain",
+        "team": "Manchester City",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -37,6 +46,24 @@
     },
     {
         "rank": "-",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Granit Xhaka",
         "country": "Switzerland",
         "team": "Arsenal FC",
@@ -45,7 +72,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "6.",
+        "rank": "9.",
         "name": "Marc Albrighton",
         "country": "England",
         "team": "Leicester City",
@@ -55,12 +82,48 @@
     },
     {
         "rank": "-",
+        "name": "Christian Atsu",
+        "country": "Ghana",
+        "team": "Newcastle United",
+        "assists": "1",
+        "flag": "ghana",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
+        "name": " Ayoze Pérez",
+        "country": "Spain",
+        "team": "Newcastle United",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
+        "name": " Azpilicueta",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Saido Berahino",
         "country": "England",
         "team": "Stoke City",
         "assists": "1",
         "flag": "england",
         "logo": "stoke_city"
+    },
+    {
+        "rank": "-",
+        "name": "Robbie Brady",
+        "country": "Ireland",
+        "team": "Burnley FC",
+        "assists": "1",
+        "flag": "ireland",
+        "logo": "burnley_fc"
     },
     {
         "rank": "-",
@@ -91,11 +154,11 @@
     },
     {
         "rank": "-",
-        "name": " David Silva",
-        "country": "Spain",
+        "name": " Danilo",
+        "country": "Brazil",
         "team": "Manchester City",
         "assists": "1",
-        "flag": "spain",
+        "flag": "brazil",
         "logo": "manchester_city"
     },
     {
@@ -115,68 +178,5 @@
         "assists": "1",
         "flag": "egypt",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "José Holebas",
-        "country": "Greece",
-        "team": "Watford FC",
-        "assists": "1",
-        "flag": "greece",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Elias Kachunga",
-        "country": "Germany",
-        "team": "Huddersfield Town",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "huddersfield_town"
-    },
-    {
-        "rank": "-",
-        "name": "Sead Kolašinac",
-        "country": "Bosnia-Herzegovina",
-        "team": "Arsenal FC",
-        "assists": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Matthew Lowton",
-        "country": "England",
-        "team": "Burnley FC",
-        "assists": "1",
-        "flag": "england",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Maguire",
-        "country": "England",
-        "team": "Leicester City",
-        "assists": "1",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Anthony Martial",
-        "country": "France",
-        "team": "Manchester United",
-        "assists": "1",
-        "flag": "france",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Aaron Mooy",
-        "country": "Australia",
-        "team": "Huddersfield Town",
-        "assists": "1",
-        "flag": "australia",
-        "logo": "huddersfield_town"
     }
 ]

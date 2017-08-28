@@ -1,30 +1,111 @@
 [
     {
         "rank": "1.",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "2",
+        "goals": "4",
         "flag": "argentina",
         "logo": "inter"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
-        "goals": "2",
+        "goals": "3",
         "flag": "italy",
         "logo": "sampdoria"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
+        "name": "Patrick Cutrone",
+        "country": "Italy",
+        "team": "AC Milan",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Adem Ljajić",
+        "country": "Serbia",
+        "team": "Torino FC",
+        "goals": "2",
+        "flag": "serbia",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Suso",
+        "country": "Spain",
+        "team": "AC Milan",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Cyril Théréau",
+        "country": "France",
+        "team": "Udinese Calcio",
+        "goals": "2",
+        "flag": "france",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "8.",
+        "name": "Milan Badelj",
+        "country": "Croatia",
+        "team": "ACF Fiorentina",
+        "goals": "1",
+        "flag": "croatia",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
         "goals": "1",
         "flag": "slovenia",
         "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": "Marco Borriello",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "-",
+        "name": "Gianluca Caprari",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -37,12 +118,21 @@
     },
     {
         "rank": "-",
-        "name": "Patrick Cutrone",
+        "name": "Bryan Cristante",
         "country": "Italy",
-        "team": "AC Milan",
+        "team": "Atalanta",
         "goals": "1",
         "flag": "italy",
-        "logo": "ac_milan"
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Juan Cuadrado",
+        "country": "Colombia",
+        "team": "Juventus",
+        "goals": "1",
+        "flag": "colombia",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -55,12 +145,30 @@
     },
     {
         "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
+        "name": "Godfred Donsah",
+        "country": "Ghana",
+        "team": "Bologna FC",
         "goals": "1",
-        "flag": "argentina",
-        "logo": "juventus"
+        "flag": "ghana",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "1",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Andrey Galabinov",
+        "country": "Bulgaria",
+        "team": "Genoa CFC",
+        "goals": "1",
+        "flag": "bulgaria",
+        "logo": "genoa_cfc"
     },
     {
         "rank": "-",
@@ -70,104 +178,5 @@
         "goals": "1",
         "flag": "algeria",
         "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Gonzalo Higuaí­n",
-        "country": "Argentina",
-        "team": "Juventus",
-        "goals": "1",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Roberto Inglese",
-        "country": "Italy",
-        "team": "Chievo Verona",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Franck Kessié",
-        "country": "Ivory Coast",
-        "team": "AC Milan",
-        "goals": "1",
-        "flag": "ivory_coast",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Aleksandar Kolarov",
-        "country": "Serbia",
-        "team": "AS Roma",
-        "goals": "1",
-        "flag": "serbia",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Adem Ljajić",
-        "country": "Serbia",
-        "team": "Torino FC",
-        "goals": "1",
-        "flag": "serbia",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Mandžukić",
-        "country": "Croatia",
-        "team": "Juventus",
-        "goals": "1",
-        "flag": "croatia",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "goals": "1",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Giampaolo Pazzini",
-        "country": "Italy",
-        "team": "Hellas Verona",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
-        "goals": "1",
-        "flag": "croatia",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": " Suso",
-        "country": "Spain",
-        "team": "AC Milan",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Cyril Théréau",
-        "country": "France",
-        "team": "Udinese Calcio",
-        "goals": "1",
-        "flag": "france",
-        "logo": "udinese_calcio"
     }
 ]

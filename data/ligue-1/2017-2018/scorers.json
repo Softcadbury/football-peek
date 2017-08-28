@@ -4,7 +4,7 @@
         "name": "Radamel Falcao",
         "country": "Colombia",
         "team": "AS Monaco",
-        "goals": "5",
+        "goals": "7",
         "flag": "colombia",
         "logo": "as_monaco"
     },
@@ -13,9 +13,18 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "3",
+        "goals": "5",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "3.",
+        "name": "Jimmy Durmaz",
+        "country": "Sweden",
+        "team": "Toulouse FC",
+        "goals": "3",
+        "flag": "sweden",
+        "logo": "toulouse_fc"
     },
     {
         "rank": "-",
@@ -37,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Ndombe Mubele",
+        "country": "Congo DR",
+        "team": "Stade Rennes",
+        "goals": "3",
+        "flag": "congo_dr",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
         "name": "Clinton N'Jie",
         "country": "Cameroon",
         "team": "Olympique Marseille",
@@ -54,13 +72,31 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Younousse Sankharé",
+        "country": "Senegal",
+        "team": "Girondins Bordeaux",
+        "goals": "3",
+        "flag": "senegal",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "10.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "AS Saint-Étienne",
         "goals": "2",
         "flag": "france",
         "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "-",
+        "name": "Jimmy Briand",
+        "country": "France",
+        "team": "EA Guingamp",
+        "goals": "2",
+        "flag": "france",
+        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -73,12 +109,57 @@
     },
     {
         "rank": "-",
+        "name": "Nicolas de Préville",
+        "country": "France",
+        "team": "Lille OSC",
+        "goals": "2",
+        "flag": "france",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
+        "name": "Moustapha Diallo",
+        "country": "Senegal",
+        "team": "EA Guingamp",
+        "goals": "2",
+        "flag": "senegal",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "-",
+        "name": "Kamil Glik",
+        "country": "Poland",
+        "team": "AS Monaco",
+        "goals": "2",
+        "flag": "poland",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Benjamin Jeannot",
+        "country": "France",
+        "team": "Dijon FCO",
+        "goals": "2",
+        "flag": "france",
+        "logo": "dijon_fco"
+    },
+    {
+        "rank": "-",
         "name": " Jemerson",
         "country": "Brazil",
         "team": "AS Monaco",
         "goals": "2",
         "flag": "brazil",
         "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Moussa Konaté",
+        "country": "Senegal",
+        "team": "Amiens SC",
+        "goals": "2",
+        "flag": "senegal",
+        "logo": "amiens_sc"
     },
     {
         "rank": "-",
@@ -91,92 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Ndombe Mubele",
-        "country": "Congo DR",
-        "team": "Stade Rennes",
-        "goals": "2",
-        "flag": "congo_dr",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
         "name": "Javier Pastore",
         "country": "Argentina",
         "team": "Paris Saint-Germain",
         "goals": "2",
         "flag": "argentina",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "2",
-        "flag": "france",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Younousse Sankharé",
-        "country": "Senegal",
-        "team": "Girondins Bordeaux",
-        "goals": "2",
-        "flag": "senegal",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "15.",
-        "name": "Junior Alonso",
-        "country": "Paraguay",
-        "team": "Lille OSC",
-        "goals": "1",
-        "flag": "paraguay",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Ludovic Blas",
-        "country": "France",
-        "team": "EA Guingamp",
-        "goals": "1",
-        "flag": "france",
-        "logo": "ea_guingamp"
-    },
-    {
-        "rank": "-",
-        "name": "Benjamin Bourigeaud",
-        "country": "France",
-        "team": "Stade Rennes",
-        "goals": "1",
-        "flag": "france",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Jimmy Briand",
-        "country": "France",
-        "team": "EA Guingamp",
-        "goals": "1",
-        "flag": "france",
-        "logo": "ea_guingamp"
-    },
-    {
-        "rank": "-",
-        "name": "Souleymane Camara",
-        "country": "Senegal",
-        "team": "Montpellier HSC",
-        "goals": "1",
-        "flag": "senegal",
-        "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Congré",
-        "country": "France",
-        "team": "Montpellier HSC",
-        "goals": "1",
-        "flag": "france",
-        "logo": "montpellier_hsc"
     }
 ]

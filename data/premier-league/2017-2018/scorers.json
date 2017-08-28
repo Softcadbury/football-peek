@@ -9,22 +9,31 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "3",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "3.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "2",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Javier Hernández",
         "country": "Mexico",
         "team": "West Ham United",
         "goals": "2",
         "flag": "mexico",
         "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "2",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -43,6 +52,15 @@
         "goals": "2",
         "flag": "france",
         "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
@@ -73,12 +91,39 @@
     },
     {
         "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "2",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Wayne Rooney",
         "country": "England",
         "team": "Everton FC",
         "goals": "2",
         "flag": "england",
         "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "2",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "2",
+        "flag": "england",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -99,22 +144,22 @@
         "logo": "burnley_fc"
     },
     {
-        "rank": "12.",
+        "rank": "17.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "Swansea City",
+        "goals": "1",
+        "flag": "england",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "-",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
         "goals": "1",
         "flag": "argentina",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Dele Alli",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "1",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Eric Bailly",
-        "country": "Ivory Coast",
-        "team": "Manchester United",
+        "name": "Jordan Ayew",
+        "country": "Ghana",
+        "team": "Swansea City",
         "goals": "1",
-        "flag": "ivory_coast",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Miguel Britos",
-        "country": "Uruguay",
-        "team": "Watford FC",
-        "goals": "1",
-        "flag": "uruguay",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Étienne Capoue",
-        "country": "France",
-        "team": "Watford FC",
-        "goals": "1",
-        "flag": "france",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": " David Luiz",
-        "country": "Brazil",
-        "team": "Chelsea FC",
-        "goals": "1",
-        "flag": "brazil",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ben Davies",
-        "country": "Wales",
-        "team": "Tottenham Hotspur",
-        "goals": "1",
-        "flag": "wales",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Abdoulaye Doucouré",
-        "country": "France",
-        "team": "Watford FC",
-        "goals": "1",
-        "flag": "france",
-        "logo": "watford_fc"
+        "flag": "ghana",
+        "logo": "swansea_city"
     }
 ]
