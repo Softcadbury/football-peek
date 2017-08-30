@@ -173,28 +173,36 @@
         "round": 3,
         "matches": [
             {
+                "date": "09/09/2017",
+                "homeTeam": "Juventus",
+                "awayTeam": "Chievo Verona",
+                "score": "-:-",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "chievo_verona"
+            },
+            {
+                "date": "09/09/2017",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "AS Roma",
+                "score": "-:-",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "10/09/2017",
+                "homeTeam": "Inter",
+                "awayTeam": "SPAL 2013 Ferrara",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "spal_2013_ferrara"
+            },
+            {
                 "date": "10/09/2017",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Sassuolo Calcio",
                 "score": "-:-",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "sassuolo_calcio"
-            },
-            {
-                "date": "10/09/2017",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "torino_fc"
-            },
-            {
-                "date": "10/09/2017",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "ssc_napoli"
             },
             {
                 "date": "10/09/2017",
@@ -214,22 +222,6 @@
             },
             {
                 "date": "10/09/2017",
-                "homeTeam": "Inter",
-                "awayTeam": "SPAL 2013 Ferrara",
-                "score": "-:-",
-                "homeTeamLogo": "inter",
-                "awayTeamLogo": "spal_2013_ferrara"
-            },
-            {
-                "date": "10/09/2017",
-                "homeTeam": "Juventus",
-                "awayTeam": "Chievo Verona",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "chievo_verona"
-            },
-            {
-                "date": "10/09/2017",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "AC Milan",
                 "score": "-:-",
@@ -238,19 +230,27 @@
             },
             {
                 "date": "10/09/2017",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "10/09/2017",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Genoa CFC",
                 "score": "-:-",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "genoa_cfc"
+            },
+            {
+                "date": "10/09/2017",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "Torino FC",
+                "score": "-:-",
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "10/09/2017",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "SSC Napoli",
+                "score": "-:-",
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "ssc_napoli"
             }
         ]
     },
