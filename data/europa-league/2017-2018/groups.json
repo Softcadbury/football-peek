@@ -3,41 +3,7 @@
         "name": "a",
         "matches": [
             {
-                "homeTeam": "FK Astana",
-                "awayTeam": "Maccabi Tel Aviv",
-                "score": "-:-",
-                "homeTeamLogo": "fk_astana",
-                "awayTeamLogo": "maccabi_tel_aviv"
-            },
-            {
-                "homeTeam": "Maccabi Tel Aviv",
-                "awayTeam": "FK Astana",
-                "score": "-:-",
-                "homeTeamLogo": "maccabi_tel_aviv",
-                "awayTeamLogo": "fk_astana"
-            },
-            {
-                "homeTeam": "FK Astana",
-                "awayTeam": "Slavia Praha",
-                "score": "-:-",
-                "homeTeamLogo": "fk_astana",
-                "awayTeamLogo": "slavia_praha"
-            },
-            {
-                "homeTeam": "Slavia Praha",
-                "awayTeam": "FK Astana",
-                "score": "-:-",
-                "homeTeamLogo": "slavia_praha",
-                "awayTeamLogo": "fk_astana"
-            },
-            {
-                "homeTeam": "FK Astana",
-                "awayTeam": "Villarreal CF",
-                "score": "-:-",
-                "homeTeamLogo": "fk_astana",
-                "awayTeamLogo": "villarreal_cf"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "FK Astana",
                 "score": "-:-",
@@ -45,13 +11,7 @@
                 "awayTeamLogo": "fk_astana"
             },
             {
-                "homeTeam": "Maccabi Tel Aviv",
-                "awayTeam": "Slavia Praha",
-                "score": "-:-",
-                "homeTeamLogo": "maccabi_tel_aviv",
-                "awayTeamLogo": "slavia_praha"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Slavia Praha",
                 "awayTeam": "Maccabi Tel Aviv",
                 "score": "-:-",
@@ -59,6 +19,15 @@
                 "awayTeamLogo": "maccabi_tel_aviv"
             },
             {
+                "date": "28/09/2017",
+                "homeTeam": "FK Astana",
+                "awayTeam": "Slavia Praha",
+                "score": "-:-",
+                "homeTeamLogo": "fk_astana",
+                "awayTeamLogo": "slavia_praha"
+            },
+            {
+                "date": "28/09/2017",
                 "homeTeam": "Maccabi Tel Aviv",
                 "awayTeam": "Villarreal CF",
                 "score": "-:-",
@@ -66,13 +35,31 @@
                 "awayTeamLogo": "villarreal_cf"
             },
             {
-                "homeTeam": "Villarreal CF",
+                "date": "19/10/2017",
+                "homeTeam": "FK Astana",
                 "awayTeam": "Maccabi Tel Aviv",
                 "score": "-:-",
-                "homeTeamLogo": "villarreal_cf",
+                "homeTeamLogo": "fk_astana",
                 "awayTeamLogo": "maccabi_tel_aviv"
             },
             {
+                "date": "19/10/2017",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Slavia Praha",
+                "score": "-:-",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "slavia_praha"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "Maccabi Tel Aviv",
+                "awayTeam": "FK Astana",
+                "score": "-:-",
+                "homeTeamLogo": "maccabi_tel_aviv",
+                "awayTeamLogo": "fk_astana"
+            },
+            {
+                "date": "02/11/2017",
                 "homeTeam": "Slavia Praha",
                 "awayTeam": "Villarreal CF",
                 "score": "-:-",
@@ -80,11 +67,36 @@
                 "awayTeamLogo": "villarreal_cf"
             },
             {
-                "homeTeam": "Villarreal CF",
+                "date": "23/11/2017",
+                "homeTeam": "FK Astana",
+                "awayTeam": "Villarreal CF",
+                "score": "-:-",
+                "homeTeamLogo": "fk_astana",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "Maccabi Tel Aviv",
                 "awayTeam": "Slavia Praha",
                 "score": "-:-",
-                "homeTeamLogo": "villarreal_cf",
+                "homeTeamLogo": "maccabi_tel_aviv",
                 "awayTeamLogo": "slavia_praha"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Slavia Praha",
+                "awayTeam": "FK Astana",
+                "score": "-:-",
+                "homeTeamLogo": "slavia_praha",
+                "awayTeamLogo": "fk_astana"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Maccabi Tel Aviv",
+                "score": "-:-",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "maccabi_tel_aviv"
             }
         ],
         "table": [
@@ -146,34 +158,7 @@
         "name": "b",
         "matches": [
             {
-                "homeTeam": "BSC Young Boys",
-                "awayTeam": "Dinamo Kiev",
-                "score": "-:-",
-                "homeTeamLogo": "bsc_young_boys",
-                "awayTeamLogo": "dinamo_kiev"
-            },
-            {
-                "homeTeam": "Dinamo Kiev",
-                "awayTeam": "BSC Young Boys",
-                "score": "-:-",
-                "homeTeamLogo": "dinamo_kiev",
-                "awayTeamLogo": "bsc_young_boys"
-            },
-            {
-                "homeTeam": "BSC Young Boys",
-                "awayTeam": "KF Skënderbeu",
-                "score": "-:-",
-                "homeTeamLogo": "bsc_young_boys",
-                "awayTeamLogo": "kf_skenderbeu"
-            },
-            {
-                "homeTeam": "KF Skënderbeu",
-                "awayTeam": "BSC Young Boys",
-                "score": "-:-",
-                "homeTeamLogo": "kf_skenderbeu",
-                "awayTeamLogo": "bsc_young_boys"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "BSC Young Boys",
                 "awayTeam": "Partizan",
                 "score": "-:-",
@@ -181,6 +166,63 @@
                 "awayTeamLogo": "partizan"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "KF Skënderbeu",
+                "score": "-:-",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "kf_skenderbeu"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "KF Skënderbeu",
+                "awayTeam": "BSC Young Boys",
+                "score": "-:-",
+                "homeTeamLogo": "kf_skenderbeu",
+                "awayTeamLogo": "bsc_young_boys"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "Partizan",
+                "awayTeam": "Dinamo Kiev",
+                "score": "-:-",
+                "homeTeamLogo": "partizan",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "BSC Young Boys",
+                "score": "-:-",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "bsc_young_boys"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "KF Skënderbeu",
+                "awayTeam": "Partizan",
+                "score": "-:-",
+                "homeTeamLogo": "kf_skenderbeu",
+                "awayTeamLogo": "partizan"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "Dinamo Kiev",
+                "score": "-:-",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "Partizan",
+                "awayTeam": "KF Skënderbeu",
+                "score": "-:-",
+                "homeTeamLogo": "partizan",
+                "awayTeamLogo": "kf_skenderbeu"
+            },
+            {
+                "date": "23/11/2017",
                 "homeTeam": "Partizan",
                 "awayTeam": "BSC Young Boys",
                 "score": "-:-",
@@ -188,13 +230,7 @@
                 "awayTeamLogo": "bsc_young_boys"
             },
             {
-                "homeTeam": "Dinamo Kiev",
-                "awayTeam": "KF Skënderbeu",
-                "score": "-:-",
-                "homeTeamLogo": "dinamo_kiev",
-                "awayTeamLogo": "kf_skenderbeu"
-            },
-            {
+                "date": "23/11/2017",
                 "homeTeam": "KF Skënderbeu",
                 "awayTeam": "Dinamo Kiev",
                 "score": "-:-",
@@ -202,32 +238,20 @@
                 "awayTeamLogo": "dinamo_kiev"
             },
             {
+                "date": "07/12/2017",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "KF Skënderbeu",
+                "score": "-:-",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "kf_skenderbeu"
+            },
+            {
+                "date": "07/12/2017",
                 "homeTeam": "Dinamo Kiev",
                 "awayTeam": "Partizan",
                 "score": "-:-",
                 "homeTeamLogo": "dinamo_kiev",
                 "awayTeamLogo": "partizan"
-            },
-            {
-                "homeTeam": "Partizan",
-                "awayTeam": "Dinamo Kiev",
-                "score": "-:-",
-                "homeTeamLogo": "partizan",
-                "awayTeamLogo": "dinamo_kiev"
-            },
-            {
-                "homeTeam": "KF Skënderbeu",
-                "awayTeam": "Partizan",
-                "score": "-:-",
-                "homeTeamLogo": "kf_skenderbeu",
-                "awayTeamLogo": "partizan"
-            },
-            {
-                "homeTeam": "Partizan",
-                "awayTeam": "KF Skënderbeu",
-                "score": "-:-",
-                "homeTeamLogo": "partizan",
-                "awayTeamLogo": "kf_skenderbeu"
             }
         ],
         "table": [
@@ -289,34 +313,7 @@
         "name": "c",
         "matches": [
             {
-                "homeTeam": "1899 Hoffenheim",
-                "awayTeam": "İstanbul Başakşehir F.K.",
-                "score": "-:-",
-                "homeTeamLogo": "1899_hoffenheim",
-                "awayTeamLogo": "i_stanbul_ba_ak_ehir_f_k_"
-            },
-            {
-                "homeTeam": "İstanbul Başakşehir F.K.",
-                "awayTeam": "1899 Hoffenheim",
-                "score": "-:-",
-                "homeTeamLogo": "i_stanbul_ba_ak_ehir_f_k_",
-                "awayTeamLogo": "1899_hoffenheim"
-            },
-            {
-                "homeTeam": "1899 Hoffenheim",
-                "awayTeam": "PFC Ludogorets Razgrad",
-                "score": "-:-",
-                "homeTeamLogo": "1899_hoffenheim",
-                "awayTeamLogo": "pfc_ludogorets_razgrad"
-            },
-            {
-                "homeTeam": "PFC Ludogorets Razgrad",
-                "awayTeam": "1899 Hoffenheim",
-                "score": "-:-",
-                "homeTeamLogo": "pfc_ludogorets_razgrad",
-                "awayTeamLogo": "1899_hoffenheim"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "1899 Hoffenheim",
                 "awayTeam": "Sporting Braga",
                 "score": "-:-",
@@ -324,6 +321,63 @@
                 "awayTeamLogo": "sporting_braga"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "İstanbul Başakşehir F.K.",
+                "awayTeam": "PFC Ludogorets Razgrad",
+                "score": "-:-",
+                "homeTeamLogo": "i_stanbul_ba_ak_ehir_f_k_",
+                "awayTeamLogo": "pfc_ludogorets_razgrad"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "PFC Ludogorets Razgrad",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "-:-",
+                "homeTeamLogo": "pfc_ludogorets_razgrad",
+                "awayTeamLogo": "1899_hoffenheim"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "Sporting Braga",
+                "awayTeam": "İstanbul Başakşehir F.K.",
+                "score": "-:-",
+                "homeTeamLogo": "sporting_braga",
+                "awayTeamLogo": "i_stanbul_ba_ak_ehir_f_k_"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "1899 Hoffenheim",
+                "awayTeam": "İstanbul Başakşehir F.K.",
+                "score": "-:-",
+                "homeTeamLogo": "1899_hoffenheim",
+                "awayTeamLogo": "i_stanbul_ba_ak_ehir_f_k_"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "Sporting Braga",
+                "awayTeam": "PFC Ludogorets Razgrad",
+                "score": "-:-",
+                "homeTeamLogo": "sporting_braga",
+                "awayTeamLogo": "pfc_ludogorets_razgrad"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "İstanbul Başakşehir F.K.",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "-:-",
+                "homeTeamLogo": "i_stanbul_ba_ak_ehir_f_k_",
+                "awayTeamLogo": "1899_hoffenheim"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "PFC Ludogorets Razgrad",
+                "awayTeam": "Sporting Braga",
+                "score": "-:-",
+                "homeTeamLogo": "pfc_ludogorets_razgrad",
+                "awayTeamLogo": "sporting_braga"
+            },
+            {
+                "date": "23/11/2017",
                 "homeTeam": "Sporting Braga",
                 "awayTeam": "1899 Hoffenheim",
                 "score": "-:-",
@@ -331,13 +385,7 @@
                 "awayTeamLogo": "1899_hoffenheim"
             },
             {
-                "homeTeam": "İstanbul Başakşehir F.K.",
-                "awayTeam": "PFC Ludogorets Razgrad",
-                "score": "-:-",
-                "homeTeamLogo": "i_stanbul_ba_ak_ehir_f_k_",
-                "awayTeamLogo": "pfc_ludogorets_razgrad"
-            },
-            {
+                "date": "23/11/2017",
                 "homeTeam": "PFC Ludogorets Razgrad",
                 "awayTeam": "İstanbul Başakşehir F.K.",
                 "score": "-:-",
@@ -345,32 +393,20 @@
                 "awayTeamLogo": "i_stanbul_ba_ak_ehir_f_k_"
             },
             {
+                "date": "07/12/2017",
+                "homeTeam": "1899 Hoffenheim",
+                "awayTeam": "PFC Ludogorets Razgrad",
+                "score": "-:-",
+                "homeTeamLogo": "1899_hoffenheim",
+                "awayTeamLogo": "pfc_ludogorets_razgrad"
+            },
+            {
+                "date": "07/12/2017",
                 "homeTeam": "İstanbul Başakşehir F.K.",
                 "awayTeam": "Sporting Braga",
                 "score": "-:-",
                 "homeTeamLogo": "i_stanbul_ba_ak_ehir_f_k_",
                 "awayTeamLogo": "sporting_braga"
-            },
-            {
-                "homeTeam": "Sporting Braga",
-                "awayTeam": "İstanbul Başakşehir F.K.",
-                "score": "-:-",
-                "homeTeamLogo": "sporting_braga",
-                "awayTeamLogo": "i_stanbul_ba_ak_ehir_f_k_"
-            },
-            {
-                "homeTeam": "PFC Ludogorets Razgrad",
-                "awayTeam": "Sporting Braga",
-                "score": "-:-",
-                "homeTeamLogo": "pfc_ludogorets_razgrad",
-                "awayTeamLogo": "sporting_braga"
-            },
-            {
-                "homeTeam": "Sporting Braga",
-                "awayTeam": "PFC Ludogorets Razgrad",
-                "score": "-:-",
-                "homeTeamLogo": "sporting_braga",
-                "awayTeamLogo": "pfc_ludogorets_razgrad"
             }
         ],
         "table": [
@@ -432,27 +468,7 @@
         "name": "d",
         "matches": [
             {
-                "homeTeam": "AC Milan",
-                "awayTeam": "AEK Athen",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "aek_athen"
-            },
-            {
-                "homeTeam": "AEK Athen",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "aek_athen",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "homeTeam": "AC Milan",
-                "awayTeam": "Austria Wien",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "austria_wien"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Austria Wien",
                 "awayTeam": "AC Milan",
                 "score": "-:-",
@@ -460,6 +476,15 @@
                 "awayTeamLogo": "ac_milan"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "HNK Rijeka",
+                "awayTeam": "AEK Athen",
+                "score": "-:-",
+                "homeTeamLogo": "hnk_rijeka",
+                "awayTeamLogo": "aek_athen"
+            },
+            {
+                "date": "28/09/2017",
                 "homeTeam": "AC Milan",
                 "awayTeam": "HNK Rijeka",
                 "score": "-:-",
@@ -467,6 +492,63 @@
                 "awayTeamLogo": "hnk_rijeka"
             },
             {
+                "date": "28/09/2017",
+                "homeTeam": "AEK Athen",
+                "awayTeam": "Austria Wien",
+                "score": "-:-",
+                "homeTeamLogo": "aek_athen",
+                "awayTeamLogo": "austria_wien"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "AC Milan",
+                "awayTeam": "AEK Athen",
+                "score": "-:-",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "aek_athen"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "Austria Wien",
+                "awayTeam": "HNK Rijeka",
+                "score": "-:-",
+                "homeTeamLogo": "austria_wien",
+                "awayTeamLogo": "hnk_rijeka"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "AEK Athen",
+                "awayTeam": "AC Milan",
+                "score": "-:-",
+                "homeTeamLogo": "aek_athen",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "HNK Rijeka",
+                "awayTeam": "Austria Wien",
+                "score": "-:-",
+                "homeTeamLogo": "hnk_rijeka",
+                "awayTeamLogo": "austria_wien"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Austria Wien",
+                "score": "-:-",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "austria_wien"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "AEK Athen",
+                "awayTeam": "HNK Rijeka",
+                "score": "-:-",
+                "homeTeamLogo": "aek_athen",
+                "awayTeamLogo": "hnk_rijeka"
+            },
+            {
+                "date": "07/12/2017",
                 "homeTeam": "HNK Rijeka",
                 "awayTeam": "AC Milan",
                 "score": "-:-",
@@ -474,46 +556,12 @@
                 "awayTeamLogo": "ac_milan"
             },
             {
-                "homeTeam": "AEK Athen",
-                "awayTeam": "Austria Wien",
-                "score": "-:-",
-                "homeTeamLogo": "aek_athen",
-                "awayTeamLogo": "austria_wien"
-            },
-            {
+                "date": "07/12/2017",
                 "homeTeam": "Austria Wien",
                 "awayTeam": "AEK Athen",
                 "score": "-:-",
                 "homeTeamLogo": "austria_wien",
                 "awayTeamLogo": "aek_athen"
-            },
-            {
-                "homeTeam": "AEK Athen",
-                "awayTeam": "HNK Rijeka",
-                "score": "-:-",
-                "homeTeamLogo": "aek_athen",
-                "awayTeamLogo": "hnk_rijeka"
-            },
-            {
-                "homeTeam": "HNK Rijeka",
-                "awayTeam": "AEK Athen",
-                "score": "-:-",
-                "homeTeamLogo": "hnk_rijeka",
-                "awayTeamLogo": "aek_athen"
-            },
-            {
-                "homeTeam": "Austria Wien",
-                "awayTeam": "HNK Rijeka",
-                "score": "-:-",
-                "homeTeamLogo": "austria_wien",
-                "awayTeamLogo": "hnk_rijeka"
-            },
-            {
-                "homeTeam": "HNK Rijeka",
-                "awayTeam": "Austria Wien",
-                "score": "-:-",
-                "homeTeamLogo": "hnk_rijeka",
-                "awayTeamLogo": "austria_wien"
             }
         ],
         "table": [
@@ -575,34 +623,7 @@
         "name": "e",
         "matches": [
             {
-                "homeTeam": "Apollon Limassol",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "apollon_limassol",
-                "awayTeamLogo": "atalanta"
-            },
-            {
-                "homeTeam": "Atalanta",
-                "awayTeam": "Apollon Limassol",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "apollon_limassol"
-            },
-            {
-                "homeTeam": "Apollon Limassol",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "apollon_limassol",
-                "awayTeamLogo": "everton_fc"
-            },
-            {
-                "homeTeam": "Everton FC",
-                "awayTeam": "Apollon Limassol",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "apollon_limassol"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Apollon Limassol",
                 "awayTeam": "Olympique Lyon",
                 "score": "-:-",
@@ -610,6 +631,63 @@
                 "awayTeamLogo": "olympique_lyon"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Everton FC",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Apollon Limassol",
+                "score": "-:-",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "apollon_limassol"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Atalanta",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Apollon Limassol",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "apollon_limassol"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Olympique Lyon",
+                "score": "-:-",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "Apollon Limassol",
+                "awayTeam": "Atalanta",
+                "score": "-:-",
+                "homeTeamLogo": "apollon_limassol",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Everton FC",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "23/11/2017",
                 "homeTeam": "Olympique Lyon",
                 "awayTeam": "Apollon Limassol",
                 "score": "-:-",
@@ -617,13 +695,7 @@
                 "awayTeamLogo": "apollon_limassol"
             },
             {
-                "homeTeam": "Atalanta",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "everton_fc"
-            },
-            {
+                "date": "23/11/2017",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Atalanta",
                 "score": "-:-",
@@ -631,32 +703,20 @@
                 "awayTeamLogo": "atalanta"
             },
             {
+                "date": "07/12/2017",
+                "homeTeam": "Apollon Limassol",
+                "awayTeam": "Everton FC",
+                "score": "-:-",
+                "homeTeamLogo": "apollon_limassol",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "07/12/2017",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Olympique Lyon",
                 "score": "-:-",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "olympique_lyon"
-            },
-            {
-                "homeTeam": "Olympique Lyon",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_lyon",
-                "awayTeamLogo": "atalanta"
-            },
-            {
-                "homeTeam": "Everton FC",
-                "awayTeam": "Olympique Lyon",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "olympique_lyon"
-            },
-            {
-                "homeTeam": "Olympique Lyon",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_lyon",
-                "awayTeamLogo": "everton_fc"
             }
         ],
         "table": [
@@ -718,20 +778,7 @@
         "name": "f",
         "matches": [
             {
-                "homeTeam": "FC FASTAV Zlín",
-                "awayTeam": "FC København",
-                "score": "-:-",
-                "homeTeamLogo": "fc_fastav_zlin",
-                "awayTeamLogo": "fc_k_benhavn"
-            },
-            {
-                "homeTeam": "FC København",
-                "awayTeam": "FC FASTAV Zlín",
-                "score": "-:-",
-                "homeTeamLogo": "fc_k_benhavn",
-                "awayTeamLogo": "fc_fastav_zlin"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "FC FASTAV Zlín",
                 "awayTeam": "FC Sheriff",
                 "score": "-:-",
@@ -739,6 +786,63 @@
                 "awayTeamLogo": "fc_sheriff"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "FC København",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "-:-",
+                "homeTeamLogo": "fc_k_benhavn",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "FC FASTAV Zlín",
+                "score": "-:-",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "fc_fastav_zlin"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "FC Sheriff",
+                "awayTeam": "FC København",
+                "score": "-:-",
+                "homeTeamLogo": "fc_sheriff",
+                "awayTeamLogo": "fc_k_benhavn"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "FC FASTAV Zlín",
+                "awayTeam": "FC København",
+                "score": "-:-",
+                "homeTeamLogo": "fc_fastav_zlin",
+                "awayTeamLogo": "fc_k_benhavn"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "FC Sheriff",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "-:-",
+                "homeTeamLogo": "fc_sheriff",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "FC København",
+                "awayTeam": "FC FASTAV Zlín",
+                "score": "-:-",
+                "homeTeamLogo": "fc_k_benhavn",
+                "awayTeamLogo": "fc_fastav_zlin"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "FC Sheriff",
+                "score": "-:-",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "fc_sheriff"
+            },
+            {
+                "date": "23/11/2017",
                 "homeTeam": "FC Sheriff",
                 "awayTeam": "FC FASTAV Zlín",
                 "score": "-:-",
@@ -746,6 +850,15 @@
                 "awayTeamLogo": "fc_fastav_zlin"
             },
             {
+                "date": "23/11/2017",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "FC København",
+                "score": "-:-",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "fc_k_benhavn"
+            },
+            {
+                "date": "07/12/2017",
                 "homeTeam": "FC FASTAV Zlín",
                 "awayTeam": "Lokomotiv Moskva",
                 "score": "-:-",
@@ -753,52 +866,11 @@
                 "awayTeamLogo": "lokomotiv_moskva"
             },
             {
-                "homeTeam": "Lokomotiv Moskva",
-                "awayTeam": "FC FASTAV Zlín",
-                "score": "-:-",
-                "homeTeamLogo": "lokomotiv_moskva",
-                "awayTeamLogo": "fc_fastav_zlin"
-            },
-            {
+                "date": "07/12/2017",
                 "homeTeam": "FC København",
                 "awayTeam": "FC Sheriff",
                 "score": "-:-",
                 "homeTeamLogo": "fc_k_benhavn",
-                "awayTeamLogo": "fc_sheriff"
-            },
-            {
-                "homeTeam": "FC Sheriff",
-                "awayTeam": "FC København",
-                "score": "-:-",
-                "homeTeamLogo": "fc_sheriff",
-                "awayTeamLogo": "fc_k_benhavn"
-            },
-            {
-                "homeTeam": "FC København",
-                "awayTeam": "Lokomotiv Moskva",
-                "score": "-:-",
-                "homeTeamLogo": "fc_k_benhavn",
-                "awayTeamLogo": "lokomotiv_moskva"
-            },
-            {
-                "homeTeam": "Lokomotiv Moskva",
-                "awayTeam": "FC København",
-                "score": "-:-",
-                "homeTeamLogo": "lokomotiv_moskva",
-                "awayTeamLogo": "fc_k_benhavn"
-            },
-            {
-                "homeTeam": "FC Sheriff",
-                "awayTeam": "Lokomotiv Moskva",
-                "score": "-:-",
-                "homeTeamLogo": "fc_sheriff",
-                "awayTeamLogo": "lokomotiv_moskva"
-            },
-            {
-                "homeTeam": "Lokomotiv Moskva",
-                "awayTeam": "FC Sheriff",
-                "score": "-:-",
-                "homeTeamLogo": "lokomotiv_moskva",
                 "awayTeamLogo": "fc_sheriff"
             }
         ],
@@ -861,13 +933,7 @@
         "name": "g",
         "matches": [
             {
-                "homeTeam": "FC Lugano",
-                "awayTeam": "Hapoel Be'er Sheva",
-                "score": "-:-",
-                "homeTeamLogo": "fc_lugano",
-                "awayTeamLogo": "hapoel_be_er_sheva"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Hapoel Be'er Sheva",
                 "awayTeam": "FC Lugano",
                 "score": "-:-",
@@ -875,6 +941,15 @@
                 "awayTeamLogo": "fc_lugano"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "Viktoria Plzeň",
+                "score": "-:-",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "viktoria_plze_"
+            },
+            {
+                "date": "28/09/2017",
                 "homeTeam": "FC Lugano",
                 "awayTeam": "Steaua Bucureşti",
                 "score": "-:-",
@@ -882,13 +957,15 @@
                 "awayTeamLogo": "steaua_bucure_ti"
             },
             {
-                "homeTeam": "Steaua Bucureşti",
-                "awayTeam": "FC Lugano",
+                "date": "28/09/2017",
+                "homeTeam": "Viktoria Plzeň",
+                "awayTeam": "Hapoel Be'er Sheva",
                 "score": "-:-",
-                "homeTeamLogo": "steaua_bucure_ti",
-                "awayTeamLogo": "fc_lugano"
+                "homeTeamLogo": "viktoria_plze_",
+                "awayTeamLogo": "hapoel_be_er_sheva"
             },
             {
+                "date": "19/10/2017",
                 "homeTeam": "FC Lugano",
                 "awayTeam": "Viktoria Plzeň",
                 "score": "-:-",
@@ -896,6 +973,15 @@
                 "awayTeamLogo": "viktoria_plze_"
             },
             {
+                "date": "19/10/2017",
+                "homeTeam": "Hapoel Be'er Sheva",
+                "awayTeam": "Steaua Bucureşti",
+                "score": "-:-",
+                "homeTeamLogo": "hapoel_be_er_sheva",
+                "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "02/11/2017",
                 "homeTeam": "Viktoria Plzeň",
                 "awayTeam": "FC Lugano",
                 "score": "-:-",
@@ -903,13 +989,7 @@
                 "awayTeamLogo": "fc_lugano"
             },
             {
-                "homeTeam": "Hapoel Be'er Sheva",
-                "awayTeam": "Steaua Bucureşti",
-                "score": "-:-",
-                "homeTeamLogo": "hapoel_be_er_sheva",
-                "awayTeamLogo": "steaua_bucure_ti"
-            },
-            {
+                "date": "02/11/2017",
                 "homeTeam": "Steaua Bucureşti",
                 "awayTeam": "Hapoel Be'er Sheva",
                 "score": "-:-",
@@ -917,32 +997,36 @@
                 "awayTeamLogo": "hapoel_be_er_sheva"
             },
             {
-                "homeTeam": "Hapoel Be'er Sheva",
-                "awayTeam": "Viktoria Plzeň",
-                "score": "-:-",
-                "homeTeamLogo": "hapoel_be_er_sheva",
-                "awayTeamLogo": "viktoria_plze_"
-            },
-            {
-                "homeTeam": "Viktoria Plzeň",
+                "date": "23/11/2017",
+                "homeTeam": "FC Lugano",
                 "awayTeam": "Hapoel Be'er Sheva",
                 "score": "-:-",
-                "homeTeamLogo": "viktoria_plze_",
+                "homeTeamLogo": "fc_lugano",
                 "awayTeamLogo": "hapoel_be_er_sheva"
             },
             {
-                "homeTeam": "Steaua Bucureşti",
-                "awayTeam": "Viktoria Plzeň",
-                "score": "-:-",
-                "homeTeamLogo": "steaua_bucure_ti",
-                "awayTeamLogo": "viktoria_plze_"
-            },
-            {
+                "date": "23/11/2017",
                 "homeTeam": "Viktoria Plzeň",
                 "awayTeam": "Steaua Bucureşti",
                 "score": "-:-",
                 "homeTeamLogo": "viktoria_plze_",
                 "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "FC Lugano",
+                "score": "-:-",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "fc_lugano"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Hapoel Be'er Sheva",
+                "awayTeam": "Viktoria Plzeň",
+                "score": "-:-",
+                "homeTeamLogo": "hapoel_be_er_sheva",
+                "awayTeamLogo": "viktoria_plze_"
             }
         ],
         "table": [
@@ -1004,13 +1088,7 @@
         "name": "h",
         "matches": [
             {
-                "homeTeam": "1. FC Köln",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "1__fc_koln",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "1. FC Köln",
                 "score": "-:-",
@@ -1018,6 +1096,47 @@
                 "awayTeamLogo": "1__fc_koln"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "Crvena Zvezda",
+                "awayTeam": "BATE Borisov",
+                "score": "-:-",
+                "homeTeamLogo": "crvena_zvezda",
+                "awayTeamLogo": "bate_borisov"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "1. FC Köln",
+                "awayTeam": "Crvena Zvezda",
+                "score": "-:-",
+                "homeTeamLogo": "1__fc_koln",
+                "awayTeamLogo": "crvena_zvezda"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "BATE Borisov",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "bate_borisov",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "BATE Borisov",
+                "awayTeam": "1. FC Köln",
+                "score": "-:-",
+                "homeTeamLogo": "bate_borisov",
+                "awayTeamLogo": "1__fc_koln"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "Crvena Zvezda",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "crvena_zvezda",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "02/11/2017",
                 "homeTeam": "1. FC Köln",
                 "awayTeam": "BATE Borisov",
                 "score": "-:-",
@@ -1025,20 +1144,31 @@
                 "awayTeamLogo": "bate_borisov"
             },
             {
-                "homeTeam": "BATE Borisov",
-                "awayTeam": "1. FC Köln",
+                "date": "02/11/2017",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Crvena Zvezda",
                 "score": "-:-",
-                "homeTeamLogo": "bate_borisov",
-                "awayTeamLogo": "1__fc_koln"
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "crvena_zvezda"
             },
             {
+                "date": "23/11/2017",
                 "homeTeam": "1. FC Köln",
-                "awayTeam": "Crvena Zvezda",
+                "awayTeam": "Arsenal FC",
                 "score": "-:-",
                 "homeTeamLogo": "1__fc_koln",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "BATE Borisov",
+                "awayTeam": "Crvena Zvezda",
+                "score": "-:-",
+                "homeTeamLogo": "bate_borisov",
                 "awayTeamLogo": "crvena_zvezda"
             },
             {
+                "date": "07/12/2017",
                 "homeTeam": "Crvena Zvezda",
                 "awayTeam": "1. FC Köln",
                 "score": "-:-",
@@ -1046,45 +1176,11 @@
                 "awayTeamLogo": "1__fc_koln"
             },
             {
+                "date": "07/12/2017",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "BATE Borisov",
                 "score": "-:-",
                 "homeTeamLogo": "arsenal_fc",
-                "awayTeamLogo": "bate_borisov"
-            },
-            {
-                "homeTeam": "BATE Borisov",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "bate_borisov",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "homeTeam": "Arsenal FC",
-                "awayTeam": "Crvena Zvezda",
-                "score": "-:-",
-                "homeTeamLogo": "arsenal_fc",
-                "awayTeamLogo": "crvena_zvezda"
-            },
-            {
-                "homeTeam": "Crvena Zvezda",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "crvena_zvezda",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "homeTeam": "BATE Borisov",
-                "awayTeam": "Crvena Zvezda",
-                "score": "-:-",
-                "homeTeamLogo": "bate_borisov",
-                "awayTeamLogo": "crvena_zvezda"
-            },
-            {
-                "homeTeam": "Crvena Zvezda",
-                "awayTeam": "BATE Borisov",
-                "score": "-:-",
-                "homeTeamLogo": "crvena_zvezda",
                 "awayTeamLogo": "bate_borisov"
             }
         ],
@@ -1147,13 +1243,7 @@
         "name": "i",
         "matches": [
             {
-                "homeTeam": "Atiker Konyaspor",
-                "awayTeam": "Olympique Marseille",
-                "score": "-:-",
-                "homeTeamLogo": "atiker_konyaspor",
-                "awayTeamLogo": "olympique_marseille"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Olympique Marseille",
                 "awayTeam": "Atiker Konyaspor",
                 "score": "-:-",
@@ -1161,6 +1251,31 @@
                 "awayTeamLogo": "atiker_konyaspor"
             },
             {
+                "date": "14/09/2017",
+                "homeTeam": "Vitória Guimarães",
+                "awayTeam": "RB Salzburg",
+                "score": "-:-",
+                "homeTeamLogo": "vitoria_guimaraes",
+                "awayTeamLogo": "rb_salzburg"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "Atiker Konyaspor",
+                "awayTeam": "Vitória Guimarães",
+                "score": "-:-",
+                "homeTeamLogo": "atiker_konyaspor",
+                "awayTeamLogo": "vitoria_guimaraes"
+            },
+            {
+                "date": "28/09/2017",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "Olympique Marseille",
+                "score": "-:-",
+                "homeTeamLogo": "rb_salzburg",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "19/10/2017",
                 "homeTeam": "Atiker Konyaspor",
                 "awayTeam": "RB Salzburg",
                 "score": "-:-",
@@ -1168,6 +1283,15 @@
                 "awayTeamLogo": "rb_salzburg"
             },
             {
+                "date": "19/10/2017",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Vitória Guimarães",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "vitoria_guimaraes"
+            },
+            {
+                "date": "02/11/2017",
                 "homeTeam": "RB Salzburg",
                 "awayTeam": "Atiker Konyaspor",
                 "score": "-:-",
@@ -1175,13 +1299,31 @@
                 "awayTeamLogo": "atiker_konyaspor"
             },
             {
+                "date": "02/11/2017",
+                "homeTeam": "Vitória Guimarães",
+                "awayTeam": "Olympique Marseille",
+                "score": "-:-",
+                "homeTeamLogo": "vitoria_guimaraes",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "23/11/2017",
                 "homeTeam": "Atiker Konyaspor",
-                "awayTeam": "Vitória Guimarães",
+                "awayTeam": "Olympique Marseille",
                 "score": "-:-",
                 "homeTeamLogo": "atiker_konyaspor",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "Vitória Guimarães",
+                "score": "-:-",
+                "homeTeamLogo": "rb_salzburg",
                 "awayTeamLogo": "vitoria_guimaraes"
             },
             {
+                "date": "07/12/2017",
                 "homeTeam": "Vitória Guimarães",
                 "awayTeam": "Atiker Konyaspor",
                 "score": "-:-",
@@ -1189,45 +1331,11 @@
                 "awayTeamLogo": "atiker_konyaspor"
             },
             {
+                "date": "07/12/2017",
                 "homeTeam": "Olympique Marseille",
                 "awayTeam": "RB Salzburg",
                 "score": "-:-",
                 "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "rb_salzburg"
-            },
-            {
-                "homeTeam": "RB Salzburg",
-                "awayTeam": "Olympique Marseille",
-                "score": "-:-",
-                "homeTeamLogo": "rb_salzburg",
-                "awayTeamLogo": "olympique_marseille"
-            },
-            {
-                "homeTeam": "Olympique Marseille",
-                "awayTeam": "Vitória Guimarães",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "vitoria_guimaraes"
-            },
-            {
-                "homeTeam": "Vitória Guimarães",
-                "awayTeam": "Olympique Marseille",
-                "score": "-:-",
-                "homeTeamLogo": "vitoria_guimaraes",
-                "awayTeamLogo": "olympique_marseille"
-            },
-            {
-                "homeTeam": "RB Salzburg",
-                "awayTeam": "Vitória Guimarães",
-                "score": "-:-",
-                "homeTeamLogo": "rb_salzburg",
-                "awayTeamLogo": "vitoria_guimaraes"
-            },
-            {
-                "homeTeam": "Vitória Guimarães",
-                "awayTeam": "RB Salzburg",
-                "score": "-:-",
-                "homeTeamLogo": "vitoria_guimaraes",
                 "awayTeamLogo": "rb_salzburg"
             }
         ],
@@ -1290,13 +1398,7 @@
         "name": "j",
         "matches": [
             {
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Hertha BSC",
-                "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "hertha_bsc"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Hertha BSC",
                 "awayTeam": "Athletic Bilbao",
                 "score": "-:-",
@@ -1304,27 +1406,7 @@
                 "awayTeamLogo": "athletic_bilbao"
             },
             {
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Östersunds FK",
-                "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "ostersunds_fk"
-            },
-            {
-                "homeTeam": "Östersunds FK",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "ostersunds_fk",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "homeTeam": "Östersunds FK",
-                "awayTeam": "Zorya Lugansk",
-                "score": "-:-",
-                "homeTeamLogo": "ostersunds_fk",
-                "awayTeamLogo": "zorya_lugansk"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Zorya Lugansk",
                 "awayTeam": "Östersunds FK",
                 "score": "-:-",
@@ -1332,6 +1414,7 @@
                 "awayTeamLogo": "ostersunds_fk"
             },
             {
+                "date": "28/09/2017",
                 "homeTeam": "Athletic Bilbao",
                 "awayTeam": "Zorya Lugansk",
                 "score": "-:-",
@@ -1339,20 +1422,7 @@
                 "awayTeamLogo": "zorya_lugansk"
             },
             {
-                "homeTeam": "Zorya Lugansk",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "zorya_lugansk",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "homeTeam": "Hertha BSC",
-                "awayTeam": "Östersunds FK",
-                "score": "-:-",
-                "homeTeamLogo": "hertha_bsc",
-                "awayTeamLogo": "ostersunds_fk"
-            },
-            {
+                "date": "28/09/2017",
                 "homeTeam": "Östersunds FK",
                 "awayTeam": "Hertha BSC",
                 "score": "-:-",
@@ -1360,6 +1430,31 @@
                 "awayTeamLogo": "hertha_bsc"
             },
             {
+                "date": "19/10/2017",
+                "homeTeam": "Östersunds FK",
+                "awayTeam": "Athletic Bilbao",
+                "score": "-:-",
+                "homeTeamLogo": "ostersunds_fk",
+                "awayTeamLogo": "athletic_bilbao"
+            },
+            {
+                "date": "19/10/2017",
+                "homeTeam": "Zorya Lugansk",
+                "awayTeam": "Hertha BSC",
+                "score": "-:-",
+                "homeTeamLogo": "zorya_lugansk",
+                "awayTeamLogo": "hertha_bsc"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "Athletic Bilbao",
+                "awayTeam": "Östersunds FK",
+                "score": "-:-",
+                "homeTeamLogo": "athletic_bilbao",
+                "awayTeamLogo": "ostersunds_fk"
+            },
+            {
+                "date": "02/11/2017",
                 "homeTeam": "Hertha BSC",
                 "awayTeam": "Zorya Lugansk",
                 "score": "-:-",
@@ -1367,11 +1462,36 @@
                 "awayTeamLogo": "zorya_lugansk"
             },
             {
-                "homeTeam": "Zorya Lugansk",
+                "date": "23/11/2017",
+                "homeTeam": "Athletic Bilbao",
                 "awayTeam": "Hertha BSC",
                 "score": "-:-",
-                "homeTeamLogo": "zorya_lugansk",
+                "homeTeamLogo": "athletic_bilbao",
                 "awayTeamLogo": "hertha_bsc"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "Östersunds FK",
+                "awayTeam": "Zorya Lugansk",
+                "score": "-:-",
+                "homeTeamLogo": "ostersunds_fk",
+                "awayTeamLogo": "zorya_lugansk"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Zorya Lugansk",
+                "awayTeam": "Athletic Bilbao",
+                "score": "-:-",
+                "homeTeamLogo": "zorya_lugansk",
+                "awayTeamLogo": "athletic_bilbao"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Hertha BSC",
+                "awayTeam": "Östersunds FK",
+                "score": "-:-",
+                "homeTeamLogo": "hertha_bsc",
+                "awayTeamLogo": "ostersunds_fk"
             }
         ],
         "table": [
@@ -1433,41 +1553,7 @@
         "name": "k",
         "matches": [
             {
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "OGC Nice",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "ogc_nice"
-            },
-            {
-                "homeTeam": "OGC Nice",
-                "awayTeam": "Lazio Roma",
-                "score": "-:-",
-                "homeTeamLogo": "ogc_nice",
-                "awayTeamLogo": "lazio_roma"
-            },
-            {
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "SV Zulte Waregem",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "sv_zulte_waregem"
-            },
-            {
-                "homeTeam": "SV Zulte Waregem",
-                "awayTeam": "Lazio Roma",
-                "score": "-:-",
-                "homeTeamLogo": "sv_zulte_waregem",
-                "awayTeamLogo": "lazio_roma"
-            },
-            {
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Vitesse",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "vitesse"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Vitesse",
                 "awayTeam": "Lazio Roma",
                 "score": "-:-",
@@ -1475,13 +1561,7 @@
                 "awayTeamLogo": "lazio_roma"
             },
             {
-                "homeTeam": "OGC Nice",
-                "awayTeam": "SV Zulte Waregem",
-                "score": "-:-",
-                "homeTeamLogo": "ogc_nice",
-                "awayTeamLogo": "sv_zulte_waregem"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "SV Zulte Waregem",
                 "awayTeam": "OGC Nice",
                 "score": "-:-",
@@ -1489,6 +1569,15 @@
                 "awayTeamLogo": "ogc_nice"
             },
             {
+                "date": "28/09/2017",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "SV Zulte Waregem",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "sv_zulte_waregem"
+            },
+            {
+                "date": "28/09/2017",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "Vitesse",
                 "score": "-:-",
@@ -1496,13 +1585,15 @@
                 "awayTeamLogo": "vitesse"
             },
             {
-                "homeTeam": "Vitesse",
-                "awayTeam": "OGC Nice",
+                "date": "19/10/2017",
+                "homeTeam": "OGC Nice",
+                "awayTeam": "Lazio Roma",
                 "score": "-:-",
-                "homeTeamLogo": "vitesse",
-                "awayTeamLogo": "ogc_nice"
+                "homeTeamLogo": "ogc_nice",
+                "awayTeamLogo": "lazio_roma"
             },
             {
+                "date": "19/10/2017",
                 "homeTeam": "SV Zulte Waregem",
                 "awayTeam": "Vitesse",
                 "score": "-:-",
@@ -1510,11 +1601,52 @@
                 "awayTeamLogo": "vitesse"
             },
             {
+                "date": "02/11/2017",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "OGC Nice",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "ogc_nice"
+            },
+            {
+                "date": "02/11/2017",
                 "homeTeam": "Vitesse",
                 "awayTeam": "SV Zulte Waregem",
                 "score": "-:-",
                 "homeTeamLogo": "vitesse",
                 "awayTeamLogo": "sv_zulte_waregem"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Vitesse",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "vitesse"
+            },
+            {
+                "date": "23/11/2017",
+                "homeTeam": "OGC Nice",
+                "awayTeam": "SV Zulte Waregem",
+                "score": "-:-",
+                "homeTeamLogo": "ogc_nice",
+                "awayTeamLogo": "sv_zulte_waregem"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "SV Zulte Waregem",
+                "awayTeam": "Lazio Roma",
+                "score": "-:-",
+                "homeTeamLogo": "sv_zulte_waregem",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Vitesse",
+                "awayTeam": "OGC Nice",
+                "score": "-:-",
+                "homeTeamLogo": "vitesse",
+                "awayTeamLogo": "ogc_nice"
             }
         ],
         "table": [
@@ -1576,6 +1708,7 @@
         "name": "l",
         "matches": [
             {
+                "date": "14/09/2017",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Rosenborg BK",
                 "score": "-:-",
@@ -1583,34 +1716,15 @@
                 "awayTeamLogo": "rosenborg_bk"
             },
             {
-                "homeTeam": "Rosenborg BK",
-                "awayTeam": "Real Sociedad",
-                "score": "-:-",
-                "homeTeamLogo": "rosenborg_bk",
-                "awayTeamLogo": "real_sociedad"
-            },
-            {
-                "homeTeam": "Real Sociedad",
-                "awayTeam": "Vardar Skopje",
-                "score": "-:-",
-                "homeTeamLogo": "real_sociedad",
-                "awayTeamLogo": "vardar_skopje"
-            },
-            {
+                "date": "14/09/2017",
                 "homeTeam": "Vardar Skopje",
-                "awayTeam": "Real Sociedad",
-                "score": "-:-",
-                "homeTeamLogo": "vardar_skopje",
-                "awayTeamLogo": "real_sociedad"
-            },
-            {
-                "homeTeam": "Real Sociedad",
                 "awayTeam": "Zenit St. Petersburg",
                 "score": "-:-",
-                "homeTeamLogo": "real_sociedad",
+                "homeTeamLogo": "vardar_skopje",
                 "awayTeamLogo": "zenit_st__petersburg"
             },
             {
+                "date": "28/09/2017",
                 "homeTeam": "Zenit St. Petersburg",
                 "awayTeam": "Real Sociedad",
                 "score": "-:-",
@@ -1618,6 +1732,7 @@
                 "awayTeamLogo": "real_sociedad"
             },
             {
+                "date": "28/09/2017",
                 "homeTeam": "Rosenborg BK",
                 "awayTeam": "Vardar Skopje",
                 "score": "-:-",
@@ -1625,20 +1740,15 @@
                 "awayTeamLogo": "vardar_skopje"
             },
             {
+                "date": "19/10/2017",
                 "homeTeam": "Vardar Skopje",
-                "awayTeam": "Rosenborg BK",
+                "awayTeam": "Real Sociedad",
                 "score": "-:-",
                 "homeTeamLogo": "vardar_skopje",
-                "awayTeamLogo": "rosenborg_bk"
+                "awayTeamLogo": "real_sociedad"
             },
             {
-                "homeTeam": "Rosenborg BK",
-                "awayTeam": "Zenit St. Petersburg",
-                "score": "-:-",
-                "homeTeamLogo": "rosenborg_bk",
-                "awayTeamLogo": "zenit_st__petersburg"
-            },
-            {
+                "date": "19/10/2017",
                 "homeTeam": "Zenit St. Petersburg",
                 "awayTeam": "Rosenborg BK",
                 "score": "-:-",
@@ -1646,18 +1756,52 @@
                 "awayTeamLogo": "rosenborg_bk"
             },
             {
-                "homeTeam": "Vardar Skopje",
+                "date": "02/11/2017",
+                "homeTeam": "Real Sociedad",
+                "awayTeam": "Vardar Skopje",
+                "score": "-:-",
+                "homeTeamLogo": "real_sociedad",
+                "awayTeamLogo": "vardar_skopje"
+            },
+            {
+                "date": "02/11/2017",
+                "homeTeam": "Rosenborg BK",
                 "awayTeam": "Zenit St. Petersburg",
                 "score": "-:-",
-                "homeTeamLogo": "vardar_skopje",
+                "homeTeamLogo": "rosenborg_bk",
                 "awayTeamLogo": "zenit_st__petersburg"
             },
             {
+                "date": "23/11/2017",
+                "homeTeam": "Rosenborg BK",
+                "awayTeam": "Real Sociedad",
+                "score": "-:-",
+                "homeTeamLogo": "rosenborg_bk",
+                "awayTeamLogo": "real_sociedad"
+            },
+            {
+                "date": "23/11/2017",
                 "homeTeam": "Zenit St. Petersburg",
                 "awayTeam": "Vardar Skopje",
                 "score": "-:-",
                 "homeTeamLogo": "zenit_st__petersburg",
                 "awayTeamLogo": "vardar_skopje"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Real Sociedad",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "-:-",
+                "homeTeamLogo": "real_sociedad",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "07/12/2017",
+                "homeTeam": "Vardar Skopje",
+                "awayTeam": "Rosenborg BK",
+                "score": "-:-",
+                "homeTeamLogo": "vardar_skopje",
+                "awayTeamLogo": "rosenborg_bk"
             }
         ],
         "table": [

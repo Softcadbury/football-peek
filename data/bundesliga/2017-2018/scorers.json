@@ -1,6 +1,33 @@
 [
     {
         "rank": "1.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "3",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "2.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "2",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "2",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Mathew Leckie",
         "country": "Australia",
         "team": "Hertha BSC",
@@ -9,13 +36,22 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "2.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "6.",
+        "name": "Holger Badstuber",
+        "country": "Germany",
+        "team": "VfB Stuttgart",
         "goals": "1",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
+        "flag": "germany",
+        "logo": "vfb_stuttgart"
     },
     {
         "rank": "-",
@@ -28,12 +64,48 @@
     },
     {
         "rank": "-",
+        "name": "Karim Bellarabi",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "1",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Nabil Bentaleb",
         "country": "Algeria",
         "team": "FC Schalke 04",
         "goals": "1",
         "flag": "algeria",
         "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": " Bruma",
+        "country": "Portugal",
+        "team": "RB Leipzig",
+        "goals": "1",
+        "flag": "portugal",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Sergio Córdova",
+        "country": "Venezuela",
+        "team": "FC Augsburg",
+        "goals": "1",
+        "flag": "venezuela",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Didavi",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "1",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
     },
     {
         "rank": "-",
@@ -46,11 +118,47 @@
     },
     {
         "rank": "-",
+        "name": "Alfreð Finnbogason",
+        "country": "Iceland",
+        "team": "FC Augsburg",
+        "goals": "1",
+        "flag": "iceland",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "André Hahn",
+        "country": "Germany",
+        "team": "Hamburger SV",
+        "goals": "1",
+        "flag": "germany",
+        "logo": "hamburger_sv"
+    },
+    {
+        "rank": "-",
         "name": "Martin Harnik",
         "country": "Austria",
         "team": "Hannover 96",
         "goals": "1",
         "flag": "austria",
+        "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
+        "name": "Lewis Holtby",
+        "country": "Germany",
+        "team": "Hamburger SV",
+        "goals": "1",
+        "flag": "germany",
+        "logo": "hamburger_sv"
+    },
+    {
+        "rank": "-",
+        "name": " Jonathas",
+        "country": "Brazil",
+        "team": "Hannover 96",
+        "goals": "1",
+        "flag": "brazil",
         "logo": "hannover_96"
     },
     {
@@ -64,65 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "1",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
-        "goals": "1",
-        "flag": "poland",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
         "name": "Admir Mehmedi",
         "country": "Switzerland",
         "team": "Bayer Leverkusen",
         "goals": "1",
         "flag": "switzerland",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolai Müller",
-        "country": "Germany",
-        "team": "Hamburger SV",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "hamburger_sv"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Pulisic",
-        "country": "USA",
-        "team": "Borussia Dortmund",
-        "goals": "1",
-        "flag": "usa",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Niklas Süle",
-        "country": "Germany",
-        "team": "Bayern München",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Corentin Tolisso",
-        "country": "France",
-        "team": "Bayern München",
-        "goals": "1",
-        "flag": "france",
-        "logo": "bayern_munchen"
     }
 ]
