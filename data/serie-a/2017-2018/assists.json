@@ -9,13 +9,40 @@
         "logo": "inter"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Miralem Pjanić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Juventus",
+        "assists": "3",
+        "flag": "bosnia_herzegovina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "3.",
+        "name": " Bruno Gaspar",
+        "country": "Portugal",
+        "team": "ACF Fiorentina",
+        "assists": "2",
+        "flag": "portugal",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Patrick Cutrone",
         "country": "Italy",
         "team": "AC Milan",
         "assists": "2",
         "flag": "italy",
         "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -28,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Miralem Pjanić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Juventus",
+        "name": "Marco Parolo",
+        "country": "Italy",
+        "team": "Lazio Roma",
         "assists": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "juventus"
+        "flag": "italy",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -45,7 +72,7 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "6.",
+        "rank": "9.",
         "name": " Alex Sandro",
         "country": "Brazil",
         "team": "Juventus",
@@ -64,6 +91,24 @@
     },
     {
         "rank": "-",
+        "name": "Dušan Basta",
+        "country": "Serbia",
+        "team": "Lazio Roma",
+        "assists": "1",
+        "flag": "serbia",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Marco Benassi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -73,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": " Bruno Gaspar",
-        "country": "Portugal",
-        "team": "ACF Fiorentina",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "AC Milan",
         "assists": "1",
-        "flag": "portugal",
-        "logo": "acf_fiorentina"
+        "flag": "turkey",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -109,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Danilo D'Ambrosio",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": " Daniel Bessa",
         "country": "Brazil",
         "team": "Hellas Verona",
@@ -124,59 +178,5 @@
         "assists": "1",
         "flag": "argentina",
         "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo De Silvestri",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Diego Farias",
-        "country": "Brazil",
-        "team": "Cagliari Calcio",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Andrey Galabinov",
-        "country": "Bulgaria",
-        "team": "Genoa CFC",
-        "assists": "1",
-        "flag": "bulgaria",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Papu Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Gonzalo Higuaí­n",
-        "country": "Argentina",
-        "team": "Juventus",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "torino_fc"
     }
 ]
