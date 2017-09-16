@@ -1,15 +1,42 @@
 [
     {
         "rank": "1.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "2.",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Manchester United",
-        "goals": "3",
+        "goals": "4",
         "flag": "belgium",
         "logo": "manchester_united"
     },
     {
         "rank": "-",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "4",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "5.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -18,7 +45,43 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "3",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "3",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Danny Welbeck",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "3",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "10.",
         "name": "Dele Alli",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -28,12 +91,66 @@
     },
     {
         "rank": "-",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
+        "team": "Stoke City",
+        "goals": "2",
+        "flag": "cameroon",
+        "logo": "stoke_city"
+    },
+    {
+        "rank": "-",
+        "name": "Abdoulaye Doucouré",
+        "country": "France",
+        "team": "Watford FC",
+        "goals": "2",
+        "flag": "france",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Pascal Groß",
+        "country": "Germany",
+        "team": "Brighton & Hove Albion",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
         "name": "Javier Hernández",
         "country": "Mexico",
         "team": "West Ham United",
         "goals": "2",
         "flag": "mexico",
         "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "2",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "2",
+        "flag": "france",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Jamaal Lascelles",
+        "country": "England",
+        "team": "Newcastle United",
+        "goals": "2",
+        "flag": "england",
+        "logo": "newcastle_united"
     },
     {
         "rank": "-",
@@ -55,128 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Morata",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
         "name": "Steve Mounié",
         "country": "Benin",
         "team": "Huddersfield Town",
         "goals": "2",
         "flag": "benin",
         "logo": "huddersfield_town"
-    },
-    {
-        "rank": "-",
-        "name": "Shinji Okazaki",
-        "country": "Japan",
-        "team": "Leicester City",
-        "goals": "2",
-        "flag": "japan",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Paul Pogba",
-        "country": "France",
-        "team": "Manchester United",
-        "goals": "2",
-        "flag": "france",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Wayne Rooney",
-        "country": "England",
-        "team": "Everton FC",
-        "goals": "2",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "2",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "goals": "2",
-        "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "2",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Sam Vokes",
-        "country": "Wales",
-        "team": "Burnley FC",
-        "goals": "2",
-        "flag": "wales",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "17.",
-        "name": "Tammy Abraham",
-        "country": "England",
-        "team": "Swansea City",
-        "goals": "1",
-        "flag": "england",
-        "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "1",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Charlie Austin",
-        "country": "England",
-        "team": "Southampton FC",
-        "goals": "1",
-        "flag": "england",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jordan Ayew",
-        "country": "Ghana",
-        "team": "Swansea City",
-        "goals": "1",
-        "flag": "ghana",
-        "logo": "swansea_city"
     }
 ]

@@ -4,18 +4,90 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "3",
+        "goals": "5",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
         "rank": "2.",
+        "name": "Alfreð Finnbogason",
+        "country": "Iceland",
+        "team": "FC Augsburg",
+        "goals": "4",
+        "flag": "iceland",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "4.",
+        "name": "Martin Harnik",
+        "country": "Austria",
+        "team": "Hannover 96",
+        "goals": "3",
+        "flag": "austria",
+        "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
+        "name": "Mathew Leckie",
+        "country": "Australia",
+        "team": "Hertha BSC",
+        "goals": "3",
+        "flag": "australia",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "7.",
+        "name": "Chadrac Akolo",
+        "country": "Congo DR",
+        "team": "VfB Stuttgart",
+        "goals": "2",
+        "flag": "congo_dr",
+        "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "-",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
         "goals": "2",
         "flag": "gabon",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Bentaleb",
+        "country": "Algeria",
+        "team": "FC Schalke 04",
+        "goals": "2",
+        "flag": "algeria",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Didavi",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
     },
     {
         "rank": "-",
@@ -27,25 +99,16 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "-",
-        "name": "Mathew Leckie",
-        "country": "Australia",
-        "team": "Hertha BSC",
-        "goals": "2",
-        "flag": "australia",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
+        "rank": "12.",
+        "name": "Jean-Kévin Augustin",
+        "country": "France",
         "team": "RB Leipzig",
-        "goals": "2",
-        "flag": "germany",
+        "goals": "1",
+        "flag": "france",
         "logo": "rb_leipzig"
     },
     {
-        "rank": "6.",
+        "rank": "-",
         "name": "Holger Badstuber",
         "country": "Germany",
         "team": "VfB Stuttgart",
@@ -64,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": "Ihlas Bebou",
+        "country": "Togo",
+        "team": "Hannover 96",
+        "goals": "1",
+        "flag": "togo",
+        "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
         "name": "Karim Bellarabi",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -73,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Nabil Bentaleb",
-        "country": "Algeria",
-        "team": "FC Schalke 04",
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "Eintracht Frankfurt",
         "goals": "1",
-        "flag": "algeria",
-        "logo": "fc_schalke_04"
+        "flag": "ghana",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -91,92 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Sergio Córdova",
-        "country": "Venezuela",
-        "team": "FC Augsburg",
-        "goals": "1",
-        "flag": "venezuela",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Didavi",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Nico Elvedi",
-        "country": "Switzerland",
-        "team": "Bor. Mönchengladbach",
-        "goals": "1",
-        "flag": "switzerland",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Alfreð Finnbogason",
-        "country": "Iceland",
-        "team": "FC Augsburg",
-        "goals": "1",
-        "flag": "iceland",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "André Hahn",
-        "country": "Germany",
-        "team": "Hamburger SV",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "hamburger_sv"
-    },
-    {
-        "rank": "-",
-        "name": "Martin Harnik",
+        "name": "Guido Burgstaller",
         "country": "Austria",
-        "team": "Hannover 96",
-        "goals": "1",
-        "flag": "austria",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Lewis Holtby",
-        "country": "Germany",
-        "team": "Hamburger SV",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "hamburger_sv"
-    },
-    {
-        "rank": "-",
-        "name": " Jonathas",
-        "country": "Brazil",
-        "team": "Hannover 96",
-        "goals": "1",
-        "flag": "brazil",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Yevhen Konoplyanka",
-        "country": "Ukraine",
         "team": "FC Schalke 04",
         "goals": "1",
-        "flag": "ukraine",
+        "flag": "austria",
         "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
-        "name": "Admir Mehmedi",
-        "country": "Switzerland",
-        "team": "Bayer Leverkusen",
+        "name": " Caiuby",
+        "country": "Brazil",
+        "team": "FC Augsburg",
         "goals": "1",
-        "flag": "switzerland",
-        "logo": "bayer_leverkusen"
+        "flag": "brazil",
+        "logo": "fc_augsburg"
     }
 ]

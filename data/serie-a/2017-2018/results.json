@@ -174,14 +174,6 @@
         "matches": [
             {
                 "date": "09/09/2017",
-                "homeTeam": "Juventus",
-                "awayTeam": "Chievo Verona",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "chievo_verona"
-            },
-            {
-                "date": "09/09/2017",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "AS Roma",
                 "score": "-:-",
@@ -189,10 +181,18 @@
                 "awayTeamLogo": "as_roma"
             },
             {
+                "date": "09/09/2017",
+                "homeTeam": "Juventus",
+                "awayTeam": "Chievo Verona",
+                "score": "3:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "chievo_verona"
+            },
+            {
                 "date": "10/09/2017",
                 "homeTeam": "Inter",
                 "awayTeam": "SPAL 2013 Ferrara",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "spal_2013_ferrara"
             },
@@ -200,7 +200,7 @@
                 "date": "10/09/2017",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "sassuolo_calcio"
             },
@@ -208,7 +208,7 @@
                 "date": "10/09/2017",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "fc_crotone"
             },
@@ -216,31 +216,31 @@
                 "date": "10/09/2017",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "0:5",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "acf_fiorentina"
             },
             {
                 "date": "10/09/2017",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "10/09/2017",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "genoa_cfc"
             },
             {
                 "date": "10/09/2017",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "AC Milan",
+                "score": "4:1",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "10/09/2017",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "torino_fc"
             },
@@ -248,7 +248,7 @@
                 "date": "10/09/2017",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "ssc_napoli"
             }
@@ -258,36 +258,36 @@
         "round": 4,
         "matches": [
             {
-                "date": "17/09/2017",
-                "homeTeam": "Chievo Verona",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "chievo_verona",
-                "awayTeamLogo": "atalanta"
-            },
-            {
-                "date": "17/09/2017",
+                "date": "16/09/2017",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Inter",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "inter"
             },
             {
-                "date": "17/09/2017",
+                "date": "16/09/2017",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "bologna_fc"
             },
             {
-                "date": "17/09/2017",
-                "homeTeam": "Genoa CFC",
-                "awayTeam": "Lazio Roma",
+                "date": "16/09/2017",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Hellas Verona",
                 "score": "-:-",
-                "homeTeamLogo": "genoa_cfc",
-                "awayTeamLogo": "lazio_roma"
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "hellas_verona"
+            },
+            {
+                "date": "17/09/2017",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "juventus"
             },
             {
                 "date": "17/09/2017",
@@ -307,22 +307,6 @@
             },
             {
                 "date": "17/09/2017",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Hellas Verona",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "hellas_verona"
-            },
-            {
-                "date": "17/09/2017",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "17/09/2017",
                 "homeTeam": "SPAL 2013 Ferrara",
                 "awayTeam": "Cagliari Calcio",
                 "score": "-:-",
@@ -336,6 +320,22 @@
                 "score": "-:-",
                 "homeTeamLogo": "torino_fc",
                 "awayTeamLogo": "sampdoria"
+            },
+            {
+                "date": "17/09/2017",
+                "homeTeam": "Chievo Verona",
+                "awayTeam": "Atalanta",
+                "score": "-:-",
+                "homeTeamLogo": "chievo_verona",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "17/09/2017",
+                "homeTeam": "Genoa CFC",
+                "awayTeam": "Lazio Roma",
+                "score": "-:-",
+                "homeTeamLogo": "genoa_cfc",
+                "awayTeamLogo": "lazio_roma"
             }
         ]
     },
@@ -343,12 +343,12 @@
         "round": 5,
         "matches": [
             {
-                "date": "20/09/2017",
-                "homeTeam": "Atalanta",
-                "awayTeam": "FC Crotone",
+                "date": "19/09/2017",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "Inter",
                 "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "fc_crotone"
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "inter"
             },
             {
                 "date": "20/09/2017",
@@ -360,11 +360,11 @@
             },
             {
                 "date": "20/09/2017",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "Inter",
+                "homeTeam": "Atalanta",
+                "awayTeam": "FC Crotone",
                 "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "inter"
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "fc_crotone"
             },
             {
                 "date": "20/09/2017",
