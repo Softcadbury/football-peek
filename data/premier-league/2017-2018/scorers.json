@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "2.",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Manchester United",
@@ -9,16 +27,16 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "2.",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "manchester_city"
+        "rank": "-",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "4",
+        "flag": "england",
+        "logo": "leicester_city"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -37,12 +55,21 @@
     },
     {
         "rank": "-",
-        "name": "Jamie Vardy",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "3",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Raheem Sterling",
         "country": "England",
-        "team": "Leicester City",
+        "team": "Manchester City",
         "goals": "3",
         "flag": "england",
-        "logo": "leicester_city"
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -54,16 +81,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "7.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Dele Alli",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -127,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Jamaal Lascelles",
+        "country": "England",
+        "team": "Newcastle United",
+        "goals": "2",
+        "flag": "england",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
         "name": " Marcos Alonso",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -151,32 +178,5 @@
         "goals": "2",
         "flag": "benin",
         "logo": "huddersfield_town"
-    },
-    {
-        "rank": "-",
-        "name": "Shinji Okazaki",
-        "country": "Japan",
-        "team": "Leicester City",
-        "goals": "2",
-        "flag": "japan",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Paul Pogba",
-        "country": "France",
-        "team": "Manchester United",
-        "goals": "2",
-        "flag": "france",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Marcus Rashford",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "2",
-        "flag": "england",
-        "logo": "manchester_united"
     }
 ]

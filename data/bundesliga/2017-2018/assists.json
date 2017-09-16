@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Amine Harit",
+        "country": "Morocco",
+        "team": "FC Schalke 04",
+        "assists": "3",
+        "flag": "morocco",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "3.",
         "name": "Jean-Kévin Augustin",
         "country": "France",
         "team": "RB Leipzig",
@@ -19,16 +37,16 @@
     },
     {
         "rank": "-",
-        "name": "Amine Harit",
-        "country": "France",
-        "team": "FC Schalke 04",
+        "name": "Marcel Heller",
+        "country": "Germany",
+        "team": "FC Augsburg",
         "assists": "2",
-        "flag": "france",
-        "logo": "fc_schalke_04"
+        "flag": "germany",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
-        "name": "Marcel Heller",
+        "name": "Philipp Max",
         "country": "Germany",
         "team": "FC Augsburg",
         "assists": "2",
@@ -45,7 +63,7 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "6.",
+        "rank": "8.",
         "name": "Dennis Aogo",
         "country": "Germany",
         "team": "VfB Stuttgart",
@@ -64,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": " Bernardo",
+        "country": "Brazil",
+        "team": "RB Leipzig",
+        "assists": "1",
+        "flag": "brazil",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Josip Brekalo",
         "country": "Croatia",
         "team": "VfB Stuttgart",
@@ -79,6 +106,15 @@
         "assists": "1",
         "flag": "germany",
         "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Caligiuri",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "1",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -118,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Jonathan de Guzmán",
+        "country": "Netherlands",
+        "team": "Eintracht Frankfurt",
+        "assists": "1",
+        "flag": "netherlands",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Kerem Demirbay",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -133,50 +178,5 @@
         "assists": "1",
         "flag": "argentina",
         "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Albin Ekdal",
-        "country": "Sweden",
-        "team": "Hamburger SV",
-        "assists": "1",
-        "flag": "sweden",
-        "logo": "hamburger_sv"
-    },
-    {
-        "rank": "-",
-        "name": "Emil Forsberg",
-        "country": "Sweden",
-        "team": "RB Leipzig",
-        "assists": "1",
-        "flag": "sweden",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Götze",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "FC Augsburg",
-        "assists": "1",
-        "flag": "austria",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Josuha Guilavogui",
-        "country": "France",
-        "team": "VfL Wolfsburg",
-        "assists": "1",
-        "flag": "france",
-        "logo": "vfl_wolfsburg"
     }
 ]

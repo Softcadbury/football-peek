@@ -15,18 +15,44 @@
     {
         "rank": "2",
         "team": "AS Monaco",
-        "points": "12",
-        "played": "5",
-        "win": "4",
+        "points": "15",
+        "played": "6",
+        "win": "5",
         "draw": "0",
         "lost": "1",
-        "goalsFor": "14",
+        "goalsFor": "17",
         "goalsAgainst": "8",
-        "goalDifference": "6",
+        "goalDifference": "9",
         "logo": "as_monaco"
     },
     {
         "rank": "3",
+        "team": "Girondins Bordeaux",
+        "points": "12",
+        "played": "6",
+        "win": "3",
+        "draw": "3",
+        "lost": "0",
+        "goalsFor": "10",
+        "goalsAgainst": "6",
+        "goalDifference": "4",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "4",
+        "team": "Olympique Lyon",
+        "points": "11",
+        "played": "5",
+        "win": "3",
+        "draw": "2",
+        "lost": "0",
+        "goalsFor": "11",
+        "goalsAgainst": "5",
+        "goalDifference": "6",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "5",
         "team": "AS Saint-Étienne",
         "points": "10",
         "played": "5",
@@ -39,20 +65,7 @@
         "logo": "as_saint_etienne"
     },
     {
-        "rank": "4",
-        "team": "Girondins Bordeaux",
-        "points": "9",
-        "played": "5",
-        "win": "2",
-        "draw": "3",
-        "lost": "0",
-        "goalsFor": "9",
-        "goalsAgainst": "6",
-        "goalDifference": "3",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "5",
+        "rank": "6",
         "team": "SM Caen",
         "points": "9",
         "played": "5",
@@ -63,19 +76,6 @@
         "goalsAgainst": "3",
         "goalDifference": "2",
         "logo": "sm_caen"
-    },
-    {
-        "rank": "6",
-        "team": "Olympique Lyon",
-        "points": "8",
-        "played": "4",
-        "win": "2",
-        "draw": "2",
-        "lost": "0",
-        "goalsFor": "9",
-        "goalsAgainst": "4",
-        "goalDifference": "5",
-        "logo": "olympique_lyon"
     },
     {
         "rank": "7",
@@ -92,19 +92,6 @@
     },
     {
         "rank": "8",
-        "team": "Olympique Marseille",
-        "points": "7",
-        "played": "4",
-        "win": "2",
-        "draw": "1",
-        "lost": "1",
-        "goalsFor": "6",
-        "goalsAgainst": "7",
-        "goalDifference": "-1",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "9",
         "team": "FC Nantes",
         "points": "7",
         "played": "5",
@@ -117,16 +104,29 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "10",
-        "team": "Toulouse FC",
+        "rank": "9",
+        "team": "Olympique Marseille",
         "points": "7",
         "played": "5",
         "win": "2",
         "draw": "1",
         "lost": "2",
-        "goalsFor": "8",
-        "goalsAgainst": "11",
+        "goalsFor": "7",
+        "goalsAgainst": "10",
         "goalDifference": "-3",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "10",
+        "team": "Toulouse FC",
+        "points": "7",
+        "played": "6",
+        "win": "2",
+        "draw": "1",
+        "lost": "3",
+        "goalsFor": "8",
+        "goalsAgainst": "12",
+        "goalDifference": "-4",
         "logo": "toulouse_fc"
     },
     {
@@ -146,13 +146,13 @@
         "rank": "12",
         "team": "EA Guingamp",
         "points": "6",
-        "played": "4",
+        "played": "5",
         "win": "2",
         "draw": "0",
-        "lost": "2",
-        "goalsFor": "5",
-        "goalsAgainst": "6",
-        "goalDifference": "-1",
+        "lost": "3",
+        "goalsFor": "6",
+        "goalsAgainst": "8",
+        "goalDifference": "-2",
         "logo": "ea_guingamp"
     },
     {
@@ -170,6 +170,19 @@
     },
     {
         "rank": "14",
+        "team": "Stade Rennes",
+        "points": "5",
+        "played": "5",
+        "win": "1",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "9",
+        "goalsAgainst": "9",
+        "goalDifference": "0",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "15",
         "team": "ESTAC Troyes",
         "points": "5",
         "played": "5",
@@ -182,7 +195,7 @@
         "logo": "estac_troyes"
     },
     {
-        "rank": "15",
+        "rank": "16",
         "team": "Lille OSC",
         "points": "5",
         "played": "5",
@@ -195,7 +208,7 @@
         "logo": "lille_osc"
     },
     {
-        "rank": "16",
+        "rank": "17",
         "team": "Montpellier HSC",
         "points": "4",
         "played": "5",
@@ -206,19 +219,6 @@
         "goalsAgainst": "5",
         "goalDifference": "-2",
         "logo": "montpellier_hsc"
-    },
-    {
-        "rank": "17",
-        "team": "RC Strasbourg",
-        "points": "4",
-        "played": "5",
-        "win": "1",
-        "draw": "1",
-        "lost": "3",
-        "goalsFor": "4",
-        "goalsAgainst": "8",
-        "goalDifference": "-4",
-        "logo": "rc_strasbourg"
     },
     {
         "rank": "18",
@@ -235,16 +235,16 @@
     },
     {
         "rank": "19",
-        "team": "Stade Rennes",
-        "points": "2",
-        "played": "4",
-        "win": "0",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "6",
-        "goalsAgainst": "8",
-        "goalDifference": "-2",
-        "logo": "stade_rennes"
+        "team": "RC Strasbourg",
+        "points": "4",
+        "played": "6",
+        "win": "1",
+        "draw": "1",
+        "lost": "4",
+        "goalsFor": "4",
+        "goalsAgainst": "11",
+        "goalDifference": "-7",
+        "logo": "rc_strasbourg"
     },
     {
         "rank": "20",

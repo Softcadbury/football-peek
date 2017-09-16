@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "5",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "2.",
         "name": "Alfreð Finnbogason",
         "country": "Iceland",
         "team": "FC Augsburg",
@@ -9,22 +18,31 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "4.",
+        "name": "Martin Harnik",
+        "country": "Austria",
+        "team": "Hannover 96",
+        "goals": "3",
+        "flag": "austria",
+        "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
         "name": "Mathew Leckie",
         "country": "Australia",
         "team": "Hertha BSC",
         "goals": "3",
         "flag": "australia",
         "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
-        "goals": "3",
-        "flag": "poland",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -36,16 +54,16 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "rb_leipzig"
+        "rank": "7.",
+        "name": "Chadrac Akolo",
+        "country": "Congo DR",
+        "team": "VfB Stuttgart",
+        "goals": "2",
+        "flag": "congo_dr",
+        "logo": "vfb_stuttgart"
     },
     {
-        "rank": "6.",
+        "rank": "-",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
@@ -73,15 +91,6 @@
     },
     {
         "rank": "-",
-        "name": "Martin Harnik",
-        "country": "Austria",
-        "team": "Hannover 96",
-        "goals": "2",
-        "flag": "austria",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
@@ -90,13 +99,13 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "11.",
-        "name": "Chadrac Akolo",
-        "country": "Congo DR",
-        "team": "VfB Stuttgart",
+        "rank": "12.",
+        "name": "Jean-Kévin Augustin",
+        "country": "France",
+        "team": "RB Leipzig",
         "goals": "1",
-        "flag": "congo_dr",
-        "logo": "vfb_stuttgart"
+        "flag": "france",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -115,6 +124,15 @@
         "goals": "1",
         "flag": "spain",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Ihlas Bebou",
+        "country": "Togo",
+        "team": "Hannover 96",
+        "goals": "1",
+        "flag": "togo",
+        "logo": "hannover_96"
     },
     {
         "rank": "-",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Sergio Córdova",
-        "country": "Venezuela",
+        "name": "Guido Burgstaller",
+        "country": "Austria",
+        "team": "FC Schalke 04",
+        "goals": "1",
+        "flag": "austria",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": " Caiuby",
+        "country": "Brazil",
         "team": "FC Augsburg",
         "goals": "1",
-        "flag": "venezuela",
+        "flag": "brazil",
         "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Delaney",
-        "country": "Denmark",
-        "team": "Werder Bremen",
-        "goals": "1",
-        "flag": "denmark",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Abdou Diallo",
-        "country": "France",
-        "team": "1. FSV Mainz 05",
-        "goals": "1",
-        "flag": "france",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Nico Elvedi",
-        "country": "Switzerland",
-        "team": "Bor. Mönchengladbach",
-        "goals": "1",
-        "flag": "switzerland",
-        "logo": "bor__monchengladbach"
     }
 ]

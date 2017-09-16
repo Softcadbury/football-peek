@@ -1,6 +1,19 @@
 [
     {
         "rank": "1",
+        "team": "Inter",
+        "points": "12",
+        "played": "4",
+        "win": "4",
+        "draw": "0",
+        "lost": "0",
+        "goalsFor": "10",
+        "goalsAgainst": "1",
+        "goalDifference": "9",
+        "logo": "inter"
+    },
+    {
+        "rank": "2",
         "team": "Juventus",
         "points": "9",
         "played": "3",
@@ -13,20 +26,20 @@
         "logo": "juventus"
     },
     {
-        "rank": "2",
-        "team": "Inter",
+        "rank": "3",
+        "team": "SSC Napoli",
         "points": "9",
         "played": "3",
         "win": "3",
         "draw": "0",
         "lost": "0",
-        "goalsFor": "8",
-        "goalsAgainst": "1",
+        "goalsFor": "9",
+        "goalsAgainst": "2",
         "goalDifference": "7",
-        "logo": "inter"
+        "logo": "ssc_napoli"
     },
     {
-        "rank": "3",
+        "rank": "4",
         "team": "Lazio Roma",
         "points": "7",
         "played": "3",
@@ -39,20 +52,33 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "4",
-        "team": "SSC Napoli",
-        "points": "6",
-        "played": "2",
+        "rank": "5",
+        "team": "Torino FC",
+        "points": "7",
+        "played": "3",
         "win": "2",
-        "draw": "0",
+        "draw": "1",
         "lost": "0",
-        "goalsFor": "6",
-        "goalsAgainst": "2",
+        "goalsFor": "5",
+        "goalsAgainst": "1",
         "goalDifference": "4",
-        "logo": "ssc_napoli"
+        "logo": "torino_fc"
     },
     {
-        "rank": "5",
+        "rank": "6",
+        "team": "ACF Fiorentina",
+        "points": "6",
+        "played": "4",
+        "win": "2",
+        "draw": "0",
+        "lost": "2",
+        "goalsFor": "8",
+        "goalsAgainst": "6",
+        "goalDifference": "2",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "7",
         "team": "Sampdoria",
         "points": "6",
         "played": "2",
@@ -65,7 +91,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "6",
+        "rank": "8",
         "team": "AC Milan",
         "points": "6",
         "played": "3",
@@ -76,32 +102,6 @@
         "goalsAgainst": "5",
         "goalDifference": "1",
         "logo": "ac_milan"
-    },
-    {
-        "rank": "7",
-        "team": "Torino FC",
-        "points": "4",
-        "played": "2",
-        "win": "1",
-        "draw": "1",
-        "lost": "0",
-        "goalsFor": "4",
-        "goalsAgainst": "1",
-        "goalDifference": "3",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "8",
-        "team": "Bologna FC",
-        "points": "4",
-        "played": "2",
-        "win": "1",
-        "draw": "1",
-        "lost": "0",
-        "goalsFor": "2",
-        "goalsAgainst": "1",
-        "goalDifference": "1",
-        "logo": "bologna_fc"
     },
     {
         "rank": "9",
@@ -118,16 +118,16 @@
     },
     {
         "rank": "10",
-        "team": "ACF Fiorentina",
-        "points": "3",
-        "played": "3",
+        "team": "Bologna FC",
+        "points": "4",
+        "played": "4",
         "win": "1",
-        "draw": "0",
+        "draw": "1",
         "lost": "2",
-        "goalsFor": "6",
-        "goalsAgainst": "5",
-        "goalDifference": "1",
-        "logo": "acf_fiorentina"
+        "goalsFor": "3",
+        "goalsAgainst": "6",
+        "goalDifference": "-3",
+        "logo": "bologna_fc"
     },
     {
         "rank": "11",
@@ -224,13 +224,13 @@
         "rank": "18",
         "team": "FC Crotone",
         "points": "1",
-        "played": "3",
+        "played": "4",
         "win": "0",
         "draw": "1",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "0",
-        "goalsAgainst": "4",
-        "goalDifference": "-4",
+        "goalsAgainst": "6",
+        "goalDifference": "-6",
         "logo": "fc_crotone"
     },
     {
@@ -250,13 +250,13 @@
         "rank": "20",
         "team": "Benevento Calcio",
         "points": "0",
-        "played": "2",
+        "played": "3",
         "win": "0",
         "draw": "0",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "1",
-        "goalsAgainst": "3",
-        "goalDifference": "-2",
+        "goalsAgainst": "4",
+        "goalDifference": "-3",
         "logo": "benevento_calcio"
     }
 ]

@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
+        "goals": "3",
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
@@ -45,7 +54,7 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Patrick Cutrone",
         "country": "Italy",
         "team": "AC Milan",
@@ -73,12 +82,12 @@
     },
     {
         "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
         "goals": "2",
-        "flag": "croatia",
-        "logo": "inter"
+        "flag": "belgium",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -90,7 +99,16 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Piotr Zieliński",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "2",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "13.",
         "name": "Davide Astori",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Amato Ciciretti",
         "country": "Italy",
         "team": "Benevento Calcio",
         "goals": "1",
         "flag": "italy",
         "logo": "benevento_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Andreas Cornelius",
-        "country": "Denmark",
-        "team": "Atalanta",
-        "goals": "1",
-        "flag": "denmark",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Bryan Cristante",
-        "country": "Italy",
-        "team": "Atalanta",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Juan Cuadrado",
-        "country": "Colombia",
-        "team": "Juventus",
-        "goals": "1",
-        "flag": "colombia",
-        "logo": "juventus"
     }
 ]

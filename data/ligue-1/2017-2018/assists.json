@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "François Kamano",
+        "country": "Guinea",
+        "team": "Girondins Bordeaux",
+        "assists": "4",
+        "flag": "guinea",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "3.",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
@@ -37,12 +46,12 @@
     },
     {
         "rank": "-",
-        "name": "François Kamano",
-        "country": "Guinea",
-        "team": "Girondins Bordeaux",
+        "name": " Jorge",
+        "country": "Brazil",
+        "team": "AS Monaco",
         "assists": "3",
-        "flag": "guinea",
-        "logo": "girondins_bordeaux"
+        "flag": "brazil",
+        "logo": "as_monaco"
     },
     {
         "rank": "-",
@@ -63,7 +72,7 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Adama Diakhaby",
         "country": "France",
         "team": "AS Monaco",
@@ -88,6 +97,15 @@
         "assists": "2",
         "flag": "sweden",
         "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "assists": "2",
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -118,15 +136,6 @@
     },
     {
         "rank": "-",
-        "name": " Jorge",
-        "country": "Brazil",
-        "team": "AS Monaco",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
         "name": "Thomas Lemar",
         "country": "France",
         "team": "AS Monaco",
@@ -145,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Ismaïla Sarr",
+        "country": "Senegal",
+        "team": "Stade Rennes",
+        "assists": "2",
+        "flag": "senegal",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
         "name": "Naïm Sliti",
         "country": "Tunisia",
         "team": "Dijon FCO",
@@ -153,30 +171,12 @@
         "logo": "dijon_fco"
     },
     {
-        "rank": "18.",
+        "rank": "20.",
         "name": "David Alcibiade",
         "country": "France",
         "team": "FC Nantes",
         "assists": "1",
         "flag": "france",
         "logo": "fc_nantes"
-    },
-    {
-        "rank": "-",
-        "name": "Junior Alonso",
-        "country": "Paraguay",
-        "team": "Lille OSC",
-        "assists": "1",
-        "flag": "paraguay",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Romain Amalfitano",
-        "country": "France",
-        "team": "Dijon FCO",
-        "assists": "1",
-        "flag": "france",
-        "logo": "dijon_fco"
     }
 ]
