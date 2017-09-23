@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "5",
+        "goals": "9",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,9 +13,36 @@
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Celta Vigo",
-        "goals": "3",
+        "goals": "4",
         "flag": "uruguay",
         "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": "Simone Zaza",
+        "country": "Italy",
+        "team": "Valencia CF",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "4.",
+        "name": "Enis Bardhi",
+        "country": "Macedonia",
+        "team": "Levante UD",
+        "goals": "3",
+        "flag": "macedonia",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Correa",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -27,7 +54,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "4.",
+        "rank": "7.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -37,12 +64,30 @@
     },
     {
         "rank": "-",
-        "name": "Enis Bardhi",
-        "country": "Macedonia",
-        "team": "Levante UD",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "Villarreal CF",
         "goals": "2",
-        "flag": "macedonia",
-        "logo": "levante_ud"
+        "flag": "colombia",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Cédric Bakambu",
+        "country": "Congo DR",
+        "team": "Villarreal CF",
+        "goals": "2",
+        "flag": "congo_dr",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "goals": "2",
+        "flag": "wales",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -64,11 +109,20 @@
     },
     {
         "rank": "-",
-        "name": "Ángel Correa",
-        "country": "Argentina",
+        "name": " Denis Suárez",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Yannick Ferreira-Carrasco",
+        "country": "Belgium",
         "team": "Atlético Madrid",
         "goals": "2",
-        "flag": "argentina",
+        "flag": "belgium",
         "logo": "atletico_madrid"
     },
     {
@@ -124,59 +178,5 @@
         "goals": "2",
         "flag": "spain",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Sergio León",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Stuani",
-        "country": "Uruguay",
-        "team": "Girona FC",
-        "goals": "2",
-        "flag": "uruguay",
-        "logo": "girona_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "18.",
-        "name": " Adrián",
-        "country": "Spain",
-        "team": "Deportivo La Coruña",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": " Álvaro Jiménez",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Florin Andone",
-        "country": "Romania",
-        "team": "Deportivo La Coruña",
-        "goals": "1",
-        "flag": "romania",
-        "logo": "deportivo_la_coruna"
     }
 ]

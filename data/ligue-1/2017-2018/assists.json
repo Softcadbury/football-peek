@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": " Jorge",
+        "country": "Brazil",
+        "team": "AS Monaco",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "François Kamano",
         "country": "Guinea",
         "team": "Girondins Bordeaux",
@@ -18,7 +27,7 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
@@ -37,20 +46,20 @@
     },
     {
         "rank": "-",
+        "name": "Angelo Fulgini",
+        "country": "France",
+        "team": "Angers SCO",
+        "assists": "3",
+        "flag": "france",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "-",
         "name": " João Moutinho",
         "country": "Portugal",
         "team": "AS Monaco",
         "assists": "3",
         "flag": "portugal",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": " Jorge",
-        "country": "Brazil",
-        "team": "AS Monaco",
-        "assists": "3",
-        "flag": "brazil",
         "logo": "as_monaco"
     },
     {
@@ -72,7 +81,16 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
+        "name": "Jonathan Bamba",
+        "country": "France",
+        "team": "AS Saint-Étienne",
+        "assists": "2",
+        "flag": "france",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "-",
         "name": "Adama Diakhaby",
         "country": "France",
         "team": "AS Monaco",
@@ -91,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Mathieu Dossevi",
+        "country": "Togo",
+        "team": "FC Metz",
+        "assists": "2",
+        "flag": "togo",
+        "logo": "fc_metz"
+    },
+    {
+        "rank": "-",
         "name": "Jimmy Durmaz",
         "country": "Sweden",
         "team": "Toulouse FC",
@@ -106,15 +133,6 @@
         "assists": "2",
         "flag": "france",
         "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "Angelo Fulgini",
-        "country": "France",
-        "team": "Angers SCO",
-        "assists": "2",
-        "flag": "france",
-        "logo": "angers_sco"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "2",
         "flag": "senegal",
         "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Naïm Sliti",
-        "country": "Tunisia",
-        "team": "Dijon FCO",
-        "assists": "2",
-        "flag": "tunisia",
-        "logo": "dijon_fco"
-    },
-    {
-        "rank": "20.",
-        "name": "David Alcibiade",
-        "country": "France",
-        "team": "FC Nantes",
-        "assists": "1",
-        "flag": "france",
-        "logo": "fc_nantes"
     }
 ]

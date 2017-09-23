@@ -4,45 +4,99 @@
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "5",
+        "goals": "8",
         "flag": "argentina",
         "logo": "juventus"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "5",
+        "goals": "6",
         "flag": "argentina",
         "logo": "inter"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "4",
+        "goals": "6",
         "flag": "italy",
         "logo": "lazio_roma"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "6",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "5.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "5",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "6.",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "7.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Adem Ljajić",
+        "country": "Serbia",
+        "team": "Torino FC",
+        "goals": "3",
+        "flag": "serbia",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Ivan Perišić",
         "country": "Croatia",
         "team": "Inter",
         "goals": "3",
         "flag": "croatia",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Fabio Quagliarella",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -54,7 +108,7 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "7.",
+        "rank": "13.",
         "name": "Patrick Cutrone",
         "country": "Italy",
         "team": "AC Milan",
@@ -73,110 +127,56 @@
     },
     {
         "rank": "-",
-        "name": "Adem Ljajić",
-        "country": "Serbia",
-        "team": "Torino FC",
+        "name": " João Pedro",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
         "goals": "2",
-        "flag": "serbia",
-        "logo": "torino_fc"
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "2",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": " Suso",
-        "country": "Spain",
+        "name": "Nikola Kalinić",
+        "country": "Croatia",
         "team": "AC Milan",
         "goals": "2",
-        "flag": "spain",
+        "flag": "croatia",
         "logo": "ac_milan"
     },
     {
         "rank": "-",
-        "name": "Piotr Zieliński",
-        "country": "Poland",
-        "team": "SSC Napoli",
+        "name": "Franck Kessié",
+        "country": "Ivory Coast",
+        "team": "AC Milan",
         "goals": "2",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "13.",
-        "name": "Davide Astori",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
+        "flag": "ivory_coast",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
-        "name": "Milan Badelj",
+        "name": "Kevin Lasagna",
+        "country": "Italy",
+        "team": "Udinese Calcio",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Mandžukić",
         "country": "Croatia",
-        "team": "ACF Fiorentina",
-        "goals": "1",
+        "team": "Juventus",
+        "goals": "2",
         "flag": "croatia",
-        "logo": "acf_fiorentina"
+        "logo": "juventus"
     },
     {
         "rank": "-",
-        "name": "Andrea Belotti",
+        "name": "Pietro Pellegri",
         "country": "Italy",
-        "team": "Torino FC",
-        "goals": "1",
+        "team": "Genoa CFC",
+        "goals": "2",
         "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Valter Birsa",
-        "country": "Slovenia",
-        "team": "Chievo Verona",
-        "goals": "1",
-        "flag": "slovenia",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Borriello",
-        "country": "Italy",
-        "team": "SPAL 2013 Ferrara",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "-",
-        "name": "Gianluca Caprari",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Federico Chiesa",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Amato Ciciretti",
-        "country": "Italy",
-        "team": "Benevento Calcio",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "benevento_calcio"
+        "logo": "genoa_cfc"
     }
 ]
