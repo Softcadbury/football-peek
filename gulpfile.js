@@ -6,6 +6,8 @@ var config = require('./server/config');
 // Updates data
 // Format: gulp up -l [lague small name] -c [competition small name]
 gulp.task('up', () => {
+    var mainUpdater = require('./server/updaters/mainUpdater');
+
     config.downloadImages = true;
 
     var argv = require('yargs').argv;
@@ -13,11 +15,11 @@ gulp.task('up', () => {
     var competitionArg = argv.c;
 
     if (leagueArg) {
-        require('./server/updaters/mainUpdater').updateLeague(leagueArg);
+        mainUpdater.updateLeague(leagueArg);
     }
 
     if (competitionArg) {
-        require('./server/updaters/mainUpdater').updateCompetition(competitionArg);
+        mainUpdater.updateCompetition(competitionArg);
     }
 });
 
