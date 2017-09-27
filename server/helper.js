@@ -121,14 +121,22 @@ function runUpdate(itemsExtended, updateData, arg) {
         return;
     }
 
-    var itemArg = itemsExtended.find(itemExtended => itemExtended.item.smallName.toLowerCase() === arg);
+    // Run the update only on the specified item
+    if (typeof arg === 'string') {
+        var itemArg = itemsExtended.find(itemExtended => itemExtended.item.smallName.toLowerCase() === arg.toLowerCase());
 
-    if (itemArg) {
-        updateData(itemArg);
-    } else {
-        for (var i = 0; i < itemsExtended.length; i++) {
-            updateData(itemsExtended[i]);
+        if (itemArg) {
+            updateData(itemArg);
+        } else {
+            log('Item not found: ' + arg);
         }
+
+        return;
+    }
+
+    // Run the update on all items
+    for (var i = 0; i < itemsExtended.length; i++) {
+        updateData(itemsExtended[i]);
     }
 }
 
