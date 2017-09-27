@@ -1,0 +1,1242 @@
+[
+    {
+        "name": "a",
+        "matches": [
+            {
+                "date": "18/09/2007",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Liverpool FC",
+                "score": "1:1",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "18/09/2007",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Beşiktaş",
+                "score": "2:0",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "be_ikta_"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Olympique Marseille",
+                "score": "0:1",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "FC Porto",
+                "score": "0:1",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "FC Porto",
+                "score": "1:1",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "Liverpool FC",
+                "score": "2:1",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Olympique Marseille",
+                "score": "2:1",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Beşiktaş",
+                "score": "8:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "be_ikta_"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "FC Porto",
+                "score": "4:1",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "Olympique Marseille",
+                "score": "2:1",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "11/12/2007",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Liverpool FC",
+                "score": "0:4",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "11/12/2007",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Beşiktaş",
+                "score": "2:0",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "be_ikta_"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Porto",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "8",
+                "goalsAgainst": "7",
+                "goalDifference": "1",
+                "logo": "fc_porto"
+            },
+            {
+                "rank": "2",
+                "team": "Liverpool FC",
+                "points": "10",
+                "played": "6",
+                "win": "3",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "18",
+                "goalsAgainst": "5",
+                "goalDifference": "13",
+                "logo": "liverpool_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Olympique Marseille",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "6",
+                "goalsAgainst": "9",
+                "goalDifference": "-3",
+                "logo": "olympique_marseille"
+            },
+            {
+                "rank": "4",
+                "team": "Beşiktaş",
+                "points": "6",
+                "played": "6",
+                "win": "2",
+                "draw": "0",
+                "lost": "4",
+                "goalsFor": "4",
+                "goalsAgainst": "15",
+                "goalDifference": "-11",
+                "logo": "be_ikta_"
+            }
+        ]
+    },
+    {
+        "name": "b",
+        "matches": [
+            {
+                "date": "18/09/2007",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "Valencia CF",
+                "score": "0:1",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "18/09/2007",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Rosenborg BK",
+                "score": "1:1",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "rosenborg_bk"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "Chelsea FC",
+                "score": "1:2",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "Rosenborg BK",
+                "awayTeam": "FC Schalke 04",
+                "score": "0:2",
+                "homeTeamLogo": "rosenborg_bk",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "FC Schalke 04",
+                "score": "2:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "Rosenborg BK",
+                "awayTeam": "Valencia CF",
+                "score": "2:0",
+                "homeTeamLogo": "rosenborg_bk",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "Chelsea FC",
+                "score": "0:0",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "Rosenborg BK",
+                "score": "0:2",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "rosenborg_bk"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "FC Schalke 04",
+                "score": "0:0",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "Rosenborg BK",
+                "awayTeam": "Chelsea FC",
+                "score": "0:4",
+                "homeTeamLogo": "rosenborg_bk",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "11/12/2007",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Valencia CF",
+                "score": "0:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "11/12/2007",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "Rosenborg BK",
+                "score": "3:1",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "rosenborg_bk"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Chelsea FC",
+                "points": "12",
+                "played": "6",
+                "win": "3",
+                "draw": "3",
+                "lost": "0",
+                "goalsFor": "9",
+                "goalsAgainst": "2",
+                "goalDifference": "7",
+                "logo": "chelsea_fc"
+            },
+            {
+                "rank": "2",
+                "team": "FC Schalke 04",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "4",
+                "goalDifference": "1",
+                "logo": "fc_schalke_04"
+            },
+            {
+                "rank": "3",
+                "team": "Rosenborg BK",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "6",
+                "goalsAgainst": "10",
+                "goalDifference": "-4",
+                "logo": "rosenborg_bk"
+            },
+            {
+                "rank": "4",
+                "team": "Valencia CF",
+                "points": "5",
+                "played": "6",
+                "win": "1",
+                "draw": "2",
+                "lost": "3",
+                "goalsFor": "2",
+                "goalsAgainst": "6",
+                "goalDifference": "-4",
+                "logo": "valencia_cf"
+            }
+        ]
+    },
+    {
+        "name": "c",
+        "matches": [
+            {
+                "date": "18/09/2007",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Werder Bremen",
+                "score": "2:1",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "18/09/2007",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Lazio Roma",
+                "score": "1:1",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Real Madrid",
+                "score": "2:2",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "1:3",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Lazio Roma",
+                "score": "2:1",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "4:2",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Werder Bremen",
+                "score": "2:1",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Real Madrid",
+                "score": "0:0",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Real Madrid",
+                "score": "3:2",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "1:2",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "11/12/2007",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Lazio Roma",
+                "score": "3:1",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "11/12/2007",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Werder Bremen",
+                "score": "3:0",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "werder_bremen"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Real Madrid",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "13",
+                "goalsAgainst": "9",
+                "goalDifference": "4",
+                "logo": "real_madrid"
+            },
+            {
+                "rank": "2",
+                "team": "Olympiakos Piräus",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "11",
+                "goalsAgainst": "7",
+                "goalDifference": "4",
+                "logo": "olympiakos_piraus"
+            },
+            {
+                "rank": "3",
+                "team": "Werder Bremen",
+                "points": "6",
+                "played": "6",
+                "win": "2",
+                "draw": "0",
+                "lost": "4",
+                "goalsFor": "8",
+                "goalsAgainst": "13",
+                "goalDifference": "-5",
+                "logo": "werder_bremen"
+            },
+            {
+                "rank": "4",
+                "team": "Lazio Roma",
+                "points": "5",
+                "played": "6",
+                "win": "1",
+                "draw": "2",
+                "lost": "3",
+                "goalsFor": "8",
+                "goalsAgainst": "11",
+                "goalDifference": "-3",
+                "logo": "lazio_roma"
+            }
+        ]
+    },
+    {
+        "name": "d",
+        "matches": [
+            {
+                "date": "18/09/2007",
+                "homeTeam": "AC Milan",
+                "awayTeam": "SL Benfica",
+                "score": "2:1",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "18/09/2007",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Celtic FC",
+                "score": "2:0",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "celtic_fc"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "Celtic FC",
+                "awayTeam": "AC Milan",
+                "score": "2:1",
+                "homeTeamLogo": "celtic_fc",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "03/10/2007",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "0:1",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Celtic FC",
+                "score": "1:0",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "celtic_fc"
+            },
+            {
+                "date": "24/10/2007",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "4:1",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "Celtic FC",
+                "awayTeam": "SL Benfica",
+                "score": "1:0",
+                "homeTeamLogo": "celtic_fc",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "06/11/2007",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "AC Milan",
+                "score": "0:3",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "AC Milan",
+                "score": "1:1",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "28/11/2007",
+                "homeTeam": "Celtic FC",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "2:1",
+                "homeTeamLogo": "celtic_fc",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "04/12/2007",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Celtic FC",
+                "score": "1:0",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "celtic_fc"
+            },
+            {
+                "date": "04/12/2007",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "SL Benfica",
+                "score": "1:2",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "sl_benfica"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "AC Milan",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "12",
+                "goalsAgainst": "5",
+                "goalDifference": "7",
+                "logo": "ac_milan"
+            },
+            {
+                "rank": "2",
+                "team": "Celtic FC",
+                "points": "9",
+                "played": "6",
+                "win": "3",
+                "draw": "0",
+                "lost": "3",
+                "goalsFor": "5",
+                "goalsAgainst": "6",
+                "goalDifference": "-1",
+                "logo": "celtic_fc"
+            },
+            {
+                "rank": "3",
+                "team": "SL Benfica",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "5",
+                "goalsAgainst": "6",
+                "goalDifference": "-1",
+                "logo": "sl_benfica"
+            },
+            {
+                "rank": "4",
+                "team": "Shakhtar Donetsk",
+                "points": "6",
+                "played": "6",
+                "win": "2",
+                "draw": "0",
+                "lost": "4",
+                "goalsFor": "6",
+                "goalsAgainst": "11",
+                "goalDifference": "-5",
+                "logo": "shakhtar_donetsk"
+            }
+        ]
+    },
+    {
+        "name": "e",
+        "matches": [
+            {
+                "date": "19/09/2007",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Olympique Lyon",
+                "score": "3:0",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "19/09/2007",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "VfB Stuttgart",
+                "score": "2:1",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "vfb_stuttgart"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "VfB Stuttgart",
+                "awayTeam": "FC Barcelona",
+                "score": "0:2",
+                "homeTeamLogo": "vfb_stuttgart",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Rangers FC",
+                "score": "0:3",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "VfB Stuttgart",
+                "awayTeam": "Olympique Lyon",
+                "score": "0:2",
+                "homeTeamLogo": "vfb_stuttgart",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "FC Barcelona",
+                "score": "0:0",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "VfB Stuttgart",
+                "score": "4:2",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "vfb_stuttgart"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Rangers FC",
+                "score": "2:0",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "FC Barcelona",
+                "score": "2:2",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "VfB Stuttgart",
+                "awayTeam": "Rangers FC",
+                "score": "3:2",
+                "homeTeamLogo": "vfb_stuttgart",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "VfB Stuttgart",
+                "score": "3:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "vfb_stuttgart"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "Olympique Lyon",
+                "score": "0:3",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "olympique_lyon"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Barcelona",
+                "points": "14",
+                "played": "6",
+                "win": "4",
+                "draw": "2",
+                "lost": "0",
+                "goalsFor": "12",
+                "goalsAgainst": "3",
+                "goalDifference": "9",
+                "logo": "fc_barcelona"
+            },
+            {
+                "rank": "2",
+                "team": "Olympique Lyon",
+                "points": "10",
+                "played": "6",
+                "win": "3",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "11",
+                "goalsAgainst": "10",
+                "goalDifference": "1",
+                "logo": "olympique_lyon"
+            },
+            {
+                "rank": "3",
+                "team": "Rangers FC",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "7",
+                "goalsAgainst": "9",
+                "goalDifference": "-2",
+                "logo": "rangers_fc"
+            },
+            {
+                "rank": "4",
+                "team": "VfB Stuttgart",
+                "points": "3",
+                "played": "6",
+                "win": "1",
+                "draw": "0",
+                "lost": "5",
+                "goalsFor": "7",
+                "goalsAgainst": "15",
+                "goalDifference": "-8",
+                "logo": "vfb_stuttgart"
+            }
+        ]
+    },
+    {
+        "name": "f",
+        "matches": [
+            {
+                "date": "19/09/2007",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "Manchester United",
+                "score": "0:1",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "19/09/2007",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Dinamo Kiev",
+                "score": "2:0",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "Manchester United",
+                "awayTeam": "AS Roma",
+                "score": "1:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "Sporting CP",
+                "score": "1:2",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Sporting CP",
+                "score": "2:1",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "Manchester United",
+                "score": "2:4",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "AS Roma",
+                "score": "2:2",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Dinamo Kiev",
+                "score": "4:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Sporting CP",
+                "score": "2:1",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "AS Roma",
+                "score": "1:4",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Manchester United",
+                "score": "1:1",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "Dinamo Kiev",
+                "score": "3:0",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "dinamo_kiev"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Manchester United",
+                "points": "16",
+                "played": "6",
+                "win": "5",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "13",
+                "goalsAgainst": "4",
+                "goalDifference": "9",
+                "logo": "manchester_united"
+            },
+            {
+                "rank": "2",
+                "team": "AS Roma",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "11",
+                "goalsAgainst": "6",
+                "goalDifference": "5",
+                "logo": "as_roma"
+            },
+            {
+                "rank": "3",
+                "team": "Sporting CP",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "9",
+                "goalsAgainst": "8",
+                "goalDifference": "1",
+                "logo": "sporting_cp"
+            },
+            {
+                "rank": "4",
+                "team": "Dinamo Kiev",
+                "points": "0",
+                "played": "6",
+                "win": "0",
+                "draw": "0",
+                "lost": "6",
+                "goalsFor": "4",
+                "goalsAgainst": "19",
+                "goalDifference": "-15",
+                "logo": "dinamo_kiev"
+            }
+        ]
+    },
+    {
+        "name": "g",
+        "matches": [
+            {
+                "date": "19/09/2007",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "CSKA Moskva",
+                "score": "2:1",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "cska_moskva"
+            },
+            {
+                "date": "19/09/2007",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "Inter",
+                "score": "1:0",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "CSKA Moskva",
+                "awayTeam": "Fenerbahçe",
+                "score": "2:2",
+                "homeTeamLogo": "cska_moskva",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "Inter",
+                "awayTeam": "PSV Eindhoven",
+                "score": "2:0",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "CSKA Moskva",
+                "awayTeam": "Inter",
+                "score": "1:2",
+                "homeTeamLogo": "cska_moskva",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Fenerbahçe",
+                "score": "0:0",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "Inter",
+                "awayTeam": "CSKA Moskva",
+                "score": "4:2",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "cska_moskva"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "PSV Eindhoven",
+                "score": "2:0",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "CSKA Moskva",
+                "awayTeam": "PSV Eindhoven",
+                "score": "0:1",
+                "homeTeamLogo": "cska_moskva",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "Inter",
+                "awayTeam": "Fenerbahçe",
+                "score": "3:0",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Inter",
+                "score": "0:1",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "CSKA Moskva",
+                "score": "3:1",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "cska_moskva"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Inter",
+                "points": "15",
+                "played": "6",
+                "win": "5",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "12",
+                "goalsAgainst": "4",
+                "goalDifference": "8",
+                "logo": "inter"
+            },
+            {
+                "rank": "2",
+                "team": "Fenerbahçe",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "8",
+                "goalsAgainst": "6",
+                "goalDifference": "2",
+                "logo": "fenerbahce"
+            },
+            {
+                "rank": "3",
+                "team": "PSV Eindhoven",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "3",
+                "goalsAgainst": "6",
+                "goalDifference": "-3",
+                "logo": "psv_eindhoven"
+            },
+            {
+                "rank": "4",
+                "team": "CSKA Moskva",
+                "points": "1",
+                "played": "6",
+                "win": "0",
+                "draw": "1",
+                "lost": "5",
+                "goalsFor": "7",
+                "goalsAgainst": "14",
+                "goalDifference": "-7",
+                "logo": "cska_moskva"
+            }
+        ]
+    },
+    {
+        "name": "h",
+        "matches": [
+            {
+                "date": "19/09/2007",
+                "homeTeam": "Slavia Praha",
+                "awayTeam": "Steaua Bucureşti",
+                "score": "2:1",
+                "homeTeamLogo": "slavia_praha",
+                "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "19/09/2007",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Sevilla FC",
+                "score": "3:0",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "Arsenal FC",
+                "score": "0:1",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "02/10/2007",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Slavia Praha",
+                "score": "4:2",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "slavia_praha"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Slavia Praha",
+                "score": "7:0",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "slavia_praha"
+            },
+            {
+                "date": "23/10/2007",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Steaua Bucureşti",
+                "score": "2:1",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "Slavia Praha",
+                "awayTeam": "Arsenal FC",
+                "score": "0:0",
+                "homeTeamLogo": "slavia_praha",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "07/11/2007",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "Sevilla FC",
+                "score": "0:2",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "Slavia Praha",
+                "score": "1:1",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "slavia_praha"
+            },
+            {
+                "date": "27/11/2007",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Arsenal FC",
+                "score": "3:1",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Steaua Bucureşti",
+                "score": "2:1",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "12/12/2007",
+                "homeTeam": "Slavia Praha",
+                "awayTeam": "Sevilla FC",
+                "score": "0:3",
+                "homeTeamLogo": "slavia_praha",
+                "awayTeamLogo": "sevilla_fc"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Sevilla FC",
+                "points": "15",
+                "played": "6",
+                "win": "5",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "14",
+                "goalsAgainst": "7",
+                "goalDifference": "7",
+                "logo": "sevilla_fc"
+            },
+            {
+                "rank": "2",
+                "team": "Arsenal FC",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "14",
+                "goalsAgainst": "4",
+                "goalDifference": "10",
+                "logo": "arsenal_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Slavia Praha",
+                "points": "5",
+                "played": "6",
+                "win": "1",
+                "draw": "2",
+                "lost": "3",
+                "goalsFor": "5",
+                "goalsAgainst": "16",
+                "goalDifference": "-11",
+                "logo": "slavia_praha"
+            },
+            {
+                "rank": "4",
+                "team": "Steaua Bucureşti",
+                "points": "1",
+                "played": "6",
+                "win": "0",
+                "draw": "1",
+                "lost": "5",
+                "goalsFor": "4",
+                "goalsAgainst": "10",
+                "goalDifference": "-6",
+                "logo": "steaua_bucure_ti"
+            }
+        ]
+    }
+]

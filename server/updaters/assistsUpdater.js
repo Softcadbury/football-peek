@@ -18,7 +18,7 @@ var competitionsExtended = [
     { item: competitions.europaLeague, url: 'europa-league', extra: '' }
 ];
 
-// Updates assists of current year
+// Updates assists of current period
 function update(leagueArg, competitionArg) {
     helper.runUpdate(leaguesExtended, updateData, leagueArg);
     helper.runUpdate(competitionsExtended, updateData, competitionArg);
@@ -26,7 +26,7 @@ function update(leagueArg, competitionArg) {
 
 // Updates the assists of an itemExtended
 function updateData(itemExtended) {
-    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, itemExtended.url, config.years.current, itemExtended.extra), ($) => {
+    helper.scrapeUrl(helper.stringFormat(assistsDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), ($) => {
         var results = [];
 
         $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
@@ -55,7 +55,7 @@ function updateData(itemExtended) {
             helper.manageLogoProperty(results[i]);
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, itemExtended.item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.assistsData, itemExtended.item.code, config.periods.current), results);
     });
 }
 

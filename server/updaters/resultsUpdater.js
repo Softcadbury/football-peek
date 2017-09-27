@@ -13,14 +13,14 @@ var leaguesExtended = [
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '', roundNumber: 38 }
 ];
 
-// Updates results of current year
+// Updates results of current period
 function update(leagueArg) {
     helper.runUpdate(leaguesExtended, updateData, leagueArg);
 }
 
 // Updates the results of an itemExtended
 function updateData(itemExtended) {
-    var results = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.years.current));
+    var results = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current));
     var promises = [];
 
     if (!results.length) {
@@ -43,14 +43,14 @@ function updateData(itemExtended) {
             return;
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current), results);
     });
 }
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, roundIndex) {
     return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, itemExtended.extra, roundIndex + 1), ($) => {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.periods.current, itemExtended.extra, roundIndex + 1), ($) => {
             var currentMatches = results[roundIndex].matches;
             currentMatches.splice(0, currentMatches.length);
             var currentDate;

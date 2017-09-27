@@ -1,0 +1,642 @@
+[
+    {
+        "name": "a",
+        "matches": [
+            {
+                "date": "16/09/2008",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Girondins Bordeaux",
+                "score": "4:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "girondins_bordeaux"
+            },
+            {
+                "date": "16/09/2008",
+                "homeTeam": "AS Roma",
+                "awayTeam": "CFR Cluj",
+                "score": "1:2",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "cfr_cluj"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "Girondins Bordeaux",
+                "awayTeam": "AS Roma",
+                "score": "1:3",
+                "homeTeamLogo": "girondins_bordeaux",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "CFR Cluj",
+                "awayTeam": "Chelsea FC",
+                "score": "0:0",
+                "homeTeamLogo": "cfr_cluj",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "AS Roma",
+                "score": "1:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "Girondins Bordeaux",
+                "awayTeam": "CFR Cluj",
+                "score": "1:0",
+                "homeTeamLogo": "girondins_bordeaux",
+                "awayTeamLogo": "cfr_cluj"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Chelsea FC",
+                "score": "3:1",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "CFR Cluj",
+                "awayTeam": "Girondins Bordeaux",
+                "score": "1:2",
+                "homeTeamLogo": "cfr_cluj",
+                "awayTeamLogo": "girondins_bordeaux"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "Girondins Bordeaux",
+                "awayTeam": "Chelsea FC",
+                "score": "1:1",
+                "homeTeamLogo": "girondins_bordeaux",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "CFR Cluj",
+                "awayTeam": "AS Roma",
+                "score": "1:3",
+                "homeTeamLogo": "cfr_cluj",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "CFR Cluj",
+                "score": "2:1",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "cfr_cluj"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Girondins Bordeaux",
+                "score": "2:0",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "girondins_bordeaux"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "AS Roma",
+                "points": "12",
+                "played": "6",
+                "win": "4",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "12",
+                "goalsAgainst": "6",
+                "goalDifference": "6",
+                "logo": "as_roma"
+            },
+            {
+                "rank": "2",
+                "team": "Chelsea FC",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "9",
+                "goalsAgainst": "5",
+                "goalDifference": "4",
+                "logo": "chelsea_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Girondins Bordeaux",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "5",
+                "goalsAgainst": "11",
+                "goalDifference": "-6",
+                "logo": "girondins_bordeaux"
+            },
+            {
+                "rank": "4",
+                "team": "CFR Cluj",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "5",
+                "goalsAgainst": "9",
+                "goalDifference": "-4",
+                "logo": "cfr_cluj"
+            }
+        ]
+    },
+    {
+        "name": "b",
+        "matches": [
+            {
+                "date": "16/09/2008",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Anorthosis Famagusta FC",
+                "score": "0:0",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "anorthosis_famagusta_fc"
+            },
+            {
+                "date": "16/09/2008",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "Inter",
+                "score": "0:2",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "Inter",
+                "awayTeam": "Werder Bremen",
+                "score": "1:1",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "Anorthosis Famagusta FC",
+                "awayTeam": "Panathinaikos",
+                "score": "3:1",
+                "homeTeamLogo": "anorthosis_famagusta_fc",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "Inter",
+                "awayTeam": "Anorthosis Famagusta FC",
+                "score": "1:0",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "anorthosis_famagusta_fc"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "Werder Bremen",
+                "score": "2:2",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Panathinaikos",
+                "score": "0:3",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "Anorthosis Famagusta FC",
+                "awayTeam": "Inter",
+                "score": "3:3",
+                "homeTeamLogo": "anorthosis_famagusta_fc",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "Inter",
+                "awayTeam": "Panathinaikos",
+                "score": "0:1",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "Anorthosis Famagusta FC",
+                "awayTeam": "Werder Bremen",
+                "score": "2:2",
+                "homeTeamLogo": "anorthosis_famagusta_fc",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Inter",
+                "score": "2:1",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "Anorthosis Famagusta FC",
+                "score": "1:0",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "anorthosis_famagusta_fc"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Panathinaikos",
+                "points": "10",
+                "played": "6",
+                "win": "3",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "8",
+                "goalsAgainst": "7",
+                "goalDifference": "1",
+                "logo": "panathinaikos"
+            },
+            {
+                "rank": "2",
+                "team": "Inter",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "8",
+                "goalsAgainst": "7",
+                "goalDifference": "1",
+                "logo": "inter"
+            },
+            {
+                "rank": "3",
+                "team": "Werder Bremen",
+                "points": "7",
+                "played": "6",
+                "win": "1",
+                "draw": "4",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "9",
+                "goalDifference": "-2",
+                "logo": "werder_bremen"
+            },
+            {
+                "rank": "4",
+                "team": "Anorthosis Famagusta FC",
+                "points": "6",
+                "played": "6",
+                "win": "1",
+                "draw": "3",
+                "lost": "2",
+                "goalsFor": "8",
+                "goalsAgainst": "8",
+                "goalDifference": "0",
+                "logo": "anorthosis_famagusta_fc"
+            }
+        ]
+    },
+    {
+        "name": "c",
+        "matches": [
+            {
+                "date": "16/09/2008",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Sporting CP",
+                "score": "3:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "16/09/2008",
+                "homeTeam": "FC Basel",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "1:2",
+                "homeTeamLogo": "fc_basel",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "FC Basel",
+                "score": "2:0",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "fc_basel"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "FC Barcelona",
+                "score": "1:2",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "FC Basel",
+                "awayTeam": "FC Barcelona",
+                "score": "0:5",
+                "homeTeamLogo": "fc_basel",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Sporting CP",
+                "score": "0:1",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "FC Basel",
+                "score": "1:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "fc_basel"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "1:0",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "FC Barcelona",
+                "score": "2:5",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "FC Basel",
+                "score": "5:0",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "fc_basel"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "2:3",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "FC Basel",
+                "awayTeam": "Sporting CP",
+                "score": "0:1",
+                "homeTeamLogo": "fc_basel",
+                "awayTeamLogo": "sporting_cp"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Barcelona",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "18",
+                "goalsAgainst": "8",
+                "goalDifference": "10",
+                "logo": "fc_barcelona"
+            },
+            {
+                "rank": "2",
+                "team": "Sporting CP",
+                "points": "12",
+                "played": "6",
+                "win": "4",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "8",
+                "goalsAgainst": "8",
+                "goalDifference": "0",
+                "logo": "sporting_cp"
+            },
+            {
+                "rank": "3",
+                "team": "Shakhtar Donetsk",
+                "points": "9",
+                "played": "6",
+                "win": "3",
+                "draw": "0",
+                "lost": "3",
+                "goalsFor": "11",
+                "goalsAgainst": "7",
+                "goalDifference": "4",
+                "logo": "shakhtar_donetsk"
+            },
+            {
+                "rank": "4",
+                "team": "FC Basel",
+                "points": "1",
+                "played": "6",
+                "win": "0",
+                "draw": "1",
+                "lost": "5",
+                "goalsFor": "2",
+                "goalsAgainst": "16",
+                "goalDifference": "-14",
+                "logo": "fc_basel"
+            }
+        ]
+    },
+    {
+        "name": "d",
+        "matches": [
+            {
+                "date": "16/09/2008",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Atlético Madrid",
+                "score": "0:3",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "16/09/2008",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Liverpool FC",
+                "score": "1:2",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "PSV Eindhoven",
+                "score": "3:1",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "01/10/2008",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Olympique Marseille",
+                "score": "2:1",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Olympique Marseille",
+                "score": "2:0",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "22/10/2008",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Liverpool FC",
+                "score": "1:1",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Atlético Madrid",
+                "score": "1:1",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "04/11/2008",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "PSV Eindhoven",
+                "score": "3:0",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Olympique Marseille",
+                "score": "1:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "26/11/2008",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "PSV Eindhoven",
+                "score": "2:1",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Liverpool FC",
+                "score": "1:3",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "09/12/2008",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Atlético Madrid",
+                "score": "0:0",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "atletico_madrid"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Liverpool FC",
+                "points": "14",
+                "played": "6",
+                "win": "4",
+                "draw": "2",
+                "lost": "0",
+                "goalsFor": "11",
+                "goalsAgainst": "5",
+                "goalDifference": "6",
+                "logo": "liverpool_fc"
+            },
+            {
+                "rank": "2",
+                "team": "Atlético Madrid",
+                "points": "12",
+                "played": "6",
+                "win": "3",
+                "draw": "3",
+                "lost": "0",
+                "goalsFor": "9",
+                "goalsAgainst": "4",
+                "goalDifference": "5",
+                "logo": "atletico_madrid"
+            },
+            {
+                "rank": "3",
+                "team": "Olympique Marseille",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "5",
+                "goalsAgainst": "7",
+                "goalDifference": "-2",
+                "logo": "olympique_marseille"
+            },
+            {
+                "rank": "4",
+                "team": "PSV Eindhoven",
+                "points": "3",
+                "played": "6",
+                "win": "1",
+                "draw": "0",
+                "lost": "5",
+                "goalsFor": "5",
+                "goalsAgainst": "14",
+                "goalDifference": "-9",
+                "logo": "psv_eindhoven"
+            }
+        ]
+    },
+    {
+        "name": "e",
+        "matches": [],
+        "table": []
+    },
+    {
+        "name": "f",
+        "matches": [],
+        "table": []
+    },
+    {
+        "name": "g",
+        "matches": [],
+        "table": []
+    },
+    {
+        "name": "h",
+        "matches": [],
+        "table": []
+    }
+]

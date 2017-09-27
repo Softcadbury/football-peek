@@ -1,13 +1,17 @@
-<div id="league">
+<div id="competition">
     <div class="title">
         <div class="title-icon icon-<%= requestedItem.code %>"></div>
         <h1><%= requestedItem.name %></h1>
-        <%- include('../commons/dropdownYears') %>
+        <%- include('../commons/dropdownPeriods') %>
     </div>
-    <br />
-    <%- include('../components/tournament') %>
-    <%- include('../components/groups') %>
-    <br />
-    <%- include('../components/scorers') %>
-    <%- include('../components/assists') %>
+    <% if (!groupsData.length && !tournamentData.length) { %>
+        <h2>Sorry<br/>No data available for this period :'(</h2>
+    <% } else { %>
+        <br />
+        <%- include('../components/tournament') %>
+        <%- include('../components/groups') %>
+        <br />
+        <%- include('../components/scorers') %>
+        <%- include('../components/assists') %>
+    <% } %>
 </div>

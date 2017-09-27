@@ -1,12 +1,30 @@
 [
     {
         "rank": "1.",
+        "name": "Mahmoud Dahoud",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Amine Harit",
         "country": "Morocco",
         "team": "FC Schalke 04",
         "assists": "3",
         "flag": "morocco",
         "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Vedad Ibišević",
+        "country": "Bosnia-Herzegovina",
+        "team": "Hertha BSC",
+        "assists": "3",
+        "flag": "bosnia_herzegovina",
+        "logo": "hertha_bsc"
     },
     {
         "rank": "-",
@@ -18,13 +36,40 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Levin Öztunali",
+        "country": "Germany",
+        "team": "1. FSV Mainz 05",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "6.",
+        "name": "Charles Aránguiz",
+        "country": "Chile",
+        "team": "Bayer Leverkusen",
+        "assists": "2",
+        "flag": "chile",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Jean-Kévin Augustin",
         "country": "France",
         "team": "RB Leipzig",
         "assists": "2",
         "flag": "france",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "Bayer Leverkusen",
+        "assists": "2",
+        "flag": "jamaica",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -37,12 +82,39 @@
     },
     {
         "rank": "-",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Bor. Mönchengladbach",
+        "assists": "2",
+        "flag": "belgium",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
         "name": "Marcel Heller",
         "country": "Germany",
         "team": "FC Augsburg",
         "assists": "2",
         "flag": "germany",
         "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "assists": "2",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "assists": "2",
+        "flag": "poland",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -55,15 +127,42 @@
     },
     {
         "rank": "-",
-        "name": "Levin Öztunali",
+        "name": "Maximilian Philipp",
         "country": "Germany",
-        "team": "1. FSV Mainz 05",
+        "team": "Borussia Dortmund",
         "assists": "2",
         "flag": "germany",
-        "logo": "1__fsv_mainz_05"
+        "logo": "borussia_dortmund"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Andrey Yarmolenko",
+        "country": "Ukraine",
+        "team": "Borussia Dortmund",
+        "assists": "2",
+        "flag": "ukraine",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Steven Zuber",
+        "country": "Switzerland",
+        "team": "1899 Hoffenheim",
+        "assists": "2",
+        "flag": "switzerland",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "18.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
+        "team": "Bayer Leverkusen",
+        "assists": "1",
+        "flag": "argentina",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Dennis Aogo",
         "country": "Germany",
         "team": "VfB Stuttgart",
@@ -73,110 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Marvin Bakalorz",
-        "country": "Germany",
-        "team": "Hannover 96",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": " Bernardo",
-        "country": "Brazil",
-        "team": "RB Leipzig",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Brekalo",
-        "country": "Croatia",
-        "team": "VfB Stuttgart",
-        "assists": "1",
-        "flag": "croatia",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Brosinski",
-        "country": "Germany",
-        "team": "1. FSV Mainz 05",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Caligiuri",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Gonzalo Castro",
-        "country": "Germany",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
         "team": "Borussia Dortmund",
         "assists": "1",
-        "flag": "germany",
+        "flag": "gabon",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Kingsley Coman",
-        "country": "France",
-        "team": "Bayern München",
-        "assists": "1",
-        "flag": "france",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Jhon Córdoba",
-        "country": "Colombia",
-        "team": "1. FC Köln",
-        "assists": "1",
-        "flag": "colombia",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Vladimír Darida",
-        "country": "Czech Republic",
-        "team": "Hertha BSC",
-        "assists": "1",
-        "flag": "czech_republic",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan de Guzmán",
-        "country": "Netherlands",
-        "team": "Eintracht Frankfurt",
-        "assists": "1",
-        "flag": "netherlands",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Kerem Demirbay",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Franco Di Santo",
-        "country": "Argentina",
-        "team": "FC Schalke 04",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "fc_schalke_04"
     }
 ]

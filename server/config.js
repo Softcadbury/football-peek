@@ -2,6 +2,17 @@
 'use strict';
 
 function config() {
+    var periodFormat = '{0}-{1}';
+    var firstHandledYear = 2007;
+    var lastHandledPeriod = 2017;
+
+    var currentPeriod = periodFormat.replace('{0}', lastHandledPeriod).replace('{1}', lastHandledPeriod + 1);
+    var availablesPeriod = [];
+
+    for (var i = lastHandledPeriod; i >= firstHandledYear; i--) {
+        availablesPeriod.push(periodFormat.replace('{0}', i).replace('{1}', i + 1));
+    }
+
     return {
         port: process.env.PORT || 5000,
         downloadImages: false,
@@ -15,17 +26,9 @@ function config() {
             logosData: './data/images/logos/{0}.gif',
             flagsData: './data/images/flags/{0}.gif'
         },
-        years: {
-            current: '2017-2018',
-            availables: [
-                '2017-2018',
-                '2016-2017',
-                '2015-2016',
-                '2014-2015',
-                '2013-2014',
-                '2012-2013',
-                '2011-2012',
-                '2010-2011']
+        periods: {
+            current: currentPeriod,
+            availables: availablesPeriod
         }
     };
 }

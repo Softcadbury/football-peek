@@ -12,7 +12,7 @@ var competitionsExtended = [
     { item: competitions.europaLeague, url: 'europa-league', roundNumber: 5 }
 ];
 
-// Updates tournament of current year
+// Updates tournament of current period
 function update(competitionArg) {
     helper.runUpdate(competitionsExtended, updateData, competitionArg);
 }
@@ -34,14 +34,14 @@ function updateData(itemExtended) {
             return;
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.periods.current), results);
     });
 }
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, roundIndex) {
     return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.years.current, tournamentDataUrlExtensions[roundIndex]), ($) => {
+        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.periods.current, tournamentDataUrlExtensions[roundIndex]), ($) => {
             var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
