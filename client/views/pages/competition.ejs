@@ -2,7 +2,7 @@
     <div class="title">
         <div class="title-icon icon-<%= requestedItem.code %>"></div>
         <h1><%= requestedItem.name %></h1>
-        <%- include('../commons/dropdownYears') %>
+        <%- include('../commons/dropdownPeriods') %>
     </div>
     <% if (!groupsData.length && !tournamentData.length) { %>
         <h2>Sorry<br/>No data available for this period :'(</h2>

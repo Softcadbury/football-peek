@@ -12,9 +12,9 @@ sitemap.add({ url: '', changefreq: 'daily' });
 items.forEach(item => {
     sitemap.add({ url: '/' + item.code + '/', changefreq: 'daily' });
 
-    config.years.availables.forEach(year => {
-        var changefreq = year === config.years.current ? 'daily' : 'weekly';
-        sitemap.add({ url: '/' + item.code + '/' + year + '/', changefreq: changefreq });
+    config.periods.availables.forEach(period => {
+        var changefreq = period === config.periods.current ? 'daily' : 'weekly';
+        sitemap.add({ url: '/' + item.code + '/' + period + '/', changefreq: changefreq });
     });
 });
 

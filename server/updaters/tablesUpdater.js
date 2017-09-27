@@ -13,14 +13,14 @@ var leaguesExtended = [
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '' }
 ];
 
-// Updates tables of current year
+// Updates tables of current period
 function update(leagueArg) {
     helper.runUpdate(leaguesExtended, updateData, leagueArg);
 }
 
 // Updates the table of an itemExtended
 function updateData(itemExtended) {
-    helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.years.current, itemExtended.extra), ($) => {
+    helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), ($) => {
         var results = [];
 
         $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {
@@ -52,7 +52,7 @@ function updateData(itemExtended) {
             helper.manageLogoProperty(results[i]);
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, itemExtended.item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.tableData, itemExtended.item.code, config.periods.current), results);
     });
 }
 

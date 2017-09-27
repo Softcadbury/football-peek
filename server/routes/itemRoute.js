@@ -6,84 +6,84 @@ var items = require('../data/items');
 var express = require('express');
 var router = express.Router();
 
-router.route('/:item/:year?/:roundOrGroup?')
+router.route('/:item/:period?/:roundOrGroup?')
     .get((req, res) => {
         var requestedItem = items.find(item => item.code === req.params.item) || items[0];
-        var requestedYear = config.years.availables.find(year => req.params.year === year) || config.years.current;
+        var requestedPeriod = config.periods.availables.find(period => req.params.period === period) || config.periods.current;
         var requestedRoundOrGroup = req.params.roundOrGroup;
 
         var data = {
-            title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedYear,
-            description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedYear,
+            title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedPeriod,
+            description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedPeriod,
             items: items,
-            years: config.years.availables,
+            periods: config.periods.availables,
             requestedItem: requestedItem,
-            requestedYear: requestedYear,
-            scorersData: getData(config.paths.scorersData, requestedItem, requestedYear),
-            assistsData: getData(config.paths.assistsData, requestedItem, requestedYear)
+            requestedPeriod: requestedPeriod,
+            scorersData: getData(config.paths.scorersData, requestedItem, requestedPeriod),
+            assistsData: getData(config.paths.assistsData, requestedItem, requestedPeriod)
         };
 
         if (requestedItem.isCompetition) {
-            renderCompetition(res, data, requestedItem, requestedYear, requestedRoundOrGroup);
+            renderCompetition(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup);
         } else {
-            renderLeague(res, data, requestedItem, requestedYear, requestedRoundOrGroup);
+            renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup);
         }
     });
 
 // Render a competition item
-function renderCompetition(res, data, requestedItem, requestedYear, requestedRoundOrGroup) {
-    var tournamentData = getData(config.paths.tournamentData, requestedItem, requestedYear);
-    var groupsData = getData(config.paths.groupsData, requestedItem, requestedYear);
+function renderCompetition(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup) {
+    var tournamentData = getData(config.paths.tournamentData, requestedItem, requestedPeriod);
+    var groupsData = getData(config.paths.groupsData, requestedItem, requestedPeriod);
     var requestedGroup = requestedRoundOrGroup || 'a';
 
     res.render('pages/competition', Object.assign(data, {
         tournamentData,
         groupsData,
-        requestedYear: requestedYear,
+        requestedPeriod: requestedPeriod,
         requestedGroup: requestedGroup,
-        previousAndNextGroupUrls: getPreviousAndNextGroupUrls(requestedItem.code, requestedYear, requestedGroup, groupsData.length)
+        previousAndNextGroupUrls: getPreviousAndNextGroupUrls(requestedItem.code, requestedPeriod, requestedGroup, groupsData.length)
     }));
 }
 
 // Render a league item
-function renderLeague(res, data, requestedItem, requestedYear, requestedRoundOrGroup) {
-    var resultsData = getData(config.paths.resultsData, requestedItem, requestedYear);
-    var tableData = getData(config.paths.tableData, requestedItem, requestedYear);
+function renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup) {
+    var resultsData = getData(config.paths.resultsData, requestedItem, requestedPeriod);
+    var tableData = getData(config.paths.tableData, requestedItem, requestedPeriod);
     var requestedRound = requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData);
 
     res.render('pages/league', Object.assign(data, {
         resultsData,
         tableData,
-        requestedYear: requestedYear,
+        requestedPeriod: requestedPeriod,
         requestedRound: requestedRound,
-        previousAndNextGroupUrls: getPreviousAndNextRoundUrls(requestedItem.code, requestedYear, requestedRound, resultsData.length)
+        previousAndNextGroupUrls: getPreviousAndNextRoundUrls(requestedItem.code, requestedPeriod, requestedRound, resultsData.length)
     }));
 }
 
-function getData(dataPath, requestedItem, requestedYear) {
-    return helper.readJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedYear));
+function getData(dataPath, requestedItem, requestedPeriod) {
+    return helper.readJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedPeriod));
 }
 
-function getPreviousAndNextGroupUrls(requestedItemCode, requestedYear, requestedGroup, numberOfGroups) {
+function getPreviousAndNextGroupUrls(requestedItemCode, requestedPeriod, requestedGroup, numberOfGroups) {
     var requestedGroupCharCode = requestedGroup.charCodeAt(0);
 
     return {
-        previous: requestedGroupCharCode > 96 + 1 ? getRoundOrGroupUrl(requestedItemCode, requestedYear, String.fromCharCode(requestedGroupCharCode - 1)) : null,
-        next: requestedGroupCharCode < 96 + numberOfGroups ? getRoundOrGroupUrl(requestedItemCode, requestedYear, String.fromCharCode(requestedGroupCharCode + 1)) : null
+        previous: requestedGroupCharCode > 96 + 1 ? getRoundOrGroupUrl(requestedItemCode, requestedPeriod, String.fromCharCode(requestedGroupCharCode - 1)) : null,
+        next: requestedGroupCharCode < 96 + numberOfGroups ? getRoundOrGroupUrl(requestedItemCode, requestedPeriod, String.fromCharCode(requestedGroupCharCode + 1)) : null
     };
 }
 
-function getPreviousAndNextRoundUrls(requestedItemCode, requestedYear, requestedRound, numberOfRounds) {
+function getPreviousAndNextRoundUrls(requestedItemCode, requestedPeriod, requestedRound, numberOfRounds) {
     var requestedRoundNumber = parseInt(requestedRound, 10);
 
     return {
-        previous: requestedRoundNumber > 1 ? getRoundOrGroupUrl(requestedItemCode, requestedYear, requestedRoundNumber - 1) : null,
-        next: requestedRoundNumber < numberOfRounds ? getRoundOrGroupUrl(requestedItemCode, requestedYear, requestedRoundNumber + 1) : null
+        previous: requestedRoundNumber > 1 ? getRoundOrGroupUrl(requestedItemCode, requestedPeriod, requestedRoundNumber - 1) : null,
+        next: requestedRoundNumber < numberOfRounds ? getRoundOrGroupUrl(requestedItemCode, requestedPeriod, requestedRoundNumber + 1) : null
     };
 }
 
-function getRoundOrGroupUrl(requestedItemCode, requestedYear, roundOrGroup) {
-    return '/' + requestedItemCode + '/' + requestedYear + '/' + roundOrGroup;
+function getRoundOrGroupUrl(requestedItemCode, requestedPeriod, roundOrGroup) {
+    return '/' + requestedItemCode + '/' + requestedPeriod + '/' + roundOrGroup;
 }
 
 module.exports = router;

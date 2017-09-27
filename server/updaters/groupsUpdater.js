@@ -11,7 +11,7 @@ var competitionsExtended = [
     { item: competitions.europaLeague, url: 'europa-league', groupNumber: 12 }
 ];
 
-// Updates results of current year
+// Updates results of current period
 function update(competitionArg) {
     helper.runUpdate(competitionsExtended, updateData, competitionArg);
 }
@@ -32,14 +32,14 @@ function updateData(itemExtended) {
             return;
         }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.groupsData, itemExtended.item.code, config.years.current), results);
+        helper.writeJsonFile(helper.stringFormat(config.paths.groupsData, itemExtended.item.code, config.periods.current), results);
     });
 }
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, groupIndex) {
     return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.years.current, resultsDataUrlExtensions[groupIndex]), ($) => {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.periods.current, resultsDataUrlExtensions[groupIndex]), ($) => {
             var currentMatches = results[groupIndex].matches;
             var currentDate;
 

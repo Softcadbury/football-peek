@@ -15,26 +15,26 @@ describe('Images intergrity', () => {
 
     items.forEach(item => {
         describe(item.name, () => {
-            config.years.availables.forEach(year => {
-                describe(year, () => {
+            config.periods.availables.forEach(period => {
+                describe(period, () => {
                     if (item.isCompetition) {
-                        testTournamentImages(item.code, year);
-                        testGroupImages(item.code, year);
+                        testTournamentImages(item.code, period);
+                        testGroupImages(item.code, period);
                     } else {
-                        testTableImages(item.code, year);
-                        testResultsImages(item.code, year);
+                        testTableImages(item.code, period);
+                        testResultsImages(item.code, period);
                     }
 
-                    testScorersImages(item.code, year);
-                    testAssistsImages(item.code, year);
+                    testScorersImages(item.code, period);
+                    testAssistsImages(item.code, period);
                 });
             });
         });
     });
 });
 
-function testTournamentImages(code, year) {
-    var path = helper.stringFormat(config.paths.tournamentData, code, year);
+function testTournamentImages(code, period) {
+    var path = helper.stringFormat(config.paths.tournamentData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
@@ -51,8 +51,8 @@ function testTournamentImages(code, year) {
     }
 }
 
-function testGroupImages(code, year) {
-    var path = helper.stringFormat(config.paths.groupsData, code, year);
+function testGroupImages(code, period) {
+    var path = helper.stringFormat(config.paths.groupsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
@@ -65,23 +65,23 @@ function testGroupImages(code, year) {
     }
 }
 
-function testTableImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, year));
+function testTableImages(code, period) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, period));
     testImagesExistance('Table', data);
 }
 
-function testResultsImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
+function testResultsImages(code, period) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, period));
     testImagesExistance('Results', data[0].matches);
 }
 
-function testScorersImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, year));
+function testScorersImages(code, period) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, period));
     testImagesExistance('Scorers', data);
 }
 
-function testAssistsImages(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.assistsData, code, year));
+function testAssistsImages(code, period) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.assistsData, code, period));
     testImagesExistance('Assists', data);
 }
 

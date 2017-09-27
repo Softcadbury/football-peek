@@ -11,26 +11,26 @@ var leagues = require('../server/data/leagues');
 describe('Data intergrity', () => {
     items.forEach(item => {
         describe(item.name, () => {
-            config.years.availables.forEach(year => {
-                describe(year, () => {
+            config.periods.availables.forEach(period => {
+                describe(period, () => {
                     if (item.isCompetition) {
-                        testTournamentData(item.code, year);
-                        testGroupsData(item.code, year);
+                        testTournamentData(item.code, period);
+                        testGroupsData(item.code, period);
                     } else {
-                        testTableData(item.code, year);
-                        testResultData(item.code, year);
+                        testTableData(item.code, period);
+                        testResultData(item.code, period);
                     }
 
-                    testScorersData(item.code, year);
-                    testAssistsData(item.code, year);
+                    testScorersData(item.code, period);
+                    testAssistsData(item.code, period);
                 });
             });
         });
     });
 });
 
-function testTournamentData(code, year) {
-    var path = helper.stringFormat(config.paths.tournamentData, code, year);
+function testTournamentData(code, period) {
+    var path = helper.stringFormat(config.paths.tournamentData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
@@ -58,8 +58,8 @@ function testTournamentData(code, year) {
     });
 }
 
-function testGroupsData(code, year) {
-    var path = helper.stringFormat(config.paths.groupsData, code, year);
+function testGroupsData(code, period) {
+    var path = helper.stringFormat(config.paths.groupsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
@@ -80,8 +80,8 @@ function testGroupsData(code, year) {
     }
 }
 
-function testTableData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.tableData, code, year));
+function testTableData(code, period) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.tableData, code, period));
     testDataIsNotEmpty('Table', data);
     testDataIsNumber('Table', data);
 
@@ -91,15 +91,15 @@ function testTableData(code, year) {
     });
 }
 
-function testResultData(code, year) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, year));
+function testResultData(code, period) {
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, period));
     for (var i = 0; i < data.length; i++) {
         testDataIsNotEmpty('Result' + i, data[i].matches);
     }
 }
 
-function testScorersData(code, year) {
-    var path = helper.stringFormat(config.paths.scorersData, code, year);
+function testScorersData(code, period) {
+    var path = helper.stringFormat(config.paths.scorersData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
@@ -114,8 +114,8 @@ function testScorersData(code, year) {
     });
 }
 
-function testAssistsData(code, year) {
-    var path = helper.stringFormat(config.paths.assistsData, code, year);
+function testAssistsData(code, period) {
+    var path = helper.stringFormat(config.paths.assistsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;

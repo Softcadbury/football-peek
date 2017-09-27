@@ -15,7 +15,7 @@ function config() {
             logosData: './data/images/logos/{0}.gif',
             flagsData: './data/images/flags/{0}.gif'
         },
-        years: {
+        periods: {
             current: '2017-2018',
             availables: [
                 '2017-2018',

@@ -7,7 +7,7 @@
             <select onchange="location = this.value;" aria-label="Groups">
                 <% groupsData.forEach((group) => { %>
                     <option
-                        value="/<%= requestedItem.code %>/<%= requestedYear %>/<%= group.name %>"
+                        value="/<%= requestedItem.code %>/<%= requestedPeriod %>/<%= group.name %>"
                         <%= group.name == requestedGroup ? 'selected="selected"' : '' %> >Group <%= group.name %></option>
                 <% }); %>
             </select>

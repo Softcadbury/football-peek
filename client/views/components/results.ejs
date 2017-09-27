@@ -7,7 +7,7 @@
             <select onchange="location = this.value;" aria-label="Rounds">
                 <% resultsData.forEach((result) => { %>
                     <option
-                        value="/<%= requestedItem.code %>/<%= requestedYear %>/<%= result.round %>"
+                        value="/<%= requestedItem.code %>/<%= requestedPeriod %>/<%= result.round %>"
                         <%= result.round == requestedRound ? 'selected="selected"' : '' %> >Round <%= result.round %></option>
                 <% }); %>
             </select>
