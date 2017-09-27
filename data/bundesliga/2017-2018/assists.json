@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Mahmoud Dahoud",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Amine Harit",
         "country": "Morocco",
         "team": "FC Schalke 04",
@@ -36,7 +45,7 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Charles Aránguiz",
         "country": "Chile",
         "team": "Bayer Leverkusen",
@@ -55,6 +64,15 @@
     },
     {
         "rank": "-",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "Bayer Leverkusen",
+        "assists": "2",
+        "flag": "jamaica",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -64,12 +82,12 @@
     },
     {
         "rank": "-",
-        "name": "Mahmoud Dahoud",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Bor. Mönchengladbach",
         "assists": "2",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
+        "flag": "belgium",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -109,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Andrey Yarmolenko",
         "country": "Ukraine",
         "team": "Borussia Dortmund",
@@ -117,7 +144,25 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Steven Zuber",
+        "country": "Switzerland",
+        "team": "1899 Hoffenheim",
+        "assists": "2",
+        "flag": "switzerland",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "18.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
+        "team": "Bayer Leverkusen",
+        "assists": "1",
+        "flag": "argentina",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Dennis Aogo",
         "country": "Germany",
         "team": "VfB Stuttgart",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Marvin Bakalorz",
-        "country": "Germany",
-        "team": "Hannover 96",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
         "assists": "1",
-        "flag": "germany",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Lars Bender",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": " Bernardo",
-        "country": "Brazil",
-        "team": "RB Leipzig",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Brekalo",
-        "country": "Croatia",
-        "team": "VfB Stuttgart",
-        "assists": "1",
-        "flag": "croatia",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Brosinski",
-        "country": "Germany",
-        "team": "1. FSV Mainz 05",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Caligiuri",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
     }
 ]

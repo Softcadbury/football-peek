@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "goals": "8",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "2.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
@@ -9,16 +18,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "2.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
+        "rank": "3.",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
         "goals": "5",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
+        "flag": "germany",
+        "logo": "rb_leipzig"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Alfreð Finnbogason",
         "country": "Iceland",
         "team": "FC Augsburg",
@@ -46,6 +55,15 @@
     },
     {
         "rank": "-",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Mark Uth",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -55,15 +73,15 @@
     },
     {
         "rank": "-",
-        "name": "Timo Werner",
+        "name": "Kevin Volland",
         "country": "Germany",
-        "team": "RB Leipzig",
+        "team": "Bayer Leverkusen",
         "goals": "4",
         "flag": "germany",
-        "logo": "rb_leipzig"
+        "logo": "bayer_leverkusen"
     },
     {
-        "rank": "8.",
+        "rank": "10.",
         "name": "Daniel Didavi",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -72,13 +90,22 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "9.",
+        "rank": "11.",
         "name": "Chadrac Akolo",
         "country": "Congo DR",
         "team": "VfB Stuttgart",
         "goals": "2",
         "flag": "congo_dr",
         "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "-",
+        "name": "Jean-Kévin Augustin",
+        "country": "France",
+        "team": "RB Leipzig",
+        "goals": "2",
+        "flag": "france",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -118,15 +145,6 @@
     },
     {
         "rank": "-",
-        "name": "Maximilian Philipp",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "goals": "2",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
         "name": "Christian Pulisic",
         "country": "USA",
         "team": "Borussia Dortmund",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Kevin Volland",
+        "name": "Lars Stindl",
         "country": "Germany",
-        "team": "Bayer Leverkusen",
+        "team": "Bor. Mönchengladbach",
         "goals": "2",
         "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Sandro Wagner",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "2",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "20.",
-        "name": "Nadiem Amiri",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
+        "logo": "bor__monchengladbach"
     }
 ]

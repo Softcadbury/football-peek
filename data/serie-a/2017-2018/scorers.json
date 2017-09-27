@@ -4,27 +4,36 @@
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "8",
+        "goals": "10",
         "flag": "argentina",
         "logo": "juventus"
     },
     {
         "rank": "2.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "8",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "3.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "6",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
         "goals": "6",
         "flag": "argentina",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "6",
-        "flag": "italy",
-        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -36,16 +45,16 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "5.",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "5",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "rank": "6.",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "ssc_napoli"
     },
     {
-        "rank": "6.",
+        "rank": "-",
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
@@ -54,7 +63,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
@@ -70,15 +79,6 @@
         "goals": "3",
         "flag": "argentina",
         "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -109,12 +109,39 @@
     },
     {
         "rank": "13.",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Patrick Cutrone",
         "country": "Italy",
         "team": "AC Milan",
         "goals": "2",
         "flag": "italy",
         "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Stephan El Shaarawy",
+        "country": "Italy",
+        "team": "AS Roma",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Faouzi Ghoulam",
+        "country": "Algeria",
+        "team": "SSC Napoli",
+        "goals": "2",
+        "flag": "algeria",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -127,56 +154,29 @@
     },
     {
         "rank": "-",
+        "name": "Roberto Inglese",
+        "country": "Italy",
+        "team": "Chievo Verona",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": " João Pedro",
         "country": "Brazil",
         "team": "Cagliari Calcio",
         "goals": "2",
         "flag": "brazil",
         "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Nikola Kalinić",
-        "country": "Croatia",
-        "team": "AC Milan",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Franck Kessié",
-        "country": "Ivory Coast",
-        "team": "AC Milan",
-        "goals": "2",
-        "flag": "ivory_coast",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Lasagna",
-        "country": "Italy",
-        "team": "Udinese Calcio",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Mandžukić",
-        "country": "Croatia",
-        "team": "Juventus",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Pietro Pellegri",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "genoa_cfc"
     }
 ]

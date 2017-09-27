@@ -4,7 +4,7 @@
         "name": " Carlos Soler",
         "country": "Spain",
         "team": "Valencia CF",
-        "assists": "3",
+        "assists": "4",
         "flag": "spain",
         "logo": "valencia_cf"
     },
@@ -13,9 +13,18 @@
         "name": "Andrés Guardado",
         "country": "Mexico",
         "team": "Real Betis",
-        "assists": "3",
+        "assists": "4",
         "flag": "mexico",
         "logo": "real_betis"
+    },
+    {
+        "rank": "3.",
+        "name": " Gonçalo Guedes",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -28,6 +37,24 @@
     },
     {
         "rank": "-",
+        "name": " Koke",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Pione Sisto",
+        "country": "Denmark",
+        "team": "Celta Vigo",
+        "assists": "3",
+        "flag": "denmark",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
         "name": " Williams",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -36,7 +63,7 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "5.",
+        "rank": "8.",
         "name": "Florin Andone",
         "country": "Romania",
         "team": "Deportivo La Coruña",
@@ -64,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": "Fayçal Fajr",
+        "country": "Morocco",
+        "team": "Getafe CF",
+        "assists": "2",
+        "flag": "morocco",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
         "name": "Yannick Ferreira-Carrasco",
         "country": "Belgium",
         "team": "Atlético Madrid",
@@ -73,21 +109,30 @@
     },
     {
         "rank": "-",
-        "name": " Gerard Deulofeu",
+        "name": " Hugo Mallo",
         "country": "Spain",
-        "team": "FC Barcelona",
+        "team": "Celta Vigo",
         "assists": "2",
         "flag": "spain",
-        "logo": "fc_barcelona"
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
-        "name": " Koke",
+        "name": " Leo Baptistão",
+        "country": "Brazil",
+        "team": "Espanyol Barcelona",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Muniain",
         "country": "Spain",
-        "team": "Atlético Madrid",
+        "team": "Athletic Bilbao",
         "assists": "2",
         "flag": "spain",
-        "logo": "atletico_madrid"
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "-",
@@ -100,12 +145,21 @@
     },
     {
         "rank": "-",
-        "name": "Pione Sisto",
-        "country": "Denmark",
-        "team": "Celta Vigo",
+        "name": " Sergi Roberto",
+        "country": "Spain",
+        "team": "FC Barcelona",
         "assists": "2",
-        "flag": "denmark",
-        "logo": "celta_vigo"
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Alexander Szymanowski",
+        "country": "Argentina",
+        "team": "CD Leganés",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "cd_leganes"
     },
     {
         "rank": "-",
@@ -117,66 +171,12 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "14.",
+        "rank": "20.",
         "name": " Adrián",
         "country": "Spain",
         "team": "Deportivo La Coruña",
         "assists": "1",
         "flag": "spain",
         "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": " Aleix Vidal",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Álex Granell",
-        "country": "Spain",
-        "team": "Girona FC",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "girona_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Álvaro González",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Álvaro Jiménez",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Andreas Pereira",
-        "country": "Brazil",
-        "team": "Valencia CF",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "assists": "1",
-        "flag": "wales",
-        "logo": "real_madrid"
     }
 ]

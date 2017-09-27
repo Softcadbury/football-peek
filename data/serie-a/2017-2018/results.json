@@ -428,10 +428,42 @@
         "round": 6,
         "matches": [
             {
+                "date": "23/09/2017",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Udinese Calcio",
+                "score": "3:1",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "udinese_calcio"
+            },
+            {
+                "date": "23/09/2017",
+                "homeTeam": "SPAL 2013 Ferrara",
+                "awayTeam": "SSC Napoli",
+                "score": "2:3",
+                "homeTeamLogo": "spal_2013_ferrara",
+                "awayTeamLogo": "ssc_napoli"
+            },
+            {
+                "date": "23/09/2017",
+                "homeTeam": "Juventus",
+                "awayTeam": "Torino FC",
+                "score": "4:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "24/09/2017",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "AC Milan",
+                "score": "2:0",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
                 "date": "24/09/2017",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Chievo Verona",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "chievo_verona"
             },
@@ -439,23 +471,15 @@
                 "date": "24/09/2017",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "benevento_calcio"
             },
             {
                 "date": "24/09/2017",
-                "homeTeam": "ACF Fiorentina",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "acf_fiorentina",
-                "awayTeamLogo": "atalanta"
-            },
-            {
-                "date": "24/09/2017",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "lazio_roma"
             },
@@ -463,49 +487,25 @@
                 "date": "24/09/2017",
                 "homeTeam": "Inter",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "genoa_cfc"
             },
             {
                 "date": "24/09/2017",
-                "homeTeam": "Juventus",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "torino_fc"
-            },
-            {
-                "date": "24/09/2017",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Udinese Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "udinese_calcio"
-            },
-            {
-                "date": "24/09/2017",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "24/09/2017",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "bologna_fc"
             },
             {
                 "date": "24/09/2017",
-                "homeTeam": "SPAL 2013 Ferrara",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "spal_2013_ferrara",
-                "awayTeamLogo": "ssc_napoli"
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "Atalanta",
+                "score": "1:1",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "atalanta"
             }
         ]
     },
