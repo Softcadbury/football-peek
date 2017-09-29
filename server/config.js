@@ -3,7 +3,7 @@
 
 function config() {
     var periodFormat = '{0}-{1}';
-    var firstHandledYear = 2002;
+    var firstHandledYear = 2001;
     var lastHandledPeriod = 2017;
 
     var currentPeriod = periodFormat.replace('{0}', lastHandledPeriod).replace('{1}', lastHandledPeriod + 1);
