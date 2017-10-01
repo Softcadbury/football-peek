@@ -4,7 +4,7 @@
         "name": "Radamel Falcao",
         "country": "Colombia",
         "team": "AS Monaco",
-        "goals": "11",
+        "goals": "12",
         "flag": "colombia",
         "logo": "as_monaco"
     },
@@ -13,12 +13,21 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "7",
+        "goals": "8",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
     {
         "rank": "3.",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "4.",
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Olympique Lyon",
@@ -45,7 +54,7 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Mario Balotelli",
         "country": "Italy",
         "team": "OGC Nice",
@@ -64,15 +73,24 @@
     },
     {
         "rank": "-",
-        "name": " Neymar",
+        "name": " Malcom",
         "country": "Brazil",
-        "team": "Paris Saint-Germain",
+        "team": "Girondins Bordeaux",
         "goals": "4",
         "flag": "brazil",
-        "logo": "paris_saint_germain"
+        "logo": "girondins_bordeaux"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Younousse Sankharé",
+        "country": "Senegal",
+        "team": "Girondins Bordeaux",
+        "goals": "4",
+        "flag": "senegal",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "11.",
         "name": "Benjamin Bourigeaud",
         "country": "France",
         "team": "Stade Rennes",
@@ -91,15 +109,6 @@
     },
     {
         "rank": "-",
-        "name": " Malcom",
-        "country": "Brazil",
-        "team": "Girondins Bordeaux",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "-",
         "name": "Ndombe Mubele",
         "country": "Congo DR",
         "team": "Stade Rennes",
@@ -115,15 +124,6 @@
         "goals": "3",
         "flag": "france",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Younousse Sankharé",
-        "country": "Senegal",
-        "team": "Girondins Bordeaux",
-        "goals": "3",
-        "flag": "senegal",
-        "logo": "girondins_bordeaux"
     },
     {
         "rank": "-",
@@ -154,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Souleymane Camara",
+        "country": "Senegal",
+        "team": "Montpellier HSC",
+        "goals": "2",
+        "flag": "senegal",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "-",
         "name": "Bryan Dabo",
         "country": "France",
         "team": "AS Saint-Étienne",
@@ -169,14 +178,5 @@
         "goals": "2",
         "flag": "france",
         "logo": "girondins_bordeaux"
-    },
-    {
-        "rank": "-",
-        "name": "Moustapha Diallo",
-        "country": "Senegal",
-        "team": "EA Guingamp",
-        "goals": "2",
-        "flag": "senegal",
-        "logo": "ea_guingamp"
     }
 ]

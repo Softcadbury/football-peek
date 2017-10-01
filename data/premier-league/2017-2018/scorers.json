@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Manchester United",
+        "goals": "7",
+        "flag": "belgium",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "2.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -10,12 +19,12 @@
     },
     {
         "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Manchester United",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
         "goals": "6",
-        "flag": "belgium",
-        "logo": "manchester_united"
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -27,7 +36,7 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
@@ -45,22 +54,13 @@
         "logo": "leicester_city"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": " Gabriel Jesus",
         "country": "Brazil",
         "team": "Manchester City",
         "goals": "4",
         "flag": "brazil",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "4",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -82,6 +82,24 @@
     },
     {
         "rank": "10.",
+        "name": "Abdoulaye Doucouré",
+        "country": "France",
+        "team": "Watford FC",
+        "goals": "3",
+        "flag": "france",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Marouane Fellaini",
+        "country": "Belgium",
+        "team": "Manchester United",
+        "goals": "3",
+        "flag": "belgium",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
         "name": "Javier Hernández",
         "country": "Mexico",
         "team": "West Ham United",
@@ -118,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": " Richarlison",
+        "country": "Brazil",
+        "team": "Watford FC",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Manchester City",
@@ -135,7 +162,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "16.",
+        "rank": "19.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "Swansea City",
@@ -150,33 +177,6 @@
         "team": "Tottenham Hotspur",
         "goals": "2",
         "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Eric Maxim Choupo-Moting",
-        "country": "Cameroon",
-        "team": "Stoke City",
-        "goals": "2",
-        "flag": "cameroon",
-        "logo": "stoke_city"
-    },
-    {
-        "rank": "-",
-        "name": "Abdoulaye Doucouré",
-        "country": "France",
-        "team": "Watford FC",
-        "goals": "2",
-        "flag": "france",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "denmark",
         "logo": "tottenham_hotspur"
     }
 ]
