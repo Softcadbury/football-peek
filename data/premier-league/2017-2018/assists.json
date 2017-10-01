@@ -54,7 +54,25 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Marcus Rashford",
+        "country": "England",
+        "team": "Manchester United",
+        "assists": "3",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Kieran Trippier",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "assists": "3",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "9.",
         "name": "Dominic Calvert-Lewin",
         "country": "England",
         "team": "Everton FC",
@@ -73,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": "Ben Davies",
+        "country": "Wales",
+        "team": "Tottenham Hotspur",
+        "assists": "2",
+        "flag": "wales",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
@@ -88,6 +115,15 @@
         "assists": "2",
         "flag": "germany",
         "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
+        "name": "José Holebas",
+        "country": "Greece",
+        "team": "Watford FC",
+        "assists": "2",
+        "flag": "greece",
+        "logo": "watford_fc"
     },
     {
         "rank": "-",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Morata",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Paul Pogba",
+        "name": "Anthony Martial",
         "country": "France",
         "team": "Manchester United",
         "assists": "2",
         "flag": "france",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Kyle Walker",
-        "country": "England",
-        "team": "Manchester City",
-        "assists": "2",
-        "flag": "england",
-        "logo": "manchester_city"
     }
 ]

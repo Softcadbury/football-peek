@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Martin Harnik",
+        "country": "Austria",
+        "team": "Hannover 96",
+        "goals": "5",
+        "flag": "austria",
+        "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
@@ -27,22 +36,13 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Alfreð Finnbogason",
         "country": "Iceland",
         "team": "FC Augsburg",
         "goals": "4",
         "flag": "iceland",
         "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Martin Harnik",
-        "country": "Austria",
-        "team": "Hannover 96",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "hannover_96"
     },
     {
         "rank": "-",
@@ -90,7 +90,16 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Yoshinori Mutō",
+        "country": "Japan",
+        "team": "1. FSV Mainz 05",
+        "goals": "3",
+        "flag": "japan",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "12.",
         "name": "Chadrac Akolo",
         "country": "Congo DR",
         "team": "VfB Stuttgart",
@@ -127,56 +136,47 @@
     },
     {
         "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Yoshinori Mutō",
-        "country": "Japan",
-        "team": "1. FSV Mainz 05",
-        "goals": "2",
-        "flag": "japan",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Pulisic",
-        "country": "USA",
-        "team": "Borussia Dortmund",
-        "goals": "2",
-        "flag": "usa",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": " Raffael",
+        "name": " Caiuby",
         "country": "Brazil",
-        "team": "Bor. Mönchengladbach",
+        "team": "FC Augsburg",
         "goals": "2",
         "flag": "brazil",
-        "logo": "bor__monchengladbach"
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
-        "name": "Arjen Robben",
-        "country": "Netherlands",
-        "team": "Bayern München",
-        "goals": "2",
-        "flag": "netherlands",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Lars Stindl",
+        "name": "Leon Goretzka",
         "country": "Germany",
-        "team": "Bor. Mönchengladbach",
+        "team": "FC Schalke 04",
         "goals": "2",
         "flag": "germany",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
+        "goals": "2",
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Bor. Mönchengladbach",
+        "goals": "2",
+        "flag": "belgium",
         "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Shinji Kagawa",
+        "country": "Japan",
+        "team": "Borussia Dortmund",
+        "goals": "2",
+        "flag": "japan",
+        "logo": "borussia_dortmund"
     }
 ]

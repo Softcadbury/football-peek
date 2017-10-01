@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Levin Öztunali",
+        "country": "Germany",
+        "team": "1. FSV Mainz 05",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "2.",
         "name": "Mahmoud Dahoud",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -37,15 +46,33 @@
     },
     {
         "rank": "-",
-        "name": "Levin Öztunali",
+        "name": "Philipp Max",
         "country": "Germany",
-        "team": "1. FSV Mainz 05",
+        "team": "FC Augsburg",
         "assists": "3",
         "flag": "germany",
-        "logo": "1__fsv_mainz_05"
+        "logo": "fc_augsburg"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Andrey Yarmolenko",
+        "country": "Ukraine",
+        "team": "Borussia Dortmund",
+        "assists": "3",
+        "flag": "ukraine",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "8.",
+        "name": "Dennis Aogo",
+        "country": "Germany",
+        "team": "VfB Stuttgart",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "-",
         "name": "Charles Aránguiz",
         "country": "Chile",
         "team": "Bayer Leverkusen",
@@ -69,6 +96,15 @@
         "team": "Bayer Leverkusen",
         "assists": "2",
         "flag": "jamaica",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Lars Bender",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "2",
+        "flag": "germany",
         "logo": "bayer_leverkusen"
     },
     {
@@ -118,29 +154,11 @@
     },
     {
         "rank": "-",
-        "name": "Philipp Max",
-        "country": "Germany",
-        "team": "FC Augsburg",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
         "name": "Maximilian Philipp",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "assists": "2",
         "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Andrey Yarmolenko",
-        "country": "Ukraine",
-        "team": "Borussia Dortmund",
-        "assists": "2",
-        "flag": "ukraine",
         "logo": "borussia_dortmund"
     },
     {
@@ -153,30 +171,12 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "18.",
+        "rank": "20.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
         "assists": "1",
         "flag": "argentina",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Dennis Aogo",
-        "country": "Germany",
-        "team": "VfB Stuttgart",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "assists": "1",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
     }
 ]

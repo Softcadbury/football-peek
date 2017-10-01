@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Final",
+        "matches": [
+            {
+                "date": "23/05/2001",
+                "team1": "Bayern München",
+                "team2": "Valencia CF",
+                "score": "1:1 (5:4)",
+                "winner": "Bayern München",
+                "team1Logo": "bayern_munchen",
+                "team2Logo": "valencia_cf"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "team1": "Real Madrid",
+                "team2": "Bayern München",
+                "score1": "0:1",
+                "score2": "1:2",
+                "date1": "01/05/2001",
+                "date2": "09/05/2001",
+                "winner": "Bayern München",
+                "team1Logo": "real_madrid",
+                "team2Logo": "bayern_munchen"
+            },
+            {
+                "team1": "Leeds United",
+                "team2": "Valencia CF",
+                "score1": "0:0",
+                "score2": "0:3",
+                "date1": "02/05/2001",
+                "date2": "08/05/2001",
+                "winner": "Valencia CF",
+                "team1Logo": "leeds_united",
+                "team2Logo": "valencia_cf"
+            }
+        ]
+    },
+    {
+        "name": "Quarter-finals",
+        "matches": [
+            {
+                "team1": "Manchester United",
+                "team2": "Bayern München",
+                "score1": "0:1",
+                "score2": "1:2",
+                "date1": "03/04/2001",
+                "date2": "18/04/2001",
+                "winner": "Bayern München",
+                "team1Logo": "manchester_united",
+                "team2Logo": "bayern_munchen"
+            },
+            {
+                "team1": "Galatasaray",
+                "team2": "Real Madrid",
+                "score1": "3:2",
+                "score2": "0:3",
+                "date1": "03/04/2001",
+                "date2": "18/04/2001",
+                "winner": "Real Madrid",
+                "team1Logo": "galatasaray",
+                "team2Logo": "real_madrid"
+            },
+            {
+                "team1": "Leeds United",
+                "team2": "Deportivo La Coruña",
+                "score1": "3:0",
+                "score2": "0:2",
+                "date1": "04/04/2001",
+                "date2": "17/04/2001",
+                "winner": "Leeds United",
+                "team1Logo": "leeds_united",
+                "team2Logo": "deportivo_la_coruna"
+            },
+            {
+                "team1": "Arsenal FC",
+                "team2": "Valencia CF",
+                "score1": "2:1",
+                "score2": "0:1",
+                "date1": "04/04/2001",
+                "date2": "17/04/2001",
+                "winner": "Valencia CF",
+                "team1Logo": "arsenal_fc",
+                "team2Logo": "valencia_cf"
+            }
+        ]
+    }
+]

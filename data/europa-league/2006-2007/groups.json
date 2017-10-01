@@ -1,0 +1,1218 @@
+[
+    {
+        "name": "a",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "AS Livorno",
+                "awayTeam": "Rangers FC",
+                "score": "2:3",
+                "homeTeamLogo": "as_livorno",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Maccabi Haifa",
+                "awayTeam": "AJ Auxerre",
+                "score": "3:1",
+                "homeTeamLogo": "maccabi_haifa",
+                "awayTeamLogo": "aj_auxerre"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Partizan",
+                "awayTeam": "AS Livorno",
+                "score": "1:1",
+                "homeTeamLogo": "partizan",
+                "awayTeamLogo": "as_livorno"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "Maccabi Haifa",
+                "score": "2:0",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "maccabi_haifa"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "AJ Auxerre",
+                "awayTeam": "Rangers FC",
+                "score": "2:2",
+                "homeTeamLogo": "aj_auxerre",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Maccabi Haifa",
+                "awayTeam": "Partizan",
+                "score": "1:0",
+                "homeTeamLogo": "maccabi_haifa",
+                "awayTeamLogo": "partizan"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "Partizan",
+                "awayTeam": "AJ Auxerre",
+                "score": "1:4",
+                "homeTeamLogo": "partizan",
+                "awayTeamLogo": "aj_auxerre"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "AS Livorno",
+                "awayTeam": "Maccabi Haifa",
+                "score": "1:1",
+                "homeTeamLogo": "as_livorno",
+                "awayTeamLogo": "maccabi_haifa"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "AJ Auxerre",
+                "awayTeam": "AS Livorno",
+                "score": "0:1",
+                "homeTeamLogo": "aj_auxerre",
+                "awayTeamLogo": "as_livorno"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "Partizan",
+                "score": "1:0",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "partizan"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Rangers FC",
+                "points": "10",
+                "played": "4",
+                "win": "3",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "8",
+                "goalsAgainst": "4",
+                "goalDifference": "4",
+                "logo": "rangers_fc"
+            },
+            {
+                "rank": "2",
+                "team": "Maccabi Haifa",
+                "points": "7",
+                "played": "4",
+                "win": "2",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "5",
+                "goalsAgainst": "4",
+                "goalDifference": "1",
+                "logo": "maccabi_haifa"
+            },
+            {
+                "rank": "3",
+                "team": "AS Livorno",
+                "points": "5",
+                "played": "4",
+                "win": "1",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "5",
+                "goalsAgainst": "5",
+                "goalDifference": "0",
+                "logo": "as_livorno"
+            },
+            {
+                "rank": "4",
+                "team": "AJ Auxerre",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "7",
+                "goalsAgainst": "7",
+                "goalDifference": "0",
+                "logo": "aj_auxerre"
+            },
+            {
+                "rank": "5",
+                "team": "Partizan",
+                "points": "1",
+                "played": "4",
+                "win": "0",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "2",
+                "goalsAgainst": "7",
+                "goalDifference": "-5",
+                "logo": "partizan"
+            }
+        ]
+    },
+    {
+        "name": "b",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "0:2",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "tottenham_hotspur"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Bayer Leverkusen",
+                "score": "1:1",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "bayer_leverkusen"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Dinamo Bucureşti",
+                "awayTeam": "Beşiktaş",
+                "score": "2:1",
+                "homeTeamLogo": "dinamo_bucure_ti",
+                "awayTeamLogo": "be_ikta_"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Tottenham Hotspur",
+                "awayTeam": "Club Brugge KV",
+                "score": "3:1",
+                "homeTeamLogo": "tottenham_hotspur",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Bayer Leverkusen",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "0:1",
+                "homeTeamLogo": "bayer_leverkusen",
+                "awayTeamLogo": "tottenham_hotspur"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Dinamo Bucureşti",
+                "score": "1:1",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "dinamo_bucure_ti"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "Dinamo Bucureşti",
+                "awayTeam": "Bayer Leverkusen",
+                "score": "2:1",
+                "homeTeamLogo": "dinamo_bucure_ti",
+                "awayTeamLogo": "bayer_leverkusen"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "Club Brugge KV",
+                "score": "2:1",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "Bayer Leverkusen",
+                "awayTeam": "Beşiktaş",
+                "score": "2:1",
+                "homeTeamLogo": "bayer_leverkusen",
+                "awayTeamLogo": "be_ikta_"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "Tottenham Hotspur",
+                "awayTeam": "Dinamo Bucureşti",
+                "score": "3:1",
+                "homeTeamLogo": "tottenham_hotspur",
+                "awayTeamLogo": "dinamo_bucure_ti"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Tottenham Hotspur",
+                "points": "12",
+                "played": "4",
+                "win": "4",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "9",
+                "goalsAgainst": "2",
+                "goalDifference": "7",
+                "logo": "tottenham_hotspur"
+            },
+            {
+                "rank": "2",
+                "team": "Dinamo Bucureşti",
+                "points": "7",
+                "played": "4",
+                "win": "2",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "6",
+                "goalsAgainst": "6",
+                "goalDifference": "0",
+                "logo": "dinamo_bucure_ti"
+            },
+            {
+                "rank": "3",
+                "team": "Bayer Leverkusen",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "4",
+                "goalsAgainst": "5",
+                "goalDifference": "-1",
+                "logo": "bayer_leverkusen"
+            },
+            {
+                "rank": "4",
+                "team": "Beşiktaş",
+                "points": "3",
+                "played": "4",
+                "win": "1",
+                "draw": "0",
+                "lost": "3",
+                "goalsFor": "4",
+                "goalsAgainst": "7",
+                "goalDifference": "-3",
+                "logo": "be_ikta_"
+            },
+            {
+                "rank": "5",
+                "team": "Club Brugge KV",
+                "points": "2",
+                "played": "4",
+                "win": "0",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "4",
+                "goalsAgainst": "7",
+                "goalDifference": "-3",
+                "logo": "club_brugge_kv"
+            }
+        ]
+    },
+    {
+        "name": "c",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "AZ Alkmaar",
+                "awayTeam": "Sporting Braga",
+                "score": "3:0",
+                "homeTeamLogo": "az_alkmaar",
+                "awayTeamLogo": "sporting_braga"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Slovan Liberec",
+                "awayTeam": "Sevilla FC",
+                "score": "0:0",
+                "homeTeamLogo": "slovan_liberec",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Grasshopper Club Zürich",
+                "awayTeam": "AZ Alkmaar",
+                "score": "2:5",
+                "homeTeamLogo": "grasshopper_club_zurich",
+                "awayTeamLogo": "az_alkmaar"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Sporting Braga",
+                "awayTeam": "Slovan Liberec",
+                "score": "4:0",
+                "homeTeamLogo": "sporting_braga",
+                "awayTeamLogo": "slovan_liberec"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Slovan Liberec",
+                "awayTeam": "Grasshopper Club Zürich",
+                "score": "4:1",
+                "homeTeamLogo": "slovan_liberec",
+                "awayTeamLogo": "grasshopper_club_zurich"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Sporting Braga",
+                "score": "2:0",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "sporting_braga"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "Grasshopper Club Zürich",
+                "awayTeam": "Sevilla FC",
+                "score": "0:4",
+                "homeTeamLogo": "grasshopper_club_zurich",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "AZ Alkmaar",
+                "awayTeam": "Slovan Liberec",
+                "score": "2:2",
+                "homeTeamLogo": "az_alkmaar",
+                "awayTeamLogo": "slovan_liberec"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "AZ Alkmaar",
+                "score": "1:2",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "az_alkmaar"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "Sporting Braga",
+                "awayTeam": "Grasshopper Club Zürich",
+                "score": "2:0",
+                "homeTeamLogo": "sporting_braga",
+                "awayTeamLogo": "grasshopper_club_zurich"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "AZ Alkmaar",
+                "points": "10",
+                "played": "4",
+                "win": "3",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "12",
+                "goalsAgainst": "5",
+                "goalDifference": "7",
+                "logo": "az_alkmaar"
+            },
+            {
+                "rank": "2",
+                "team": "Sevilla FC",
+                "points": "7",
+                "played": "4",
+                "win": "2",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "2",
+                "goalDifference": "5",
+                "logo": "sevilla_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Sporting Braga",
+                "points": "6",
+                "played": "4",
+                "win": "2",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "6",
+                "goalsAgainst": "5",
+                "goalDifference": "1",
+                "logo": "sporting_braga"
+            },
+            {
+                "rank": "4",
+                "team": "Slovan Liberec",
+                "points": "5",
+                "played": "4",
+                "win": "1",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "6",
+                "goalsAgainst": "7",
+                "goalDifference": "-1",
+                "logo": "slovan_liberec"
+            },
+            {
+                "rank": "5",
+                "team": "Grasshopper Club Zürich",
+                "points": "0",
+                "played": "4",
+                "win": "0",
+                "draw": "0",
+                "lost": "4",
+                "goalsFor": "3",
+                "goalsAgainst": "15",
+                "goalDifference": "-12",
+                "logo": "grasshopper_club_zurich"
+            }
+        ]
+    },
+    {
+        "name": "d",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "CA Osasuna",
+                "awayTeam": "sc Heerenveen",
+                "score": "0:0",
+                "homeTeamLogo": "ca_osasuna",
+                "awayTeamLogo": "sc_heerenveen"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Odense BK",
+                "awayTeam": "Parma FC",
+                "score": "1:2",
+                "homeTeamLogo": "odense_bk",
+                "awayTeamLogo": "parma_fc"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "sc Heerenveen",
+                "awayTeam": "Odense BK",
+                "score": "0:2",
+                "homeTeamLogo": "sc_heerenveen",
+                "awayTeamLogo": "odense_bk"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "RC Lens",
+                "awayTeam": "CA Osasuna",
+                "score": "3:1",
+                "homeTeamLogo": "rc_lens",
+                "awayTeamLogo": "ca_osasuna"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Parma FC",
+                "awayTeam": "sc Heerenveen",
+                "score": "2:1",
+                "homeTeamLogo": "parma_fc",
+                "awayTeamLogo": "sc_heerenveen"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Odense BK",
+                "awayTeam": "RC Lens",
+                "score": "1:1",
+                "homeTeamLogo": "odense_bk",
+                "awayTeamLogo": "rc_lens"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "RC Lens",
+                "awayTeam": "Parma FC",
+                "score": "1:2",
+                "homeTeamLogo": "rc_lens",
+                "awayTeamLogo": "parma_fc"
+            },
+            {
+                "date": "29/11/2006",
+                "homeTeam": "CA Osasuna",
+                "awayTeam": "Odense BK",
+                "score": "3:1",
+                "homeTeamLogo": "ca_osasuna",
+                "awayTeamLogo": "odense_bk"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "Parma FC",
+                "awayTeam": "CA Osasuna",
+                "score": "0:3",
+                "homeTeamLogo": "parma_fc",
+                "awayTeamLogo": "ca_osasuna"
+            },
+            {
+                "date": "14/12/2006",
+                "homeTeam": "sc Heerenveen",
+                "awayTeam": "RC Lens",
+                "score": "1:0",
+                "homeTeamLogo": "sc_heerenveen",
+                "awayTeamLogo": "rc_lens"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Parma FC",
+                "points": "9",
+                "played": "4",
+                "win": "3",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "6",
+                "goalsAgainst": "6",
+                "goalDifference": "0",
+                "logo": "parma_fc"
+            },
+            {
+                "rank": "2",
+                "team": "CA Osasuna",
+                "points": "7",
+                "played": "4",
+                "win": "2",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "4",
+                "goalDifference": "3",
+                "logo": "ca_osasuna"
+            },
+            {
+                "rank": "3",
+                "team": "RC Lens",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "5",
+                "goalDifference": "0",
+                "logo": "rc_lens"
+            },
+            {
+                "rank": "4",
+                "team": "Odense BK",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "6",
+                "goalDifference": "-1",
+                "logo": "odense_bk"
+            },
+            {
+                "rank": "5",
+                "team": "sc Heerenveen",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "2",
+                "goalsAgainst": "4",
+                "goalDifference": "-2",
+                "logo": "sc_heerenveen"
+            }
+        ]
+    },
+    {
+        "name": "e",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Wisła Kraków",
+                "awayTeam": "Blackburn Rovers",
+                "score": "1:2",
+                "homeTeamLogo": "wis_a_krakow",
+                "awayTeamLogo": "blackburn_rovers"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "FC Basel",
+                "awayTeam": "Feyenoord",
+                "score": "1:1",
+                "homeTeamLogo": "fc_basel",
+                "awayTeamLogo": "feyenoord"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "AS Nancy",
+                "awayTeam": "Wisła Kraków",
+                "score": "2:1",
+                "homeTeamLogo": "as_nancy",
+                "awayTeamLogo": "wis_a_krakow"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Blackburn Rovers",
+                "awayTeam": "FC Basel",
+                "score": "3:0",
+                "homeTeamLogo": "blackburn_rovers",
+                "awayTeamLogo": "fc_basel"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "FC Basel",
+                "awayTeam": "AS Nancy",
+                "score": "2:2",
+                "homeTeamLogo": "fc_basel",
+                "awayTeamLogo": "as_nancy"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Feyenoord",
+                "awayTeam": "Blackburn Rovers",
+                "score": "0:0",
+                "homeTeamLogo": "feyenoord",
+                "awayTeamLogo": "blackburn_rovers"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "AS Nancy",
+                "awayTeam": "Feyenoord",
+                "score": "3:0",
+                "homeTeamLogo": "as_nancy",
+                "awayTeamLogo": "feyenoord"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "Wisła Kraków",
+                "awayTeam": "FC Basel",
+                "score": "3:1",
+                "homeTeamLogo": "wis_a_krakow",
+                "awayTeamLogo": "fc_basel"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "Feyenoord",
+                "awayTeam": "Wisła Kraków",
+                "score": "3:1",
+                "homeTeamLogo": "feyenoord",
+                "awayTeamLogo": "wis_a_krakow"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "Blackburn Rovers",
+                "awayTeam": "AS Nancy",
+                "score": "1:0",
+                "homeTeamLogo": "blackburn_rovers",
+                "awayTeamLogo": "as_nancy"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Blackburn Rovers",
+                "points": "10",
+                "played": "4",
+                "win": "3",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "6",
+                "goalsAgainst": "1",
+                "goalDifference": "5",
+                "logo": "blackburn_rovers"
+            },
+            {
+                "rank": "2",
+                "team": "AS Nancy",
+                "points": "7",
+                "played": "4",
+                "win": "2",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "4",
+                "goalDifference": "3",
+                "logo": "as_nancy"
+            },
+            {
+                "rank": "3",
+                "team": "Feyenoord",
+                "points": "5",
+                "played": "4",
+                "win": "1",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "4",
+                "goalsAgainst": "5",
+                "goalDifference": "-1",
+                "logo": "feyenoord"
+            },
+            {
+                "rank": "4",
+                "team": "Wisła Kraków",
+                "points": "3",
+                "played": "4",
+                "win": "1",
+                "draw": "0",
+                "lost": "3",
+                "goalsFor": "6",
+                "goalsAgainst": "8",
+                "goalDifference": "-2",
+                "logo": "wis_a_krakow"
+            },
+            {
+                "rank": "5",
+                "team": "FC Basel",
+                "points": "2",
+                "played": "4",
+                "win": "0",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "4",
+                "goalsAgainst": "9",
+                "goalDifference": "-5",
+                "logo": "fc_basel"
+            }
+        ]
+    },
+    {
+        "name": "f",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Austria Wien",
+                "awayTeam": "SV Zulte Waregem",
+                "score": "1:4",
+                "homeTeamLogo": "austria_wien",
+                "awayTeamLogo": "sv_zulte_waregem"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Sparta Praha",
+                "awayTeam": "Espanyol Barcelona",
+                "score": "0:2",
+                "homeTeamLogo": "sparta_praha",
+                "awayTeamLogo": "espanyol_barcelona"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "SV Zulte Waregem",
+                "awayTeam": "Sparta Praha",
+                "score": "3:1",
+                "homeTeamLogo": "sv_zulte_waregem",
+                "awayTeamLogo": "sparta_praha"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Austria Wien",
+                "score": "3:0",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "austria_wien"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Sparta Praha",
+                "awayTeam": "AFC Ajax",
+                "score": "0:0",
+                "homeTeamLogo": "sparta_praha",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Espanyol Barcelona",
+                "awayTeam": "SV Zulte Waregem",
+                "score": "6:2",
+                "homeTeamLogo": "espanyol_barcelona",
+                "awayTeamLogo": "sv_zulte_waregem"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Espanyol Barcelona",
+                "score": "0:2",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "espanyol_barcelona"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "Austria Wien",
+                "awayTeam": "Sparta Praha",
+                "score": "0:1",
+                "homeTeamLogo": "austria_wien",
+                "awayTeamLogo": "sparta_praha"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "Espanyol Barcelona",
+                "awayTeam": "Austria Wien",
+                "score": "1:0",
+                "homeTeamLogo": "espanyol_barcelona",
+                "awayTeamLogo": "austria_wien"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "SV Zulte Waregem",
+                "awayTeam": "AFC Ajax",
+                "score": "0:3",
+                "homeTeamLogo": "sv_zulte_waregem",
+                "awayTeamLogo": "afc_ajax"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Espanyol Barcelona",
+                "points": "12",
+                "played": "4",
+                "win": "4",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "11",
+                "goalsAgainst": "2",
+                "goalDifference": "9",
+                "logo": "espanyol_barcelona"
+            },
+            {
+                "rank": "2",
+                "team": "AFC Ajax",
+                "points": "7",
+                "played": "4",
+                "win": "2",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "6",
+                "goalsAgainst": "2",
+                "goalDifference": "4",
+                "logo": "afc_ajax"
+            },
+            {
+                "rank": "3",
+                "team": "SV Zulte Waregem",
+                "points": "6",
+                "played": "4",
+                "win": "2",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "9",
+                "goalsAgainst": "11",
+                "goalDifference": "-2",
+                "logo": "sv_zulte_waregem"
+            },
+            {
+                "rank": "4",
+                "team": "Sparta Praha",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "2",
+                "goalsAgainst": "5",
+                "goalDifference": "-3",
+                "logo": "sparta_praha"
+            },
+            {
+                "rank": "5",
+                "team": "Austria Wien",
+                "points": "0",
+                "played": "4",
+                "win": "0",
+                "draw": "0",
+                "lost": "4",
+                "goalsFor": "1",
+                "goalsAgainst": "9",
+                "goalDifference": "-8",
+                "logo": "austria_wien"
+            }
+        ]
+    },
+    {
+        "name": "g",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "Hapoel Tel Aviv",
+                "score": "2:0",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "hapoel_tel_aviv"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Rapid Bucureşti",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "0:0",
+                "homeTeamLogo": "rapid_bucure_ti",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Hapoel Tel Aviv",
+                "awayTeam": "Rapid Bucureşti",
+                "score": "2:2",
+                "homeTeamLogo": "hapoel_tel_aviv",
+                "awayTeamLogo": "rapid_bucure_ti"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "FK Mladá Boleslav",
+                "awayTeam": "Panathinaikos",
+                "score": "0:1",
+                "homeTeamLogo": "fk_mlada_boleslav",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Rapid Bucureşti",
+                "awayTeam": "FK Mladá Boleslav",
+                "score": "1:1",
+                "homeTeamLogo": "rapid_bucure_ti",
+                "awayTeamLogo": "fk_mlada_boleslav"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Hapoel Tel Aviv",
+                "score": "2:4",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "hapoel_tel_aviv"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "FK Mladá Boleslav",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "0:0",
+                "homeTeamLogo": "fk_mlada_boleslav",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "Rapid Bucureşti",
+                "score": "0:0",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "rapid_bucure_ti"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Panathinaikos",
+                "score": "4:0",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "Hapoel Tel Aviv",
+                "awayTeam": "FK Mladá Boleslav",
+                "score": "1:1",
+                "homeTeamLogo": "hapoel_tel_aviv",
+                "awayTeamLogo": "fk_mlada_boleslav"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Panathinaikos",
+                "points": "7",
+                "played": "4",
+                "win": "2",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "4",
+                "goalDifference": "-1",
+                "logo": "panathinaikos"
+            },
+            {
+                "rank": "2",
+                "team": "Paris Saint-Germain",
+                "points": "5",
+                "played": "4",
+                "win": "1",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "6",
+                "goalsAgainst": "4",
+                "goalDifference": "2",
+                "logo": "paris_saint_germain"
+            },
+            {
+                "rank": "3",
+                "team": "Hapoel Tel Aviv",
+                "points": "5",
+                "played": "4",
+                "win": "1",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "7",
+                "goalDifference": "0",
+                "logo": "hapoel_tel_aviv"
+            },
+            {
+                "rank": "4",
+                "team": "Rapid Bucureşti",
+                "points": "4",
+                "played": "4",
+                "win": "0",
+                "draw": "4",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "3",
+                "goalDifference": "0",
+                "logo": "rapid_bucure_ti"
+            },
+            {
+                "rank": "5",
+                "team": "FK Mladá Boleslav",
+                "points": "3",
+                "played": "4",
+                "win": "0",
+                "draw": "3",
+                "lost": "1",
+                "goalsFor": "2",
+                "goalsAgainst": "3",
+                "goalDifference": "-1",
+                "logo": "fk_mlada_boleslav"
+            }
+        ]
+    },
+    {
+        "name": "h",
+        "matches": [
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Eintracht Frankfurt",
+                "awayTeam": "US Palermo",
+                "score": "1:2",
+                "homeTeamLogo": "eintracht_frankfurt",
+                "awayTeamLogo": "us_palermo"
+            },
+            {
+                "date": "19/10/2006",
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Fenerbahçe",
+                "score": "1:0",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "US Palermo",
+                "awayTeam": "Newcastle United",
+                "score": "0:1",
+                "homeTeamLogo": "us_palermo",
+                "awayTeamLogo": "newcastle_united"
+            },
+            {
+                "date": "02/11/2006",
+                "homeTeam": "Celta Vigo",
+                "awayTeam": "Eintracht Frankfurt",
+                "score": "1:1",
+                "homeTeamLogo": "celta_vigo",
+                "awayTeamLogo": "eintracht_frankfurt"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "US Palermo",
+                "score": "3:0",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "us_palermo"
+            },
+            {
+                "date": "23/11/2006",
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Celta Vigo",
+                "score": "2:1",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "celta_vigo"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "Celta Vigo",
+                "awayTeam": "Fenerbahçe",
+                "score": "1:0",
+                "homeTeamLogo": "celta_vigo",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "30/11/2006",
+                "homeTeam": "Eintracht Frankfurt",
+                "awayTeam": "Newcastle United",
+                "score": "0:0",
+                "homeTeamLogo": "eintracht_frankfurt",
+                "awayTeamLogo": "newcastle_united"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "Eintracht Frankfurt",
+                "score": "2:2",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "eintracht_frankfurt"
+            },
+            {
+                "date": "13/12/2006",
+                "homeTeam": "US Palermo",
+                "awayTeam": "Celta Vigo",
+                "score": "1:1",
+                "homeTeamLogo": "us_palermo",
+                "awayTeamLogo": "celta_vigo"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Newcastle United",
+                "points": "10",
+                "played": "4",
+                "win": "3",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "1",
+                "goalDifference": "3",
+                "logo": "newcastle_united"
+            },
+            {
+                "rank": "2",
+                "team": "Celta Vigo",
+                "points": "5",
+                "played": "4",
+                "win": "1",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "4",
+                "goalsAgainst": "4",
+                "goalDifference": "0",
+                "logo": "celta_vigo"
+            },
+            {
+                "rank": "3",
+                "team": "Fenerbahçe",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "4",
+                "goalDifference": "1",
+                "logo": "fenerbahce"
+            },
+            {
+                "rank": "4",
+                "team": "US Palermo",
+                "points": "4",
+                "played": "4",
+                "win": "1",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "3",
+                "goalsAgainst": "6",
+                "goalDifference": "-3",
+                "logo": "us_palermo"
+            },
+            {
+                "rank": "5",
+                "team": "Eintracht Frankfurt",
+                "points": "3",
+                "played": "4",
+                "win": "0",
+                "draw": "3",
+                "lost": "1",
+                "goalsFor": "4",
+                "goalsAgainst": "5",
+                "goalDifference": "-1",
+                "logo": "eintracht_frankfurt"
+            }
+        ]
+    }
+]

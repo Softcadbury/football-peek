@@ -1,0 +1,1242 @@
+[
+    {
+        "name": "a",
+        "matches": [
+            {
+                "date": "14/09/2005",
+                "homeTeam": "Rapid Wien",
+                "awayTeam": "Bayern München",
+                "score": "0:1",
+                "homeTeamLogo": "rapid_wien",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "14/09/2005",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Juventus",
+                "score": "1:2",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Club Brugge KV",
+                "score": "1:0",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "Juventus",
+                "awayTeam": "Rapid Wien",
+                "score": "3:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "rapid_wien"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Juventus",
+                "score": "2:1",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "Rapid Wien",
+                "awayTeam": "Club Brugge KV",
+                "score": "0:1",
+                "homeTeamLogo": "rapid_wien",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "Juventus",
+                "awayTeam": "Bayern München",
+                "score": "2:1",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Rapid Wien",
+                "score": "3:2",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "rapid_wien"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Rapid Wien",
+                "score": "4:0",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "rapid_wien"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "Juventus",
+                "awayTeam": "Club Brugge KV",
+                "score": "1:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Bayern München",
+                "score": "1:1",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "Rapid Wien",
+                "awayTeam": "Juventus",
+                "score": "1:3",
+                "homeTeamLogo": "rapid_wien",
+                "awayTeamLogo": "juventus"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Juventus",
+                "points": "15",
+                "played": "6",
+                "win": "5",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "12",
+                "goalsAgainst": "5",
+                "goalDifference": "7",
+                "logo": "juventus"
+            },
+            {
+                "rank": "2",
+                "team": "Bayern München",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "10",
+                "goalsAgainst": "4",
+                "goalDifference": "6",
+                "logo": "bayern_munchen"
+            },
+            {
+                "rank": "3",
+                "team": "Club Brugge KV",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "6",
+                "goalsAgainst": "7",
+                "goalDifference": "-1",
+                "logo": "club_brugge_kv"
+            },
+            {
+                "rank": "4",
+                "team": "Rapid Wien",
+                "points": "0",
+                "played": "6",
+                "win": "0",
+                "draw": "0",
+                "lost": "6",
+                "goalsFor": "3",
+                "goalsAgainst": "15",
+                "goalDifference": "-12",
+                "logo": "rapid_wien"
+            }
+        ]
+    },
+    {
+        "name": "b",
+        "matches": [
+            {
+                "date": "14/09/2005",
+                "homeTeam": "Sparta Praha",
+                "awayTeam": "AFC Ajax",
+                "score": "1:1",
+                "homeTeamLogo": "sparta_praha",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "14/09/2005",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "FC Thun",
+                "score": "2:1",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "fc_thun"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Arsenal FC",
+                "score": "1:2",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "FC Thun",
+                "awayTeam": "Sparta Praha",
+                "score": "1:0",
+                "homeTeamLogo": "fc_thun",
+                "awayTeamLogo": "sparta_praha"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "FC Thun",
+                "score": "2:0",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "fc_thun"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "Sparta Praha",
+                "awayTeam": "Arsenal FC",
+                "score": "0:2",
+                "homeTeamLogo": "sparta_praha",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "FC Thun",
+                "awayTeam": "AFC Ajax",
+                "score": "2:4",
+                "homeTeamLogo": "fc_thun",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Sparta Praha",
+                "score": "3:0",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "sparta_praha"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Sparta Praha",
+                "score": "2:1",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "sparta_praha"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "FC Thun",
+                "awayTeam": "Arsenal FC",
+                "score": "0:1",
+                "homeTeamLogo": "fc_thun",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "AFC Ajax",
+                "score": "0:0",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "Sparta Praha",
+                "awayTeam": "FC Thun",
+                "score": "0:0",
+                "homeTeamLogo": "sparta_praha",
+                "awayTeamLogo": "fc_thun"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Arsenal FC",
+                "points": "16",
+                "played": "6",
+                "win": "5",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "10",
+                "goalsAgainst": "2",
+                "goalDifference": "8",
+                "logo": "arsenal_fc"
+            },
+            {
+                "rank": "2",
+                "team": "AFC Ajax",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "10",
+                "goalsAgainst": "6",
+                "goalDifference": "4",
+                "logo": "afc_ajax"
+            },
+            {
+                "rank": "3",
+                "team": "FC Thun",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "4",
+                "goalsAgainst": "9",
+                "goalDifference": "-5",
+                "logo": "fc_thun"
+            },
+            {
+                "rank": "4",
+                "team": "Sparta Praha",
+                "points": "2",
+                "played": "6",
+                "win": "0",
+                "draw": "2",
+                "lost": "4",
+                "goalsFor": "2",
+                "goalsAgainst": "9",
+                "goalDifference": "-7",
+                "logo": "sparta_praha"
+            }
+        ]
+    },
+    {
+        "name": "c",
+        "matches": [
+            {
+                "date": "14/09/2005",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "FC Barcelona",
+                "score": "0:2",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "14/09/2005",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "Panathinaikos",
+                "score": "3:0",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Udinese Calcio",
+                "score": "4:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "udinese_calcio"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "Werder Bremen",
+                "score": "2:1",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "Werder Bremen",
+                "score": "1:1",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "FC Barcelona",
+                "score": "0:0",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Panathinaikos",
+                "score": "5:0",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Udinese Calcio",
+                "score": "4:3",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "udinese_calcio"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Werder Bremen",
+                "score": "3:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "Panathinaikos",
+                "awayTeam": "Udinese Calcio",
+                "score": "1:2",
+                "homeTeamLogo": "panathinaikos",
+                "awayTeamLogo": "udinese_calcio"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Panathinaikos",
+                "score": "5:1",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "panathinaikos"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "FC Barcelona",
+                "score": "0:2",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "fc_barcelona"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Barcelona",
+                "points": "16",
+                "played": "6",
+                "win": "5",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "16",
+                "goalsAgainst": "2",
+                "goalDifference": "14",
+                "logo": "fc_barcelona"
+            },
+            {
+                "rank": "2",
+                "team": "Werder Bremen",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "12",
+                "goalsAgainst": "12",
+                "goalDifference": "0",
+                "logo": "werder_bremen"
+            },
+            {
+                "rank": "3",
+                "team": "Udinese Calcio",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "10",
+                "goalsAgainst": "12",
+                "goalDifference": "-2",
+                "logo": "udinese_calcio"
+            },
+            {
+                "rank": "4",
+                "team": "Panathinaikos",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "4",
+                "goalsAgainst": "16",
+                "goalDifference": "-12",
+                "logo": "panathinaikos"
+            }
+        ]
+    },
+    {
+        "name": "d",
+        "matches": [
+            {
+                "date": "14/09/2005",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Manchester United",
+                "score": "0:0",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "14/09/2005",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Lille OSC",
+                "score": "1:0",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "lille_osc"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "Villarreal CF",
+                "score": "0:0",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "27/09/2005",
+                "homeTeam": "Manchester United",
+                "awayTeam": "SL Benfica",
+                "score": "2:1",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "SL Benfica",
+                "score": "1:1",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "18/10/2005",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Lille OSC",
+                "score": "0:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "lille_osc"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Villarreal CF",
+                "score": "0:1",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "02/11/2005",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "Manchester United",
+                "score": "1:0",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Villarreal CF",
+                "score": "0:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "22/11/2005",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "SL Benfica",
+                "score": "0:0",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Lille OSC",
+                "score": "1:0",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "lille_osc"
+            },
+            {
+                "date": "07/12/2005",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Manchester United",
+                "score": "2:1",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "manchester_united"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Villarreal CF",
+                "points": "10",
+                "played": "6",
+                "win": "2",
+                "draw": "4",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "1",
+                "goalDifference": "2",
+                "logo": "villarreal_cf"
+            },
+            {
+                "rank": "2",
+                "team": "SL Benfica",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "5",
+                "goalDifference": "0",
+                "logo": "sl_benfica"
+            },
+            {
+                "rank": "3",
+                "team": "Lille OSC",
+                "points": "6",
+                "played": "6",
+                "win": "1",
+                "draw": "3",
+                "lost": "2",
+                "goalsFor": "1",
+                "goalsAgainst": "2",
+                "goalDifference": "-1",
+                "logo": "lille_osc"
+            },
+            {
+                "rank": "4",
+                "team": "Manchester United",
+                "points": "6",
+                "played": "6",
+                "win": "1",
+                "draw": "3",
+                "lost": "2",
+                "goalsFor": "3",
+                "goalsAgainst": "4",
+                "goalDifference": "-1",
+                "logo": "manchester_united"
+            }
+        ]
+    },
+    {
+        "name": "e",
+        "matches": [
+            {
+                "date": "13/09/2005",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Fenerbahçe",
+                "score": "3:1",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "13/09/2005",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "FC Schalke 04",
+                "score": "1:0",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "PSV Eindhoven",
+                "score": "3:0",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "AC Milan",
+                "score": "2:2",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "AC Milan",
+                "awayTeam": "PSV Eindhoven",
+                "score": "0:0",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "FC Schalke 04",
+                "score": "3:3",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "Fenerbahçe",
+                "score": "2:0",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "AC Milan",
+                "score": "1:0",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "PSV Eindhoven",
+                "score": "3:0",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "AC Milan",
+                "score": "0:4",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "AC Milan",
+                "awayTeam": "FC Schalke 04",
+                "score": "3:2",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Fenerbahçe",
+                "score": "2:0",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "fenerbahce"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "AC Milan",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "12",
+                "goalsAgainst": "6",
+                "goalDifference": "6",
+                "logo": "ac_milan"
+            },
+            {
+                "rank": "2",
+                "team": "PSV Eindhoven",
+                "points": "10",
+                "played": "6",
+                "win": "3",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "4",
+                "goalsAgainst": "6",
+                "goalDifference": "-2",
+                "logo": "psv_eindhoven"
+            },
+            {
+                "rank": "3",
+                "team": "FC Schalke 04",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "12",
+                "goalsAgainst": "9",
+                "goalDifference": "3",
+                "logo": "fc_schalke_04"
+            },
+            {
+                "rank": "4",
+                "team": "Fenerbahçe",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "7",
+                "goalsAgainst": "14",
+                "goalDifference": "-7",
+                "logo": "fenerbahce"
+            }
+        ]
+    },
+    {
+        "name": "f",
+        "matches": [
+            {
+                "date": "13/09/2005",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Rosenborg BK",
+                "score": "1:3",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "rosenborg_bk"
+            },
+            {
+                "date": "13/09/2005",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Real Madrid",
+                "score": "3:0",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "2:1",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "Rosenborg BK",
+                "awayTeam": "Olympique Lyon",
+                "score": "0:1",
+                "homeTeamLogo": "rosenborg_bk",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "2:1",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Rosenborg BK",
+                "score": "4:1",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "rosenborg_bk"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Olympique Lyon",
+                "score": "1:4",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "Rosenborg BK",
+                "awayTeam": "Real Madrid",
+                "score": "0:2",
+                "homeTeamLogo": "rosenborg_bk",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "Rosenborg BK",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "1:1",
+                "homeTeamLogo": "rosenborg_bk",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Olympique Lyon",
+                "score": "1:1",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Real Madrid",
+                "score": "2:1",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Rosenborg BK",
+                "score": "2:1",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "rosenborg_bk"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Olympique Lyon",
+                "points": "16",
+                "played": "6",
+                "win": "5",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "13",
+                "goalsAgainst": "4",
+                "goalDifference": "9",
+                "logo": "olympique_lyon"
+            },
+            {
+                "rank": "2",
+                "team": "Real Madrid",
+                "points": "10",
+                "played": "6",
+                "win": "3",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "10",
+                "goalsAgainst": "8",
+                "goalDifference": "2",
+                "logo": "real_madrid"
+            },
+            {
+                "rank": "3",
+                "team": "Rosenborg BK",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "6",
+                "goalsAgainst": "11",
+                "goalDifference": "-5",
+                "logo": "rosenborg_bk"
+            },
+            {
+                "rank": "4",
+                "team": "Olympiakos Piräus",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "7",
+                "goalsAgainst": "13",
+                "goalDifference": "-6",
+                "logo": "olympiakos_piraus"
+            }
+        ]
+    },
+    {
+        "name": "g",
+        "matches": [
+            {
+                "date": "13/09/2005",
+                "homeTeam": "Real Betis",
+                "awayTeam": "Liverpool FC",
+                "score": "1:2",
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "13/09/2005",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "RSC Anderlecht",
+                "score": "1:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "rsc_anderlecht"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "RSC Anderlecht",
+                "awayTeam": "Real Betis",
+                "score": "0:1",
+                "homeTeamLogo": "rsc_anderlecht",
+                "awayTeamLogo": "real_betis"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Chelsea FC",
+                "score": "0:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Real Betis",
+                "score": "4:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "real_betis"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "RSC Anderlecht",
+                "awayTeam": "Liverpool FC",
+                "score": "0:1",
+                "homeTeamLogo": "rsc_anderlecht",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "Real Betis",
+                "awayTeam": "Chelsea FC",
+                "score": "1:0",
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "RSC Anderlecht",
+                "score": "3:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "rsc_anderlecht"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Real Betis",
+                "score": "0:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "real_betis"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "RSC Anderlecht",
+                "awayTeam": "Chelsea FC",
+                "score": "0:2",
+                "homeTeamLogo": "rsc_anderlecht",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "Real Betis",
+                "awayTeam": "RSC Anderlecht",
+                "score": "0:1",
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "rsc_anderlecht"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Liverpool FC",
+                "score": "0:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "liverpool_fc"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Liverpool FC",
+                "points": "12",
+                "played": "6",
+                "win": "3",
+                "draw": "3",
+                "lost": "0",
+                "goalsFor": "6",
+                "goalsAgainst": "1",
+                "goalDifference": "5",
+                "logo": "liverpool_fc"
+            },
+            {
+                "rank": "2",
+                "team": "Chelsea FC",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "1",
+                "goalDifference": "6",
+                "logo": "chelsea_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Real Betis",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "3",
+                "goalsAgainst": "7",
+                "goalDifference": "-4",
+                "logo": "real_betis"
+            },
+            {
+                "rank": "4",
+                "team": "RSC Anderlecht",
+                "points": "3",
+                "played": "6",
+                "win": "1",
+                "draw": "0",
+                "lost": "5",
+                "goalsFor": "1",
+                "goalsAgainst": "8",
+                "goalDifference": "-7",
+                "logo": "rsc_anderlecht"
+            }
+        ]
+    },
+    {
+        "name": "h",
+        "matches": [
+            {
+                "date": "13/09/2005",
+                "homeTeam": "Artmedia Petržalka",
+                "awayTeam": "Inter",
+                "score": "0:1",
+                "homeTeamLogo": "artmedia_petr_alka",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "13/09/2005",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "FC Porto",
+                "score": "3:2",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Artmedia Petržalka",
+                "score": "2:3",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "artmedia_petr_alka"
+            },
+            {
+                "date": "28/09/2005",
+                "homeTeam": "Inter",
+                "awayTeam": "Rangers FC",
+                "score": "1:0",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "Artmedia Petržalka",
+                "score": "0:0",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "artmedia_petr_alka"
+            },
+            {
+                "date": "19/10/2005",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Inter",
+                "score": "2:0",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "Artmedia Petržalka",
+                "awayTeam": "Rangers FC",
+                "score": "2:2",
+                "homeTeamLogo": "artmedia_petr_alka",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "01/11/2005",
+                "homeTeam": "Inter",
+                "awayTeam": "FC Porto",
+                "score": "2:1",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "Inter",
+                "awayTeam": "Artmedia Petržalka",
+                "score": "4:0",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "artmedia_petr_alka"
+            },
+            {
+                "date": "23/11/2005",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Rangers FC",
+                "score": "1:1",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "rangers_fc"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "Artmedia Petržalka",
+                "awayTeam": "FC Porto",
+                "score": "0:0",
+                "homeTeamLogo": "artmedia_petr_alka",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "06/12/2005",
+                "homeTeam": "Rangers FC",
+                "awayTeam": "Inter",
+                "score": "1:1",
+                "homeTeamLogo": "rangers_fc",
+                "awayTeamLogo": "inter"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Inter",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "9",
+                "goalsAgainst": "4",
+                "goalDifference": "5",
+                "logo": "inter"
+            },
+            {
+                "rank": "2",
+                "team": "Rangers FC",
+                "points": "7",
+                "played": "6",
+                "win": "1",
+                "draw": "4",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "7",
+                "goalDifference": "0",
+                "logo": "rangers_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Artmedia Petržalka",
+                "points": "6",
+                "played": "6",
+                "win": "1",
+                "draw": "3",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "9",
+                "goalDifference": "-4",
+                "logo": "artmedia_petr_alka"
+            },
+            {
+                "rank": "4",
+                "team": "FC Porto",
+                "points": "5",
+                "played": "6",
+                "win": "1",
+                "draw": "2",
+                "lost": "3",
+                "goalsFor": "8",
+                "goalsAgainst": "9",
+                "goalDifference": "-1",
+                "logo": "fc_porto"
+            }
+        ]
+    }
+]
