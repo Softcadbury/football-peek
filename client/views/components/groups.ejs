@@ -8,13 +8,7 @@
                 <% groupsData.forEach((group) => { %>
                     <option
                         value="/<%= requestedItem.code %>/<%= requestedPeriod %>/<%= group.name %>"
-                        <%= group.name == requestedGroup ? 'selected="selected"' : '' %> >
-                            Group <%= group.name %> &nbsp;
-                            <% group.table.forEach((row, index) => { %>
-                                <%= row.team %>
-                                <%= index < group.table.length - 1 ? "-" : "" %>
-                            <% }); %>
-                    </option>
+                        <%= group.name == requestedGroup ? 'selected="selected"' : '' %> >Group <%= group.name %></option>
                 <% }); %>
             </select>
             <% if (previousAndNextGroupUrls.next) { %>
