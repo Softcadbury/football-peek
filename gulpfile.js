@@ -39,7 +39,7 @@ gulp.task('test', () => {
             read: false
         })
         .pipe(mocha({
-            reporter: 'spec'
+            reporter: 'nyan'
         }));
 });
 
