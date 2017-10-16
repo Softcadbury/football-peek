@@ -19,6 +19,15 @@
     },
     {
         "rank": "-",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -36,16 +45,16 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
-        "goals": "5",
+        "goals": "6",
         "flag": "england",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "7.",
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
@@ -54,13 +63,13 @@
         "logo": "leicester_city"
     },
     {
-        "rank": "7.",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
+        "rank": "8.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "Swansea City",
         "goals": "4",
-        "flag": "brazil",
-        "logo": "manchester_city"
+        "flag": "england",
+        "logo": "swansea_city"
     },
     {
         "rank": "-",
@@ -81,7 +90,16 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Leroy Sané",
+        "country": "Germany",
+        "team": "Manchester City",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "12.",
         "name": "Abdoulaye Doucouré",
         "country": "France",
         "team": "Watford FC",
@@ -91,12 +109,30 @@
     },
     {
         "rank": "-",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
+        "goals": "3",
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Marouane Fellaini",
         "country": "Belgium",
         "team": "Manchester United",
         "goals": "3",
         "flag": "belgium",
         "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Manolo Gabbiadini",
+        "country": "Italy",
+        "team": "Southampton FC",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "southampton_fc"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "3",
         "flag": "brazil",
         "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Danny Welbeck",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "3",
-        "flag": "england",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Tammy Abraham",
-        "country": "England",
-        "team": "Swansea City",
-        "goals": "2",
-        "flag": "england",
-        "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": "Dele Alli",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     }
 ]

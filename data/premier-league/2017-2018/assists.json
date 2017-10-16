@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "assists": "5",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Henrikh Mkhitaryan",
         "country": "Armenia",
         "team": "Manchester United",
@@ -18,7 +27,7 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": " Azpilicueta",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -36,7 +45,7 @@
         "logo": "newcastle_united"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -46,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
+        "name": "Pascal Groß",
+        "country": "Germany",
+        "team": "Brighton & Hove Albion",
         "assists": "3",
-        "flag": "belgium",
-        "logo": "manchester_city"
+        "flag": "germany",
+        "logo": "brighton___hove_albion"
     },
     {
         "rank": "-",
@@ -64,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Leroy Sané",
+        "country": "Germany",
+        "team": "Manchester City",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Kieran Trippier",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -72,7 +90,25 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Kyle Walker",
+        "country": "England",
+        "team": "Manchester City",
+        "assists": "3",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Granit Xhaka",
+        "country": "Switzerland",
+        "team": "Arsenal FC",
+        "assists": "3",
+        "flag": "switzerland",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "13.",
         "name": "Dominic Calvert-Lewin",
         "country": "England",
         "team": "Everton FC",
@@ -109,15 +145,6 @@
     },
     {
         "rank": "-",
-        "name": "Pascal Groß",
-        "country": "Germany",
-        "team": "Brighton & Hove Albion",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "brighton___hove_albion"
-    },
-    {
-        "rank": "-",
         "name": "José Holebas",
         "country": "Greece",
         "team": "Watford FC",
@@ -150,33 +177,6 @@
         "team": "Manchester United",
         "assists": "2",
         "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Maguire",
-        "country": "England",
-        "team": "Leicester City",
-        "assists": "2",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Leicester City",
-        "assists": "2",
-        "flag": "algeria",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Anthony Martial",
-        "country": "France",
-        "team": "Manchester United",
-        "assists": "2",
-        "flag": "france",
         "logo": "manchester_united"
     }
 ]
