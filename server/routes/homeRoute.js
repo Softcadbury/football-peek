@@ -13,32 +13,84 @@ var data = {
 };
 
 router.route('/').get((req, res) => {
-    getResults();
+    var matchesData = getMatches();
 
-    res.render('pages/home', data);
+    res.render('pages/home', Object.assign(data, {
+        matchesData
+    }));
 });
 
-function getResults() {
+function getMatches() {
     var dates = getHandledDates();
+    var matches = [];
 
-    // items.forEach(item => {
-    //     var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
-    //     console.log(resultsData);
-    // });
+    items.forEach(item => {
+        // if (item.isCompetition) {
+        //     var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
 
-    // var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, items[0].code, config.periods.current));
+        //     tournamentData.forEach((round) => {
+        //         round.matches.forEach((matche) => {
+        //             if (matche.score) {
+        //                 if (dates.indexOf(matche.date) !== -1) {
+        //                     matches.push(matche);
+        //                 }
+        //             } else {
+        //                 if (dates.indexOf(matche.date1) !== -1) {
+        //                     matches.push({
+        //                         date: matche.date1,
+        //                         team1: matche.team1,
+        //                         team2: matche.team2,
+        //                         score: matche.score1,
+        //                         team1Logo: matche.team1Logo,
+        //                         team2Logo: matche.team2Logo
+        //                     });
+        //                 }
 
-    // resultsData.forEach(result => {
-    //     result.matches.forEach((matche) => {
-    //         console.log(matche.date);
-    //     });
-    // });
+        //                 if (dates.indexOf(matche.date2) !== -1) {
+        //                     matches.push({
+        //                         date: matche.date2,
+        //                         team1: matche.team1,
+        //                         team2: matche.team2,
+        //                         score: matche.score2,
+        //                         team1Logo: matche.team1Logo,
+        //                         team2Logo: matche.team2Logo
+        //                     });
+        //                 }
+        //             }
+        //         });
+        //     });
+
+        //     var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+
+        //     groupsData.forEach((group) => {
+        //         group.matches.forEach((matche) => {
+        //             if (dates.indexOf(matche.date) !== -1) {
+        //                 matches.push(matche);
+        //             }
+        //         });
+        //     });
+        // } else {
+            var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
+
+            resultsData.forEach((result) => {
+                result.matches.forEach((matche) => {
+                    if (dates.indexOf(matche.date) !== -1) {
+                        matches.push(matche);
+                    }
+                });
+            });
+        // }
+    });
+
+    console.log(matches);
+
+    return matches;
 }
 
 function getHandledDates() {
     var dates = [];
     var currentDate = new Date();
-    var limitDate = 8;
+    var limitDate = 5;
 
     for (var i = limitDate; i >= 1; i--) {
         dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate() - i))));
