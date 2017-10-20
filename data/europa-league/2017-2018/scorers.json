@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Emiliano Rigoni",
+        "country": "Argentina",
+        "team": "Zenit St. Petersburg",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "2.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "AC Milan",
@@ -27,7 +36,25 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "6.",
+        "name": "Roger Assalé",
+        "country": "Ivory Coast",
+        "team": "BSC Young Boys",
+        "goals": "3",
+        "flag": "ivory_coast",
+        "logo": "bsc_young_boys"
+    },
+    {
+        "rank": "-",
         "name": "Constantin Budescu",
         "country": "Romania",
         "team": "Steaua Bucureşti",
@@ -63,13 +90,58 @@
         "logo": "lokomotiv_moskva"
     },
     {
-        "rank": "8.",
+        "rank": "11.",
         "name": " Adrián Sardinero",
         "country": "Spain",
         "team": "Apollon Limassol",
         "goals": "2",
         "flag": "spain",
         "logo": "apollon_limassol"
+    },
+    {
+        "rank": "-",
+        "name": "Marek Bakoš",
+        "country": "Slovakia",
+        "team": "Viktoria Plzeň",
+        "goals": "2",
+        "flag": "slovakia",
+        "logo": "viktoria_plze_"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Balotelli",
+        "country": "Italy",
+        "team": "OGC Nice",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Mattia Bottani",
+        "country": "Switzerland",
+        "team": "FC Lugano",
+        "goals": "2",
+        "flag": "switzerland",
+        "logo": "fc_lugano"
+    },
+    {
+        "rank": "-",
+        "name": "Felipe Caicedo",
+        "country": "Ecuador",
+        "team": "Lazio Roma",
+        "goals": "2",
+        "flag": "ecuador",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Munas Dabbur",
+        "country": "Israel",
+        "team": "RB Salzburg",
+        "goals": "2",
+        "flag": "israel",
+        "logo": "rb_salzburg"
     },
     {
         "rank": "-",
@@ -82,101 +154,29 @@
     },
     {
         "rank": "-",
-        "name": "Papu Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Marko Livaja",
-        "country": "Croatia",
-        "team": "AEK Athen",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "aek_athen"
-    },
-    {
-        "rank": "-",
-        "name": "Emiliano Rigoni",
-        "country": "Argentina",
-        "team": "Zenit St. Petersburg",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "zenit_st__petersburg"
-    },
-    {
-        "rank": "-",
-        "name": "Allan Saint-Maximin",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "2",
-        "flag": "france",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Theo Walcott",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "2",
-        "flag": "england",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "16.",
-        "name": "Maxwell Acosty",
-        "country": "Ghana",
+        "name": "Mario Gavranović",
+        "country": "Switzerland",
         "team": "HNK Rijeka",
-        "goals": "1",
-        "flag": "ghana",
+        "goals": "2",
+        "flag": "switzerland",
         "logo": "hnk_rijeka"
     },
     {
         "rank": "-",
-        "name": "Denis Alibec",
-        "country": "Romania",
-        "team": "Steaua Bucureşti",
-        "goals": "1",
-        "flag": "romania",
-        "logo": "steaua_bucure_ti"
+        "name": "Alhaji Gero",
+        "country": "Nigeria",
+        "team": "Östersunds FK",
+        "goals": "2",
+        "flag": "nigeria",
+        "logo": "ostersunds_fk"
     },
     {
         "rank": "-",
-        "name": "Musa Araz",
-        "country": "Switzerland",
-        "team": "Atiker Konyaspor",
-        "goals": "1",
-        "flag": "switzerland",
-        "logo": "atiker_konyaspor"
-    },
-    {
-        "rank": "-",
-        "name": "Roger Assalé",
-        "country": "Ivory Coast",
-        "team": "BSC Young Boys",
-        "goals": "1",
-        "flag": "ivory_coast",
-        "logo": "bsc_young_boys"
-    },
-    {
-        "rank": "-",
-        "name": "Cédric Bakambu",
-        "country": "Congo DR",
-        "team": "Villarreal CF",
-        "goals": "1",
-        "flag": "congo_dr",
-        "logo": "villarreal_cf"
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "2",
+        "flag": "france",
+        "logo": "arsenal_fc"
     }
 ]

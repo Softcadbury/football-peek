@@ -1,0 +1,30 @@
+<%/* model: { date, score, homeTeam, awayTeam, homeTeamLogo, awayTeamLogo } */%>
+<tr>
+    <td class="data-date data-hide">
+        <%= date %>
+    </td>
+    <td class="align-to-right">
+        <span title="<%= homeTeam %>">
+            <%= homeTeam %>
+        </span>
+    </td>
+    <td class="data-min">
+        <div class="icon-logo icon-<%= homeTeamLogo %>" title="<%= homeTeam %>"></div>
+    </td>
+    <td class="data-score">
+        <%- include('score', {
+            date: date,
+            score: score,
+            team1: homeTeam,
+            team2: awayTeam
+        }); %>
+    </td>
+    <td class="data-min">
+        <div class="icon-logo icon-<%= awayTeamLogo %>" title="<%= awayTeam %>"></div>
+    </td>
+    <td>
+        <span title="<%= awayTeam %>">
+            <%= awayTeam %>
+        </span>
+    </td>
+</tr>
