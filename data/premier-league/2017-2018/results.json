@@ -572,7 +572,7 @@
                 "date": "01/10/2017",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "brighton___hove_albion"
             },
@@ -580,7 +580,7 @@
                 "date": "01/10/2017",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Burnley FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "burnley_fc"
             },
@@ -588,7 +588,7 @@
                 "date": "01/10/2017",
                 "homeTeam": "Newcastle United",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "newcastle_united",
                 "awayTeamLogo": "liverpool_fc"
             }
@@ -599,17 +599,17 @@
         "matches": [
             {
                 "date": "14/10/2017",
-                "homeTeam": "Brighton & Hove Albion",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "brighton___hove_albion",
-                "awayTeamLogo": "everton_fc"
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Manchester United",
+                "score": "0:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "manchester_united"
             },
             {
                 "date": "14/10/2017",
                 "homeTeam": "Burnley FC",
                 "awayTeam": "West Ham United",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "burnley_fc",
                 "awayTeamLogo": "west_ham_united"
             },
@@ -617,47 +617,23 @@
                 "date": "14/10/2017",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Chelsea FC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "chelsea_fc"
             },
             {
                 "date": "14/10/2017",
-                "homeTeam": "Leicester City",
-                "awayTeam": "West Bromwich Albion",
-                "score": "-:-",
-                "homeTeamLogo": "leicester_city",
-                "awayTeamLogo": "west_bromwich_albion"
-            },
-            {
-                "date": "14/10/2017",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "Manchester United",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "manchester_united"
-            },
-            {
-                "date": "14/10/2017",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Stoke City",
-                "score": "-:-",
+                "score": "7:2",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "stoke_city"
             },
             {
                 "date": "14/10/2017",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Newcastle United",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "newcastle_united"
-            },
-            {
-                "date": "14/10/2017",
                 "homeTeam": "Swansea City",
                 "awayTeam": "Huddersfield Town",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "swansea_city",
                 "awayTeamLogo": "huddersfield_town"
             },
@@ -665,7 +641,7 @@
                 "date": "14/10/2017",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "afc_bournemouth"
             },
@@ -673,9 +649,33 @@
                 "date": "14/10/2017",
                 "homeTeam": "Watford FC",
                 "awayTeam": "Arsenal FC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "watford_fc",
                 "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "15/10/2017",
+                "homeTeam": "Brighton & Hove Albion",
+                "awayTeam": "Everton FC",
+                "score": "1:1",
+                "homeTeamLogo": "brighton___hove_albion",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "15/10/2017",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Newcastle United",
+                "score": "2:2",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "newcastle_united"
+            },
+            {
+                "date": "16/10/2017",
+                "homeTeam": "Leicester City",
+                "awayTeam": "West Bromwich Albion",
+                "score": "1:1",
+                "homeTeamLogo": "leicester_city",
+                "awayTeamLogo": "west_bromwich_albion"
             }
         ]
     },
@@ -683,20 +683,20 @@
         "round": 9,
         "matches": [
             {
+                "date": "20/10/2017",
+                "homeTeam": "West Ham United",
+                "awayTeam": "Brighton & Hove Albion",
+                "score": "-:-",
+                "homeTeamLogo": "west_ham_united",
+                "awayTeamLogo": "brighton___hove_albion"
+            },
+            {
                 "date": "21/10/2017",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Watford FC",
                 "score": "-:-",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "watford_fc"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "arsenal_fc"
             },
             {
                 "date": "21/10/2017",
@@ -724,14 +724,6 @@
             },
             {
                 "date": "21/10/2017",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "West Bromwich Albion",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "west_bromwich_albion"
-            },
-            {
-                "date": "21/10/2017",
                 "homeTeam": "Stoke City",
                 "awayTeam": "AFC Bournemouth",
                 "score": "-:-",
@@ -748,19 +740,27 @@
             },
             {
                 "date": "21/10/2017",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "West Bromwich Albion",
+                "score": "-:-",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "west_bromwich_albion"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "22/10/2017",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Liverpool FC",
                 "score": "-:-",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "liverpool_fc"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "West Ham United",
-                "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
-                "homeTeamLogo": "west_ham_united",
-                "awayTeamLogo": "brighton___hove_albion"
             }
         ]
     },

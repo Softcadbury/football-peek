@@ -4,12 +4,30 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "9",
+        "goals": "11",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
         "rank": "2.",
+        "name": "Cédric Bakambu",
+        "country": "Congo DR",
+        "team": "Villarreal CF",
+        "goals": "7",
+        "flag": "congo_dr",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Simone Zaza",
+        "country": "Italy",
+        "team": "Valencia CF",
+        "goals": "7",
+        "flag": "italy",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "4.",
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Celta Vigo",
@@ -19,24 +37,60 @@
     },
     {
         "rank": "-",
-        "name": "Simone Zaza",
-        "country": "Italy",
+        "name": " Rodrigo",
+        "country": "Spain",
         "team": "Valencia CF",
         "goals": "5",
-        "flag": "italy",
+        "flag": "spain",
         "logo": "valencia_cf"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Antonio Sanabria",
+        "country": "Paraguay",
+        "team": "Real Betis",
+        "goals": "5",
+        "flag": "paraguay",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "7.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
-        "goals": "3",
+        "goals": "4",
         "flag": "spain",
         "logo": "athletic_bilbao"
     },
     {
         "rank": "-",
+        "name": " Mikel Oyarzabal",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": " Sergio León",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": "Christian Stuani",
+        "country": "Uruguay",
+        "team": "Girona FC",
+        "goals": "4",
+        "flag": "uruguay",
+        "logo": "girona_fc"
+    },
+    {
+        "rank": "11.",
         "name": " Ángel",
         "country": "Spain",
         "team": "Getafe CF",
@@ -82,6 +136,24 @@
     },
     {
         "rank": "-",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": " Joaquín",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
         "name": " Juanmi",
         "country": "Spain",
         "team": "Real Sociedad",
@@ -91,30 +163,12 @@
     },
     {
         "rank": "-",
-        "name": " Rodrigo",
-        "country": "Spain",
-        "team": "Valencia CF",
+        "name": "Loïc Rémy",
+        "country": "France",
+        "team": "UD Las Palmas",
         "goals": "3",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Sanabria",
-        "country": "Paraguay",
-        "team": "Real Betis",
-        "goals": "3",
-        "flag": "paraguay",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Sergio León",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "real_betis"
+        "flag": "france",
+        "logo": "ud_las_palmas"
     },
     {
         "rank": "-",
@@ -124,59 +178,5 @@
         "goals": "3",
         "flag": "denmark",
         "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Stuani",
-        "country": "Uruguay",
-        "team": "Girona FC",
-        "goals": "3",
-        "flag": "uruguay",
-        "logo": "girona_fc"
-    },
-    {
-        "rank": "16.",
-        "name": "Florin Andone",
-        "country": "Romania",
-        "team": "Deportivo La Coruña",
-        "goals": "2",
-        "flag": "romania",
-        "logo": "deportivo_la_coruna"
-    },
-    {
-        "rank": "-",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Cédric Bakambu",
-        "country": "Congo DR",
-        "team": "Villarreal CF",
-        "goals": "2",
-        "flag": "congo_dr",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "goals": "2",
-        "flag": "wales",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan Calleri",
-        "country": "Argentina",
-        "team": "UD Las Palmas",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "ud_las_palmas"
     }
 ]

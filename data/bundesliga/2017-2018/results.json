@@ -516,7 +516,7 @@
                 "date": "01/10/2017",
                 "homeTeam": "SC Freiburg",
                 "awayTeam": "1899 Hoffenheim",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "sc_freiburg",
                 "awayTeamLogo": "1899_hoffenheim"
             },
@@ -524,7 +524,7 @@
                 "date": "01/10/2017",
                 "homeTeam": "Hertha BSC",
                 "awayTeam": "Bayern München",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "hertha_bsc",
                 "awayTeamLogo": "bayern_munchen"
             },
@@ -532,7 +532,7 @@
                 "date": "01/10/2017",
                 "homeTeam": "1. FC Köln",
                 "awayTeam": "RB Leipzig",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "1__fc_koln",
                 "awayTeamLogo": "rb_leipzig"
             }
@@ -542,26 +542,26 @@
         "round": 8,
         "matches": [
             {
+                "date": "13/10/2017",
+                "homeTeam": "VfB Stuttgart",
+                "awayTeam": "1. FC Köln",
+                "score": "2:1",
+                "homeTeamLogo": "vfb_stuttgart",
+                "awayTeamLogo": "1__fc_koln"
+            },
+            {
                 "date": "14/10/2017",
                 "homeTeam": "Bayern München",
                 "awayTeam": "SC Freiburg",
-                "score": "-:-",
+                "score": "5:0",
                 "homeTeamLogo": "bayern_munchen",
                 "awayTeamLogo": "sc_freiburg"
             },
             {
                 "date": "14/10/2017",
-                "homeTeam": "Borussia Dortmund",
-                "awayTeam": "RB Leipzig",
-                "score": "-:-",
-                "homeTeamLogo": "borussia_dortmund",
-                "awayTeamLogo": "rb_leipzig"
-            },
-            {
-                "date": "14/10/2017",
                 "homeTeam": "1899 Hoffenheim",
                 "awayTeam": "FC Augsburg",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "1899_hoffenheim",
                 "awayTeamLogo": "fc_augsburg"
             },
@@ -569,31 +569,15 @@
                 "date": "14/10/2017",
                 "homeTeam": "Hertha BSC",
                 "awayTeam": "FC Schalke 04",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "hertha_bsc",
                 "awayTeamLogo": "fc_schalke_04"
             },
             {
                 "date": "14/10/2017",
-                "homeTeam": "Werder Bremen",
-                "awayTeam": "Bor. Mönchengladbach",
-                "score": "-:-",
-                "homeTeamLogo": "werder_bremen",
-                "awayTeamLogo": "bor__monchengladbach"
-            },
-            {
-                "date": "14/10/2017",
-                "homeTeam": "Bayer Leverkusen",
-                "awayTeam": "VfL Wolfsburg",
-                "score": "-:-",
-                "homeTeamLogo": "bayer_leverkusen",
-                "awayTeamLogo": "vfl_wolfsburg"
-            },
-            {
-                "date": "14/10/2017",
                 "homeTeam": "1. FSV Mainz 05",
                 "awayTeam": "Hamburger SV",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "1__fsv_mainz_05",
                 "awayTeamLogo": "hamburger_sv"
             },
@@ -601,23 +585,47 @@
                 "date": "14/10/2017",
                 "homeTeam": "Hannover 96",
                 "awayTeam": "Eintracht Frankfurt",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "hannover_96",
                 "awayTeamLogo": "eintracht_frankfurt"
             },
             {
                 "date": "14/10/2017",
-                "homeTeam": "VfB Stuttgart",
-                "awayTeam": "1. FC Köln",
-                "score": "-:-",
-                "homeTeamLogo": "vfb_stuttgart",
-                "awayTeamLogo": "1__fc_koln"
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "RB Leipzig",
+                "score": "2:3",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "15/10/2017",
+                "homeTeam": "Bayer Leverkusen",
+                "awayTeam": "VfL Wolfsburg",
+                "score": "2:2",
+                "homeTeamLogo": "bayer_leverkusen",
+                "awayTeamLogo": "vfl_wolfsburg"
+            },
+            {
+                "date": "15/10/2017",
+                "homeTeam": "Werder Bremen",
+                "awayTeam": "Bor. Mönchengladbach",
+                "score": "0:2",
+                "homeTeamLogo": "werder_bremen",
+                "awayTeamLogo": "bor__monchengladbach"
             }
         ]
     },
     {
         "round": 9,
         "matches": [
+            {
+                "date": "20/10/2017",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "1. FSV Mainz 05",
+                "score": "-:-",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "1__fsv_mainz_05"
+            },
             {
                 "date": "21/10/2017",
                 "homeTeam": "RB Leipzig",
@@ -628,35 +636,11 @@
             },
             {
                 "date": "21/10/2017",
-                "homeTeam": "1. FC Köln",
-                "awayTeam": "Werder Bremen",
-                "score": "-:-",
-                "homeTeamLogo": "1__fc_koln",
-                "awayTeamLogo": "werder_bremen"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "SC Freiburg",
-                "awayTeam": "Hertha BSC",
-                "score": "-:-",
-                "homeTeamLogo": "sc_freiburg",
-                "awayTeamLogo": "hertha_bsc"
-            },
-            {
-                "date": "21/10/2017",
                 "homeTeam": "Bor. Mönchengladbach",
                 "awayTeam": "Bayer Leverkusen",
                 "score": "-:-",
                 "homeTeamLogo": "bor__monchengladbach",
                 "awayTeamLogo": "bayer_leverkusen"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "FC Schalke 04",
-                "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
-                "homeTeamLogo": "fc_schalke_04",
-                "awayTeamLogo": "1__fsv_mainz_05"
             },
             {
                 "date": "21/10/2017",
@@ -683,7 +667,23 @@
                 "awayTeamLogo": "bayern_munchen"
             },
             {
-                "date": "21/10/2017",
+                "date": "22/10/2017",
+                "homeTeam": "1. FC Köln",
+                "awayTeam": "Werder Bremen",
+                "score": "-:-",
+                "homeTeamLogo": "1__fc_koln",
+                "awayTeamLogo": "werder_bremen"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "SC Freiburg",
+                "awayTeam": "Hertha BSC",
+                "score": "-:-",
+                "homeTeamLogo": "sc_freiburg",
+                "awayTeamLogo": "hertha_bsc"
+            },
+            {
+                "date": "22/10/2017",
                 "homeTeam": "VfL Wolfsburg",
                 "awayTeam": "1899 Hoffenheim",
                 "score": "-:-",

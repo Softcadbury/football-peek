@@ -44,7 +44,10 @@ function testTournamentImages(code, period) {
     testImagesExistance('Tournament Final', data[0].matches);
     testImagesExistance('Tournament Semi-finals', data[1].matches);
     testImagesExistance('Tournament Quarter-finals', data[2].matches);
-    testImagesExistance('Tournament Eighth-finals', data[3].matches);
+
+    if (data.length === 4) {
+        testImagesExistance('Tournament Eighth-finals', data[3].matches);
+    }
 
     if (data.length === 5) {
         testImagesExistance('Tournament Sixteenth-finals', data[4].matches);
@@ -60,13 +63,13 @@ function testGroupImages(code, period) {
 
     var data = helper.readJsonFile(path);
     for (var i = 0; i < data.length; i++) {
-        testImagesExistance('Group Matches' + i, data[i].matches);
-        testImagesExistance('Group Table' + i, data[i].table);
+        testImagesExistance('Group Matches ' + i, data[i].matches);
+        testImagesExistance('Group Table ' + i, data[i].table);
     }
 }
 
 function testTableImages(code, period) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, period));
+    var data = helper.readJsonFile(helper.stringFormat(config.paths.tableData, code, period));
     testImagesExistance('Table', data);
 }
 
