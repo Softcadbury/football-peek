@@ -13,63 +13,63 @@ var data = {
 };
 
 router.route('/').get((req, res) => {
-    var matchesData = getMatches();
-
     res.render('pages/home', Object.assign(data, {
-        matchesData
+        itemsMatches: getItemsMatches()
     }));
 });
 
-function getMatches() {
+function getItemsMatches() {
     var dates = getHandledDates();
-    var matches = [];
+    var itemsMatches = [];
 
     items.forEach(item => {
-        // if (item.isCompetition) {
-        //     var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
+        var matches = [];
 
-        //     tournamentData.forEach((round) => {
-        //         round.matches.forEach((matche) => {
-        //             if (matche.score) {
-        //                 if (dates.indexOf(matche.date) !== -1) {
-        //                     matches.push(matche);
-        //                 }
-        //             } else {
-        //                 if (dates.indexOf(matche.date1) !== -1) {
-        //                     matches.push({
-        //                         date: matche.date1,
-        //                         team1: matche.team1,
-        //                         team2: matche.team2,
-        //                         score: matche.score1,
-        //                         team1Logo: matche.team1Logo,
-        //                         team2Logo: matche.team2Logo
-        //                     });
-        //                 }
+        if (item.isCompetition) {
+            var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
 
-        //                 if (dates.indexOf(matche.date2) !== -1) {
-        //                     matches.push({
-        //                         date: matche.date2,
-        //                         team1: matche.team1,
-        //                         team2: matche.team2,
-        //                         score: matche.score2,
-        //                         team1Logo: matche.team1Logo,
-        //                         team2Logo: matche.team2Logo
-        //                     });
-        //                 }
-        //             }
-        //         });
-        //     });
+            tournamentData.forEach((round) => {
+                round.matches.forEach((matche) => {
+                    if (matche.score) {
+                        if (dates.indexOf(matche.date) !== -1) {
+                            matches.push(matche);
+                        }
+                    } else {
+                        if (dates.indexOf(matche.date1) !== -1) {
+                            matches.push({
+                                date: matche.date1,
+                                team1: matche.team1,
+                                team2: matche.team2,
+                                score: matche.score1,
+                                team1Logo: matche.team1Logo,
+                                team2Logo: matche.team2Logo
+                            });
+                        }
 
-        //     var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+                        if (dates.indexOf(matche.date2) !== -1) {
+                            matches.push({
+                                date: matche.date2,
+                                team1: matche.team1,
+                                team2: matche.team2,
+                                score: matche.score2,
+                                team1Logo: matche.team1Logo,
+                                team2Logo: matche.team2Logo
+                            });
+                        }
+                    }
+                });
+            });
 
-        //     groupsData.forEach((group) => {
-        //         group.matches.forEach((matche) => {
-        //             if (dates.indexOf(matche.date) !== -1) {
-        //                 matches.push(matche);
-        //             }
-        //         });
-        //     });
-        // } else {
+            var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+
+            groupsData.forEach((group) => {
+                group.matches.forEach((matche) => {
+                    if (dates.indexOf(matche.date) !== -1) {
+                        matches.push(matche);
+                    }
+                });
+            });
+        } else {
             var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
 
             resultsData.forEach((result) => {
@@ -79,18 +79,18 @@ function getMatches() {
                     }
                 });
             });
-        // }
+        }
+
+        itemsMatches.push({ item, matches });
     });
 
-    console.log(matches);
-
-    return matches;
+    return itemsMatches;
 }
 
 function getHandledDates() {
     var dates = [];
     var currentDate = new Date();
-    var limitDate = 5;
+    var limitDate = 4;
 
     for (var i = limitDate; i >= 1; i--) {
         dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate() - i))));
