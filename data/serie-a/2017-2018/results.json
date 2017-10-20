@@ -673,7 +673,7 @@
                 "date": "16/10/2017",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "benevento_calcio"
             }
@@ -682,6 +682,30 @@
     {
         "round": 9,
         "matches": [
+            {
+                "date": "21/10/2017",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "FC Crotone",
+                "score": "-:-",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "21/10/2017",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "Chievo Verona",
+                "awayTeam": "Hellas Verona",
+                "score": "-:-",
+                "homeTeamLogo": "chievo_verona",
+                "awayTeamLogo": "hellas_verona"
+            },
             {
                 "date": "22/10/2017",
                 "homeTeam": "Atalanta",
@@ -700,43 +724,11 @@
             },
             {
                 "date": "22/10/2017",
-                "homeTeam": "Chievo Verona",
-                "awayTeam": "Hellas Verona",
-                "score": "-:-",
-                "homeTeamLogo": "chievo_verona",
-                "awayTeamLogo": "hellas_verona"
-            },
-            {
-                "date": "22/10/2017",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "cagliari_calcio"
-            },
-            {
-                "date": "22/10/2017",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Genoa CFC",
                 "score": "-:-",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "22/10/2017",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "22/10/2017",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "fc_crotone"
             },
             {
                 "date": "22/10/2017",
@@ -761,6 +753,14 @@
                 "score": "-:-",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Cagliari Calcio",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "cagliari_calcio"
             }
         ]
     },

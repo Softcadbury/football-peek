@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "goals": "5",
+        "flag": "portugal",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -9,7 +18,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -19,21 +28,30 @@
     },
     {
         "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Real Madrid",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "4.",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "3",
+        "goals": "4",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "5.",
+        "name": "Vincent Aboubakar",
+        "country": "Cameroon",
+        "team": "FC Porto",
+        "goals": "3",
+        "flag": "cameroon",
+        "logo": "fc_porto"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "3",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -45,16 +63,61 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "6.",
-        "name": "Vincent Aboubakar",
-        "country": "Cameroon",
-        "team": "FC Porto",
-        "goals": "2",
-        "flag": "cameroon",
-        "logo": "fc_porto"
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Dimitri Oberlin",
+        "country": "Switzerland",
+        "team": "FC Basel",
+        "goals": "3",
+        "flag": "switzerland",
+        "logo": "fc_basel"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "3",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Cenk Tosun",
+        "country": "Turkey",
+        "team": "Beşiktaş",
+        "goals": "3",
+        "flag": "turkey",
+        "logo": "be_ikta_"
+    },
+    {
+        "rank": "14.",
         "name": " Anderson Talisca",
         "country": "Brazil",
         "team": "Beşiktaş",
@@ -82,101 +145,38 @@
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Neymar",
+        "name": " Bernard",
         "country": "Brazil",
-        "team": "Paris Saint-Germain",
+        "team": "Shakhtar Donetsk",
         "goals": "2",
         "flag": "brazil",
-        "logo": "paris_saint_germain"
+        "logo": "shakhtar_donetsk"
     },
     {
         "rank": "-",
-        "name": "Dimitri Oberlin",
-        "country": "Switzerland",
-        "team": "FC Basel",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Liverpool FC",
         "goals": "2",
-        "flag": "switzerland",
-        "logo": "fc_basel"
+        "flag": "brazil",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
-        "name": "Felipe Pardo",
-        "country": "Colombia",
-        "team": "Olympiakos Piräus",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
         "goals": "2",
-        "flag": "colombia",
-        "logo": "olympiakos_piraus"
+        "flag": "sweden",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
-        "name": "John Stones",
-        "country": "England",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
         "team": "Manchester City",
         "goals": "2",
-        "flag": "england",
+        "flag": "brazil",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "15.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "1",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Sofyan Amrabat",
-        "country": "Morocco",
-        "team": "Feyenoord",
-        "goals": "1",
-        "flag": "morocco",
-        "logo": "feyenoord"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "goals": "1",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": " Azpilicueta",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Tiemoué Bakayoko",
-        "country": "France",
-        "team": "Chelsea FC",
-        "goals": "1",
-        "flag": "france",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "goals": "1",
-        "flag": "wales",
-        "logo": "real_madrid"
     }
 ]

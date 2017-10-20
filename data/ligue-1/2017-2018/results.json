@@ -768,15 +768,7 @@
         "round": 10,
         "matches": [
             {
-                "date": "21/10/2017",
-                "homeTeam": "AS Monaco",
-                "awayTeam": "SM Caen",
-                "score": "-:-",
-                "homeTeamLogo": "as_monaco",
-                "awayTeamLogo": "sm_caen"
-            },
-            {
-                "date": "21/10/2017",
+                "date": "20/10/2017",
                 "homeTeam": "AS Saint-Étienne",
                 "awayTeam": "Montpellier HSC",
                 "score": "-:-",
@@ -785,11 +777,11 @@
             },
             {
                 "date": "21/10/2017",
-                "homeTeam": "ESTAC Troyes",
-                "awayTeam": "Olympique Lyon",
+                "homeTeam": "AS Monaco",
+                "awayTeam": "SM Caen",
                 "score": "-:-",
-                "homeTeamLogo": "estac_troyes",
-                "awayTeamLogo": "olympique_lyon"
+                "homeTeamLogo": "as_monaco",
+                "awayTeamLogo": "sm_caen"
             },
             {
                 "date": "21/10/2017",
@@ -806,22 +798,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "fc_nantes",
                 "awayTeamLogo": "ea_guingamp"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "OGC Nice",
-                "awayTeam": "RC Strasbourg",
-                "score": "-:-",
-                "homeTeamLogo": "ogc_nice",
-                "awayTeamLogo": "rc_strasbourg"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "Olympique Marseille",
-                "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "paris_saint_germain"
             },
             {
                 "date": "21/10/2017",
@@ -846,6 +822,30 @@
                 "score": "-:-",
                 "homeTeamLogo": "stade_rennes",
                 "awayTeamLogo": "lille_osc"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "OGC Nice",
+                "awayTeam": "RC Strasbourg",
+                "score": "-:-",
+                "homeTeamLogo": "ogc_nice",
+                "awayTeamLogo": "rc_strasbourg"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "ESTAC Troyes",
+                "awayTeam": "Olympique Lyon",
+                "score": "-:-",
+                "homeTeamLogo": "estac_troyes",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "paris_saint_germain"
             }
         ]
     },

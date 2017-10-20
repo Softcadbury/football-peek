@@ -673,7 +673,7 @@
                 "date": "16/10/2017",
                 "homeTeam": "Leicester City",
                 "awayTeam": "West Bromwich Albion",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "west_bromwich_albion"
             }
@@ -683,20 +683,20 @@
         "round": 9,
         "matches": [
             {
+                "date": "20/10/2017",
+                "homeTeam": "West Ham United",
+                "awayTeam": "Brighton & Hove Albion",
+                "score": "-:-",
+                "homeTeamLogo": "west_ham_united",
+                "awayTeamLogo": "brighton___hove_albion"
+            },
+            {
                 "date": "21/10/2017",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Watford FC",
                 "score": "-:-",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "watford_fc"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "arsenal_fc"
             },
             {
                 "date": "21/10/2017",
@@ -724,14 +724,6 @@
             },
             {
                 "date": "21/10/2017",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "West Bromwich Albion",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "west_bromwich_albion"
-            },
-            {
-                "date": "21/10/2017",
                 "homeTeam": "Stoke City",
                 "awayTeam": "AFC Bournemouth",
                 "score": "-:-",
@@ -748,19 +740,27 @@
             },
             {
                 "date": "21/10/2017",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "West Bromwich Albion",
+                "score": "-:-",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "west_bromwich_albion"
+            },
+            {
+                "date": "22/10/2017",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "22/10/2017",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Liverpool FC",
                 "score": "-:-",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "liverpool_fc"
-            },
-            {
-                "date": "21/10/2017",
-                "homeTeam": "West Ham United",
-                "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
-                "homeTeamLogo": "west_ham_united",
-                "awayTeamLogo": "brighton___hove_albion"
             }
         ]
     },
