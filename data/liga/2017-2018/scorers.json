@@ -13,7 +13,7 @@
         "name": "Cédric Bakambu",
         "country": "Congo DR",
         "team": "Villarreal CF",
-        "goals": "7",
+        "goals": "8",
         "flag": "congo_dr",
         "logo": "villarreal_cf"
     },
@@ -22,12 +22,21 @@
         "name": "Simone Zaza",
         "country": "Italy",
         "team": "Valencia CF",
-        "goals": "7",
+        "goals": "8",
         "flag": "italy",
         "logo": "valencia_cf"
     },
     {
         "rank": "4.",
+        "name": "Antonio Sanabria",
+        "country": "Paraguay",
+        "team": "Real Betis",
+        "goals": "6",
+        "flag": "paraguay",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "5.",
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Celta Vigo",
@@ -43,15 +52,6 @@
         "goals": "5",
         "flag": "spain",
         "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Sanabria",
-        "country": "Paraguay",
-        "team": "Real Betis",
-        "goals": "5",
-        "flag": "paraguay",
-        "logo": "real_betis"
     },
     {
         "rank": "7.",
@@ -136,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": " Gonçalo Guedes",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "goals": "3",
+        "flag": "portugal",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Loïc Rémy",
-        "country": "France",
-        "team": "UD Las Palmas",
+        "name": " Morales",
+        "country": "Spain",
+        "team": "Levante UD",
         "goals": "3",
-        "flag": "france",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": "Pione Sisto",
-        "country": "Denmark",
-        "team": "Celta Vigo",
-        "goals": "3",
-        "flag": "denmark",
-        "logo": "celta_vigo"
+        "flag": "spain",
+        "logo": "levante_ud"
     }
 ]

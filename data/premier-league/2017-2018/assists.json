@@ -9,16 +9,16 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "5",
+        "assists": "6",
         "flag": "belgium",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Henrikh Mkhitaryan",
         "country": "Armenia",
         "team": "Manchester United",
@@ -37,6 +37,15 @@
     },
     {
         "rank": "-",
+        "name": "Pascal Groß",
+        "country": "Germany",
+        "team": "Brighton & Hove Albion",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
         "name": "Matt Ritchie",
         "country": "Scotland",
         "team": "Newcastle United",
@@ -45,7 +54,16 @@
         "logo": "newcastle_united"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Leroy Sané",
+        "country": "Germany",
+        "team": "Manchester City",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "8.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -55,12 +73,12 @@
     },
     {
         "rank": "-",
-        "name": "Pascal Groß",
-        "country": "Germany",
-        "team": "Brighton & Hove Albion",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Leicester City",
         "assists": "3",
-        "flag": "germany",
-        "logo": "brighton___hove_albion"
+        "flag": "algeria",
+        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -70,15 +88,6 @@
         "assists": "3",
         "flag": "england",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -108,7 +117,25 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
+        "name": "Jordan Ayew",
+        "country": "Ghana",
+        "team": "Swansea City",
+        "assists": "2",
+        "flag": "ghana",
+        "logo": "swansea_city"
+    },
+    {
+        "rank": "-",
+        "name": "Tiemoué Bakayoko",
+        "country": "France",
+        "team": "Chelsea FC",
+        "assists": "2",
+        "flag": "france",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Dominic Calvert-Lewin",
         "country": "England",
         "team": "Everton FC",
@@ -127,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
+        "team": "Stoke City",
+        "assists": "2",
+        "flag": "cameroon",
+        "logo": "stoke_city"
+    },
+    {
+        "rank": "-",
         "name": "Ben Davies",
         "country": "Wales",
         "team": "Tottenham Hotspur",
@@ -142,41 +178,5 @@
         "assists": "2",
         "flag": "denmark",
         "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "José Holebas",
-        "country": "Greece",
-        "team": "Watford FC",
-        "assists": "2",
-        "flag": "greece",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jordon Ibe",
-        "country": "England",
-        "team": "AFC Bournemouth",
-        "assists": "2",
-        "flag": "england",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Sead Kolašinac",
-        "country": "Bosnia-Herzegovina",
-        "team": "Arsenal FC",
-        "assists": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jesse Lingard",
-        "country": "England",
-        "team": "Manchester United",
-        "assists": "2",
-        "flag": "england",
-        "logo": "manchester_united"
     }
 ]
