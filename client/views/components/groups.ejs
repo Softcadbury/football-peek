@@ -28,8 +28,8 @@
                             <th class="data-min" title="Matches won">W</th>
                             <th class="data-min" title="Matches drawn">D</th>
                             <th class="data-min" title="Matches lost">L</th>
-                            <th class="data-min data-hide" title="Goals for">F</th>
-                            <th class="data-min data-hide" title="Goals against">A</th>
+                            <th class="data-min data-responsive-hide" title="Goals for">F</th>
+                            <th class="data-min data-responsive-hide" title="Goals against">A</th>
                             <th class="data-min" title="Goal differencence">+/-</th>
                         </tr>
                     </thead>
@@ -50,8 +50,8 @@
                                 <td class="data-min"><%= row.win %></td>
                                 <td class="data-min"><%= row.draw %></td>
                                 <td class="data-min"><%= row.lost %></td>
-                                <td class="data-min data-hide"><%= row.goalsFor %></td>
-                                <td class="data-min data-hide"><%= row.goalsAgainst %></td>
+                                <td class="data-min data-responsive-hide"><%= row.goalsFor %></td>
+                                <td class="data-min data-responsive-hide"><%= row.goalsAgainst %></td>
                                 <td class="data-min"><%= row.goalDifference %></td>
                             </tr>
                         <% }); %>
