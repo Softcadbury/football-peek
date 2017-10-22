@@ -78,7 +78,7 @@ function manageFlagProperty(item) {
 
     var config = require('./config');
     if (config.downloadImages) {
-        downloadImage('http:' + item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
+        downloadImage(item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
     }
 
     delete item.flagSrc;
@@ -90,7 +90,7 @@ function manageLogoProperty(item) {
 
     var config = require('./config');
     if (config.downloadImages) {
-        downloadImage('http:' + item.logoSrc, stringFormat(config.paths.logosData, item.logo));
+        downloadImage(item.logoSrc, stringFormat(config.paths.logosData, item.logo));
     }
 
     delete item.logoSrc;
