@@ -30,39 +30,24 @@ function getItemsMatches() {
 
             tournamentData.forEach((round) => {
                 round.matches.forEach((matche) => {
-                    if (matche.score) {
-                        if (dates.indexOf(matche.date) !== -1) {
-                            matches.push({
-                                date: matche.date,
-                                score: matche.score,
-                                homeTeam: matche.team1,
-                                awayTeam: matche.team2,
-                                homeTeamLogo: matche.team1Logo,
-                                awayTeamLogo: matche.team2Logo
-                            });
-                        }
-                    } else {
-                        if (dates.indexOf(matche.date1) !== -1) {
-                            matches.push({
-                                date: matche.date1,
-                                score: matche.score1,
-                                homeTeam: matche.team1,
-                                awayTeam: matche.team2,
-                                homeTeamLogo: matche.team1Logo,
-                                awayTeamLogo: matche.team2Logo
-                            });
-                        }
+                    matches.push({
+                        date: matche.date1,
+                        score: matche.score1,
+                        homeTeam: matche.team1,
+                        awayTeam: matche.team2,
+                        homeTeamLogo: matche.team1Logo,
+                        awayTeamLogo: matche.team2Logo
+                    });
 
-                        if (dates.indexOf(matche.date2) !== -1) {
-                            matches.push({
-                                date: matche.date2,
-                                score: matche.score2,
-                                homeTeam: matche.team1,
-                                awayTeam: matche.team2,
-                                homeTeamLogo: matche.team1Logo,
-                                awayTeamLogo: matche.team2Logo
-                            });
-                        }
+                    if (dates.indexOf(matche.date2) !== -1) {
+                        matches.push({
+                            date: matche.date2,
+                            score: matche.score2,
+                            homeTeam: matche.team1,
+                            awayTeam: matche.team2,
+                            homeTeamLogo: matche.team1Logo,
+                            awayTeamLogo: matche.team2Logo
+                        });
                     }
                 });
             });
