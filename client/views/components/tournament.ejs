@@ -19,18 +19,12 @@
                                 <div class="icon-logo icon-<%= matche.team1Logo %>" title="<%= matche.team1 %>"></div>
                             </td>
                             <td class="data-score-double">
-                                <% if (matche.score) { %>
-                                    <%- include('score', {
-                                        date: matche.date,
-                                        score: matche.score,
-                                        team1: matche.team1,
-                                        team2: matche.team2 }); %>
-                                <% } else { %>
-                                    <%- include('score', {
-                                        date: matche.date1,
-                                        score: matche.score1,
-                                        team1: matche.team1,
-                                        team2: matche.team2 }); %>
+                                <%- include('score', {
+                                    date: matche.date1,
+                                    score: matche.score1,
+                                    team1: matche.team1,
+                                    team2: matche.team2 }); %>
+                                <% if (matche.date2) { %>
                                     <span class="score-separation">-</span>
                                     <%- include('score', {
                                         date: matche.date2,
