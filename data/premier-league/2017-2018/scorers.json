@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "8",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "2.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -18,22 +27,22 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "7",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "5.",
         "name": " Gabriel Jesus",
         "country": "Brazil",
         "team": "Manchester City",
         "goals": "6",
         "flag": "brazil",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "6",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -46,15 +55,24 @@
     },
     {
         "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
+        "name": "Leroy Sané",
+        "country": "Germany",
         "team": "Manchester City",
         "goals": "6",
-        "flag": "england",
+        "flag": "germany",
         "logo": "manchester_city"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "6",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "9.",
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Arsenal FC",
@@ -64,24 +82,15 @@
     },
     {
         "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
         "goals": "5",
-        "flag": "germany",
-        "logo": "manchester_city"
+        "flag": "egypt",
+        "logo": "liverpool_fc"
     },
     {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "5",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "Swansea City",
@@ -97,6 +106,24 @@
         "goals": "4",
         "flag": "france",
         "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "West Ham United",
+        "goals": "4",
+        "flag": "mexico",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": "Anthony Martial",
+        "country": "France",
+        "team": "Manchester United",
+        "goals": "4",
+        "flag": "france",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -117,16 +144,16 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
+        "rank": "17.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "3",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
-        "rank": "15.",
+        "rank": "-",
         "name": "Mame Diouf",
         "country": "Senegal",
         "team": "Stoke City",
@@ -151,32 +178,5 @@
         "goals": "3",
         "flag": "belgium",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Manolo Gabbiadini",
-        "country": "Italy",
-        "team": "Southampton FC",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Javier Hernández",
-        "country": "Mexico",
-        "team": "West Ham United",
-        "goals": "3",
-        "flag": "mexico",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
     }
 ]

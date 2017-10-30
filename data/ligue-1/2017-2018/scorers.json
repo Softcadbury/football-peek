@@ -13,7 +13,7 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "8",
+        "goals": "11",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
@@ -22,16 +22,16 @@
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Olympique Lyon",
-        "goals": "7",
+        "goals": "9",
         "flag": "france",
         "logo": "olympique_lyon"
     },
     {
-        "rank": "-",
+        "rank": "4.",
         "name": " Mariano",
         "country": "Dom. Republic",
         "team": "Olympique Lyon",
-        "goals": "7",
+        "goals": "8",
         "flag": "dom__republic",
         "logo": "olympique_lyon"
     },
@@ -40,7 +40,7 @@
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
-        "goals": "6",
+        "goals": "7",
         "flag": "brazil",
         "logo": "paris_saint_germain"
     },
@@ -52,6 +52,15 @@
         "goals": "5",
         "flag": "italy",
         "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Memphis Depay",
+        "country": "Netherlands",
+        "team": "Olympique Lyon",
+        "goals": "5",
+        "flag": "netherlands",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -72,7 +81,16 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Karl Toko Ekambi",
+        "country": "Cameroon",
+        "team": "Angers SCO",
+        "goals": "5",
+        "flag": "cameroon",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "11.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "AS Saint-Étienne",
@@ -88,6 +106,15 @@
         "goals": "4",
         "flag": "france",
         "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
+        "name": "Moustapha Diallo",
+        "country": "Senegal",
+        "team": "EA Guingamp",
+        "goals": "4",
+        "flag": "senegal",
+        "logo": "ea_guingamp"
     },
     {
         "rank": "-",
@@ -108,30 +135,12 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Angers SCO",
-        "goals": "4",
-        "flag": "cameroon",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "14.",
+        "rank": "16.",
         "name": "Jimmy Briand",
         "country": "France",
         "team": "EA Guingamp",
         "goals": "3",
         "flag": "france",
-        "logo": "ea_guingamp"
-    },
-    {
-        "rank": "-",
-        "name": "Moustapha Diallo",
-        "country": "Senegal",
-        "team": "EA Guingamp",
-        "goals": "3",
-        "flag": "senegal",
         "logo": "ea_guingamp"
     },
     {
@@ -169,14 +178,5 @@
         "goals": "3",
         "flag": "congo_dr",
         "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": " Nuno Da Costa",
-        "country": "Cape Verde",
-        "team": "RC Strasbourg",
-        "goals": "3",
-        "flag": "cape_verde",
-        "logo": "rc_strasbourg"
     }
 ]
