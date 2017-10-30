@@ -4,9 +4,27 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "assists": "5",
+        "assists": "9",
         "flag": "italy",
         "logo": "lazio_roma"
+    },
+    {
+        "rank": "2.",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "3.",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
+        "assists": "5",
+        "flag": "croatia",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -18,7 +36,43 @@
         "logo": "juventus"
     },
     {
-        "rank": "3.",
+        "rank": "5.",
+        "name": "Valter Birsa",
+        "country": "Slovenia",
+        "team": "Chievo Verona",
+        "assists": "4",
+        "flag": "slovenia",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": "Juan Cuadrado",
+        "country": "Colombia",
+        "team": "Juventus",
+        "assists": "4",
+        "flag": "colombia",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -36,40 +90,13 @@
         "logo": "torino_fc"
     },
     {
-        "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
-        "assists": "4",
-        "flag": "croatia",
-        "logo": "inter"
-    },
-    {
-        "rank": "7.",
+        "rank": "11.",
         "name": "Mirco Antenucci",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
         "assists": "3",
         "flag": "italy",
         "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "-",
-        "name": "Valter Birsa",
-        "country": "Slovenia",
-        "team": "Chievo Verona",
-        "assists": "3",
-        "flag": "slovenia",
-        "logo": "chievo_verona"
     },
     {
         "rank": "-",
@@ -82,21 +109,21 @@
     },
     {
         "rank": "-",
-        "name": "Juan Cuadrado",
-        "country": "Colombia",
-        "team": "Juventus",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
         "assists": "3",
-        "flag": "colombia",
-        "logo": "juventus"
+        "flag": "italy",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
-        "name": "Rodrigo de Paul",
-        "country": "Argentina",
-        "team": "Udinese Calcio",
+        "name": " Diego Farias",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
         "assists": "3",
-        "flag": "argentina",
-        "logo": "udinese_calcio"
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -109,12 +136,21 @@
     },
     {
         "rank": "-",
-        "name": "Papu Gómez",
+        "name": "Përparim Hetemaj",
+        "country": "Finland",
+        "team": "Chievo Verona",
+        "assists": "3",
+        "flag": "finland",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
-        "team": "Atalanta",
+        "team": "Juventus",
         "assists": "3",
         "flag": "argentina",
-        "logo": "atalanta"
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -127,56 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
+        "name": "Franck Kessié",
+        "country": "Ivory Coast",
+        "team": "AC Milan",
         "assists": "3",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
+        "flag": "ivory_coast",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
-        "name": "Adrian Stoian",
-        "country": "Romania",
-        "team": "FC Crotone",
+        "name": "Aleksandar Kolarov",
+        "country": "Serbia",
+        "team": "AS Roma",
         "assists": "3",
-        "flag": "romania",
-        "logo": "fc_crotone"
-    },
-    {
-        "rank": "-",
-        "name": "Cyril Théréau",
-        "country": "France",
-        "team": "ACF Fiorentina",
-        "assists": "3",
-        "flag": "france",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "18.",
-        "name": "Federico Bernardeschi",
-        "country": "Italy",
-        "team": "Juventus",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Gaspar",
-        "country": "Portugal",
-        "team": "ACF Fiorentina",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Fabrizio Cacciatore",
-        "country": "Italy",
-        "team": "Chievo Verona",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "chievo_verona"
+        "flag": "serbia",
+        "logo": "as_roma"
     }
 ]
