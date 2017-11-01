@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "Inter",
+        "points": "29",
+        "played": "11",
+        "win": "9",
+        "draw": "2",
+        "lost": "0",
+        "goalsFor": "22",
+        "goalsAgainst": "8",
+        "goalDifference": "14",
+        "logo": "inter"
+    },
+    {
+        "rank": "3",
         "team": "Juventus",
         "points": "28",
         "played": "11",
@@ -26,7 +39,7 @@
         "logo": "juventus"
     },
     {
-        "rank": "3",
+        "rank": "4",
         "team": "Lazio Roma",
         "points": "28",
         "played": "11",
@@ -37,19 +50,6 @@
         "goalsAgainst": "12",
         "goalDifference": "19",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "4",
-        "team": "Inter",
-        "points": "26",
-        "played": "10",
-        "win": "8",
-        "draw": "2",
-        "lost": "0",
-        "goalsFor": "20",
-        "goalsAgainst": "7",
-        "goalDifference": "13",
-        "logo": "inter"
     },
     {
         "rank": "5",
@@ -237,13 +237,13 @@
         "rank": "19",
         "team": "Hellas Verona",
         "points": "6",
-        "played": "10",
+        "played": "11",
         "win": "1",
         "draw": "3",
-        "lost": "6",
-        "goalsFor": "6",
-        "goalsAgainst": "22",
-        "goalDifference": "-16",
+        "lost": "7",
+        "goalsFor": "7",
+        "goalsAgainst": "24",
+        "goalDifference": "-17",
         "logo": "hellas_verona"
     },
     {

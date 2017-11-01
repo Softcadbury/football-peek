@@ -843,7 +843,7 @@
                 "date": "30/10/2017",
                 "homeTeam": "Burnley FC",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "burnley_fc",
                 "awayTeamLogo": "newcastle_united"
             }
@@ -854,19 +854,11 @@
         "matches": [
             {
                 "date": "04/11/2017",
-                "homeTeam": "Chelsea FC",
-                "awayTeam": "Manchester United",
+                "homeTeam": "Stoke City",
+                "awayTeam": "Leicester City",
                 "score": "-:-",
-                "homeTeamLogo": "chelsea_fc",
-                "awayTeamLogo": "manchester_united"
-            },
-            {
-                "date": "04/11/2017",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Watford FC",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "watford_fc"
+                "homeTeamLogo": "stoke_city",
+                "awayTeamLogo": "leicester_city"
             },
             {
                 "date": "04/11/2017",
@@ -875,14 +867,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "huddersfield_town",
                 "awayTeamLogo": "west_bromwich_albion"
-            },
-            {
-                "date": "04/11/2017",
-                "homeTeam": "Manchester City",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_city",
-                "awayTeamLogo": "arsenal_fc"
             },
             {
                 "date": "04/11/2017",
@@ -902,14 +886,6 @@
             },
             {
                 "date": "04/11/2017",
-                "homeTeam": "Stoke City",
-                "awayTeam": "Leicester City",
-                "score": "-:-",
-                "homeTeamLogo": "stoke_city",
-                "awayTeamLogo": "leicester_city"
-            },
-            {
-                "date": "04/11/2017",
                 "homeTeam": "Swansea City",
                 "awayTeam": "Brighton & Hove Albion",
                 "score": "-:-",
@@ -918,6 +894,14 @@
             },
             {
                 "date": "04/11/2017",
+                "homeTeam": "West Ham United",
+                "awayTeam": "Liverpool FC",
+                "score": "-:-",
+                "homeTeamLogo": "west_ham_united",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "05/11/2017",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Crystal Palace",
                 "score": "-:-",
@@ -925,12 +909,28 @@
                 "awayTeamLogo": "crystal_palace"
             },
             {
-                "date": "04/11/2017",
-                "homeTeam": "West Ham United",
-                "awayTeam": "Liverpool FC",
+                "date": "05/11/2017",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Arsenal FC",
                 "score": "-:-",
-                "homeTeamLogo": "west_ham_united",
-                "awayTeamLogo": "liverpool_fc"
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "05/11/2017",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Manchester United",
+                "score": "-:-",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "05/11/2017",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Watford FC",
+                "score": "-:-",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "watford_fc"
             }
         ]
     },
