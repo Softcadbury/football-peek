@@ -9,16 +9,34 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "9",
+        "goals": "10",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
         "rank": "3.",
+        "name": "Alfreð Finnbogason",
+        "country": "Iceland",
+        "team": "FC Augsburg",
+        "goals": "5",
+        "flag": "iceland",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
+        "team": "FC Augsburg",
+        "goals": "5",
+        "flag": "austria",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
         "name": "Martin Harnik",
         "country": "Austria",
         "team": "Hannover 96",
@@ -63,16 +81,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "8.",
-        "name": "Alfreð Finnbogason",
-        "country": "Iceland",
-        "team": "FC Augsburg",
-        "goals": "4",
-        "flag": "iceland",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Leon Goretzka",
         "country": "Germany",
         "team": "FC Schalke 04",
@@ -99,7 +108,7 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Chadrac Akolo",
         "country": "Congo DR",
         "team": "VfB Stuttgart",
@@ -115,6 +124,33 @@
         "goals": "3",
         "flag": "france",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "Bayer Leverkusen",
+        "goals": "3",
+        "flag": "jamaica",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Ihlas Bebou",
+        "country": "Togo",
+        "team": "Hannover 96",
+        "goals": "3",
+        "flag": "togo",
+        "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Bentaleb",
+        "country": "Algeria",
+        "team": "FC Schalke 04",
+        "goals": "3",
+        "flag": "algeria",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "3",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "FC Augsburg",
-        "goals": "3",
-        "flag": "austria",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Yoshinori Mutō",
-        "country": "Japan",
-        "team": "1. FSV Mainz 05",
-        "goals": "3",
-        "flag": "japan",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Ante Rebić",
-        "country": "Croatia",
-        "team": "Eintracht Frankfurt",
-        "goals": "3",
-        "flag": "croatia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Lars Stindl",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
     }
 ]

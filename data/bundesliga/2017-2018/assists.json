@@ -1,21 +1,21 @@
 [
     {
         "rank": "1.",
+        "name": "Philipp Max",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "5",
+        "flag": "germany",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "2.",
         "name": "Amine Harit",
         "country": "Morocco",
         "team": "FC Schalke 04",
         "assists": "4",
         "flag": "morocco",
         "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Philipp Max",
-        "country": "Germany",
-        "team": "FC Augsburg",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -55,6 +55,24 @@
     },
     {
         "rank": "-",
+        "name": "Daniel Didavi",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "Bor. Mönchengladbach",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
         "name": "Kai Havertz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -79,6 +97,15 @@
         "assists": "3",
         "flag": "bosnia_herzegovina",
         "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": " Jonathas",
+        "country": "Brazil",
+        "team": "Hannover 96",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "hannover_96"
     },
     {
         "rank": "-",
@@ -126,7 +153,7 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "15.",
+        "rank": "18.",
         "name": "Dennis Aogo",
         "country": "Germany",
         "team": "VfB Stuttgart",
@@ -151,32 +178,5 @@
         "assists": "2",
         "flag": "gabon",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Leon Bailey",
-        "country": "Jamaica",
-        "team": "Bayer Leverkusen",
-        "assists": "2",
-        "flag": "jamaica",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Lars Bender",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Brosinski",
-        "country": "Germany",
-        "team": "1. FSV Mainz 05",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "1__fsv_mainz_05"
     }
 ]
