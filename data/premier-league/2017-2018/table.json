@@ -79,6 +79,19 @@
     },
     {
         "rank": "7",
+        "team": "Burnley FC",
+        "points": "16",
+        "played": "10",
+        "win": "4",
+        "draw": "4",
+        "lost": "2",
+        "goalsFor": "9",
+        "goalsAgainst": "9",
+        "goalDifference": "0",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "8",
         "team": "Watford FC",
         "points": "15",
         "played": "10",
@@ -91,20 +104,20 @@
         "logo": "watford_fc"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "Newcastle United",
         "points": "14",
-        "played": "9",
+        "played": "10",
         "win": "4",
         "draw": "2",
-        "lost": "3",
+        "lost": "4",
         "goalsFor": "10",
-        "goalsAgainst": "8",
-        "goalDifference": "2",
+        "goalsAgainst": "9",
+        "goalDifference": "1",
         "logo": "newcastle_united"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Southampton FC",
         "points": "13",
         "played": "10",
@@ -115,19 +128,6 @@
         "goalsAgainst": "10",
         "goalDifference": "-1",
         "logo": "southampton_fc"
-    },
-    {
-        "rank": "10",
-        "team": "Burnley FC",
-        "points": "13",
-        "played": "9",
-        "win": "3",
-        "draw": "4",
-        "lost": "2",
-        "goalsFor": "8",
-        "goalsAgainst": "9",
-        "goalDifference": "-1",
-        "logo": "burnley_fc"
     },
     {
         "rank": "11",

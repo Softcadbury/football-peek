@@ -853,10 +853,26 @@
         "round": 11,
         "matches": [
             {
+                "date": "28/10/2017",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Juventus",
+                "score": "0:2",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "28/10/2017",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Bologna FC",
+                "score": "1:0",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "bologna_fc"
+            },
+            {
                 "date": "29/10/2017",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "1:5",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "lazio_roma"
             },
@@ -864,47 +880,23 @@
                 "date": "29/10/2017",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "acf_fiorentina"
             },
             {
                 "date": "29/10/2017",
-                "homeTeam": "Hellas Verona",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "hellas_verona",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "29/10/2017",
-                "homeTeam": "AC Milan",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "29/10/2017",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "29/10/2017",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "bologna_fc"
-            },
-            {
-                "date": "29/10/2017",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "Chievo Verona",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "chievo_verona"
             },
@@ -912,25 +904,33 @@
                 "date": "29/10/2017",
                 "homeTeam": "SPAL 2013 Ferrara",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "spal_2013_ferrara",
                 "awayTeamLogo": "genoa_cfc"
             },
             {
                 "date": "29/10/2017",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "Atalanta",
+                "score": "2:1",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "29/10/2017",
                 "homeTeam": "Torino FC",
                 "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "torino_fc",
                 "awayTeamLogo": "cagliari_calcio"
             },
             {
-                "date": "29/10/2017",
-                "homeTeam": "Udinese Calcio",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "udinese_calcio",
-                "awayTeamLogo": "atalanta"
+                "date": "30/10/2017",
+                "homeTeam": "Hellas Verona",
+                "awayTeam": "Inter",
+                "score": "1:2",
+                "homeTeamLogo": "hellas_verona",
+                "awayTeamLogo": "inter"
             }
         ]
     },
