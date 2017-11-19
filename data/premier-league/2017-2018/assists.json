@@ -4,12 +4,12 @@
         "name": " David Silva",
         "country": "Spain",
         "team": "Manchester City",
-        "assists": "6",
+        "assists": "8",
         "flag": "spain",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
@@ -18,7 +18,25 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Leroy Sané",
+        "country": "Germany",
+        "team": "Manchester City",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "4.",
+        "name": " Azpilicueta",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Pascal Groß",
         "country": "Germany",
         "team": "Brighton & Hove Albion",
@@ -36,25 +54,7 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
-        "assists": "5",
-        "flag": "germany",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "6.",
-        "name": " Azpilicueta",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "7.",
         "name": "Riyad Mahrez",
         "country": "Algeria",
         "team": "Leicester City",
@@ -64,12 +64,39 @@
     },
     {
         "rank": "-",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Marcus Rashford",
+        "country": "England",
+        "team": "Manchester United",
+        "assists": "4",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
         "name": "Matt Ritchie",
         "country": "Scotland",
         "team": "Newcastle United",
         "assists": "4",
         "flag": "scotland",
         "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
+        "name": "Xherdan Shaqiri",
+        "country": "Switzerland",
+        "team": "Stoke City",
+        "assists": "4",
+        "flag": "switzerland",
+        "logo": "stoke_city"
     },
     {
         "rank": "-",
@@ -90,7 +117,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "11.",
+        "rank": "14.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -100,25 +127,7 @@
     },
     {
         "rank": "-",
-        "name": "Sead Kolašinac",
-        "country": "Bosnia-Herzegovina",
-        "team": "Arsenal FC",
-        "assists": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Manchester United",
-        "assists": "3",
-        "flag": "belgium",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Morata",
+        "name": " Cesc Fàbregas",
         "country": "Spain",
         "team": "Chelsea FC",
         "assists": "3",
@@ -127,56 +136,47 @@
     },
     {
         "rank": "-",
-        "name": "Marcus Rashford",
-        "country": "England",
-        "team": "Manchester United",
-        "assists": "3",
-        "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Xherdan Shaqiri",
-        "country": "Switzerland",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
         "team": "Stoke City",
         "assists": "3",
-        "flag": "switzerland",
+        "flag": "cameroon",
         "logo": "stoke_city"
     },
     {
         "rank": "-",
-        "name": "Granit Xhaka",
-        "country": "Switzerland",
+        "name": "Jóhann Guðmundsson",
+        "country": "Iceland",
+        "team": "Burnley FC",
+        "assists": "3",
+        "flag": "iceland",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "-",
+        "name": "José Holebas",
+        "country": "Greece",
+        "team": "Watford FC",
+        "assists": "3",
+        "flag": "greece",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Jordon Ibe",
+        "country": "England",
+        "team": "AFC Bournemouth",
+        "assists": "3",
+        "flag": "england",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "-",
+        "name": "Sead Kolašinac",
+        "country": "Bosnia-Herzegovina",
         "team": "Arsenal FC",
         "assists": "3",
-        "flag": "switzerland",
+        "flag": "bosnia_herzegovina",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "18.",
-        "name": "Jordan Ayew",
-        "country": "Ghana",
-        "team": "Swansea City",
-        "assists": "2",
-        "flag": "ghana",
-        "logo": "swansea_city"
-    },
-    {
-        "rank": "-",
-        "name": "Tiemoué Bakayoko",
-        "country": "France",
-        "team": "Chelsea FC",
-        "assists": "2",
-        "flag": "france",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Dominic Calvert-Lewin",
-        "country": "England",
-        "team": "Everton FC",
-        "assists": "2",
-        "flag": "england",
-        "logo": "everton_fc"
     }
 ]

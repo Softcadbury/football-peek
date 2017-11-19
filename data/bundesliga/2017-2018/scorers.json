@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "13",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "2.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
@@ -9,16 +18,43 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "-",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
-        "goals": "10",
-        "flag": "poland",
-        "logo": "bayern_munchen"
+        "rank": "3.",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "5.",
+        "name": "Maximilian Philipp",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "7.",
         "name": "Alfreð Finnbogason",
         "country": "Iceland",
         "team": "FC Augsburg",
@@ -37,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
+        "goals": "5",
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Martin Harnik",
         "country": "Austria",
         "team": "Hannover 96",
@@ -45,43 +90,25 @@
         "logo": "hannover_96"
     },
     {
-        "rank": "-",
-        "name": "Maximilian Philipp",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
+        "rank": "11.",
+        "name": "Chadrac Akolo",
+        "country": "Congo DR",
+        "team": "VfB Stuttgart",
+        "goals": "4",
+        "flag": "congo_dr",
+        "logo": "vfb_stuttgart"
     },
     {
         "rank": "-",
-        "name": "Mark Uth",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
         "team": "Bayer Leverkusen",
-        "goals": "5",
-        "flag": "germany",
+        "goals": "4",
+        "flag": "jamaica",
         "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "10.",
         "name": "Leon Goretzka",
         "country": "Germany",
         "team": "FC Schalke 04",
@@ -91,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": "Sébastien Haller",
-        "country": "France",
-        "team": "Eintracht Frankfurt",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Bor. Mönchengladbach",
         "goals": "4",
-        "flag": "france",
-        "logo": "eintracht_frankfurt"
+        "flag": "belgium",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -108,75 +135,48 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "13.",
-        "name": "Chadrac Akolo",
-        "country": "Congo DR",
-        "team": "VfB Stuttgart",
-        "goals": "3",
-        "flag": "congo_dr",
-        "logo": "vfb_stuttgart"
-    },
-    {
         "rank": "-",
-        "name": "Jean-Kévin Augustin",
-        "country": "France",
-        "team": "RB Leipzig",
-        "goals": "3",
-        "flag": "france",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Leon Bailey",
-        "country": "Jamaica",
-        "team": "Bayer Leverkusen",
-        "goals": "3",
-        "flag": "jamaica",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Ihlas Bebou",
-        "country": "Togo",
-        "team": "Hannover 96",
-        "goals": "3",
-        "flag": "togo",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Nabil Bentaleb",
-        "country": "Algeria",
-        "team": "FC Schalke 04",
-        "goals": "3",
-        "flag": "algeria",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Julian Brandt",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Guido Burgstaller",
-        "country": "Austria",
-        "team": "FC Schalke 04",
-        "goals": "3",
-        "flag": "austria",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Didavi",
-        "country": "Germany",
+        "name": "Divock Origi",
+        "country": "Belgium",
         "team": "VfL Wolfsburg",
-        "goals": "3",
-        "flag": "germany",
+        "goals": "4",
+        "flag": "belgium",
         "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": " Raffael",
+        "country": "Brazil",
+        "team": "Bor. Mönchengladbach",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Ante Rebić",
+        "country": "Croatia",
+        "team": "Eintracht Frankfurt",
+        "goals": "4",
+        "flag": "croatia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Lars Stindl",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
     }
 ]

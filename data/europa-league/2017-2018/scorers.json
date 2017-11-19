@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Aleksandr Kokorin",
+        "country": "Russia",
+        "team": "Zenit St. Petersburg",
+        "goals": "5",
+        "flag": "russia",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "-",
         "name": "Emiliano Rigoni",
         "country": "Argentina",
         "team": "Zenit St. Petersburg",
@@ -9,22 +18,13 @@
         "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "AC Milan",
         "goals": "4",
         "flag": "portugal",
         "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Aleksandr Kokorin",
-        "country": "Russia",
-        "team": "Zenit St. Petersburg",
-        "goals": "4",
-        "flag": "russia",
-        "logo": "zenit_st__petersburg"
     },
     {
         "rank": "-",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Michal Krmenčík",
+        "country": "Czech Republic",
+        "team": "Viktoria Plzeň",
+        "goals": "3",
+        "flag": "czech_republic",
+        "logo": "viktoria_plze_"
+    },
+    {
+        "rank": "-",
         "name": " Llorente",
         "country": "Spain",
         "team": "Real Sociedad",
@@ -90,13 +99,67 @@
         "logo": "lokomotiv_moskva"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Davie Selke",
+        "country": "Germany",
+        "team": "Hertha BSC",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Bertrand Traoré",
+        "country": "Burkina Faso",
+        "team": "Olympique Lyon",
+        "goals": "3",
+        "flag": "burkina_faso",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Patrick Twumasi",
+        "country": "Ghana",
+        "team": "FK Astana",
+        "goals": "3",
+        "flag": "ghana",
+        "logo": "fk_astana"
+    },
+    {
+        "rank": "15.",
         "name": " Adrián Sardinero",
         "country": "Spain",
         "team": "Apollon Limassol",
         "goals": "2",
         "flag": "spain",
         "logo": "apollon_limassol"
+    },
+    {
+        "rank": "-",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "Villarreal CF",
+        "goals": "2",
+        "flag": "colombia",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Ziguy Badibanga",
+        "country": "Belgium",
+        "team": "FC Sheriff",
+        "goals": "2",
+        "flag": "belgium",
+        "logo": "fc_sheriff"
     },
     {
         "rank": "-",
@@ -115,68 +178,5 @@
         "goals": "2",
         "flag": "italy",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Mattia Bottani",
-        "country": "Switzerland",
-        "team": "FC Lugano",
-        "goals": "2",
-        "flag": "switzerland",
-        "logo": "fc_lugano"
-    },
-    {
-        "rank": "-",
-        "name": "Felipe Caicedo",
-        "country": "Ecuador",
-        "team": "Lazio Roma",
-        "goals": "2",
-        "flag": "ecuador",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Munas Dabbur",
-        "country": "Israel",
-        "team": "RB Salzburg",
-        "goals": "2",
-        "flag": "israel",
-        "logo": "rb_salzburg"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Elez",
-        "country": "Croatia",
-        "team": "HNK Rijeka",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "hnk_rijeka"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Gavranović",
-        "country": "Switzerland",
-        "team": "HNK Rijeka",
-        "goals": "2",
-        "flag": "switzerland",
-        "logo": "hnk_rijeka"
-    },
-    {
-        "rank": "-",
-        "name": "Alhaji Gero",
-        "country": "Nigeria",
-        "team": "Östersunds FK",
-        "goals": "2",
-        "flag": "nigeria",
-        "logo": "ostersunds_fk"
-    },
-    {
-        "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "Arsenal FC",
-        "goals": "2",
-        "flag": "france",
-        "logo": "arsenal_fc"
     }
 ]

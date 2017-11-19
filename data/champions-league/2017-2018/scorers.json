@@ -4,12 +4,12 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "goals": "5",
+        "goals": "6",
         "flag": "portugal",
         "logo": "real_madrid"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -45,7 +45,25 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "4",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Cenk Tosun",
+        "country": "Turkey",
+        "team": "Beşiktaş",
+        "goals": "4",
+        "flag": "turkey",
+        "logo": "be_ikta_"
+    },
+    {
+        "rank": "8.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "FC Porto",
@@ -109,24 +127,42 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
         "goals": "3",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
+        "flag": "england",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Cenk Tosun",
-        "country": "Turkey",
-        "team": "Beşiktaş",
+        "name": "John Stones",
+        "country": "England",
+        "team": "Manchester City",
         "goals": "3",
-        "flag": "turkey",
-        "logo": "be_ikta_"
+        "flag": "england",
+        "logo": "manchester_city"
     },
     {
-        "rank": "15.",
+        "rank": "17.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "2",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": " Anderson Talisca",
         "country": "Brazil",
         "team": "Beşiktaş",
@@ -142,41 +178,5 @@
         "goals": "2",
         "flag": "netherlands",
         "logo": "be_ikta_"
-    },
-    {
-        "rank": "-",
-        "name": "Michy Batshuayi",
-        "country": "Belgium",
-        "team": "Chelsea FC",
-        "goals": "2",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Bernard",
-        "country": "Brazil",
-        "team": "Shakhtar Donetsk",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "shakhtar_donetsk"
-    },
-    {
-        "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Stephan El Shaarawy",
-        "country": "Italy",
-        "team": "AS Roma",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "as_roma"
     }
 ]
