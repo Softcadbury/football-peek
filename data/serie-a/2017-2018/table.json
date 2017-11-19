@@ -16,13 +16,13 @@
         "rank": "2",
         "team": "Juventus",
         "points": "31",
-        "played": "12",
+        "played": "13",
         "win": "10",
         "draw": "1",
-        "lost": "1",
-        "goalsFor": "35",
-        "goalsAgainst": "11",
-        "goalDifference": "24",
+        "lost": "2",
+        "goalsFor": "37",
+        "goalsAgainst": "14",
+        "goalDifference": "23",
         "logo": "juventus"
     },
     {
@@ -67,14 +67,14 @@
     {
         "rank": "6",
         "team": "Sampdoria",
-        "points": "23",
-        "played": "11",
-        "win": "7",
+        "points": "26",
+        "played": "12",
+        "win": "8",
         "draw": "2",
         "lost": "2",
-        "goalsFor": "24",
-        "goalsAgainst": "13",
-        "goalDifference": "11",
+        "goalsFor": "27",
+        "goalsAgainst": "15",
+        "goalDifference": "12",
         "logo": "sampdoria"
     },
     {
@@ -92,6 +92,19 @@
     },
     {
         "rank": "8",
+        "team": "ACF Fiorentina",
+        "points": "17",
+        "played": "13",
+        "win": "5",
+        "draw": "2",
+        "lost": "6",
+        "goalsFor": "22",
+        "goalsAgainst": "18",
+        "goalDifference": "4",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "9",
         "team": "Torino FC",
         "points": "17",
         "played": "12",
@@ -102,19 +115,6 @@
         "goalsAgainst": "19",
         "goalDifference": "-2",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "9",
-        "team": "ACF Fiorentina",
-        "points": "16",
-        "played": "12",
-        "win": "5",
-        "draw": "1",
-        "lost": "6",
-        "goalsFor": "21",
-        "goalsAgainst": "17",
-        "goalDifference": "4",
-        "logo": "acf_fiorentina"
     },
     {
         "rank": "10",
@@ -196,6 +196,32 @@
     },
     {
         "rank": "16",
+        "team": "Sassuolo Calcio",
+        "points": "11",
+        "played": "13",
+        "win": "3",
+        "draw": "2",
+        "lost": "8",
+        "goalsFor": "8",
+        "goalsAgainst": "22",
+        "goalDifference": "-14",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "17",
+        "team": "SPAL 2013 Ferrara",
+        "points": "10",
+        "played": "13",
+        "win": "2",
+        "draw": "4",
+        "lost": "7",
+        "goalsFor": "11",
+        "goalsAgainst": "21",
+        "goalDifference": "-10",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "18",
         "team": "Genoa CFC",
         "points": "9",
         "played": "13",
@@ -206,32 +232,6 @@
         "goalsAgainst": "19",
         "goalDifference": "-8",
         "logo": "genoa_cfc"
-    },
-    {
-        "rank": "17",
-        "team": "SPAL 2013 Ferrara",
-        "points": "9",
-        "played": "12",
-        "win": "2",
-        "draw": "3",
-        "lost": "7",
-        "goalsFor": "10",
-        "goalsAgainst": "20",
-        "goalDifference": "-10",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "18",
-        "team": "Sassuolo Calcio",
-        "points": "8",
-        "played": "12",
-        "win": "2",
-        "draw": "2",
-        "lost": "8",
-        "goalsFor": "6",
-        "goalsAgainst": "21",
-        "goalDifference": "-15",
-        "logo": "sassuolo_calcio"
     },
     {
         "rank": "19",
@@ -250,13 +250,13 @@
         "rank": "20",
         "team": "Benevento Calcio",
         "points": "0",
-        "played": "12",
+        "played": "13",
         "win": "0",
         "draw": "0",
-        "lost": "12",
-        "goalsFor": "5",
-        "goalsAgainst": "31",
-        "goalDifference": "-26",
+        "lost": "13",
+        "goalsFor": "6",
+        "goalsAgainst": "33",
+        "goalDifference": "-27",
         "logo": "benevento_calcio"
     }
 ]
