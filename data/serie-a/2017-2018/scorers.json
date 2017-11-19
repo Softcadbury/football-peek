@@ -4,7 +4,7 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "14",
+        "goals": "15",
         "flag": "italy",
         "logo": "lazio_roma"
     },
@@ -45,11 +45,11 @@
         "logo": "as_roma"
     },
     {
-        "rank": "6.",
+        "rank": "-",
         "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "6",
+        "goals": "7",
         "flag": "argentina",
         "logo": "juventus"
     },
@@ -58,12 +58,12 @@
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
-        "goals": "6",
+        "goals": "7",
         "flag": "italy",
         "logo": "sampdoria"
     },
     {
-        "rank": "-",
+        "rank": "8.",
         "name": "Cyril Théréau",
         "country": "France",
         "team": "ACF Fiorentina",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "9.",
+        "name": " Iago Falqué",
+        "country": "Spain",
+        "team": "Torino FC",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
@@ -81,13 +90,22 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "10.",
-        "name": " Iago Falqué",
+        "rank": "-",
+        "name": " Suso",
         "country": "Spain",
-        "team": "Torino FC",
-        "goals": "4",
+        "team": "AC Milan",
+        "goals": "5",
         "flag": "spain",
-        "logo": "torino_fc"
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "12.",
+        "name": "Bryan Cristante",
+        "country": "Italy",
+        "team": "Atalanta",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -97,6 +115,15 @@
         "goals": "4",
         "flag": "italy",
         "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -118,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": " Suso",
-        "country": "Spain",
-        "team": "AC Milan",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "ACF Fiorentina",
         "goals": "4",
-        "flag": "spain",
-        "logo": "ac_milan"
+        "flag": "argentina",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -135,7 +162,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "16.",
+        "rank": "19.",
         "name": " Bastos",
         "country": "Angola",
         "team": "Lazio Roma",
@@ -151,32 +178,5 @@
         "goals": "3",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Benassi",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Gianluca Caprari",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Bryan Cristante",
-        "country": "Italy",
-        "team": "Atalanta",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "atalanta"
     }
 ]

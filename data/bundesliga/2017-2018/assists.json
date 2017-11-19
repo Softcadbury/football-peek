@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Daniel Didavi",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "2.",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "5",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Philipp Max",
         "country": "Germany",
         "team": "FC Augsburg",
@@ -9,7 +27,16 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "2.",
+        "rank": "4.",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "Bor. Mönchengladbach",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
         "name": "Amine Harit",
         "country": "Morocco",
         "team": "FC Schalke 04",
@@ -27,13 +54,31 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Marcel Sabitzer",
+        "country": "Austria",
+        "team": "RB Leipzig",
+        "assists": "4",
+        "flag": "austria",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "8.",
         "name": "Jean-Kévin Augustin",
         "country": "France",
         "team": "RB Leipzig",
         "assists": "3",
         "flag": "france",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Lars Bender",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -52,24 +97,6 @@
         "assists": "3",
         "flag": "germany",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Didavi",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Vincenzo Grifo",
-        "country": "Italy",
-        "team": "Bor. Mönchengladbach",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -109,12 +136,12 @@
     },
     {
         "rank": "-",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
         "assists": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -127,56 +154,29 @@
     },
     {
         "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "assists": "3",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": " Wendell",
-        "country": "Brazil",
-        "team": "Bayer Leverkusen",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Andrey Yarmolenko",
-        "country": "Ukraine",
-        "team": "Borussia Dortmund",
-        "assists": "3",
-        "flag": "ukraine",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "18.",
-        "name": "Dennis Aogo",
-        "country": "Germany",
+        "name": "Berkay Özcan",
+        "country": "Turkey",
         "team": "VfB Stuttgart",
-        "assists": "2",
-        "flag": "germany",
+        "assists": "3",
+        "flag": "turkey",
         "logo": "vfb_stuttgart"
     },
     {
         "rank": "-",
-        "name": "Charles Aránguiz",
-        "country": "Chile",
-        "team": "Bayer Leverkusen",
-        "assists": "2",
-        "flag": "chile",
-        "logo": "bayer_leverkusen"
+        "name": "Marvin Plattenhardt",
+        "country": "Germany",
+        "team": "Hertha BSC",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "hertha_bsc"
     },
     {
         "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "assists": "2",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
+        "name": "James Rodríguez",
+        "country": "Colombia",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "colombia",
+        "logo": "bayern_munchen"
     }
 ]
