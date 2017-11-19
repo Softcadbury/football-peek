@@ -13,70 +13,86 @@ var data = {
 };
 
 router.route('/').get((req, res) => {
-    res.render('pages/home', Object.assign(data, {
-        itemsMatches: getItemsMatches()
-    }));
+    res.render(
+        'pages/home',
+        Object.assign(data, {
+            competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition)),
+            leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition))
+        })
+    );
 });
 
-function getItemsMatches() {
+function getItemsMatches(filteredItems) {
     var dates = getHandledDates();
     var itemsMatches = [];
 
-    items.forEach(item => {
-        var matches = [];
-
+    filteredItems.forEach(item => {
         if (item.isCompetition) {
-            var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
-
-            tournamentData.forEach((round) => {
-                round.matches.forEach((matche) => {
-                    matches.push({
-                        date: matche.date1,
-                        score: matche.score1,
-                        homeTeam: matche.team1,
-                        awayTeam: matche.team2,
-                        homeTeamLogo: matche.team1Logo,
-                        awayTeamLogo: matche.team2Logo
-                    });
-
-                    if (dates.indexOf(matche.date2) !== -1) {
-                        matches.push({
-                            date: matche.date2,
-                            score: matche.score2,
-                            homeTeam: matche.team1,
-                            awayTeam: matche.team2,
-                            homeTeamLogo: matche.team1Logo,
-                            awayTeamLogo: matche.team2Logo
-                        });
-                    }
-                });
-            });
-
-            var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
-
-            groupsData.forEach((group) => {
-                group.matches.forEach((matche) => {
-                    if (dates.indexOf(matche.date) !== -1) {
-                        matches.push(matche);
-                    }
-                });
-            });
+            itemsMatches.push({ item, matches: getCompetitionMatches(item, dates) });
         } else {
-            var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
-
-            resultsData.forEach((result) => {
-                result.matches.forEach((matche) => {
-                    if (dates.indexOf(matche.date) !== -1) {
-                        matches.push(matche);
-                    }
-                });
-            });
+            itemsMatches.push({ item, matches: getLeagueMatches(item, dates) });
         }
-
-        itemsMatches.push({ item, matches });
     });
 
     return itemsMatches;
+}
+
+function getLeagueMatches(item, handledDates) {
+    var matches = [];
+
+    var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
+
+    resultsData.forEach(result => {
+        result.matches.forEach(matche => {
+            if (handledDates.indexOf(matche.date) !== -1) {
+                matches.push(matche);
+            }
+        });
+    });
+
+    return matches;
+}
+
+function getCompetitionMatches(item, handledDates) {
+    var matches = [];
+
+    var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
+
+    tournamentData.forEach(round => {
+        round.matches.forEach(matche => {
+            matches.push({
+                date: matche.date1,
+                score: matche.score1,
+                homeTeam: matche.team1,
+                awayTeam: matche.team2,
+                homeTeamLogo: matche.team1Logo,
+                awayTeamLogo: matche.team2Logo
+            });
+
+            if (handledDates.indexOf(matche.date2) !== -1) {
+                matches.push({
+                    date: matche.date2,
+                    score: matche.score2,
+                    homeTeam: matche.team1,
+                    awayTeam: matche.team2,
+                    homeTeamLogo: matche.team1Logo,
+                    awayTeamLogo: matche.team2Logo
+                });
+            }
+        });
+    });
+
+    var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+
+    groupsData.forEach(group => {
+        group.matches.forEach(matche => {
+            if (handledDates.indexOf(matche.date) !== -1) {
+                matches.push(matche);
+            }
+        });
+    });
+
+    return matches;
 }
 
 function getHandledDates() {

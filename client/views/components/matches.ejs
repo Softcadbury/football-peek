@@ -1,0 +1,26 @@
+<% if (itemsMatches.length) { %>
+<div class="card component">
+    <% itemsMatches.forEach((itemMatches) => { %>
+        
+            <h3 class="component-title"><%= itemMatches.item.name %></h3>
+            <table class="component-table">
+                <tbody>
+                    <% var currentDate; %>
+                    <% itemMatches.matches.forEach((matche) => { %>
+                        <%- include('../components/matche', {
+                            date: currentDate !== matche.date ? matche.date : '',
+                            score: matche.score,
+                            homeTeam: matche.homeTeam,
+                            awayTeam: matche.awayTeam,
+                            homeTeamLogo: matche.homeTeamLogo,
+                            awayTeamLogo: matche.awayTeamLogo 
+                        }); %>
+                        <% if (currentDate !== matche.date) {
+                            currentDate = matche.date;
+                        } %>
+                    <% }); %>
+                </tbody>
+            </table>
+    <% }); %>
+        </div>
+<% } %>
