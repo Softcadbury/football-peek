@@ -31,7 +31,7 @@
         "name": " Rodrigo",
         "country": "Spain",
         "team": "Valencia CF",
-        "goals": "6",
+        "goals": "7",
         "flag": "spain",
         "logo": "valencia_cf"
     },
@@ -40,17 +40,44 @@
         "name": "Antonio Sanabria",
         "country": "Paraguay",
         "team": "Real Betis",
-        "goals": "6",
+        "goals": "7",
         "flag": "paraguay",
         "logo": "real_betis"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Christian Stuani",
+        "country": "Uruguay",
+        "team": "Girona FC",
+        "goals": "7",
+        "flag": "uruguay",
+        "logo": "girona_fc"
+    },
+    {
+        "rank": "7.",
+        "name": " Ángel",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Celta Vigo",
-        "goals": "5",
+        "goals": "6",
         "flag": "uruguay",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "6",
+        "flag": "spain",
         "logo": "celta_vigo"
     },
     {
@@ -58,36 +85,36 @@
         "name": " Mikel Oyarzabal",
         "country": "Spain",
         "team": "Real Sociedad",
-        "goals": "5",
+        "goals": "6",
         "flag": "spain",
         "logo": "real_sociedad"
     },
     {
-        "rank": "-",
-        "name": "Christian Stuani",
+        "rank": "11.",
+        "name": "Luis Suárez",
         "country": "Uruguay",
-        "team": "Girona FC",
+        "team": "FC Barcelona",
         "goals": "5",
         "flag": "uruguay",
-        "logo": "girona_fc"
+        "logo": "fc_barcelona"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "13.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
         "goals": "4",
         "flag": "spain",
         "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Ángel",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "getafe_cf"
     },
     {
         "rank": "-",
@@ -118,65 +145,38 @@
     },
     {
         "rank": "-",
-        "name": " Iago Aspas",
+        "name": " Isco",
         "country": "Spain",
-        "team": "Celta Vigo",
+        "team": "Real Madrid",
         "goals": "4",
         "flag": "spain",
-        "logo": "celta_vigo"
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
-        "name": " Morales",
+        "name": " Lucas Pérez",
         "country": "Spain",
-        "team": "Levante UD",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": "Loïc Rémy",
-        "country": "France",
-        "team": "UD Las Palmas",
-        "goals": "4",
-        "flag": "france",
-        "logo": "ud_las_palmas"
-    },
-    {
-        "rank": "-",
-        "name": " Sergio León",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "18.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "goals": "3",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Celso Borges",
-        "country": "Costa Rica",
         "team": "Deportivo La Coruña",
-        "goals": "3",
-        "flag": "costa_rica",
+        "goals": "4",
+        "flag": "spain",
         "logo": "deportivo_la_coruna"
     },
     {
         "rank": "-",
-        "name": "Yannick Ferreira-Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
-        "goals": "3",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
+        "name": " Marco Asensio",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Molina",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "getafe_cf"
     }
 ]
