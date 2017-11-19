@@ -1,8 +1,9 @@
 <% if (itemsMatches.length) { %>
 <div class="card component">
-    <% itemsMatches.forEach((itemMatches) => { %>
-        
-            <h3 class="component-title"><%= itemMatches.item.name %></h3>
+    <% itemsMatches.forEach((itemMatches, index) => { %>        
+        <h3 class="<%= index === 0 ? 'component-title' : 'component-title-surrounded' %>">
+            <%= itemMatches.item.name %>
+        </h3>
             <table class="component-table">
                 <tbody>
                     <% var currentDate; %>
@@ -21,6 +22,6 @@
                     <% }); %>
                 </tbody>
             </table>
-    <% }); %>
-        </div>
+        <% }); %>
+    </div>
 <% } %>

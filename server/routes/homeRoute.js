@@ -13,9 +13,7 @@ var data = {
 };
 
 router.route('/').get((req, res) => {
-    res.render(
-        'pages/home',
-        Object.assign(data, {
+    res.render('pages/home', Object.assign(data, {
             competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition)),
             leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition))
         })
@@ -38,9 +36,8 @@ function getItemsMatches(filteredItems) {
 }
 
 function getLeagueMatches(item, handledDates) {
-    var matches = [];
-
     var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
+    var matches = [];
 
     resultsData.forEach(result => {
         result.matches.forEach(matche => {
@@ -54,9 +51,9 @@ function getLeagueMatches(item, handledDates) {
 }
 
 function getCompetitionMatches(item, handledDates) {
-    var matches = [];
-
     var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
+    var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+    var matches = [];
 
     tournamentData.forEach(round => {
         round.matches.forEach(matche => {
@@ -82,8 +79,6 @@ function getCompetitionMatches(item, handledDates) {
         });
     });
 
-    var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
-
     groupsData.forEach(group => {
         group.matches.forEach(matche => {
             if (handledDates.indexOf(matche.date) !== -1) {
@@ -96,9 +91,9 @@ function getCompetitionMatches(item, handledDates) {
 }
 
 function getHandledDates() {
-    var dates = [];
     var currentDate = new Date();
     var limitDate = 4;
+    var dates = [];
 
     for (var i = limitDate; i >= 1; i--) {
         dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate() - i))));

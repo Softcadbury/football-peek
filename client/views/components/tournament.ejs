@@ -1,8 +1,8 @@
 <% if (tournamentData.length) { %>
     <div class="card component">
-        <% tournamentData.forEach((round) => { %>
+        <% tournamentData.forEach((round, index) => { %>
             <% if (round.matches.length) { %>
-                <h3 class="<%= round.name === 'Final' ? 'component-title' : 'component-title-surrounded' %>">
+                <h3 class="<%= index === 0 ? 'component-title' : 'component-title-surrounded' %>">
                     <%= round.name %>
                 </h3>
             <% } %>
