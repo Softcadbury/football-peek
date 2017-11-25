@@ -927,6 +927,14 @@
         "round": 13,
         "matches": [
             {
+                "date": "24/11/2017",
+                "homeTeam": "Hannover 96",
+                "awayTeam": "VfB Stuttgart",
+                "score": "1:1",
+                "homeTeamLogo": "hannover_96",
+                "awayTeamLogo": "vfb_stuttgart"
+            },
+            {
                 "date": "25/11/2017",
                 "homeTeam": "Borussia Dortmund",
                 "awayTeam": "FC Schalke 04",
@@ -944,27 +952,11 @@
             },
             {
                 "date": "25/11/2017",
-                "homeTeam": "1. FC Köln",
-                "awayTeam": "Hertha BSC",
-                "score": "-:-",
-                "homeTeamLogo": "1__fc_koln",
-                "awayTeamLogo": "hertha_bsc"
-            },
-            {
-                "date": "25/11/2017",
                 "homeTeam": "SC Freiburg",
                 "awayTeam": "1. FSV Mainz 05",
                 "score": "-:-",
                 "homeTeamLogo": "sc_freiburg",
                 "awayTeamLogo": "1__fsv_mainz_05"
-            },
-            {
-                "date": "25/11/2017",
-                "homeTeam": "Bor. Mönchengladbach",
-                "awayTeam": "Bayern München",
-                "score": "-:-",
-                "homeTeamLogo": "bor__monchengladbach",
-                "awayTeamLogo": "bayern_munchen"
             },
             {
                 "date": "25/11/2017",
@@ -984,6 +976,14 @@
             },
             {
                 "date": "25/11/2017",
+                "homeTeam": "Bor. Mönchengladbach",
+                "awayTeam": "Bayern München",
+                "score": "-:-",
+                "homeTeamLogo": "bor__monchengladbach",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "26/11/2017",
                 "homeTeam": "Hamburger SV",
                 "awayTeam": "1899 Hoffenheim",
                 "score": "-:-",
@@ -991,12 +991,12 @@
                 "awayTeamLogo": "1899_hoffenheim"
             },
             {
-                "date": "25/11/2017",
-                "homeTeam": "Hannover 96",
-                "awayTeam": "VfB Stuttgart",
+                "date": "26/11/2017",
+                "homeTeam": "1. FC Köln",
+                "awayTeam": "Hertha BSC",
                 "score": "-:-",
-                "homeTeamLogo": "hannover_96",
-                "awayTeamLogo": "vfb_stuttgart"
+                "homeTeamLogo": "1__fc_koln",
+                "awayTeamLogo": "hertha_bsc"
             }
         ]
     },
