@@ -9,7 +9,8 @@
                     <% var currentDate; %>
                     <% itemMatches.matches.forEach((matche) => { %>
                         <%- include('../components/matche', {
-                            date: currentDate !== matche.date ? matche.date : '',
+                            currentDate: currentDate,
+                            date: matche.date,
                             score: matche.score,
                             homeTeam: matche.homeTeam,
                             awayTeam: matche.awayTeam,
