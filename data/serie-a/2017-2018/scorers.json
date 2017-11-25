@@ -10,21 +10,21 @@
     },
     {
         "rank": "2.",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
-        "goals": "11",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "11",
+        "goals": "13",
         "flag": "argentina",
         "logo": "inter"
+    },
+    {
+        "rank": "3.",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "12",
+        "flag": "argentina",
+        "logo": "juventus"
     },
     {
         "rank": "4.",
@@ -37,21 +37,21 @@
     },
     {
         "rank": "5.",
+        "name": "Gonzalo Higuaí­n",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "8",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "6.",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
         "goals": "7",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Gonzalo Higuaí­n",
-        "country": "Argentina",
-        "team": "Juventus",
-        "goals": "7",
-        "flag": "argentina",
-        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -99,7 +99,16 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "12.",
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Sampdoria",
+        "goals": "5",
+        "flag": "colombia",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "13.",
         "name": "Bryan Cristante",
         "country": "Italy",
         "team": "Atalanta",
@@ -124,6 +133,15 @@
         "goals": "4",
         "flag": "italy",
         "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": " João Pedro",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -153,30 +171,12 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "goals": "4",
-        "flag": "colombia",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "19.",
+        "rank": "20.",
         "name": " Bastos",
         "country": "Angola",
         "team": "Lazio Roma",
         "goals": "3",
         "flag": "angola",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Andrea Belotti",
-        "country": "Italy",
-        "team": "Torino FC",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "torino_fc"
     }
 ]
