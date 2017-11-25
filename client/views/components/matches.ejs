@@ -1,9 +1,11 @@
 <% if (itemsMatches.length) { %>
-<div class="card component">
-    <% itemsMatches.forEach((itemMatches, index) => { %>        
-        <h3 class="<%= index === 0 ? 'component-title' : 'component-title-surrounded' %>">
-            <%= itemMatches.item.name %>
-        </h3>
+    <div class="card component">
+        <% itemsMatches.forEach((itemMatches, index) => { %>        
+            <h3 class="<%= index === 0 ? 'component-title' : 'component-title-surrounded' %>">
+                <a href="/<%= itemMatches.item.code %>">
+                    <%= itemMatches.item.name %>
+                </a>
+            </h3>
             <table class="component-table">
                 <tbody>
                     <% var currentDate; %>
