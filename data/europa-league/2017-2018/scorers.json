@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": " André Silva",
+        "country": "Portugal",
+        "team": "AC Milan",
+        "goals": "6",
+        "flag": "portugal",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Emiliano Rigoni",
+        "country": "Argentina",
+        "team": "Zenit St. Petersburg",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "3.",
         "name": "Aleksandr Kokorin",
         "country": "Russia",
         "team": "Zenit St. Petersburg",
@@ -9,22 +27,31 @@
         "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "-",
-        "name": "Emiliano Rigoni",
-        "country": "Argentina",
-        "team": "Zenit St. Petersburg",
-        "goals": "5",
-        "flag": "argentina",
-        "logo": "zenit_st__petersburg"
+        "rank": "4.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
     },
     {
-        "rank": "3.",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "AC Milan",
+        "rank": "-",
+        "name": "Mario Balotelli",
+        "country": "Italy",
+        "team": "OGC Nice",
         "goals": "4",
-        "flag": "portugal",
-        "logo": "ac_milan"
+        "flag": "italy",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": " Fransérgio",
+        "country": "Brazil",
+        "team": "Sporting Braga",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "sporting_braga"
     },
     {
         "rank": "-",
@@ -37,6 +64,24 @@
     },
     {
         "rank": "-",
+        "name": "Davie Selke",
+        "country": "Germany",
+        "team": "Hertha BSC",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Patrick Twumasi",
+        "country": "Ghana",
+        "team": "FK Astana",
+        "goals": "4",
+        "flag": "ghana",
+        "logo": "fk_astana"
+    },
+    {
+        "rank": "-",
         "name": " Willian José",
         "country": "Brazil",
         "team": "Real Sociedad",
@@ -45,13 +90,22 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "6.",
+        "rank": "11.",
         "name": "Roger Assalé",
         "country": "Ivory Coast",
         "team": "BSC Young Boys",
         "goals": "3",
         "flag": "ivory_coast",
         "logo": "bsc_young_boys"
+    },
+    {
+        "rank": "-",
+        "name": "Cédric Bakambu",
+        "country": "Congo DR",
+        "team": "Villarreal CF",
+        "goals": "3",
+        "flag": "congo_dr",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -64,6 +118,42 @@
     },
     {
         "rank": "-",
+        "name": "Bryan Cristante",
+        "country": "Italy",
+        "team": "Atalanta",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Patrick Cutrone",
+        "country": "Italy",
+        "team": "AC Milan",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Munas Dabbur",
+        "country": "Israel",
+        "team": "RB Salzburg",
+        "goals": "3",
+        "flag": "israel",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
+        "name": "Jefferson Farfán",
+        "country": "Peru",
+        "team": "Lokomotiv Moskva",
+        "goals": "3",
+        "flag": "peru",
+        "logo": "lokomotiv_moskva"
+    },
+    {
+        "rank": "-",
         "name": " Júnior Moraes",
         "country": "Brazil",
         "team": "Dinamo Kiev",
@@ -73,110 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Junior Kabananga",
+        "country": "Congo DR",
+        "team": "FK Astana",
+        "goals": "3",
+        "flag": "congo_dr",
+        "logo": "fk_astana"
+    },
+    {
+        "rank": "-",
         "name": "Michal Krmenčík",
         "country": "Czech Republic",
         "team": "Viktoria Plzeň",
         "goals": "3",
         "flag": "czech_republic",
         "logo": "viktoria_plze_"
-    },
-    {
-        "rank": "-",
-        "name": " Llorente",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Manuel Fernandes",
-        "country": "Portugal",
-        "team": "Lokomotiv Moskva",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "lokomotiv_moskva"
-    },
-    {
-        "rank": "-",
-        "name": "Davie Selke",
-        "country": "Germany",
-        "team": "Hertha BSC",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Bertrand Traoré",
-        "country": "Burkina Faso",
-        "team": "Olympique Lyon",
-        "goals": "3",
-        "flag": "burkina_faso",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Twumasi",
-        "country": "Ghana",
-        "team": "FK Astana",
-        "goals": "3",
-        "flag": "ghana",
-        "logo": "fk_astana"
-    },
-    {
-        "rank": "15.",
-        "name": " Adrián Sardinero",
-        "country": "Spain",
-        "team": "Apollon Limassol",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "apollon_limassol"
-    },
-    {
-        "rank": "-",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Ziguy Badibanga",
-        "country": "Belgium",
-        "team": "FC Sheriff",
-        "goals": "2",
-        "flag": "belgium",
-        "logo": "fc_sheriff"
-    },
-    {
-        "rank": "-",
-        "name": "Marek Bakoš",
-        "country": "Slovakia",
-        "team": "Viktoria Plzeň",
-        "goals": "2",
-        "flag": "slovakia",
-        "logo": "viktoria_plze_"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Balotelli",
-        "country": "Italy",
-        "team": "OGC Nice",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "ogc_nice"
     }
 ]

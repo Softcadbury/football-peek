@@ -28,10 +28,10 @@
     {
         "rank": "3",
         "team": "Olympique Lyon",
-        "points": "25",
-        "played": "12",
+        "points": "26",
+        "played": "13",
         "win": "7",
-        "draw": "4",
+        "draw": "5",
         "lost": "1",
         "goalsFor": "32",
         "goalsAgainst": "15",
@@ -41,13 +41,13 @@
     {
         "rank": "4",
         "team": "Olympique Marseille",
-        "points": "24",
-        "played": "12",
+        "points": "25",
+        "played": "13",
         "win": "7",
-        "draw": "3",
+        "draw": "4",
         "lost": "2",
-        "goalsFor": "26",
-        "goalsAgainst": "17",
+        "goalsFor": "27",
+        "goalsAgainst": "18",
         "goalDifference": "9",
         "logo": "olympique_marseille"
     },
@@ -66,6 +66,19 @@
     },
     {
         "rank": "6",
+        "team": "AS Saint-Étienne",
+        "points": "19",
+        "played": "14",
+        "win": "5",
+        "draw": "4",
+        "lost": "5",
+        "goalsFor": "16",
+        "goalsAgainst": "20",
+        "goalDifference": "-4",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "7",
         "team": "SM Caen",
         "points": "19",
         "played": "13",
@@ -78,25 +91,12 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "7",
-        "team": "AS Saint-Étienne",
-        "points": "18",
-        "played": "13",
-        "win": "5",
-        "draw": "3",
-        "lost": "5",
-        "goalsFor": "14",
-        "goalsAgainst": "18",
-        "goalDifference": "-4",
-        "logo": "as_saint_etienne"
-    },
-    {
         "rank": "8",
         "team": "Montpellier HSC",
-        "points": "16",
-        "played": "12",
+        "points": "17",
+        "played": "13",
         "win": "4",
-        "draw": "4",
+        "draw": "5",
         "lost": "4",
         "goalsFor": "9",
         "goalsAgainst": "8",
@@ -106,13 +106,13 @@
     {
         "rank": "9",
         "team": "Girondins Bordeaux",
-        "points": "16",
-        "played": "12",
+        "points": "17",
+        "played": "13",
         "win": "4",
-        "draw": "4",
+        "draw": "5",
         "lost": "4",
-        "goalsFor": "16",
-        "goalsAgainst": "18",
+        "goalsFor": "17",
+        "goalsAgainst": "19",
         "goalDifference": "-2",
         "logo": "girondins_bordeaux"
     },
@@ -144,6 +144,19 @@
     },
     {
         "rank": "12",
+        "team": "Amiens SC",
+        "points": "15",
+        "played": "13",
+        "win": "4",
+        "draw": "3",
+        "lost": "6",
+        "goalsFor": "11",
+        "goalsAgainst": "14",
+        "goalDifference": "-3",
+        "logo": "amiens_sc"
+    },
+    {
+        "rank": "13",
         "team": "Dijon FCO",
         "points": "15",
         "played": "13",
@@ -156,7 +169,7 @@
         "logo": "dijon_fco"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "ESTAC Troyes",
         "points": "15",
         "played": "13",
@@ -169,7 +182,7 @@
         "logo": "estac_troyes"
     },
     {
-        "rank": "14",
+        "rank": "15",
         "team": "EA Guingamp",
         "points": "15",
         "played": "13",
@@ -182,7 +195,7 @@
         "logo": "ea_guingamp"
     },
     {
-        "rank": "15",
+        "rank": "16",
         "team": "Angers SCO",
         "points": "14",
         "played": "13",
@@ -195,7 +208,7 @@
         "logo": "angers_sco"
     },
     {
-        "rank": "16",
+        "rank": "17",
         "team": "OGC Nice",
         "points": "14",
         "played": "13",
@@ -208,43 +221,30 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "RC Strasbourg",
-        "points": "13",
-        "played": "13",
+        "points": "14",
+        "played": "14",
         "win": "3",
-        "draw": "4",
+        "draw": "5",
         "lost": "6",
-        "goalsFor": "15",
-        "goalsAgainst": "24",
+        "goalsFor": "17",
+        "goalsAgainst": "26",
         "goalDifference": "-9",
         "logo": "rc_strasbourg"
     },
     {
-        "rank": "18",
+        "rank": "19",
         "team": "Lille OSC",
         "points": "12",
-        "played": "12",
+        "played": "13",
         "win": "3",
         "draw": "3",
-        "lost": "6",
+        "lost": "7",
         "goalsFor": "12",
-        "goalsAgainst": "16",
-        "goalDifference": "-4",
+        "goalsAgainst": "19",
+        "goalDifference": "-7",
         "logo": "lille_osc"
-    },
-    {
-        "rank": "19",
-        "team": "Amiens SC",
-        "points": "12",
-        "played": "12",
-        "win": "3",
-        "draw": "3",
-        "lost": "6",
-        "goalsFor": "8",
-        "goalsAgainst": "14",
-        "goalDifference": "-6",
-        "logo": "amiens_sc"
     },
     {
         "rank": "20",

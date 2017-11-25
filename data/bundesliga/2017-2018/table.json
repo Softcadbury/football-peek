@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "FC Schalke 04",
+        "points": "23",
+        "played": "12",
+        "win": "7",
+        "draw": "2",
+        "lost": "3",
+        "goalsFor": "16",
+        "goalsAgainst": "10",
+        "goalDifference": "6",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "3",
         "team": "RB Leipzig",
         "points": "23",
         "played": "12",
@@ -26,7 +39,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "3",
+        "rank": "4",
         "team": "Bor. Mönchengladbach",
         "points": "21",
         "played": "12",
@@ -39,7 +52,7 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "4",
+        "rank": "5",
         "team": "Borussia Dortmund",
         "points": "20",
         "played": "12",
@@ -52,7 +65,7 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "5",
+        "rank": "6",
         "team": "1899 Hoffenheim",
         "points": "20",
         "played": "12",
@@ -63,19 +76,6 @@
         "goalsAgainst": "15",
         "goalDifference": "6",
         "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "6",
-        "team": "FC Schalke 04",
-        "points": "20",
-        "played": "11",
-        "win": "6",
-        "draw": "2",
-        "lost": "3",
-        "goalsFor": "14",
-        "goalsAgainst": "10",
-        "goalDifference": "4",
-        "logo": "fc_schalke_04"
     },
     {
         "rank": "7",
@@ -93,14 +93,14 @@
     {
         "rank": "8",
         "team": "Hannover 96",
-        "points": "18",
-        "played": "11",
+        "points": "19",
+        "played": "13",
         "win": "5",
-        "draw": "3",
-        "lost": "3",
-        "goalsFor": "15",
-        "goalsAgainst": "11",
-        "goalDifference": "4",
+        "draw": "4",
+        "lost": "4",
+        "goalsFor": "16",
+        "goalsAgainst": "16",
+        "goalDifference": "0",
         "logo": "hannover_96"
     },
     {
@@ -118,6 +118,19 @@
     },
     {
         "rank": "10",
+        "team": "VfB Stuttgart",
+        "points": "17",
+        "played": "13",
+        "win": "5",
+        "draw": "2",
+        "lost": "6",
+        "goalsFor": "13",
+        "goalsAgainst": "16",
+        "goalDifference": "-3",
+        "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "11",
         "team": "FC Augsburg",
         "points": "16",
         "played": "12",
@@ -128,19 +141,6 @@
         "goalsAgainst": "14",
         "goalDifference": "2",
         "logo": "fc_augsburg"
-    },
-    {
-        "rank": "11",
-        "team": "VfB Stuttgart",
-        "points": "16",
-        "played": "12",
-        "win": "5",
-        "draw": "1",
-        "lost": "6",
-        "goalsFor": "12",
-        "goalsAgainst": "15",
-        "goalDifference": "-3",
-        "logo": "vfb_stuttgart"
     },
     {
         "rank": "12",
@@ -185,17 +185,30 @@
         "rank": "15",
         "team": "Hamburger SV",
         "points": "10",
-        "played": "11",
+        "played": "12",
         "win": "3",
         "draw": "1",
-        "lost": "7",
+        "lost": "8",
         "goalsFor": "10",
-        "goalsAgainst": "18",
-        "goalDifference": "-8",
+        "goalsAgainst": "20",
+        "goalDifference": "-10",
         "logo": "hamburger_sv"
     },
     {
         "rank": "16",
+        "team": "Werder Bremen",
+        "points": "8",
+        "played": "12",
+        "win": "1",
+        "draw": "5",
+        "lost": "6",
+        "goalsFor": "8",
+        "goalsAgainst": "14",
+        "goalDifference": "-6",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "17",
         "team": "SC Freiburg",
         "points": "8",
         "played": "12",
@@ -206,19 +219,6 @@
         "goalsAgainst": "24",
         "goalDifference": "-17",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "17",
-        "team": "Werder Bremen",
-        "points": "5",
-        "played": "11",
-        "win": "0",
-        "draw": "5",
-        "lost": "6",
-        "goalsFor": "4",
-        "goalsAgainst": "14",
-        "goalDifference": "-10",
-        "logo": "werder_bremen"
     },
     {
         "rank": "18",

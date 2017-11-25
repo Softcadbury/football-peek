@@ -63,7 +63,8 @@
                         <% var currentDate; %>
                         <% group.matches.forEach((matche) => { %>
                             <%- include('matche', {
-                                date: currentDate !== matche.date ? matche.date : '',
+                                currentDate: currentDate,
+                                date: matche.date,
                                 score: matche.score,
                                 homeTeam: matche.homeTeam,
                                 awayTeam: matche.awayTeam,

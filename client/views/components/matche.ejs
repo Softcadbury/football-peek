@@ -1,7 +1,7 @@
-<%/* model: { date, score, homeTeam, awayTeam, homeTeamLogo, awayTeamLogo } */%>
+<%/* model: { currentDate, date, score, homeTeam, awayTeam, homeTeamLogo, awayTeamLogo } */%>
 <tr>
     <td class="data-date data-responsive-hide">
-        <%= date %>
+        <%= currentDate !== date ? date : '' %>
     </td>
     <td class="align-to-right">
         <span title="<%= homeTeam %>">
