@@ -13,7 +13,7 @@
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
-        "assists": "6",
+        "assists": "7",
         "flag": "spain",
         "logo": "lazio_roma"
     },
@@ -22,7 +22,7 @@
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
-        "assists": "5",
+        "assists": "6",
         "flag": "italy",
         "logo": "inter"
     },
@@ -31,12 +31,12 @@
         "name": "Ivan Perišić",
         "country": "Croatia",
         "team": "Inter",
-        "assists": "5",
+        "assists": "6",
         "flag": "croatia",
         "logo": "inter"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Miralem Pjanić",
         "country": "Bosnia-Herzegovina",
         "team": "Juventus",
@@ -145,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Simone Verdi",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
         "name": "Duván Zapata",
         "country": "Colombia",
         "team": "Sampdoria",
@@ -153,7 +162,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "18.",
+        "rank": "19.",
         "name": " Alex Sandro",
         "country": "Brazil",
         "team": "Juventus",
@@ -169,14 +178,5 @@
         "assists": "3",
         "flag": "italy",
         "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Federico Chiesa",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
     }
 ]

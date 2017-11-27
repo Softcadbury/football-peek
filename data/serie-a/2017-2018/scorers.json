@@ -1,21 +1,21 @@
 [
     {
         "rank": "1.",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "15",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
         "goals": "15",
         "flag": "italy",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "2.",
-        "name": "Mauro Icardi",
-        "country": "Argentina",
-        "team": "Inter",
-        "goals": "13",
-        "flag": "argentina",
-        "logo": "inter"
     },
     {
         "rank": "3.",
@@ -64,6 +64,15 @@
     },
     {
         "rank": "8.",
+        "name": "Roberto Inglese",
+        "country": "Italy",
+        "team": "Chievo Verona",
+        "goals": "6",
+        "flag": "italy",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
         "name": "Cyril Théréau",
         "country": "France",
         "team": "ACF Fiorentina",
@@ -72,7 +81,7 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": " Iago Falqué",
         "country": "Spain",
         "team": "Torino FC",
@@ -108,7 +117,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Bryan Cristante",
         "country": "Italy",
         "team": "Atalanta",
@@ -118,12 +127,12 @@
     },
     {
         "rank": "-",
-        "name": "Roberto Inglese",
+        "name": "Stephan El Shaarawy",
         "country": "Italy",
-        "team": "Chievo Verona",
+        "team": "AS Roma",
         "goals": "4",
         "flag": "italy",
-        "logo": "chievo_verona"
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "4",
         "flag": "argentina",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "20.",
-        "name": " Bastos",
-        "country": "Angola",
-        "team": "Lazio Roma",
-        "goals": "3",
-        "flag": "angola",
-        "logo": "lazio_roma"
     }
 ]

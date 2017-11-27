@@ -9,22 +9,22 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Philipp Max",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "3.",
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
         "assists": "5",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Philipp Max",
-        "country": "Germany",
-        "team": "FC Augsburg",
-        "assists": "5",
-        "flag": "germany",
-        "logo": "fc_augsburg"
     },
     {
         "rank": "4.",
@@ -46,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Yevhen Konoplyanka",
+        "country": "Ukraine",
+        "team": "FC Schalke 04",
+        "assists": "4",
+        "flag": "ukraine",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
         "name": "Levin Öztunali",
         "country": "Germany",
         "team": "1. FSV Mainz 05",
@@ -63,7 +72,16 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Borussia Dortmund",
+        "assists": "3",
+        "flag": "gabon",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Jean-Kévin Augustin",
         "country": "France",
         "team": "RB Leipzig",
@@ -91,12 +109,39 @@
     },
     {
         "rank": "-",
+        "name": "Daniel Brosinski",
+        "country": "Germany",
+        "team": "1. FSV Mainz 05",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
         "name": "Mahmoud Dahoud",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "assists": "3",
         "flag": "germany",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Dennis Diekmeier",
+        "country": "Germany",
+        "team": "Hamburger SV",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "hamburger_sv"
+    },
+    {
+        "rank": "-",
+        "name": "Alfreð Finnbogason",
+        "country": "Iceland",
+        "team": "FC Augsburg",
+        "assists": "3",
+        "flag": "iceland",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -133,50 +178,5 @@
         "assists": "3",
         "flag": "brazil",
         "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "assists": "3",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Berkay Özcan",
-        "country": "Turkey",
-        "team": "VfB Stuttgart",
-        "assists": "3",
-        "flag": "turkey",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Marvin Plattenhardt",
-        "country": "Germany",
-        "team": "Hertha BSC",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "James Rodríguez",
-        "country": "Colombia",
-        "team": "Bayern München",
-        "assists": "3",
-        "flag": "colombia",
-        "logo": "bayern_munchen"
     }
 ]

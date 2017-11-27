@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Cédric Bakambu",
+        "country": "Congo DR",
+        "team": "Villarreal CF",
+        "goals": "9",
+        "flag": "congo_dr",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
         "name": "Simone Zaza",
         "country": "Italy",
         "team": "Valencia CF",
@@ -18,31 +27,22 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "3.",
-        "name": "Cédric Bakambu",
-        "country": "Congo DR",
-        "team": "Villarreal CF",
+        "rank": "4.",
+        "name": " Rodrigo",
+        "country": "Spain",
+        "team": "Valencia CF",
         "goals": "8",
-        "flag": "congo_dr",
-        "logo": "villarreal_cf"
+        "flag": "spain",
+        "logo": "valencia_cf"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
         "goals": "7",
         "flag": "spain",
         "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": " Rodrigo",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -90,13 +90,40 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "12.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
         "goals": "5",
         "flag": "spain",
         "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": " Charles",
+        "country": "Brazil",
+        "team": "SD Eibar",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Portu",
+        "country": "Spain",
+        "team": "Girona FC",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "girona_fc"
     },
     {
         "rank": "-",
@@ -117,31 +144,22 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "real_sociedad"
+        "rank": "17.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "Villarreal CF",
+        "goals": "4",
+        "flag": "colombia",
+        "logo": "villarreal_cf"
     },
     {
-        "rank": "15.",
+        "rank": "-",
         "name": "Enis Bardhi",
         "country": "Macedonia",
         "team": "Levante UD",
         "goals": "4",
         "flag": "macedonia",
         "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": " Charles",
-        "country": "Brazil",
-        "team": "SD Eibar",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "sd_eibar"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "4",
         "flag": "spain",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Isco",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Lucas Pérez",
-        "country": "Spain",
-        "team": "Deportivo La Coruña",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "deportivo_la_coruna"
     }
 ]

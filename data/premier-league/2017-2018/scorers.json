@@ -4,7 +4,7 @@
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "9",
+        "goals": "10",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -13,17 +13,8 @@
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "8",
+        "goals": "9",
         "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "8",
-        "flag": "brazil",
         "logo": "manchester_city"
     },
     {
@@ -31,9 +22,18 @@
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "8",
+        "goals": "9",
         "flag": "england",
         "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "4.",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "8",
+        "flag": "brazil",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -54,11 +54,11 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "7.",
+        "rank": "-",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
-        "goals": "7",
+        "goals": "8",
         "flag": "england",
         "logo": "manchester_city"
     },

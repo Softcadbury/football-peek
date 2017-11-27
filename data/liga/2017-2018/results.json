@@ -1034,7 +1034,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "CD Alavés",
                 "awayTeam": "SD Eibar",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "cd_alaves",
                 "awayTeamLogo": "sd_eibar"
             },
@@ -1042,7 +1042,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Real Madrid",
                 "awayTeam": "Málaga CF",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "real_madrid",
                 "awayTeamLogo": "malaga_cf"
             },
@@ -1050,7 +1050,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Real Betis",
                 "awayTeam": "Girona FC",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "real_betis",
                 "awayTeamLogo": "girona_fc"
             },
@@ -1058,7 +1058,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Levante UD",
                 "awayTeam": "Atlético Madrid",
-                "score": "-:-",
+                "score": "0:5",
                 "homeTeamLogo": "levante_ud",
                 "awayTeamLogo": "atletico_madrid"
             },
@@ -1066,7 +1066,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "Deportivo La Coruña",
                 "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "deportivo_la_coruna",
                 "awayTeamLogo": "athletic_bilbao"
             },
@@ -1074,7 +1074,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "UD Las Palmas",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "real_sociedad",
                 "awayTeamLogo": "ud_las_palmas"
             },
@@ -1082,7 +1082,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "Sevilla FC",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "villarreal_cf",
                 "awayTeamLogo": "sevilla_fc"
             },
@@ -1090,7 +1090,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "Valencia CF",
                 "awayTeam": "FC Barcelona",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "valencia_cf",
                 "awayTeamLogo": "fc_barcelona"
             },
@@ -1108,23 +1108,15 @@
         "round": 14,
         "matches": [
             {
-                "date": "03/12/2017",
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Real Madrid",
+                "date": "01/12/2017",
+                "homeTeam": "Málaga CF",
+                "awayTeam": "Levante UD",
                 "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "real_madrid"
+                "homeTeamLogo": "malaga_cf",
+                "awayTeamLogo": "levante_ud"
             },
             {
-                "date": "03/12/2017",
-                "homeTeam": "Atlético Madrid",
-                "awayTeam": "Real Sociedad",
-                "score": "-:-",
-                "homeTeamLogo": "atletico_madrid",
-                "awayTeamLogo": "real_sociedad"
-            },
-            {
-                "date": "03/12/2017",
+                "date": "02/12/2017",
                 "homeTeam": "FC Barcelona",
                 "awayTeam": "Celta Vigo",
                 "score": "-:-",
@@ -1132,36 +1124,28 @@
                 "awayTeamLogo": "celta_vigo"
             },
             {
-                "date": "03/12/2017",
-                "homeTeam": "SD Eibar",
-                "awayTeam": "Espanyol Barcelona",
+                "date": "02/12/2017",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Real Sociedad",
                 "score": "-:-",
-                "homeTeamLogo": "sd_eibar",
-                "awayTeamLogo": "espanyol_barcelona"
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "real_sociedad"
             },
             {
-                "date": "03/12/2017",
-                "homeTeam": "Getafe CF",
-                "awayTeam": "Valencia CF",
+                "date": "02/12/2017",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Deportivo La Coruña",
                 "score": "-:-",
-                "homeTeamLogo": "getafe_cf",
-                "awayTeamLogo": "valencia_cf"
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "deportivo_la_coruna"
             },
             {
-                "date": "03/12/2017",
-                "homeTeam": "Girona FC",
-                "awayTeam": "CD Alavés",
+                "date": "02/12/2017",
+                "homeTeam": "Athletic Bilbao",
+                "awayTeam": "Real Madrid",
                 "score": "-:-",
-                "homeTeamLogo": "girona_fc",
-                "awayTeamLogo": "cd_alaves"
-            },
-            {
-                "date": "03/12/2017",
-                "homeTeam": "UD Las Palmas",
-                "awayTeam": "Real Betis",
-                "score": "-:-",
-                "homeTeamLogo": "ud_las_palmas",
-                "awayTeamLogo": "real_betis"
+                "homeTeamLogo": "athletic_bilbao",
+                "awayTeamLogo": "real_madrid"
             },
             {
                 "date": "03/12/2017",
@@ -1173,19 +1157,35 @@
             },
             {
                 "date": "03/12/2017",
-                "homeTeam": "Málaga CF",
-                "awayTeam": "Levante UD",
+                "homeTeam": "Getafe CF",
+                "awayTeam": "Valencia CF",
                 "score": "-:-",
-                "homeTeamLogo": "malaga_cf",
-                "awayTeamLogo": "levante_ud"
+                "homeTeamLogo": "getafe_cf",
+                "awayTeamLogo": "valencia_cf"
             },
             {
                 "date": "03/12/2017",
-                "homeTeam": "Sevilla FC",
-                "awayTeam": "Deportivo La Coruña",
+                "homeTeam": "SD Eibar",
+                "awayTeam": "Espanyol Barcelona",
                 "score": "-:-",
-                "homeTeamLogo": "sevilla_fc",
-                "awayTeamLogo": "deportivo_la_coruna"
+                "homeTeamLogo": "sd_eibar",
+                "awayTeamLogo": "espanyol_barcelona"
+            },
+            {
+                "date": "03/12/2017",
+                "homeTeam": "UD Las Palmas",
+                "awayTeam": "Real Betis",
+                "score": "-:-",
+                "homeTeamLogo": "ud_las_palmas",
+                "awayTeamLogo": "real_betis"
+            },
+            {
+                "date": "04/12/2017",
+                "homeTeam": "Girona FC",
+                "awayTeam": "CD Alavés",
+                "score": "-:-",
+                "homeTeamLogo": "girona_fc",
+                "awayTeamLogo": "cd_alaves"
             }
         ]
     },

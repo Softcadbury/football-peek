@@ -1119,7 +1119,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Stade Rennes",
                 "awayTeam": "FC Nantes",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "stade_rennes",
                 "awayTeamLogo": "fc_nantes"
             },
@@ -1127,7 +1127,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Dijon FCO",
                 "awayTeam": "Toulouse FC",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "dijon_fco",
                 "awayTeamLogo": "toulouse_fc"
             },
@@ -1135,7 +1135,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "ESTAC Troyes",
                 "awayTeam": "Angers SCO",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "estac_troyes",
                 "awayTeamLogo": "angers_sco"
             },
@@ -1143,7 +1143,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "FC Metz",
                 "awayTeam": "Amiens SC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "fc_metz",
                 "awayTeamLogo": "amiens_sc"
             },
@@ -1151,7 +1151,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Montpellier HSC",
                 "awayTeam": "Lille OSC",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "montpellier_hsc",
                 "awayTeamLogo": "lille_osc"
             },
@@ -1159,7 +1159,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "SM Caen",
                 "awayTeam": "Girondins Bordeaux",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sm_caen",
                 "awayTeamLogo": "girondins_bordeaux"
             },
@@ -1167,7 +1167,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "Olympique Lyon",
-                "score": "-:-",
+                "score": "0:5",
                 "homeTeamLogo": "ogc_nice",
                 "awayTeamLogo": "olympique_lyon"
             },
@@ -1175,7 +1175,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "Olympique Marseille",
                 "awayTeam": "EA Guingamp",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "olympique_marseille",
                 "awayTeamLogo": "ea_guingamp"
             },
@@ -1183,7 +1183,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "AS Monaco",
                 "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "as_monaco",
                 "awayTeamLogo": "paris_saint_germain"
             }
@@ -1192,6 +1192,30 @@
     {
         "round": 15,
         "matches": [
+            {
+                "date": "28/11/2017",
+                "homeTeam": "RC Strasbourg",
+                "awayTeam": "SM Caen",
+                "score": "-:-",
+                "homeTeamLogo": "rc_strasbourg",
+                "awayTeamLogo": "sm_caen"
+            },
+            {
+                "date": "28/11/2017",
+                "homeTeam": "Amiens SC",
+                "awayTeam": "Dijon FCO",
+                "score": "-:-",
+                "homeTeamLogo": "amiens_sc",
+                "awayTeamLogo": "dijon_fco"
+            },
+            {
+                "date": "28/11/2017",
+                "homeTeam": "Girondins Bordeaux",
+                "awayTeam": "AS Saint-Étienne",
+                "score": "-:-",
+                "homeTeamLogo": "girondins_bordeaux",
+                "awayTeamLogo": "as_saint_etienne"
+            },
             {
                 "date": "29/11/2017",
                 "homeTeam": "EA Guingamp",
@@ -1226,14 +1250,6 @@
             },
             {
                 "date": "29/11/2017",
-                "homeTeam": "Girondins Bordeaux",
-                "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
-                "homeTeamLogo": "girondins_bordeaux",
-                "awayTeamLogo": "as_saint_etienne"
-            },
-            {
-                "date": "29/11/2017",
                 "homeTeam": "Olympique Lyon",
                 "awayTeam": "Lille OSC",
                 "score": "-:-",
@@ -1242,35 +1258,19 @@
             },
             {
                 "date": "29/11/2017",
-                "homeTeam": "Paris Saint-Germain",
-                "awayTeam": "ESTAC Troyes",
-                "score": "-:-",
-                "homeTeamLogo": "paris_saint_germain",
-                "awayTeamLogo": "estac_troyes"
-            },
-            {
-                "date": "29/11/2017",
-                "homeTeam": "RC Strasbourg",
-                "awayTeam": "SM Caen",
-                "score": "-:-",
-                "homeTeamLogo": "rc_strasbourg",
-                "awayTeamLogo": "sm_caen"
-            },
-            {
-                "date": "29/11/2017",
-                "homeTeam": "Amiens SC",
-                "awayTeam": "Dijon FCO",
-                "score": "-:-",
-                "homeTeamLogo": "amiens_sc",
-                "awayTeamLogo": "dijon_fco"
-            },
-            {
-                "date": "29/11/2017",
                 "homeTeam": "Angers SCO",
                 "awayTeam": "Stade Rennes",
                 "score": "-:-",
                 "homeTeamLogo": "angers_sco",
                 "awayTeamLogo": "stade_rennes"
+            },
+            {
+                "date": "29/11/2017",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "ESTAC Troyes",
+                "score": "-:-",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "estac_troyes"
             }
         ]
     },

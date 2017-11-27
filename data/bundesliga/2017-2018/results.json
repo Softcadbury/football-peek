@@ -938,7 +938,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Borussia Dortmund",
                 "awayTeam": "FC Schalke 04",
-                "score": "-:-",
+                "score": "4:4",
                 "homeTeamLogo": "borussia_dortmund",
                 "awayTeamLogo": "fc_schalke_04"
             },
@@ -946,7 +946,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "RB Leipzig",
                 "awayTeam": "Werder Bremen",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "rb_leipzig",
                 "awayTeamLogo": "werder_bremen"
             },
@@ -954,7 +954,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "SC Freiburg",
                 "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "sc_freiburg",
                 "awayTeamLogo": "1__fsv_mainz_05"
             },
@@ -962,7 +962,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Eintracht Frankfurt",
                 "awayTeam": "Bayer Leverkusen",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "eintracht_frankfurt",
                 "awayTeamLogo": "bayer_leverkusen"
             },
@@ -970,7 +970,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "FC Augsburg",
                 "awayTeam": "VfL Wolfsburg",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "fc_augsburg",
                 "awayTeamLogo": "vfl_wolfsburg"
             },
@@ -978,7 +978,7 @@
                 "date": "25/11/2017",
                 "homeTeam": "Bor. Mönchengladbach",
                 "awayTeam": "Bayern München",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "bor__monchengladbach",
                 "awayTeamLogo": "bayern_munchen"
             },
@@ -986,7 +986,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "Hamburger SV",
                 "awayTeam": "1899 Hoffenheim",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "hamburger_sv",
                 "awayTeamLogo": "1899_hoffenheim"
             },
@@ -994,7 +994,7 @@
                 "date": "26/11/2017",
                 "homeTeam": "1. FC Köln",
                 "awayTeam": "Hertha BSC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "1__fc_koln",
                 "awayTeamLogo": "hertha_bsc"
             }
@@ -1003,6 +1003,14 @@
     {
         "round": 14,
         "matches": [
+            {
+                "date": "01/12/2017",
+                "homeTeam": "SC Freiburg",
+                "awayTeam": "Hamburger SV",
+                "score": "-:-",
+                "homeTeamLogo": "sc_freiburg",
+                "awayTeamLogo": "hamburger_sv"
+            },
             {
                 "date": "02/12/2017",
                 "homeTeam": "Bayern München",
@@ -1021,35 +1029,11 @@
             },
             {
                 "date": "02/12/2017",
-                "homeTeam": "Hertha BSC",
-                "awayTeam": "Eintracht Frankfurt",
-                "score": "-:-",
-                "homeTeamLogo": "hertha_bsc",
-                "awayTeamLogo": "eintracht_frankfurt"
-            },
-            {
-                "date": "02/12/2017",
-                "homeTeam": "SC Freiburg",
-                "awayTeam": "Hamburger SV",
-                "score": "-:-",
-                "homeTeamLogo": "sc_freiburg",
-                "awayTeamLogo": "hamburger_sv"
-            },
-            {
-                "date": "02/12/2017",
                 "homeTeam": "Werder Bremen",
                 "awayTeam": "VfB Stuttgart",
                 "score": "-:-",
                 "homeTeamLogo": "werder_bremen",
                 "awayTeamLogo": "vfb_stuttgart"
-            },
-            {
-                "date": "02/12/2017",
-                "homeTeam": "FC Schalke 04",
-                "awayTeam": "1. FC Köln",
-                "score": "-:-",
-                "homeTeamLogo": "fc_schalke_04",
-                "awayTeamLogo": "1__fc_koln"
             },
             {
                 "date": "02/12/2017",
@@ -1069,6 +1053,22 @@
             },
             {
                 "date": "02/12/2017",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "1. FC Köln",
+                "score": "-:-",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "1__fc_koln"
+            },
+            {
+                "date": "03/12/2017",
+                "homeTeam": "Hertha BSC",
+                "awayTeam": "Eintracht Frankfurt",
+                "score": "-:-",
+                "homeTeamLogo": "hertha_bsc",
+                "awayTeamLogo": "eintracht_frankfurt"
+            },
+            {
+                "date": "03/12/2017",
                 "homeTeam": "VfL Wolfsburg",
                 "awayTeam": "Bor. Mönchengladbach",
                 "score": "-:-",
