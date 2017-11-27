@@ -1,30 +1,32 @@
 <% if (itemsMatches.length) { %>
     <div class="card component">
-        <% itemsMatches.forEach((itemMatches, index) => { %>        
-            <h3 class="<%= index === 0 ? 'component-title' : 'component-title-surrounded' %>">
-                <a href="/<%= itemMatches.item.code %>">
-                    <%= itemMatches.item.name %>
-                </a>
-            </h3>
-            <table class="component-table">
-                <tbody>
-                    <% var currentDate; %>
-                    <% itemMatches.matches.forEach((matche) => { %>
-                        <%- include('../components/matche', {
-                            currentDate: currentDate,
-                            date: matche.date,
-                            score: matche.score,
-                            homeTeam: matche.homeTeam,
-                            awayTeam: matche.awayTeam,
-                            homeTeamLogo: matche.homeTeamLogo,
-                            awayTeamLogo: matche.awayTeamLogo 
-                        }); %>
-                        <% if (currentDate !== matche.date) {
-                            currentDate = matche.date;
-                        } %>
-                    <% }); %>
-                </tbody>
-            </table>
+        <% itemsMatches.forEach((itemMatches, index) => { %>
+            <% if (itemMatches.matches.length) { %>
+                <h3 class="<%= index === 0 ? 'component-title' : 'component-title-surrounded' %>">
+                    <a href="/<%= itemMatches.item.code %>">
+                        <%= itemMatches.item.name %>
+                    </a>
+                </h3>
+                <table class="component-table">
+                    <tbody>
+                        <% var currentDate; %>
+                        <% itemMatches.matches.forEach((matche) => { %>
+                            <%- include('../components/matche', {
+                                currentDate: currentDate,
+                                date: matche.date,
+                                score: matche.score,
+                                homeTeam: matche.homeTeam,
+                                awayTeam: matche.awayTeam,
+                                homeTeamLogo: matche.homeTeamLogo,
+                                awayTeamLogo: matche.awayTeamLogo 
+                            }); %>
+                            <% if (currentDate !== matche.date) {
+                                currentDate = matche.date;
+                            } %>
+                        <% }); %>
+                    </tbody>
+                </table>
+            <% } %>
         <% }); %>
     </div>
 <% } %>
