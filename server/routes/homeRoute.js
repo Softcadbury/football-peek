@@ -25,10 +25,10 @@ function getItemsMatches(filteredItems) {
     var itemsMatches = [];
 
     filteredItems.forEach(item => {
-        if (item.isCompetition) {
-            itemsMatches.push({ item, matches: getCompetitionMatches(item, dates) });
-        } else {
-            itemsMatches.push({ item, matches: getLeagueMatches(item, dates) });
+        var matches = item.isCompetition ? getCompetitionMatches(item, dates) : getLeagueMatches(item, dates);
+
+        if (matches.length) {
+            itemsMatches.push({ item, matches });
         }
     });
 
