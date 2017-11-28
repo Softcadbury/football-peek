@@ -6,7 +6,6 @@ var fileExists = require('file-exists');
 var config = require('../server/config');
 var helper = require('../server/helper');
 var items = require('../server/data/items');
-var leagues = require('../server/data/leagues');
 
 describe('Data intergrity', () => {
     items.forEach(item => {

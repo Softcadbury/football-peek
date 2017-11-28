@@ -44,7 +44,7 @@ function readJsonFile(path) {
 function writeJsonFile(path, content) {
     var fs = require('fs');
 
-    fs.writeFile(path, JSON.stringify(content, null, 4), (err) => {
+    fs.writeFile(path, JSON.stringify(content, null, 4), err => {
         if (err) {
             log('Error while writing: ' + path + ' -> ' + err);
         } else {
@@ -103,7 +103,7 @@ function downloadImage(src, path) {
     var fs = require('fs');
 
     if (!fileExists.sync(path) && !path.endsWith('/.gif')) {
-        request.head(src, (err) => {
+        request.head(src, err => {
             if (err) {
                 log('Error while downloading image: ' + path + ' -> ' + err);
             } else {

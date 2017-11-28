@@ -67,7 +67,7 @@ gulp.task('optim', () => {
 });
 
 // Clean built files
-gulp.task('clean', (cb) => {
+gulp.task('clean', cb => {
     var rimraf = require('rimraf');
     rimraf('./dist/', cb);
 });
@@ -150,8 +150,10 @@ gulp.task('default', ['inject', 'start'], () => {
     gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['inject']);
 
     var openBrowser = require('gulp-open');
-    gulp.src('/').pipe(openBrowser({
-        uri: '127.0.0.1:' + config.port,
-        app: 'chrome'
-    }));
+    gulp.src('/').pipe(
+        openBrowser({
+            uri: '127.0.0.1:' + config.port,
+            app: 'chrome'
+        })
+    );
 });
