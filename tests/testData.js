@@ -53,7 +53,10 @@ function testTournamentData(code, period) {
         assert.lengthOf(data[0].matches, 1);
         assert.lengthOf(data[1].matches, 2);
         assert.lengthOf(data[2].matches, 4);
-        assert.lengthOf(data[3].matches, 8);
+
+        if (data.length === 4) {
+            assert.isTrue(data[3].matches.length === 8);
+        }
 
         if (data.length === 5) {
             assert.isTrue(data[4].matches.length === 16);
@@ -75,9 +78,14 @@ function testGroupsData(code, period) {
         testDataIsNumber('Group Table ' + i, data[i].table);
 
         (j => {
-            it('Group should have the right number of matches', () => {
-                assert.lengthOf(data[j].matches, 12);
-                assert.lengthOf(data[j].table, 4);
+            it('Group ' + j + ' should have the right number of matches and teams', () => {
+                if (data[j].table.length === 4) {
+                    assert.lengthOf(data[j].matches, 12);
+                } else if (data[j].table.length === 5) {
+                    assert.lengthOf(data[j].matches, 10);
+                } else {
+                    assert.fail();
+                }
             });
         })(i);
     }
@@ -89,8 +97,7 @@ function testTableData(code, period) {
     testDataIsNumber('Table', data);
 
     it('Table should have the right number of teams', () => {
-        var expectedNumber = code === leagues.bundesliga.code ? 18 : 20;
-        assert.lengthOf(data, expectedNumber);
+        assert.isTrue(data.length === 18 || data.length === 20);
     });
 }
 
