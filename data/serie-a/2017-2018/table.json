@@ -118,6 +118,19 @@
     },
     {
         "rank": "10",
+        "team": "Atalanta",
+        "points": "19",
+        "played": "14",
+        "win": "5",
+        "draw": "4",
+        "lost": "5",
+        "goalsFor": "20",
+        "goalsAgainst": "18",
+        "goalDifference": "2",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "11",
         "team": "Torino FC",
         "points": "19",
         "played": "14",
@@ -130,7 +143,7 @@
         "logo": "torino_fc"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "ACF Fiorentina",
         "points": "18",
         "played": "14",
@@ -141,19 +154,6 @@
         "goalsAgainst": "19",
         "goalDifference": "4",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "12",
-        "team": "Atalanta",
-        "points": "16",
-        "played": "13",
-        "win": "4",
-        "draw": "4",
-        "lost": "5",
-        "goalsFor": "19",
-        "goalsAgainst": "18",
-        "goalDifference": "1",
-        "logo": "atalanta"
     },
     {
         "rank": "13",
@@ -250,13 +250,13 @@
         "rank": "20",
         "team": "Benevento Calcio",
         "points": "0",
-        "played": "13",
+        "played": "14",
         "win": "0",
         "draw": "0",
-        "lost": "13",
+        "lost": "14",
         "goalsFor": "6",
-        "goalsAgainst": "33",
-        "goalDifference": "-27",
+        "goalsAgainst": "34",
+        "goalDifference": "-28",
         "logo": "benevento_calcio"
     }
 ]
