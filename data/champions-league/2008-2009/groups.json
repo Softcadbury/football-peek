@@ -621,22 +621,622 @@
     },
     {
         "name": "e",
-        "matches": [],
-        "table": []
+        "matches": [
+            {
+                "date": "17/09/2008",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Villarreal CF",
+                "score": "0:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "17/09/2008",
+                "homeTeam": "Celtic FC",
+                "awayTeam": "Aalborg BK",
+                "score": "0:0",
+                "homeTeamLogo": "celtic_fc",
+                "awayTeamLogo": "aalborg_bk"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Celtic FC",
+                "score": "1:0",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "celtic_fc"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "Aalborg BK",
+                "awayTeam": "Manchester United",
+                "score": "0:3",
+                "homeTeamLogo": "aalborg_bk",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Celtic FC",
+                "score": "3:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "celtic_fc"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Aalborg BK",
+                "score": "6:3",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "aalborg_bk"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "Celtic FC",
+                "awayTeam": "Manchester United",
+                "score": "1:1",
+                "homeTeamLogo": "celtic_fc",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "Aalborg BK",
+                "awayTeam": "Villarreal CF",
+                "score": "2:2",
+                "homeTeamLogo": "aalborg_bk",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Manchester United",
+                "score": "0:0",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "Aalborg BK",
+                "awayTeam": "Celtic FC",
+                "score": "2:1",
+                "homeTeamLogo": "aalborg_bk",
+                "awayTeamLogo": "celtic_fc"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Aalborg BK",
+                "score": "2:2",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "aalborg_bk"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "Celtic FC",
+                "awayTeam": "Villarreal CF",
+                "score": "2:0",
+                "homeTeamLogo": "celtic_fc",
+                "awayTeamLogo": "villarreal_cf"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Manchester United",
+                "points": "10",
+                "played": "6",
+                "win": "2",
+                "draw": "4",
+                "lost": "0",
+                "goalsFor": "9",
+                "goalsAgainst": "3",
+                "goalDifference": "6",
+                "logo": "manchester_united"
+            },
+            {
+                "rank": "2",
+                "team": "Villarreal CF",
+                "points": "9",
+                "played": "6",
+                "win": "2",
+                "draw": "3",
+                "lost": "1",
+                "goalsFor": "9",
+                "goalsAgainst": "7",
+                "goalDifference": "2",
+                "logo": "villarreal_cf"
+            },
+            {
+                "rank": "3",
+                "team": "Aalborg BK",
+                "points": "6",
+                "played": "6",
+                "win": "1",
+                "draw": "3",
+                "lost": "2",
+                "goalsFor": "9",
+                "goalsAgainst": "14",
+                "goalDifference": "-5",
+                "logo": "aalborg_bk"
+            },
+            {
+                "rank": "4",
+                "team": "Celtic FC",
+                "points": "5",
+                "played": "6",
+                "win": "1",
+                "draw": "2",
+                "lost": "3",
+                "goalsFor": "4",
+                "goalsAgainst": "7",
+                "goalDifference": "-3",
+                "logo": "celtic_fc"
+            }
+        ]
     },
     {
         "name": "f",
-        "matches": [],
-        "table": []
+        "matches": [
+            {
+                "date": "17/09/2008",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "ACF Fiorentina",
+                "score": "2:2",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "17/09/2008",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "Bayern München",
+                "score": "0:1",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Olympique Lyon",
+                "score": "1:1",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "Steaua Bucureşti",
+                "score": "0:0",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "Bayern München",
+                "awayTeam": "ACF Fiorentina",
+                "score": "3:0",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "Olympique Lyon",
+                "score": "3:5",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Steaua Bucureşti",
+                "score": "2:0",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "Bayern München",
+                "score": "1:1",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Steaua Bucureşti",
+                "score": "3:0",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "steaua_bucure_ti"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "Olympique Lyon",
+                "score": "1:2",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Bayern München",
+                "score": "2:3",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "Steaua Bucureşti",
+                "awayTeam": "ACF Fiorentina",
+                "score": "0:1",
+                "homeTeamLogo": "steaua_bucure_ti",
+                "awayTeamLogo": "acf_fiorentina"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Bayern München",
+                "points": "14",
+                "played": "6",
+                "win": "4",
+                "draw": "2",
+                "lost": "0",
+                "goalsFor": "12",
+                "goalsAgainst": "4",
+                "goalDifference": "8",
+                "logo": "bayern_munchen"
+            },
+            {
+                "rank": "2",
+                "team": "Olympique Lyon",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "14",
+                "goalsAgainst": "10",
+                "goalDifference": "4",
+                "logo": "olympique_lyon"
+            },
+            {
+                "rank": "3",
+                "team": "ACF Fiorentina",
+                "points": "6",
+                "played": "6",
+                "win": "1",
+                "draw": "3",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "8",
+                "goalDifference": "-3",
+                "logo": "acf_fiorentina"
+            },
+            {
+                "rank": "4",
+                "team": "Steaua Bucureşti",
+                "points": "1",
+                "played": "6",
+                "win": "0",
+                "draw": "1",
+                "lost": "5",
+                "goalsFor": "3",
+                "goalsAgainst": "12",
+                "goalDifference": "-9",
+                "logo": "steaua_bucure_ti"
+            }
+        ]
     },
     {
         "name": "g",
-        "matches": [],
-        "table": []
+        "matches": [
+            {
+                "date": "17/09/2008",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Fenerbahçe",
+                "score": "3:1",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "17/09/2008",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "Arsenal FC",
+                "score": "1:1",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "FC Porto",
+                "score": "4:0",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "Dinamo Kiev",
+                "score": "0:0",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Dinamo Kiev",
+                "score": "0:1",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "Arsenal FC",
+                "score": "2:5",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Fenerbahçe",
+                "score": "0:0",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "fenerbahce"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "FC Porto",
+                "score": "1:2",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Dinamo Kiev",
+                "score": "1:0",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "Fenerbahçe",
+                "awayTeam": "FC Porto",
+                "score": "1:2",
+                "homeTeamLogo": "fenerbahce",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Arsenal FC",
+                "score": "2:0",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "Fenerbahçe",
+                "score": "1:0",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "fenerbahce"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Porto",
+                "points": "12",
+                "played": "6",
+                "win": "4",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "9",
+                "goalsAgainst": "8",
+                "goalDifference": "1",
+                "logo": "fc_porto"
+            },
+            {
+                "rank": "2",
+                "team": "Arsenal FC",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "11",
+                "goalsAgainst": "5",
+                "goalDifference": "6",
+                "logo": "arsenal_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Dinamo Kiev",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "4",
+                "goalsAgainst": "4",
+                "goalDifference": "0",
+                "logo": "dinamo_kiev"
+            },
+            {
+                "rank": "4",
+                "team": "Fenerbahçe",
+                "points": "2",
+                "played": "6",
+                "win": "0",
+                "draw": "2",
+                "lost": "4",
+                "goalsFor": "4",
+                "goalsAgainst": "11",
+                "goalDifference": "-7",
+                "logo": "fenerbahce"
+            }
+        ]
     },
     {
         "name": "h",
-        "matches": [],
-        "table": []
+        "matches": [
+            {
+                "date": "17/09/2008",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "BATE Borisov",
+                "score": "2:0",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "bate_borisov"
+            },
+            {
+                "date": "17/09/2008",
+                "homeTeam": "Juventus",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "1:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Real Madrid",
+                "score": "1:2",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "30/09/2008",
+                "homeTeam": "BATE Borisov",
+                "awayTeam": "Juventus",
+                "score": "2:2",
+                "homeTeamLogo": "bate_borisov",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "BATE Borisov",
+                "score": "1:1",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "bate_borisov"
+            },
+            {
+                "date": "21/10/2008",
+                "homeTeam": "Juventus",
+                "awayTeam": "Real Madrid",
+                "score": "2:1",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Juventus",
+                "score": "0:2",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "05/11/2008",
+                "homeTeam": "BATE Borisov",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "0:2",
+                "homeTeamLogo": "bate_borisov",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Juventus",
+                "score": "0:0",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "25/11/2008",
+                "homeTeam": "BATE Borisov",
+                "awayTeam": "Real Madrid",
+                "score": "0:1",
+                "homeTeamLogo": "bate_borisov",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "3:0",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "10/12/2008",
+                "homeTeam": "Juventus",
+                "awayTeam": "BATE Borisov",
+                "score": "0:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "bate_borisov"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Juventus",
+                "points": "12",
+                "played": "6",
+                "win": "3",
+                "draw": "3",
+                "lost": "0",
+                "goalsFor": "7",
+                "goalsAgainst": "3",
+                "goalDifference": "4",
+                "logo": "juventus"
+            },
+            {
+                "rank": "2",
+                "team": "Real Madrid",
+                "points": "12",
+                "played": "6",
+                "win": "4",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "9",
+                "goalsAgainst": "5",
+                "goalDifference": "4",
+                "logo": "real_madrid"
+            },
+            {
+                "rank": "3",
+                "team": "Zenit St. Petersburg",
+                "points": "5",
+                "played": "6",
+                "win": "1",
+                "draw": "2",
+                "lost": "3",
+                "goalsFor": "4",
+                "goalsAgainst": "7",
+                "goalDifference": "-3",
+                "logo": "zenit_st__petersburg"
+            },
+            {
+                "rank": "4",
+                "team": "BATE Borisov",
+                "points": "3",
+                "played": "6",
+                "win": "0",
+                "draw": "3",
+                "lost": "3",
+                "goalsFor": "3",
+                "goalsAgainst": "8",
+                "goalDifference": "-5",
+                "logo": "bate_borisov"
+            }
+        ]
     }
 ]
