@@ -4,7 +4,7 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "16",
+        "goals": "17",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
@@ -27,16 +27,25 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": " Mariano",
         "country": "Dom. Republic",
         "team": "Olympique Lyon",
-        "goals": "10",
+        "goals": "11",
         "flag": "dom__republic",
         "logo": "olympique_lyon"
     },
     {
         "rank": "5.",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "9",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "6.",
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "Olympique Lyon",
@@ -45,20 +54,11 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "-",
-        "name": " Neymar",
-        "country": "Brazil",
-        "team": "Paris Saint-Germain",
-        "goals": "8",
-        "flag": "brazil",
-        "logo": "paris_saint_germain"
-    },
-    {
         "rank": "7.",
         "name": "Mario Balotelli",
         "country": "Italy",
         "team": "OGC Nice",
-        "goals": "6",
+        "goals": "7",
         "flag": "italy",
         "logo": "ogc_nice"
     },
@@ -67,12 +67,30 @@
         "name": "Florian Thauvin",
         "country": "France",
         "team": "Olympique Marseille",
-        "goals": "6",
+        "goals": "7",
         "flag": "france",
         "logo": "olympique_marseille"
     },
     {
         "rank": "9.",
+        "name": " Malcom",
+        "country": "Brazil",
+        "team": "Girondins Bordeaux",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "-",
+        "name": "Karl Toko Ekambi",
+        "country": "Cameroon",
+        "team": "Angers SCO",
+        "goals": "6",
+        "flag": "cameroon",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "11.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "AS Saint-Étienne",
@@ -82,12 +100,12 @@
     },
     {
         "rank": "-",
-        "name": " Malcom",
-        "country": "Brazil",
-        "team": "Girondins Bordeaux",
+        "name": "Chang-hoon Kwon",
+        "country": "South Korea",
+        "team": "Dijon FCO",
         "goals": "5",
-        "flag": "brazil",
-        "logo": "girondins_bordeaux"
+        "flag": "south_korea",
+        "logo": "dijon_fco"
     },
     {
         "rank": "-",
@@ -100,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": "Lucas Ocampos",
+        "country": "Argentina",
+        "team": "Olympique Marseille",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
         "name": "Morgan Sanson",
         "country": "France",
         "team": "Olympique Marseille",
@@ -108,22 +135,22 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Angers SCO",
-        "goals": "5",
-        "flag": "cameroon",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "14.",
+        "rank": "16.",
         "name": "Benjamin Bourigeaud",
         "country": "France",
         "team": "Stade Rennes",
         "goals": "4",
         "flag": "france",
         "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
+        "name": "Andy Delort",
+        "country": "France",
+        "team": "Toulouse FC",
+        "goals": "4",
+        "flag": "france",
+        "logo": "toulouse_fc"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "goals": "4",
         "flag": "tunisia",
         "logo": "estac_troyes"
-    },
-    {
-        "rank": "-",
-        "name": "Wahbi Khazri",
-        "country": "Tunisia",
-        "team": "Stade Rennes",
-        "goals": "4",
-        "flag": "tunisia",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Moussa Konaté",
-        "country": "Senegal",
-        "team": "Amiens SC",
-        "goals": "4",
-        "flag": "senegal",
-        "logo": "amiens_sc"
-    },
-    {
-        "rank": "-",
-        "name": "Chang-hoon Kwon",
-        "country": "South Korea",
-        "team": "Dijon FCO",
-        "goals": "4",
-        "flag": "south_korea",
-        "logo": "dijon_fco"
     }
 ]
