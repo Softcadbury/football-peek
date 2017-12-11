@@ -4,12 +4,12 @@
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "15",
+        "goals": "16",
         "flag": "argentina",
         "logo": "inter"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
@@ -40,30 +40,39 @@
         "name": "Gonzalo Higuaí­n",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "8",
+        "goals": "9",
         "flag": "argentina",
         "logo": "juventus"
-    },
-    {
-        "rank": "6.",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "7",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
     },
     {
         "rank": "-",
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
-        "goals": "7",
+        "goals": "9",
         "flag": "italy",
         "logo": "sampdoria"
     },
     {
+        "rank": "7.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "8",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
         "rank": "8.",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
+        "goals": "7",
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "9.",
         "name": "Roberto Inglese",
         "country": "Italy",
         "team": "Chievo Verona",
@@ -81,7 +90,16 @@
         "logo": "acf_fiorentina"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Sampdoria",
+        "goals": "6",
+        "flag": "colombia",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "12.",
         "name": "Bryan Cristante",
         "country": "Italy",
         "team": "Atalanta",
@@ -100,12 +118,30 @@
     },
     {
         "rank": "-",
+        "name": " João Pedro",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
         "goals": "5",
         "flag": "spain",
         "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "ACF Fiorentina",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -118,65 +154,29 @@
     },
     {
         "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Sampdoria",
+        "name": "Simone Verdi",
+        "country": "Italy",
+        "team": "Bologna FC",
         "goals": "5",
-        "flag": "colombia",
-        "logo": "sampdoria"
+        "flag": "italy",
+        "logo": "bologna_fc"
     },
     {
-        "rank": "15.",
+        "rank": "19.",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Stephan El Shaarawy",
         "country": "Italy",
         "team": "AS Roma",
         "goals": "4",
         "flag": "italy",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": " João Pedro",
-        "country": "Brazil",
-        "team": "Cagliari Calcio",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Giampaolo Pazzini",
-        "country": "Italy",
-        "team": "Hellas Verona",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
-        "goals": "4",
-        "flag": "croatia",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "ACF Fiorentina",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "acf_fiorentina"
     }
 ]
