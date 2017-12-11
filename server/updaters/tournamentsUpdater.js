@@ -34,6 +34,13 @@ function updateData(itemExtended) {
             return;
         }
 
+        // Remove empty phases
+        for (var j = results.length - 1; j >= 0; j--) {
+            if (!results[j].matches[0] || !results[j].matches[0].team1) {
+                results.splice(j, 1);
+            }
+        }
+
         helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.periods.current), results);
     });
 }
