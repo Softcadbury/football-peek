@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Philipp Max",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "2.",
         "name": "Daniel Didavi",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -10,16 +19,16 @@
     },
     {
         "rank": "-",
-        "name": "Philipp Max",
+        "name": "Joshua Kimmich",
         "country": "Germany",
-        "team": "FC Augsburg",
+        "team": "Bayern München",
         "assists": "6",
         "flag": "germany",
-        "logo": "fc_augsburg"
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "3.",
-        "name": "Joshua Kimmich",
+        "rank": "4.",
+        "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
         "assists": "5",
@@ -27,7 +36,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "Bayer Leverkusen",
+        "assists": "4",
+        "flag": "jamaica",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Vincenzo Grifo",
         "country": "Italy",
         "team": "Bor. Mönchengladbach",
@@ -43,6 +61,15 @@
         "assists": "4",
         "flag": "morocco",
         "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Kai Havertz",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -72,7 +99,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "9.",
+        "rank": "12.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
@@ -88,6 +115,15 @@
         "assists": "3",
         "flag": "france",
         "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Fin Bartels",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "werder_bremen"
     },
     {
         "rank": "-",
@@ -118,65 +154,29 @@
     },
     {
         "rank": "-",
+        "name": "Guido Burgstaller",
+        "country": "Austria",
+        "team": "FC Schalke 04",
+        "assists": "3",
+        "flag": "austria",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Kingsley Coman",
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "france",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Mahmoud Dahoud",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "assists": "3",
         "flag": "germany",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Dennis Diekmeier",
-        "country": "Germany",
-        "team": "Hamburger SV",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "hamburger_sv"
-    },
-    {
-        "rank": "-",
-        "name": "Alfreð Finnbogason",
-        "country": "Iceland",
-        "team": "FC Augsburg",
-        "assists": "3",
-        "flag": "iceland",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Kai Havertz",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Thorgan Hazard",
-        "country": "Belgium",
-        "team": "Bor. Mönchengladbach",
-        "assists": "3",
-        "flag": "belgium",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
-        "assists": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": " Jonathas",
-        "country": "Brazil",
-        "team": "Hannover 96",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "hannover_96"
     }
 ]

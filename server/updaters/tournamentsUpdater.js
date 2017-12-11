@@ -34,6 +34,13 @@ function updateData(itemExtended) {
             return;
         }
 
+        // Remove empty phases
+        for (var j = results.length - 1; j >= 0; j--) {
+            if (!results[j].matches[0] || !results[j].matches[0].team1) {
+                results.splice(j, 1);
+            }
+        }
+
         helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.periods.current), results);
     });
 }
@@ -50,50 +57,9 @@ function parseRound(itemExtended, results, roundIndex) {
                 }
 
                 if (roundIndex === 0) {
-                    if (index !== 0) {
-                        return;
-                    }
-
-                    var team1 = $(elem).find('td:nth-child(3) > a').text();
-                    var team2 = $(elem).find('td:nth-child(5) > a').text();
-                    var score = parseScore($(elem).find('td:nth-child(6) > a').text());
-                    var finalScore = score.split(' ').length === 1 ? score : score.split(' ')[1].replace('(', '').replace(')', '');
-                    var winner = '';
-
-                    if (finalScore !== '-:-') {
-                        winner = finalScore.split(':')[0] > finalScore.split(':')[1] ? team1 : team2;
-                    }
-
-                    currentMatches.push({
-                        date1: $(elem).find('td:nth-child(1)').text(),
-                        team1: team1,
-                        team2: team2,
-                        score1: score,
-                        winner: winner
-                    });
+                    parseFinalPhase($, elem, currentMatches, index);
                 } else {
-                    switch (index % 4) {
-                        case 0:
-                            currentMatches.push({
-                                date1: '',
-                                date2: '',
-                                team1: $(elem).find('td:nth-child(2) > a').text(),
-                                team2: $(elem).find('td:nth-child(4) > a').text(),
-                                score1: parseScore($(elem).find('td:nth-child(5) > a').text())
-                            });
-                            break;
-                        case 1:
-                            currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
-                            break;
-                        case 2:
-                            var match = currentMatches[currentMatches.length - 1];
-                            match.date1 = $(elem).find('td:nth-child(2)').text().split(' ')[2];
-                            match.date2 = $(elem).find('td:nth-child(4)').text().split(' ')[3];
-                            match.winner = $(elem).find('td:nth-child(5) > b').text();
-                            break;
-                        default:
-                            break;
-                    }
+                    parsePhaseOtherThanFinal($, elem, currentMatches, index);
                 }
             });
 
@@ -105,6 +71,55 @@ function parseRound(itemExtended, results, roundIndex) {
             resolve();
         });
     });
+}
+
+function parseFinalPhase($, elem, currentMatches, index) {
+    if (index !== 0) {
+        return;
+    }
+
+    var team1 = $(elem).find('td:nth-child(3) > a').text();
+    var team2 = $(elem).find('td:nth-child(5) > a').text();
+    var score = parseScore($(elem).find('td:nth-child(6) > a').text());
+    var finalScore = score.split(' ').length === 1 ? score : score.split(' ')[1].replace('(', '').replace(')', '');
+    var winner = '';
+
+    if (finalScore !== '-:-') {
+        winner = finalScore.split(':')[0] > finalScore.split(':')[1] ? team1 : team2;
+    }
+
+    currentMatches.push({
+        date1: $(elem).find('td:nth-child(1)').text(),
+        team1: team1,
+        team2: team2,
+        score1: score,
+        winner: winner
+    });
+}
+
+function parsePhaseOtherThanFinal($, elem, currentMatches, index) {
+    switch (index % 4) {
+        case 0:
+            currentMatches.push({
+                date1: '',
+                date2: '',
+                team1: $(elem).find('td:nth-child(2) > a').text(),
+                team2: $(elem).find('td:nth-child(4) > a').text(),
+                score1: parseScore($(elem).find('td:nth-child(5) > a').text())
+            });
+            break;
+        case 1:
+            currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
+            break;
+        case 2:
+            var match = currentMatches[currentMatches.length - 1];
+            match.date1 = $(elem).find('td:nth-child(2)').text().split(' ')[2];
+            match.date2 = $(elem).find('td:nth-child(4)').text().split(' ')[3];
+            match.winner = $(elem).find('td:nth-child(5) > b').text();
+            break;
+        default:
+            break;
+    }
 }
 
 // Clean score by removing useless parts
