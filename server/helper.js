@@ -165,7 +165,8 @@ function getLeagueCurrentRound(resultsData) {
 function log(message) {
     var winston = require('winston');
     winston.configure({
-        transports: [new (winston.transports.File)({
+        transports: [
+            new (winston.transports.File)({
                 filename: 'info.log'
             }),
             new (winston.transports.Console)()
