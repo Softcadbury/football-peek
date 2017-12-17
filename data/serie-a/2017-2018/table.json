@@ -81,13 +81,13 @@
         "rank": "7",
         "team": "AC Milan",
         "points": "24",
-        "played": "16",
+        "played": "17",
         "win": "7",
         "draw": "3",
-        "lost": "6",
+        "lost": "7",
         "goalsFor": "23",
-        "goalsAgainst": "21",
-        "goalDifference": "2",
+        "goalsAgainst": "24",
+        "goalDifference": "-1",
         "logo": "ac_milan"
     },
     {
@@ -209,6 +209,19 @@
     },
     {
         "rank": "17",
+        "team": "Hellas Verona",
+        "points": "13",
+        "played": "17",
+        "win": "3",
+        "draw": "4",
+        "lost": "10",
+        "goalsFor": "17",
+        "goalsAgainst": "32",
+        "goalDifference": "-15",
+        "logo": "hellas_verona"
+    },
+    {
+        "rank": "18",
         "team": "FC Crotone",
         "points": "12",
         "played": "16",
@@ -221,7 +234,7 @@
         "logo": "fc_crotone"
     },
     {
-        "rank": "18",
+        "rank": "19",
         "team": "SPAL 2013 Ferrara",
         "points": "11",
         "played": "16",
@@ -232,19 +245,6 @@
         "goalsAgainst": "28",
         "goalDifference": "-13",
         "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "19",
-        "team": "Hellas Verona",
-        "points": "10",
-        "played": "16",
-        "win": "2",
-        "draw": "4",
-        "lost": "10",
-        "goalsFor": "14",
-        "goalsAgainst": "32",
-        "goalDifference": "-18",
-        "logo": "hellas_verona"
     },
     {
         "rank": "20",
