@@ -49,7 +49,7 @@
         "name": "Mario Balotelli",
         "country": "Italy",
         "team": "OGC Nice",
-        "goals": "9",
+        "goals": "10",
         "flag": "italy",
         "logo": "ogc_nice"
     },
@@ -108,7 +108,16 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": "Emiliano Sala",
+        "country": "Argentina",
+        "team": "FC Nantes",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "fc_nantes"
+    },
+    {
+        "rank": "14.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "AS Saint-Étienne",
@@ -169,14 +178,5 @@
         "goals": "5",
         "flag": "france",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Wesley Saïd",
-        "country": "France",
-        "team": "Dijon FCO",
-        "goals": "5",
-        "flag": "france",
-        "logo": "dijon_fco"
     }
 ]

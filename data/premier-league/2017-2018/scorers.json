@@ -36,16 +36,16 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Manchester United",
-        "goals": "9",
+        "goals": "10",
         "flag": "belgium",
         "logo": "manchester_united"
     },
     {
-        "rank": "-",
+        "rank": "6.",
         "name": " Morata",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -145,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": " David Silva",
         "country": "Spain",
         "team": "Manchester City",
@@ -169,14 +178,5 @@
         "goals": "5",
         "flag": "belgium",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Leicester City",
-        "goals": "5",
-        "flag": "algeria",
-        "logo": "leicester_city"
     }
 ]
