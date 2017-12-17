@@ -39,8 +39,8 @@ function updateData(itemExtended) {
                 name: $(elem).find(' td:nth-child(2) > a').text(),
                 country: $(elem).find('td:nth-child(4)').text(),
                 flagSrc: $(elem).find('td:nth-child(3) > img').attr('src'),
-                team: $(elem).find('td:nth-child(5) > a:nth-child(2)').text(),
-                logoSrc: $(elem).find('td:nth-child(5) > a:nth-child(1) > img').attr('src'),
+                team: $(elem).find('td:nth-child(5) > a:nth-last-child(1)').text(),
+                logoSrc: $(elem).find('td:nth-child(5) > a:nth-last-child(2) > img').attr('src'),
                 assists: $(elem).find('td:nth-child(6) > b').text()
             });
         });
