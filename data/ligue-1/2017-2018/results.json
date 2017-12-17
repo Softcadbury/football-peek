@@ -1363,10 +1363,26 @@
         "round": 17,
         "matches": [
             {
+                "date": "08/12/2017",
+                "homeTeam": "Girondins Bordeaux",
+                "awayTeam": "RC Strasbourg",
+                "score": "0:3",
+                "homeTeamLogo": "girondins_bordeaux",
+                "awayTeamLogo": "rc_strasbourg"
+            },
+            {
+                "date": "09/12/2017",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Lille OSC",
+                "score": "3:1",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "lille_osc"
+            },
+            {
                 "date": "09/12/2017",
                 "homeTeam": "AS Monaco",
                 "awayTeam": "ESTAC Troyes",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "as_monaco",
                 "awayTeamLogo": "estac_troyes"
             },
@@ -1374,7 +1390,7 @@
                 "date": "09/12/2017",
                 "homeTeam": "EA Guingamp",
                 "awayTeam": "Dijon FCO",
-                "score": "-:-",
+                "score": "4:0",
                 "homeTeamLogo": "ea_guingamp",
                 "awayTeamLogo": "dijon_fco"
             },
@@ -1382,65 +1398,49 @@
                 "date": "09/12/2017",
                 "homeTeam": "FC Metz",
                 "awayTeam": "Stade Rennes",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "fc_metz",
                 "awayTeamLogo": "stade_rennes"
             },
             {
                 "date": "09/12/2017",
-                "homeTeam": "FC Nantes",
-                "awayTeam": "OGC Nice",
-                "score": "-:-",
-                "homeTeamLogo": "fc_nantes",
-                "awayTeamLogo": "ogc_nice"
-            },
-            {
-                "date": "09/12/2017",
                 "homeTeam": "Toulouse FC",
                 "awayTeam": "SM Caen",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "toulouse_fc",
                 "awayTeamLogo": "sm_caen"
             },
             {
                 "date": "09/12/2017",
-                "homeTeam": "Girondins Bordeaux",
-                "awayTeam": "RC Strasbourg",
-                "score": "-:-",
-                "homeTeamLogo": "girondins_bordeaux",
-                "awayTeamLogo": "rc_strasbourg"
+                "homeTeam": "Angers SCO",
+                "awayTeam": "Montpellier HSC",
+                "score": "1:1",
+                "homeTeamLogo": "angers_sco",
+                "awayTeamLogo": "montpellier_hsc"
             },
             {
-                "date": "09/12/2017",
-                "homeTeam": "Olympique Marseille",
-                "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "as_saint_etienne"
-            },
-            {
-                "date": "09/12/2017",
-                "homeTeam": "Paris Saint-Germain",
-                "awayTeam": "Lille OSC",
-                "score": "-:-",
-                "homeTeamLogo": "paris_saint_germain",
-                "awayTeamLogo": "lille_osc"
-            },
-            {
-                "date": "09/12/2017",
+                "date": "10/12/2017",
                 "homeTeam": "Amiens SC",
                 "awayTeam": "Olympique Lyon",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "amiens_sc",
                 "awayTeamLogo": "olympique_lyon"
             },
             {
-                "date": "09/12/2017",
-                "homeTeam": "Angers SCO",
-                "awayTeam": "Montpellier HSC",
-                "score": "-:-",
-                "homeTeamLogo": "angers_sco",
-                "awayTeamLogo": "montpellier_hsc"
+                "date": "10/12/2017",
+                "homeTeam": "FC Nantes",
+                "awayTeam": "OGC Nice",
+                "score": "1:2",
+                "homeTeamLogo": "fc_nantes",
+                "awayTeamLogo": "ogc_nice"
+            },
+            {
+                "date": "10/12/2017",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "AS Saint-Étienne",
+                "score": "3:0",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "as_saint_etienne"
             }
         ]
     },

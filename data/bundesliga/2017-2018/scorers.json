@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "14",
+        "goals": "15",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,12 +13,30 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
-        "goals": "12",
+        "goals": "13",
         "flag": "gabon",
         "logo": "borussia_dortmund"
     },
     {
         "rank": "3.",
+        "name": "Alfreð Finnbogason",
+        "country": "Iceland",
+        "team": "FC Augsburg",
+        "goals": "11",
+        "flag": "iceland",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "4.",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Volland",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -27,13 +45,22 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "4.",
-        "name": "Alfreð Finnbogason",
-        "country": "Iceland",
+        "rank": "6.",
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
         "team": "FC Augsburg",
         "goals": "8",
-        "flag": "iceland",
+        "flag": "austria",
         "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -45,31 +72,22 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "6.",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "FC Augsburg",
-        "goals": "7",
-        "flag": "austria",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Mark Uth",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Guido Burgstaller",
         "country": "Austria",
         "team": "FC Schalke 04",
-        "goals": "6",
+        "goals": "7",
         "flag": "austria",
         "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "10.",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
+        "goals": "6",
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -82,6 +100,24 @@
     },
     {
         "rank": "-",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Bor. Mönchengladbach",
+        "goals": "6",
+        "flag": "belgium",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
+        "goals": "6",
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
         "name": "Maximilian Philipp",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -90,40 +126,22 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": " Raffael",
+        "country": "Brazil",
+        "team": "Bor. Mönchengladbach",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "16.",
         "name": "Daniel Didavi",
         "country": "Germany",
         "team": "VfL Wolfsburg",
         "goals": "5",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Sébastien Haller",
-        "country": "France",
-        "team": "Eintracht Frankfurt",
-        "goals": "5",
-        "flag": "france",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Thorgan Hazard",
-        "country": "Belgium",
-        "team": "Bor. Mönchengladbach",
-        "goals": "5",
-        "flag": "belgium",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
@@ -135,7 +153,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": "Chadrac Akolo",
         "country": "Congo DR",
         "team": "VfB Stuttgart",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Niclas Füllkrug",
-        "country": "Germany",
+        "name": "Ihlas Bebou",
+        "country": "Togo",
         "team": "Hannover 96",
         "goals": "4",
-        "flag": "germany",
+        "flag": "togo",
         "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Leon Goretzka",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Sehrou Guirassy",
-        "country": "France",
-        "team": "1. FC Köln",
-        "goals": "4",
-        "flag": "france",
-        "logo": "1__fc_koln"
     }
 ]

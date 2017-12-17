@@ -1279,9 +1279,17 @@
         "matches": [
             {
                 "date": "09/12/2017",
+                "homeTeam": "West Ham United",
+                "awayTeam": "Chelsea FC",
+                "score": "1:0",
+                "homeTeamLogo": "west_ham_united",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "09/12/2017",
                 "homeTeam": "Burnley FC",
                 "awayTeam": "Watford FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "burnley_fc",
                 "awayTeamLogo": "watford_fc"
             },
@@ -1289,7 +1297,7 @@
                 "date": "09/12/2017",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "afc_bournemouth"
             },
@@ -1297,47 +1305,15 @@
                 "date": "09/12/2017",
                 "homeTeam": "Huddersfield Town",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "huddersfield_town",
                 "awayTeamLogo": "brighton___hove_albion"
             },
             {
                 "date": "09/12/2017",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "everton_fc"
-            },
-            {
-                "date": "09/12/2017",
-                "homeTeam": "Manchester United",
-                "awayTeam": "Manchester City",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_united",
-                "awayTeamLogo": "manchester_city"
-            },
-            {
-                "date": "09/12/2017",
-                "homeTeam": "Newcastle United",
-                "awayTeam": "Leicester City",
-                "score": "-:-",
-                "homeTeamLogo": "newcastle_united",
-                "awayTeamLogo": "leicester_city"
-            },
-            {
-                "date": "09/12/2017",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "date": "09/12/2017",
                 "homeTeam": "Swansea City",
                 "awayTeam": "West Bromwich Albion",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "swansea_city",
                 "awayTeamLogo": "west_bromwich_albion"
             },
@@ -1345,17 +1321,41 @@
                 "date": "09/12/2017",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Stoke City",
-                "score": "-:-",
+                "score": "5:1",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "stoke_city"
             },
             {
                 "date": "09/12/2017",
-                "homeTeam": "West Ham United",
-                "awayTeam": "Chelsea FC",
-                "score": "-:-",
-                "homeTeamLogo": "west_ham_united",
-                "awayTeamLogo": "chelsea_fc"
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Leicester City",
+                "score": "2:3",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "leicester_city"
+            },
+            {
+                "date": "10/12/2017",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Arsenal FC",
+                "score": "1:1",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "10/12/2017",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Everton FC",
+                "score": "1:1",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "10/12/2017",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Manchester City",
+                "score": "1:2",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "manchester_city"
             }
         ]
     },
