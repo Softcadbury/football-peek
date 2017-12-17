@@ -13,12 +13,12 @@
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
-        "assists": "7",
+        "assists": "8",
         "flag": "italy",
         "logo": "inter"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Adem Ljajić",
+        "country": "Serbia",
+        "team": "Torino FC",
+        "assists": "6",
+        "flag": "serbia",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Ivan Perišić",
         "country": "Croatia",
         "team": "Inter",
@@ -36,7 +45,7 @@
         "logo": "inter"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Aleksandar Kolarov",
         "country": "Serbia",
         "team": "AS Roma",
@@ -46,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Adem Ljajić",
-        "country": "Serbia",
-        "team": "Torino FC",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
         "assists": "5",
-        "flag": "serbia",
-        "logo": "torino_fc"
+        "flag": "belgium",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -81,7 +90,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Mirco Antenucci",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Josip Iličič",
+        "country": "Slovenia",
+        "team": "Atalanta",
+        "assists": "4",
+        "flag": "slovenia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
         "assists": "4",
         "flag": "italy",
         "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "assists": "4",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Cyril Théréau",
-        "country": "France",
-        "team": "ACF Fiorentina",
-        "assists": "4",
-        "flag": "france",
-        "logo": "acf_fiorentina"
     }
 ]
