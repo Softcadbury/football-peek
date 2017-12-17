@@ -36,11 +36,10 @@ gulp.task('lint', () => {
 gulp.task('test', () => {
     var mocha = require('gulp-mocha');
     gulp.src('./tests/*.js', {
-            read: false
-        })
-        .pipe(mocha({
-            reporter: 'nyan'
-        }));
+        read: false
+    }).pipe(mocha({
+        reporter: 'nyan'
+    }));
 });
 
 // Build the sprite
@@ -78,35 +77,41 @@ gulp.task('build', ['clean'], () => {
     var webpackStream = require('webpack-stream');
     var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+    var webpackModule = {
+        rules: [
+            {
+                test: /\.less$/,
+                use: ExtractTextPlugin.extract(['css-loader', 'less-loader'])
+            }, {
+                test: /\.css$/,
+                use: ExtractTextPlugin.extract(['style-loader', 'css-loader'])
+            }, {
+                test: /\.(jpg|png|eot|woff2|ttf|svg)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[hash].[ext]'
+                    }
+                }
+            }
+        ]
+    };
+
+    var webpackPlugins = [
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true
+        }),
+        new webpack.LoaderOptionsPlugin({
+            minimize: true
+        }),
+        new ExtractTextPlugin('style.bundle.[hash].css')
+    ];
+
     return gulp.src(['client/scripts/app.js', 'client/styles/app.less'])
         .pipe(webpackStream({
             devtool: 'source-map',
-            module: {
-                rules: [{
-                    test: /\.less$/,
-                    use: ExtractTextPlugin.extract(['css-loader', 'less-loader'])
-                }, {
-                    test: /\.css$/,
-                    use: ExtractTextPlugin.extract(['style-loader', 'css-loader'])
-                }, {
-                    test: /\.(jpg|png|eot|woff2|ttf|svg)$/,
-                    use: {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[hash].[ext]'
-                        }
-                    }
-                }]
-            },
-            plugins: [
-                new webpack.optimize.UglifyJsPlugin({
-                    sourceMap: true
-                }),
-                new webpack.LoaderOptionsPlugin({
-                    minimize: true
-                }),
-                new ExtractTextPlugin('style.bundle.[hash].css')
-            ],
+            module: webpackModule,
+            plugins: webpackPlugins,
             output: {
                 filename: 'script.bundle.[hash].js'
             }

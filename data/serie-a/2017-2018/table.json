@@ -14,6 +14,19 @@
     },
     {
         "rank": "2",
+        "team": "Juventus",
+        "points": "41",
+        "played": "17",
+        "win": "13",
+        "draw": "2",
+        "lost": "2",
+        "goalsFor": "44",
+        "goalsAgainst": "14",
+        "goalDifference": "30",
+        "logo": "juventus"
+    },
+    {
+        "rank": "3",
         "team": "Inter",
         "points": "40",
         "played": "17",
@@ -24,19 +37,6 @@
         "goalsAgainst": "13",
         "goalDifference": "21",
         "logo": "inter"
-    },
-    {
-        "rank": "3",
-        "team": "Juventus",
-        "points": "38",
-        "played": "16",
-        "win": "12",
-        "draw": "2",
-        "lost": "2",
-        "goalsFor": "41",
-        "goalsAgainst": "14",
-        "goalDifference": "27",
-        "logo": "juventus"
     },
     {
         "rank": "4",
@@ -68,13 +68,13 @@
         "rank": "6",
         "team": "Sampdoria",
         "points": "27",
-        "played": "15",
+        "played": "16",
         "win": "8",
         "draw": "3",
-        "lost": "4",
+        "lost": "5",
         "goalsFor": "30",
-        "goalsAgainst": "22",
-        "goalDifference": "8",
+        "goalsAgainst": "23",
+        "goalDifference": "7",
         "logo": "sampdoria"
     },
     {
@@ -92,6 +92,19 @@
     },
     {
         "rank": "8",
+        "team": "ACF Fiorentina",
+        "points": "23",
+        "played": "17",
+        "win": "6",
+        "draw": "5",
+        "lost": "6",
+        "goalsFor": "26",
+        "goalsAgainst": "19",
+        "goalDifference": "7",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "9",
         "team": "Atalanta",
         "points": "23",
         "played": "16",
@@ -104,7 +117,7 @@
         "logo": "atalanta"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Torino FC",
         "points": "23",
         "played": "17",
@@ -115,19 +128,6 @@
         "goalsAgainst": "25",
         "goalDifference": "-2",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "10",
-        "team": "ACF Fiorentina",
-        "points": "22",
-        "played": "16",
-        "win": "6",
-        "draw": "4",
-        "lost": "6",
-        "goalsFor": "26",
-        "goalsAgainst": "19",
-        "goalDifference": "7",
-        "logo": "acf_fiorentina"
     },
     {
         "rank": "11",
@@ -146,26 +146,26 @@
         "rank": "12",
         "team": "Bologna FC",
         "points": "21",
-        "played": "16",
+        "played": "17",
         "win": "6",
         "draw": "3",
-        "lost": "7",
+        "lost": "8",
         "goalsFor": "19",
-        "goalsAgainst": "20",
-        "goalDifference": "-1",
+        "goalsAgainst": "23",
+        "goalDifference": "-4",
         "logo": "bologna_fc"
     },
     {
         "rank": "13",
         "team": "Chievo Verona",
         "points": "21",
-        "played": "16",
+        "played": "17",
         "win": "5",
         "draw": "6",
-        "lost": "5",
+        "lost": "6",
         "goalsFor": "17",
-        "goalsAgainst": "26",
-        "goalDifference": "-9",
+        "goalsAgainst": "27",
+        "goalDifference": "-10",
         "logo": "chievo_verona"
     },
     {
@@ -184,23 +184,36 @@
     {
         "rank": "15",
         "team": "Sassuolo Calcio",
-        "points": "14",
-        "played": "16",
-        "win": "4",
+        "points": "17",
+        "played": "17",
+        "win": "5",
         "draw": "2",
         "lost": "10",
-        "goalsFor": "10",
+        "goalsFor": "11",
         "goalsAgainst": "28",
-        "goalDifference": "-18",
+        "goalDifference": "-17",
         "logo": "sassuolo_calcio"
     },
     {
         "rank": "16",
+        "team": "FC Crotone",
+        "points": "15",
+        "played": "17",
+        "win": "4",
+        "draw": "3",
+        "lost": "10",
+        "goalsFor": "13",
+        "goalsAgainst": "32",
+        "goalDifference": "-19",
+        "logo": "fc_crotone"
+    },
+    {
+        "rank": "17",
         "team": "Genoa CFC",
-        "points": "13",
-        "played": "16",
+        "points": "14",
+        "played": "17",
         "win": "3",
-        "draw": "4",
+        "draw": "5",
         "lost": "9",
         "goalsFor": "14",
         "goalsAgainst": "22",
@@ -208,7 +221,7 @@
         "logo": "genoa_cfc"
     },
     {
-        "rank": "17",
+        "rank": "18",
         "team": "Hellas Verona",
         "points": "13",
         "played": "17",
@@ -219,19 +232,6 @@
         "goalsAgainst": "32",
         "goalDifference": "-15",
         "logo": "hellas_verona"
-    },
-    {
-        "rank": "18",
-        "team": "FC Crotone",
-        "points": "12",
-        "played": "16",
-        "win": "3",
-        "draw": "3",
-        "lost": "10",
-        "goalsFor": "12",
-        "goalsAgainst": "32",
-        "goalDifference": "-20",
-        "logo": "fc_crotone"
     },
     {
         "rank": "19",

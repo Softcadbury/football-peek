@@ -6,11 +6,12 @@ this.addEventListener('activate', function (event) {
     event.waitUntil(
         // Delete old cache
         caches.keys().then(function (keyList) {
-            return Promise.all(keyList.map(function (key) {
-                if (cacheVersion.indexOf(key) === -1) {
+            return Promise.all(
+                keyList.filter(function (key) {
+                    return key != cacheVersion;
+                }).map(function (key) {
                     return caches.delete(key);
-                }
-            }));
+                }));
         })
     );
 });

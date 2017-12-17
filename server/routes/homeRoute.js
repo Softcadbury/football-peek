@@ -14,10 +14,9 @@ var data = {
 
 router.route('/').get((req, res) => {
     res.render('pages/home', Object.assign(data, {
-            competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition)),
-            leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition))
-        })
-    );
+        competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition)),
+        leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition))
+    }));
 });
 
 function getItemsMatches(filteredItems) {
@@ -101,8 +100,8 @@ function getHandledDates() {
 
     dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate()))));
 
-    for (var i = 1; i <= limitDate; i++) {
-        dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate() + i))));
+    for (var j = 1; j <= limitDate; j++) {
+        dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate() + j))));
     }
 
     return dates;
