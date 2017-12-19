@@ -1,4 +1,11 @@
 <%/* model: { currentDate, date, score, homeTeam, awayTeam, homeTeamLogo, awayTeamLogo } */%>
+<% if (currentDate !== date) { %>
+    <tr class="data-responsive-show">
+        <td colspan="5" class="align-to-center">
+            <%= date %>
+        </td>
+    </tr>
+<% } %>
 <tr>
     <td class="data-date data-responsive-hide">
         <%= currentDate !== date ? date : '' %>
