@@ -16,6 +16,14 @@
             <% } %>
         </div>
         <table class="component-table">
+            <colgroup>
+                <col class="data-date data-responsive-hide" />
+                <col />
+                <col class="data-min" />
+                <col class="data-score" />
+                <col class="data-min" />
+                <col />
+            </colgroup>
             <tbody>
                 <% resultsData.forEach((result) => { %>
                     <% if (result.round == requestedRound) { %>

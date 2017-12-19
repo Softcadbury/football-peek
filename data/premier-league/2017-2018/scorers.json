@@ -4,7 +4,7 @@
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "13",
+        "goals": "14",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -45,22 +45,22 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Wayne Rooney",
+        "country": "England",
+        "team": "Everton FC",
+        "goals": "10",
+        "flag": "england",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "7.",
         "name": " Morata",
         "country": "Spain",
         "team": "Chelsea FC",
         "goals": "9",
         "flag": "spain",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Wayne Rooney",
-        "country": "England",
-        "team": "Everton FC",
-        "goals": "9",
-        "flag": "england",
-        "logo": "everton_fc"
     },
     {
         "rank": "8.",
@@ -127,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Manchester City",
@@ -135,7 +144,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": "Charlie Austin",
         "country": "England",
         "team": "Southampton FC",
@@ -169,14 +178,5 @@
         "goals": "5",
         "flag": "denmark",
         "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Eden Hazard",
-        "country": "Belgium",
-        "team": "Chelsea FC",
-        "goals": "5",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
     }
 ]

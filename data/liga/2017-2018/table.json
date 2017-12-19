@@ -2,14 +2,14 @@
     {
         "rank": "1",
         "team": "FC Barcelona",
-        "points": "39",
-        "played": "15",
-        "win": "12",
+        "points": "42",
+        "played": "16",
+        "win": "13",
         "draw": "3",
         "lost": "0",
-        "goalsFor": "38",
+        "goalsFor": "42",
         "goalsAgainst": "7",
-        "goalDifference": "31",
+        "goalDifference": "35",
         "logo": "fc_barcelona"
     },
     {
@@ -66,6 +66,19 @@
     },
     {
         "rank": "6",
+        "team": "Villarreal CF",
+        "points": "24",
+        "played": "16",
+        "win": "7",
+        "draw": "3",
+        "lost": "6",
+        "goalsFor": "23",
+        "goalsAgainst": "20",
+        "goalDifference": "3",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "7",
         "team": "Girona FC",
         "points": "23",
         "played": "16",
@@ -78,20 +91,20 @@
         "logo": "girona_fc"
     },
     {
-        "rank": "7",
-        "team": "Villarreal CF",
+        "rank": "8",
+        "team": "Real Betis",
         "points": "21",
-        "played": "15",
+        "played": "16",
         "win": "6",
         "draw": "3",
-        "lost": "6",
-        "goalsFor": "22",
-        "goalsAgainst": "20",
-        "goalDifference": "2",
-        "logo": "villarreal_cf"
+        "lost": "7",
+        "goalsFor": "25",
+        "goalsAgainst": "29",
+        "goalDifference": "-4",
+        "logo": "real_betis"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "SD Eibar",
         "points": "21",
         "played": "16",
@@ -104,7 +117,7 @@
         "logo": "sd_eibar"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "Getafe CF",
         "points": "20",
         "played": "16",
@@ -117,7 +130,7 @@
         "logo": "getafe_cf"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "Real Sociedad",
         "points": "20",
         "played": "16",
@@ -130,7 +143,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "CD Leganés",
         "points": "20",
         "played": "15",
@@ -143,20 +156,20 @@
         "logo": "cd_leganes"
     },
     {
-        "rank": "12",
+        "rank": "13",
         "team": "Celta Vigo",
         "points": "18",
-        "played": "15",
+        "played": "16",
         "win": "5",
         "draw": "3",
-        "lost": "7",
+        "lost": "8",
         "goalsFor": "27",
-        "goalsAgainst": "23",
-        "goalDifference": "4",
+        "goalsAgainst": "24",
+        "goalDifference": "3",
         "logo": "celta_vigo"
     },
     {
-        "rank": "13",
+        "rank": "14",
         "team": "Athletic Bilbao",
         "points": "18",
         "played": "16",
@@ -167,19 +180,6 @@
         "goalsAgainst": "19",
         "goalDifference": "-3",
         "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "14",
-        "team": "Real Betis",
-        "points": "18",
-        "played": "15",
-        "win": "5",
-        "draw": "3",
-        "lost": "7",
-        "goalsFor": "23",
-        "goalsAgainst": "29",
-        "goalDifference": "-6",
-        "logo": "real_betis"
     },
     {
         "rank": "15",
@@ -197,13 +197,13 @@
     {
         "rank": "16",
         "team": "Espanyol Barcelona",
-        "points": "16",
-        "played": "15",
+        "points": "17",
+        "played": "16",
         "win": "4",
-        "draw": "4",
+        "draw": "5",
         "lost": "7",
-        "goalsFor": "11",
-        "goalsAgainst": "19",
+        "goalsFor": "13",
+        "goalsAgainst": "21",
         "goalDifference": "-8",
         "logo": "espanyol_barcelona"
     },
@@ -211,13 +211,13 @@
         "rank": "17",
         "team": "Deportivo La Coruña",
         "points": "15",
-        "played": "15",
+        "played": "16",
         "win": "4",
         "draw": "3",
-        "lost": "8",
+        "lost": "9",
         "goalsFor": "18",
-        "goalsAgainst": "27",
-        "goalDifference": "-9",
+        "goalsAgainst": "31",
+        "goalDifference": "-13",
         "logo": "deportivo_la_coruna"
     },
     {
@@ -237,25 +237,25 @@
         "rank": "19",
         "team": "Málaga CF",
         "points": "11",
-        "played": "15",
+        "played": "16",
         "win": "3",
         "draw": "2",
-        "lost": "10",
+        "lost": "11",
         "goalsFor": "13",
-        "goalsAgainst": "28",
-        "goalDifference": "-15",
+        "goalsAgainst": "30",
+        "goalDifference": "-17",
         "logo": "malaga_cf"
     },
     {
         "rank": "20",
         "team": "UD Las Palmas",
-        "points": "10",
-        "played": "15",
+        "points": "11",
+        "played": "16",
         "win": "3",
-        "draw": "1",
+        "draw": "2",
         "lost": "11",
-        "goalsFor": "11",
-        "goalsAgainst": "34",
+        "goalsFor": "13",
+        "goalsAgainst": "36",
         "goalDifference": "-23",
         "logo": "ud_las_palmas"
     }

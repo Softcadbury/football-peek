@@ -28,27 +28,27 @@
     {
         "rank": "3",
         "team": "Olympique Lyon",
-        "points": "35",
-        "played": "17",
-        "win": "10",
+        "points": "38",
+        "played": "18",
+        "win": "11",
         "draw": "5",
         "lost": "2",
-        "goalsFor": "42",
+        "goalsFor": "44",
         "goalsAgainst": "19",
-        "goalDifference": "23",
+        "goalDifference": "25",
         "logo": "olympique_lyon"
     },
     {
         "rank": "4",
         "team": "Olympique Marseille",
         "points": "35",
-        "played": "17",
+        "played": "18",
         "win": "10",
         "draw": "5",
-        "lost": "2",
+        "lost": "3",
         "goalsFor": "35",
-        "goalsAgainst": "19",
-        "goalDifference": "16",
+        "goalsAgainst": "21",
+        "goalDifference": "14",
         "logo": "olympique_marseille"
     },
     {
@@ -66,6 +66,19 @@
     },
     {
         "rank": "6",
+        "team": "OGC Nice",
+        "points": "26",
+        "played": "18",
+        "win": "8",
+        "draw": "2",
+        "lost": "8",
+        "goalsFor": "23",
+        "goalsAgainst": "28",
+        "goalDifference": "-5",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "7",
         "team": "Stade Rennes",
         "points": "25",
         "played": "18",
@@ -78,7 +91,7 @@
         "logo": "stade_rennes"
     },
     {
-        "rank": "7",
+        "rank": "8",
         "team": "Dijon FCO",
         "points": "24",
         "played": "18",
@@ -91,7 +104,7 @@
         "logo": "dijon_fco"
     },
     {
-        "rank": "8",
+        "rank": "9",
         "team": "RC Strasbourg",
         "points": "24",
         "played": "18",
@@ -104,7 +117,7 @@
         "logo": "rc_strasbourg"
     },
     {
-        "rank": "9",
+        "rank": "10",
         "team": "SM Caen",
         "points": "24",
         "played": "18",
@@ -117,7 +130,7 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "10",
+        "rank": "11",
         "team": "Montpellier HSC",
         "points": "23",
         "played": "18",
@@ -130,7 +143,7 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "11",
+        "rank": "12",
         "team": "EA Guingamp",
         "points": "23",
         "played": "18",
@@ -141,19 +154,6 @@
         "goalsAgainst": "23",
         "goalDifference": "-4",
         "logo": "ea_guingamp"
-    },
-    {
-        "rank": "12",
-        "team": "OGC Nice",
-        "points": "23",
-        "played": "17",
-        "win": "7",
-        "draw": "2",
-        "lost": "8",
-        "goalsFor": "22",
-        "goalsAgainst": "28",
-        "goalDifference": "-6",
-        "logo": "ogc_nice"
     },
     {
         "rank": "13",
@@ -185,13 +185,13 @@
         "rank": "15",
         "team": "Girondins Bordeaux",
         "points": "20",
-        "played": "17",
+        "played": "18",
         "win": "5",
         "draw": "5",
-        "lost": "7",
+        "lost": "8",
         "goalsFor": "22",
-        "goalsAgainst": "26",
-        "goalDifference": "-4",
+        "goalsAgainst": "27",
+        "goalDifference": "-5",
         "logo": "girondins_bordeaux"
     },
     {

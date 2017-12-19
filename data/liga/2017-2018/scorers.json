@@ -45,7 +45,16 @@
         "logo": "girona_fc"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "9",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "7.",
         "name": " Rodrigo",
         "country": "Spain",
         "team": "Valencia CF",
@@ -54,7 +63,16 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Celta Vigo",
@@ -73,15 +91,6 @@
     },
     {
         "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "goals": "7",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
         "name": " Willian José",
         "country": "Brazil",
         "team": "Real Sociedad",
@@ -90,7 +99,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": " Aduriz",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -118,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": " Paulinho",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": " Santi Mina",
         "country": "Spain",
         "team": "Valencia CF",
@@ -126,22 +144,13 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "15.",
+        "rank": "17.",
         "name": " Charles",
         "country": "Brazil",
         "team": "SD Eibar",
         "goals": "5",
         "flag": "brazil",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -162,21 +171,12 @@
         "logo": "girona_fc"
     },
     {
-        "rank": "19.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "goals": "4",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
         "rank": "-",
-        "name": "Enis Bardhi",
-        "country": "Macedonia",
-        "team": "Levante UD",
-        "goals": "4",
-        "flag": "macedonia",
-        "logo": "levante_ud"
+        "name": "Loïc Rémy",
+        "country": "France",
+        "team": "UD Las Palmas",
+        "goals": "5",
+        "flag": "france",
+        "logo": "ud_las_palmas"
     }
 ]

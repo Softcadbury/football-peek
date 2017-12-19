@@ -40,6 +40,19 @@
     },
     {
         "rank": "4",
+        "team": "Liverpool FC",
+        "points": "34",
+        "played": "18",
+        "win": "9",
+        "draw": "7",
+        "lost": "2",
+        "goalsFor": "38",
+        "goalsAgainst": "20",
+        "goalDifference": "18",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "5",
         "team": "Arsenal FC",
         "points": "33",
         "played": "18",
@@ -52,7 +65,7 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "5",
+        "rank": "6",
         "team": "Burnley FC",
         "points": "32",
         "played": "18",
@@ -63,19 +76,6 @@
         "goalsAgainst": "12",
         "goalDifference": "4",
         "logo": "burnley_fc"
-    },
-    {
-        "rank": "6",
-        "team": "Liverpool FC",
-        "points": "31",
-        "played": "17",
-        "win": "8",
-        "draw": "7",
-        "lost": "2",
-        "goalsFor": "34",
-        "goalsAgainst": "20",
-        "goalDifference": "14",
-        "logo": "liverpool_fc"
     },
     {
         "rank": "7",
@@ -105,6 +105,19 @@
     },
     {
         "rank": "9",
+        "team": "Everton FC",
+        "points": "25",
+        "played": "18",
+        "win": "7",
+        "draw": "4",
+        "lost": "7",
+        "goalsFor": "24",
+        "goalsAgainst": "30",
+        "goalDifference": "-6",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "10",
         "team": "Watford FC",
         "points": "22",
         "played": "18",
@@ -115,19 +128,6 @@
         "goalsAgainst": "33",
         "goalDifference": "-6",
         "logo": "watford_fc"
-    },
-    {
-        "rank": "10",
-        "team": "Everton FC",
-        "points": "22",
-        "played": "17",
-        "win": "6",
-        "draw": "4",
-        "lost": "7",
-        "goalsFor": "21",
-        "goalsAgainst": "29",
-        "goalDifference": "-8",
-        "logo": "everton_fc"
     },
     {
         "rank": "11",
@@ -198,13 +198,13 @@
         "rank": "16",
         "team": "AFC Bournemouth",
         "points": "16",
-        "played": "17",
+        "played": "18",
         "win": "4",
         "draw": "4",
-        "lost": "9",
+        "lost": "10",
         "goalsFor": "15",
-        "goalsAgainst": "20",
-        "goalDifference": "-5",
+        "goalsAgainst": "24",
+        "goalDifference": "-9",
         "logo": "afc_bournemouth"
     },
     {
@@ -250,13 +250,13 @@
         "rank": "20",
         "team": "Swansea City",
         "points": "12",
-        "played": "17",
+        "played": "18",
         "win": "3",
         "draw": "3",
-        "lost": "11",
-        "goalsFor": "9",
-        "goalsAgainst": "22",
-        "goalDifference": "-13",
+        "lost": "12",
+        "goalsFor": "10",
+        "goalsAgainst": "25",
+        "goalDifference": "-15",
         "logo": "swansea_city"
     }
 ]
