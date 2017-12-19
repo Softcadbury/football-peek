@@ -20,14 +20,14 @@
                         <% if (currentDate !== matche.date1 + matche.date2) { %>
                         <% currentDate = matche.date1 + matche.date2;%>
                             <tr>
-                                <td colspan="5" class="align-to-center">
+                                <td colspan="5" class="data-align-center">
                                     <%= matche.date1 %>
                                     <%= matche.date2 ? ' - ' + matche.date2 : '' %>
                                 </td>
                             </tr>
                         <% } %>
                         <tr>
-                            <td class="align-to-right">
+                            <td class="data-align-right">
                                 <span class="<%= matche.team1 == matche.winner ? 'is-winner' : '' %>" title="<%= matche.team1 %>">
                                     <%= matche.team1 %>
                                 </span>
