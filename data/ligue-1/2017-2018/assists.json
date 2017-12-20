@@ -4,7 +4,7 @@
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
-        "assists": "10",
+        "assists": "11",
         "flag": "brazil",
         "logo": "paris_saint_germain"
     },
@@ -13,12 +13,12 @@
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
-        "assists": "7",
+        "assists": "8",
         "flag": "france",
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Florian Thauvin",
         "country": "France",
         "team": "Olympique Marseille",
@@ -34,6 +34,15 @@
         "assists": "5",
         "flag": "netherlands",
         "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Mathieu Dossevi",
+        "country": "Togo",
+        "team": "FC Metz",
+        "assists": "5",
+        "flag": "togo",
+        "logo": "fc_metz"
     },
     {
         "rank": "-",
@@ -72,7 +81,7 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Benjamin Bourigeaud",
         "country": "France",
         "team": "Stade Rennes",
@@ -97,15 +106,6 @@
         "assists": "4",
         "flag": "argentina",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Mathieu Dossevi",
-        "country": "Togo",
-        "team": "FC Metz",
-        "assists": "4",
-        "flag": "togo",
-        "logo": "fc_metz"
     },
     {
         "rank": "-",

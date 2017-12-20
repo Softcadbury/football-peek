@@ -55,13 +55,13 @@
         "rank": "5",
         "team": "Sevilla FC",
         "points": "29",
-        "played": "16",
+        "played": "17",
         "win": "9",
         "draw": "2",
-        "lost": "5",
-        "goalsFor": "19",
-        "goalsAgainst": "19",
-        "goalDifference": "0",
+        "lost": "6",
+        "goalsFor": "20",
+        "goalsAgainst": "22",
+        "goalDifference": "-2",
         "logo": "sevilla_fc"
     },
     {
@@ -79,6 +79,32 @@
     },
     {
         "rank": "7",
+        "team": "Getafe CF",
+        "points": "23",
+        "played": "17",
+        "win": "6",
+        "draw": "5",
+        "lost": "6",
+        "goalsFor": "22",
+        "goalsAgainst": "16",
+        "goalDifference": "6",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "8",
+        "team": "Real Sociedad",
+        "points": "23",
+        "played": "17",
+        "win": "6",
+        "draw": "5",
+        "lost": "6",
+        "goalsFor": "31",
+        "goalsAgainst": "29",
+        "goalDifference": "2",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "9",
         "team": "Girona FC",
         "points": "23",
         "played": "16",
@@ -91,7 +117,7 @@
         "logo": "girona_fc"
     },
     {
-        "rank": "8",
+        "rank": "10",
         "team": "CD Leganés",
         "points": "21",
         "played": "16",
@@ -104,7 +130,7 @@
         "logo": "cd_leganes"
     },
     {
-        "rank": "9",
+        "rank": "11",
         "team": "Real Betis",
         "points": "21",
         "played": "16",
@@ -117,7 +143,7 @@
         "logo": "real_betis"
     },
     {
-        "rank": "10",
+        "rank": "12",
         "team": "SD Eibar",
         "points": "21",
         "played": "16",
@@ -128,32 +154,6 @@
         "goalsAgainst": "28",
         "goalDifference": "-10",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "11",
-        "team": "Getafe CF",
-        "points": "20",
-        "played": "16",
-        "win": "5",
-        "draw": "5",
-        "lost": "6",
-        "goalsFor": "20",
-        "goalsAgainst": "16",
-        "goalDifference": "4",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "12",
-        "team": "Real Sociedad",
-        "points": "20",
-        "played": "16",
-        "win": "5",
-        "draw": "5",
-        "lost": "6",
-        "goalsFor": "28",
-        "goalsAgainst": "28",
-        "goalDifference": "0",
-        "logo": "real_sociedad"
     },
     {
         "rank": "13",
@@ -250,13 +250,13 @@
         "rank": "20",
         "team": "UD Las Palmas",
         "points": "11",
-        "played": "16",
+        "played": "17",
         "win": "3",
         "draw": "2",
-        "lost": "11",
+        "lost": "12",
         "goalsFor": "13",
-        "goalsAgainst": "36",
-        "goalDifference": "-23",
+        "goalsAgainst": "38",
+        "goalDifference": "-25",
         "logo": "ud_las_palmas"
     }
 ]

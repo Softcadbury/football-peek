@@ -15,8 +15,8 @@ var leagueCronJobTimes = [
     '00 00 21 * * mon,fri,sat,sun',
     '00 30 22 * * mon,fri,sat,sun',
     '00 50 22 * * mon,fri,sat,sun',
-    '00 10 23 * * mon,fri,sat,sun',
-    '00 30 23 * * mon,fri,sat,sun',
+    '00 10 23 * * *',
+    '00 30 23 * * *',
     '00 50 23 * * *'
 ];
 
@@ -26,8 +26,8 @@ var competitionCronJobTimes = [
     '00 05 21 * * tue,wed,thu',
     '00 35 22 * * tue,wed,thu',
     '00 55 22 * * tue,wed,thu',
-    '00 15 23 * * tue,wed,thu',
-    '00 35 23 * * tue,wed,thu',
+    '00 15 23 * * *',
+    '00 35 23 * * *',
     '00 55 23 * * *'
 ];
 
