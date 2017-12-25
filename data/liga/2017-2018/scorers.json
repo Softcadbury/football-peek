@@ -4,12 +4,30 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "14",
+        "goals": "15",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
         "rank": "2.",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "3.",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "10",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Simone Zaza",
         "country": "Italy",
         "team": "Valencia CF",
@@ -18,7 +36,7 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "3.",
+        "rank": "5.",
         "name": "Cédric Bakambu",
         "country": "Congo DR",
         "team": "Villarreal CF",
@@ -28,30 +46,12 @@
     },
     {
         "rank": "-",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
         "name": "Christian Stuani",
         "country": "Uruguay",
         "team": "Girona FC",
         "goals": "9",
         "flag": "uruguay",
         "logo": "girona_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "goals": "9",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
     },
     {
         "rank": "7.",
@@ -118,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": " Charles",
+        "country": "Brazil",
+        "team": "SD Eibar",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
         "name": " Mikel Oyarzabal",
         "country": "Spain",
         "team": "Real Sociedad",
@@ -144,13 +153,13 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "17.",
-        "name": " Charles",
-        "country": "Brazil",
-        "team": "SD Eibar",
+        "rank": "18.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "Villarreal CF",
         "goals": "5",
-        "flag": "brazil",
-        "logo": "sd_eibar"
+        "flag": "colombia",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Portu",
+        "name": " Joan Jordán",
         "country": "Spain",
-        "team": "Girona FC",
+        "team": "SD Eibar",
         "goals": "5",
         "flag": "spain",
-        "logo": "girona_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Loïc Rémy",
-        "country": "France",
-        "team": "UD Las Palmas",
-        "goals": "5",
-        "flag": "france",
-        "logo": "ud_las_palmas"
+        "logo": "sd_eibar"
     }
 ]

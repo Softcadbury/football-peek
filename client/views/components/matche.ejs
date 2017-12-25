@@ -2,13 +2,15 @@
 <% if (currentDate !== date) { %>
     <tr class="data-responsive-show">
         <td colspan="5" class="data-align-center">
-            <%= date %>
+            <span class="date"><%= date %></span>
         </td>
     </tr>
 <% } %>
 <tr>
     <td class="data-date data-responsive-hide">
-        <%= currentDate !== date ? date : '' %>
+        <% if (currentDate !== date) { %>
+            <span class="date"><%= date %></span>
+        <% } %>
     </td>
     <td class="data-align-right">
         <span title="<%= homeTeam %>">

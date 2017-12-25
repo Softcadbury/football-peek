@@ -1,42 +1,42 @@
 [
     {
         "rank": "1.",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "14",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "2.",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "12",
+        "goals": "15",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "3.",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "goals": "11",
-        "flag": "england",
-        "logo": "manchester_city"
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "15",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
     },
     {
-        "rank": "4.",
+        "rank": "3.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "10",
+        "goals": "12",
         "flag": "argentina",
         "logo": "manchester_city"
     },
     {
         "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "12",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "5.",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Manchester United",
@@ -81,16 +81,43 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "10.",
+        "rank": "-",
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "7",
+        "goals": "8",
         "flag": "england",
         "logo": "leicester_city"
     },
     {
         "rank": "11.",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "7",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "12.",
+        "name": "Charlie Austin",
+        "country": "England",
+        "team": "Southampton FC",
+        "goals": "6",
+        "flag": "england",
+        "logo": "southampton_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
@@ -127,15 +154,6 @@
     },
     {
         "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "6",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Manchester City",
@@ -144,25 +162,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "17.",
-        "name": "Charlie Austin",
-        "country": "England",
-        "team": "Southampton FC",
-        "goals": "5",
-        "flag": "england",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "19.",
         "name": " David Silva",
         "country": "Spain",
         "team": "Manchester City",
@@ -172,11 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
+        "name": "Laurent Depoitre",
+        "country": "Belgium",
+        "team": "Huddersfield Town",
         "goals": "5",
-        "flag": "denmark",
-        "logo": "tottenham_hotspur"
+        "flag": "belgium",
+        "logo": "huddersfield_town"
     }
 ]

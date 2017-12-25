@@ -21,8 +21,11 @@
                         <% currentDate = matche.date1 + matche.date2;%>
                             <tr>
                                 <td colspan="5" class="data-align-center">
-                                    <%= matche.date1 %>
-                                    <%= matche.date2 ? ' - ' + matche.date2 : '' %>
+                                    <span class="date"><%= matche.date1 %></span>
+                                    <% if (matche.date2) { %>
+                                        <span class="date-separator">-</span>
+                                        <span class="date"><%= matche.date2 %></span>
+                                    <% } %>
                                 </td>
                             </tr>
                         <% } %>

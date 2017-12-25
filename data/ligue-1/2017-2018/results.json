@@ -1618,12 +1618,20 @@
         "round": 20,
         "matches": [
             {
-                "date": "13/01/2018",
-                "homeTeam": "AS Saint-Étienne",
-                "awayTeam": "Toulouse FC",
+                "date": "12/01/2018",
+                "homeTeam": "RC Strasbourg",
+                "awayTeam": "EA Guingamp",
                 "score": "-:-",
-                "homeTeamLogo": "as_saint_etienne",
-                "awayTeamLogo": "toulouse_fc"
+                "homeTeamLogo": "rc_strasbourg",
+                "awayTeamLogo": "ea_guingamp"
+            },
+            {
+                "date": "13/01/2018",
+                "homeTeam": "Stade Rennes",
+                "awayTeam": "Olympique Marseille",
+                "score": "-:-",
+                "homeTeamLogo": "stade_rennes",
+                "awayTeamLogo": "olympique_marseille"
             },
             {
                 "date": "13/01/2018",
@@ -1643,14 +1651,6 @@
             },
             {
                 "date": "13/01/2018",
-                "homeTeam": "FC Nantes",
-                "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
-                "homeTeamLogo": "fc_nantes",
-                "awayTeamLogo": "paris_saint_germain"
-            },
-            {
-                "date": "13/01/2018",
                 "homeTeam": "Montpellier HSC",
                 "awayTeam": "AS Monaco",
                 "score": "-:-",
@@ -1667,22 +1667,6 @@
             },
             {
                 "date": "13/01/2018",
-                "homeTeam": "Olympique Lyon",
-                "awayTeam": "Angers SCO",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_lyon",
-                "awayTeamLogo": "angers_sco"
-            },
-            {
-                "date": "13/01/2018",
-                "homeTeam": "RC Strasbourg",
-                "awayTeam": "EA Guingamp",
-                "score": "-:-",
-                "homeTeamLogo": "rc_strasbourg",
-                "awayTeamLogo": "ea_guingamp"
-            },
-            {
-                "date": "13/01/2018",
                 "homeTeam": "SM Caen",
                 "awayTeam": "Lille OSC",
                 "score": "-:-",
@@ -1690,12 +1674,28 @@
                 "awayTeamLogo": "lille_osc"
             },
             {
-                "date": "13/01/2018",
-                "homeTeam": "Stade Rennes",
-                "awayTeam": "Olympique Marseille",
+                "date": "14/01/2018",
+                "homeTeam": "AS Saint-Étienne",
+                "awayTeam": "Toulouse FC",
                 "score": "-:-",
-                "homeTeamLogo": "stade_rennes",
-                "awayTeamLogo": "olympique_marseille"
+                "homeTeamLogo": "as_saint_etienne",
+                "awayTeamLogo": "toulouse_fc"
+            },
+            {
+                "date": "14/01/2018",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Angers SCO",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "angers_sco"
+            },
+            {
+                "date": "14/01/2018",
+                "homeTeam": "FC Nantes",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "fc_nantes",
+                "awayTeamLogo": "paris_saint_germain"
             }
         ]
     },
