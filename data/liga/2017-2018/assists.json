@@ -4,7 +4,7 @@
         "name": "Pione Sisto",
         "country": "Denmark",
         "team": "Celta Vigo",
-        "assists": "8",
+        "assists": "9",
         "flag": "denmark",
         "logo": "celta_vigo"
     },
@@ -18,7 +18,25 @@
         "logo": "real_betis"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Pablo Fornals",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "5.",
         "name": " Gonçalo Guedes",
         "country": "Portugal",
         "team": "Valencia CF",
@@ -37,30 +55,30 @@
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
+        "name": " Sergi Roberto",
+        "country": "Spain",
         "team": "FC Barcelona",
         "assists": "5",
-        "flag": "argentina",
+        "flag": "spain",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
-        "name": " Pablo Fornals",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "7.",
+        "rank": "8.",
         "name": " Carlos Soler",
         "country": "Spain",
         "team": "Valencia CF",
         "assists": "4",
         "flag": "spain",
         "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": " José Ángel",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "sd_eibar"
     },
     {
         "rank": "-",
@@ -82,15 +100,6 @@
     },
     {
         "rank": "-",
-        "name": " Sergi Roberto",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
         "name": "Daniel Wass",
         "country": "Denmark",
         "team": "Celta Vigo",
@@ -99,7 +108,7 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Nordin Amrabat",
         "country": "Morocco",
         "team": "CD Leganés",
@@ -169,14 +178,5 @@
         "assists": "3",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Illarra",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "real_sociedad"
     }
 ]
