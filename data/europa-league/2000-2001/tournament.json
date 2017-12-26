@@ -1,0 +1,366 @@
+[
+    {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "16/05/2001",
+                "team1": "Liverpool FC",
+                "team2": "CD Alavés",
+                "score1": "5:4",
+                "winner": "Liverpool FC",
+                "team1Logo": "liverpool_fc",
+                "team2Logo": "cd_alaves"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "date1": "05/04/2001",
+                "date2": "19/04/2001",
+                "team1": "FC Barcelona",
+                "team2": "Liverpool FC",
+                "score1": "0:0",
+                "score2": "0:1",
+                "winner": "Liverpool FC",
+                "team1Logo": "fc_barcelona",
+                "team2Logo": "liverpool_fc"
+            },
+            {
+                "date1": "05/04/2001",
+                "date2": "19/04/2001",
+                "team1": "CD Alavés",
+                "team2": "1. FC Kaiserslautern",
+                "score1": "5:1",
+                "score2": "4:1",
+                "winner": "CD Alavés",
+                "team1Logo": "cd_alaves",
+                "team2Logo": "1__fc_kaiserslautern"
+            }
+        ]
+    },
+    {
+        "name": "Quarter-finals",
+        "matches": [
+            {
+                "date1": "08/03/2001",
+                "date2": "15/03/2001",
+                "team1": "1. FC Kaiserslautern",
+                "team2": "PSV Eindhoven",
+                "score1": "1:0",
+                "score2": "1:0",
+                "winner": "1. FC Kaiserslautern",
+                "team1Logo": "1__fc_kaiserslautern",
+                "team2Logo": "psv_eindhoven"
+            },
+            {
+                "date1": "08/03/2001",
+                "date2": "15/03/2001",
+                "team1": "FC Barcelona",
+                "team2": "Celta Vigo",
+                "score1": "2:1",
+                "score2": "2:3",
+                "winner": "FC Barcelona",
+                "team1Logo": "fc_barcelona",
+                "team2Logo": "celta_vigo"
+            },
+            {
+                "date1": "08/03/2001",
+                "date2": "15/03/2001",
+                "team1": "CD Alavés",
+                "team2": "Rayo Vallecano",
+                "score1": "3:0",
+                "score2": "1:2",
+                "winner": "CD Alavés",
+                "team1Logo": "cd_alaves",
+                "team2Logo": "rayo_vallecano"
+            },
+            {
+                "date1": "08/03/2001",
+                "date2": "15/03/2001",
+                "team1": "FC Porto",
+                "team2": "Liverpool FC",
+                "score1": "0:0",
+                "score2": "0:2",
+                "winner": "Liverpool FC",
+                "team1Logo": "fc_porto",
+                "team2Logo": "liverpool_fc"
+            }
+        ]
+    },
+    {
+        "name": "Eighth-finals",
+        "matches": [
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "Slavia Praha",
+                "team2": "1. FC Kaiserslautern",
+                "score1": "0:0",
+                "score2": "0:1",
+                "winner": "1. FC Kaiserslautern",
+                "team1Logo": "slavia_praha",
+                "team2Logo": "1__fc_kaiserslautern"
+            },
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "CD Alavés",
+                "team2": "Inter",
+                "score1": "3:3",
+                "score2": "2:0",
+                "winner": "CD Alavés",
+                "team1Logo": "cd_alaves",
+                "team2Logo": "inter"
+            },
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "PSV Eindhoven",
+                "team2": "Parma AC",
+                "score1": "2:1",
+                "score2": "2:3",
+                "winner": "PSV Eindhoven",
+                "team1Logo": "psv_eindhoven",
+                "team2Logo": "parma_ac"
+            },
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "AEK Athen",
+                "team2": "FC Barcelona",
+                "score1": "0:1",
+                "score2": "0:5",
+                "winner": "FC Barcelona",
+                "team1Logo": "aek_athen",
+                "team2Logo": "fc_barcelona"
+            },
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "VfB Stuttgart",
+                "team2": "Celta Vigo",
+                "score1": "0:0",
+                "score2": "1:2",
+                "winner": "Celta Vigo",
+                "team1Logo": "vfb_stuttgart",
+                "team2Logo": "celta_vigo"
+            },
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "Rayo Vallecano",
+                "team2": "Girondins Bordeaux",
+                "score1": "4:1",
+                "score2": "2:1",
+                "winner": "Rayo Vallecano",
+                "team1Logo": "rayo_vallecano",
+                "team2Logo": "girondins_bordeaux"
+            },
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "AS Roma",
+                "team2": "Liverpool FC",
+                "score1": "0:2",
+                "score2": "1:0",
+                "winner": "Liverpool FC",
+                "team1Logo": "as_roma",
+                "team2Logo": "liverpool_fc"
+            },
+            {
+                "date1": "15/02/2001",
+                "date2": "22/02/2001",
+                "team1": "FC Porto",
+                "team2": "FC Nantes",
+                "score1": "3:1",
+                "score2": "1:2",
+                "winner": "FC Porto",
+                "team1Logo": "fc_porto",
+                "team2Logo": "fc_nantes"
+            }
+        ]
+    },
+    {
+        "name": "Sixteenth-finals",
+        "matches": [
+            {
+                "date1": "21/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Hertha BSC",
+                "team2": "Inter",
+                "score1": "0:0",
+                "score2": "1:2",
+                "winner": "Inter",
+                "team1Logo": "hertha_bsc",
+                "team2Logo": "inter"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Lokomotiv Moskva",
+                "team2": "Rayo Vallecano",
+                "score1": "0:0",
+                "score2": "0:2",
+                "winner": "Rayo Vallecano",
+                "team1Logo": "lokomotiv_moskva",
+                "team2Logo": "rayo_vallecano"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "05/12/2000",
+                "team1": "Parma AC",
+                "team2": "TSV 1860 München",
+                "score1": "2:2",
+                "score2": "2:0",
+                "winner": "Parma AC",
+                "team1Logo": "parma_ac",
+                "team2Logo": "tsv_1860_munchen"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "NK Osijek",
+                "team2": "Slavia Praha",
+                "score1": "2:0",
+                "score2": "1:5",
+                "winner": "Slavia Praha",
+                "team1Logo": "nk_osijek",
+                "team2Logo": "slavia_praha"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Shakhtar Donetsk",
+                "team2": "Celta Vigo",
+                "score1": "0:0",
+                "score2": "0:1",
+                "winner": "Celta Vigo",
+                "team1Logo": "shakhtar_donetsk",
+                "team2Logo": "celta_vigo"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "FC Nantes",
+                "team2": "Lausanne Sports",
+                "score1": "4:3",
+                "score2": "3:1",
+                "winner": "FC Nantes",
+                "team1Logo": "fc_nantes",
+                "team2Logo": "lausanne_sports"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Bayer Leverkusen",
+                "team2": "AEK Athen",
+                "score1": "4:4",
+                "score2": "0:2",
+                "winner": "AEK Athen",
+                "team1Logo": "bayer_leverkusen",
+                "team2Logo": "aek_athen"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "PSV Eindhoven",
+                "team2": "PAOK Saloniki",
+                "score1": "3:0",
+                "score2": "1:0",
+                "winner": "PSV Eindhoven",
+                "team1Logo": "psv_eindhoven",
+                "team2Logo": "paok_saloniki"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "05/12/2000",
+                "team1": "Feyenoord",
+                "team2": "VfB Stuttgart",
+                "score1": "2:2",
+                "score2": "1:2",
+                "winner": "VfB Stuttgart",
+                "team1Logo": "feyenoord",
+                "team2Logo": "vfb_stuttgart"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Olympiakos Piräus",
+                "team2": "Liverpool FC",
+                "score1": "2:2",
+                "score2": "0:2",
+                "winner": "Liverpool FC",
+                "team1Logo": "olympiakos_piraus",
+                "team2Logo": "liverpool_fc"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "CD Alavés",
+                "team2": "Rosenborg BK",
+                "score1": "1:1",
+                "score2": "3:1",
+                "winner": "CD Alavés",
+                "team1Logo": "cd_alaves",
+                "team2Logo": "rosenborg_bk"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Club Brugge KV",
+                "team2": "FC Barcelona",
+                "score1": "0:2",
+                "score2": "1:1",
+                "winner": "FC Barcelona",
+                "team1Logo": "club_brugge_kv",
+                "team2Logo": "fc_barcelona"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "AS Roma",
+                "team2": "Hamburger SV",
+                "score1": "1:0",
+                "score2": "3:0",
+                "winner": "AS Roma",
+                "team1Logo": "as_roma",
+                "team2Logo": "hamburger_sv"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Girondins Bordeaux",
+                "team2": "Werder Bremen",
+                "score1": "4:1",
+                "score2": "0:0",
+                "winner": "Girondins Bordeaux",
+                "team1Logo": "girondins_bordeaux",
+                "team2Logo": "werder_bremen"
+            },
+            {
+                "date1": "23/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Espanyol Barcelona",
+                "team2": "FC Porto",
+                "score1": "0:2",
+                "score2": "0:0",
+                "winner": "FC Porto",
+                "team1Logo": "espanyol_barcelona",
+                "team2Logo": "fc_porto"
+            },
+            {
+                "date1": "30/11/2000",
+                "date2": "07/12/2000",
+                "team1": "Rangers FC",
+                "team2": "1. FC Kaiserslautern",
+                "score1": "1:0",
+                "score2": "0:3",
+                "winner": "1. FC Kaiserslautern",
+                "team1Logo": "rangers_fc",
+                "team2Logo": "1__fc_kaiserslautern"
+            }
+        ]
+    }
+]
