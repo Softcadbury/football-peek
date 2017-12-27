@@ -18,22 +18,22 @@ describe('Images intergrity', () => {
             config.periods.availables.forEach(period => {
                 describe(period, () => {
                     if (item.isCompetition) {
-                        testTournamentImages(item.code, period);
-                        testGroupImages(item.code, period);
+                        testTournamentData(item.code, period);
+                        testGroupsData(item.code, period);
                     } else {
-                        testTableImages(item.code, period);
-                        testResultsImages(item.code, period);
+                        testTableData(item.code, period);
+                        testResultData(item.code, period);
                     }
 
-                    testScorersImages(item.code, period);
-                    testAssistsImages(item.code, period);
+                    testScorersData(item.code, period);
+                    testAssistsData(item.code, period);
                 });
             });
         });
     });
 });
 
-function testTournamentImages(code, period) {
+function testTournamentData(code, period) {
     var path = helper.stringFormat(config.paths.tournamentData, code, period);
 
     if (!fileExists.sync(path)) {
@@ -41,20 +41,29 @@ function testTournamentImages(code, period) {
     }
 
     var data = helper.readJsonFile(path);
-    testImagesExistance('Tournament Final', data[0].matches);
-    testImagesExistance('Tournament Semi-finals', data[1].matches);
-    testImagesExistance('Tournament Quarter-finals', data[2].matches);
 
-    if (data.length === 4) {
+    if (data.length > 0) {
+        testImagesExistance('Tournament Final', data[0].matches);
+    }
+
+    if (data.length > 1) {
+        testImagesExistance('Tournament Semi-finals', data[1].matches);
+    }
+
+    if (data.length > 2) {
+        testImagesExistance('Tournament Quarter-finals', data[2].matches);
+    }
+
+    if (data.length > 3) {
         testImagesExistance('Tournament Eighth-finals', data[3].matches);
     }
 
-    if (data.length === 5) {
+    if (data.length > 4) {
         testImagesExistance('Tournament Sixteenth-finals', data[4].matches);
     }
 }
 
-function testGroupImages(code, period) {
+function testGroupsData(code, period) {
     var path = helper.stringFormat(config.paths.groupsData, code, period);
 
     if (!fileExists.sync(path)) {
@@ -62,29 +71,60 @@ function testGroupImages(code, period) {
     }
 
     var data = helper.readJsonFile(path);
-    for (var i = 0; i < data.length; i++) {
-        testImagesExistance('Group Matches ' + i, data[i].matches);
-        testImagesExistance('Group Table ' + i, data[i].table);
-    }
+
+    it('Group should have the correct keys', () => {
+        data.forEach(item => {
+            testImagesExistance('Group Matches', item.matches);
+            testImagesExistance('Group Table', item.table);
+        });
+    });
 }
 
-function testTableImages(code, period) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.tableData, code, period));
+function testTableData(code, period) {
+    var path = helper.stringFormat(config.paths.tableData, code, period);
+
+    if (!fileExists.sync(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
+
     testImagesExistance('Table', data);
 }
 
-function testResultsImages(code, period) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, code, period));
+function testResultData(code, period) {
+    var path = helper.stringFormat(config.paths.resultsData, code, period);
+
+    if (!fileExists.sync(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
+
     testImagesExistance('Results', data[0].matches);
 }
 
-function testScorersImages(code, period) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.scorersData, code, period));
+function testScorersData(code, period) {
+    var path = helper.stringFormat(config.paths.scorersData, code, period);
+
+    if (!fileExists.sync(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
+
     testImagesExistance('Scorers', data);
 }
 
-function testAssistsImages(code, period) {
-    var data = helper.readJsonFile(helper.stringFormat(config.paths.assistsData, code, period));
+function testAssistsData(code, period) {
+    var path = helper.stringFormat(config.paths.assistsData, code, period);
+
+    if (!fileExists.sync(path)) {
+        return;
+    }
+
+    var data = helper.readJsonFile(path);
+
     testImagesExistance('Assists', data);
 }
 
