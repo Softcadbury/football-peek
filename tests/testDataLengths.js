@@ -7,7 +7,7 @@ var config = require('../server/config');
 var helper = require('../server/helper');
 var items = require('../server/data/items');
 
-describe('Data Lengths', () => {
+describe('Data lengths', () => {
     items.forEach(item => {
         describe(item.name, () => {
             config.periods.availables.forEach(period => {

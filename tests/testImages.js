@@ -72,11 +72,9 @@ function testGroupsData(code, period) {
 
     var data = helper.readJsonFile(path);
 
-    it('Group should have the correct keys', () => {
-        data.forEach(item => {
-            testImagesExistance('Group Matches', item.matches);
-            testImagesExistance('Group Table', item.table);
-        });
+    data.forEach(item => {
+        testImagesExistance('Group Matches', item.matches);
+        testImagesExistance('Group Table', item.table);
     });
 }
 
