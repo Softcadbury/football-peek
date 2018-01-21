@@ -1706,7 +1706,7 @@
                 "date": "21/01/2018",
                 "homeTeam": "Atalanta",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "ssc_napoli"
             },
@@ -1714,7 +1714,7 @@
                 "date": "21/01/2018",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "benevento_calcio"
             },
@@ -1722,7 +1722,7 @@
                 "date": "21/01/2018",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "Chievo Verona",
-                "score": "-:-",
+                "score": "5:1",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "chievo_verona"
             },
@@ -1730,7 +1730,7 @@
                 "date": "21/01/2018",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "fc_crotone"
             },
@@ -1738,7 +1738,7 @@
                 "date": "21/01/2018",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "acf_fiorentina"
             },
@@ -1746,7 +1746,7 @@
                 "date": "21/01/2018",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "SPAL 2013 Ferrara",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "spal_2013_ferrara"
             },
@@ -1754,7 +1754,7 @@
                 "date": "21/01/2018",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "torino_fc"
             },
@@ -1788,12 +1788,28 @@
         "round": 22,
         "matches": [
             {
-                "date": "28/01/2018",
+                "date": "27/01/2018",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Atalanta",
                 "score": "-:-",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "27/01/2018",
+                "homeTeam": "Chievo Verona",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "chievo_verona",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "28/01/2018",
+                "homeTeam": "SPAL 2013 Ferrara",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "spal_2013_ferrara",
+                "awayTeamLogo": "inter"
             },
             {
                 "date": "28/01/2018",
@@ -1829,19 +1845,11 @@
             },
             {
                 "date": "28/01/2018",
-                "homeTeam": "SPAL 2013 Ferrara",
-                "awayTeam": "Inter",
+                "homeTeam": "Genoa CFC",
+                "awayTeam": "Udinese Calcio",
                 "score": "-:-",
-                "homeTeamLogo": "spal_2013_ferrara",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "28/01/2018",
-                "homeTeam": "Chievo Verona",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "chievo_verona",
-                "awayTeamLogo": "juventus"
+                "homeTeamLogo": "genoa_cfc",
+                "awayTeamLogo": "udinese_calcio"
             },
             {
                 "date": "28/01/2018",
@@ -1858,14 +1866,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "sampdoria"
-            },
-            {
-                "date": "28/01/2018",
-                "homeTeam": "Genoa CFC",
-                "awayTeam": "Udinese Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "genoa_cfc",
-                "awayTeamLogo": "udinese_calcio"
             }
         ]
     },
@@ -1873,20 +1873,36 @@
         "round": 23,
         "matches": [
             {
+                "date": "03/02/2018",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "Torino FC",
+                "score": "-:-",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "03/02/2018",
+                "homeTeam": "Inter",
+                "awayTeam": "FC Crotone",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "04/02/2018",
+                "homeTeam": "Hellas Verona",
+                "awayTeam": "AS Roma",
+                "score": "-:-",
+                "homeTeamLogo": "hellas_verona",
+                "awayTeamLogo": "as_roma"
+            },
+            {
                 "date": "04/02/2018",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Chievo Verona",
                 "score": "-:-",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "chievo_verona"
-            },
-            {
-                "date": "04/02/2018",
-                "homeTeam": "Inter",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "inter",
-                "awayTeamLogo": "fc_crotone"
             },
             {
                 "date": "04/02/2018",
@@ -1898,35 +1914,11 @@
             },
             {
                 "date": "04/02/2018",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "04/02/2018",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "AC Milan",
                 "score": "-:-",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "04/02/2018",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "04/02/2018",
-                "homeTeam": "Hellas Verona",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "hellas_verona",
-                "awayTeamLogo": "as_roma"
             },
             {
                 "date": "04/02/2018",
@@ -1946,11 +1938,19 @@
             },
             {
                 "date": "04/02/2018",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "Torino FC",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "SSC Napoli",
                 "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "torino_fc"
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "ssc_napoli"
+            },
+            {
+                "date": "05/02/2018",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Genoa CFC",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "genoa_cfc"
             }
         ]
     },
@@ -1958,7 +1958,23 @@
         "round": 24,
         "matches": [
             {
-                "date": "11/02/2018",
+                "date": "09/02/2018",
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "10/02/2018",
+                "homeTeam": "SPAL 2013 Ferrara",
+                "awayTeam": "AC Milan",
+                "score": "-:-",
+                "homeTeamLogo": "spal_2013_ferrara",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "10/02/2018",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Atalanta",
                 "score": "-:-",
@@ -1966,20 +1982,12 @@
                 "awayTeamLogo": "atalanta"
             },
             {
-                "date": "11/02/2018",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Benevento Calcio",
+                "date": "10/02/2018",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Lazio Roma",
                 "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "benevento_calcio"
-            },
-            {
-                "date": "11/02/2018",
-                "homeTeam": "Inter",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "inter",
-                "awayTeamLogo": "bologna_fc"
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "lazio_roma"
             },
             {
                 "date": "11/02/2018",
@@ -1988,6 +1996,14 @@
                 "score": "-:-",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "11/02/2018",
+                "homeTeam": "Inter",
+                "awayTeam": "Bologna FC",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "bologna_fc"
             },
             {
                 "date": "11/02/2018",
@@ -2007,35 +2023,19 @@
             },
             {
                 "date": "11/02/2018",
-                "homeTeam": "ACF Fiorentina",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "acf_fiorentina",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "11/02/2018",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Lazio Roma",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "lazio_roma"
-            },
-            {
-                "date": "11/02/2018",
-                "homeTeam": "SPAL 2013 Ferrara",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "spal_2013_ferrara",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "11/02/2018",
                 "homeTeam": "Torino FC",
                 "awayTeam": "Udinese Calcio",
                 "score": "-:-",
                 "homeTeamLogo": "torino_fc",
                 "awayTeamLogo": "udinese_calcio"
+            },
+            {
+                "date": "11/02/2018",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Benevento Calcio",
+                "score": "-:-",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "benevento_calcio"
             }
         ]
     },
@@ -2043,7 +2043,15 @@
         "round": 25,
         "matches": [
             {
-                "date": "18/02/2018",
+                "date": "17/02/2018",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "AS Roma",
+                "score": "-:-",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "17/02/2018",
                 "homeTeam": "Chievo Verona",
                 "awayTeam": "Cagliari Calcio",
                 "score": "-:-",
@@ -2051,31 +2059,7 @@
                 "awayTeamLogo": "cagliari_calcio"
             },
             {
-                "date": "18/02/2018",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "18/02/2018",
-                "homeTeam": "Atalanta",
-                "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "acf_fiorentina"
-            },
-            {
-                "date": "18/02/2018",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Hellas Verona",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "hellas_verona"
-            },
-            {
-                "date": "18/02/2018",
+                "date": "17/02/2018",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Inter",
                 "score": "-:-",
@@ -2092,19 +2076,11 @@
             },
             {
                 "date": "18/02/2018",
-                "homeTeam": "Udinese Calcio",
-                "awayTeam": "AS Roma",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "FC Crotone",
                 "score": "-:-",
-                "homeTeamLogo": "udinese_calcio",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "18/02/2018",
-                "homeTeam": "AC Milan",
-                "awayTeam": "Sampdoria",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "sampdoria"
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "fc_crotone"
             },
             {
                 "date": "18/02/2018",
@@ -2121,6 +2097,30 @@
                 "score": "-:-",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "spal_2013_ferrara"
+            },
+            {
+                "date": "18/02/2018",
+                "homeTeam": "Atalanta",
+                "awayTeam": "ACF Fiorentina",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "18/02/2018",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Sampdoria",
+                "score": "-:-",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "sampdoria"
+            },
+            {
+                "date": "19/02/2018",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Hellas Verona",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "hellas_verona"
             }
         ]
     },
@@ -2128,20 +2128,28 @@
         "round": 26,
         "matches": [
             {
-                "date": "25/02/2018",
-                "homeTeam": "Juventus",
-                "awayTeam": "Atalanta",
+                "date": "24/02/2018",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "Genoa CFC",
                 "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "atalanta"
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "genoa_cfc"
             },
             {
-                "date": "25/02/2018",
+                "date": "24/02/2018",
                 "homeTeam": "Inter",
                 "awayTeam": "Benevento Calcio",
                 "score": "-:-",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "benevento_calcio"
+            },
+            {
+                "date": "25/02/2018",
+                "homeTeam": "FC Crotone",
+                "awayTeam": "SPAL 2013 Ferrara",
+                "score": "-:-",
+                "homeTeamLogo": "fc_crotone",
+                "awayTeamLogo": "spal_2013_ferrara"
             },
             {
                 "date": "25/02/2018",
@@ -2153,43 +2161,11 @@
             },
             {
                 "date": "25/02/2018",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "25/02/2018",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Lazio Roma",
                 "score": "-:-",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "lazio_roma"
-            },
-            {
-                "date": "25/02/2018",
-                "homeTeam": "AS Roma",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "25/02/2018",
-                "homeTeam": "Cagliari Calcio",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "cagliari_calcio",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "25/02/2018",
-                "homeTeam": "FC Crotone",
-                "awayTeam": "SPAL 2013 Ferrara",
-                "score": "-:-",
-                "homeTeamLogo": "fc_crotone",
-                "awayTeamLogo": "spal_2013_ferrara"
             },
             {
                 "date": "25/02/2018",
@@ -2206,6 +2182,30 @@
                 "score": "-:-",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "udinese_calcio"
+            },
+            {
+                "date": "25/02/2018",
+                "homeTeam": "Juventus",
+                "awayTeam": "Atalanta",
+                "score": "-:-",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "25/02/2018",
+                "homeTeam": "AS Roma",
+                "awayTeam": "AC Milan",
+                "score": "-:-",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "26/02/2018",
+                "homeTeam": "Cagliari Calcio",
+                "awayTeam": "SSC Napoli",
+                "score": "-:-",
+                "homeTeamLogo": "cagliari_calcio",
+                "awayTeamLogo": "ssc_napoli"
             }
         ]
     },
@@ -2213,12 +2213,28 @@
         "round": 27,
         "matches": [
             {
-                "date": "04/03/2018",
+                "date": "03/03/2018",
                 "homeTeam": "SPAL 2013 Ferrara",
                 "awayTeam": "Bologna FC",
                 "score": "-:-",
                 "homeTeamLogo": "spal_2013_ferrara",
                 "awayTeamLogo": "bologna_fc"
+            },
+            {
+                "date": "03/03/2018",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "03/03/2018",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "AS Roma",
+                "score": "-:-",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "as_roma"
             },
             {
                 "date": "04/03/2018",
@@ -2254,30 +2270,6 @@
             },
             {
                 "date": "04/03/2018",
-                "homeTeam": "AC Milan",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "04/03/2018",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "04/03/2018",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "04/03/2018",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Sampdoria",
                 "score": "-:-",
@@ -2291,6 +2283,14 @@
                 "score": "-:-",
                 "homeTeamLogo": "chievo_verona",
                 "awayTeamLogo": "sassuolo_calcio"
+            },
+            {
+                "date": "04/03/2018",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "inter"
             }
         ]
     },
@@ -2298,12 +2298,20 @@
         "round": 28,
         "matches": [
             {
-                "date": "11/03/2018",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "Atalanta",
+                "date": "09/03/2018",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Torino FC",
                 "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "atalanta"
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "10/03/2018",
+                "homeTeam": "Hellas Verona",
+                "awayTeam": "Chievo Verona",
+                "score": "-:-",
+                "homeTeamLogo": "hellas_verona",
+                "awayTeamLogo": "chievo_verona"
             },
             {
                 "date": "11/03/2018",
@@ -2315,11 +2323,11 @@
             },
             {
                 "date": "11/03/2018",
-                "homeTeam": "Hellas Verona",
-                "awayTeam": "Chievo Verona",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "Atalanta",
                 "score": "-:-",
-                "homeTeamLogo": "hellas_verona",
-                "awayTeamLogo": "chievo_verona"
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "atalanta"
             },
             {
                 "date": "11/03/2018",
@@ -2339,14 +2347,6 @@
             },
             {
                 "date": "11/03/2018",
-                "homeTeam": "Inter",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "inter",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "11/03/2018",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Sampdoria",
                 "score": "-:-",
@@ -2363,19 +2363,19 @@
             },
             {
                 "date": "11/03/2018",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "torino_fc"
-            },
-            {
-                "date": "11/03/2018",
                 "homeTeam": "Juventus",
                 "awayTeam": "Udinese Calcio",
                 "score": "-:-",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "udinese_calcio"
+            },
+            {
+                "date": "11/03/2018",
+                "homeTeam": "Inter",
+                "awayTeam": "SSC Napoli",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "ssc_napoli"
             }
         ]
     },
@@ -2383,28 +2383,36 @@
         "round": 29,
         "matches": [
             {
+                "date": "17/03/2018",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "Cagliari Calcio",
+                "score": "-:-",
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "17/03/2018",
+                "homeTeam": "SPAL 2013 Ferrara",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "spal_2013_ferrara",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "18/03/2018",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "inter"
+            },
+            {
                 "date": "18/03/2018",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "Atalanta",
                 "score": "-:-",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "atalanta"
-            },
-            {
-                "date": "18/03/2018",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "bologna_fc"
-            },
-            {
-                "date": "18/03/2018",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "cagliari_calcio"
             },
             {
                 "date": "18/03/2018",
@@ -2424,30 +2432,6 @@
             },
             {
                 "date": "18/03/2018",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "18/03/2018",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "18/03/2018",
-                "homeTeam": "SPAL 2013 Ferrara",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "spal_2013_ferrara",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "18/03/2018",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "AS Roma",
                 "score": "-:-",
@@ -2461,6 +2445,22 @@
                 "score": "-:-",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "sassuolo_calcio"
+            },
+            {
+                "date": "18/03/2018",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Bologna FC",
+                "score": "-:-",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "bologna_fc"
+            },
+            {
+                "date": "18/03/2018",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Genoa CFC",
+                "score": "-:-",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "genoa_cfc"
             }
         ]
     },
