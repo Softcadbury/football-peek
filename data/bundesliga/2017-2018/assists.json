@@ -4,7 +4,7 @@
         "name": "Philipp Max",
         "country": "Germany",
         "team": "FC Augsburg",
-        "assists": "10",
+        "assists": "11",
         "flag": "germany",
         "logo": "fc_augsburg"
     },
@@ -19,6 +19,15 @@
     },
     {
         "rank": "-",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
@@ -27,7 +36,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -55,12 +64,12 @@
     },
     {
         "rank": "-",
-        "name": "Joshua Kimmich",
+        "name": "Felix Klaus",
         "country": "Germany",
-        "team": "Bayern München",
+        "team": "Hannover 96",
         "assists": "6",
         "flag": "germany",
-        "logo": "bayern_munchen"
+        "logo": "hannover_96"
     },
     {
         "rank": "-",
@@ -72,7 +81,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Marcel Sabitzer",
+        "country": "Austria",
+        "team": "RB Leipzig",
+        "assists": "6",
+        "flag": "austria",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "11.",
         "name": "Lars Bender",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -97,24 +115,6 @@
         "assists": "5",
         "flag": "belgium",
         "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Felix Klaus",
-        "country": "Germany",
-        "team": "Hannover 96",
-        "assists": "5",
-        "flag": "germany",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "assists": "5",
-        "flag": "austria",
-        "logo": "rb_leipzig"
     },
     {
         "rank": "14.",
@@ -154,29 +154,29 @@
     },
     {
         "rank": "-",
+        "name": "Daniel Caligiuri",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Timothy Chandler",
+        "country": "USA",
+        "team": "Eintracht Frankfurt",
+        "assists": "4",
+        "flag": "usa",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Kingsley Coman",
         "country": "France",
         "team": "Bayern München",
         "assists": "4",
         "flag": "france",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Mijat Gaćinović",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "4",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "FC Augsburg",
-        "assists": "4",
-        "flag": "austria",
-        "logo": "fc_augsburg"
     }
 ]

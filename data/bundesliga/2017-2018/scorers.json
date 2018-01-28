@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "17",
+        "goals": "18",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -28,6 +28,24 @@
     },
     {
         "rank": "4.",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "10",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "10",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Volland",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -45,25 +63,16 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "6.",
-        "name": "Mark Uth",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "9",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Niclas Füllkrug",
         "country": "Germany",
         "team": "Hannover 96",
-        "goals": "8",
+        "goals": "9",
         "flag": "germany",
         "logo": "hannover_96"
     },
     {
-        "rank": "-",
+        "rank": "9.",
         "name": "Michael Gregoritsch",
         "country": "Austria",
         "team": "FC Augsburg",
@@ -79,15 +88,6 @@
         "goals": "8",
         "flag": "france",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "8",
-        "flag": "germany",
-        "logo": "sc_freiburg"
     },
     {
         "rank": "11.",
@@ -162,21 +162,21 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "19.",
+        "rank": "-",
+        "name": "Arturo Vidal",
+        "country": "Chile",
+        "team": "Bayern München",
+        "goals": "6",
+        "flag": "chile",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "20.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
         "goals": "5",
         "flag": "argentina",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Ihlas Bebou",
-        "country": "Togo",
-        "team": "Hannover 96",
-        "goals": "5",
-        "flag": "togo",
-        "logo": "hannover_96"
     }
 ]
