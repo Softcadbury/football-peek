@@ -60,11 +60,11 @@ function testTournamentData(code, period) {
 
 function testTournamentDataSpecific(dataName, data) {
     it(dataName + ' should have the correct keys', () => {
-        assertKey(data, 'name');
-        assertKey(data, 'matches');
+        assertKeys(data, 'name');
+        assertKeys(data, 'matches');
 
         data.matches.forEach(item => {
-            assertKeys(item, ['date1', 'team1', 'team2', 'score1', 'winner', 'team1Logo', 'team2Logo']);
+            assertKeys(item, 'date1', 'team1', 'team2', 'score1', 'winner', 'team1Logo', 'team2Logo');
             assert.equal(item.hasOwnProperty('date2'), item.hasOwnProperty('score2'), 'date2 & score2');
         });
     });
@@ -81,12 +81,12 @@ function testGroupsData(code, period) {
 
     it('Group should have the correct keys', () => {
         data.forEach(item => {
-            assertKey(item, 'name');
-            assertKey(item, 'matches');
-            assertKey(item, 'table');
+            assertKeys(item, 'name');
+            assertKeys(item, 'matches');
+            assertKeys(item, 'table');
 
-            item.matches.forEach(match => assertKeys(match, ['date', 'homeTeam', 'awayTeam', 'score', 'homeTeamLogo', 'awayTeamLogo']));
-            item.table.forEach(table => assertKeys(table, ['rank', 'team', 'points', 'played', 'win', 'draw', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference', 'logo']));
+            item.matches.forEach(match => assertKeys(match, 'date', 'homeTeam', 'awayTeam', 'score', 'homeTeamLogo', 'awayTeamLogo'));
+            item.table.forEach(table => assertKeys(table, 'rank', 'team', 'points', 'played', 'win', 'draw', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference', 'logo'));
         });
     });
 }
@@ -101,7 +101,7 @@ function testTableData(code, period) {
     var data = helper.readJsonFile(path);
 
     it('Table should have the correct keys', () => {
-        data.forEach(item => assertKeys(item, ['rank', 'team', 'points', 'played', 'win', 'draw', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference', 'logo']));
+        data.forEach(item => assertKeys(item, 'rank', 'team', 'points', 'played', 'win', 'draw', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference', 'logo'));
     });
 }
 
@@ -116,10 +116,10 @@ function testResultData(code, period) {
 
     it('Result should have the correct keys', () => {
         data.forEach(item => {
-            assertKey(item, 'round');
-            assertKey(item, 'matches');
+            assertKeys(item, 'round');
+            assertKeys(item, 'matches');
 
-            item.matches.forEach(match => assertKeys(match, ['date', 'homeTeam', 'awayTeam', 'score', 'homeTeamLogo', 'awayTeamLogo']));
+            item.matches.forEach(match => assertKeys(match, 'date', 'homeTeam', 'awayTeam', 'score', 'homeTeamLogo', 'awayTeamLogo'));
         });
     });
 }
@@ -134,7 +134,7 @@ function testScorersData(code, period) {
     var data = helper.readJsonFile(path);
 
     it('Scorers should have the correct keys', () => {
-        data.forEach(item => assertKeys(item, ['rank', 'name', 'country', 'team', 'goals', 'flag', 'logo']));
+        data.forEach(item => assertKeys(item, 'rank', 'name', 'country', 'team', 'goals', 'flag', 'logo'));
     });
 }
 
@@ -148,14 +148,12 @@ function testAssistsData(code, period) {
     var data = helper.readJsonFile(path);
 
     it('Assists should have the correct keys', () => {
-        data.forEach(item => assertKeys(item, ['rank', 'name', 'country', 'team', 'assists', 'flag', 'logo']));
+        data.forEach(item => assertKeys(item, 'rank', 'name', 'country', 'team', 'assists', 'flag', 'logo'));
     });
 }
 
-function assertKeys(item, keys) {
-    keys.forEach(key => assertKey(item, key));
-}
-
-function assertKey(item, key) {
-    assert.isTrue(item.hasOwnProperty(key), key + ' is missing');
+function assertKeys(item, ...keys) {
+    keys.forEach(key => {
+        assert.isTrue(item.hasOwnProperty(key), key + ' is missing');
+    });
 }
