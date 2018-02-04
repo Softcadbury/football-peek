@@ -13,7 +13,7 @@
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "18",
+        "goals": "19",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -22,7 +22,7 @@
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "16",
+        "goals": "17",
         "flag": "argentina",
         "logo": "manchester_city"
     },
@@ -40,12 +40,30 @@
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Manchester United",
-        "goals": "11",
+        "goals": "12",
         "flag": "belgium",
         "logo": "manchester_united"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "12",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "7.",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "11",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "8.",
         "name": " Morata",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -55,30 +73,12 @@
     },
     {
         "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "10",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
         "name": "Wayne Rooney",
         "country": "England",
         "team": "Everton FC",
         "goals": "10",
         "flag": "england",
         "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "10",
-        "flag": "england",
-        "logo": "leicester_city"
     },
     {
         "rank": "10.",
@@ -127,6 +127,24 @@
     },
     {
         "rank": "-",
+        "name": "Glenn Murray",
+        "country": "England",
+        "team": "Brighton & Hove Albion",
+        "goals": "8",
+        "flag": "england",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Manchester United",
+        "goals": "8",
+        "flag": "chile",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
@@ -135,7 +153,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "goals": "7",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Abdoulaye Doucouré",
         "country": "France",
         "team": "Watford FC",
         "goals": "7",
         "flag": "france",
         "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jesse Lingard",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "7",
-        "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Arsenal FC",
-        "goals": "7",
-        "flag": "chile",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "manchester_city"
     }
 ]

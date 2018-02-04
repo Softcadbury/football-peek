@@ -13,7 +13,7 @@
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
-        "goals": "17",
+        "goals": "18",
         "flag": "brazil",
         "logo": "paris_saint_germain"
     },
@@ -54,20 +54,20 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "7.",
+        "rank": "-",
         "name": "Florian Thauvin",
         "country": "France",
         "team": "Olympique Marseille",
-        "goals": "10",
+        "goals": "13",
         "flag": "france",
         "logo": "olympique_marseille"
     },
     {
-        "rank": "-",
+        "rank": "8.",
         "name": "Karl Toko Ekambi",
         "country": "Cameroon",
         "team": "Angers SCO",
-        "goals": "10",
+        "goals": "11",
         "flag": "cameroon",
         "logo": "angers_sco"
     },
@@ -100,6 +100,15 @@
     },
     {
         "rank": "12.",
+        "name": " Malcom",
+        "country": "Brazil",
+        "team": "Girondins Bordeaux",
+        "goals": "8",
+        "flag": "brazil",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "-",
         "name": "Emiliano Sala",
         "country": "Argentina",
         "team": "FC Nantes",
@@ -108,7 +117,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
         "name": " Júlio Tavares",
         "country": "Cape Verde",
         "team": "Dijon FCO",
@@ -127,12 +136,12 @@
     },
     {
         "rank": "-",
-        "name": " Malcom",
-        "country": "Brazil",
-        "team": "Girondins Bordeaux",
+        "name": "Morgan Sanson",
+        "country": "France",
+        "team": "Olympique Marseille",
         "goals": "7",
-        "flag": "brazil",
-        "logo": "girondins_bordeaux"
+        "flag": "france",
+        "logo": "olympique_marseille"
     },
     {
         "rank": "-",
@@ -144,7 +153,16 @@
         "logo": "sm_caen"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
+        "name": "Keita Baldé",
+        "country": "Senegal",
+        "team": "AS Monaco",
+        "goals": "6",
+        "flag": "senegal",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "AS Saint-Étienne",
@@ -160,23 +178,5 @@
         "goals": "6",
         "flag": "france",
         "logo": "ea_guingamp"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Wahbi Khazri",
-        "country": "Tunisia",
-        "team": "Stade Rennes",
-        "goals": "6",
-        "flag": "tunisia",
-        "logo": "stade_rennes"
     }
 ]
