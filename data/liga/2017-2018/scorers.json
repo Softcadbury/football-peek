@@ -4,27 +4,54 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "15",
+        "goals": "20",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
         "rank": "2.",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "16",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "3.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "11",
+        "goals": "15",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
-        "rank": "3.",
-        "name": "Luis Suárez",
+        "rank": "4.",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "11",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "5.",
+        "name": "Maximiliano Gómez",
         "country": "Uruguay",
-        "team": "FC Barcelona",
+        "team": "Celta Vigo",
         "goals": "10",
         "flag": "uruguay",
-        "logo": "fc_barcelona"
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": "Christian Stuani",
+        "country": "Uruguay",
+        "team": "Girona FC",
+        "goals": "10",
+        "flag": "uruguay",
+        "logo": "girona_fc"
     },
     {
         "rank": "-",
@@ -36,7 +63,7 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "5.",
+        "rank": "8.",
         "name": "Cédric Bakambu",
         "country": "Congo DR",
         "team": "Villarreal CF",
@@ -46,16 +73,70 @@
     },
     {
         "rank": "-",
-        "name": "Christian Stuani",
-        "country": "Uruguay",
-        "team": "Girona FC",
+        "name": " Rodrigo",
+        "country": "Spain",
+        "team": "Valencia CF",
         "goals": "9",
-        "flag": "uruguay",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "10.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": " Ángel",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "goals": "8",
+        "flag": "portugal",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Paulinho",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "goals": "8",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Portu",
+        "country": "Spain",
+        "team": "Girona FC",
+        "goals": "8",
+        "flag": "spain",
         "logo": "girona_fc"
     },
     {
-        "rank": "7.",
-        "name": " Rodrigo",
+        "rank": "-",
+        "name": " Santi Mina",
         "country": "Spain",
         "team": "Valencia CF",
         "goals": "8",
@@ -63,22 +144,22 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "8.",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
+        "rank": "17.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "Villarreal CF",
         "goals": "7",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
+        "flag": "colombia",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
-        "name": "Maximiliano Gómez",
-        "country": "Uruguay",
-        "team": "Celta Vigo",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
         "goals": "7",
-        "flag": "uruguay",
-        "logo": "celta_vigo"
+        "flag": "france",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -91,92 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "7",
-        "flag": "brazil",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "12.",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Ángel",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Charles",
-        "country": "Brazil",
-        "team": "SD Eibar",
-        "goals": "6",
-        "flag": "brazil",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Mikel Oyarzabal",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Paulinho",
-        "country": "Brazil",
-        "team": "FC Barcelona",
-        "goals": "6",
-        "flag": "brazil",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Portu",
-        "country": "Spain",
-        "team": "Girona FC",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "girona_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Santi Mina",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
         "name": " Sergio León",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "6",
+        "goals": "7",
         "flag": "spain",
         "logo": "real_betis"
-    },
-    {
-        "rank": "20.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "goals": "5",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
     }
 ]
