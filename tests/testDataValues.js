@@ -38,32 +38,35 @@ function testTournamentData(code, period) {
     var data = helper.readJsonFile(path);
 
     if (data.length > 0) {
-        testTournamentDataSpecific('Tournament Final', data[0]);
+        testTournamentDataSpecific('Tournament Final', data[0], period);
     }
 
     if (data.length > 1) {
-        testTournamentDataSpecific('Tournament Semi-finals', data[1]);
+        testTournamentDataSpecific('Tournament Semi-finals', data[1], period);
     }
 
     if (data.length > 2) {
-        testTournamentDataSpecific('Tournament Quarter-finals', data[2]);
+        testTournamentDataSpecific('Tournament Quarter-finals', data[2], period);
     }
 
     if (data.length > 3) {
-        testTournamentDataSpecific('Tournament Eighth-finals', data[3]);
+        testTournamentDataSpecific('Tournament Eighth-finals', data[3], period);
     }
 
     if (data.length > 4) {
-        testTournamentDataSpecific('Tournament Sixteenth-finals', data[4]);
+        testTournamentDataSpecific('Tournament Sixteenth-finals', data[4], period);
     }
 }
 
-function testTournamentDataSpecific(dataName, data) {
+function testTournamentDataSpecific(dataName, data, period) {
     it(dataName + ' should have the correct values', () => {
         assertValueIsNotEmpty(data, 'name');
         assertValueIsNotEmpty(data, 'matches');
 
-        data.matches.forEach(item => assertValuesAreNotEmpty(item, ['date1', 'team1', 'team2', 'score1', 'winner', 'team1Logo', 'team2Logo']));
+        data.matches.forEach(item => {
+            assertValuesAreNotEmpty(item, ['date1', 'team1', 'team2', 'winner', 'team1Logo', 'team2Logo']);
+            assertScoresAreNotEmpty(item, ['score1', 'score2'], period);
+        });
     });
 }
 
@@ -82,7 +85,11 @@ function testGroupsData(code, period) {
             assertValueIsNotEmpty(item, 'matches');
             assertValueIsNotEmpty(item, 'table');
 
-            item.matches.forEach(match => assertValuesAreNotEmpty(match, ['date', 'homeTeam', 'awayTeam', 'score', 'homeTeamLogo', 'awayTeamLogo']));
+            item.matches.forEach(match => {
+                assertValuesAreNotEmpty(match, ['date', 'homeTeam', 'awayTeam', 'homeTeamLogo', 'awayTeamLogo']);
+                assertScoresAreNotEmpty(match, ['score'], period);
+            });
+
             item.table.forEach(table => {
                 assertValuesAreNotEmpty(table, ['rank', 'team', 'points', 'played', 'win', 'draw', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference', 'logo']);
                 assertValuesAreNumber(table, ['points', 'played', 'win', 'draw', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference']);
@@ -120,7 +127,10 @@ function testResultData(code, period) {
             assertValueIsNotEmpty(item, 'round');
             assertValueIsNotEmpty(item, 'matches');
 
-            item.matches.forEach(match => assertValuesAreNotEmpty(match, ['date', 'homeTeam', 'awayTeam', 'score', 'homeTeamLogo', 'awayTeamLogo']));
+            item.matches.forEach(match => {
+                assertValuesAreNotEmpty(match, ['date', 'homeTeam', 'awayTeam', 'homeTeamLogo', 'awayTeamLogo']);
+                assertScoresAreNotEmpty(match, ['score'], period);
+            });
         });
     });
 }
@@ -169,4 +179,17 @@ function assertValuesAreNumber(item, keys) {
 
 function assertValueIsNumber(item, key) {
     assert.isFalse(isNaN(item[key]), key + ' is not a number');
+}
+
+function assertScoresAreNotEmpty(item, keys, period) {
+    keys.forEach(key => assertScoreIsNotEmpty(item, key, period));
+}
+
+function assertScoreIsNotEmpty(item, key, period) {
+    if (period === config.periods.current) {
+        assertValueIsNotEmpty(item, key);
+    } else {
+        var isScoreEmpty = item[key] === '' || item[key] === '-:-';
+        assert.isFalse(isScoreEmpty, key + ' is empty');
+    }
 }
