@@ -10,6 +10,24 @@
     },
     {
         "rank": "2.",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "4.",
         "name": "Amine Harit",
         "country": "Morocco",
         "team": "FC Schalke 04",
@@ -19,24 +37,15 @@
     },
     {
         "rank": "-",
-        "name": "Joshua Kimmich",
+        "name": "Kai Havertz",
         "country": "Germany",
-        "team": "Bayern München",
+        "team": "Bayer Leverkusen",
         "assists": "7",
         "flag": "germany",
-        "logo": "bayern_munchen"
+        "logo": "bayer_leverkusen"
     },
     {
-        "rank": "-",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "7",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -55,21 +64,30 @@
     },
     {
         "rank": "-",
-        "name": "Kai Havertz",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
         "name": "Felix Klaus",
         "country": "Germany",
         "team": "Hannover 96",
         "assists": "6",
         "flag": "germany",
         "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "-",
+        "name": "Arjen Robben",
+        "country": "Netherlands",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "netherlands",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -90,13 +108,31 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "11.",
+        "rank": "13.",
         "name": "Lars Bender",
         "country": "Germany",
         "team": "Bayer Leverkusen",
         "assists": "5",
         "flag": "germany",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": " Caiuby",
+        "country": "Brazil",
+        "team": "FC Augsburg",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Caligiuri",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "5",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -126,57 +162,21 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "15.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Borussia Dortmund",
-        "assists": "4",
-        "flag": "gabon",
-        "logo": "borussia_dortmund"
+        "rank": "-",
+        "name": "Marius Wolf",
+        "country": "Germany",
+        "team": "Eintracht Frankfurt",
+        "assists": "5",
+        "flag": "germany",
+        "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "-",
-        "name": "Julian Brandt",
-        "country": "Germany",
+        "rank": "20.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
         "team": "Bayer Leverkusen",
         "assists": "4",
-        "flag": "germany",
+        "flag": "argentina",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Guido Burgstaller",
-        "country": "Austria",
-        "team": "FC Schalke 04",
-        "assists": "4",
-        "flag": "austria",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": " Caiuby",
-        "country": "Brazil",
-        "team": "FC Augsburg",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Caligiuri",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Timothy Chandler",
-        "country": "USA",
-        "team": "Eintracht Frankfurt",
-        "assists": "4",
-        "flag": "usa",
-        "logo": "eintracht_frankfurt"
     }
 ]

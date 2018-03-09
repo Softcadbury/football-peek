@@ -4,12 +4,12 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "assists": "10",
+        "assists": "11",
         "flag": "italy",
         "logo": "lazio_roma"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Gastón Ramírez",
         "country": "Uruguay",
         "team": "Sampdoria",
@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "assists": "9",
+        "flag": "spain",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "4.",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
@@ -28,21 +37,30 @@
     },
     {
         "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
-        "assists": "8",
-        "flag": "spain",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "5.",
         "name": "Papu Gómez",
         "country": "Argentina",
         "team": "Atalanta",
-        "assists": "7",
+        "assists": "8",
         "flag": "argentina",
         "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "7.",
+        "name": "Aleksandar Kolarov",
+        "country": "Serbia",
+        "team": "AS Roma",
+        "assists": "7",
+        "flag": "serbia",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -55,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Miralem Pjanić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Juventus",
+        "assists": "7",
+        "flag": "bosnia_herzegovina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Simone Verdi",
         "country": "Italy",
         "team": "Bologna FC",
@@ -63,13 +90,22 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "8.",
+        "rank": "11.",
         "name": "Mirco Antenucci",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
         "assists": "6",
         "flag": "italy",
         "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Bernardeschi",
+        "country": "Italy",
+        "team": "Juventus",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -91,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": " Iago Falqué",
+        "country": "Spain",
+        "team": "Torino FC",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Josip Iličič",
         "country": "Slovenia",
         "team": "Atalanta",
@@ -100,11 +145,11 @@
     },
     {
         "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
+        "name": " José Callejón",
+        "country": "Spain",
         "team": "SSC Napoli",
         "assists": "6",
-        "flag": "italy",
+        "flag": "spain",
         "logo": "ssc_napoli"
     },
     {
@@ -117,16 +162,7 @@
         "logo": "inter"
     },
     {
-        "rank": "-",
-        "name": "Miralem Pjanić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Juventus",
-        "assists": "6",
-        "flag": "bosnia_herzegovina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "15.",
+        "rank": "19.",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Jakub Jankto",
-        "country": "Czech Republic",
-        "team": "Udinese Calcio",
+        "name": " Diego Farias",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
         "assists": "5",
-        "flag": "czech_republic",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Aleksandar Kolarov",
-        "country": "Serbia",
-        "team": "AS Roma",
-        "assists": "5",
-        "flag": "serbia",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Adem Ljajić",
-        "country": "Serbia",
-        "team": "Torino FC",
-        "assists": "5",
-        "flag": "serbia",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Parolo",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Fabio Quagliarella",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "sampdoria"
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
     }
 ]

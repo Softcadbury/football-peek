@@ -4,12 +4,30 @@
         "name": " Canales",
         "country": "Spain",
         "team": "Real Sociedad",
-        "assists": "5",
+        "assists": "6",
         "flag": "spain",
         "logo": "real_sociedad"
     },
     {
         "rank": "2.",
+        "name": "Stefan Lainer",
+        "country": "Austria",
+        "team": "RB Salzburg",
+        "assists": "5",
+        "flag": "austria",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "3.",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "AC Milan",
+        "assists": "4",
+        "flag": "turkey",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": "Raphael Holzhauser",
         "country": "Austria",
         "team": "Austria Wien",
@@ -18,7 +36,16 @@
         "logo": "austria_wien"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Aleksey Miranchuk",
+        "country": "Russia",
+        "team": "Lokomotiv Moskva",
+        "assists": "4",
+        "flag": "russia",
+        "logo": "lokomotiv_moskva"
+    },
+    {
+        "rank": "6.",
         "name": "Fabio Borini",
         "country": "Italy",
         "team": "AC Milan",
@@ -28,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "AC Milan",
+        "name": "Constantin Budescu",
+        "country": "Romania",
+        "team": "Steaua Bucureşti",
         "assists": "3",
-        "flag": "turkey",
-        "logo": "ac_milan"
+        "flag": "romania",
+        "logo": "steaua_bucure_ti"
     },
     {
         "rank": "-",
@@ -46,21 +73,48 @@
     },
     {
         "rank": "-",
+        "name": "Memphis Depay",
+        "country": "Netherlands",
+        "team": "Olympique Lyon",
+        "assists": "3",
+        "flag": "netherlands",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": " Felipe Anderson",
+        "country": "Brazil",
+        "team": "Lazio Roma",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Saman Ghoddos",
+        "country": "Iran",
+        "team": "Östersunds FK",
+        "assists": "3",
+        "flag": "iran",
+        "logo": "ostersunds_fk"
+    },
+    {
+        "rank": "-",
+        "name": "Derlis González",
+        "country": "Paraguay",
+        "team": "Dinamo Kiev",
+        "assists": "3",
+        "flag": "paraguay",
+        "logo": "dinamo_kiev"
+    },
+    {
+        "rank": "-",
         "name": " Héldon",
         "country": "Cape Verde",
         "team": "Vitória Guimarães",
         "assists": "3",
         "flag": "cape_verde",
         "logo": "vitoria_guimaraes"
-    },
-    {
-        "rank": "-",
-        "name": "Aleksey Miranchuk",
-        "country": "Russia",
-        "team": "Lokomotiv Moskva",
-        "assists": "3",
-        "flag": "russia",
-        "logo": "lokomotiv_moskva"
     },
     {
         "rank": "-",
@@ -91,6 +145,24 @@
     },
     {
         "rank": "-",
+        "name": "Leandro Paredes",
+        "country": "Argentina",
+        "team": "Zenit St. Petersburg",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "-",
+        "name": "Dimitri Payet",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "assists": "3",
+        "flag": "france",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
         "name": "Aleksey Rios",
         "country": "Belarus",
         "team": "BATE Borisov",
@@ -99,84 +171,12 @@
         "logo": "bate_borisov"
     },
     {
-        "rank": "12.",
-        "name": "Maxwell Acosty",
-        "country": "Ghana",
-        "team": "HNK Rijeka",
-        "assists": "2",
-        "flag": "ghana",
-        "logo": "hnk_rijeka"
-    },
-    {
         "rank": "-",
-        "name": " Andoni Gorosabel",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": "Abzal Beysebekov",
-        "country": "Kazakhstan",
-        "team": "FK Astana",
-        "assists": "2",
-        "flag": "kazakhstan",
-        "logo": "fk_astana"
-    },
-    {
-        "rank": "-",
-        "name": "Leonardo Bittencourt",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Constantin Budescu",
-        "country": "Romania",
-        "team": "Steaua Bucureşti",
-        "assists": "2",
-        "flag": "romania",
-        "logo": "steaua_bucure_ti"
-    },
-    {
-        "rank": "-",
-        "name": "Felipe Caicedo",
-        "country": "Ecuador",
-        "team": "Lazio Roma",
-        "assists": "2",
-        "flag": "ecuador",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Aleš Čermák",
-        "country": "Czech Republic",
-        "team": "Viktoria Plzeň",
-        "assists": "2",
-        "flag": "czech_republic",
-        "logo": "viktoria_plze_"
-    },
-    {
-        "rank": "-",
-        "name": " Cristiano",
-        "country": "Brazil",
-        "team": "FC Sheriff",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "fc_sheriff"
-    },
-    {
-        "rank": "-",
-        "name": "Memphis Depay",
-        "country": "Netherlands",
-        "team": "Olympique Lyon",
-        "assists": "2",
-        "flag": "netherlands",
-        "logo": "olympique_lyon"
+        "name": "Viktor Tsygankov",
+        "country": "Ukraine",
+        "team": "Dinamo Kiev",
+        "assists": "3",
+        "flag": "ukraine",
+        "logo": "dinamo_kiev"
     }
 ]

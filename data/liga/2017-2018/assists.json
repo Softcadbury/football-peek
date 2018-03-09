@@ -4,12 +4,12 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "assists": "9",
+        "assists": "12",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Pione Sisto",
         "country": "Denmark",
         "team": "Celta Vigo",
@@ -19,12 +19,48 @@
     },
     {
         "rank": "3.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "assists": "7",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Gonçalo Guedes",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "assists": "7",
+        "flag": "portugal",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "7",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": " José Ángel",
         "country": "Spain",
         "team": "SD Eibar",
         "assists": "7",
         "flag": "spain",
         "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Lucas Vázquez",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -36,16 +72,16 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "5.",
-        "name": " Gonçalo Guedes",
-        "country": "Portugal",
-        "team": "Valencia CF",
-        "assists": "6",
-        "flag": "portugal",
-        "logo": "valencia_cf"
+        "rank": "-",
+        "name": "Daniel Wass",
+        "country": "Denmark",
+        "team": "Celta Vigo",
+        "assists": "7",
+        "flag": "denmark",
+        "logo": "celta_vigo"
     },
     {
-        "rank": "-",
+        "rank": "10.",
         "name": "Andrés Guardado",
         "country": "Mexico",
         "team": "Real Betis",
@@ -64,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": " Parejo",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
         "name": " Sergi Roberto",
         "country": "Spain",
         "team": "FC Barcelona",
@@ -72,16 +117,25 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
-        "name": "Daniel Wass",
-        "country": "Denmark",
-        "team": "Celta Vigo",
-        "assists": "6",
-        "flag": "denmark",
-        "logo": "celta_vigo"
+        "rank": "14.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "Villarreal CF",
+        "assists": "5",
+        "flag": "colombia",
+        "logo": "villarreal_cf"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": " Canales",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
         "name": " Fabián Ruiz",
         "country": "Spain",
         "team": "Real Betis",
@@ -91,82 +145,10 @@
     },
     {
         "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "5",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Munir",
-        "country": "Spain",
-        "team": "CD Alavés",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "cd_alaves"
-    },
-    {
-        "rank": "-",
-        "name": " Pablo Sarabia",
-        "country": "Spain",
-        "team": "Sevilla FC",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Rakitić",
-        "country": "Croatia",
-        "team": "FC Barcelona",
-        "assists": "5",
-        "flag": "croatia",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "15.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "assists": "4",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "assists": "4",
-        "flag": "france",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Carlos Soler",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Ferreira-Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
-        "assists": "4",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "assists": "4",
+        "assists": "5",
         "flag": "spain",
         "logo": "celta_vigo"
     },
@@ -175,8 +157,26 @@
         "name": " Ibai",
         "country": "Spain",
         "team": "CD Alavés",
-        "assists": "4",
+        "assists": "5",
         "flag": "spain",
         "logo": "cd_alaves"
+    },
+    {
+        "rank": "-",
+        "name": " Isco",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Joaquín",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "real_betis"
     }
 ]
