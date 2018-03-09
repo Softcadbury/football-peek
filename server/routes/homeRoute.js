@@ -13,10 +13,13 @@ var data = {
 };
 
 router.route('/').get((req, res) => {
-    res.render('pages/home', Object.assign(data, {
-        competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition)),
-        leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition))
-    }));
+    res.render(
+        'pages/home',
+        Object.assign(data, {
+            competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition)),
+            leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition))
+        })
+    );
 });
 
 function getItemsMatches(filteredItems) {
@@ -51,12 +54,12 @@ function getLeagueMatches(item, handledDates) {
 
 function getCompetitionMatches(item, handledDates) {
     var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
-    var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
-    var matches = [];
+    var tournamentMatches1 = [];
+    var tournamentMatches2 = [];
 
     tournamentData.forEach(round => {
         round.matches.forEach(matche => {
-            matches.push({
+            tournamentMatches1.push({
                 date: matche.date1,
                 score: matche.score1,
                 homeTeam: matche.team1,
@@ -66,7 +69,7 @@ function getCompetitionMatches(item, handledDates) {
             });
 
             if (handledDates.indexOf(matche.date2) !== -1) {
-                matches.push({
+                tournamentMatches2.push({
                     date: matche.date2,
                     score: matche.score2,
                     homeTeam: matche.team1,
@@ -78,15 +81,22 @@ function getCompetitionMatches(item, handledDates) {
         });
     });
 
+    if (tournamentMatches1.length) {
+        return tournamentMatches1.concat(tournamentMatches2);
+    }
+
+    var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+    var groupMatches = [];
+
     groupsData.forEach(group => {
         group.matches.forEach(matche => {
             if (handledDates.indexOf(matche.date) !== -1) {
-                matches.push(matche);
+                groupMatches.push(matche);
             }
         });
     });
 
-    return matches;
+    return groupMatches;
 }
 
 function getHandledDates() {
