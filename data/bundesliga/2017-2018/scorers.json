@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "18",
+        "goals": "20",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "12",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "4.",
         "name": "Alfreð Finnbogason",
         "country": "Iceland",
         "team": "FC Augsburg",
@@ -27,13 +36,13 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "4.",
-        "name": "Nils Petersen",
+        "rank": "5.",
+        "name": "Niclas Füllkrug",
         "country": "Germany",
-        "team": "SC Freiburg",
+        "team": "Hannover 96",
         "goals": "10",
         "flag": "germany",
-        "logo": "sc_freiburg"
+        "logo": "hannover_96"
     },
     {
         "rank": "-",
@@ -63,20 +72,11 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "8.",
-        "name": "Niclas Füllkrug",
-        "country": "Germany",
-        "team": "Hannover 96",
-        "goals": "9",
-        "flag": "germany",
-        "logo": "hannover_96"
-    },
-    {
         "rank": "9.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
-        "goals": "8",
+        "goals": "9",
         "flag": "jamaica",
         "logo": "bayer_leverkusen"
     },
@@ -85,9 +85,27 @@
         "name": "Michael Gregoritsch",
         "country": "Austria",
         "team": "FC Augsburg",
-        "goals": "8",
+        "goals": "9",
         "flag": "austria",
         "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
+        "goals": "9",
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "12.",
+        "name": "Guido Burgstaller",
+        "country": "Austria",
+        "team": "FC Schalke 04",
+        "goals": "8",
+        "flag": "austria",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -100,30 +118,30 @@
     },
     {
         "rank": "-",
-        "name": "Salomon Kalou",
-        "country": "Ivory Coast",
-        "team": "Hertha BSC",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
         "goals": "8",
-        "flag": "ivory_coast",
-        "logo": "hertha_bsc"
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
-        "rank": "13.",
-        "name": "Guido Burgstaller",
-        "country": "Austria",
-        "team": "FC Schalke 04",
-        "goals": "7",
-        "flag": "austria",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
+        "rank": "15.",
         "name": "Thorgan Hazard",
         "country": "Belgium",
         "team": "Bor. Mönchengladbach",
         "goals": "7",
         "flag": "belgium",
         "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Yoshinori Mutō",
+        "country": "Japan",
+        "team": "1. FSV Mainz 05",
+        "goals": "7",
+        "flag": "japan",
+        "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "-",
@@ -135,39 +153,21 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "16.",
-        "name": "Martin Harnik",
-        "country": "Austria",
-        "team": "Hannover 96",
-        "goals": "6",
-        "flag": "austria",
-        "logo": "hannover_96"
-    },
-    {
         "rank": "-",
-        "name": "Yoshinori Mutō",
-        "country": "Japan",
-        "team": "1. FSV Mainz 05",
-        "goals": "6",
-        "flag": "japan",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Maximilian Philipp",
+        "name": "Simon Terodde",
         "country": "Germany",
-        "team": "Borussia Dortmund",
-        "goals": "6",
+        "team": "VfB Stuttgart",
+        "goals": "7",
         "flag": "germany",
-        "logo": "borussia_dortmund"
+        "logo": "vfb_stuttgart"
     },
     {
         "rank": "-",
-        "name": "Arturo Vidal",
-        "country": "Chile",
+        "name": "Sandro Wagner",
+        "country": "Germany",
         "team": "Bayern München",
-        "goals": "6",
-        "flag": "chile",
+        "goals": "7",
+        "flag": "germany",
         "logo": "bayern_munchen"
     },
     {
@@ -175,7 +175,7 @@
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
-        "goals": "5",
+        "goals": "6",
         "flag": "argentina",
         "logo": "bayer_leverkusen"
     }

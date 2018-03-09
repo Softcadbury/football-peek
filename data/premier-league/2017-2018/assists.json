@@ -4,7 +4,7 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "11",
+        "assists": "14",
         "flag": "belgium",
         "logo": "manchester_city"
     },
@@ -13,12 +13,21 @@
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Manchester City",
-        "assists": "10",
+        "assists": "11",
         "flag": "germany",
         "logo": "manchester_city"
     },
     {
         "rank": "3.",
+        "name": " David Silva",
+        "country": "Spain",
+        "team": "Manchester City",
+        "assists": "9",
+        "flag": "spain",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Paul Pogba",
         "country": "France",
         "team": "Manchester United",
@@ -27,13 +36,22 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "4.",
-        "name": " David Silva",
-        "country": "Spain",
-        "team": "Manchester City",
+        "rank": "5.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
         "assists": "8",
-        "flag": "spain",
-        "logo": "manchester_city"
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Pascal Groß",
+        "country": "Germany",
+        "team": "Brighton & Hove Albion",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "brighton___hove_albion"
     },
     {
         "rank": "-",
@@ -45,12 +63,21 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "6.",
-        "name": "Dele Alli",
-        "country": "England",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "assists": "8",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "9.",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
         "team": "Tottenham Hotspur",
         "assists": "7",
-        "flag": "england",
+        "flag": "denmark",
         "logo": "tottenham_hotspur"
     },
     {
@@ -72,7 +99,25 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "assists": "7",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "13.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Marc Albrighton",
         "country": "England",
         "team": "Leicester City",
@@ -91,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Chris Brunt",
+        "country": "Northern Ireland",
+        "team": "West Bromwich Albion",
+        "assists": "6",
+        "flag": "northern_ireland",
+        "logo": "west_bromwich_albion"
+    },
+    {
+        "rank": "-",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -100,21 +154,21 @@
     },
     {
         "rank": "-",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
+        "name": "Aaron Cresswell",
+        "country": "England",
+        "team": "West Ham United",
         "assists": "6",
-        "flag": "denmark",
-        "logo": "tottenham_hotspur"
+        "flag": "england",
+        "logo": "west_ham_united"
     },
     {
         "rank": "-",
-        "name": "Pascal Groß",
-        "country": "Germany",
-        "team": "Brighton & Hove Albion",
+        "name": "Jóhann Guðmundsson",
+        "country": "Iceland",
+        "team": "Burnley FC",
         "assists": "6",
-        "flag": "germany",
-        "logo": "brighton___hove_albion"
+        "flag": "iceland",
+        "logo": "burnley_fc"
     },
     {
         "rank": "-",
@@ -124,59 +178,5 @@
         "assists": "6",
         "flag": "england",
         "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Aaron Ramsey",
-        "country": "Wales",
-        "team": "Arsenal FC",
-        "assists": "6",
-        "flag": "wales",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "assists": "6",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Xherdan Shaqiri",
-        "country": "Switzerland",
-        "team": "Stoke City",
-        "assists": "6",
-        "flag": "switzerland",
-        "logo": "stoke_city"
-    },
-    {
-        "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "assists": "6",
-        "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " Willian",
-        "country": "Brazil",
-        "team": "Chelsea FC",
-        "assists": "6",
-        "flag": "brazil",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "20.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "manchester_city"
     }
 ]

@@ -4,12 +4,39 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "goals": "9",
+        "goals": "12",
         "flag": "portugal",
         "logo": "real_madrid"
     },
     {
         "rank": "2.",
+        "name": "Edinson Cavani",
+        "country": "Uruguay",
+        "team": "Paris Saint-Germain",
+        "goals": "7",
+        "flag": "uruguay",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "7",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "7",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "5.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -19,21 +46,12 @@
     },
     {
         "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Paris Saint-Germain",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
         "goals": "6",
-        "flag": "uruguay",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "6",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -46,15 +64,15 @@
     },
     {
         "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
         "team": "Liverpool FC",
         "goals": "6",
-        "flag": "brazil",
+        "flag": "egypt",
         "logo": "liverpool_fc"
     },
     {
-        "rank": "7.",
+        "rank": "9.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "FC Porto",
@@ -73,15 +91,33 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
+        "name": "Gonzalo Higuaí­n",
+        "country": "Argentina",
+        "team": "Juventus",
         "goals": "5",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
+        "flag": "argentina",
+        "logo": "juventus"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "5",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "13.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": " Anderson Talisca",
         "country": "Brazil",
         "team": "Beşiktaş",
@@ -118,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Dimitri Oberlin",
         "country": "Switzerland",
         "team": "FC Basel",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
+        "name": "Heung-min Son",
+        "country": "South Korea",
+        "team": "Tottenham Hotspur",
         "goals": "4",
-        "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Cenk Tosun",
-        "country": "Turkey",
-        "team": "Beşiktaş",
-        "goals": "4",
-        "flag": "turkey",
-        "logo": "be_ikta_"
-    },
-    {
-        "rank": "17.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "3",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " Bernard",
-        "country": "Brazil",
-        "team": "Shakhtar Donetsk",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "shakhtar_donetsk"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Radamel Falcao",
-        "country": "Colombia",
-        "team": "AS Monaco",
-        "goals": "3",
-        "flag": "colombia",
-        "logo": "as_monaco"
+        "flag": "south_korea",
+        "logo": "tottenham_hotspur"
     }
 ]

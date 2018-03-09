@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "2.",
+        "name": " Júnior Moraes",
+        "country": "Brazil",
+        "team": "Dinamo Kiev",
+        "goals": "7",
+        "flag": "brazil",
+        "logo": "dinamo_kiev"
+    },
+    {
+        "rank": "3.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "AC Milan",
@@ -10,12 +28,39 @@
     },
     {
         "rank": "-",
-        "name": " Júnior Moraes",
-        "country": "Brazil",
-        "team": "Dinamo Kiev",
+        "name": "Mario Balotelli",
+        "country": "Italy",
+        "team": "OGC Nice",
         "goals": "6",
-        "flag": "brazil",
-        "logo": "dinamo_kiev"
+        "flag": "italy",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "6",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Aleksandr Kokorin",
+        "country": "Russia",
+        "team": "Zenit St. Petersburg",
+        "goals": "6",
+        "flag": "russia",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "-",
+        "name": " Manuel Fernandes",
+        "country": "Portugal",
+        "team": "Lokomotiv Moskva",
+        "goals": "6",
+        "flag": "portugal",
+        "logo": "lokomotiv_moskva"
     },
     {
         "rank": "-",
@@ -27,22 +72,22 @@
         "logo": "zenit_st__petersburg"
     },
     {
-        "rank": "4.",
-        "name": " Aduriz",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
+        "rank": "9.",
+        "name": "Harlem Gnohéré",
+        "country": "France",
+        "team": "Steaua Bucureşti",
         "goals": "5",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
+        "flag": "france",
+        "logo": "steaua_bucure_ti"
     },
     {
         "rank": "-",
-        "name": "Aleksandr Kokorin",
-        "country": "Russia",
-        "team": "Zenit St. Petersburg",
+        "name": "Patrick Twumasi",
+        "country": "Ghana",
+        "team": "FK Astana",
         "goals": "5",
-        "flag": "russia",
-        "logo": "zenit_st__petersburg"
+        "flag": "ghana",
+        "logo": "fk_astana"
     },
     {
         "rank": "-",
@@ -54,7 +99,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "7.",
+        "rank": "12.",
         "name": "Roger Assalé",
         "country": "Ivory Coast",
         "team": "BSC Young Boys",
@@ -64,12 +109,30 @@
     },
     {
         "rank": "-",
-        "name": "Mario Balotelli",
+        "name": "Valon Berisha",
+        "country": "Kosovo",
+        "team": "RB Salzburg",
+        "goals": "4",
+        "flag": "kosovo",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
+        "name": "Patrick Cutrone",
         "country": "Italy",
-        "team": "OGC Nice",
+        "team": "AC Milan",
         "goals": "4",
         "flag": "italy",
-        "logo": "ogc_nice"
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Munas Dabbur",
+        "country": "Israel",
+        "team": "RB Salzburg",
+        "goals": "4",
+        "flag": "israel",
+        "logo": "rb_salzburg"
     },
     {
         "rank": "-",
@@ -91,92 +154,29 @@
     },
     {
         "rank": "-",
+        "name": "Josip Iličič",
+        "country": "Slovenia",
+        "team": "Atalanta",
+        "goals": "4",
+        "flag": "slovenia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Michal Krmenčík",
+        "country": "Czech Republic",
+        "team": "Viktoria Plzeň",
+        "goals": "4",
+        "flag": "czech_republic",
+        "logo": "viktoria_plze_"
+    },
+    {
+        "rank": "-",
         "name": "Alassane Pléa",
         "country": "France",
         "team": "OGC Nice",
         "goals": "4",
         "flag": "france",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Davie Selke",
-        "country": "Germany",
-        "team": "Hertha BSC",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Twumasi",
-        "country": "Ghana",
-        "team": "FK Astana",
-        "goals": "4",
-        "flag": "ghana",
-        "logo": "fk_astana"
-    },
-    {
-        "rank": "14.",
-        "name": "Cédric Bakambu",
-        "country": "Congo DR",
-        "team": "Villarreal CF",
-        "goals": "3",
-        "flag": "congo_dr",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Nicklas Bendtner",
-        "country": "Denmark",
-        "team": "Rosenborg BK",
-        "goals": "3",
-        "flag": "denmark",
-        "logo": "rosenborg_bk"
-    },
-    {
-        "rank": "-",
-        "name": "Constantin Budescu",
-        "country": "Romania",
-        "team": "Steaua Bucureşti",
-        "goals": "3",
-        "flag": "romania",
-        "logo": "steaua_bucure_ti"
-    },
-    {
-        "rank": "-",
-        "name": "Felipe Caicedo",
-        "country": "Ecuador",
-        "team": "Lazio Roma",
-        "goals": "3",
-        "flag": "ecuador",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Bryan Cristante",
-        "country": "Italy",
-        "team": "Atalanta",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Cutrone",
-        "country": "Italy",
-        "team": "AC Milan",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Munas Dabbur",
-        "country": "Israel",
-        "team": "RB Salzburg",
-        "goals": "3",
-        "flag": "israel",
-        "logo": "rb_salzburg"
     }
 ]
