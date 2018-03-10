@@ -2128,18 +2128,26 @@
         "round": 26,
         "matches": [
             {
-                "date": "17/02/2018",
+                "date": "16/02/2018",
                 "homeTeam": "AS Monaco",
                 "awayTeam": "Dijon FCO",
-                "score": "-:-",
+                "score": "4:0",
                 "homeTeamLogo": "as_monaco",
                 "awayTeamLogo": "dijon_fco"
             },
             {
                 "date": "17/02/2018",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "RC Strasbourg",
+                "score": "5:2",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "rc_strasbourg"
+            },
+            {
+                "date": "17/02/2018",
                 "homeTeam": "ESTAC Troyes",
                 "awayTeam": "FC Metz",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "estac_troyes",
                 "awayTeamLogo": "fc_metz"
             },
@@ -2147,47 +2155,15 @@
                 "date": "17/02/2018",
                 "homeTeam": "Montpellier HSC",
                 "awayTeam": "EA Guingamp",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "montpellier_hsc",
                 "awayTeamLogo": "ea_guingamp"
             },
             {
                 "date": "17/02/2018",
-                "homeTeam": "OGC Nice",
-                "awayTeam": "FC Nantes",
-                "score": "-:-",
-                "homeTeamLogo": "ogc_nice",
-                "awayTeamLogo": "fc_nantes"
-            },
-            {
-                "date": "17/02/2018",
-                "homeTeam": "Olympique Marseille",
-                "awayTeam": "Girondins Bordeaux",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "girondins_bordeaux"
-            },
-            {
-                "date": "17/02/2018",
-                "homeTeam": "Lille OSC",
-                "awayTeam": "Olympique Lyon",
-                "score": "-:-",
-                "homeTeamLogo": "lille_osc",
-                "awayTeamLogo": "olympique_lyon"
-            },
-            {
-                "date": "17/02/2018",
-                "homeTeam": "Paris Saint-Germain",
-                "awayTeam": "RC Strasbourg",
-                "score": "-:-",
-                "homeTeamLogo": "paris_saint_germain",
-                "awayTeamLogo": "rc_strasbourg"
-            },
-            {
-                "date": "17/02/2018",
                 "homeTeam": "Amiens SC",
                 "awayTeam": "Toulouse FC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "amiens_sc",
                 "awayTeamLogo": "toulouse_fc"
             },
@@ -2195,7 +2171,7 @@
                 "date": "17/02/2018",
                 "homeTeam": "Angers SCO",
                 "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "angers_sco",
                 "awayTeamLogo": "as_saint_etienne"
             },
@@ -2203,9 +2179,33 @@
                 "date": "17/02/2018",
                 "homeTeam": "SM Caen",
                 "awayTeam": "Stade Rennes",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "sm_caen",
                 "awayTeamLogo": "stade_rennes"
+            },
+            {
+                "date": "18/02/2018",
+                "homeTeam": "OGC Nice",
+                "awayTeam": "FC Nantes",
+                "score": "1:1",
+                "homeTeamLogo": "ogc_nice",
+                "awayTeamLogo": "fc_nantes"
+            },
+            {
+                "date": "18/02/2018",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "Olympique Lyon",
+                "score": "2:2",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "18/02/2018",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Girondins Bordeaux",
+                "score": "1:0",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "girondins_bordeaux"
             }
         ]
     },

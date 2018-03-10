@@ -135,7 +135,25 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "16.",
+        "rank": "-",
+        "name": "Djibril Sidibé",
+        "country": "France",
+        "team": "AS Monaco",
+        "assists": "6",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "17.",
+        "name": "Keita Baldé",
+        "country": "Senegal",
+        "team": "AS Monaco",
+        "assists": "5",
+        "flag": "senegal",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "Maxwel Cornet",
         "country": "Ivory Coast",
         "team": "Olympique Lyon",
@@ -160,23 +178,5 @@
         "assists": "5",
         "flag": "france",
         "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": " João Moutinho",
-        "country": "Portugal",
-        "team": "AS Monaco",
-        "assists": "5",
-        "flag": "portugal",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre Lees-Melou",
-        "country": "France",
-        "team": "OGC Nice",
-        "assists": "5",
-        "flag": "france",
-        "logo": "ogc_nice"
     }
 ]
