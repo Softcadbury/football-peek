@@ -16,14 +16,14 @@ router.route('/').get((req, res) => {
     res.render(
         'pages/home',
         Object.assign(data, {
-            competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition)),
-            leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition))
+            competitionsMatches: getItemsMatches(items.filter(p => p.isCompetition), 14),
+            leaguesMatches: getItemsMatches(items.filter(p => !p.isCompetition), 4)
         })
     );
 });
 
-function getItemsMatches(filteredItems) {
-    var dates = getHandledDates();
+function getItemsMatches(filteredItems, limitDate) {
+    var dates = getHandledDates(limitDate);
     var itemsMatches = [];
 
     filteredItems.forEach(item => {
@@ -59,29 +59,31 @@ function getCompetitionMatches(item, handledDates) {
 
     tournamentData.forEach(round => {
         round.matches.forEach(matche => {
-            tournamentMatches1.push({
-                date: matche.date1,
-                score: matche.score1,
-                homeTeam: matche.team1,
-                awayTeam: matche.team2,
-                homeTeamLogo: matche.team1Logo,
-                awayTeamLogo: matche.team2Logo
-            });
-
-            if (handledDates.indexOf(matche.date2) !== -1) {
-                tournamentMatches2.push({
-                    date: matche.date2,
-                    score: matche.score2,
+            if (handledDates.indexOf(matche.date1) !== -1) {
+                tournamentMatches1.push({
+                    date: matche.date1,
+                    score: matche.score1,
                     homeTeam: matche.team1,
                     awayTeam: matche.team2,
                     homeTeamLogo: matche.team1Logo,
                     awayTeamLogo: matche.team2Logo
                 });
             }
+
+            if (handledDates.indexOf(matche.date2) !== -1) {
+                tournamentMatches2.push({
+                    date: matche.date2,
+                    score: matche.score2,
+                    homeTeam: matche.team2,
+                    awayTeam: matche.team1,
+                    homeTeamLogo: matche.team2Logo,
+                    awayTeamLogo: matche.team1Logo
+                });
+            }
         });
     });
 
-    if (tournamentMatches1.length) {
+    if (tournamentMatches1.length || tournamentMatches2.length) {
         return tournamentMatches1.concat(tournamentMatches2);
     }
 
@@ -99,9 +101,8 @@ function getCompetitionMatches(item, handledDates) {
     return groupMatches;
 }
 
-function getHandledDates() {
+function getHandledDates(limitDate) {
     var currentDate = new Date();
-    var limitDate = 4;
     var dates = [];
 
     for (var i = limitDate; i >= 1; i--) {
