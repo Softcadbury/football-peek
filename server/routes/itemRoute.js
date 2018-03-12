@@ -6,29 +6,28 @@ var items = require('../data/items');
 var express = require('express');
 var router = express.Router();
 
-router.route('/:item/:period?/:roundOrGroup?')
-    .get((req, res) => {
-        var requestedItem = items.find(item => item.code === req.params.item) || items[0];
-        var requestedPeriod = config.periods.availables.find(period => req.params.period === period) || config.periods.current;
-        var requestedRoundOrGroup = req.params.roundOrGroup;
+router.route('/:item/:period?/:roundOrGroup?').get((req, res) => {
+    var requestedItem = items.find(item => item.code === req.params.item) || items[0];
+    var requestedPeriod = config.periods.availables.find(period => req.params.period === period) || config.periods.current;
+    var requestedRoundOrGroup = req.params.roundOrGroup;
 
-        var data = {
-            title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedPeriod,
-            description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedPeriod,
-            items: items,
-            periods: config.periods.availables,
-            requestedItem: requestedItem,
-            requestedPeriod: requestedPeriod,
-            scorersData: getData(config.paths.scorersData, requestedItem, requestedPeriod),
-            assistsData: getData(config.paths.assistsData, requestedItem, requestedPeriod)
-        };
+    var data = {
+        title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedPeriod,
+        description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedPeriod,
+        items: items,
+        periods: config.periods.availables,
+        requestedItem: requestedItem,
+        requestedPeriod: requestedPeriod,
+        scorersData: getData(config.paths.scorersData, requestedItem, requestedPeriod),
+        assistsData: getData(config.paths.assistsData, requestedItem, requestedPeriod)
+    };
 
-        if (requestedItem.isCompetition) {
-            renderCompetition(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup);
-        } else {
-            renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup);
-        }
-    });
+    if (requestedItem.isCompetition) {
+        renderCompetition(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup);
+    } else {
+        renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup);
+    }
+});
 
 // Render a competition item
 function renderCompetition(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup) {
@@ -36,13 +35,16 @@ function renderCompetition(res, data, requestedItem, requestedPeriod, requestedR
     var groupsData = getData(config.paths.groupsData, requestedItem, requestedPeriod);
     var requestedGroup = requestedRoundOrGroup || 'a';
 
-    res.render('pages/competition', Object.assign(data, {
-        tournamentData,
-        groupsData,
-        requestedPeriod: requestedPeriod,
-        requestedGroup: requestedGroup,
-        previousAndNextGroupUrls: getPreviousAndNextGroupUrls(requestedItem.code, requestedPeriod, requestedGroup, groupsData.length)
-    }));
+    res.render(
+        'pages/competition',
+        Object.assign(data, {
+            tournamentData,
+            groupsData,
+            requestedPeriod: requestedPeriod,
+            requestedGroup: requestedGroup,
+            previousAndNextGroupUrls: getPreviousAndNextGroupUrls(requestedItem.code, requestedPeriod, requestedGroup, groupsData.length)
+        })
+    );
 }
 
 // Render a league item
@@ -51,13 +53,16 @@ function renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundO
     var tableData = getData(config.paths.tableData, requestedItem, requestedPeriod);
     var requestedRound = requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData);
 
-    res.render('pages/league', Object.assign(data, {
-        resultsData,
-        tableData,
-        requestedPeriod: requestedPeriod,
-        requestedRound: requestedRound,
-        previousAndNextGroupUrls: getPreviousAndNextRoundUrls(requestedItem.code, requestedPeriod, requestedRound, resultsData.length)
-    }));
+    res.render(
+        'pages/league',
+        Object.assign(data, {
+            resultsData,
+            tableData,
+            requestedPeriod: requestedPeriod,
+            requestedRound: requestedRound,
+            previousAndNextGroupUrls: getPreviousAndNextRoundUrls(requestedItem.code, requestedPeriod, requestedRound, resultsData.length)
+        })
+    );
 }
 
 function getData(dataPath, requestedItem, requestedPeriod) {

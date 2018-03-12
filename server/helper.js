@@ -107,9 +107,11 @@ function downloadImage(src, path) {
             if (err) {
                 log('Error while downloading image: ' + path + ' -> ' + err);
             } else {
-                request(src).pipe(fs.createWriteStream(path)).on('close', () => {
-                    log('Image downloaded: ' + path);
-                });
+                request(src)
+                    .pipe(fs.createWriteStream(path))
+                    .on('close', () => {
+                        log('Image downloaded: ' + path);
+                    });
             }
         });
     }
@@ -166,10 +168,10 @@ function log(message) {
     var winston = require('winston');
     winston.configure({
         transports: [
-            new (winston.transports.File)({
+            new winston.transports.File({
                 filename: 'info.log'
             }),
-            new (winston.transports.Console)()
+            new winston.transports.Console()
         ]
     });
     winston.info(message);

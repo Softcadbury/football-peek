@@ -26,7 +26,8 @@ gulp.task('up', () => {
 // Check coding rules
 gulp.task('lint', () => {
     var eslint = require('gulp-eslint');
-    return gulp.src(['**/*.js', '!node_modules/**', '!dist/**'])
+    return gulp
+        .src(['**/*.js', '!node_modules/**', '!dist/**'])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
@@ -35,11 +36,15 @@ gulp.task('lint', () => {
 // Run tests
 gulp.task('test', () => {
     var mocha = require('gulp-mocha');
-    gulp.src('./tests/*.js', {
-        read: false
-    }).pipe(mocha({
-        reporter: 'nyan'
-    }));
+    gulp
+        .src('./tests/*.js', {
+            read: false
+        })
+        .pipe(
+            mocha({
+                reporter: 'nyan'
+            })
+        );
 });
 
 // Build the sprite
@@ -51,7 +56,8 @@ gulp.task('sprite', () => {
         imgPath: '../../images/sprite.png'
     });
 
-    gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
+    gulp
+        .src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('.'));
 });
@@ -60,7 +66,8 @@ gulp.task('sprite', () => {
 gulp.task('optim', () => {
     var imagemin = require('gulp-imagemin');
 
-    gulp.src('client/images/*')
+    gulp
+        .src('client/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('client/images'));
 });
@@ -132,12 +139,18 @@ gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
-    return gulp.src('./client/views/commons/_layout.ejs')
-        .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
-            read: false
-        }), {
-            ignorePath: 'dist'
-        }))
+    return gulp
+        .src('./client/views/commons/_layout.ejs')
+        .pipe(
+            inject(
+                gulp.src(['./dist/*.js', './dist/*.css'], {
+                    read: false
+                }),
+                {
+                    ignorePath: 'dist'
+                }
+            )
+        )
         .pipe(gulp.dest('./client/views/commons'));
 });
 
