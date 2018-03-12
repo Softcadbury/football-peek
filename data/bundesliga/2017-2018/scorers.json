@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "20",
+        "goals": "23",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -36,7 +36,16 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
+        "team": "FC Augsburg",
+        "goals": "11",
+        "flag": "austria",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "6.",
         "name": "Niclas Füllkrug",
         "country": "Germany",
         "team": "Hannover 96",
@@ -72,22 +81,13 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
         "goals": "9",
         "flag": "jamaica",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "FC Augsburg",
-        "goals": "9",
-        "flag": "austria",
-        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -127,6 +127,15 @@
     },
     {
         "rank": "15.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
+        "team": "Bayer Leverkusen",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Thorgan Hazard",
         "country": "Belgium",
         "team": "Bor. Mönchengladbach",
@@ -169,14 +178,5 @@
         "goals": "7",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "20.",
-        "name": "Lucas Alario",
-        "country": "Argentina",
-        "team": "Bayer Leverkusen",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "bayer_leverkusen"
     }
 ]

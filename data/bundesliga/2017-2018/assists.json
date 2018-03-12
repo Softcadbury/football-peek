@@ -4,7 +4,7 @@
         "name": "Philipp Max",
         "country": "Germany",
         "team": "FC Augsburg",
-        "assists": "11",
+        "assists": "12",
         "flag": "germany",
         "logo": "fc_augsburg"
     },
@@ -13,12 +13,12 @@
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "8",
+        "assists": "10",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": " Caiuby",
+        "country": "Brazil",
+        "team": "FC Augsburg",
+        "assists": "7",
+        "flag": "brazil",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
         "name": "Amine Harit",
         "country": "Morocco",
         "team": "FC Schalke 04",
@@ -45,7 +54,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -108,22 +117,22 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
+        "team": "Bayer Leverkusen",
+        "assists": "5",
+        "flag": "argentina",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Lars Bender",
         "country": "Germany",
         "team": "Bayer Leverkusen",
         "assists": "5",
         "flag": "germany",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": " Caiuby",
-        "country": "Brazil",
-        "team": "FC Augsburg",
-        "assists": "5",
-        "flag": "brazil",
-        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "assists": "5",
         "flag": "germany",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "20.",
-        "name": "Lucas Alario",
-        "country": "Argentina",
-        "team": "Bayer Leverkusen",
-        "assists": "4",
-        "flag": "argentina",
-        "logo": "bayer_leverkusen"
     }
 ]

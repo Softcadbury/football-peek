@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Dimitri Payet",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "assists": "9",
+        "flag": "france",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "4.",
         "name": "Thomas Lemar",
         "country": "France",
         "team": "AS Monaco",
@@ -36,22 +45,40 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "-",
-        "name": "Dimitri Payet",
+        "rank": "6.",
+        "name": "Benjamin Bourigeaud",
         "country": "France",
-        "team": "Olympique Marseille",
-        "assists": "8",
+        "team": "Stade Rennes",
+        "assists": "7",
         "flag": "france",
-        "logo": "olympique_marseille"
+        "logo": "stade_rennes"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
+        "assists": "7",
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
         "name": "Mathieu Dossevi",
         "country": "Togo",
         "team": "FC Metz",
         "assists": "7",
         "flag": "togo",
         "logo": "fc_metz"
+    },
+    {
+        "rank": "-",
+        "name": "Pierre Lees-Melou",
+        "country": "France",
+        "team": "OGC Nice",
+        "assists": "7",
+        "flag": "france",
+        "logo": "ogc_nice"
     },
     {
         "rank": "-",
@@ -72,22 +99,13 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "9.",
+        "rank": "12.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "AS Saint-Étienne",
         "assists": "6",
         "flag": "france",
         "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": "Benjamin Bourigeaud",
-        "country": "France",
-        "team": "Stade Rennes",
-        "assists": "6",
-        "flag": "france",
-        "logo": "stade_rennes"
     },
     {
         "rank": "-",
@@ -118,15 +136,6 @@
     },
     {
         "rank": "-",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
-        "assists": "6",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Olympique Lyon",
@@ -144,7 +153,7 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
         "name": "Keita Baldé",
         "country": "Senegal",
         "team": "AS Monaco",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Angelo Fulgini",
+        "name": "Léo Dubois",
         "country": "France",
-        "team": "Angers SCO",
+        "team": "FC Nantes",
         "assists": "5",
         "flag": "france",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Corentin Jean",
-        "country": "France",
-        "team": "Toulouse FC",
-        "assists": "5",
-        "flag": "france",
-        "logo": "toulouse_fc"
+        "logo": "fc_nantes"
     }
 ]
