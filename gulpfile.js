@@ -140,14 +140,12 @@ gulp.task('start', () => {
         script: 'server.js',
         delayTime: 1,
         env: {
-            'PORT': config.port
+            PORT: config.port
         },
-        watch: ['server.js']
+        watch: ['./server']
     };
 
-    return nodemon(options).on('restart', () => {
-        console.log('Restarting...');
-    });
+    return nodemon(options);
 });
 
 // Manage build, start the node server and open the browser
