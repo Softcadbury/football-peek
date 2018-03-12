@@ -4,7 +4,7 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "23",
+        "goals": "24",
         "flag": "italy",
         "logo": "lazio_roma"
     },
@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "17",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
@@ -34,15 +43,6 @@
         "goals": "17",
         "flag": "italy",
         "logo": "sampdoria"
-    },
-    {
-        "rank": "5.",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
-        "goals": "15",
-        "flag": "argentina",
-        "logo": "juventus"
     },
     {
         "rank": "6.",
@@ -81,7 +81,25 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Sampdoria",
+        "goals": "9",
+        "flag": "colombia",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "11.",
+        "name": "Mirco Antenucci",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "goals": "8",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "-",
         "name": "Roberto Inglese",
         "country": "Italy",
         "team": "Chievo Verona",
@@ -99,25 +117,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Sampdoria",
-        "goals": "8",
-        "flag": "colombia",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "13.",
-        "name": "Mirco Antenucci",
-        "country": "Italy",
-        "team": "SPAL 2013 Ferrara",
-        "goals": "7",
-        "flag": "italy",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "-",
+        "rank": "14.",
         "name": "Bryan Cristante",
         "country": "Italy",
         "team": "Atalanta",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Leonardo Pavoletti",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "goals": "7",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Ivan Perišić",
         "country": "Croatia",
         "team": "Inter",
         "goals": "7",
         "flag": "croatia",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "ACF Fiorentina",
-        "goals": "7",
-        "flag": "argentina",
-        "logo": "acf_fiorentina"
     }
 ]

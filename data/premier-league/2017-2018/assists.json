@@ -19,12 +19,30 @@
     },
     {
         "rank": "3.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "assists": "9",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": " David Silva",
         "country": "Spain",
         "team": "Manchester City",
         "assists": "9",
         "flag": "spain",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Henrikh Mkhitaryan",
+        "country": "Armenia",
+        "team": "Manchester United",
+        "assists": "9",
+        "flag": "armenia",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -36,12 +54,12 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "5.",
-        "name": "Dele Alli",
-        "country": "England",
+        "rank": "7.",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
         "team": "Tottenham Hotspur",
         "assists": "8",
-        "flag": "england",
+        "flag": "denmark",
         "logo": "tottenham_hotspur"
     },
     {
@@ -55,12 +73,21 @@
     },
     {
         "rank": "-",
-        "name": "Henrikh Mkhitaryan",
-        "country": "Armenia",
-        "team": "Manchester United",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Leicester City",
         "assists": "8",
-        "flag": "armenia",
-        "logo": "manchester_united"
+        "flag": "algeria",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Mesut Özil",
+        "country": "Germany",
+        "team": "Arsenal FC",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -72,31 +99,22 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "9.",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Tottenham Hotspur",
-        "assists": "7",
-        "flag": "denmark",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
+        "rank": "12.",
+        "name": "Marc Albrighton",
+        "country": "England",
         "team": "Leicester City",
         "assists": "7",
-        "flag": "algeria",
+        "flag": "england",
         "logo": "leicester_city"
     },
     {
         "rank": "-",
-        "name": "Mesut Özil",
-        "country": "Germany",
-        "team": "Arsenal FC",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Manchester United",
         "assists": "7",
-        "flag": "germany",
-        "logo": "arsenal_fc"
+        "flag": "belgium",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -108,22 +126,13 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "13.",
+        "rank": "15.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
         "assists": "6",
         "flag": "argentina",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Marc Albrighton",
-        "country": "England",
-        "team": "Leicester City",
-        "assists": "6",
-        "flag": "england",
-        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "assists": "6",
         "flag": "iceland",
         "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jordon Ibe",
-        "country": "England",
-        "team": "AFC Bournemouth",
-        "assists": "6",
-        "flag": "england",
-        "logo": "afc_bournemouth"
     }
 ]
