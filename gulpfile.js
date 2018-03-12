@@ -26,7 +26,8 @@ gulp.task('up', () => {
 // Check coding rules
 gulp.task('lint', () => {
     var eslint = require('gulp-eslint');
-    return gulp.src(['**/*.js', '!node_modules/**', '!dist/**'])
+    return gulp
+        .src(['**/*.js', '!node_modules/**', '!dist/**'])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
@@ -35,11 +36,15 @@ gulp.task('lint', () => {
 // Run tests
 gulp.task('test', () => {
     var mocha = require('gulp-mocha');
-    gulp.src('./tests/*.js', {
-        read: false
-    }).pipe(mocha({
-        reporter: 'nyan'
-    }));
+    gulp
+        .src('./tests/*.js', {
+            read: false
+        })
+        .pipe(
+            mocha({
+                reporter: 'nyan'
+            })
+        );
 });
 
 // Build the sprite
@@ -51,7 +56,8 @@ gulp.task('sprite', () => {
         imgPath: '../../images/sprite.png'
     });
 
-    gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
+    gulp
+        .src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('.'));
 });
@@ -60,32 +66,33 @@ gulp.task('sprite', () => {
 gulp.task('optim', () => {
     var imagemin = require('gulp-imagemin');
 
-    gulp.src('client/images/*')
+    gulp
+        .src('client/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('client/images'));
 });
 
-// Clean built files
-gulp.task('clean', cb => {
-    var rimraf = require('rimraf');
-    rimraf('./dist/', cb);
-});
-
 // Build the application in the dist folder
-gulp.task('build', ['clean'], () => {
+gulp.task('build', () => {
     var webpack = require('webpack');
     var webpackStream = require('webpack-stream');
+    var CleanWebpackPlugin = require('clean-webpack-plugin');
     var ExtractTextPlugin = require('extract-text-webpack-plugin');
+    var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+
+    var extractLess = new ExtractTextPlugin('style.bundle.[hash].css');
 
     var webpackModule = {
         rules: [
             {
                 test: /\.less$/,
-                use: ExtractTextPlugin.extract(['css-loader', 'less-loader'])
-            }, {
+                use: extractLess.extract(['css-loader', 'less-loader'])
+            },
+            {
                 test: /\.css$/,
-                use: ExtractTextPlugin.extract(['style-loader', 'css-loader'])
-            }, {
+                use: extractLess.extract(['style-loader', 'css-loader'])
+            },
+            {
                 test: /\.(jpg|png|eot|woff2|ttf|svg)$/,
                 use: {
                     loader: 'file-loader',
@@ -98,24 +105,32 @@ gulp.task('build', ['clean'], () => {
     };
 
     var webpackPlugins = [
-        new webpack.optimize.UglifyJsPlugin({
-            sourceMap: true
-        }),
+        new CleanWebpackPlugin(['dist']),
+        new UglifyJsPlugin(),
         new webpack.LoaderOptionsPlugin({
             minimize: true
         }),
-        new ExtractTextPlugin('style.bundle.[hash].css')
+        extractLess
     ];
 
-    return gulp.src(['client/scripts/app.js', 'client/styles/app.less'])
-        .pipe(webpackStream({
-            devtool: 'source-map',
-            module: webpackModule,
-            plugins: webpackPlugins,
-            output: {
-                filename: 'script.bundle.[hash].js'
-            }
-        }, webpack))
+    return gulp
+        .src(['client/scripts/app.js', 'client/styles/app.less'])
+        .pipe(
+            webpackStream(
+                {
+                    mode: 'production',
+                    module: webpackModule,
+                    plugins: webpackPlugins,
+                    output: {
+                        filename: 'script.bundle.[hash].js'
+                    },
+                    performance: {
+                        hints: false
+                    }
+                },
+                webpack
+            )
+        )
         .pipe(gulp.dest('./dist'));
 });
 
@@ -124,12 +139,18 @@ gulp.task('inject', ['build'], () => {
     var inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
-    return gulp.src('./client/views/commons/_layout.ejs')
-        .pipe(inject(gulp.src(['./dist/*.js', './dist/*.css'], {
-            read: false
-        }), {
-            ignorePath: 'dist'
-        }))
+    return gulp
+        .src('./client/views/commons/_layout.ejs')
+        .pipe(
+            inject(
+                gulp.src(['./dist/*.js', './dist/*.css'], {
+                    read: false
+                }),
+                {
+                    ignorePath: 'dist'
+                }
+            )
+        )
         .pipe(gulp.dest('./client/views/commons'));
 });
 
@@ -140,14 +161,12 @@ gulp.task('start', () => {
         script: 'server.js',
         delayTime: 1,
         env: {
-            'PORT': config.port
+            PORT: config.port
         },
-        watch: ['server.js']
+        watch: ['./server']
     };
 
-    return nodemon(options).on('restart', () => {
-        console.log('Restarting...');
-    });
+    return nodemon(options);
 });
 
 // Manage build, start the node server and open the browser

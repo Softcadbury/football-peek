@@ -18,10 +18,9 @@ items.forEach(item => {
     });
 });
 
-router.route('/sitemap.xml')
-    .get((req, res) => {
-        res.header('Content-Type', 'application/xml');
-        res.send(sitemap.toString());
-    });
+router.route('/sitemap.xml').get((req, res) => {
+    res.header('Content-Type', 'application/xml');
+    res.send(sitemap.toString());
+});
 
 module.exports = router;
