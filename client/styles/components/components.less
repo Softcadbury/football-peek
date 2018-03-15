@@ -81,12 +81,13 @@
     .data-score,
     .data-score-double {
         text-align: center;
-        width: 34px;
-        cursor: pointer;
         a {
             color: black;
             text-decoration: none;
         }
+    }
+    .data-score {
+        width: 40px;
     }
     .data-score-double {
         width: 94px;
@@ -109,11 +110,20 @@
     .icon-flag {
         margin-top: 4px;
     }
-    .date {
+    .date,
+    .hour {
         background-color: #f5f5f5;
         border: 1px solid #ccc;
         border-radius: 3px;
-        padding: 0 2px;
+        display: inline-block;
+        text-align: center;
+    }
+    .date {
+        width: 78px;
+    }
+    .hour {
+        font-size: 12px;
+        width: 36px;
     }
     .date-separator {
         margin: 0 3px;

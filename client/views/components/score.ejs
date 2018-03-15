@@ -5,8 +5,16 @@
     var youtubeHref = 'https://www.youtube.com/results?search_query=highlights ' + matcheData + ' ' + score;
     var googleHref = 'https://www.google.fr/search?q=' + matcheData;
 %>
-<a href="<%= hasScore ? youtubeHref : googleHref %>" target="_blank" rel="nofollow noopener noreferrer">
-    <span title="Score on <%= date %>">
-        <%= score %>
-    </span>
-</a>
+<% if (hasScore) { %>
+    <a href="<%= youtubeHref %>" target="_blank" rel="nofollow noopener noreferrer">
+        <span title="Score">
+            <%= score %>
+        </span>
+    </a>
+<% } else { %>
+    <a href="<%= googleHref %>" target="_blank" rel="nofollow noopener noreferrer">
+        <span class="hour" title="Time">
+            <%= hour %>
+        </span>
+    </a>
+<% } %>
