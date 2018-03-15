@@ -126,7 +126,16 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "assists": "7",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "16.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -169,14 +178,5 @@
         "assists": "6",
         "flag": "england",
         "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Jóhann Guðmundsson",
-        "country": "Iceland",
-        "team": "Burnley FC",
-        "assists": "6",
-        "flag": "iceland",
-        "logo": "burnley_fc"
     }
 ]

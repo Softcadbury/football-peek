@@ -55,6 +55,15 @@
     },
     {
         "rank": "7.",
+        "name": "David Alaba",
+        "country": "Austria",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "austria",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": " Alberto Moreno",
         "country": "Spain",
         "team": "Liverpool FC",
@@ -70,6 +79,15 @@
         "assists": "3",
         "flag": "france",
         "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Joaquín Correa",
+        "country": "Argentina",
+        "team": "Sevilla FC",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "-",
@@ -118,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "3",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Kieran Trippier",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -126,22 +153,13 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "15.",
+        "rank": "18.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "FC Porto",
         "assists": "2",
         "flag": "cameroon",
         "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "David Alaba",
-        "country": "Austria",
-        "team": "Bayern München",
-        "assists": "2",
-        "flag": "austria",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "2",
         "flag": "wales",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Éver Banega",
-        "country": "Argentina",
-        "team": "Sevilla FC",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Steven Berghuis",
-        "country": "Netherlands",
-        "team": "Feyenoord",
-        "assists": "2",
-        "flag": "netherlands",
-        "logo": "feyenoord"
     }
 ]
