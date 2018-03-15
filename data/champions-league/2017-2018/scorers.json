@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "goals": "8",
+        "flag": "france",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "3.",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
@@ -36,22 +45,22 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "5.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
-        "goals": "6",
-        "flag": "france",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "6.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
         "goals": "6",
         "flag": "senegal",
         "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -72,7 +81,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "FC Porto",
@@ -108,7 +117,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Manchester United",
+        "goals": "5",
+        "flag": "belgium",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "15.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -136,12 +154,12 @@
     },
     {
         "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Manchester United",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
         "goals": "4",
-        "flag": "belgium",
-        "logo": "manchester_united"
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
         "name": "Dimitri Oberlin",
         "country": "Switzerland",
         "team": "FC Basel",
         "goals": "4",
         "flag": "switzerland",
         "logo": "fc_basel"
-    },
-    {
-        "rank": "-",
-        "name": "Heung-min Son",
-        "country": "South Korea",
-        "team": "Tottenham Hotspur",
-        "goals": "4",
-        "flag": "south_korea",
-        "logo": "tottenham_hotspur"
     }
 ]
