@@ -18,7 +18,16 @@
         "logo": "rb_salzburg"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Aleksey Miranchuk",
+        "country": "Russia",
+        "team": "Lokomotiv Moskva",
+        "assists": "5",
+        "flag": "russia",
+        "logo": "lokomotiv_moskva"
+    },
+    {
+        "rank": "4.",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "AC Milan",
@@ -36,15 +45,6 @@
         "logo": "austria_wien"
     },
     {
-        "rank": "-",
-        "name": "Aleksey Miranchuk",
-        "country": "Russia",
-        "team": "Lokomotiv Moskva",
-        "assists": "4",
-        "flag": "russia",
-        "logo": "lokomotiv_moskva"
-    },
-    {
         "rank": "6.",
         "name": "Fabio Borini",
         "country": "Italy",
@@ -55,12 +55,30 @@
     },
     {
         "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Sporting CP",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
         "name": "Constantin Budescu",
         "country": "Romania",
         "team": "Steaua Bucureşti",
         "assists": "3",
         "flag": "romania",
         "logo": "steaua_bucure_ti"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Correa",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -118,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Maximilian Mittelstädt",
         "country": "Germany",
         "team": "Hertha BSC",
@@ -151,32 +178,5 @@
         "assists": "3",
         "flag": "argentina",
         "logo": "zenit_st__petersburg"
-    },
-    {
-        "rank": "-",
-        "name": "Dimitri Payet",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "assists": "3",
-        "flag": "france",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Aleksey Rios",
-        "country": "Belarus",
-        "team": "BATE Borisov",
-        "assists": "3",
-        "flag": "belarus",
-        "logo": "bate_borisov"
-    },
-    {
-        "rank": "-",
-        "name": "Viktor Tsygankov",
-        "country": "Ukraine",
-        "team": "Dinamo Kiev",
-        "assists": "3",
-        "flag": "ukraine",
-        "logo": "dinamo_kiev"
     }
 ]
