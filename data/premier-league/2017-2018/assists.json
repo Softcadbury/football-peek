@@ -54,7 +54,16 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "assists": "9",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "8.",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
@@ -90,15 +99,6 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "assists": "8",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
         "rank": "12.",
         "name": "Marc Albrighton",
         "country": "England",
@@ -115,6 +115,15 @@
         "assists": "7",
         "flag": "belgium",
         "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "assists": "7",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -135,13 +144,22 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
         "assists": "6",
         "flag": "argentina",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Joe Allen",
+        "country": "Wales",
+        "team": "Stoke City",
+        "assists": "6",
+        "flag": "wales",
+        "logo": "stoke_city"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "6",
         "flag": "northern_ireland",
         "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "assists": "6",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Aaron Cresswell",
-        "country": "England",
-        "team": "West Ham United",
-        "assists": "6",
-        "flag": "england",
-        "logo": "west_ham_united"
     }
 ]

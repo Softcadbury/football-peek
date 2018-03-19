@@ -4,7 +4,7 @@
         "name": "Philipp Max",
         "country": "Germany",
         "team": "FC Augsburg",
-        "assists": "12",
+        "assists": "13",
         "flag": "germany",
         "logo": "fc_augsburg"
     },
@@ -54,7 +54,25 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "-",
+        "name": "James Rodríguez",
+        "country": "Colombia",
+        "team": "Bayern München",
+        "assists": "7",
+        "flag": "colombia",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "9.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -82,29 +100,11 @@
     },
     {
         "rank": "-",
-        "name": "Max Kruse",
-        "country": "Germany",
-        "team": "Werder Bremen",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
         "name": "Arjen Robben",
         "country": "Netherlands",
         "team": "Bayern München",
         "assists": "6",
         "flag": "netherlands",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "James Rodríguez",
-        "country": "Colombia",
-        "team": "Bayern München",
-        "assists": "6",
-        "flag": "colombia",
         "logo": "bayern_munchen"
     },
     {
@@ -117,7 +117,16 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Marius Wolf",
+        "country": "Germany",
+        "team": "Eintracht Frankfurt",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "15.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
@@ -169,14 +178,5 @@
         "assists": "5",
         "flag": "austria",
         "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Marius Wolf",
-        "country": "Germany",
-        "team": "Eintracht Frankfurt",
-        "assists": "5",
-        "flag": "germany",
-        "logo": "eintracht_frankfurt"
     }
 ]

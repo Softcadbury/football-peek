@@ -18,11 +18,11 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": "Nils Petersen",
         "country": "Germany",
         "team": "SC Freiburg",
-        "goals": "12",
+        "goals": "13",
         "flag": "germany",
         "logo": "sc_freiburg"
     },
@@ -45,13 +45,31 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "11",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "7.",
         "name": "Niclas Füllkrug",
         "country": "Germany",
         "team": "Hannover 96",
         "goals": "10",
         "flag": "germany",
         "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
+        "goals": "10",
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
     },
     {
         "rank": "-",
@@ -72,16 +90,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "goals": "10",
-        "flag": "germany",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -91,15 +100,15 @@
     },
     {
         "rank": "-",
-        "name": "Salomon Kalou",
-        "country": "Ivory Coast",
-        "team": "Hertha BSC",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
         "goals": "9",
-        "flag": "ivory_coast",
-        "logo": "hertha_bsc"
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Guido Burgstaller",
         "country": "Austria",
         "team": "FC Schalke 04",
@@ -118,21 +127,30 @@
     },
     {
         "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "Bayern München",
         "goals": "8",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
         "goals": "7",
         "flag": "argentina",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Gomez",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "7",
         "flag": "brazil",
         "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Simon Terodde",
-        "country": "Germany",
-        "team": "VfB Stuttgart",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Sandro Wagner",
-        "country": "Germany",
-        "team": "Bayern München",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "bayern_munchen"
     }
 ]
