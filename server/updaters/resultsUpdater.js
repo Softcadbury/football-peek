@@ -20,16 +20,17 @@ function update(leagueArg) {
 
 // Updates the results of an itemExtended
 function updateData(itemExtended) {
-    var results = [];
+    var results = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current));
     var promises = [];
 
-    if (config.fullResultUpdate) {
+    if (config.fullResultUpdate || !results.length) {
+        results = [];
+
         for (var i = 0; i < itemExtended.roundNumber; i++) {
             results.push({ round: i + 1, matches: [] });
             promises.push(parseRound(itemExtended, results, i));
         }
     } else {
-        results = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current));
         var currentRound = helper.getLeagueCurrentRound(results);
         var maxRound = Math.min(itemExtended.roundNumber, currentRound + 1);
 
