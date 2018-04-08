@@ -4,7 +4,7 @@
         "name": "James Milner",
         "country": "England",
         "team": "Liverpool FC",
-        "assists": "6",
+        "assists": "7",
         "flag": "england",
         "logo": "liverpool_fc"
     },
@@ -54,7 +54,25 @@
         "logo": "be_ikta_"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "4",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "9.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
@@ -88,6 +106,15 @@
         "assists": "3",
         "flag": "argentina",
         "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -127,21 +154,12 @@
     },
     {
         "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
         "team": "Liverpool FC",
         "assists": "3",
-        "flag": "brazil",
+        "flag": "egypt",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -153,30 +171,12 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "18.",
+        "rank": "20.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "FC Porto",
         "assists": "2",
         "flag": "cameroon",
         "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Keita Baldé",
-        "country": "Senegal",
-        "team": "AS Monaco",
-        "assists": "2",
-        "flag": "senegal",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "assists": "2",
-        "flag": "wales",
-        "logo": "real_madrid"
     }
 ]

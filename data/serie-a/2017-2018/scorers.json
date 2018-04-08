@@ -4,7 +4,7 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "24",
+        "goals": "27",
         "flag": "italy",
         "logo": "lazio_roma"
     },
@@ -13,7 +13,7 @@
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "18",
+        "goals": "24",
         "flag": "argentina",
         "logo": "inter"
     },
@@ -22,12 +22,21 @@
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "17",
+        "goals": "21",
         "flag": "argentina",
         "logo": "juventus"
     },
     {
-        "rank": "-",
+        "rank": "4.",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "goals": "18",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "5.",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
@@ -36,17 +45,8 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
-        "name": "Fabio Quagliarella",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "17",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
         "rank": "6.",
-        "name": "Gonzalo Higuaí­n",
+        "name": "Gonzalo Higuaín",
         "country": "Argentina",
         "team": "Juventus",
         "goals": "15",
@@ -58,7 +58,7 @@
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
-        "goals": "13",
+        "goals": "14",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
     },
@@ -67,9 +67,72 @@
         "name": " Iago Falqué",
         "country": "Spain",
         "team": "Torino FC",
-        "goals": "9",
+        "goals": "11",
         "flag": "spain",
         "logo": "torino_fc"
+    },
+    {
+        "rank": "9.",
+        "name": "Josip Iličič",
+        "country": "Slovenia",
+        "team": "Atalanta",
+        "goals": "10",
+        "flag": "slovenia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "ACF Fiorentina",
+        "goals": "10",
+        "flag": "argentina",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Sampdoria",
+        "goals": "10",
+        "flag": "colombia",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "12.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Roberto Inglese",
+        "country": "Italy",
+        "team": "Chievo Verona",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -82,15 +145,15 @@
     },
     {
         "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Sampdoria",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
         "goals": "9",
-        "flag": "colombia",
-        "logo": "sampdoria"
+        "flag": "croatia",
+        "logo": "inter"
     },
     {
-        "rank": "11.",
+        "rank": "18.",
         "name": "Mirco Antenucci",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
@@ -100,83 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Roberto Inglese",
-        "country": "Italy",
-        "team": "Chievo Verona",
-        "goals": "8",
-        "flag": "italy",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "14.",
         "name": "Bryan Cristante",
         "country": "Italy",
         "team": "Atalanta",
-        "goals": "7",
+        "goals": "8",
         "flag": "italy",
         "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Iličič",
-        "country": "Slovenia",
-        "team": "Atalanta",
-        "goals": "7",
-        "flag": "slovenia",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "goals": "7",
-        "flag": "italy",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
         "name": "Kevin Lasagna",
         "country": "Italy",
         "team": "Udinese Calcio",
-        "goals": "7",
+        "goals": "8",
         "flag": "italy",
         "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Leonardo Pavoletti",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "goals": "7",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
-        "goals": "7",
-        "flag": "croatia",
-        "logo": "inter"
     }
 ]

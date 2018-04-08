@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "7",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": " Júnior Moraes",
         "country": "Brazil",
         "team": "Dinamo Kiev",
@@ -18,7 +27,7 @@
         "logo": "dinamo_kiev"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "AC Milan",
@@ -34,15 +43,6 @@
         "goals": "6",
         "flag": "italy",
         "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "6",
-        "flag": "italy",
-        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "9.",
+        "name": "Valon Berisha",
+        "country": "Kosovo",
+        "team": "RB Salzburg",
+        "goals": "5",
+        "flag": "kosovo",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
         "name": "Harlem Gnohéré",
         "country": "France",
         "team": "Steaua Bucureşti",
@@ -99,7 +108,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Roger Assalé",
         "country": "Ivory Coast",
         "team": "BSC Young Boys",
@@ -109,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": "Valon Berisha",
-        "country": "Kosovo",
-        "team": "RB Salzburg",
+        "name": "Marek Bakoš",
+        "country": "Slovakia",
+        "team": "Viktoria Plzeň",
         "goals": "4",
-        "flag": "kosovo",
-        "logo": "rb_salzburg"
+        "flag": "slovakia",
+        "logo": "viktoria_plze_"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "4",
         "flag": "czech_republic",
         "logo": "viktoria_plze_"
-    },
-    {
-        "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "4",
-        "flag": "france",
-        "logo": "ogc_nice"
     }
 ]
