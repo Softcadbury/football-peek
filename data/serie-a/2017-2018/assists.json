@@ -4,18 +4,27 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "assists": "11",
+        "assists": "12",
         "flag": "italy",
         "logo": "lazio_roma"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
-        "assists": "10",
+        "assists": "12",
         "flag": "spain",
         "logo": "lazio_roma"
+    },
+    {
+        "rank": "3.",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "assists": "10",
+        "flag": "argentina",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -27,16 +36,16 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "4.",
-        "name": "Papu Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
+        "rank": "5.",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
         "assists": "9",
-        "flag": "argentina",
-        "logo": "atalanta"
+        "flag": "italy",
+        "logo": "ssc_napoli"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
@@ -46,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
+        "name": " Iago Falqué",
+        "country": "Spain",
+        "team": "Torino FC",
         "assists": "8",
-        "flag": "italy",
-        "logo": "ssc_napoli"
+        "flag": "spain",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -63,7 +72,25 @@
         "logo": "as_roma"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
+        "assists": "8",
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Miralem Pjanić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Juventus",
+        "assists": "8",
+        "flag": "bosnia_herzegovina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "11.",
         "name": " Douglas Costa",
         "country": "Brazil",
         "team": "Juventus",
@@ -91,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": "Adem Ljajić",
+        "country": "Serbia",
+        "team": "Torino FC",
+        "assists": "7",
+        "flag": "serbia",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
@@ -109,24 +145,6 @@
     },
     {
         "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
-        "assists": "7",
-        "flag": "croatia",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Miralem Pjanić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Juventus",
-        "assists": "7",
-        "flag": "bosnia_herzegovina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
         "name": "Simone Verdi",
         "country": "Italy",
         "team": "Bologna FC",
@@ -135,7 +153,7 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": "Mirco Antenucci",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Rodrigo de Paul",
-        "country": "Argentina",
-        "team": "Udinese Calcio",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
         "assists": "6",
-        "flag": "argentina",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Iago Falqué",
-        "country": "Spain",
-        "team": "Torino FC",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Adem Ljajić",
-        "country": "Serbia",
-        "team": "Torino FC",
-        "assists": "6",
-        "flag": "serbia",
-        "logo": "torino_fc"
+        "flag": "italy",
+        "logo": "acf_fiorentina"
     }
 ]

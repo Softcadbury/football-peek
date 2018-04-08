@@ -22,26 +22,35 @@
         "name": "Radamel Falcao",
         "country": "Colombia",
         "team": "AS Monaco",
-        "goals": "17",
+        "goals": "18",
         "flag": "colombia",
         "logo": "as_monaco"
     },
     {
         "rank": "4.",
+        "name": " Mariano",
+        "country": "Dom. Republic",
+        "team": "Olympique Lyon",
+        "goals": "17",
+        "flag": "dom__republic",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Karl Toko Ekambi",
+        "country": "Cameroon",
+        "team": "Angers SCO",
+        "goals": "17",
+        "flag": "cameroon",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "6.",
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Olympique Lyon",
         "goals": "16",
         "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": " Mariano",
-        "country": "Dom. Republic",
-        "team": "Olympique Lyon",
-        "goals": "16",
-        "flag": "dom__republic",
         "logo": "olympique_lyon"
     },
     {
@@ -54,15 +63,6 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Angers SCO",
-        "goals": "16",
-        "flag": "cameroon",
-        "logo": "angers_sco"
-    },
-    {
         "rank": "8.",
         "name": "Mario Balotelli",
         "country": "Italy",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "9.",
+        "name": "Memphis Depay",
+        "country": "Netherlands",
+        "team": "Olympique Lyon",
+        "goals": "13",
+        "flag": "netherlands",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -81,7 +90,25 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "OGC Nice",
+        "goals": "13",
+        "flag": "france",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "12.",
+        "name": " Rony Lopes",
+        "country": "Portugal",
+        "team": "AS Monaco",
+        "goals": "12",
+        "flag": "portugal",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "Nolan Roux",
         "country": "France",
         "team": "FC Metz",
@@ -99,7 +126,7 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "12.",
+        "rank": "15.",
         "name": " Júlio Tavares",
         "country": "Cape Verde",
         "team": "Dijon FCO",
@@ -108,34 +135,25 @@
         "logo": "dijon_fco"
     },
     {
-        "rank": "13.",
-        "name": "Memphis Depay",
-        "country": "Netherlands",
-        "team": "Olympique Lyon",
-        "goals": "10",
-        "flag": "netherlands",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "10",
-        "flag": "france",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": " Rony Lopes",
-        "country": "Portugal",
-        "team": "AS Monaco",
-        "goals": "10",
-        "flag": "portugal",
-        "logo": "as_monaco"
-    },
-    {
         "rank": "16.",
+        "name": "Moussa Konaté",
+        "country": "Senegal",
+        "team": "Amiens SC",
+        "goals": "10",
+        "flag": "senegal",
+        "logo": "amiens_sc"
+    },
+    {
+        "rank": "-",
+        "name": "Giovanni Sio",
+        "country": "Ivory Coast",
+        "team": "Montpellier HSC",
+        "goals": "10",
+        "flag": "ivory_coast",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "18.",
         "name": "Ángel Di María",
         "country": "Argentina",
         "team": "Paris Saint-Germain",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Moussa Konaté",
-        "country": "Senegal",
-        "team": "Amiens SC",
+        "name": " Malcom",
+        "country": "Brazil",
+        "team": "Girondins Bordeaux",
         "goals": "9",
-        "flag": "senegal",
-        "logo": "amiens_sc"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolas Pépé",
-        "country": "Ivory Coast",
-        "team": "Lille OSC",
-        "goals": "9",
-        "flag": "ivory_coast",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Wesley Saïd",
-        "country": "France",
-        "team": "Dijon FCO",
-        "goals": "9",
-        "flag": "france",
-        "logo": "dijon_fco"
+        "flag": "brazil",
+        "logo": "girondins_bordeaux"
     }
 ]

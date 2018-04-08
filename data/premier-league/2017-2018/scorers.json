@@ -4,7 +4,7 @@
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "28",
+        "goals": "29",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -31,36 +31,36 @@
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
-        "goals": "15",
+        "goals": "16",
         "flag": "england",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "5.",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Manchester United",
-        "goals": "14",
-        "flag": "belgium",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "14",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "14",
+        "goals": "16",
         "flag": "england",
         "logo": "leicester_city"
+    },
+    {
+        "rank": "6.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Manchester United",
+        "goals": "15",
+        "flag": "belgium",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "7.",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "14",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "8.",
@@ -82,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": " Morata",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Glenn Murray",
         "country": "England",
         "team": "Brighton & Hove Albion",
@@ -90,7 +99,25 @@
         "logo": "brighton___hove_albion"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
+        "goals": "10",
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "10",
+        "flag": "france",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Riyad Mahrez",
         "country": "Algeria",
         "team": "Leicester City",
@@ -100,12 +127,12 @@
     },
     {
         "rank": "-",
-        "name": " Morata",
-        "country": "Spain",
-        "team": "Chelsea FC",
+        "name": "Luka Milivojević",
+        "country": "Serbia",
+        "team": "Crystal Palace",
         "goals": "10",
-        "flag": "spain",
-        "logo": "chelsea_fc"
+        "flag": "serbia",
+        "logo": "crystal_palace"
     },
     {
         "rank": "-",
@@ -117,13 +144,31 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "14.",
-        "name": "Alexandre Lacazette",
-        "country": "France",
-        "team": "Arsenal FC",
+        "rank": "17.",
+        "name": "Marko Arnautović",
+        "country": "Austria",
+        "team": "West Ham United",
         "goals": "9",
-        "flag": "france",
-        "logo": "arsenal_fc"
+        "flag": "austria",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "9",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "9",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -133,50 +178,5 @@
         "goals": "9",
         "flag": "france",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "16.",
-        "name": " David Silva",
-        "country": "Spain",
-        "team": "Manchester City",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "8",
-        "flag": "brazil",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Jesse Lingard",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "8",
-        "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "8",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Luka Milivojević",
-        "country": "Serbia",
-        "team": "Crystal Palace",
-        "goals": "8",
-        "flag": "serbia",
-        "logo": "crystal_palace"
     }
 ]
