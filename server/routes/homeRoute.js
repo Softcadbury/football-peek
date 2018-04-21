@@ -54,10 +54,13 @@ function getLeagueMatches(item, handledDates) {
 
 function getCompetitionMatches(item, handledDates) {
     var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
-    var tournamentMatches1 = [];
-    var tournamentMatches2 = [];
+    var tournamentMatches = [];
 
-    tournamentData.forEach(round => {
+    for (let i = tournamentData.length - 1; i >= 0; i--) {
+        var tournamentMatches1 = [];
+        var tournamentMatches2 = [];
+        const round = tournamentData[i];
+
         round.matches.forEach(matche => {
             if (handledDates.indexOf(matche.date1) !== -1) {
                 tournamentMatches1.push({
@@ -82,10 +85,12 @@ function getCompetitionMatches(item, handledDates) {
                 });
             }
         });
-    });
 
-    if (tournamentMatches1.length || tournamentMatches2.length) {
-        return tournamentMatches1.concat(tournamentMatches2);
+        tournamentMatches = tournamentMatches.concat(tournamentMatches1, tournamentMatches2);
+    }
+
+    if (tournamentMatches.length) {
+        return tournamentMatches;
     }
 
     var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
