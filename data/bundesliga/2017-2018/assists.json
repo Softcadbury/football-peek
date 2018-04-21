@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "13",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Philipp Max",
         "country": "Germany",
         "team": "FC Augsburg",
@@ -9,8 +18,8 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "2.",
-        "name": "Joshua Kimmich",
+        "rank": "3.",
+        "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
         "assists": "12",
@@ -18,7 +27,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "James Rodríguez",
         "country": "Colombia",
         "team": "Bayern München",
@@ -27,22 +36,58 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "4.",
-        "name": "Thomas Müller",
+        "rank": "5.",
+        "name": "Kai Havertz",
         "country": "Germany",
-        "team": "Bayern München",
+        "team": "Bayer Leverkusen",
         "assists": "9",
         "flag": "germany",
-        "logo": "bayern_munchen"
+        "logo": "bayer_leverkusen"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Marius Wolf",
+        "country": "Germany",
+        "team": "Eintracht Frankfurt",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "8.",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "Bayer Leverkusen",
+        "assists": "7",
+        "flag": "jamaica",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": " Caiuby",
         "country": "Brazil",
         "team": "FC Augsburg",
         "assists": "7",
         "flag": "brazil",
         "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel Caligiuri",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -55,15 +100,6 @@
     },
     {
         "rank": "-",
-        "name": "Kai Havertz",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "7",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
         "name": "Max Kruse",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -72,43 +108,7 @@
         "logo": "werder_bremen"
     },
     {
-        "rank": "-",
-        "name": "Mark Uth",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "assists": "7",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Marius Wolf",
-        "country": "Germany",
-        "team": "Eintracht Frankfurt",
-        "assists": "7",
-        "flag": "germany",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "11.",
-        "name": "Leon Bailey",
-        "country": "Jamaica",
-        "team": "Bayer Leverkusen",
-        "assists": "6",
-        "flag": "jamaica",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Caligiuri",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
+        "rank": "13.",
         "name": "Daniel Didavi",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -124,6 +124,24 @@
         "assists": "6",
         "flag": "germany",
         "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "assists": "6",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Christian Pulisic",
+        "country": "USA",
+        "team": "Borussia Dortmund",
+        "assists": "6",
+        "flag": "usa",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -144,7 +162,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "17.",
+        "rank": "19.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Lars Bender",
+        "name": "Dennis Aogo",
         "country": "Germany",
-        "team": "Bayer Leverkusen",
+        "team": "VfB Stuttgart",
         "assists": "5",
         "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Delaney",
-        "country": "Denmark",
-        "team": "Werder Bremen",
-        "assists": "5",
-        "flag": "denmark",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Vincenzo Grifo",
-        "country": "Italy",
-        "team": "Bor. Mönchengladbach",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "bor__monchengladbach"
+        "logo": "vfb_stuttgart"
     }
 ]

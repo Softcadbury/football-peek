@@ -19,6 +19,15 @@
     },
     {
         "rank": "-",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Aleksey Miranchuk",
         "country": "Russia",
         "team": "Lokomotiv Moskva",
@@ -27,7 +36,16 @@
         "logo": "lokomotiv_moskva"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Sporting CP",
+        "assists": "4",
+        "flag": "portugal",
+        "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "AC Milan",
@@ -46,15 +64,6 @@
     },
     {
         "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
         "name": "Mesut Özil",
         "country": "Germany",
         "team": "Arsenal FC",
@@ -63,22 +72,22 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Dimitri Payet",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "assists": "4",
+        "flag": "france",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "10.",
         "name": "Fabio Borini",
         "country": "Italy",
         "team": "AC Milan",
         "assists": "3",
         "flag": "italy",
         "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Sporting CP",
-        "assists": "3",
-        "flag": "portugal",
-        "logo": "sporting_cp"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "assists": "3",
         "flag": "germany",
         "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Mikola Morozyuk",
-        "country": "Ukraine",
-        "team": "Dinamo Kiev",
-        "assists": "3",
-        "flag": "ukraine",
-        "logo": "dinamo_kiev"
     }
 ]

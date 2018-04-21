@@ -54,10 +54,13 @@ function getLeagueMatches(item, handledDates) {
 
 function getCompetitionMatches(item, handledDates) {
     var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
-    var tournamentMatches1 = [];
-    var tournamentMatches2 = [];
+    var tournamentMatches = [];
 
-    tournamentData.forEach(round => {
+    for (let i = tournamentData.length - 1; i >= 0; i--) {
+        var tournamentMatches1 = [];
+        var tournamentMatches2 = [];
+        const round = tournamentData[i];
+
         round.matches.forEach(matche => {
             if (handledDates.indexOf(matche.date1) !== -1) {
                 tournamentMatches1.push({
@@ -70,10 +73,11 @@ function getCompetitionMatches(item, handledDates) {
                 });
             }
 
-            if (handledDates.indexOf(matche.date2) !== -1) {
+            if (handledDates.indexOf(matche.date2) !== -1 && matche.score2.indexOf(':') != -1) {
+                var reversedScore = matche.score2.split(':')[1] + ':' + matche.score2.split(':')[0];
                 tournamentMatches2.push({
                     date: matche.date2,
-                    score: matche.score2,
+                    score: reversedScore,
                     homeTeam: matche.team2,
                     awayTeam: matche.team1,
                     homeTeamLogo: matche.team2Logo,
@@ -81,10 +85,12 @@ function getCompetitionMatches(item, handledDates) {
                 });
             }
         });
-    });
 
-    if (tournamentMatches1.length || tournamentMatches2.length) {
-        return tournamentMatches1.concat(tournamentMatches2);
+        tournamentMatches = tournamentMatches.concat(tournamentMatches1, tournamentMatches2);
+    }
+
+    if (tournamentMatches.length) {
+        return tournamentMatches;
     }
 
     var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
