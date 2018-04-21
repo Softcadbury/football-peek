@@ -70,10 +70,11 @@ function getCompetitionMatches(item, handledDates) {
                 });
             }
 
-            if (handledDates.indexOf(matche.date2) !== -1) {
+            if (handledDates.indexOf(matche.date2) !== -1 && matche.score2.indexOf(':') != -1) {
+                var reversedScore = matche.score2.split(':')[1] + ':' + matche.score2.split(':')[0];
                 tournamentMatches2.push({
                     date: matche.date2,
-                    score: matche.score2,
+                    score: reversedScore,
                     homeTeam: matche.team2,
                     awayTeam: matche.team1,
                     homeTeamLogo: matche.team2Logo,
