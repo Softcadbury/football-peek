@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": " Gonçalo Guedes",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "assists": "9",
+        "flag": "portugal",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
         "name": "Pione Sisto",
         "country": "Denmark",
         "team": "Celta Vigo",
@@ -18,7 +27,7 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -46,15 +55,6 @@
     },
     {
         "rank": "-",
-        "name": " Lucas Vázquez",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "8",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Pablo Fornals",
         "country": "Spain",
         "team": "Villarreal CF",
@@ -63,22 +63,22 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Daniel Wass",
+        "country": "Denmark",
+        "team": "Celta Vigo",
+        "assists": "8",
+        "flag": "denmark",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "9.",
         "name": " Álex Granell",
         "country": "Spain",
         "team": "Girona FC",
         "assists": "7",
         "flag": "spain",
         "logo": "girona_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Gonçalo Guedes",
-        "country": "Portugal",
-        "team": "Valencia CF",
-        "assists": "7",
-        "flag": "portugal",
-        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -100,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": " Lucas Vázquez",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Parejo",
         "country": "Spain",
         "team": "Valencia CF",
@@ -108,17 +117,35 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "-",
-        "name": "Daniel Wass",
-        "country": "Denmark",
-        "team": "Celta Vigo",
-        "assists": "7",
-        "flag": "denmark",
-        "logo": "celta_vigo"
+        "rank": "14.",
+        "name": " Barragán",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "real_betis"
     },
     {
-        "rank": "14.",
+        "rank": "-",
         "name": " Fabián Ruiz",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Isco",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Joaquín",
         "country": "Spain",
         "team": "Real Betis",
         "assists": "6",
@@ -151,32 +178,5 @@
         "assists": "6",
         "flag": "spain",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "18.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "assists": "5",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Barragán",
-        "country": "Spain",
-        "team": "Real Betis",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Canales",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "real_sociedad"
     }
 ]

@@ -4,12 +4,30 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "26",
+        "goals": "28",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
         "rank": "2.",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "goals": "14",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "14",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "4.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
@@ -27,31 +45,22 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "4.",
-        "name": "Mark Uth",
+        "rank": "6.",
+        "name": "Niclas Füllkrug",
         "country": "Germany",
-        "team": "1899 Hoffenheim",
+        "team": "Hannover 96",
         "goals": "12",
         "flag": "germany",
-        "logo": "1899_hoffenheim"
+        "logo": "hannover_96"
     },
     {
-        "rank": "5.",
+        "rank": "7.",
         "name": "Alfreð Finnbogason",
         "country": "Iceland",
         "team": "FC Augsburg",
         "goals": "11",
         "flag": "iceland",
         "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Niclas Füllkrug",
-        "country": "Germany",
-        "team": "Hannover 96",
-        "goals": "11",
-        "flag": "germany",
-        "logo": "hannover_96"
     },
     {
         "rank": "-",
@@ -73,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": "Sandro Wagner",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "11",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
@@ -81,7 +99,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "10.",
+        "rank": "12.",
         "name": "Guido Burgstaller",
         "country": "Austria",
         "team": "FC Schalke 04",
@@ -91,15 +109,15 @@
     },
     {
         "rank": "-",
-        "name": "Kevin Volland",
+        "name": "Serge Gnabry",
         "country": "Germany",
-        "team": "Bayer Leverkusen",
+        "team": "1899 Hoffenheim",
         "goals": "10",
         "flag": "germany",
-        "logo": "bayer_leverkusen"
+        "logo": "1899_hoffenheim"
     },
     {
-        "rank": "12.",
+        "rank": "14.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -126,31 +144,22 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "-",
-        "name": "Sandro Wagner",
+        "rank": "17.",
+        "name": "Julian Brandt",
         "country": "Germany",
-        "team": "Bayern München",
-        "goals": "9",
+        "team": "Bayer Leverkusen",
+        "goals": "8",
         "flag": "germany",
-        "logo": "bayern_munchen"
+        "logo": "bayer_leverkusen"
     },
     {
-        "rank": "16.",
+        "rank": "-",
         "name": "Daniel Didavi",
         "country": "Germany",
         "team": "VfL Wolfsburg",
         "goals": "8",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
-        "goals": "8",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "8",
         "flag": "serbia",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "20.",
-        "name": "Lucas Alario",
-        "country": "Argentina",
-        "team": "Bayer Leverkusen",
-        "goals": "7",
-        "flag": "argentina",
-        "logo": "bayer_leverkusen"
     }
 ]
