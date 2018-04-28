@@ -2867,7 +2867,7 @@
                 "date": "22/04/2018",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "Montpellier HSC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "ogc_nice",
                 "awayTeamLogo": "montpellier_hsc"
             },
@@ -2875,7 +2875,7 @@
                 "date": "22/04/2018",
                 "homeTeam": "AS Saint-Étienne",
                 "awayTeam": "ESTAC Troyes",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "as_saint_etienne",
                 "awayTeamLogo": "estac_troyes"
             },
@@ -2883,7 +2883,7 @@
                 "date": "22/04/2018",
                 "homeTeam": "Girondins Bordeaux",
                 "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "girondins_bordeaux",
                 "awayTeamLogo": "paris_saint_germain"
             }
@@ -2892,6 +2892,22 @@
     {
         "round": 35,
         "matches": [
+            {
+                "date": "27/04/2018",
+                "homeTeam": "Montpellier HSC",
+                "awayTeam": "AS Saint-Étienne",
+                "score": "0:1",
+                "homeTeamLogo": "montpellier_hsc",
+                "awayTeamLogo": "as_saint_etienne"
+            },
+            {
+                "date": "28/04/2018",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "FC Nantes",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "fc_nantes"
+            },
             {
                 "date": "28/04/2018",
                 "homeTeam": "AS Monaco",
@@ -2918,35 +2934,11 @@
             },
             {
                 "date": "28/04/2018",
-                "homeTeam": "Montpellier HSC",
-                "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
-                "homeTeamLogo": "montpellier_hsc",
-                "awayTeamLogo": "as_saint_etienne"
-            },
-            {
-                "date": "28/04/2018",
-                "homeTeam": "Olympique Lyon",
-                "awayTeam": "FC Nantes",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_lyon",
-                "awayTeamLogo": "fc_nantes"
-            },
-            {
-                "date": "28/04/2018",
                 "homeTeam": "Lille OSC",
                 "awayTeam": "FC Metz",
                 "score": "-:-",
                 "homeTeamLogo": "lille_osc",
                 "awayTeamLogo": "fc_metz"
-            },
-            {
-                "date": "28/04/2018",
-                "homeTeam": "Paris Saint-Germain",
-                "awayTeam": "EA Guingamp",
-                "score": "-:-",
-                "homeTeamLogo": "paris_saint_germain",
-                "awayTeamLogo": "ea_guingamp"
             },
             {
                 "date": "28/04/2018",
@@ -2957,7 +2949,15 @@
                 "awayTeamLogo": "ogc_nice"
             },
             {
-                "date": "28/04/2018",
+                "date": "29/04/2018",
+                "homeTeam": "Stade Rennes",
+                "awayTeam": "Toulouse FC",
+                "score": "-:-",
+                "homeTeamLogo": "stade_rennes",
+                "awayTeamLogo": "toulouse_fc"
+            },
+            {
+                "date": "29/04/2018",
                 "homeTeam": "Angers SCO",
                 "awayTeam": "Olympique Marseille",
                 "score": "-:-",
@@ -2965,12 +2965,12 @@
                 "awayTeamLogo": "olympique_marseille"
             },
             {
-                "date": "28/04/2018",
-                "homeTeam": "Stade Rennes",
-                "awayTeam": "Toulouse FC",
+                "date": "29/04/2018",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "EA Guingamp",
                 "score": "-:-",
-                "homeTeamLogo": "stade_rennes",
-                "awayTeamLogo": "toulouse_fc"
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "ea_guingamp"
             }
         ]
     },

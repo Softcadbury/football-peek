@@ -9,11 +9,11 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Dimitri Payet",
         "country": "France",
         "team": "Olympique Marseille",
-        "assists": "14",
+        "assists": "15",
         "flag": "france",
         "logo": "olympique_marseille"
     },
@@ -64,6 +64,15 @@
     },
     {
         "rank": "8.",
+        "name": "Edinson Cavani",
+        "country": "Uruguay",
+        "team": "Paris Saint-Germain",
+        "assists": "8",
+        "flag": "uruguay",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -72,22 +81,22 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Allan Saint-Maximin",
+        "country": "France",
+        "team": "OGC Nice",
+        "assists": "8",
+        "flag": "france",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "11.",
         "name": "Benjamin Bourigeaud",
         "country": "France",
         "team": "Stade Rennes",
         "assists": "7",
         "flag": "france",
         "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Paris Saint-Germain",
-        "assists": "7",
-        "flag": "uruguay",
-        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
@@ -135,16 +144,16 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "-",
-        "name": "Allan Saint-Maximin",
+        "rank": "17.",
+        "name": "Rémy Cabella",
         "country": "France",
-        "team": "OGC Nice",
-        "assists": "7",
+        "team": "Olympique Marseille",
+        "assists": "6",
         "flag": "france",
-        "logo": "ogc_nice"
+        "logo": "olympique_marseille"
     },
     {
-        "rank": "17.",
+        "rank": "-",
         "name": "Maxwel Cornet",
         "country": "Ivory Coast",
         "team": "Olympique Lyon",
@@ -169,14 +178,5 @@
         "assists": "6",
         "flag": "france",
         "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": " João Moutinho",
-        "country": "Portugal",
-        "team": "AS Monaco",
-        "assists": "6",
-        "flag": "portugal",
-        "logo": "as_monaco"
     }
 ]
