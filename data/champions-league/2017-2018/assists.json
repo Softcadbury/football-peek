@@ -4,12 +4,30 @@
         "name": "James Milner",
         "country": "England",
         "team": "Liverpool FC",
-        "assists": "6",
+        "assists": "8",
         "flag": "england",
         "logo": "liverpool_fc"
     },
     {
         "rank": "2.",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "assists": "6",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "3.",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "assists": "5",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "4.",
         "name": "Dele Alli",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -54,7 +72,16 @@
         "logo": "be_ikta_"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "4",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "10.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Bayern München",
@@ -91,6 +118,24 @@
     },
     {
         "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Real Madrid",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Dani Carvajal",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Danilo",
         "country": "Portugal",
         "team": "FC Porto",
@@ -109,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Sami Khedira",
+        "country": "Germany",
+        "team": "Juventus",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
@@ -124,59 +178,5 @@
         "assists": "3",
         "flag": "france",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Kieran Trippier",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "assists": "3",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "18.",
-        "name": "Vincent Aboubakar",
-        "country": "Cameroon",
-        "team": "FC Porto",
-        "assists": "2",
-        "flag": "cameroon",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Keita Baldé",
-        "country": "Senegal",
-        "team": "AS Monaco",
-        "assists": "2",
-        "flag": "senegal",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "assists": "2",
-        "flag": "wales",
-        "logo": "real_madrid"
     }
 ]

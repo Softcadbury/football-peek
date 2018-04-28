@@ -9,7 +9,7 @@ gulp.task('up', () => {
     var mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
-    config.fullResultUpdate = true;
+    config.fullResultUpdate = false;
 
     var argv = require('yargs').argv;
     var leagueArg = argv.l;

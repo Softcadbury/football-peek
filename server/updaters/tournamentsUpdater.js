@@ -123,7 +123,7 @@ function parsePhaseOtherThanFinal($, elem, currentMatches, index) {
 }
 
 // Clean score by removing useless parts
-function parseScore(score, inverseScore) {
+function parseScore(score, hasToReverseScore) {
     if (!score) {
         return '-:-';
     }
@@ -139,7 +139,7 @@ function parseScore(score, inverseScore) {
 
     var newScorePart1 = scores[0];
 
-    if (inverseScore) {
+    if (hasToReverseScore) {
         newScorePart1 = newScorePart1.split(':')[1] + ':' + newScorePart1.split(':')[0];
     }
 
@@ -149,7 +149,7 @@ function parseScore(score, inverseScore) {
 
     var newScorePart2 = scores[3];
 
-    if (inverseScore) {
+    if (hasToReverseScore) {
         newScorePart2 = newScorePart2.split(':')[1] + ':' + newScorePart2.split(':')[0];
     }
 

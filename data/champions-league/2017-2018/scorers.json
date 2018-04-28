@@ -4,12 +4,30 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Real Madrid",
-        "goals": "12",
+        "goals": "15",
         "flag": "portugal",
         "logo": "real_madrid"
     },
     {
         "rank": "2.",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "10",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "10",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "4.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -18,13 +36,31 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "8",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "6.",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
         "goals": "7",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "7",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -36,25 +72,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "7",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "6.",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "6",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "9.",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
@@ -72,16 +90,7 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "6",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Vincent Aboubakar",
         "country": "Cameroon",
         "team": "FC Porto",
@@ -100,7 +109,7 @@
     },
     {
         "rank": "-",
-        "name": "Gonzalo Higuaí­n",
+        "name": "Gonzalo Higuaín",
         "country": "Argentina",
         "team": "Juventus",
         "goals": "5",
@@ -126,7 +135,7 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
         "goals": "4",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "flag": "brazil",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Kylian Mbappé",
-        "country": "France",
-        "team": "Paris Saint-Germain",
+        "name": "Mario Mandžukić",
+        "country": "Croatia",
+        "team": "Juventus",
         "goals": "4",
-        "flag": "france",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Dimitri Oberlin",
-        "country": "Switzerland",
-        "team": "FC Basel",
-        "goals": "4",
-        "flag": "switzerland",
-        "logo": "fc_basel"
+        "flag": "croatia",
+        "logo": "juventus"
     }
 ]
