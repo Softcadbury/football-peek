@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Nils Petersen",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "14",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
         "name": "Mark Uth",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -27,7 +36,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
@@ -37,15 +46,24 @@
     },
     {
         "rank": "-",
-        "name": "Nils Petersen",
-        "country": "Germany",
-        "team": "SC Freiburg",
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
+        "team": "FC Augsburg",
         "goals": "13",
-        "flag": "germany",
-        "logo": "sc_freiburg"
+        "flag": "austria",
+        "logo": "fc_augsburg"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
+        "name": "Alfreð Finnbogason",
+        "country": "Iceland",
+        "team": "FC Augsburg",
+        "goals": "12",
+        "flag": "iceland",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
         "name": "Niclas Füllkrug",
         "country": "Germany",
         "team": "Hannover 96",
@@ -54,25 +72,16 @@
         "logo": "hannover_96"
     },
     {
-        "rank": "7.",
-        "name": "Alfreð Finnbogason",
-        "country": "Iceland",
-        "team": "FC Augsburg",
-        "goals": "11",
-        "flag": "iceland",
-        "logo": "fc_augsburg"
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "12",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
-        "rank": "-",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "FC Augsburg",
-        "goals": "11",
-        "flag": "austria",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Salomon Kalou",
         "country": "Ivory Coast",
         "team": "Hertha BSC",
@@ -99,7 +108,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Guido Burgstaller",
         "country": "Austria",
         "team": "FC Schalke 04",
@@ -117,7 +126,7 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -136,15 +145,15 @@
     },
     {
         "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
+        "name": " Raffael",
+        "country": "Brazil",
+        "team": "Bor. Mönchengladbach",
         "goals": "9",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
+        "flag": "brazil",
+        "logo": "bor__monchengladbach"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -168,15 +177,6 @@
         "team": "Eintracht Frankfurt",
         "goals": "8",
         "flag": "france",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Luka Jović",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "goals": "8",
-        "flag": "serbia",
         "logo": "eintracht_frankfurt"
     }
 ]

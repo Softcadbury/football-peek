@@ -31,12 +31,12 @@
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
-        "goals": "17",
+        "goals": "18",
         "flag": "england",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
@@ -64,6 +64,15 @@
     },
     {
         "rank": "8.",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "13",
+        "flag": "france",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "9.",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -90,13 +99,13 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "11.",
-        "name": "Alexandre Lacazette",
-        "country": "France",
-        "team": "Arsenal FC",
+        "rank": "12.",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
         "goals": "11",
-        "flag": "france",
-        "logo": "arsenal_fc"
+        "flag": "brazil",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -108,22 +117,22 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
+        "name": "Marko Arnautović",
+        "country": "Austria",
+        "team": "West Ham United",
+        "goals": "10",
+        "flag": "austria",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
         "goals": "10",
         "flag": "denmark",
         "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "10",
-        "flag": "brazil",
-        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -162,21 +171,12 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "19.",
-        "name": "Marko Arnautović",
-        "country": "Austria",
-        "team": "West Ham United",
+        "rank": "20.",
+        "name": "Ashley Barnes",
+        "country": "England",
+        "team": "Burnley FC",
         "goals": "9",
-        "flag": "austria",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Anthony Martial",
-        "country": "France",
-        "team": "Manchester United",
-        "goals": "9",
-        "flag": "france",
-        "logo": "manchester_united"
+        "flag": "england",
+        "logo": "burnley_fc"
     }
 ]
