@@ -90,7 +90,7 @@ function parseFinalPhase($, elem, currentMatches, index) {
 
     currentMatches.push({
         date1: $(elem).find('td:nth-child(1)').text(),
-        hour1: $(elem).find('td:nth-child(2)').text(),
+        time1: $(elem).find('td:nth-child(2)').text(),
         team1: team1,
         team2: team2,
         score1: score,
@@ -104,8 +104,8 @@ function parsePhaseOtherThanFinal($, elem, currentMatches, index) {
             currentMatches.push({
                 date1: '',
                 date2: '',
-                hour1: '',
-                hour2: '',
+                time1: '',
+                time2: '',
                 team1: $(elem).find('td:nth-child(2) > a').text(),
                 team2: $(elem).find('td:nth-child(4) > a').text(),
                 score1: parseScore($(elem).find('td:nth-child(5) > a').text())
@@ -117,9 +117,9 @@ function parsePhaseOtherThanFinal($, elem, currentMatches, index) {
         case 2:
             var match = currentMatches[currentMatches.length - 1];
             match.date1 = $(elem).find('td:nth-child(2)').text().split(' ')[2];
-            match.hour1 = $(elem).find('td:nth-child(2)').text().split(' ')[3];
+            match.time1 = $(elem).find('td:nth-child(2)').text().split(' ')[3];
             match.date2 = $(elem).find('td:nth-child(4)').text().split(' ')[3];
-            match.hour2 = $(elem).find('td:nth-child(4)').text().split(' ')[4];
+            match.time2 = $(elem).find('td:nth-child(4)').text().split(' ')[4];
             match.winner = $(elem).find('td:nth-child(5) > b').text();
             break;
         default:

@@ -53,7 +53,7 @@ function parseRound(itemExtended, results, groupIndex) {
 
                 currentMatches.push({
                     date: currentDate,
-                    hour: $(elem).find('td:nth-child(2)').text(),
+                    time: $(elem).find('td:nth-child(2)').text(),
                     homeTeam: $(elem).find('td:nth-child(3) > a').text(),
                     awayTeam: $(elem).find('td:nth-child(5) > a').text(),
                     score: isLiveScore ? '-:-' : ($(elem).find('td:nth-child(6) > a').text().split(' ')[0] || '-:-')

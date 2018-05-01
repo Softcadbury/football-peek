@@ -25,9 +25,9 @@ document.onkeydown = function (e) {
     }
 };
 
-var allTime = document.getElementsByClassName('hour');
+var allTime = document.getElementsByClassName('time');
 for (var i = 0; i < allTime.length; i++) {
-    var time = allTime[i].dataset.hour;
+    var time = allTime[i].dataset.time;
     var hour = time.split(':')[0];
     var minute = time.split(':')[1];
     var offset = new Date().getTimezoneOffset() / 60;
