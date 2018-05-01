@@ -65,6 +65,7 @@ function getCompetitionMatches(item, handledDates) {
             if (handledDates.indexOf(matche.date1) !== -1) {
                 tournamentMatches1.push({
                     date: matche.date1,
+                    hour: matche.hour1,
                     score: matche.score1,
                     homeTeam: matche.team1,
                     awayTeam: matche.team2,
@@ -77,6 +78,7 @@ function getCompetitionMatches(item, handledDates) {
                 var reversedScore = matche.score2.split(':')[1] + ':' + matche.score2.split(':')[0];
                 tournamentMatches2.push({
                     date: matche.date2,
+                    hour: matche.hour2,
                     score: reversedScore,
                     homeTeam: matche.team2,
                     awayTeam: matche.team1,
