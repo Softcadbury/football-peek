@@ -1,6 +1,6 @@
-<%/* model: { date, score, team1, team2 } */%>
+<%/* model: { date, hour, score, team1, team2 } */%>
 <% 
-    var hasScore = score !== '-:-';
+    var hasScore = score !== '-:-' || !hour;
     var matcheData = date + ' ' + team1 + ' ' + team2;
     var youtubeHref = 'https://www.youtube.com/results?search_query=highlights ' + matcheData + ' ' + score;
     var googleHref = 'https://www.google.fr/search?q=' + matcheData;
