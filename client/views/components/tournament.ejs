@@ -41,6 +41,7 @@
                             <td class="data-score-double">
                                 <%- include('score', {
                                     date: matche.date1,
+                                    time: matche.time1,
                                     score: matche.score1,
                                     team1: matche.team1,
                                     team2: matche.team2 }); %>
@@ -48,6 +49,7 @@
                                     <span>-</span>
                                     <%- include('score', {
                                         date: matche.date2,
+                                        time: matche.time2,
                                         score: matche.score2,
                                         team1: matche.team1,
                                         team2: matche.team2 }); %>
