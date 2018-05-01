@@ -22,7 +22,7 @@
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "Olympique Lyon",
-        "assists": "11",
+        "assists": "12",
         "flag": "netherlands",
         "logo": "olympique_lyon"
     },
@@ -31,12 +31,12 @@
         "name": "Mathieu Dossevi",
         "country": "Togo",
         "team": "FC Metz",
-        "assists": "10",
+        "assists": "11",
         "flag": "togo",
         "logo": "fc_metz"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Florian Thauvin",
         "country": "France",
         "team": "Olympique Marseille",
@@ -118,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "assists": "7",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
         "name": "Pierre Lees-Melou",
         "country": "France",
         "team": "OGC Nice",
@@ -144,39 +153,30 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "17.",
+        "rank": "-",
+        "name": "Jean Michaël Seri",
+        "country": "Ivory Coast",
+        "team": "OGC Nice",
+        "assists": "7",
+        "flag": "ivory_coast",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Naïm Sliti",
+        "country": "Tunisia",
+        "team": "Dijon FCO",
+        "assists": "7",
+        "flag": "tunisia",
+        "logo": "dijon_fco"
+    },
+    {
+        "rank": "20.",
         "name": "Rémy Cabella",
         "country": "France",
         "team": "Olympique Marseille",
         "assists": "6",
         "flag": "france",
         "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Maxwel Cornet",
-        "country": "Ivory Coast",
-        "team": "Olympique Lyon",
-        "assists": "6",
-        "flag": "ivory_coast",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "Nabil Fekir",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "assists": "6",
-        "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "Angelo Fulgini",
-        "country": "France",
-        "team": "Angers SCO",
-        "assists": "6",
-        "flag": "france",
-        "logo": "angers_sco"
     }
 ]

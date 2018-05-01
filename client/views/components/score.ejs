@@ -1,12 +1,20 @@
-<%/* model: { date, score, team1, team2 } */%>
+<%/* model: { date, time, score, team1, team2 } */%>
 <% 
-    var hasScore = score !== '-:-';
+    var hasScore = score !== '-:-' || !time;
     var matcheData = date + ' ' + team1 + ' ' + team2;
     var youtubeHref = 'https://www.youtube.com/results?search_query=highlights ' + matcheData + ' ' + score;
     var googleHref = 'https://www.google.fr/search?q=' + matcheData;
 %>
-<a href="<%= hasScore ? youtubeHref : googleHref %>" target="_blank" rel="nofollow noopener noreferrer">
-    <span title="Score on <%= date %>">
-        <%= score %>
-    </span>
-</a>
+<% if (hasScore) { %>
+    <a href="<%= youtubeHref %>" target="_blank" rel="nofollow noopener noreferrer">
+        <span title="Score <%= score %>">
+            <%= score %>
+        </span>
+    </a>
+<% } else { %>
+    <a href="<%= googleHref %>" target="_blank" rel="nofollow noopener noreferrer">
+        <span class="time" title="Time <%= time %>" data-time="<%= time %>">
+            <%= time %>
+        </span>
+    </a>
+<% } %>

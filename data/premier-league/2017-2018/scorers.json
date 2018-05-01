@@ -13,7 +13,7 @@
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "26",
+        "goals": "27",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
@@ -73,6 +73,15 @@
     },
     {
         "rank": "9.",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "12",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -99,16 +108,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "12.",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "11",
-        "flag": "brazil",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "13.",
         "name": " Morata",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -171,12 +171,12 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "20.",
-        "name": "Ashley Barnes",
-        "country": "England",
-        "team": "Burnley FC",
-        "goals": "9",
-        "flag": "england",
-        "logo": "burnley_fc"
+        "rank": "-",
+        "name": "Leroy Sané",
+        "country": "Germany",
+        "team": "Manchester City",
+        "goals": "10",
+        "flag": "germany",
+        "logo": "manchester_city"
     }
 ]
