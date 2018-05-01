@@ -7,13 +7,13 @@
 %>
 <% if (hasScore) { %>
     <a href="<%= youtubeHref %>" target="_blank" rel="nofollow noopener noreferrer">
-        <span title="Score">
+        <span title="Score <%= score %>">
             <%= score %>
         </span>
     </a>
 <% } else { %>
     <a href="<%= googleHref %>" target="_blank" rel="nofollow noopener noreferrer">
-        <span class="hour" title="Time">
+        <span class="hour" title="Time <%= hour %>" data-hour="<%= hour %>">
             <%= hour %>
         </span>
     </a>
