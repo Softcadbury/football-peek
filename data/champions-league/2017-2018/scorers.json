@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "9",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "5.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -37,30 +46,21 @@
     },
     {
         "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
         "goals": "8",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
         "goals": "7",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "7",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "4",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Gabriel Jesus",
         "country": "Brazil",
         "team": "Manchester City",
         "goals": "4",
         "flag": "brazil",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Mandžukić",
-        "country": "Croatia",
-        "team": "Juventus",
-        "goals": "4",
-        "flag": "croatia",
-        "logo": "juventus"
     }
 ]

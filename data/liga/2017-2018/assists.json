@@ -10,21 +10,30 @@
     },
     {
         "rank": "2.",
+        "name": " Pablo Fornals",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "10",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "3.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "assists": "9",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Gonçalo Guedes",
         "country": "Portugal",
         "team": "Valencia CF",
         "assists": "9",
         "flag": "portugal",
         "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Pablo Fornals",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "9",
-        "flag": "spain",
-        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -36,16 +45,16 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "5.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "assists": "8",
-        "flag": "france",
-        "logo": "real_madrid"
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "9",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
+        "rank": "7.",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -73,12 +82,12 @@
     },
     {
         "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
+        "name": " José Ángel",
+        "country": "Spain",
+        "team": "SD Eibar",
         "assists": "8",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
+        "flag": "spain",
+        "logo": "sd_eibar"
     },
     {
         "rank": "-",
@@ -90,22 +99,13 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": " Álex Granell",
         "country": "Spain",
         "team": "Girona FC",
         "assists": "7",
         "flag": "spain",
         "logo": "girona_fc"
-    },
-    {
-        "rank": "-",
-        "name": " José Ángel",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "assists": "7",
-        "flag": "spain",
-        "logo": "sd_eibar"
     },
     {
         "rank": "-",
@@ -126,7 +126,16 @@
         "logo": "valencia_cf"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": " Sergi Roberto",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "16.",
         "name": " Barragán",
         "country": "Spain",
         "team": "Real Betis",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Ibai",
+        "country": "Spain",
+        "team": "CD Alavés",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "cd_alaves"
+    },
+    {
+        "rank": "-",
         "name": " Isco",
         "country": "Spain",
         "team": "Real Madrid",
         "assists": "6",
         "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Joaquín",
-        "country": "Spain",
-        "team": "Real Betis",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": "Toni Kroos",
-        "country": "Germany",
-        "team": "Real Madrid",
-        "assists": "6",
-        "flag": "germany",
         "logo": "real_madrid"
     }
 ]

@@ -1,5 +1,20 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "26/05/2018",
+                "time1": "19:45",
+                "team1": "Real Madrid",
+                "team2": "Liverpool FC",
+                "score1": "-:-",
+                "winner": "",
+                "team1Logo": "real_madrid",
+                "team2Logo": "liverpool_fc"
+            }
+        ]
+    },
+    {
         "name": "Semi-finals",
         "matches": [
             {
@@ -10,8 +25,8 @@
                 "team1": "Liverpool FC",
                 "team2": "AS Roma",
                 "score1": "5:2",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "2:4",
+                "winner": "Liverpool FC",
                 "team1Logo": "liverpool_fc",
                 "team2Logo": "as_roma"
             },
@@ -23,8 +38,8 @@
                 "team1": "Bayern München",
                 "team2": "Real Madrid",
                 "score1": "1:2",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "2:2",
+                "winner": "Real Madrid",
                 "team1Logo": "bayern_munchen",
                 "team2Logo": "real_madrid"
             }

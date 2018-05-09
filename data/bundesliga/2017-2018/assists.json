@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "14",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "2.",
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
@@ -18,20 +27,11 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "3.",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "12",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
         "rank": "4.",
         "name": "James Rodríguez",
         "country": "Colombia",
         "team": "Bayern München",
-        "assists": "10",
+        "assists": "11",
         "flag": "colombia",
         "logo": "bayern_munchen"
     },
@@ -55,6 +55,15 @@
     },
     {
         "rank": "7.",
+        "name": "Daniel Caligiuri",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
         "name": "Mark Uth",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -72,22 +81,13 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
         "assists": "7",
         "flag": "jamaica",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Caligiuri",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "assists": "7",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",

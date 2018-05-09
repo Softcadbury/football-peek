@@ -1,5 +1,20 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "16/05/2018",
+                "time1": "19:45",
+                "team1": "Olympique Marseille",
+                "team2": "Atlético Madrid",
+                "score1": "-:-",
+                "winner": "",
+                "team1Logo": "olympique_marseille",
+                "team2Logo": "atletico_madrid"
+            }
+        ]
+    },
+    {
         "name": "Semi-finals",
         "matches": [
             {
@@ -10,8 +25,8 @@
                 "team1": "Olympique Marseille",
                 "team2": "RB Salzburg",
                 "score1": "2:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:2",
+                "winner": "Olympique Marseille",
                 "team1Logo": "olympique_marseille",
                 "team2Logo": "rb_salzburg"
             },
@@ -23,8 +38,8 @@
                 "team1": "Arsenal FC",
                 "team2": "Atlético Madrid",
                 "score1": "1:1",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "0:1",
+                "winner": "Atlético Madrid",
                 "team1Logo": "arsenal_fc",
                 "team2Logo": "atletico_madrid"
             }
