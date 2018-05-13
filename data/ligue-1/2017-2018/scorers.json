@@ -4,12 +4,21 @@
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
-        "goals": "27",
+        "goals": "28",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
     },
     {
         "rank": "2.",
+        "name": "Florian Thauvin",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "goals": "22",
+        "flag": "france",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "3.",
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
@@ -18,22 +27,31 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "-",
-        "name": "Florian Thauvin",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "goals": "20",
-        "flag": "france",
-        "logo": "olympique_marseille"
+        "rank": "4.",
+        "name": "Mario Balotelli",
+        "country": "Italy",
+        "team": "OGC Nice",
+        "goals": "18",
+        "flag": "italy",
+        "logo": "ogc_nice"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Radamel Falcao",
         "country": "Colombia",
         "team": "AS Monaco",
         "goals": "18",
         "flag": "colombia",
         "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "18",
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -45,16 +63,7 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "6.",
-        "name": "Nabil Fekir",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "17",
-        "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Karl Toko Ekambi",
         "country": "Cameroon",
         "team": "Angers SCO",
@@ -63,7 +72,7 @@
         "logo": "angers_sco"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "Olympique Lyon",
@@ -72,16 +81,7 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "9.",
-        "name": "Mario Balotelli",
-        "country": "Italy",
-        "team": "OGC Nice",
-        "goals": "15",
-        "flag": "italy",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Nolan Roux",
         "country": "France",
         "team": "FC Metz",
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Nicolas Pépé",
+        "country": "Ivory Coast",
+        "team": "Lille OSC",
+        "goals": "13",
+        "flag": "ivory_coast",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
         "name": " Rony Lopes",
         "country": "Portugal",
         "team": "AS Monaco",
@@ -117,7 +126,25 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Bertrand Traoré",
+        "country": "Burkina Faso",
+        "team": "Olympique Lyon",
+        "goals": "13",
+        "flag": "burkina_faso",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "16.",
+        "name": "Moussa Konaté",
+        "country": "Senegal",
+        "team": "Amiens SC",
+        "goals": "12",
+        "flag": "senegal",
+        "logo": "amiens_sc"
+    },
+    {
+        "rank": "-",
         "name": "Emiliano Sala",
         "country": "Argentina",
         "team": "FC Nantes",
@@ -126,7 +153,16 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "15.",
+        "rank": "18.",
+        "name": "Jimmy Briand",
+        "country": "France",
+        "team": "EA Guingamp",
+        "goals": "11",
+        "flag": "france",
+        "logo": "ea_guingamp"
+    },
+    {
+        "rank": "-",
         "name": "Ángel Di María",
         "country": "Argentina",
         "team": "Paris Saint-Germain",
@@ -142,41 +178,5 @@
         "goals": "11",
         "flag": "cape_verde",
         "logo": "dijon_fco"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolas Pépé",
-        "country": "Ivory Coast",
-        "team": "Lille OSC",
-        "goals": "11",
-        "flag": "ivory_coast",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Bertrand Traoré",
-        "country": "Burkina Faso",
-        "team": "Olympique Lyon",
-        "goals": "11",
-        "flag": "burkina_faso",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "19.",
-        "name": "Jimmy Briand",
-        "country": "France",
-        "team": "EA Guingamp",
-        "goals": "10",
-        "flag": "france",
-        "logo": "ea_guingamp"
-    },
-    {
-        "rank": "-",
-        "name": "Moussa Konaté",
-        "country": "Senegal",
-        "team": "Amiens SC",
-        "goals": "10",
-        "flag": "senegal",
-        "logo": "amiens_sc"
     }
 ]

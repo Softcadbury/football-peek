@@ -13,7 +13,7 @@
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "27",
+        "goals": "28",
         "flag": "argentina",
         "logo": "inter"
     },
@@ -22,7 +22,7 @@
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
-        "goals": "21",
+        "goals": "22",
         "flag": "argentina",
         "logo": "juventus"
     },
@@ -40,7 +40,7 @@
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
-        "goals": "17",
+        "goals": "18",
         "flag": "belgium",
         "logo": "ssc_napoli"
     },
@@ -81,7 +81,16 @@
         "logo": "udinese_calcio"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Sergej Milinković-Savić",
+        "country": "Serbia",
+        "team": "Lazio Roma",
+        "goals": "12",
+        "flag": "serbia",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "11.",
         "name": " Iago Falqué",
         "country": "Spain",
         "team": "Torino FC",
@@ -100,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Roberto Inglese",
+        "country": "Italy",
+        "team": "Chievo Verona",
+        "goals": "11",
+        "flag": "italy",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
@@ -109,12 +127,12 @@
     },
     {
         "rank": "-",
-        "name": "Sergej Milinković-Savić",
-        "country": "Serbia",
-        "team": "Lazio Roma",
+        "name": "Leonardo Pavoletti",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
         "goals": "11",
-        "flag": "serbia",
-        "logo": "lazio_roma"
+        "flag": "italy",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -135,48 +153,30 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "16.",
-        "name": "Roberto Inglese",
-        "country": "Italy",
-        "team": "Chievo Verona",
-        "goals": "10",
-        "flag": "italy",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Leonardo Pavoletti",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "goals": "10",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
-    },
-    {
         "rank": "18.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
-        "goals": "9",
+        "goals": "10",
         "flag": "italy",
         "logo": "torino_fc"
     },
     {
         "rank": "-",
-        "name": "Bryan Cristante",
+        "name": "Matteo Politano",
         "country": "Italy",
-        "team": "Atalanta",
-        "goals": "9",
+        "team": "Sassuolo Calcio",
+        "goals": "10",
         "flag": "italy",
-        "logo": "atalanta"
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "ssc_napoli"
+        "name": "Simone Verdi",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "goals": "10",
+        "flag": "italy",
+        "logo": "bologna_fc"
     }
 ]

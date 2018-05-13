@@ -4,7 +4,7 @@
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "31",
+        "goals": "32",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -13,7 +13,7 @@
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "27",
+        "goals": "30",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
@@ -28,21 +28,21 @@
     },
     {
         "rank": "4.",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "20",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "5.",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
         "goals": "18",
         "flag": "england",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "5.",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "17",
-        "flag": "england",
-        "logo": "leicester_city"
     },
     {
         "rank": "6.",
@@ -67,7 +67,7 @@
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Arsenal FC",
-        "goals": "13",
+        "goals": "14",
         "flag": "france",
         "logo": "arsenal_fc"
     },
@@ -76,18 +76,27 @@
         "name": " Gabriel Jesus",
         "country": "Brazil",
         "team": "Manchester City",
-        "goals": "12",
+        "goals": "13",
         "flag": "brazil",
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
+        "rank": "10.",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
         "goals": "12",
         "flag": "belgium",
         "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Leicester City",
+        "goals": "12",
+        "flag": "algeria",
+        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -108,7 +117,16 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
+        "name": "Marko Arnautović",
+        "country": "Austria",
+        "team": "West Ham United",
+        "goals": "11",
+        "flag": "austria",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
         "name": " Morata",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -117,13 +135,13 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "14.",
-        "name": "Marko Arnautović",
-        "country": "Austria",
-        "team": "West Ham United",
+        "rank": "16.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Arsenal FC",
         "goals": "10",
-        "flag": "austria",
-        "logo": "west_ham_united"
+        "flag": "gabon",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -133,15 +151,6 @@
         "goals": "10",
         "flag": "denmark",
         "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Leicester City",
-        "goals": "10",
-        "flag": "algeria",
-        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "10",
         "flag": "england",
         "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
-        "goals": "10",
-        "flag": "germany",
-        "logo": "manchester_city"
     }
 ]

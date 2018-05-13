@@ -31,7 +31,7 @@ for (var i = 0; i < allTime.length; i++) {
     var hour = time.split(':')[0];
     var minute = time.split(':')[1];
     var offset = new Date().getTimezoneOffset() / 60;
-    var newTime = (hour - offset - 1) + ':' + minute;
+    var newTime = ((hour - offset - 1) % 24) + ':' + minute;
 
     allTime[i].innerHTML = newTime;
 }

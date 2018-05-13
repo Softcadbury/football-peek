@@ -4,12 +4,21 @@
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
-        "assists": "14",
+        "assists": "15",
         "flag": "spain",
         "logo": "lazio_roma"
     },
     {
         "rank": "2.",
+        "name": " Douglas Costa",
+        "country": "Brazil",
+        "team": "Juventus",
+        "assists": "13",
+        "flag": "brazil",
+        "logo": "juventus"
+    },
+    {
+        "rank": "3.",
         "name": "Papu Gómez",
         "country": "Argentina",
         "team": "Atalanta",
@@ -27,31 +36,31 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "4.",
-        "name": " Douglas Costa",
-        "country": "Brazil",
-        "team": "Juventus",
-        "assists": "11",
-        "flag": "brazil",
-        "logo": "juventus"
-    },
-    {
         "rank": "5.",
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
-        "assists": "10",
+        "assists": "11",
         "flag": "spain",
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
+        "rank": "6.",
         "name": "Aleksandar Kolarov",
         "country": "Serbia",
         "team": "AS Roma",
         "assists": "10",
         "flag": "serbia",
         "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Adem Ljajić",
+        "country": "Serbia",
+        "team": "Torino FC",
+        "assists": "10",
+        "flag": "serbia",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -63,7 +72,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -79,6 +88,15 @@
         "assists": "9",
         "flag": "belgium",
         "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
+        "assists": "9",
+        "flag": "croatia",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -99,7 +117,25 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "12.",
+        "rank": "14.",
+        "name": "Mirco Antenucci",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "-",
+        "name": "Marcelo Brozović",
+        "country": "Croatia",
+        "team": "Inter",
+        "assists": "8",
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
@@ -118,24 +154,15 @@
     },
     {
         "rank": "-",
-        "name": "Adem Ljajić",
-        "country": "Serbia",
-        "team": "Torino FC",
+        "name": "Josip Iličič",
+        "country": "Slovenia",
+        "team": "Atalanta",
         "assists": "8",
-        "flag": "serbia",
-        "logo": "torino_fc"
+        "flag": "slovenia",
+        "logo": "atalanta"
     },
     {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Inter",
-        "assists": "8",
-        "flag": "croatia",
-        "logo": "inter"
-    },
-    {
-        "rank": "16.",
+        "rank": "19.",
         "name": "Valter Birsa",
         "country": "Slovenia",
         "team": "Chievo Verona",
@@ -151,32 +178,5 @@
         "assists": "7",
         "flag": "italy",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Rodrigo de Paul",
-        "country": "Argentina",
-        "team": "Udinese Calcio",
-        "assists": "7",
-        "flag": "argentina",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Felipe Anderson",
-        "country": "Brazil",
-        "team": "Lazio Roma",
-        "assists": "7",
-        "flag": "brazil",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Gonzalo Higuaín",
-        "country": "Argentina",
-        "team": "Juventus",
-        "assists": "7",
-        "flag": "argentina",
-        "logo": "juventus"
     }
 ]
