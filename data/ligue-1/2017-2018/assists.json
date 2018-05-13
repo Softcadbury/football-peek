@@ -22,7 +22,7 @@
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "Olympique Lyon",
-        "assists": "12",
+        "assists": "13",
         "flag": "netherlands",
         "logo": "olympique_lyon"
     },
@@ -36,31 +36,31 @@
         "logo": "fc_metz"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": "Florian Thauvin",
         "country": "France",
         "team": "Olympique Marseille",
-        "assists": "10",
+        "assists": "11",
         "flag": "france",
         "logo": "olympique_marseille"
     },
     {
         "rank": "6.",
+        "name": "Thomas Lemar",
+        "country": "France",
+        "team": "AS Monaco",
+        "assists": "10",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "7.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "AS Saint-Étienne",
         "assists": "9",
         "flag": "france",
         "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Lemar",
-        "country": "France",
-        "team": "AS Monaco",
-        "assists": "9",
-        "flag": "france",
-        "logo": "as_monaco"
     },
     {
         "rank": "8.",
@@ -70,6 +70,15 @@
         "assists": "8",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "assists": "8",
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -90,7 +99,16 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Jean Michaël Seri",
+        "country": "Ivory Coast",
+        "team": "OGC Nice",
+        "assists": "8",
+        "flag": "ivory_coast",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "13.",
         "name": "Benjamin Bourigeaud",
         "country": "France",
         "team": "Stade Rennes",
@@ -118,15 +136,6 @@
     },
     {
         "rank": "-",
-        "name": "Nabil Fekir",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "assists": "7",
-        "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
         "name": "Pierre Lees-Melou",
         "country": "France",
         "team": "OGC Nice",
@@ -145,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Kévin Malcuit",
+        "country": "France",
+        "team": "Lille OSC",
+        "assists": "7",
+        "flag": "france",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
         "name": "Tanguy NDombèlé",
         "country": "France",
         "team": "Olympique Lyon",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Jean Michaël Seri",
-        "country": "Ivory Coast",
-        "team": "OGC Nice",
-        "assists": "7",
-        "flag": "ivory_coast",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
         "name": "Naïm Sliti",
         "country": "Tunisia",
         "team": "Dijon FCO",
         "assists": "7",
         "flag": "tunisia",
         "logo": "dijon_fco"
-    },
-    {
-        "rank": "20.",
-        "name": "Rémy Cabella",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "assists": "6",
-        "flag": "france",
-        "logo": "olympique_marseille"
     }
 ]

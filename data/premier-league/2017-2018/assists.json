@@ -4,7 +4,7 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "15",
+        "assists": "16",
         "flag": "belgium",
         "logo": "manchester_city"
     },
@@ -13,7 +13,7 @@
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Manchester City",
-        "assists": "14",
+        "assists": "15",
         "flag": "germany",
         "logo": "manchester_city"
     },
@@ -46,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Leicester City",
+        "assists": "10",
+        "flag": "algeria",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
         "name": "Paul Pogba",
         "country": "France",
         "team": "Manchester United",
@@ -54,7 +63,16 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "assists": "10",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "9.",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
@@ -72,16 +90,7 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "assists": "9",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Pascal Groß",
         "country": "Germany",
         "team": "Brighton & Hove Albion",
@@ -100,15 +109,6 @@
     },
     {
         "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Leicester City",
-        "assists": "8",
-        "flag": "algeria",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
         "name": "Mesut Özil",
         "country": "Germany",
         "team": "Arsenal FC",
@@ -117,7 +117,16 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Aaron Ramsey",
+        "country": "Wales",
+        "team": "Arsenal FC",
+        "assists": "8",
+        "flag": "wales",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "15.",
         "name": "Marc Albrighton",
         "country": "England",
         "team": "Leicester City",
@@ -169,14 +178,5 @@
         "assists": "7",
         "flag": "england",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Aaron Ramsey",
-        "country": "Wales",
-        "team": "Arsenal FC",
-        "assists": "7",
-        "flag": "wales",
-        "logo": "arsenal_fc"
     }
 ]

@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Niclas Füllkrug",
+        "country": "Germany",
+        "team": "Hannover 96",
+        "goals": "14",
+        "flag": "germany",
+        "logo": "hannover_96"
+    },
+    {
+        "rank": "-",
         "name": "Mark Uth",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -36,22 +45,13 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Borussia Dortmund",
         "goals": "13",
         "flag": "gabon",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Niclas Füllkrug",
-        "country": "Germany",
-        "team": "Hannover 96",
-        "goals": "13",
-        "flag": "germany",
-        "logo": "hannover_96"
     },
     {
         "rank": "-",
@@ -63,7 +63,25 @@
         "logo": "fc_augsburg"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "13",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "13",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "10.",
         "name": "Alfreð Finnbogason",
         "country": "Iceland",
         "team": "FC Augsburg",
@@ -73,12 +91,12 @@
     },
     {
         "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
+        "name": "Salomon Kalou",
+        "country": "Ivory Coast",
+        "team": "Hertha BSC",
         "goals": "12",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
+        "flag": "ivory_coast",
+        "logo": "hertha_bsc"
     },
     {
         "rank": "-",
@@ -90,34 +108,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "goals": "12",
-        "flag": "germany",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "12.",
-        "name": "Salomon Kalou",
-        "country": "Ivory Coast",
-        "team": "Hertha BSC",
-        "goals": "11",
-        "flag": "ivory_coast",
-        "logo": "hertha_bsc"
-    },
-    {
         "rank": "13.",
         "name": "Guido Burgstaller",
         "country": "Austria",
         "team": "FC Schalke 04",
-        "goals": "10",
+        "goals": "11",
         "flag": "austria",
         "logo": "fc_schalke_04"
     },
     {
-        "rank": "-",
+        "rank": "14.",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -145,6 +145,24 @@
     },
     {
         "rank": "17.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
+        "team": "Bayer Leverkusen",
+        "goals": "9",
+        "flag": "argentina",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Jean-Kévin Augustin",
+        "country": "France",
+        "team": "RB Leipzig",
+        "goals": "9",
+        "flag": "france",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Daniel Didavi",
+        "name": "Julian Brandt",
         "country": "Germany",
-        "team": "VfL Wolfsburg",
+        "team": "Bayer Leverkusen",
         "goals": "9",
         "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Gomez",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "9",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Sébastien Haller",
-        "country": "France",
-        "team": "Eintracht Frankfurt",
-        "goals": "9",
-        "flag": "france",
-        "logo": "eintracht_frankfurt"
+        "logo": "bayer_leverkusen"
     }
 ]

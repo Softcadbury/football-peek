@@ -46,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Daniel Caligiuri",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "9",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
         "name": "Kai Havertz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -54,16 +63,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "7.",
-        "name": "Daniel Caligiuri",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "assists": "8",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Mark Uth",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -100,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "assists": "7",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Max Kruse",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -108,13 +117,40 @@
         "logo": "werder_bremen"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "15.",
         "name": "Dennis Aogo",
         "country": "Germany",
         "team": "VfB Stuttgart",
         "assists": "6",
         "flag": "germany",
         "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "-",
+        "name": "Jean-Kévin Augustin",
+        "country": "France",
+        "team": "RB Leipzig",
+        "assists": "6",
+        "flag": "france",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Lars Bender",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Felix Klaus",
-        "country": "Germany",
-        "team": "Hannover 96",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Bor. Mönchengladbach",
         "assists": "6",
-        "flag": "germany",
-        "logo": "hannover_96"
-    },
-    {
-        "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "assists": "6",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Pulisic",
-        "country": "USA",
-        "team": "Borussia Dortmund",
-        "assists": "6",
-        "flag": "usa",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Arjen Robben",
-        "country": "Netherlands",
-        "team": "Bayern München",
-        "assists": "6",
-        "flag": "netherlands",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "assists": "6",
-        "flag": "austria",
-        "logo": "rb_leipzig"
+        "flag": "belgium",
+        "logo": "bor__monchengladbach"
     }
 ]

@@ -9,11 +9,11 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": " Pablo Fornals",
         "country": "Spain",
         "team": "Villarreal CF",
-        "assists": "10",
+        "assists": "12",
         "flag": "spain",
         "logo": "villarreal_cf"
     },
@@ -22,18 +22,36 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "assists": "9",
+        "assists": "10",
         "flag": "france",
         "logo": "real_madrid"
     },
     {
         "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "10",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "5.",
         "name": " Gonçalo Guedes",
         "country": "Portugal",
         "team": "Valencia CF",
         "assists": "9",
         "flag": "portugal",
         "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "9",
+        "flag": "france",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -45,25 +63,7 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "9",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "7.",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "8",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Andrés Guardado",
         "country": "Mexico",
         "team": "Real Betis",
@@ -109,12 +109,48 @@
     },
     {
         "rank": "-",
+        "name": " Isco",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Joaquín",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": "Toni Kroos",
+        "country": "Germany",
+        "team": "Real Madrid",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Lucas Vázquez",
         "country": "Spain",
         "team": "Real Madrid",
         "assists": "7",
         "flag": "spain",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Morales",
+        "country": "Spain",
+        "team": "Levante UD",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "levante_ud"
     },
     {
         "rank": "-",
@@ -135,48 +171,12 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "16.",
-        "name": " Barragán",
-        "country": "Spain",
-        "team": "Real Betis",
+        "rank": "20.",
+        "name": "Carlos Bacca",
+        "country": "Colombia",
+        "team": "Villarreal CF",
         "assists": "6",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "FC Barcelona",
-        "assists": "6",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Fabián Ruiz",
-        "country": "Spain",
-        "team": "Real Betis",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Ibai",
-        "country": "Spain",
-        "team": "CD Alavés",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "cd_alaves"
-    },
-    {
-        "rank": "-",
-        "name": " Isco",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "real_madrid"
+        "flag": "colombia",
+        "logo": "villarreal_cf"
     }
 ]
