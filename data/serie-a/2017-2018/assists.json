@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "11",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
@@ -45,7 +54,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Aleksandar Kolarov",
         "country": "Serbia",
         "team": "AS Roma",
@@ -72,13 +81,13 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "9.",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
+        "rank": "10.",
+        "name": "Marcelo Brozović",
+        "country": "Croatia",
+        "team": "Inter",
         "assists": "9",
-        "flag": "italy",
-        "logo": "ssc_napoli"
+        "flag": "croatia",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -117,7 +126,7 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Mirco Antenucci",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
@@ -127,12 +136,12 @@
     },
     {
         "rank": "-",
-        "name": "Marcelo Brozović",
-        "country": "Croatia",
-        "team": "Inter",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "AC Milan",
         "assists": "8",
-        "flag": "croatia",
-        "logo": "inter"
+        "flag": "turkey",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -142,6 +151,15 @@
         "assists": "8",
         "flag": "italy",
         "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "8",
         "flag": "slovenia",
         "logo": "atalanta"
-    },
-    {
-        "rank": "19.",
-        "name": "Valter Birsa",
-        "country": "Slovenia",
-        "team": "Chievo Verona",
-        "assists": "7",
-        "flag": "slovenia",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Federico Chiesa",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
     }
 ]

@@ -19,21 +19,21 @@
     },
     {
         "rank": "3.",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "11",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "4.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
         "assists": "10",
         "flag": "france",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "10",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
     },
     {
         "rank": "5.",
@@ -63,7 +63,16 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Daniel Wass",
+        "country": "Denmark",
+        "team": "Celta Vigo",
+        "assists": "9",
+        "flag": "denmark",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "9.",
         "name": "Andrés Guardado",
         "country": "Mexico",
         "team": "Real Betis",
@@ -91,15 +100,15 @@
     },
     {
         "rank": "-",
-        "name": "Daniel Wass",
-        "country": "Denmark",
-        "team": "Celta Vigo",
+        "name": " Morales",
+        "country": "Spain",
+        "team": "Levante UD",
         "assists": "8",
-        "flag": "denmark",
-        "logo": "celta_vigo"
+        "flag": "spain",
+        "logo": "levante_ud"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": " Álex Granell",
         "country": "Spain",
         "team": "Girona FC",
@@ -145,15 +154,6 @@
     },
     {
         "rank": "-",
-        "name": " Morales",
-        "country": "Spain",
-        "team": "Levante UD",
-        "assists": "7",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
         "name": " Parejo",
         "country": "Spain",
         "team": "Valencia CF",
@@ -172,11 +172,11 @@
     },
     {
         "rank": "20.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
+        "name": " Adrián",
+        "country": "Spain",
+        "team": "Deportivo La Coruña",
         "assists": "6",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
+        "flag": "spain",
+        "logo": "deportivo_la_coruna"
     }
 ]
