@@ -19,15 +19,24 @@
     },
     {
         "rank": "3.",
+        "name": "Memphis Depay",
+        "country": "Netherlands",
+        "team": "Olympique Lyon",
+        "goals": "19",
+        "flag": "netherlands",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
-        "goals": "20",
+        "goals": "19",
         "flag": "brazil",
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Mario Balotelli",
         "country": "Italy",
         "team": "OGC Nice",
@@ -63,7 +72,7 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Karl Toko Ekambi",
         "country": "Cameroon",
         "team": "Angers SCO",
@@ -72,16 +81,25 @@
         "logo": "angers_sco"
     },
     {
-        "rank": "9.",
-        "name": "Memphis Depay",
-        "country": "Netherlands",
-        "team": "Olympique Lyon",
+        "rank": "10.",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "OGC Nice",
         "goals": "16",
-        "flag": "netherlands",
-        "logo": "olympique_lyon"
+        "flag": "france",
+        "logo": "ogc_nice"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
+        "name": " Rony Lopes",
+        "country": "Portugal",
+        "team": "AS Monaco",
+        "goals": "15",
+        "flag": "portugal",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "Nolan Roux",
         "country": "France",
         "team": "FC Metz",
@@ -90,16 +108,16 @@
         "logo": "fc_metz"
     },
     {
-        "rank": "11.",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "14",
-        "flag": "france",
-        "logo": "ogc_nice"
+        "rank": "13.",
+        "name": "Moussa Konaté",
+        "country": "Senegal",
+        "team": "Amiens SC",
+        "goals": "13",
+        "flag": "senegal",
+        "logo": "amiens_sc"
     },
     {
-        "rank": "12.",
+        "rank": "-",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -118,15 +136,6 @@
     },
     {
         "rank": "-",
-        "name": " Rony Lopes",
-        "country": "Portugal",
-        "team": "AS Monaco",
-        "goals": "13",
-        "flag": "portugal",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
         "name": "Bertrand Traoré",
         "country": "Burkina Faso",
         "team": "Olympique Lyon",
@@ -135,13 +144,22 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "16.",
-        "name": "Moussa Konaté",
-        "country": "Senegal",
-        "team": "Amiens SC",
+        "rank": "17.",
+        "name": " Júlio Tavares",
+        "country": "Cape Verde",
+        "team": "Dijon FCO",
         "goals": "12",
-        "flag": "senegal",
-        "logo": "amiens_sc"
+        "flag": "cape_verde",
+        "logo": "dijon_fco"
+    },
+    {
+        "rank": "-",
+        "name": " Malcom",
+        "country": "Brazil",
+        "team": "Girondins Bordeaux",
+        "goals": "12",
+        "flag": "brazil",
+        "logo": "girondins_bordeaux"
     },
     {
         "rank": "-",
@@ -153,30 +171,12 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "18.",
+        "rank": "20.",
         "name": "Jimmy Briand",
         "country": "France",
         "team": "EA Guingamp",
         "goals": "11",
         "flag": "france",
         "logo": "ea_guingamp"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
-        "goals": "11",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": " Júlio Tavares",
-        "country": "Cape Verde",
-        "team": "Dijon FCO",
-        "goals": "11",
-        "flag": "cape_verde",
-        "logo": "dijon_fco"
     }
 ]
