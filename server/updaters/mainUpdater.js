@@ -3,7 +3,7 @@
 var tablesUpdater = require('./tablesUpdater');
 var resultsUpdater = require('./resultsUpdater');
 var tournamentsUpdater = require('./tournamentsUpdater');
-// var groupsUpdater = require('./groupsUpdater');
+var groupsUpdater = require('./groupsUpdater');
 var scorersUpdater = require('./scorersUpdater');
 var assistsUpdater = require('./assistsUpdater');
 
@@ -22,7 +22,7 @@ function updateCompetition(competitionArg) {
     competitionArg = competitionArg || true;
 
     tournamentsUpdater.update(competitionArg);
-    // groupsUpdater.update(competitionArg); Disable groups update until next year
+    groupsUpdater.update(competitionArg);
     scorersUpdater.update(null, competitionArg);
     assistsUpdater.update(null, competitionArg);
 }
