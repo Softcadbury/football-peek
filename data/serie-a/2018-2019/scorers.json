@@ -1,6 +1,78 @@
 [
     {
         "rank": "1.",
+        "name": "Marco Benassi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Leonardo Pavoletti",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Emiliano Rigoni",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Piotr Zieliński",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "2",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "8.",
+        "name": "Mirco Antenucci",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "-",
         "name": "Antonino Barillà",
         "country": "Italy",
         "team": "Parma Calcio 1913",
@@ -10,12 +82,12 @@
     },
     {
         "rank": "-",
-        "name": "Domenico Berardi",
+        "name": "Andrea Belotti",
         "country": "Italy",
-        "team": "Sassuolo Calcio",
+        "team": "Torino FC",
         "goals": "1",
         "flag": "italy",
-        "logo": "sassuolo_calcio"
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -28,6 +100,33 @@
     },
     {
         "rank": "-",
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "Sassuolo Calcio",
+        "goals": "1",
+        "flag": "ghana",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Giacomo Bonaventura",
+        "country": "Italy",
+        "team": "AC Milan",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Davide Calabria",
+        "country": "Italy",
+        "team": "AC Milan",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Empoli FC",
@@ -37,12 +136,30 @@
     },
     {
         "rank": "-",
-        "name": "Rodrigo de Paul",
-        "country": "Argentina",
-        "team": "Udinese Calcio",
+        "name": "Timothy Castagne",
+        "country": "Belgium",
+        "team": "Atalanta",
         "goals": "1",
-        "flag": "argentina",
-        "logo": "udinese_calcio"
+        "flag": "belgium",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Stefan de Vrij",
+        "country": "Netherlands",
+        "team": "Inter",
+        "goals": "1",
+        "flag": "netherlands",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -55,92 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Seko Fofana",
-        "country": "France",
-        "team": "Udinese Calcio",
-        "goals": "1",
-        "flag": "france",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Emanuele Giaccherini",
+        "name": "Alessandro Florenzi",
         "country": "Italy",
-        "team": "Chievo Verona",
+        "team": "AS Roma",
         "goals": "1",
         "flag": "italy",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Roberto Inglese",
-        "country": "Italy",
-        "team": "Parma Calcio 1913",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Sami Khedira",
-        "country": "Germany",
-        "team": "Juventus",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Rade Krunić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Empoli FC",
-        "goals": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "empoli_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jasmin Kurtić",
-        "country": "Slovenia",
-        "team": "SPAL 2013 Ferrara",
-        "goals": "1",
-        "flag": "slovenia",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "goals": "1",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Mariusz Stępiński",
-        "country": "Poland",
-        "team": "Chievo Verona",
-        "goals": "1",
-        "flag": "poland",
-        "logo": "chievo_verona"
+        "logo": "as_roma"
     }
 ]

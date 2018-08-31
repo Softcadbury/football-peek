@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": " Allan",
+        "country": "Brazil",
+        "team": "SSC Napoli",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Criscito",
+        "country": "Italy",
+        "team": "Genoa CFC",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "-",
         "name": "Emanuele Giaccherini",
         "country": "Italy",
         "team": "Chievo Verona",
@@ -9,7 +27,25 @@
         "logo": "chievo_verona"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "6.",
         "name": "Francesco Acerbi",
         "country": "Italy",
         "team": "Lazio Roma",
@@ -28,12 +64,39 @@
     },
     {
         "rank": "-",
-        "name": " Allan",
-        "country": "Brazil",
-        "team": "SSC Napoli",
+        "name": "Cristiano Biraghi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
         "assists": "1",
-        "flag": "brazil",
-        "logo": "ssc_napoli"
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Valter Birsa",
+        "country": "Slovenia",
+        "team": "Chievo Verona",
+        "assists": "1",
+        "flag": "slovenia",
+        "logo": "chievo_verona"
+    },
+    {
+        "rank": "-",
+        "name": "Fabio Borini",
+        "country": "Italy",
+        "team": "AC Milan",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Filip Bradarić",
+        "country": "Croatia",
+        "team": "Cagliari Calcio",
+        "assists": "1",
+        "flag": "croatia",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -42,6 +105,15 @@
         "team": "Juventus",
         "assists": "1",
         "flag": "italy",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "assists": "1",
+        "flag": "portugal",
         "logo": "juventus"
     },
     {
@@ -64,6 +136,33 @@
     },
     {
         "rank": "-",
+        "name": "Giovanni Di Lorenzo",
+        "country": "Italy",
+        "team": "Empoli FC",
+        "assists": "1",
+        "flag": "italy",
+        "logo": "empoli_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "1",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Valentin Eysseric",
+        "country": "France",
+        "team": "ACF Fiorentina",
+        "assists": "1",
+        "flag": "france",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": " Felipe",
         "country": "Brazil",
         "team": "SPAL 2013 Ferrara",
@@ -73,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
+        "name": "Seko Fofana",
+        "country": "France",
+        "team": "Udinese Calcio",
         "assists": "1",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Justin Kluivert",
-        "country": "Netherlands",
-        "team": "AS Roma",
-        "assists": "1",
-        "flag": "netherlands",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Miha Zajc",
-        "country": "Slovenia",
-        "team": "Empoli FC",
-        "assists": "1",
-        "flag": "slovenia",
-        "logo": "empoli_fc"
+        "flag": "france",
+        "logo": "udinese_calcio"
     }
 ]
