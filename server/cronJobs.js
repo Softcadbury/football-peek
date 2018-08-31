@@ -20,16 +20,16 @@ var leagueCronJobTimes = [
     '00 50 23 * * *'
 ];
 
-// var competitionCronJobTimes = [
-//     '00 05 09 * * *',
-//     '00 05 19 * * tue,wed,thu',
-//     '00 05 21 * * tue,wed,thu',
-//     '00 35 22 * * tue,wed,thu',
-//     '00 55 22 * * tue,wed,thu',
-//     '00 15 23 * * *',
-//     '00 35 23 * * *',
-//     '00 55 23 * * *'
-// ];
+var competitionCronJobTimes = [
+    '00 05 09 * * *',
+    '00 05 19 * * tue,wed,thu',
+    '00 05 21 * * tue,wed,thu',
+    '00 35 22 * * tue,wed,thu',
+    '00 55 22 * * tue,wed,thu',
+    '00 15 23 * * *',
+    '00 35 23 * * *',
+    '00 55 23 * * *'
+];
 
 function setupCrons() {
     // Setup crons for leagues update
@@ -41,12 +41,12 @@ function setupCrons() {
     });
 
     // Setup crons for competitions update
-    // competitionCronJobTimes.forEach((time) => {
-    //     (new CronJob(time, () => {
-    //         helper.log('Run competition update');
-    //         mainUpdater.updateCompetition();
-    //     }, null, false, 'Europe/Paris')).start();
-    // });
+    competitionCronJobTimes.forEach((time) => {
+        (new CronJob(time, () => {
+            helper.log('Run competition update');
+            mainUpdater.updateCompetition();
+        }, null, false, 'Europe/Paris')).start();
+    });
 }
 
 module.exports = {
