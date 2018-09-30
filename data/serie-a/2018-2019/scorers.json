@@ -1,12 +1,138 @@
 [
     {
         "rank": "1.",
+        "name": "Krzysztof Piątek",
+        "country": "Poland",
+        "team": "Genoa CFC",
+        "goals": "6",
+        "flag": "poland",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "2.",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "3.",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sampdoria",
+        "goals": "4",
+        "flag": "france",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Mandžukić",
+        "country": "Croatia",
+        "team": "Juventus",
+        "goals": "4",
+        "flag": "croatia",
+        "logo": "juventus"
+    },
+    {
+        "rank": "7.",
         "name": "Marco Benassi",
         "country": "Italy",
         "team": "ACF Fiorentina",
-        "goals": "2",
+        "goals": "3",
         "flag": "italy",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "Sassuolo Calcio",
+        "goals": "3",
+        "flag": "ghana",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Francesco Caputo",
+        "country": "Italy",
+        "team": "Empoli FC",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "empoli_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "goals": "3",
+        "flag": "portugal",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Arkadiusz Milik",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "3",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Emiliano Rigoni",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "14.",
+        "name": "Khouma Babacar",
+        "country": "Senegal",
+        "team": "Sassuolo Calcio",
+        "goals": "2",
+        "flag": "senegal",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
@@ -19,164 +145,38 @@
     },
     {
         "rank": "-",
-        "name": "Rodrigo de Paul",
-        "country": "Argentina",
-        "team": "Udinese Calcio",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Papu Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Leonardo Pavoletti",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Emiliano Rigoni",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Piotr Zieliński",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "goals": "2",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "8.",
-        "name": "Mirco Antenucci",
-        "country": "Italy",
-        "team": "SPAL 2013 Ferrara",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "-",
-        "name": "Antonino Barillà",
-        "country": "Italy",
-        "team": "Parma Calcio 1913",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": "Andrea Belotti",
-        "country": "Italy",
-        "team": "Torino FC",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
         "name": "Federico Bernardeschi",
         "country": "Italy",
         "team": "Juventus",
-        "goals": "1",
+        "goals": "2",
         "flag": "italy",
         "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin-Prince Boateng",
-        "country": "Ghana",
-        "team": "Sassuolo Calcio",
-        "goals": "1",
-        "flag": "ghana",
-        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
         "name": "Giacomo Bonaventura",
         "country": "Italy",
         "team": "AC Milan",
-        "goals": "1",
+        "goals": "2",
         "flag": "italy",
         "logo": "ac_milan"
     },
     {
         "rank": "-",
-        "name": "Davide Calabria",
+        "name": "Gianluca Caprari",
         "country": "Italy",
-        "team": "AC Milan",
-        "goals": "1",
+        "team": "Sampdoria",
+        "goals": "2",
         "flag": "italy",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Francesco Caputo",
-        "country": "Italy",
-        "team": "Empoli FC",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "empoli_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Timothy Castagne",
-        "country": "Belgium",
-        "team": "Atalanta",
-        "goals": "1",
-        "flag": "belgium",
-        "logo": "atalanta"
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
         "name": "Federico Chiesa",
         "country": "Italy",
         "team": "ACF Fiorentina",
-        "goals": "1",
+        "goals": "2",
         "flag": "italy",
         "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Stefan de Vrij",
-        "country": "Netherlands",
-        "team": "Inter",
-        "goals": "1",
-        "flag": "netherlands",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Alessandro Florenzi",
-        "country": "Italy",
-        "team": "AS Roma",
-        "goals": "1",
-        "flag": "italy",
-        "logo": "as_roma"
     }
 ]

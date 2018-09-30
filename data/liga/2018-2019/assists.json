@@ -1,64 +1,28 @@
 [
     {
         "rank": "1.",
-        "name": " Williams",
+        "name": " Jony",
         "country": "Spain",
-        "team": "Athletic Bilbao",
-        "assists": "2",
+        "team": "CD Alavés",
+        "assists": "4",
         "flag": "spain",
-        "logo": "athletic_bilbao"
+        "logo": "cd_alaves"
     },
     {
-        "rank": "2.",
-        "name": " Arthur",
-        "country": "Brazil",
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
         "team": "FC Barcelona",
-        "assists": "1",
-        "flag": "brazil",
+        "assists": "4",
+        "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "assists": "1",
-        "flag": "wales",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Santiago Cáseres",
-        "country": "Argentina",
-        "team": "Villarreal CF",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Raphael Dwamena",
-        "country": "Ghana",
-        "team": "Levante UD",
-        "assists": "1",
-        "flag": "ghana",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": " Escudero",
-        "country": "Spain",
-        "team": "Sevilla FC",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "3.",
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Celta Vigo",
-        "assists": "1",
+        "assists": "3",
         "flag": "uruguay",
         "logo": "celta_vigo"
     },
@@ -67,70 +31,61 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "assists": "1",
+        "assists": "3",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Gumbau",
-        "country": "Spain",
-        "team": "CD Leganés",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "cd_leganes"
-    },
-    {
-        "rank": "-",
-        "name": " Isco",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Jason",
-        "country": "Spain",
-        "team": "Levante UD",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "levante_ud"
     },
     {
         "rank": "-",
         "name": " Jesús Navas",
         "country": "Spain",
         "team": "Sevilla FC",
-        "assists": "1",
+        "assists": "3",
         "flag": "spain",
         "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Pablo Sarabia",
+        "country": "Spain",
+        "team": "Sevilla FC",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "7.",
+        "name": " Aday",
+        "country": "Spain",
+        "team": "Girona FC",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "girona_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "wales",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
         "name": " Joseba Zaldúa",
         "country": "Spain",
         "team": "Real Sociedad",
-        "assists": "1",
+        "assists": "2",
         "flag": "spain",
         "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Leo Baptistão",
-        "country": "Brazil",
-        "team": "Espanyol Barcelona",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
         "name": "Samuele Longo",
         "country": "Italy",
         "team": "SD Huesca",
-        "assists": "1",
+        "assists": "2",
         "flag": "italy",
         "logo": "sd_huesca"
     },
@@ -139,44 +94,89 @@
         "name": " Mata",
         "country": "Spain",
         "team": "Getafe CF",
-        "assists": "1",
+        "assists": "2",
         "flag": "spain",
         "logo": "getafe_cf"
     },
     {
         "rank": "-",
-        "name": " Melero",
+        "name": " Nacho",
         "country": "Spain",
-        "team": "SD Huesca",
-        "assists": "1",
+        "team": "Real Valladolid",
+        "assists": "2",
         "flag": "spain",
-        "logo": "sd_huesca"
-    },
-    {
-        "rank": "-",
-        "name": "Gabriel Mercado",
-        "country": "Argentina",
-        "team": "Sevilla FC",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Pulido",
-        "country": "Spain",
-        "team": "SD Huesca",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "sd_huesca"
+        "logo": "real_valladolid"
     },
     {
         "rank": "-",
         "name": " Raúl García",
         "country": "Spain",
         "team": "Athletic Bilbao",
-        "assists": "1",
+        "assists": "2",
         "flag": "spain",
         "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "2",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Susaeta",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Óscar Trejo",
+        "country": "Argentina",
+        "team": "Rayo Vallecano",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "rayo_vallecano"
+    },
+    {
+        "rank": "-",
+        "name": "Franco Vázquez",
+        "country": "Italy",
+        "team": "Sevilla FC",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Williams",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "19.",
+        "name": " Álex Granell",
+        "country": "Spain",
+        "team": "Girona FC",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "girona_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Antonio Luna",
+        "country": "Spain",
+        "team": "Levante UD",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "levante_ud"
     }
 ]

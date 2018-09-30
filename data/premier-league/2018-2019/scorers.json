@@ -1,12 +1,111 @@
 [
     {
         "rank": "1.",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "goals": "6",
+        "flag": "belgium",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "2.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
-        "goals": "3",
+        "goals": "5",
         "flag": "argentina",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "5",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Aleksandar Mitrović",
+        "country": "Serbia",
+        "team": "Fulham FC",
+        "goals": "5",
+        "flag": "serbia",
+        "logo": "fulham_fc"
+    },
+    {
+        "rank": "5.",
+        "name": "Marko Arnautović",
+        "country": "Austria",
+        "team": "West Ham United",
+        "goals": "4",
+        "flag": "austria",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Manchester United",
+        "goals": "4",
+        "flag": "belgium",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "4",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Glenn Murray",
+        "country": "England",
+        "team": "Brighton & Hove Albion",
+        "goals": "4",
+        "flag": "england",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "4",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "10.",
+        "name": "Ryan Fraser",
+        "country": "Scotland",
+        "team": "AFC Bournemouth",
+        "goals": "3",
+        "flag": "scotland",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "-",
+        "name": "Andre Gray",
+        "country": "England",
+        "team": "Watford FC",
+        "goals": "3",
+        "flag": "england",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Danny Ings",
+        "country": "England",
+        "team": "Southampton FC",
+        "goals": "3",
+        "flag": "england",
+        "logo": "southampton_fc"
     },
     {
         "rank": "-",
@@ -19,21 +118,21 @@
     },
     {
         "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
+        "name": "James Maddison",
+        "country": "England",
+        "team": "Leicester City",
         "goals": "3",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
+        "flag": "england",
+        "logo": "leicester_city"
     },
     {
         "rank": "-",
-        "name": "Aleksandar Mitrović",
-        "country": "Serbia",
-        "team": "Fulham FC",
+        "name": " Pedro",
+        "country": "Spain",
+        "team": "Chelsea FC",
         "goals": "3",
-        "flag": "serbia",
-        "logo": "fulham_fc"
+        "flag": "spain",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
@@ -54,129 +153,30 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "7.",
-        "name": "Marko Arnautović",
-        "country": "Austria",
-        "team": "West Ham United",
-        "goals": "2",
-        "flag": "austria",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": " Joselu",
-        "country": "Spain",
-        "team": "Newcastle United",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "newcastle_united"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": " Pedro",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Paul Pogba",
-        "country": "France",
-        "team": "Manchester United",
-        "goals": "2",
-        "flag": "france",
-        "logo": "manchester_united"
-    },
-    {
         "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "2",
+        "goals": "3",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
     {
         "rank": "-",
-        "name": "James Tarkowski",
-        "country": "England",
-        "team": "Burnley FC",
-        "goals": "2",
-        "flag": "england",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Theo Walcott",
-        "country": "England",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
         "team": "Everton FC",
-        "goals": "2",
-        "flag": "england",
+        "goals": "3",
+        "flag": "iceland",
         "logo": "everton_fc"
     },
     {
         "rank": "-",
-        "name": "Callum Wilson",
+        "name": "Jamie Vardy",
         "country": "England",
-        "team": "AFC Bournemouth",
-        "goals": "2",
+        "team": "Leicester City",
+        "goals": "3",
         "flag": "england",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Wilfried Zaha",
-        "country": "Ivory Coast",
-        "team": "Crystal Palace",
-        "goals": "2",
-        "flag": "ivory_coast",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "17.",
-        "name": "Nathan Aké",
-        "country": "Netherlands",
-        "team": "AFC Bournemouth",
-        "goals": "1",
-        "flag": "netherlands",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Dele Alli",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "1",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": " Bernardo Silva",
-        "country": "Portugal",
-        "team": "Manchester City",
-        "goals": "1",
-        "flag": "portugal",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Ryan Bertrand",
-        "country": "England",
-        "team": "Southampton FC",
-        "goals": "1",
-        "flag": "england",
-        "logo": "southampton_fc"
+        "logo": "leicester_city"
     }
 ]

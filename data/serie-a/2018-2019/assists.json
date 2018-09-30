@@ -1,6 +1,42 @@
 [
     {
         "rank": "1.",
+        "name": "Domenico Criscito",
+        "country": "Italy",
+        "team": "Genoa CFC",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": " Suso",
+        "country": "Spain",
+        "team": "AC Milan",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "5.",
         "name": " Allan",
         "country": "Brazil",
         "team": "SSC Napoli",
@@ -10,21 +46,48 @@
     },
     {
         "rank": "-",
-        "name": "Domenico Criscito",
+        "name": "Edgar Barreto",
+        "country": "Paraguay",
+        "team": "Sampdoria",
+        "assists": "2",
+        "flag": "paraguay",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
+        "name": "Cristiano Biraghi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Di Francesco",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "2",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Andrea Favilli",
         "country": "Italy",
         "team": "Genoa CFC",
         "assists": "2",
         "flag": "italy",
         "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Emanuele Giaccherini",
-        "country": "Italy",
-        "team": "Chievo Verona",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "chievo_verona"
     },
     {
         "rank": "-",
@@ -37,15 +100,60 @@
     },
     {
         "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
         "assists": "2",
-        "flag": "spain",
-        "logo": "ssc_napoli"
+        "flag": "argentina",
+        "logo": "inter"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Matteo Politano",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
+        "name": "Roberto Soriano",
+        "country": "Italy",
+        "team": "Torino FC",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Cengiz Ünder",
+        "country": "Turkey",
+        "team": "AS Roma",
+        "assists": "2",
+        "flag": "turkey",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "assists": "2",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "18.",
         "name": "Francesco Acerbi",
         "country": "Italy",
         "team": "Lazio Roma",
@@ -64,119 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Cristiano Biraghi",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
+        "name": "Joachim Andersen",
+        "country": "Denmark",
+        "team": "Sampdoria",
         "assists": "1",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Valter Birsa",
-        "country": "Slovenia",
-        "team": "Chievo Verona",
-        "assists": "1",
-        "flag": "slovenia",
-        "logo": "chievo_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Fabio Borini",
-        "country": "Italy",
-        "team": "AC Milan",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Filip Bradarić",
-        "country": "Croatia",
-        "team": "Cagliari Calcio",
-        "assists": "1",
-        "flag": "croatia",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Giorgio Chiellini",
-        "country": "Italy",
-        "team": "Juventus",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Juventus",
-        "assists": "1",
-        "flag": "portugal",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Federico Di Francesco",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Di Gaudio",
-        "country": "Italy",
-        "team": "Parma Calcio 1913",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Di Lorenzo",
-        "country": "Italy",
-        "team": "Empoli FC",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "empoli_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "assists": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Valentin Eysseric",
-        "country": "France",
-        "team": "ACF Fiorentina",
-        "assists": "1",
-        "flag": "france",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": " Felipe",
-        "country": "Brazil",
-        "team": "SPAL 2013 Ferrara",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "-",
-        "name": "Seko Fofana",
-        "country": "France",
-        "team": "Udinese Calcio",
-        "assists": "1",
-        "flag": "france",
-        "logo": "udinese_calcio"
+        "flag": "denmark",
+        "logo": "sampdoria"
     }
 ]
