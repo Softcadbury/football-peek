@@ -1,12 +1,66 @@
 [
     {
         "rank": "1.",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "AC Milan",
+        "assists": "2",
+        "flag": "turkey",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": " Candeias",
+        "country": "Portugal",
+        "team": "Rangers FC",
+        "assists": "2",
+        "flag": "portugal",
+        "logo": "rangers_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Dani Olmo",
+        "country": "Spain",
+        "team": "Dinamo Zagreb",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": "Jonathan de Guzmán",
+        "country": "Netherlands",
+        "team": "Eintracht Frankfurt",
+        "assists": "2",
+        "flag": "netherlands",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Mario Gavranović",
         "country": "Switzerland",
         "team": "Dinamo Zagreb",
         "assists": "2",
         "flag": "switzerland",
         "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": "Alex Iwobi",
+        "country": "Nigeria",
+        "team": "Arsenal FC",
+        "assists": "2",
+        "flag": "nigeria",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Leo Jabá",
+        "country": "Brazil",
+        "team": "PAOK Saloniki",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "paok_saloniki"
     },
     {
         "rank": "-",
@@ -18,13 +72,58 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Fotis Papoulis",
+        "country": "Greece",
+        "team": "Apollon Limassol",
+        "assists": "2",
+        "flag": "greece",
+        "logo": "apollon_limassol"
+    },
+    {
+        "rank": "-",
+        "name": "Andreas Ulmer",
+        "country": "Austria",
+        "team": "RB Salzburg",
+        "assists": "2",
+        "flag": "austria",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Hannes Wolf",
+        "country": "Austria",
+        "team": "RB Salzburg",
+        "assists": "2",
+        "flag": "austria",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "13.",
         "name": "Benjamin André",
         "country": "France",
         "team": "Stade Rennes",
         "assists": "1",
         "flag": "france",
         "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
+        "name": "André Ayew",
+        "country": "Ghana",
+        "team": "Fenerbahçe",
+        "assists": "1",
+        "flag": "ghana",
+        "logo": "fenerbahce"
     },
     {
         "rank": "-",
@@ -55,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Karim Bellarabi",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "1",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Dedryck Boyata",
         "country": "Belgium",
         "team": "Celtic FC",
@@ -64,119 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Vitaliy Buyalskiy",
-        "country": "Ukraine",
-        "team": "Dinamo Kiev",
-        "assists": "1",
-        "flag": "ukraine",
-        "logo": "dinamo_kiev"
-    },
-    {
-        "rank": "-",
-        "name": "Felipe Caicedo",
-        "country": "Ecuador",
-        "team": "Lazio Roma",
-        "assists": "1",
-        "flag": "ecuador",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Candeias",
+        "name": " Bruma",
         "country": "Portugal",
-        "team": "Rangers FC",
+        "team": "RB Leipzig",
         "assists": "1",
         "flag": "portugal",
-        "logo": "rangers_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Olmo",
-        "country": "Spain",
-        "team": "Dinamo Zagreb",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "dinamo_zagreb"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan de Guzmán",
-        "country": "Netherlands",
-        "team": "Eintracht Frankfurt",
-        "assists": "1",
-        "flag": "netherlands",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Sebastián Driussi",
-        "country": "Argentina",
-        "team": "Zenit St. Petersburg",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "zenit_st__petersburg"
-    },
-    {
-        "rank": "-",
-        "name": "Simon Falette",
-        "country": "French Guyana",
-        "team": "Eintracht Frankfurt",
-        "assists": "1",
-        "flag": "french_guyana",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Viktor Fischer",
-        "country": "Denmark",
-        "team": "FC København",
-        "assists": "1",
-        "flag": "denmark",
-        "logo": "fc_k_benhavn"
-    },
-    {
-        "rank": "-",
-        "name": "Erik Grendel",
-        "country": "Slovakia",
-        "team": "Spartak Trnava",
-        "assists": "1",
-        "flag": "slovakia",
-        "logo": "spartak_trnava"
-    },
-    {
-        "rank": "-",
-        "name": " Guilherme Arana",
-        "country": "Brazil",
-        "team": "Sevilla FC",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Josef Hušbauer",
-        "country": "Czech Republic",
-        "team": "Slavia Praha",
-        "assists": "1",
-        "flag": "czech_republic",
-        "logo": "slavia_praha"
-    },
-    {
-        "rank": "-",
-        "name": "Alex Iwobi",
-        "country": "Nigeria",
-        "team": "Arsenal FC",
-        "assists": "1",
-        "flag": "nigeria",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Jesús Navas",
-        "country": "Spain",
-        "team": "Sevilla FC",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "sevilla_fc"
+        "logo": "rb_leipzig"
     }
 ]

@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Cristhian Stuani",
+        "country": "Uruguay",
+        "team": "Girona FC",
+        "goals": "8",
+        "flag": "uruguay",
+        "logo": "girona_fc"
+    },
+    {
+        "rank": "2.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "Sevilla FC",
@@ -9,7 +18,25 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "4.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "goals": "5",
+        "flag": "france",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -18,40 +45,22 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "5",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Cristhian Stuani",
-        "country": "Uruguay",
-        "team": "Girona FC",
-        "goals": "5",
-        "flag": "uruguay",
-        "logo": "girona_fc"
-    },
-    {
-        "rank": "5.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
-        "goals": "4",
-        "flag": "france",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "6.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
         "goals": "4",
         "flag": "france",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Maximiliano Gómez",
+        "country": "Uruguay",
+        "team": "Celta Vigo",
+        "goals": "4",
+        "flag": "uruguay",
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
@@ -63,7 +72,7 @@
         "logo": "levante_ud"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": " Álex Gallar",
         "country": "Spain",
         "team": "SD Huesca",
@@ -109,15 +118,6 @@
     },
     {
         "rank": "-",
-        "name": "Maximiliano Gómez",
-        "country": "Uruguay",
-        "team": "Celta Vigo",
-        "goals": "3",
-        "flag": "uruguay",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
         "name": " Ibai",
         "country": "Spain",
         "team": "CD Alavés",
@@ -133,6 +133,15 @@
         "goals": "3",
         "flag": "spain",
         "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
+        "name": " Muniain",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "-",
@@ -153,7 +162,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "18.",
+        "rank": "19.",
         "name": "Éver Banega",
         "country": "Argentina",
         "team": "Sevilla FC",
@@ -169,14 +178,5 @@
         "goals": "2",
         "flag": "spain",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan Calleri",
-        "country": "Argentina",
-        "team": "CD Alavés",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "cd_alaves"
     }
 ]

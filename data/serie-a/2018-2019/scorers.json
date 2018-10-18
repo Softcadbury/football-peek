@@ -4,7 +4,7 @@
         "name": "Krzysztof Piątek",
         "country": "Poland",
         "team": "Genoa CFC",
-        "goals": "6",
+        "goals": "9",
         "flag": "poland",
         "logo": "genoa_cfc"
     },
@@ -13,12 +13,39 @@
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
-        "goals": "5",
+        "goals": "6",
         "flag": "italy",
         "logo": "ssc_napoli"
     },
     {
         "rank": "3.",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sampdoria",
+        "goals": "5",
+        "flag": "france",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "5.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "goals": "4",
+        "flag": "portugal",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Rodrigo de Paul",
         "country": "Argentina",
         "team": "Udinese Calcio",
@@ -28,21 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sampdoria",
+        "name": "Gonzalo Higuaín",
+        "country": "Argentina",
+        "team": "AC Milan",
         "goals": "4",
-        "flag": "france",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "lazio_roma"
+        "flag": "argentina",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -54,7 +72,7 @@
         "logo": "juventus"
     },
     {
-        "rank": "7.",
+        "rank": "9.",
         "name": "Marco Benassi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -73,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": "Giacomo Bonaventura",
+        "country": "Italy",
+        "team": "AC Milan",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Empoli FC",
@@ -82,12 +109,12 @@
     },
     {
         "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Juventus",
+        "name": " Gervinho",
+        "country": "Ivory Coast",
+        "team": "Parma Calcio 1913",
         "goals": "3",
-        "flag": "portugal",
-        "logo": "juventus"
+        "flag": "ivory_coast",
+        "logo": "parma_calcio_1913"
     },
     {
         "rank": "-",
@@ -100,12 +127,30 @@
     },
     {
         "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Arkadiusz Milik",
         "country": "Poland",
         "team": "SSC Napoli",
         "goals": "3",
         "flag": "poland",
         "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Leonardo Pavoletti",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -117,7 +162,7 @@
         "logo": "atalanta"
     },
     {
-        "rank": "14.",
+        "rank": "19.",
         "name": "Khouma Babacar",
         "country": "Senegal",
         "team": "Sassuolo Calcio",
@@ -133,50 +178,5 @@
         "goals": "2",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Federico Bernardeschi",
-        "country": "Italy",
-        "team": "Juventus",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Giacomo Bonaventura",
-        "country": "Italy",
-        "team": "AC Milan",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Gianluca Caprari",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Federico Chiesa",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
     }
 ]

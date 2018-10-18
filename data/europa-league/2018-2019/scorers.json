@@ -1,6 +1,42 @@
 [
     {
         "rank": "1.",
+        "name": "Munas Dabbur",
+        "country": "Israel",
+        "team": "RB Salzburg",
+        "goals": "3",
+        "flag": "israel",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
+        "name": "Izet Hajrović",
+        "country": "Bosnia-Herzegovina",
+        "team": "Dinamo Zagreb",
+        "goals": "3",
+        "flag": "bosnia_herzegovina",
+        "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": "Kai Havertz",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "4.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
+        "team": "Bayer Leverkusen",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Arsenal FC",
@@ -28,155 +64,119 @@
     },
     {
         "rank": "-",
-        "name": "Izet Hajrović",
-        "country": "Bosnia-Herzegovina",
-        "team": "Dinamo Zagreb",
+        "name": "Patrick Cutrone",
+        "country": "Italy",
+        "team": "AC Milan",
         "goals": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "dinamo_zagreb"
+        "flag": "italy",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
-        "name": "Kai Havertz",
+        "name": "Danny da Costa",
         "country": "Germany",
-        "team": "Bayer Leverkusen",
+        "team": "Eintracht Frankfurt",
         "goals": "2",
         "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "6.",
-        "name": "Marin Aničić",
-        "country": "Bosnia-Herzegovina",
-        "team": "FK Astana",
-        "goals": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "fk_astana"
-    },
-    {
-        "rank": "-",
-        "name": "Scott Arfield",
-        "country": "Canada",
-        "team": "Rangers FC",
-        "goals": "1",
-        "flag": "canada",
-        "logo": "rangers_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ryan Babel",
-        "country": "Netherlands",
-        "team": "Beşiktaş",
-        "goals": "1",
-        "flag": "netherlands",
-        "logo": "be_ikta_"
-    },
-    {
-        "rank": "-",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "goals": "1",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Hatem Ben Arfa",
-        "country": "France",
-        "team": "Stade Rennes",
-        "goals": "1",
-        "flag": "france",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Volodimir Chesnakov",
-        "country": "Ukraine",
-        "team": "Vorskla Poltava",
-        "goals": "1",
-        "flag": "ukraine",
-        "logo": "vorskla_poltava"
-    },
-    {
-        "rank": "-",
-        "name": "Victor Claesson",
-        "country": "Sweden",
-        "team": "FK Krasnodar",
-        "goals": "1",
-        "flag": "sweden",
-        "logo": "fk_krasnodar"
-    },
-    {
-        "rank": "-",
-        "name": "Munas Dabbur",
-        "country": "Israel",
-        "team": "RB Salzburg",
-        "goals": "1",
-        "flag": "israel",
-        "logo": "rb_salzburg"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Olmo",
-        "country": "Spain",
-        "team": "Dinamo Zagreb",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "dinamo_zagreb"
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
         "name": "Moussa Djenepo",
         "country": "Mali",
         "team": "Standard Liège",
-        "goals": "1",
+        "goals": "2",
         "flag": "mali",
         "logo": "standard_liege"
-    },
-    {
-        "rank": "-",
-        "name": "Egor Filipenko",
-        "country": "Belarus",
-        "team": "BATE Borisov",
-        "goals": "1",
-        "flag": "belarus",
-        "logo": "bate_borisov"
     },
     {
         "rank": "-",
         "name": "Denys Garmash",
         "country": "Ukraine",
         "team": "Dinamo Kiev",
-        "goals": "1",
+        "goals": "2",
         "flag": "ukraine",
         "logo": "dinamo_kiev"
     },
     {
         "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "villarreal_cf"
+        "name": "Gonzalo Higuaín",
+        "country": "Argentina",
+        "team": "AC Milan",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
-        "name": "Leigh Griffiths",
-        "country": "Scotland",
-        "team": "Celtic FC",
-        "goals": "1",
-        "flag": "scotland",
-        "logo": "celtic_fc"
+        "name": " Jovane Cabral",
+        "country": "Cape Verde",
+        "team": "Sporting CP",
+        "goals": "2",
+        "flag": "cape_verde",
+        "logo": "sporting_cp"
     },
     {
         "rank": "-",
-        "name": "Fredrik Gulbrandsen",
-        "country": "Norway",
-        "team": "RB Salzburg",
-        "goals": "1",
-        "flag": "norway",
-        "logo": "rb_salzburg"
+        "name": "Luka Jović",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "goals": "2",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": " Leo Jabá",
+        "country": "Brazil",
+        "team": "PAOK Saloniki",
+        "goals": "2",
+        "flag": "brazil",
+        "logo": "paok_saloniki"
+    },
+    {
+        "rank": "-",
+        "name": "Alfredo Morelos",
+        "country": "Colombia",
+        "team": "Rangers FC",
+        "goals": "2",
+        "flag": "colombia",
+        "logo": "rangers_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Patrick Mortensen",
+        "country": "Denmark",
+        "team": "Sarpsborg 08",
+        "goals": "2",
+        "flag": "denmark",
+        "logo": "sarpsborg_08"
+    },
+    {
+        "rank": "-",
+        "name": "Islam Slimani",
+        "country": "Algeria",
+        "team": "Fenerbahçe",
+        "goals": "2",
+        "flag": "algeria",
+        "logo": "fenerbahce"
+    },
+    {
+        "rank": "-",
+        "name": "Pieros Sotiriou",
+        "country": "Cyprus",
+        "team": "FC København",
+        "goals": "2",
+        "flag": "cyprus",
+        "logo": "fc_k_benhavn"
+    },
+    {
+        "rank": "-",
+        "name": "Michal Trávník",
+        "country": "Czech Republic",
+        "team": "FK Jablonec",
+        "goals": "2",
+        "flag": "czech_republic",
+        "logo": "fk_jablonec"
     }
 ]

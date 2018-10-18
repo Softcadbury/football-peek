@@ -4,7 +4,7 @@
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
-        "goals": "6",
+        "goals": "7",
         "flag": "belgium",
         "logo": "chelsea_fc"
     },
@@ -36,13 +36,49 @@
         "logo": "fulham_fc"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Glenn Murray",
+        "country": "England",
+        "team": "Brighton & Hove Albion",
+        "goals": "5",
+        "flag": "england",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "6.",
         "name": "Marko Arnautović",
         "country": "Austria",
         "team": "West Ham United",
         "goals": "4",
         "flag": "austria",
         "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Arsenal FC",
+        "goals": "4",
+        "flag": "gabon",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Joshua King",
+        "country": "Norway",
+        "team": "AFC Bournemouth",
+        "goals": "4",
+        "flag": "norway",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "-",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "4",
+        "flag": "france",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -64,12 +100,21 @@
     },
     {
         "rank": "-",
-        "name": "Glenn Murray",
-        "country": "England",
-        "team": "Brighton & Hove Albion",
+        "name": " Richarlison",
+        "country": "Brazil",
+        "team": "Everton FC",
         "goals": "4",
-        "flag": "england",
-        "logo": "brighton___hove_albion"
+        "flag": "brazil",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Everton FC",
+        "goals": "4",
+        "flag": "iceland",
+        "logo": "everton_fc"
     },
     {
         "rank": "-",
@@ -81,7 +126,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "10.",
+        "rank": "15.",
         "name": "Ryan Fraser",
         "country": "Scotland",
         "team": "AFC Bournemouth",
@@ -133,50 +178,5 @@
         "goals": "3",
         "flag": "spain",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Roberto Pereyra",
-        "country": "Argentina",
-        "team": "Watford FC",
-        "goals": "3",
-        "flag": "argentina",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Richarlison",
-        "country": "Brazil",
-        "team": "Everton FC",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Everton FC",
-        "goals": "3",
-        "flag": "iceland",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "3",
-        "flag": "england",
-        "logo": "leicester_city"
     }
 ]

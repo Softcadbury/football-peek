@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": " Suso",
+        "country": "Spain",
+        "team": "AC Milan",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "2.",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "3.",
         "name": "Domenico Criscito",
         "country": "Italy",
         "team": "Genoa CFC",
@@ -27,22 +45,22 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
-        "name": " Suso",
-        "country": "Spain",
-        "team": "AC Milan",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "5.",
+        "rank": "6.",
         "name": " Allan",
         "country": "Brazil",
         "team": "SSC Napoli",
         "assists": "2",
         "flag": "brazil",
         "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Antonino Barillà",
+        "country": "Italy",
+        "team": "Parma Calcio 1913",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "parma_calcio_1913"
     },
     {
         "rank": "-",
@@ -61,6 +79,24 @@
         "assists": "2",
         "flag": "italy",
         "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Lucas Castro",
+        "country": "Argentina",
+        "team": "Cagliari Calcio",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
@@ -109,74 +145,38 @@
     },
     {
         "rank": "-",
-        "name": "Matteo Politano",
-        "country": "Italy",
-        "team": "Inter",
+        "name": "Cristhian Kouamé",
+        "country": "Ivory Coast",
+        "team": "Genoa CFC",
         "assists": "2",
-        "flag": "italy",
-        "logo": "inter"
+        "flag": "ivory_coast",
+        "logo": "genoa_cfc"
     },
     {
         "rank": "-",
-        "name": "Fabio Quagliarella",
-        "country": "Italy",
-        "team": "Sampdoria",
+        "name": "Darko Lazović",
+        "country": "Serbia",
+        "team": "Genoa CFC",
         "assists": "2",
-        "flag": "italy",
-        "logo": "sampdoria"
+        "flag": "serbia",
+        "logo": "genoa_cfc"
     },
     {
         "rank": "-",
-        "name": "Roberto Soriano",
-        "country": "Italy",
-        "team": "Torino FC",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Cengiz Ünder",
-        "country": "Turkey",
-        "team": "AS Roma",
-        "assists": "2",
-        "flag": "turkey",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Atalanta",
-        "assists": "2",
-        "flag": "colombia",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "18.",
-        "name": "Francesco Acerbi",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Alex Sandro",
-        "country": "Brazil",
+        "name": "Mario Mandžukić",
+        "country": "Croatia",
         "team": "Juventus",
-        "assists": "1",
-        "flag": "brazil",
+        "assists": "2",
+        "flag": "croatia",
         "logo": "juventus"
     },
     {
         "rank": "-",
-        "name": "Joachim Andersen",
-        "country": "Denmark",
-        "team": "Sampdoria",
-        "assists": "1",
-        "flag": "denmark",
-        "logo": "sampdoria"
+        "name": "Lorenzo Pellegrini",
+        "country": "Italy",
+        "team": "AS Roma",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "as_roma"
     }
 ]
