@@ -130,7 +130,7 @@ function runUpdate(itemsExtended, updateData, arg) {
         if (itemArg) {
             updateData(itemArg);
         } else {
-            log('Item not found: ' + arg);
+            log(arg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG] or -c[C1|C3]');
         }
 
         return;

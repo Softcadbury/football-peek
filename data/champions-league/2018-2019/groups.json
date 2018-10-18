@@ -1,0 +1,1338 @@
+[
+    {
+        "name": "a",
+        "matches": [
+            {
+                "date": "18/09/2018",
+                "time": "20:00",
+                "homeTeam": "AS Monaco",
+                "awayTeam": "Atlético Madrid",
+                "score": "1:2",
+                "homeTeamLogo": "as_monaco",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "18/09/2018",
+                "time": "20:00",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Borussia Dortmund",
+                "score": "0:1",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "AS Monaco",
+                "score": "3:0",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "as_monaco"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Club Brugge KV",
+                "score": "3:1",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "17:55",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "AS Monaco",
+                "score": "-:-",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "as_monaco"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "Atlético Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "17:55",
+                "homeTeam": "AS Monaco",
+                "awayTeam": "Club Brugge KV",
+                "score": "-:-",
+                "homeTeamLogo": "as_monaco",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Borussia Dortmund",
+                "score": "-:-",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "17:55",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "AS Monaco",
+                "score": "-:-",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "as_monaco"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "Club Brugge KV",
+                "score": "-:-",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "20:00",
+                "homeTeam": "AS Monaco",
+                "awayTeam": "Borussia Dortmund",
+                "score": "-:-",
+                "homeTeamLogo": "as_monaco",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "20:00",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Atlético Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "atletico_madrid"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Borussia Dortmund",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "0",
+                "goalDifference": "4",
+                "logo": "borussia_dortmund"
+            },
+            {
+                "rank": "2",
+                "team": "Atlético Madrid",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "5",
+                "goalsAgainst": "2",
+                "goalDifference": "3",
+                "logo": "atletico_madrid"
+            },
+            {
+                "rank": "3",
+                "team": "Club Brugge KV",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "1",
+                "goalsAgainst": "4",
+                "goalDifference": "-3",
+                "logo": "club_brugge_kv"
+            },
+            {
+                "rank": "4",
+                "team": "AS Monaco",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "1",
+                "goalsAgainst": "5",
+                "goalDifference": "-4",
+                "logo": "as_monaco"
+            }
+        ]
+    },
+    {
+        "name": "b",
+        "matches": [
+            {
+                "date": "18/09/2018",
+                "time": "17:55",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "PSV Eindhoven",
+                "score": "4:0",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "18/09/2018",
+                "time": "17:55",
+                "homeTeam": "Inter",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "2:1",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "tottenham_hotspur"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "20:00",
+                "homeTeam": "Tottenham Hotspur",
+                "awayTeam": "FC Barcelona",
+                "score": "2:4",
+                "homeTeamLogo": "tottenham_hotspur",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "20:00",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Inter",
+                "score": "1:2",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "17:55",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "-:-",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "tottenham_hotspur"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "20:00",
+                "homeTeam": "Tottenham Hotspur",
+                "awayTeam": "PSV Eindhoven",
+                "score": "-:-",
+                "homeTeamLogo": "tottenham_hotspur",
+                "awayTeamLogo": "psv_eindhoven"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "20:00",
+                "homeTeam": "Inter",
+                "awayTeam": "FC Barcelona",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "20:00",
+                "homeTeam": "PSV Eindhoven",
+                "awayTeam": "FC Barcelona",
+                "score": "-:-",
+                "homeTeamLogo": "psv_eindhoven",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "20:00",
+                "homeTeam": "Tottenham Hotspur",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "tottenham_hotspur",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "-:-",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "tottenham_hotspur"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "20:00",
+                "homeTeam": "Inter",
+                "awayTeam": "PSV Eindhoven",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "psv_eindhoven"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Barcelona",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "8",
+                "goalsAgainst": "2",
+                "goalDifference": "6",
+                "logo": "fc_barcelona"
+            },
+            {
+                "rank": "2",
+                "team": "Inter",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "2",
+                "goalDifference": "2",
+                "logo": "inter"
+            },
+            {
+                "rank": "3",
+                "team": "Tottenham Hotspur",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "3",
+                "goalsAgainst": "6",
+                "goalDifference": "-3",
+                "logo": "tottenham_hotspur"
+            },
+            {
+                "rank": "4",
+                "team": "PSV Eindhoven",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "1",
+                "goalsAgainst": "6",
+                "goalDifference": "-5",
+                "logo": "psv_eindhoven"
+            }
+        ]
+    },
+    {
+        "name": "c",
+        "matches": [
+            {
+                "date": "18/09/2018",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "3:2",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "18/09/2018",
+                "time": "20:00",
+                "homeTeam": "Crvena Zvezda",
+                "awayTeam": "SSC Napoli",
+                "score": "0:0",
+                "homeTeamLogo": "crvena_zvezda",
+                "awayTeamLogo": "ssc_napoli"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "17:55",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Crvena Zvezda",
+                "score": "6:1",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "crvena_zvezda"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "20:00",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Liverpool FC",
+                "score": "1:0",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "20:00",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "SSC Napoli",
+                "score": "-:-",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "ssc_napoli"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Crvena Zvezda",
+                "score": "-:-",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "crvena_zvezda"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "17:55",
+                "homeTeam": "Crvena Zvezda",
+                "awayTeam": "Liverpool FC",
+                "score": "-:-",
+                "homeTeamLogo": "crvena_zvezda",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "20:00",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "20:00",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Liverpool FC",
+                "score": "-:-",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "20:00",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Crvena Zvezda",
+                "score": "-:-",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "crvena_zvezda"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "SSC Napoli",
+                "score": "-:-",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "ssc_napoli"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "20:00",
+                "homeTeam": "Crvena Zvezda",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "crvena_zvezda",
+                "awayTeamLogo": "paris_saint_germain"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "SSC Napoli",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "1",
+                "goalsAgainst": "0",
+                "goalDifference": "1",
+                "logo": "ssc_napoli"
+            },
+            {
+                "rank": "2",
+                "team": "Paris Saint-Germain",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "8",
+                "goalsAgainst": "4",
+                "goalDifference": "4",
+                "logo": "paris_saint_germain"
+            },
+            {
+                "rank": "3",
+                "team": "Liverpool FC",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "3",
+                "goalDifference": "0",
+                "logo": "liverpool_fc"
+            },
+            {
+                "rank": "4",
+                "team": "Crvena Zvezda",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "1",
+                "goalsAgainst": "6",
+                "goalDifference": "-5",
+                "logo": "crvena_zvezda"
+            }
+        ]
+    },
+    {
+        "name": "d",
+        "matches": [
+            {
+                "date": "18/09/2018",
+                "time": "20:00",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "FC Porto",
+                "score": "1:1",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "18/09/2018",
+                "time": "20:00",
+                "homeTeam": "Galatasaray",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "3:0",
+                "homeTeamLogo": "galatasaray",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "17:55",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "FC Schalke 04",
+                "score": "0:1",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "03/10/2018",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Galatasaray",
+                "score": "1:0",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "galatasaray"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "20:00",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "FC Porto",
+                "score": "-:-",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "24/10/2018",
+                "time": "20:00",
+                "homeTeam": "Galatasaray",
+                "awayTeam": "FC Schalke 04",
+                "score": "-:-",
+                "homeTeamLogo": "galatasaray",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "-:-",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "06/11/2018",
+                "time": "20:00",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "Galatasaray",
+                "score": "-:-",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "galatasaray"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "17:55",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "Galatasaray",
+                "score": "-:-",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "galatasaray"
+            },
+            {
+                "date": "28/11/2018",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "FC Schalke 04",
+                "score": "-:-",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "fc_schalke_04"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "17:55",
+                "homeTeam": "FC Schalke 04",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "-:-",
+                "homeTeamLogo": "fc_schalke_04",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "11/12/2018",
+                "time": "17:55",
+                "homeTeam": "Galatasaray",
+                "awayTeam": "FC Porto",
+                "score": "-:-",
+                "homeTeamLogo": "galatasaray",
+                "awayTeamLogo": "fc_porto"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Porto",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "2",
+                "goalsAgainst": "1",
+                "goalDifference": "1",
+                "logo": "fc_porto"
+            },
+            {
+                "rank": " ",
+                "team": "FC Schalke 04",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "2",
+                "goalsAgainst": "1",
+                "goalDifference": "1",
+                "logo": "fc_schalke_04"
+            },
+            {
+                "rank": "3",
+                "team": "Galatasaray",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "1",
+                "goalDifference": "2",
+                "logo": "galatasaray"
+            },
+            {
+                "rank": "4",
+                "team": "Lokomotiv Moskva",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "0",
+                "goalsAgainst": "4",
+                "goalDifference": "-4",
+                "logo": "lokomotiv_moskva"
+            }
+        ]
+    },
+    {
+        "name": "e",
+        "matches": [
+            {
+                "date": "19/09/2018",
+                "time": "17:55",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "AEK Athen",
+                "score": "3:0",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "aek_athen"
+            },
+            {
+                "date": "19/09/2018",
+                "time": "20:00",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Bayern München",
+                "score": "0:2",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "AFC Ajax",
+                "score": "1:1",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "20:00",
+                "homeTeam": "AEK Athen",
+                "awayTeam": "SL Benfica",
+                "score": "2:3",
+                "homeTeamLogo": "aek_athen",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "17:55",
+                "homeTeam": "AEK Athen",
+                "awayTeam": "Bayern München",
+                "score": "-:-",
+                "homeTeamLogo": "aek_athen",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "20:00",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "SL Benfica",
+                "score": "-:-",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "20:00",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "AFC Ajax",
+                "score": "-:-",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "AEK Athen",
+                "score": "-:-",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "aek_athen"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "17:55",
+                "homeTeam": "AEK Athen",
+                "awayTeam": "AFC Ajax",
+                "score": "-:-",
+                "homeTeamLogo": "aek_athen",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "SL Benfica",
+                "score": "-:-",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "20:00",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Bayern München",
+                "score": "-:-",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "20:00",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "AEK Athen",
+                "score": "-:-",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "aek_athen"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "AFC Ajax",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "1",
+                "goalDifference": "3",
+                "logo": "afc_ajax"
+            },
+            {
+                "rank": "2",
+                "team": "Bayern München",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "1",
+                "goalDifference": "2",
+                "logo": "bayern_munchen"
+            },
+            {
+                "rank": "3",
+                "team": "SL Benfica",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "4",
+                "goalDifference": "-1",
+                "logo": "sl_benfica"
+            },
+            {
+                "rank": "4",
+                "team": "AEK Athen",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "2",
+                "goalsAgainst": "6",
+                "goalDifference": "-4",
+                "logo": "aek_athen"
+            }
+        ]
+    },
+    {
+        "name": "f",
+        "matches": [
+            {
+                "date": "19/09/2018",
+                "time": "17:55",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "2:2",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "1899_hoffenheim"
+            },
+            {
+                "date": "19/09/2018",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Olympique Lyon",
+                "score": "1:2",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "17:55",
+                "homeTeam": "1899 Hoffenheim",
+                "awayTeam": "Manchester City",
+                "score": "1:2",
+                "homeTeamLogo": "1899_hoffenheim",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "20:00",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "2:2",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "20:00",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Manchester City",
+                "score": "-:-",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "20:00",
+                "homeTeam": "1899 Hoffenheim",
+                "awayTeam": "Olympique Lyon",
+                "score": "-:-",
+                "homeTeamLogo": "1899_hoffenheim",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "20:00",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "1899_hoffenheim"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "20:00",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Manchester City",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "20:00",
+                "homeTeam": "1899 Hoffenheim",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "-:-",
+                "homeTeamLogo": "1899_hoffenheim",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "20:00",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Olympique Lyon",
+                "score": "-:-",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "olympique_lyon"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "1899_hoffenheim"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Olympique Lyon",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "3",
+                "goalDifference": "1",
+                "logo": "olympique_lyon"
+            },
+            {
+                "rank": "2",
+                "team": "Manchester City",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "3",
+                "goalDifference": "0",
+                "logo": "manchester_city"
+            },
+            {
+                "rank": "3",
+                "team": "Shakhtar Donetsk",
+                "points": "2",
+                "played": "2",
+                "win": "0",
+                "draw": "2",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "4",
+                "goalDifference": "0",
+                "logo": "shakhtar_donetsk"
+            },
+            {
+                "rank": "4",
+                "team": "1899 Hoffenheim",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "4",
+                "goalDifference": "-1",
+                "logo": "1899_hoffenheim"
+            }
+        ]
+    },
+    {
+        "name": "g",
+        "matches": [
+            {
+                "date": "19/09/2018",
+                "time": "20:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "AS Roma",
+                "score": "3:0",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "19/09/2018",
+                "time": "20:00",
+                "homeTeam": "Viktoria Plzeň",
+                "awayTeam": "CSKA Moskva",
+                "score": "2:2",
+                "homeTeamLogo": "viktoria_plze_",
+                "awayTeamLogo": "cska_moskva"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "20:00",
+                "homeTeam": "CSKA Moskva",
+                "awayTeam": "Real Madrid",
+                "score": "1:0",
+                "homeTeamLogo": "cska_moskva",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "20:00",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Viktoria Plzeň",
+                "score": "5:0",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "viktoria_plze_"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "20:00",
+                "homeTeam": "AS Roma",
+                "awayTeam": "CSKA Moskva",
+                "score": "-:-",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "cska_moskva"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "20:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Viktoria Plzeň",
+                "score": "-:-",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "viktoria_plze_"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "17:55",
+                "homeTeam": "CSKA Moskva",
+                "awayTeam": "AS Roma",
+                "score": "-:-",
+                "homeTeamLogo": "cska_moskva",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "20:00",
+                "homeTeam": "Viktoria Plzeň",
+                "awayTeam": "Real Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "viktoria_plze_",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "17:55",
+                "homeTeam": "CSKA Moskva",
+                "awayTeam": "Viktoria Plzeň",
+                "score": "-:-",
+                "homeTeamLogo": "cska_moskva",
+                "awayTeamLogo": "viktoria_plze_"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "20:00",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Real Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "17:55",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "CSKA Moskva",
+                "score": "-:-",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "cska_moskva"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "17:55",
+                "homeTeam": "Viktoria Plzeň",
+                "awayTeam": "AS Roma",
+                "score": "-:-",
+                "homeTeamLogo": "viktoria_plze_",
+                "awayTeamLogo": "as_roma"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "CSKA Moskva",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "2",
+                "goalDifference": "1",
+                "logo": "cska_moskva"
+            },
+            {
+                "rank": "2",
+                "team": "AS Roma",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "5",
+                "goalsAgainst": "3",
+                "goalDifference": "2",
+                "logo": "as_roma"
+            },
+            {
+                "rank": "3",
+                "team": "Real Madrid",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "1",
+                "goalDifference": "2",
+                "logo": "real_madrid"
+            },
+            {
+                "rank": "4",
+                "team": "Viktoria Plzeň",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "2",
+                "goalsAgainst": "7",
+                "goalDifference": "-5",
+                "logo": "viktoria_plze_"
+            }
+        ]
+    },
+    {
+        "name": "h",
+        "matches": [
+            {
+                "date": "19/09/2018",
+                "time": "20:00",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "Juventus",
+                "score": "0:2",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "19/09/2018",
+                "time": "20:00",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "Manchester United",
+                "score": "0:3",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "17:55",
+                "homeTeam": "Juventus",
+                "awayTeam": "BSC Young Boys",
+                "score": "3:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "bsc_young_boys"
+            },
+            {
+                "date": "02/10/2018",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Valencia CF",
+                "score": "0:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "17:55",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "Valencia CF",
+                "score": "-:-",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "23/10/2018",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "17:55",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "BSC Young Boys",
+                "score": "-:-",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "bsc_young_boys"
+            },
+            {
+                "date": "07/11/2018",
+                "time": "20:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "Manchester United",
+                "score": "-:-",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "20:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "Valencia CF",
+                "score": "-:-",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "27/11/2018",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "BSC Young Boys",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "bsc_young_boys"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "20:00",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "Manchester United",
+                "score": "-:-",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "12/12/2018",
+                "time": "20:00",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "juventus"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Juventus",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "5",
+                "goalsAgainst": "0",
+                "goalDifference": "5",
+                "logo": "juventus"
+            },
+            {
+                "rank": "2",
+                "team": "Manchester United",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "0",
+                "goalDifference": "3",
+                "logo": "manchester_united"
+            },
+            {
+                "rank": "3",
+                "team": "Valencia CF",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "0",
+                "goalsAgainst": "2",
+                "goalDifference": "-2",
+                "logo": "valencia_cf"
+            },
+            {
+                "rank": "4",
+                "team": "BSC Young Boys",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "0",
+                "goalsAgainst": "6",
+                "goalDifference": "-6",
+                "logo": "bsc_young_boys"
+            }
+        ]
+    }
+]
