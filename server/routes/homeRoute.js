@@ -57,13 +57,11 @@ function getCompetitionMatches(item, handledDates) {
     var tournamentMatches = [];
 
     for (let i = tournamentData.length - 1; i >= 0; i--) {
-        var tournamentMatches1 = [];
-        var tournamentMatches2 = [];
         const round = tournamentData[i];
 
         round.matches.forEach(matche => {
             if (handledDates.indexOf(matche.date1) !== -1) {
-                tournamentMatches1.push({
+                tournamentMatches.push({
                     date: matche.date1,
                     time: matche.time1,
                     score: matche.score1,
@@ -76,7 +74,7 @@ function getCompetitionMatches(item, handledDates) {
 
             if (handledDates.indexOf(matche.date2) !== -1 && matche.score2.indexOf(':') != -1) {
                 var reversedScore = matche.score2.split(':')[1] + ':' + matche.score2.split(':')[0];
-                tournamentMatches2.push({
+                tournamentMatches.push({
                     date: matche.date2,
                     time: matche.time2,
                     score: reversedScore,
@@ -87,12 +85,10 @@ function getCompetitionMatches(item, handledDates) {
                 });
             }
         });
-
-        tournamentMatches = tournamentMatches.concat(tournamentMatches1, tournamentMatches2);
     }
 
     if (tournamentMatches.length) {
-        return tournamentMatches;
+        return tournamentMatches.sort(sortMatchesByDate);
     }
 
     var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
@@ -106,7 +102,7 @@ function getCompetitionMatches(item, handledDates) {
         });
     });
 
-    return groupMatches;
+    return groupMatches.sort(sortMatchesByDate);
 }
 
 function getHandledDates(limitDate) {
@@ -135,6 +131,16 @@ function getFormattedDate(date) {
     mm = mm < 10 ? '0' + mm : mm;
 
     return dd + '/' + mm + '/' + yyyy;
+}
+
+function sortMatchesByDate(matche1, matche2) {
+    var splittedDate1 = matche1.date.split('/').map(p => Number(p));
+    var splittedDate2 = matche2.date.split('/').map(p => Number(p));
+
+    var tick1 = splittedDate1[2] * 10000 + splittedDate1[1] * 100 + splittedDate1[0];
+    var tick2 = splittedDate2[2] * 10000 + splittedDate2[1] * 100 + splittedDate2[0];
+
+    return tick1 - tick2;
 }
 
 module.exports = router;
