@@ -4,21 +4,57 @@
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
-        "assists": "6",
+        "assists": "8",
         "flag": "spain",
         "logo": "ac_milan"
     },
     {
         "rank": "2.",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
-        "assists": "4",
+        "assists": "5",
         "flag": "italy",
         "logo": "sampdoria"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "assists": "4",
+        "flag": "portugal",
+        "logo": "juventus"
+    },
+    {
+        "rank": "5.",
+        "name": "Cristiano Biraghi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Joel Campbell",
+        "country": "Costa Rica",
+        "team": "Frosinone Calcio",
+        "assists": "3",
+        "flag": "costa_rica",
+        "logo": "frosinone_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Domenico Criscito",
         "country": "Italy",
         "team": "Genoa CFC",
@@ -28,24 +64,51 @@
     },
     {
         "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Juventus",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
         "assists": "3",
-        "flag": "portugal",
-        "logo": "juventus"
+        "flag": "argentina",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
         "team": "SSC Napoli",
         "assists": "3",
-        "flag": "spain",
+        "flag": "italy",
         "logo": "ssc_napoli"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Cristhian Kouamé",
+        "country": "Ivory Coast",
+        "team": "Genoa CFC",
+        "assists": "3",
+        "flag": "ivory_coast",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "assists": "3",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Cengiz Ünder",
+        "country": "Turkey",
+        "team": "AS Roma",
+        "assists": "3",
+        "flag": "turkey",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "13.",
         "name": " Allan",
         "country": "Brazil",
         "team": "SSC Napoli",
@@ -73,12 +136,30 @@
     },
     {
         "rank": "-",
-        "name": "Cristiano Biraghi",
+        "name": "Andrea Belotti",
         "country": "Italy",
-        "team": "ACF Fiorentina",
+        "team": "Torino FC",
         "assists": "2",
         "flag": "italy",
-        "logo": "acf_fiorentina"
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "AC Milan",
+        "assists": "2",
+        "flag": "turkey",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -91,92 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Rodrigo de Paul",
-        "country": "Argentina",
-        "team": "Udinese Calcio",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
         "name": "Federico Di Francesco",
         "country": "Italy",
         "team": "Sassuolo Calcio",
         "assists": "2",
         "flag": "italy",
         "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "assists": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Andrea Favilli",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Papu Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Mauro Icardi",
-        "country": "Argentina",
-        "team": "Inter",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Cristhian Kouamé",
-        "country": "Ivory Coast",
-        "team": "Genoa CFC",
-        "assists": "2",
-        "flag": "ivory_coast",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Darko Lazović",
-        "country": "Serbia",
-        "team": "Genoa CFC",
-        "assists": "2",
-        "flag": "serbia",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Mandžukić",
-        "country": "Croatia",
-        "team": "Juventus",
-        "assists": "2",
-        "flag": "croatia",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Pellegrini",
-        "country": "Italy",
-        "team": "AS Roma",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "as_roma"
     }
 ]

@@ -4,9 +4,18 @@
         "name": "Munas Dabbur",
         "country": "Israel",
         "team": "RB Salzburg",
-        "goals": "3",
+        "goals": "5",
         "flag": "israel",
         "logo": "rb_salzburg"
+    },
+    {
+        "rank": "2.",
+        "name": "Patrick Cutrone",
+        "country": "Italy",
+        "team": "AC Milan",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -27,7 +36,25 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Ruben Loftus-Cheek",
+        "country": "England",
+        "team": "Chelsea FC",
+        "goals": "3",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mbwana Samatta",
+        "country": "Tanzania",
+        "team": "KRC Genk",
+        "goals": "3",
+        "flag": "tanzania",
+        "logo": "krc_genk"
+    },
+    {
+        "rank": "7.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
@@ -46,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Zakaria Bakkali",
+        "country": "Belgium",
+        "team": "RSC Anderlecht",
+        "goals": "2",
+        "flag": "belgium",
+        "logo": "rsc_anderlecht"
+    },
+    {
+        "rank": "-",
         "name": "Éver Banega",
         "country": "Argentina",
         "team": "Sevilla FC",
@@ -55,21 +91,21 @@
     },
     {
         "rank": "-",
+        "name": "Karim Bellarabi",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
         "goals": "2",
         "flag": "france",
         "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Cutrone",
-        "country": "Italy",
-        "team": "AC Milan",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -91,12 +127,30 @@
     },
     {
         "rank": "-",
+        "name": "Renaud Emond",
+        "country": "Belgium",
+        "team": "Standard Liège",
+        "goals": "2",
+        "flag": "belgium",
+        "logo": "standard_liege"
+    },
+    {
+        "rank": "-",
         "name": "Denys Garmash",
         "country": "Ukraine",
         "team": "Dinamo Kiev",
         "goals": "2",
         "flag": "ukraine",
         "logo": "dinamo_kiev"
+    },
+    {
+        "rank": "-",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -124,59 +178,5 @@
         "goals": "2",
         "flag": "serbia",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": " Leo Jabá",
-        "country": "Brazil",
-        "team": "PAOK Saloniki",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "paok_saloniki"
-    },
-    {
-        "rank": "-",
-        "name": "Alfredo Morelos",
-        "country": "Colombia",
-        "team": "Rangers FC",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "rangers_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Mortensen",
-        "country": "Denmark",
-        "team": "Sarpsborg 08",
-        "goals": "2",
-        "flag": "denmark",
-        "logo": "sarpsborg_08"
-    },
-    {
-        "rank": "-",
-        "name": "Islam Slimani",
-        "country": "Algeria",
-        "team": "Fenerbahçe",
-        "goals": "2",
-        "flag": "algeria",
-        "logo": "fenerbahce"
-    },
-    {
-        "rank": "-",
-        "name": "Pieros Sotiriou",
-        "country": "Cyprus",
-        "team": "FC København",
-        "goals": "2",
-        "flag": "cyprus",
-        "logo": "fc_k_benhavn"
-    },
-    {
-        "rank": "-",
-        "name": "Michal Trávník",
-        "country": "Czech Republic",
-        "team": "FK Jablonec",
-        "goals": "2",
-        "flag": "czech_republic",
-        "logo": "fk_jablonec"
     }
 ]
