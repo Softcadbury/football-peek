@@ -18,10 +18,14 @@ var competitionsExtended = [
     { item: competitions.europaLeague, url: 'europa-league', extra: '' }
 ];
 
-// Updates scorers of current period
-function update(leagueArg, competitionArg) {
-    helper.runUpdate(leaguesExtended, updateData, leagueArg);
-    helper.runUpdate(competitionsExtended, updateData, competitionArg);
+// Updates scorers of current period for leagues
+function updateLeagues(arg) {
+    helper.runUpdate(leaguesExtended, updateData, arg);
+}
+
+// Updates scorers of current period for competitions
+function updateCompetitions(arg) {
+    helper.runUpdate(competitionsExtended, updateData, arg);
 }
 
 // Updates the scorers of a itemExtended
@@ -60,5 +64,6 @@ function updateData(itemExtended) {
 }
 
 module.exports = {
-    update: update
+    updateLeagues: updateLeagues,
+    updateCompetitions: updateCompetitions
 };

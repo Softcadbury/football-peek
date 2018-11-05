@@ -13,8 +13,8 @@ var competitionsExtended = [
 ];
 
 // Updates tournament of current period
-function update(competitionArg) {
-    helper.runUpdate(competitionsExtended, updateData, competitionArg);
+function update(arg) {
+    helper.runUpdate(competitionsExtended, updateData, arg);
 }
 
 // Updates the tournament of an itemExtended
