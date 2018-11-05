@@ -12,8 +12,8 @@ var competitionsExtended = [
 ];
 
 // Updates results of current period
-function update(competitionArg) {
-    helper.runUpdate(competitionsExtended, updateData, competitionArg);
+function update(arg) {
+    helper.runUpdate(competitionsExtended, updateData, arg);
 }
 
 // Updates the results of an itemExtended

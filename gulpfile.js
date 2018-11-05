@@ -2,6 +2,8 @@
 
 var gulp = require('gulp');
 var config = require('./server/config');
+var leagues = require('./server/data/leagues');
+var competitions = require('./server/data/competitions');
 
 // Updates data
 // Format: gulp up -l [lague small name] -c [competition small name]
@@ -16,11 +18,21 @@ gulp.task('up', () => {
     var competitionArg = argv.c;
 
     if (leagueArg) {
-        mainUpdater.updateLeague(leagueArg);
+        leagueArg = typeof leagueArg === 'string' ? leagueArg.toUpperCase() : null;
+        if (!leagueArg || Object.values(leagues).some(p => p.smallName === leagueArg)) {
+            mainUpdater.updateLeague(leagueArg);
+        } else {
+            console.log(leagueArg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG]');
+        }
     }
 
     if (competitionArg) {
-        mainUpdater.updateCompetition(competitionArg);
+        competitionArg = typeof competitionArg === 'string' ? competitionArg.toUpperCase() : null;
+        if (!competitionArg || Object.values(competitions).some(p => p.smallName === competitionArg)) {
+            mainUpdater.updateCompetition(competitionArg);
+        } else {
+            console.log(competitionArg + ' not found. Options are -c [C1|C3]');
+        }
     }
 });
 

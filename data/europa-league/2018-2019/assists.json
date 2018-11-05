@@ -1,6 +1,51 @@
 [
     {
         "rank": "1.",
+        "name": " Dani Olmo",
+        "country": "Spain",
+        "team": "Dinamo Zagreb",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": " Guilherme Arana",
+        "country": "Brazil",
+        "team": "Sevilla FC",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Kai Havertz",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Joakim Mæhle",
+        "country": "Denmark",
+        "team": "KRC Genk",
+        "assists": "3",
+        "flag": "denmark",
+        "logo": "krc_genk"
+    },
+    {
+        "rank": "5.",
+        "name": "Vitaliy Buyalskiy",
+        "country": "Ukraine",
+        "team": "Dinamo Kiev",
+        "assists": "2",
+        "flag": "ukraine",
+        "logo": "dinamo_kiev"
+    },
+    {
+        "rank": "-",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "AC Milan",
@@ -16,15 +61,6 @@
         "assists": "2",
         "flag": "portugal",
         "logo": "rangers_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Olmo",
-        "country": "Spain",
-        "team": "Dinamo Zagreb",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "dinamo_zagreb"
     },
     {
         "rank": "-",
@@ -46,12 +82,39 @@
     },
     {
         "rank": "-",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
+        "assists": "2",
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Alex Iwobi",
         "country": "Nigeria",
         "team": "Arsenal FC",
         "assists": "2",
         "flag": "nigeria",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Junior Kabananga",
+        "country": "Congo DR",
+        "team": "FK Astana",
+        "assists": "2",
+        "flag": "congo_dr",
+        "logo": "fk_astana"
     },
     {
         "rank": "-",
@@ -82,101 +145,38 @@
     },
     {
         "rank": "-",
+        "name": " Samu Castillejo",
+        "country": "Spain",
+        "team": "AC Milan",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Igor Stasevich",
+        "country": "Belarus",
+        "team": "BATE Borisov",
+        "assists": "2",
+        "flag": "belarus",
+        "logo": "bate_borisov"
+    },
+    {
+        "rank": "-",
+        "name": "Karl Toko Ekambi",
+        "country": "Cameroon",
+        "team": "Villarreal CF",
+        "assists": "2",
+        "flag": "cameroon",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
         "name": "Andreas Ulmer",
         "country": "Austria",
         "team": "RB Salzburg",
         "assists": "2",
         "flag": "austria",
         "logo": "rb_salzburg"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Hannes Wolf",
-        "country": "Austria",
-        "team": "RB Salzburg",
-        "assists": "2",
-        "flag": "austria",
-        "logo": "rb_salzburg"
-    },
-    {
-        "rank": "13.",
-        "name": "Benjamin André",
-        "country": "France",
-        "team": "Stade Rennes",
-        "assists": "1",
-        "flag": "france",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "André Ayew",
-        "country": "Ghana",
-        "team": "Fenerbahçe",
-        "assists": "1",
-        "flag": "ghana",
-        "logo": "fenerbahce"
-    },
-    {
-        "rank": "-",
-        "name": "Éver Banega",
-        "country": "Argentina",
-        "team": "Sevilla FC",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Borna Barišić",
-        "country": "Croatia",
-        "team": "Rangers FC",
-        "assists": "1",
-        "flag": "croatia",
-        "logo": "rangers_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ross Barkley",
-        "country": "England",
-        "team": "Chelsea FC",
-        "assists": "1",
-        "flag": "england",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Karim Bellarabi",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "1",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Dedryck Boyata",
-        "country": "Belgium",
-        "team": "Celtic FC",
-        "assists": "1",
-        "flag": "belgium",
-        "logo": "celtic_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Bruma",
-        "country": "Portugal",
-        "team": "RB Leipzig",
-        "assists": "1",
-        "flag": "portugal",
-        "logo": "rb_leipzig"
     }
 ]

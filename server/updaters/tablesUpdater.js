@@ -14,8 +14,8 @@ var leaguesExtended = [
 ];
 
 // Updates tables of current period
-function update(leagueArg) {
-    helper.runUpdate(leaguesExtended, updateData, leagueArg);
+function update(arg) {
+    helper.runUpdate(leaguesExtended, updateData, arg);
 }
 
 // Updates the table of an itemExtended

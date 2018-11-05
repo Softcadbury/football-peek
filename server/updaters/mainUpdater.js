@@ -8,23 +8,19 @@ var scorersUpdater = require('./scorersUpdater');
 var assistsUpdater = require('./assistsUpdater');
 
 // Updates league data
-function updateLeague(leagueArg) {
-    leagueArg = leagueArg || true;
-
-    tablesUpdater.update(leagueArg);
-    resultsUpdater.update(leagueArg);
-    scorersUpdater.update(leagueArg, null);
-    assistsUpdater.update(leagueArg, null);
+function updateLeague(arg) {
+    tablesUpdater.update(arg);
+    resultsUpdater.update(arg);
+    scorersUpdater.updateLeagues(arg);
+    assistsUpdater.updateLeagues(arg);
 }
 
 // Updates competition data
-function updateCompetition(competitionArg) {
-    competitionArg = competitionArg || true;
-
-    tournamentsUpdater.update(competitionArg);
-    groupsUpdater.update(competitionArg);
-    scorersUpdater.update(null, competitionArg);
-    assistsUpdater.update(null, competitionArg);
+function updateCompetition(arg) {
+    tournamentsUpdater.update(arg);
+    groupsUpdater.update(arg);
+    scorersUpdater.updateCompetitions(arg);
+    assistsUpdater.updateCompetitions(arg);
 }
 
 module.exports = {

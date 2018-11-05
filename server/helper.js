@@ -119,21 +119,14 @@ function downloadImage(src, path) {
 
 // Helper to run an update of data
 function runUpdate(itemsExtended, updateData, arg) {
-    if (!arg) {
-        return;
-    }
+    if (arg) {
+        var item = itemsExtended.find(p => p.item.smallName === arg);
 
-    // Run the update only on the specified item
-    if (typeof arg === 'string') {
-        var itemArg = itemsExtended.find(itemExtended => itemExtended.item.smallName.toLowerCase() === arg.toLowerCase());
-
-        if (itemArg) {
-            updateData(itemArg);
-        } else {
-            log(arg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG] or -c[C1|C3]');
+        if (item) {
+            // Run the update on the specified item
+            updateData(item);
+            return;
         }
-
-        return;
     }
 
     // Run the update on all items
