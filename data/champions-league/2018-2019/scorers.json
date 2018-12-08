@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "6",
+        "flag": "poland",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "3.",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
@@ -9,16 +27,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "5",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
@@ -27,56 +36,119 @@
         "logo": "juventus"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "goals": "4",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "4",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "4",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Moussa Marega",
+        "country": "Mali",
+        "team": "FC Porto",
+        "goals": "4",
+        "flag": "mali",
+        "logo": "fc_porto"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
-        "goals": "3",
+        "goals": "4",
         "flag": "brazil",
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "5.",
-        "name": " Bernardo Silva",
-        "country": "Portugal",
-        "team": "Manchester City",
-        "goals": "2",
-        "flag": "portugal",
-        "logo": "manchester_city"
+        "rank": "10.",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Real Madrid",
+        "goals": "3",
+        "flag": "wales",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "3",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Maxwel Cornet",
+        "country": "Ivory Coast",
+        "team": "Olympique Lyon",
+        "goals": "3",
+        "flag": "ivory_coast",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Jesús Corona",
+        "country": "Mexico",
+        "team": "FC Porto",
+        "goals": "3",
+        "flag": "mexico",
+        "logo": "fc_porto"
     },
     {
         "rank": "-",
         "name": " David Silva",
         "country": "Spain",
         "team": "Manchester City",
-        "goals": "2",
+        "goals": "3",
         "flag": "spain",
         "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
+        "name": "Luuk de Jong",
+        "country": "Netherlands",
+        "team": "PSV Eindhoven",
+        "goals": "3",
+        "flag": "netherlands",
+        "logo": "psv_eindhoven"
     },
     {
         "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "goals": "2",
-        "flag": "france",
-        "logo": "atletico_madrid"
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "2",
+        "goals": "3",
         "flag": "argentina",
         "logo": "inter"
     },
@@ -85,98 +157,26 @@
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
-        "goals": "2",
+        "goals": "3",
         "flag": "italy",
         "logo": "ssc_napoli"
     },
     {
         "rank": "-",
-        "name": " Júnior Moraes",
-        "country": "Brazil",
-        "team": "Shakhtar Donetsk",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "shakhtar_donetsk"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Viktor Klonaridis",
+        "name": "Dries Mertens",
         "country": "Belgium",
-        "team": "AEK Athen",
-        "goals": "2",
+        "team": "SSC Napoli",
+        "goals": "3",
         "flag": "belgium",
-        "logo": "aek_athen"
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Michal Krmenčík",
-        "country": "Czech Republic",
-        "team": "Viktoria Plzeň",
-        "goals": "2",
-        "flag": "czech_republic",
-        "logo": "viktoria_plze_"
-    },
-    {
-        "rank": "-",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
-        "goals": "2",
-        "flag": "poland",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Moussa Marega",
-        "country": "Mali",
-        "team": "FC Porto",
-        "goals": "2",
-        "flag": "mali",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Noussair Mazraoui",
-        "country": "Morocco",
+        "name": "Dušan Tadić",
+        "country": "Serbia",
         "team": "AFC Ajax",
-        "goals": "2",
-        "flag": "morocco",
+        "goals": "3",
+        "flag": "serbia",
         "logo": "afc_ajax"
-    },
-    {
-        "rank": "-",
-        "name": "Kylian Mbappé",
-        "country": "France",
-        "team": "Paris Saint-Germain",
-        "goals": "2",
-        "flag": "france",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Miralem Pjanić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Juventus",
-        "goals": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "juventus"
     }
 ]

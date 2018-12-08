@@ -1,11 +1,38 @@
 [
     {
         "rank": "1.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Igor Stasevich",
+        "country": "Belarus",
+        "team": "BATE Borisov",
+        "assists": "4",
+        "flag": "belarus",
+        "logo": "bate_borisov"
+    },
+    {
+        "rank": "3.",
         "name": " Dani Olmo",
         "country": "Spain",
         "team": "Dinamo Zagreb",
         "assists": "3",
         "flag": "spain",
+        "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Gavranović",
+        "country": "Switzerland",
+        "team": "Dinamo Zagreb",
+        "assists": "3",
+        "flag": "switzerland",
         "logo": "dinamo_zagreb"
     },
     {
@@ -19,12 +46,30 @@
     },
     {
         "rank": "-",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
+        "assists": "3",
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Kai Havertz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
         "assists": "3",
         "flag": "germany",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Stefan Lainer",
+        "country": "Austria",
+        "team": "RB Salzburg",
+        "assists": "3",
+        "flag": "austria",
+        "logo": "rb_salzburg"
     },
     {
         "rank": "-",
@@ -36,7 +81,43 @@
         "logo": "krc_genk"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Fotis Papoulis",
+        "country": "Greece",
+        "team": "Apollon Limassol",
+        "assists": "3",
+        "flag": "greece",
+        "logo": "apollon_limassol"
+    },
+    {
+        "rank": "-",
+        "name": "Viktor Tsygankov",
+        "country": "Ukraine",
+        "team": "Dinamo Kiev",
+        "assists": "3",
+        "flag": "ukraine",
+        "logo": "dinamo_kiev"
+    },
+    {
+        "rank": "-",
+        "name": "Andreas Ulmer",
+        "country": "Austria",
+        "team": "RB Salzburg",
+        "assists": "3",
+        "flag": "austria",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "13.",
+        "name": "Nicklas Bendtner",
+        "country": "Denmark",
+        "team": "Rosenborg BK",
+        "assists": "2",
+        "flag": "denmark",
+        "logo": "rosenborg_bk"
+    },
+    {
+        "rank": "-",
         "name": "Vitaliy Buyalskiy",
         "country": "Ukraine",
         "team": "Dinamo Kiev",
@@ -64,6 +145,24 @@
     },
     {
         "rank": "-",
+        "name": "Mehdi Carcela-González",
+        "country": "Morocco",
+        "team": "Standard Liège",
+        "assists": "2",
+        "flag": "morocco",
+        "logo": "standard_liege"
+    },
+    {
+        "rank": "-",
+        "name": " Cesc Fàbregas",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Jonathan de Guzmán",
         "country": "Netherlands",
         "team": "Eintracht Frankfurt",
@@ -73,110 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Mario Gavranović",
-        "country": "Switzerland",
-        "team": "Dinamo Zagreb",
+        "name": "James Forrest",
+        "country": "Scotland",
+        "team": "Celtic FC",
         "assists": "2",
-        "flag": "switzerland",
-        "logo": "dinamo_zagreb"
-    },
-    {
-        "rank": "-",
-        "name": "Sébastien Haller",
-        "country": "France",
-        "team": "Eintracht Frankfurt",
-        "assists": "2",
-        "flag": "france",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Alex Iwobi",
-        "country": "Nigeria",
-        "team": "Arsenal FC",
-        "assists": "2",
-        "flag": "nigeria",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Junior Kabananga",
-        "country": "Congo DR",
-        "team": "FK Astana",
-        "assists": "2",
-        "flag": "congo_dr",
-        "logo": "fk_astana"
-    },
-    {
-        "rank": "-",
-        "name": " Leo Jabá",
-        "country": "Brazil",
-        "team": "PAOK Saloniki",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "paok_saloniki"
-    },
-    {
-        "rank": "-",
-        "name": "Henrikh Mkhitaryan",
-        "country": "Armenia",
-        "team": "Arsenal FC",
-        "assists": "2",
-        "flag": "armenia",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Fotis Papoulis",
-        "country": "Greece",
-        "team": "Apollon Limassol",
-        "assists": "2",
-        "flag": "greece",
-        "logo": "apollon_limassol"
-    },
-    {
-        "rank": "-",
-        "name": " Samu Castillejo",
-        "country": "Spain",
-        "team": "AC Milan",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Igor Stasevich",
-        "country": "Belarus",
-        "team": "BATE Borisov",
-        "assists": "2",
-        "flag": "belarus",
-        "logo": "bate_borisov"
-    },
-    {
-        "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Villarreal CF",
-        "assists": "2",
-        "flag": "cameroon",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Andreas Ulmer",
-        "country": "Austria",
-        "team": "RB Salzburg",
-        "assists": "2",
-        "flag": "austria",
-        "logo": "rb_salzburg"
+        "flag": "scotland",
+        "logo": "celtic_fc"
     }
 ]
