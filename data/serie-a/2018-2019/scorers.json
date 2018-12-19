@@ -1,28 +1,28 @@
 [
     {
         "rank": "1.",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Juventus",
-        "goals": "10",
-        "flag": "portugal",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
         "name": "Krzysztof Piątek",
         "country": "Poland",
         "team": "Genoa CFC",
-        "goals": "10",
+        "goals": "12",
         "flag": "poland",
         "logo": "genoa_cfc"
+    },
+    {
+        "rank": "2.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "goals": "11",
+        "flag": "portugal",
+        "logo": "juventus"
     },
     {
         "rank": "3.",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "9",
+        "goals": "10",
         "flag": "italy",
         "logo": "lazio_roma"
     },
@@ -31,21 +31,39 @@
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "8",
+        "goals": "9",
         "flag": "argentina",
         "logo": "inter"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "6.",
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Empoli FC",
-        "goals": "7",
+        "goals": "8",
         "flag": "italy",
         "logo": "empoli_fc"
     },
     {
         "rank": "-",
+        "name": "Arkadiusz Milik",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "8",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "8.",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -72,25 +90,16 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "goals": "7",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Fabio Quagliarella",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "7",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
         "rank": "11.",
+        "name": "Marco Benassi",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "goals": "6",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": "Rodrigo de Paul",
         "country": "Argentina",
         "team": "Udinese Calcio",
@@ -117,22 +126,22 @@
         "logo": "cagliari_calcio"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "goals": "6",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "16.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
         "goals": "5",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Benassi",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "goals": "5",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -162,21 +171,12 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "19.",
-        "name": "Kevin-Prince Boateng",
-        "country": "Ghana",
-        "team": "Sassuolo Calcio",
-        "goals": "4",
-        "flag": "ghana",
-        "logo": "sassuolo_calcio"
-    },
-    {
         "rank": "-",
-        "name": "Papu Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "atalanta"
+        "name": "Andrea Petagna",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
     }
 ]

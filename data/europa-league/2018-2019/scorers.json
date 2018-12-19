@@ -4,12 +4,12 @@
         "name": "Munas Dabbur",
         "country": "Israel",
         "team": "RB Salzburg",
-        "goals": "5",
+        "goals": "6",
         "flag": "israel",
         "logo": "rb_salzburg"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Luka Jović",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
@@ -19,12 +19,57 @@
     },
     {
         "rank": "3.",
+        "name": "Lucas Alario",
+        "country": "Argentina",
+        "team": "Bayer Leverkusen",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Éver Banega",
+        "country": "Argentina",
+        "team": "Sevilla FC",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "goals": "4",
+        "flag": "france",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
         "name": "Patrick Cutrone",
         "country": "Italy",
         "team": "AC Milan",
         "goals": "4",
         "flag": "italy",
         "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Chelsea FC",
+        "goals": "4",
+        "flag": "france",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Fredrik Gulbrandsen",
+        "country": "Norway",
+        "team": "RB Salzburg",
+        "goals": "4",
+        "flag": "norway",
+        "logo": "rb_salzburg"
     },
     {
         "rank": "-",
@@ -45,13 +90,13 @@
         "logo": "apollon_limassol"
     },
     {
-        "rank": "6.",
-        "name": "Éver Banega",
-        "country": "Argentina",
-        "team": "Sevilla FC",
+        "rank": "11.",
+        "name": "Marcus Antonsson",
+        "country": "Sweden",
+        "team": "Malmö FF",
         "goals": "3",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
+        "flag": "sweden",
+        "logo": "malmo_ff"
     },
     {
         "rank": "-",
@@ -64,21 +109,12 @@
     },
     {
         "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "Chelsea FC",
+        "name": "Kostas Fortounis",
+        "country": "Greece",
+        "team": "Olympiakos Piräus",
         "goals": "3",
-        "flag": "france",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Fredrik Gulbrandsen",
-        "country": "Norway",
-        "team": "RB Salzburg",
-        "goals": "3",
-        "flag": "norway",
-        "logo": "rb_salzburg"
+        "flag": "greece",
+        "logo": "olympiakos_piraus"
     },
     {
         "rank": "-",
@@ -88,6 +124,15 @@
         "goals": "3",
         "flag": "bosnia_herzegovina",
         "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
+        "goals": "3",
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Patrick Mortensen",
-        "country": "Denmark",
-        "team": "Sarpsborg 08",
-        "goals": "3",
-        "flag": "denmark",
-        "logo": "sarpsborg_08"
-    },
-    {
-        "rank": "-",
-        "name": "Mbwana Samatta",
-        "country": "Tanzania",
-        "team": "KRC Genk",
-        "goals": "3",
-        "flag": "tanzania",
-        "logo": "krc_genk"
-    },
-    {
-        "rank": "-",
-        "name": " Vágner Love",
+        "name": " Matheus Cunha",
         "country": "Brazil",
-        "team": "Beşiktaş",
+        "team": "RB Leipzig",
         "goals": "3",
         "flag": "brazil",
-        "logo": "be_ikta_"
-    },
-    {
-        "rank": "-",
-        "name": " Zé Luís",
-        "country": "Cape Verde",
-        "team": "Spartak Moskva",
-        "goals": "3",
-        "flag": "cape_verde",
-        "logo": "spartak_moskva"
-    },
-    {
-        "rank": "19.",
-        "name": "Lucas Alario",
-        "country": "Argentina",
-        "team": "Bayer Leverkusen",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Marcus Antonsson",
-        "country": "Sweden",
-        "team": "Malmö FF",
-        "goals": "2",
-        "flag": "sweden",
-        "logo": "malmo_ff"
+        "logo": "rb_leipzig"
     }
 ]

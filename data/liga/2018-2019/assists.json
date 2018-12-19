@@ -4,12 +4,21 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "assists": "7",
+        "assists": "10",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
         "rank": "2.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "6",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Pablo Sarabia",
         "country": "Spain",
         "team": "Sevilla FC",
@@ -18,13 +27,22 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "3.",
-        "name": "Antoine Griezmann",
+        "rank": "4.",
+        "name": "Wissam Ben Yedder",
         "country": "France",
-        "team": "Atlético Madrid",
+        "team": "Sevilla FC",
         "assists": "5",
         "flag": "france",
-        "logo": "atletico_madrid"
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Brais Méndez",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
@@ -36,16 +54,7 @@
         "logo": "cd_alaves"
     },
     {
-        "rank": "5.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
-        "assists": "4",
-        "flag": "france",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "7.",
         "name": " Cristian Tello",
         "country": "Spain",
         "team": "Real Betis",
@@ -64,12 +73,39 @@
     },
     {
         "rank": "-",
+        "name": " Jason",
+        "country": "Spain",
+        "team": "Levante UD",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
         "name": " Jesús Navas",
         "country": "Spain",
         "team": "Sevilla FC",
         "assists": "4",
         "flag": "spain",
         "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Jordi Alba",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Santi Cazorla",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -90,13 +126,13 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "11.",
-        "name": " Brais Méndez",
-        "country": "Spain",
-        "team": "Celta Vigo",
+        "rank": "15.",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "FC Barcelona",
         "assists": "3",
-        "flag": "spain",
-        "logo": "celta_vigo"
+        "flag": "france",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -118,30 +154,12 @@
     },
     {
         "rank": "-",
-        "name": " Jason",
-        "country": "Spain",
-        "team": "Levante UD",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
         "name": " Joan Jordán",
         "country": "Spain",
         "team": "SD Eibar",
         "assists": "3",
         "flag": "spain",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Jordi Alba",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "3",
         "flag": "spain",
         "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Santi Cazorla",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Óscar Trejo",
-        "country": "Argentina",
-        "team": "Rayo Vallecano",
-        "assists": "3",
-        "flag": "argentina",
-        "logo": "rayo_vallecano"
     }
 ]
