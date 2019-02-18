@@ -1,28 +1,19 @@
 [
     {
         "rank": "1.",
-        "name": " Paco Alcácer",
-        "country": "Spain",
-        "team": "Borussia Dortmund",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "2.",
         "name": "Luka Jović",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
-        "goals": "10",
+        "goals": "14",
         "flag": "serbia",
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "10",
+        "goals": "13",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -31,17 +22,26 @@
         "name": "Marco Reus",
         "country": "Germany",
         "team": "Borussia Dortmund",
-        "goals": "10",
+        "goals": "13",
         "flag": "germany",
         "logo": "borussia_dortmund"
     },
     {
+        "rank": "4.",
+        "name": " Paco Alcácer",
+        "country": "Spain",
+        "team": "Borussia Dortmund",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "borussia_dortmund"
+    },
+    {
         "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
+        "name": "Yussuf Poulsen",
+        "country": "Denmark",
         "team": "RB Leipzig",
-        "goals": "10",
-        "flag": "germany",
+        "goals": "12",
+        "flag": "denmark",
         "logo": "rb_leipzig"
     },
     {
@@ -49,9 +49,54 @@
         "name": "Sébastien Haller",
         "country": "France",
         "team": "Eintracht Frankfurt",
-        "goals": "9",
+        "goals": "11",
         "flag": "france",
         "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "11",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "8.",
+        "name": "Ondrej Duda",
+        "country": "Slovakia",
+        "team": "Hertha BSC",
+        "goals": "10",
+        "flag": "slovakia",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Alfreð Finnbogason",
+        "country": "Iceland",
+        "team": "FC Augsburg",
+        "goals": "10",
+        "flag": "iceland",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "goals": "10",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "11.",
+        "name": "Kai Havertz",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -64,39 +109,48 @@
     },
     {
         "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
         "goals": "9",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
-        "rank": "9.",
-        "name": "Yussuf Poulsen",
-        "country": "Denmark",
-        "team": "RB Leipzig",
-        "goals": "8",
-        "flag": "denmark",
-        "logo": "rb_leipzig"
+        "rank": "-",
+        "name": "Wout Weghorst",
+        "country": "Netherlands",
+        "team": "VfL Wolfsburg",
+        "goals": "9",
+        "flag": "netherlands",
+        "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "10.",
-        "name": "Ondrej Duda",
-        "country": "Slovakia",
+        "rank": "15.",
+        "name": "Vedad Ibišević",
+        "country": "Bosnia-Herzegovina",
         "team": "Hertha BSC",
-        "goals": "7",
-        "flag": "slovakia",
+        "goals": "8",
+        "flag": "bosnia_herzegovina",
         "logo": "hertha_bsc"
     },
     {
         "rank": "-",
-        "name": "Alfreð Finnbogason",
-        "country": "Iceland",
-        "team": "FC Augsburg",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "17.",
+        "name": "Ishak Belfodil",
+        "country": "Algeria",
+        "team": "1899 Hoffenheim",
         "goals": "7",
-        "flag": "iceland",
-        "logo": "fc_augsburg"
+        "flag": "algeria",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -108,75 +162,21 @@
         "logo": "fortuna_dusseldorf"
     },
     {
-        "rank": "13.",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
-        "goals": "6",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "6",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Reiss Nelson",
-        "country": "England",
-        "team": "1899 Hoffenheim",
-        "goals": "6",
-        "flag": "england",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Wout Weghorst",
-        "country": "Netherlands",
-        "team": "VfL Wolfsburg",
-        "goals": "6",
-        "flag": "netherlands",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "17.",
-        "name": "Daniel Ginczek",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Gomez",
-        "country": "Germany",
-        "team": "VfB Stuttgart",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Jonas Hofmann",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
-    },
-    {
         "rank": "-",
         "name": "Ante Rebić",
         "country": "Croatia",
         "team": "Eintracht Frankfurt",
-        "goals": "5",
+        "goals": "7",
         "flag": "croatia",
         "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Jadon Sancho",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "goals": "7",
+        "flag": "england",
+        "logo": "borussia_dortmund"
     }
 ]

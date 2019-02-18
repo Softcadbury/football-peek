@@ -10,6 +10,24 @@
     },
     {
         "rank": "2.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "goals": "5",
+        "flag": "france",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Chelsea FC",
+        "goals": "5",
+        "flag": "france",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Luka Jović",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
@@ -18,7 +36,7 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "3.",
+        "rank": "5.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
@@ -37,15 +55,6 @@
     },
     {
         "rank": "-",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
-        "goals": "4",
-        "flag": "france",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
         "name": "Patrick Cutrone",
         "country": "Italy",
         "team": "AC Milan",
@@ -55,21 +64,21 @@
     },
     {
         "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "Chelsea FC",
-        "goals": "4",
-        "flag": "france",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
         "name": "Fredrik Gulbrandsen",
         "country": "Norway",
         "team": "RB Salzburg",
         "goals": "4",
         "flag": "norway",
         "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
+        "name": "Giovani Lo Celso",
+        "country": "Argentina",
+        "team": "Real Betis",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "real_betis"
     },
     {
         "rank": "-",
@@ -90,7 +99,7 @@
         "logo": "apollon_limassol"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Marcus Antonsson",
         "country": "Sweden",
         "team": "Malmö FF",
@@ -145,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "goals": "3",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Jeremain Lens",
         "country": "Netherlands",
         "team": "Beşiktaş",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Giovani Lo Celso",
-        "country": "Argentina",
-        "team": "Real Betis",
-        "goals": "3",
-        "flag": "argentina",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
         "name": "Ruben Loftus-Cheek",
         "country": "England",
         "team": "Chelsea FC",
         "goals": "3",
         "flag": "england",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Matheus Cunha",
-        "country": "Brazil",
-        "team": "RB Leipzig",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "rb_leipzig"
     }
 ]

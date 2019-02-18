@@ -4,7 +4,7 @@
         "name": "Igor Stasevich",
         "country": "Belarus",
         "team": "BATE Borisov",
-        "assists": "6",
+        "assists": "7",
         "flag": "belarus",
         "logo": "bate_borisov"
     },
@@ -27,7 +27,25 @@
         "logo": "rb_salzburg"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Viktor Tsygankov",
+        "country": "Ukraine",
+        "team": "Dinamo Kiev",
+        "assists": "4",
+        "flag": "ukraine",
+        "logo": "dinamo_kiev"
+    },
+    {
+        "rank": "-",
+        "name": "Andreas Ulmer",
+        "country": "Austria",
+        "team": "RB Salzburg",
+        "assists": "4",
+        "flag": "austria",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "6.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -52,6 +70,15 @@
         "assists": "3",
         "flag": "spain",
         "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": "Kostas Fortounis",
+        "country": "Greece",
+        "team": "Olympiakos Piräus",
+        "assists": "3",
+        "flag": "greece",
+        "logo": "olympiakos_piraus"
     },
     {
         "rank": "-",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Viktor Tsygankov",
-        "country": "Ukraine",
-        "team": "Dinamo Kiev",
+        "name": " Willian",
+        "country": "Brazil",
+        "team": "Chelsea FC",
         "assists": "3",
-        "flag": "ukraine",
-        "logo": "dinamo_kiev"
-    },
-    {
-        "rank": "-",
-        "name": "Andreas Ulmer",
-        "country": "Austria",
-        "team": "RB Salzburg",
-        "assists": "3",
-        "flag": "austria",
-        "logo": "rb_salzburg"
-    },
-    {
-        "rank": "19.",
-        "name": "Nicklas Bendtner",
-        "country": "Denmark",
-        "team": "Rosenborg BK",
-        "assists": "2",
-        "flag": "denmark",
-        "logo": "rosenborg_bk"
-    },
-    {
-        "rank": "-",
-        "name": " Bruma",
-        "country": "Portugal",
-        "team": "RB Leipzig",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "rb_leipzig"
+        "flag": "brazil",
+        "logo": "chelsea_fc"
     }
 ]
