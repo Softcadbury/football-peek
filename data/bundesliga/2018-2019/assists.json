@@ -9,11 +9,11 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Jadon Sancho",
         "country": "England",
         "team": "Borussia Dortmund",
-        "assists": "11",
+        "assists": "12",
         "flag": "england",
         "logo": "borussia_dortmund"
     },
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Julian Brandt",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Sébastien Haller",
         "country": "France",
         "team": "Eintracht Frankfurt",
@@ -72,22 +81,31 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "9.",
-        "name": "Julian Brandt",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
+        "rank": "10.",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "7",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "-",
+        "rank": "11.",
         "name": "Jonathan de Guzmán",
         "country": "Netherlands",
         "team": "Eintracht Frankfurt",
         "assists": "6",
         "flag": "netherlands",
         "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Marcel Halstenberg",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -100,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "Werder Bremen",
         "assists": "6",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
+        "flag": "germany",
+        "logo": "werder_bremen"
     },
     {
         "rank": "-",
@@ -135,7 +153,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": "Maximilian Arnold",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Christian Günter",
+        "name": "Mario Götze",
         "country": "Germany",
-        "team": "SC Freiburg",
+        "team": "Borussia Dortmund",
         "assists": "5",
         "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Halstenberg",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "assists": "5",
-        "flag": "germany",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Pavel Kadeřábek",
-        "country": "Czech Republic",
-        "team": "1899 Hoffenheim",
-        "assists": "5",
-        "flag": "czech_republic",
-        "logo": "1899_hoffenheim"
+        "logo": "borussia_dortmund"
     }
 ]

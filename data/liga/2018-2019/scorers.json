@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "22",
+        "goals": "25",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "15",
+        "goals": "16",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -22,7 +22,7 @@
         "name": "Cristhian Stuani",
         "country": "Uruguay",
         "team": "Girona FC",
-        "goals": "13",
+        "goals": "15",
         "flag": "uruguay",
         "logo": "girona_fc"
     },
@@ -54,11 +54,11 @@
         "logo": "sevilla_fc"
     },
     {
-        "rank": "7.",
+        "rank": "-",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "goals": "10",
+        "goals": "11",
         "flag": "france",
         "logo": "real_madrid"
     },
@@ -67,12 +67,12 @@
         "name": " Borja Iglesias",
         "country": "Spain",
         "team": "Espanyol Barcelona",
-        "goals": "10",
+        "goals": "11",
         "flag": "spain",
         "logo": "espanyol_barcelona"
     },
     {
-        "rank": "-",
+        "rank": "9.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -81,7 +81,43 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": " Mata",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Molina",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Raúl de Tomás",
+        "country": "Spain",
+        "team": "Rayo Vallecano",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "rayo_vallecano"
+    },
+    {
+        "rank": "-",
+        "name": " Roger",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "14.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "Sevilla FC",
@@ -97,42 +133,6 @@
         "goals": "9",
         "flag": "uruguay",
         "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": " Mata",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Molina",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Raúl de Tomás",
-        "country": "Spain",
-        "team": "Rayo Vallecano",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "rayo_vallecano"
-    },
-    {
-        "rank": "-",
-        "name": " Roger",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "levante_ud"
     },
     {
         "rank": "-",

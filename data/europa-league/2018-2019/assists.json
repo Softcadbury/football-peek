@@ -10,6 +10,24 @@
     },
     {
         "rank": "2.",
+        "name": " Willian",
+        "country": "Brazil",
+        "team": "Chelsea FC",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "3.",
+        "name": "Mijat Gaćinović",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "4",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
@@ -25,6 +43,15 @@
         "assists": "4",
         "flag": "austria",
         "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
+        "name": "Karl Toko Ekambi",
+        "country": "Cameroon",
+        "team": "Villarreal CF",
+        "assists": "4",
+        "flag": "cameroon",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -45,7 +72,7 @@
         "logo": "rb_salzburg"
     },
     {
-        "rank": "6.",
+        "rank": "9.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -79,15 +106,6 @@
         "assists": "3",
         "flag": "greece",
         "logo": "olympiakos_piraus"
-    },
-    {
-        "rank": "-",
-        "name": "Mijat Gaćinović",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "3",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Pozuelo",
-        "country": "Spain",
-        "team": "KRC Genk",
+        "name": "Bruno Petković",
+        "country": "Croatia",
+        "team": "Dinamo Zagreb",
         "assists": "3",
-        "flag": "spain",
-        "logo": "krc_genk"
-    },
-    {
-        "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Villarreal CF",
-        "assists": "3",
-        "flag": "cameroon",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Willian",
-        "country": "Brazil",
-        "team": "Chelsea FC",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "chelsea_fc"
+        "flag": "croatia",
+        "logo": "dinamo_zagreb"
     }
 ]
