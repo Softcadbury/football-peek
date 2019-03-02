@@ -4,7 +4,7 @@
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
-        "goals": "19",
+        "goals": "22",
         "flag": "france",
         "logo": "paris_saint_germain"
     },
@@ -64,6 +64,24 @@
     },
     {
         "rank": "8.",
+        "name": "Max Gradel",
+        "country": "Ivory Coast",
+        "team": "Toulouse FC",
+        "goals": "10",
+        "flag": "ivory_coast",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Gaëtan Laborde",
+        "country": "France",
+        "team": "Montpellier HSC",
+        "goals": "10",
+        "flag": "france",
+        "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "10.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "Lille OSC",
@@ -88,24 +106,6 @@
         "goals": "9",
         "flag": "colombia",
         "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Max Gradel",
-        "country": "Ivory Coast",
-        "team": "Toulouse FC",
-        "goals": "9",
-        "flag": "ivory_coast",
-        "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gaëtan Laborde",
-        "country": "France",
-        "team": "Montpellier HSC",
-        "goals": "9",
-        "flag": "france",
-        "logo": "montpellier_hsc"
     },
     {
         "rank": "13.",
@@ -144,7 +144,16 @@
         "logo": "rc_strasbourg"
     },
     {
-        "rank": "17.",
+        "rank": "-",
+        "name": "Rémi Oudin",
+        "country": "France",
+        "team": "Stade Reims",
+        "goals": "8",
+        "flag": "france",
+        "logo": "stade_reims"
+    },
+    {
+        "rank": "18.",
         "name": "Moussa Dembélé",
         "country": "France",
         "team": "Olympique Lyon",
@@ -169,14 +178,5 @@
         "goals": "7",
         "flag": "france",
         "logo": "ea_guingamp"
-    },
-    {
-        "rank": "20.",
-        "name": "Houssem Aouar",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "6",
-        "flag": "france",
-        "logo": "olympique_lyon"
     }
 ]

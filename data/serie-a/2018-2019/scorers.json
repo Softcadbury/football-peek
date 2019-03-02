@@ -13,7 +13,7 @@
         "name": "Krzysztof Piątek",
         "country": "Poland",
         "team": "Genoa CFC",
-        "goals": "17",
+        "goals": "18",
         "flag": "poland",
         "logo": "genoa_cfc"
     },
@@ -22,12 +22,12 @@
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
-        "goals": "16",
+        "goals": "17",
         "flag": "italy",
         "logo": "sampdoria"
     },
     {
-        "rank": "-",
+        "rank": "4.",
         "name": "Duván Zapata",
         "country": "Colombia",
         "team": "Atalanta",
@@ -40,7 +40,7 @@
         "name": "Arkadiusz Milik",
         "country": "Poland",
         "team": "SSC Napoli",
-        "goals": "12",
+        "goals": "14",
         "flag": "poland",
         "logo": "ssc_napoli"
     },
@@ -49,12 +49,12 @@
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Empoli FC",
-        "goals": "11",
+        "goals": "12",
         "flag": "italy",
         "logo": "empoli_fc"
     },
     {
-        "rank": "-",
+        "rank": "7.",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
@@ -64,19 +64,10 @@
     },
     {
         "rank": "8.",
-        "name": "Mauro Icardi",
-        "country": "Argentina",
-        "team": "Inter",
-        "goals": "9",
-        "flag": "argentina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
         "name": "Leonardo Pavoletti",
         "country": "Italy",
         "team": "Cagliari Calcio",
-        "goals": "9",
+        "goals": "10",
         "flag": "italy",
         "logo": "cagliari_calcio"
     },
@@ -85,27 +76,36 @@
         "name": "Andrea Petagna",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
-        "goals": "9",
+        "goals": "10",
         "flag": "italy",
         "logo": "spal_2013_ferrara"
     },
     {
-        "rank": "11.",
+        "rank": "10.",
+        "name": " Gervinho",
+        "country": "Ivory Coast",
+        "team": "Parma Calcio 1913",
+        "goals": "9",
+        "flag": "ivory_coast",
+        "logo": "parma_calcio_1913"
+    },
+    {
+        "rank": "-",
+        "name": "Mauro Icardi",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "9",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "12.",
         "name": "Stephan El Shaarawy",
         "country": "Italy",
         "team": "AS Roma",
         "goals": "8",
         "flag": "italy",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Gervinho",
-        "country": "Ivory Coast",
-        "team": "Parma Calcio 1913",
-        "goals": "8",
-        "flag": "ivory_coast",
-        "logo": "parma_calcio_1913"
     },
     {
         "rank": "-",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Josip Iličič",
-        "country": "Slovenia",
-        "team": "Atalanta",
+        "name": "Camillo Ciano",
+        "country": "Italy",
+        "team": "Frosinone Calcio",
         "goals": "7",
-        "flag": "slovenia",
-        "logo": "atalanta"
+        "flag": "italy",
+        "logo": "frosinone_calcio"
     },
     {
-        "rank": "20.",
-        "name": "Khouma Babacar",
-        "country": "Senegal",
-        "team": "Sassuolo Calcio",
-        "goals": "6",
-        "flag": "senegal",
-        "logo": "sassuolo_calcio"
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "7",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     }
 ]

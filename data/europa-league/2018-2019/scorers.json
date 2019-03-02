@@ -4,7 +4,7 @@
         "name": "Munas Dabbur",
         "country": "Israel",
         "team": "RB Salzburg",
-        "goals": "6",
+        "goals": "7",
         "flag": "israel",
         "logo": "rb_salzburg"
     },
@@ -13,7 +13,7 @@
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
-        "goals": "5",
+        "goals": "6",
         "flag": "france",
         "logo": "sevilla_fc"
     },
@@ -22,7 +22,7 @@
         "name": "Olivier Giroud",
         "country": "France",
         "team": "Chelsea FC",
-        "goals": "5",
+        "goals": "6",
         "flag": "france",
         "logo": "chelsea_fc"
     },
@@ -31,12 +31,30 @@
         "name": "Luka Jović",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
-        "goals": "5",
+        "goals": "6",
         "flag": "serbia",
         "logo": "eintracht_frankfurt"
     },
     {
         "rank": "5.",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
+        "goals": "5",
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Giovani Lo Celso",
+        "country": "Argentina",
+        "team": "Real Betis",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "7.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
@@ -73,15 +91,6 @@
     },
     {
         "rank": "-",
-        "name": "Giovani Lo Celso",
-        "country": "Argentina",
-        "team": "Real Betis",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
         "name": "Takumi Minamino",
         "country": "Japan",
         "team": "RB Salzburg",
@@ -99,13 +108,22 @@
         "logo": "apollon_limassol"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Marcus Antonsson",
         "country": "Sweden",
         "team": "Malmö FF",
         "goals": "3",
         "flag": "sweden",
         "logo": "malmo_ff"
+    },
+    {
+        "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Sporting CP",
+        "goals": "3",
+        "flag": "portugal",
+        "logo": "sporting_cp"
     },
     {
         "rank": "-",
@@ -136,15 +154,6 @@
     },
     {
         "rank": "-",
-        "name": "Sébastien Haller",
-        "country": "France",
-        "team": "Eintracht Frankfurt",
-        "goals": "3",
-        "flag": "france",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
         "name": "Kai Havertz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -169,14 +178,5 @@
         "goals": "3",
         "flag": "netherlands",
         "logo": "be_ikta_"
-    },
-    {
-        "rank": "-",
-        "name": "Ruben Loftus-Cheek",
-        "country": "England",
-        "team": "Chelsea FC",
-        "goals": "3",
-        "flag": "england",
-        "logo": "chelsea_fc"
     }
 ]

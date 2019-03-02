@@ -72,13 +72,31 @@
         "logo": "angers_sco"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Adrien Thomasson",
+        "country": "France",
+        "team": "RC Strasbourg",
+        "assists": "6",
+        "flag": "france",
+        "logo": "rc_strasbourg"
+    },
+    {
+        "rank": "10.",
         "name": "Mehmet Çelik",
         "country": "Turkey",
         "team": "Lille OSC",
         "assists": "5",
         "flag": "turkey",
         "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
+        "name": "Andy Delort",
+        "country": "France",
+        "team": "Montpellier HSC",
+        "assists": "5",
+        "flag": "france",
+        "logo": "montpellier_hsc"
     },
     {
         "rank": "-",
@@ -135,16 +153,7 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "-",
-        "name": "Adrien Thomasson",
-        "country": "France",
-        "team": "RC Strasbourg",
-        "assists": "5",
-        "flag": "france",
-        "logo": "rc_strasbourg"
-    },
-    {
-        "rank": "17.",
+        "rank": "18.",
         "name": "Abdoulaye Bamba",
         "country": "Ivory Coast",
         "team": "Angers SCO",
@@ -169,14 +178,5 @@
         "assists": "4",
         "flag": "brazil",
         "logo": "fc_nantes"
-    },
-    {
-        "rank": "-",
-        "name": "Benjamin Bourigeaud",
-        "country": "France",
-        "team": "Stade Rennes",
-        "assists": "4",
-        "flag": "france",
-        "logo": "stade_rennes"
     }
 ]
