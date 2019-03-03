@@ -27,6 +27,19 @@
     },
     {
         "rank": "3",
+        "team": "AC Milan",
+        "points": "48",
+        "played": "26",
+        "win": "13",
+        "draw": "9",
+        "lost": "4",
+        "goalsFor": "39",
+        "goalsAgainst": "22",
+        "goalDifference": "17",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "4",
         "team": "Inter",
         "points": "47",
         "played": "26",
@@ -39,33 +52,33 @@
         "logo": "inter"
     },
     {
-        "rank": "4",
-        "team": "AC Milan",
-        "points": "45",
-        "played": "25",
-        "win": "12",
-        "draw": "9",
-        "lost": "4",
-        "goalsFor": "38",
-        "goalsAgainst": "22",
-        "goalDifference": "16",
-        "logo": "ac_milan"
-    },
-    {
         "rank": "5",
         "team": "AS Roma",
         "points": "44",
-        "played": "25",
+        "played": "26",
         "win": "12",
         "draw": "8",
-        "lost": "5",
+        "lost": "6",
         "goalsFor": "49",
-        "goalsAgainst": "33",
-        "goalDifference": "16",
+        "goalsAgainst": "36",
+        "goalDifference": "13",
         "logo": "as_roma"
     },
     {
         "rank": "6",
+        "team": "Lazio Roma",
+        "points": "41",
+        "played": "25",
+        "win": "12",
+        "draw": "5",
+        "lost": "8",
+        "goalsFor": "36",
+        "goalsAgainst": "27",
+        "goalDifference": "9",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "7",
         "team": "Atalanta",
         "points": "38",
         "played": "25",
@@ -78,7 +91,7 @@
         "logo": "atalanta"
     },
     {
-        "rank": "7",
+        "rank": "8",
         "team": "Torino FC",
         "points": "38",
         "played": "25",
@@ -89,19 +102,6 @@
         "goalsAgainst": "22",
         "goalDifference": "8",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "8",
-        "team": "Lazio Roma",
-        "points": "38",
-        "played": "24",
-        "win": "11",
-        "draw": "5",
-        "lost": "8",
-        "goalsFor": "33",
-        "goalsAgainst": "27",
-        "goalDifference": "6",
-        "logo": "lazio_roma"
     },
     {
         "rank": "9",
@@ -133,13 +133,13 @@
         "rank": "11",
         "team": "Sassuolo Calcio",
         "points": "31",
-        "played": "25",
+        "played": "26",
         "win": "7",
         "draw": "10",
-        "lost": "8",
+        "lost": "9",
         "goalsFor": "35",
-        "goalsAgainst": "40",
-        "goalDifference": "-5",
+        "goalsAgainst": "41",
+        "goalDifference": "-6",
         "logo": "sassuolo_calcio"
     },
     {
