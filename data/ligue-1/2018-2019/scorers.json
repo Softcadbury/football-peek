@@ -4,27 +4,27 @@
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
-        "goals": "24",
+        "goals": "27",
         "flag": "france",
         "logo": "paris_saint_germain"
     },
     {
         "rank": "2.",
+        "name": "Nicolas Pépé",
+        "country": "Ivory Coast",
+        "team": "Lille OSC",
+        "goals": "18",
+        "flag": "ivory_coast",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "3.",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
         "goals": "17",
         "flag": "uruguay",
         "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "3.",
-        "name": "Nicolas Pépé",
-        "country": "Ivory Coast",
-        "team": "Lille OSC",
-        "goals": "16",
-        "flag": "ivory_coast",
-        "logo": "lille_osc"
     },
     {
         "rank": "4.",
@@ -36,7 +36,34 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Florian Thauvin",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "goals": "13",
+        "flag": "france",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "6.",
+        "name": "Moussa Dembélé",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "12",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Radamel Falcao",
+        "country": "Colombia",
+        "team": "AS Monaco",
+        "goals": "12",
+        "flag": "colombia",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
         "name": "Wahbi Khazri",
         "country": "Tunisia",
         "team": "AS Saint-Étienne",
@@ -54,31 +81,49 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "-",
-        "name": "Florian Thauvin",
+        "rank": "10.",
+        "name": "Andy Delort",
         "country": "France",
-        "team": "Olympique Marseille",
-        "goals": "12",
-        "flag": "france",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "8.",
-        "name": "Radamel Falcao",
-        "country": "Colombia",
-        "team": "AS Monaco",
+        "team": "Montpellier HSC",
         "goals": "11",
-        "flag": "colombia",
-        "logo": "as_monaco"
+        "flag": "france",
+        "logo": "montpellier_hsc"
     },
     {
-        "rank": "9.",
+        "rank": "11.",
+        "name": "Stéphane Bahoken",
+        "country": "France",
+        "team": "Angers SCO",
+        "goals": "10",
+        "flag": "france",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "-",
+        "name": "Jonathan Bamba",
+        "country": "France",
+        "team": "Lille OSC",
+        "goals": "10",
+        "flag": "france",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
         "name": "Max Gradel",
         "country": "Ivory Coast",
         "team": "Toulouse FC",
         "goals": "10",
         "flag": "ivory_coast",
         "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "François Kamano",
+        "country": "Guinea",
+        "team": "Girondins Bordeaux",
+        "goals": "10",
+        "flag": "guinea",
+        "logo": "girondins_bordeaux"
     },
     {
         "rank": "-",
@@ -90,93 +135,48 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "11.",
-        "name": "Jonathan Bamba",
-        "country": "France",
-        "team": "Lille OSC",
-        "goals": "9",
-        "flag": "france",
-        "logo": "lille_osc"
-    },
-    {
         "rank": "-",
-        "name": "Andy Delort",
+        "name": "Rémi Oudin",
         "country": "France",
-        "team": "Montpellier HSC",
-        "goals": "9",
+        "team": "Stade Reims",
+        "goals": "10",
         "flag": "france",
-        "logo": "montpellier_hsc"
+        "logo": "stade_reims"
     },
     {
-        "rank": "13.",
-        "name": "Stéphane Bahoken",
-        "country": "France",
-        "team": "Angers SCO",
-        "goals": "8",
-        "flag": "france",
-        "logo": "angers_sco"
+        "rank": "17.",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
+        "goals": "9",
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Olympique Lyon",
-        "goals": "8",
+        "goals": "9",
         "flag": "france",
         "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "François Kamano",
-        "country": "Guinea",
-        "team": "Girondins Bordeaux",
-        "goals": "8",
-        "flag": "guinea",
-        "logo": "girondins_bordeaux"
     },
     {
         "rank": "-",
         "name": "Lebo Mothiba",
         "country": "South Africa",
         "team": "RC Strasbourg",
-        "goals": "8",
+        "goals": "9",
         "flag": "south_africa",
         "logo": "rc_strasbourg"
     },
     {
-        "rank": "-",
-        "name": "Rémi Oudin",
-        "country": "France",
-        "team": "Stade Reims",
+        "rank": "20.",
+        "name": " Nuno Da Costa",
+        "country": "Cape Verde",
+        "team": "RC Strasbourg",
         "goals": "8",
-        "flag": "france",
-        "logo": "stade_reims"
-    },
-    {
-        "rank": "18.",
-        "name": "Moussa Dembélé",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "7",
-        "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": " Rafael Leão",
-        "country": "Portugal",
-        "team": "Lille OSC",
-        "goals": "7",
-        "flag": "portugal",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Marcus Thuram",
-        "country": "France",
-        "team": "EA Guingamp",
-        "goals": "7",
-        "flag": "france",
-        "logo": "ea_guingamp"
+        "flag": "cape_verde",
+        "logo": "rc_strasbourg"
     }
 ]

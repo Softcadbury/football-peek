@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "assists": "11",
+        "assists": "12",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": " Pablo Sarabia",
         "country": "Spain",
         "team": "Sevilla FC",
-        "assists": "9",
+        "assists": "10",
         "flag": "spain",
         "logo": "sevilla_fc"
     },
@@ -22,9 +22,18 @@
         "name": " Jony",
         "country": "Spain",
         "team": "CD Alavés",
-        "assists": "8",
+        "assists": "9",
         "flag": "spain",
         "logo": "cd_alaves"
+    },
+    {
+        "rank": "4.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "assists": "8",
+        "flag": "france",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -36,7 +45,25 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": " Santi Cazorla",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "7.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "assists": "7",
+        "flag": "france",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
         "name": " Brais Méndez",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -45,22 +72,13 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "7",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "7.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
+        "rank": "9.",
+        "name": " Cristian Tello",
+        "country": "Spain",
+        "team": "Real Betis",
         "assists": "6",
-        "flag": "france",
-        "logo": "sevilla_fc"
+        "flag": "spain",
+        "logo": "real_betis"
     },
     {
         "rank": "-",
@@ -81,13 +99,49 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "10.",
-        "name": " Cristian Tello",
+        "rank": "-",
+        "name": "Jonathan Silva",
+        "country": "Argentina",
+        "team": "CD Leganés",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "cd_leganes"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "6",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "14.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "assists": "5",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Campaña",
         "country": "Spain",
-        "team": "Real Betis",
+        "team": "Levante UD",
         "assists": "5",
         "flag": "spain",
-        "logo": "real_betis"
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
+        "name": " Carlos Soler",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -100,83 +154,29 @@
     },
     {
         "rank": "-",
-        "name": " Rubén Rochina",
-        "country": "Spain",
-        "team": "Levante UD",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": " Santi Cazorla",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan Silva",
-        "country": "Argentina",
-        "team": "CD Leganés",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "cd_leganes"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "5",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "16.",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "FC Barcelona",
-        "assists": "4",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Jason",
-        "country": "Spain",
-        "team": "Levante UD",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
         "name": " Jesús Navas",
         "country": "Spain",
         "team": "Sevilla FC",
-        "assists": "4",
+        "assists": "5",
         "flag": "spain",
         "logo": "sevilla_fc"
     },
     {
         "rank": "-",
-        "name": " Joan Jordán",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "sd_eibar"
+        "name": "Luka Modrić",
+        "country": "Croatia",
+        "team": "Real Madrid",
+        "assists": "5",
+        "flag": "croatia",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
-        "name": " Melendo",
+        "name": " Moi Gómez",
         "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "assists": "4",
+        "team": "SD Huesca",
+        "assists": "5",
         "flag": "spain",
-        "logo": "espanyol_barcelona"
+        "logo": "sd_huesca"
     }
 ]
