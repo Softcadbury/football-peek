@@ -4,9 +4,27 @@
         "name": "Papu Gómez",
         "country": "Argentina",
         "team": "Atalanta",
-        "assists": "8",
+        "assists": "10",
         "flag": "argentina",
         "logo": "atalanta"
+    },
+    {
+        "rank": "2.",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "assists": "9",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "3.",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -18,13 +36,22 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "3.",
+        "rank": "5.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Juventus",
         "assists": "7",
         "flag": "portugal",
         "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Josip Iličič",
+        "country": "Slovenia",
+        "team": "Atalanta",
+        "assists": "7",
+        "flag": "slovenia",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -37,37 +64,19 @@
     },
     {
         "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "assists": "7",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "6.",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
-        "assists": "6",
+        "assists": "7",
         "flag": "italy",
         "logo": "sampdoria"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Cristiano Biraghi",
         "country": "Italy",
         "team": "ACF Fiorentina",
-        "assists": "5",
+        "assists": "6",
         "flag": "italy",
         "logo": "acf_fiorentina"
     },
@@ -76,25 +85,16 @@
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "AC Milan",
-        "assists": "5",
+        "assists": "6",
         "flag": "turkey",
         "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Iličič",
-        "country": "Slovenia",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "slovenia",
-        "logo": "atalanta"
     },
     {
         "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
-        "assists": "5",
+        "assists": "6",
         "flag": "italy",
         "logo": "ssc_napoli"
     },
@@ -103,9 +103,72 @@
         "name": "Mario Mandžukić",
         "country": "Croatia",
         "team": "Juventus",
-        "assists": "5",
+        "assists": "6",
         "flag": "croatia",
         "logo": "juventus"
+    },
+    {
+        "rank": "13.",
+        "name": "Joaquín Correa",
+        "country": "Argentina",
+        "team": "Lazio Roma",
+        "assists": "5",
+        "flag": "argentina",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Remo Freuler",
+        "country": "Switzerland",
+        "team": "Atalanta",
+        "assists": "5",
+        "flag": "switzerland",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Justin Kluivert",
+        "country": "Netherlands",
+        "team": "AS Roma",
+        "assists": "5",
+        "flag": "netherlands",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Cristhian Kouamé",
+        "country": "Ivory Coast",
+        "team": "Genoa CFC",
+        "assists": "5",
+        "flag": "ivory_coast",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "-",
+        "name": "Rade Krunić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Empoli FC",
+        "assists": "5",
+        "flag": "bosnia_herzegovina",
+        "logo": "empoli_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Pol Lirola",
+        "country": "Spain",
+        "team": "Sassuolo Calcio",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Nicola Murru",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "assists": "5",
+        "flag": "italy",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -115,68 +178,5 @@
         "assists": "5",
         "flag": "turkey",
         "logo": "as_roma"
-    },
-    {
-        "rank": "14.",
-        "name": "Domenico Criscito",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "assists": "4",
-        "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
-        "assists": "4",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Hans Hateboer",
-        "country": "Netherlands",
-        "team": "Atalanta",
-        "assists": "4",
-        "flag": "netherlands",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Cristhian Kouamé",
-        "country": "Ivory Coast",
-        "team": "Genoa CFC",
-        "assists": "4",
-        "flag": "ivory_coast",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Darko Lazović",
-        "country": "Serbia",
-        "team": "Genoa CFC",
-        "assists": "4",
-        "flag": "serbia",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Nicola Murru",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "assists": "4",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Pašalić",
-        "country": "Croatia",
-        "team": "Atalanta",
-        "assists": "4",
-        "flag": "croatia",
-        "logo": "atalanta"
     }
 ]

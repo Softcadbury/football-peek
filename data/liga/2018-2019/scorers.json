@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "25",
+        "goals": "33",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "16",
+        "goals": "20",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -22,25 +22,43 @@
         "name": "Cristhian Stuani",
         "country": "Uruguay",
         "team": "Girona FC",
-        "goals": "15",
+        "goals": "18",
         "flag": "uruguay",
         "logo": "girona_fc"
     },
     {
         "rank": "4.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "17",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "5.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
-        "goals": "12",
+        "goals": "16",
         "flag": "france",
         "logo": "sevilla_fc"
     },
     {
-        "rank": "-",
+        "rank": "6.",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "15",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "7.",
         "name": " Charles",
         "country": "Brazil",
         "team": "SD Eibar",
-        "goals": "12",
+        "goals": "13",
         "flag": "brazil",
         "logo": "sd_eibar"
     },
@@ -49,48 +67,66 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "12",
+        "goals": "13",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "7.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "11",
-        "flag": "france",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Borja Iglesias",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "11",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "9.",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "celta_vigo"
     },
     {
         "rank": "-",
         "name": " Mata",
         "country": "Spain",
         "team": "Getafe CF",
-        "goals": "10",
+        "goals": "13",
         "flag": "spain",
         "logo": "getafe_cf"
     },
     {
         "rank": "-",
+        "name": " Raúl de Tomás",
+        "country": "Spain",
+        "team": "Rayo Vallecano",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "rayo_vallecano"
+    },
+    {
+        "rank": "11.",
+        "name": " Borja Iglesias",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Mikel Oyarzabal",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": " Roger",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "14.",
+        "name": "Maximiliano Gómez",
+        "country": "Uruguay",
+        "team": "Celta Vigo",
+        "goals": "11",
+        "flag": "uruguay",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "15.",
         "name": " Molina",
         "country": "Spain",
         "team": "Getafe CF",
@@ -100,16 +136,7 @@
     },
     {
         "rank": "-",
-        "name": " Raúl de Tomás",
-        "country": "Spain",
-        "team": "Rayo Vallecano",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "rayo_vallecano"
-    },
-    {
-        "rank": "-",
-        "name": " Roger",
+        "name": " Morales",
         "country": "Spain",
         "team": "Levante UD",
         "goals": "10",
@@ -117,7 +144,25 @@
         "logo": "levante_ud"
     },
     {
-        "rank": "14.",
+        "rank": "-",
+        "name": " Pablo Sarabia",
+        "country": "Spain",
+        "team": "Sevilla FC",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "10",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "19.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "Sevilla FC",
@@ -127,56 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Maximiliano Gómez",
-        "country": "Uruguay",
-        "team": "Celta Vigo",
-        "goals": "9",
-        "flag": "uruguay",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "9",
-        "flag": "brazil",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "17.",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "FC Barcelona",
-        "goals": "8",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Youssef En-Nesyri",
-        "country": "Morocco",
-        "team": "CD Leganés",
-        "goals": "8",
-        "flag": "morocco",
-        "logo": "cd_leganes"
-    },
-    {
-        "rank": "-",
-        "name": " Mikel Oyarzabal",
+        "name": " Williams",
         "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "8",
+        "team": "Athletic Bilbao",
+        "goals": "9",
         "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Morales",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "levante_ud"
+        "logo": "athletic_bilbao"
     }
 ]
