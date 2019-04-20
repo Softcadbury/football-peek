@@ -4,7 +4,7 @@
         "name": "Olivier Giroud",
         "country": "France",
         "team": "Chelsea FC",
-        "goals": "9",
+        "goals": "10",
         "flag": "france",
         "logo": "chelsea_fc"
     },
@@ -27,11 +27,11 @@
         "logo": "rb_salzburg"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Luka Jović",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
-        "goals": "7",
+        "goals": "8",
         "flag": "serbia",
         "logo": "eintracht_frankfurt"
     },
@@ -118,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "goals": "4",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Takumi Minamino",
         "country": "Japan",
         "team": "RB Salzburg",
@@ -144,7 +153,7 @@
         "logo": "apollon_limassol"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
         "name": "Marcus Antonsson",
         "country": "Sweden",
         "team": "Malmö FF",
@@ -169,14 +178,5 @@
         "goals": "3",
         "flag": "portugal",
         "logo": "sporting_cp"
-    },
-    {
-        "rank": "-",
-        "name": "Moussa Djenepo",
-        "country": "Mali",
-        "team": "Standard Liège",
-        "goals": "3",
-        "flag": "mali",
-        "logo": "standard_liege"
     }
 ]

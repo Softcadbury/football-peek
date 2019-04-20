@@ -13,7 +13,7 @@
         "name": " Pablo Sarabia",
         "country": "Spain",
         "team": "Sevilla FC",
-        "assists": "10",
+        "assists": "11",
         "flag": "spain",
         "logo": "sevilla_fc"
     },
@@ -22,7 +22,7 @@
         "name": " Jony",
         "country": "Spain",
         "team": "CD Alavés",
-        "assists": "9",
+        "assists": "10",
         "flag": "spain",
         "logo": "cd_alaves"
     },
@@ -31,9 +31,18 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "assists": "8",
+        "assists": "9",
         "flag": "france",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "5.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "Sevilla FC",
+        "assists": "8",
+        "flag": "france",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "-",
@@ -54,16 +63,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "7.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "Sevilla FC",
-        "assists": "7",
-        "flag": "france",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": " Brais Méndez",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -73,6 +73,15 @@
     },
     {
         "rank": "9.",
+        "name": " Carlos Soler",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
         "name": " Cristian Tello",
         "country": "Spain",
         "team": "Real Betis",
@@ -117,7 +126,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -136,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": " Carlos Soler",
+        "name": " Embarba",
         "country": "Spain",
-        "team": "Valencia CF",
+        "team": "Rayo Vallecano",
         "assists": "5",
         "flag": "spain",
-        "logo": "valencia_cf"
+        "logo": "rayo_vallecano"
     },
     {
         "rank": "-",
@@ -163,20 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Luka Modrić",
-        "country": "Croatia",
-        "team": "Real Madrid",
-        "assists": "5",
-        "flag": "croatia",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Moi Gómez",
+        "name": " Melendo",
         "country": "Spain",
-        "team": "SD Huesca",
+        "team": "Espanyol Barcelona",
         "assists": "5",
         "flag": "spain",
-        "logo": "sd_huesca"
+        "logo": "espanyol_barcelona"
     }
 ]

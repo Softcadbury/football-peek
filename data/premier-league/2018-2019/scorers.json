@@ -9,11 +9,11 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "18",
+        "goals": "19",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -22,12 +22,21 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Arsenal FC",
-        "goals": "17",
+        "goals": "18",
         "flag": "gabon",
         "logo": "arsenal_fc"
     },
     {
         "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "18",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "5.",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -37,15 +46,15 @@
     },
     {
         "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
         "goals": "17",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
+        "flag": "england",
+        "logo": "manchester_city"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -54,16 +63,7 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "7.",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "goals": "15",
-        "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
@@ -81,7 +81,16 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Paul Pogba",
+        "country": "France",
+        "team": "Manchester United",
+        "goals": "13",
+        "flag": "france",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "11.",
         "name": "Raúl Jiménez",
         "country": "Mexico",
         "team": "Wolverhampton Wanderers",
@@ -97,6 +106,15 @@
         "goals": "12",
         "flag": "belgium",
         "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Luka Milivojević",
+        "country": "Serbia",
+        "team": "Crystal Palace",
+        "goals": "12",
+        "flag": "serbia",
+        "logo": "crystal_palace"
     },
     {
         "rank": "-",
@@ -135,7 +153,16 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "16.",
+        "rank": "-",
+        "name": "Callum Wilson",
+        "country": "England",
+        "team": "AFC Bournemouth",
+        "goals": "12",
+        "flag": "england",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "19.",
         "name": "Joshua King",
         "country": "Norway",
         "team": "AFC Bournemouth",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Luka Milivojević",
-        "country": "Serbia",
-        "team": "Crystal Palace",
-        "goals": "11",
-        "flag": "serbia",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
         "name": "Glenn Murray",
         "country": "England",
         "team": "Brighton & Hove Albion",
         "goals": "11",
         "flag": "england",
         "logo": "brighton___hove_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Paul Pogba",
-        "country": "France",
-        "team": "Manchester United",
-        "goals": "11",
-        "flag": "france",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Callum Wilson",
-        "country": "England",
-        "team": "AFC Bournemouth",
-        "goals": "11",
-        "flag": "england",
-        "logo": "afc_bournemouth"
     }
 ]

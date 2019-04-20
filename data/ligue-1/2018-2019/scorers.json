@@ -13,7 +13,7 @@
         "name": "Nicolas Pépé",
         "country": "Ivory Coast",
         "team": "Lille OSC",
-        "goals": "18",
+        "goals": "19",
         "flag": "ivory_coast",
         "logo": "lille_osc"
     },
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Wahbi Khazri",
+        "country": "Tunisia",
+        "team": "AS Saint-Étienne",
+        "goals": "13",
+        "flag": "tunisia",
+        "logo": "as_saint_etienne"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
@@ -45,7 +54,7 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Moussa Dembélé",
         "country": "France",
         "team": "Olympique Lyon",
@@ -64,15 +73,6 @@
     },
     {
         "rank": "-",
-        "name": "Wahbi Khazri",
-        "country": "Tunisia",
-        "team": "AS Saint-Étienne",
-        "goals": "12",
-        "flag": "tunisia",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
         "name": "Emiliano Sala",
         "country": "Argentina",
         "team": "FC Nantes",
@@ -82,6 +82,15 @@
     },
     {
         "rank": "10.",
+        "name": "Jonathan Bamba",
+        "country": "France",
+        "team": "Lille OSC",
+        "goals": "11",
+        "flag": "france",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
         "name": "Andy Delort",
         "country": "France",
         "team": "Montpellier HSC",
@@ -90,22 +99,13 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Stéphane Bahoken",
         "country": "France",
         "team": "Angers SCO",
         "goals": "10",
         "flag": "france",
         "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan Bamba",
-        "country": "France",
-        "team": "Lille OSC",
-        "goals": "10",
-        "flag": "france",
-        "logo": "lille_osc"
     },
     {
         "rank": "-",
@@ -172,11 +172,11 @@
     },
     {
         "rank": "20.",
-        "name": " Nuno Da Costa",
-        "country": "Cape Verde",
+        "name": "Ludovic Ajorque",
+        "country": "France",
         "team": "RC Strasbourg",
         "goals": "8",
-        "flag": "cape_verde",
+        "flag": "france",
         "logo": "rc_strasbourg"
     }
 ]

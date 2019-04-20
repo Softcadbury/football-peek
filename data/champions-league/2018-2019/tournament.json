@@ -1,5 +1,36 @@
 [
     {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "date1": "30/04/2019",
+                "date2": "08/05/2019",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "Tottenham Hotspur",
+                "team2": "AFC Ajax",
+                "score1": "-:-",
+                "score2": "-:-",
+                "winner": "",
+                "team1Logo": "tottenham_hotspur",
+                "team2Logo": "afc_ajax"
+            },
+            {
+                "date1": "01/05/2019",
+                "date2": "07/05/2019",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "FC Barcelona",
+                "team2": "Liverpool FC",
+                "score1": "-:-",
+                "score2": "-:-",
+                "winner": "",
+                "team1Logo": "fc_barcelona",
+                "team2Logo": "liverpool_fc"
+            }
+        ]
+    },
+    {
         "name": "Quarter-finals",
         "matches": [
             {
@@ -10,8 +41,8 @@
                 "team1": "Liverpool FC",
                 "team2": "FC Porto",
                 "score1": "2:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "4:1",
+                "winner": "Liverpool FC",
                 "team1Logo": "liverpool_fc",
                 "team2Logo": "fc_porto"
             },
@@ -23,8 +54,8 @@
                 "team1": "Tottenham Hotspur",
                 "team2": "Manchester City",
                 "score1": "1:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "3:4",
+                "winner": "Tottenham Hotspur",
                 "team1Logo": "tottenham_hotspur",
                 "team2Logo": "manchester_city"
             },
@@ -35,9 +66,9 @@
                 "time2": "20:00",
                 "team1": "AFC Ajax",
                 "team2": "Juventus",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:1",
+                "score2": "2:1",
+                "winner": "AFC Ajax",
                 "team1Logo": "afc_ajax",
                 "team2Logo": "juventus"
             },
@@ -48,9 +79,9 @@
                 "time2": "20:00",
                 "team1": "Manchester United",
                 "team2": "FC Barcelona",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "0:1",
+                "score2": "0:3",
+                "winner": "FC Barcelona",
                 "team1Logo": "manchester_united",
                 "team2Logo": "fc_barcelona"
             }

@@ -63,7 +63,16 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "goals": "14",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "9.",
         "name": "Ishak Belfodil",
         "country": "Algeria",
         "team": "1899 Hoffenheim",
@@ -73,24 +82,15 @@
     },
     {
         "rank": "-",
-        "name": "Timo Werner",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "goals": "13",
-        "flag": "germany",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "10.",
         "name": "Kai Havertz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
-        "goals": "12",
+        "goals": "13",
         "flag": "germany",
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "-",
+        "rank": "11.",
         "name": "Kevin Volland",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -153,30 +153,30 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "18.",
+        "rank": "-",
+        "name": "Jadon Sancho",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "goals": "10",
+        "flag": "england",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "19.",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Thorgan Hazard",
         "country": "Belgium",
         "team": "Bor. Mönchengladbach",
         "goals": "9",
         "flag": "belgium",
         "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Vedad Ibišević",
-        "country": "Bosnia-Herzegovina",
-        "team": "Hertha BSC",
-        "goals": "9",
-        "flag": "bosnia_herzegovina",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Benito Raman",
-        "country": "Belgium",
-        "team": "Fortuna Düsseldorf",
-        "goals": "9",
-        "flag": "belgium",
-        "logo": "fortuna_dusseldorf"
     }
 ]

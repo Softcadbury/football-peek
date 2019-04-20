@@ -5,9 +5,25 @@ var config = require('./server/config');
 var leagues = require('./server/data/leagues');
 var competitions = require('./server/data/competitions');
 
+// Updates all data
+gulp.task('upall', async () => {
+    var mainUpdater = require('./server/updaters/mainUpdater');
+
+    config.downloadImages = true;
+    config.fullResultUpdate = true;
+
+    await mainUpdater.updateLeague(leagues.bundesliga.smallName);
+    await mainUpdater.updateLeague(leagues.premierLeague.smallName);
+    await mainUpdater.updateLeague(leagues.ligue1.smallName);
+    await mainUpdater.updateLeague(leagues.serieA.smallName);
+    await mainUpdater.updateLeague(leagues.liga.smallName);
+    await mainUpdater.updateCompetition(competitions.championsLeague.smallName);
+    await mainUpdater.updateCompetition(competitions.europaLeague.smallName);
+});
+
 // Updates data
 // Format: gulp up -l [lague small name] -c [competition small name]
-gulp.task('up', () => {
+gulp.task('up', async () => {
     var mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
@@ -20,7 +36,7 @@ gulp.task('up', () => {
     if (leagueArg) {
         leagueArg = typeof leagueArg === 'string' ? leagueArg.toUpperCase() : null;
         if (!leagueArg || Object.values(leagues).some(p => p.smallName === leagueArg)) {
-            mainUpdater.updateLeague(leagueArg);
+            await mainUpdater.updateLeague(leagueArg);
         } else {
             console.log(leagueArg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG]');
         }
@@ -29,7 +45,7 @@ gulp.task('up', () => {
     if (competitionArg) {
         competitionArg = typeof competitionArg === 'string' ? competitionArg.toUpperCase() : null;
         if (!competitionArg || Object.values(competitions).some(p => p.smallName === competitionArg)) {
-            mainUpdater.updateCompetition(competitionArg);
+            await mainUpdater.updateCompetition(competitionArg);
         } else {
             console.log(competitionArg + ' not found. Options are -c [C1|C3]');
         }
@@ -194,44 +210,3 @@ gulp.task('default', ['inject', 'start'], () => {
         })
     );
 });
-
-// Data harmonizer - This code can be used to modify the format of data files
-// gulp.task('harmonize', () => {
-//     var items = require('./server/data/items');
-//     var helper = require('./server/helper');
-
-//     items.forEach(item => {
-//         config.periods.availables.forEach(period => {
-//             if (item.isCompetition) {
-//                 const itemDataPath = helper.stringFormat(config.paths.tournamentData, item.code, period);
-//                 const itemData = helper.readJsonFile(itemDataPath);
-//                 const newItemData = [];
-
-//                 itemData.forEach(data => {
-//                     const current = {
-//                         name: data.name,
-//                         matches: []
-//                     };
-
-//                     data.matches.forEach(matche => {
-//                         current.matches.push({
-//                             date1: matche.date1,
-//                             date2: matche.date2,
-//                             team1: matche.team1,
-//                             team2: matche.team2,
-//                             score1: matche.score1,
-//                             score2: matche.score2,
-//                             winner: matche.winner,
-//                             team1Logo: matche.team1Logo,
-//                             team2Logo: matche.team2Logo
-//                         });
-//                     });
-
-//                     newItemData.push(current);
-//                 });
-
-//                 helper.writeJsonFile(itemDataPath, newItemData);
-//             }
-//         });
-//     });
-// });

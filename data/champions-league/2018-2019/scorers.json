@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "10",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
@@ -9,16 +18,25 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "-",
-        "name": "Lionel Messi",
+        "rank": "3.",
+        "name": "Kun Agüero",
         "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "8",
+        "team": "Manchester City",
+        "goals": "6",
         "flag": "argentina",
-        "logo": "fc_barcelona"
+        "logo": "manchester_city"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "goals": "6",
+        "flag": "portugal",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Moussa Marega",
         "country": "Mali",
         "team": "FC Porto",
@@ -36,16 +54,7 @@
         "logo": "afc_ajax"
     },
     {
-        "rank": "5.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "5",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "7.",
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
@@ -90,7 +99,16 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "5",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "13.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -100,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": " Cristiano Ronaldo",
+        "name": " Bernardo Silva",
         "country": "Portugal",
-        "team": "Juventus",
+        "team": "Manchester City",
         "goals": "4",
         "flag": "portugal",
-        "logo": "juventus"
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -136,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "4",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -151,32 +178,5 @@
         "goals": "4",
         "flag": "portugal",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Manchester City",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "19.",
-        "name": "Gareth Bale",
-        "country": "Wales",
-        "team": "Real Madrid",
-        "goals": "3",
-        "flag": "wales",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Nabil Bentaleb",
-        "country": "Algeria",
-        "team": "FC Schalke 04",
-        "goals": "3",
-        "flag": "algeria",
-        "logo": "fc_schalke_04"
     }
 ]

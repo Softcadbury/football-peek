@@ -9,11 +9,11 @@
         "logo": "bate_borisov"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": " Willian",
         "country": "Brazil",
         "team": "Chelsea FC",
-        "assists": "6",
+        "assists": "7",
         "flag": "brazil",
         "logo": "chelsea_fc"
     },
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Jonathan de Guzmán",
+        "country": "Netherlands",
+        "team": "Eintracht Frankfurt",
+        "assists": "3",
+        "flag": "netherlands",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Kostas Fortounis",
         "country": "Greece",
         "team": "Olympiakos Piräus",
@@ -124,6 +133,15 @@
         "assists": "3",
         "flag": "switzerland",
         "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "Chelsea FC",
+        "assists": "3",
+        "flag": "france",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "3",
         "flag": "brazil",
         "logo": "paok_saloniki"
-    },
-    {
-        "rank": "-",
-        "name": "Joakim Mæhle",
-        "country": "Denmark",
-        "team": "KRC Genk",
-        "assists": "3",
-        "flag": "denmark",
-        "logo": "krc_genk"
-    },
-    {
-        "rank": "-",
-        "name": " Pablo Fornals",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "villarreal_cf"
     }
 ]
