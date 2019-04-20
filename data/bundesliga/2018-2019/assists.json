@@ -13,12 +13,30 @@
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "13",
+        "assists": "14",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
     {
         "rank": "3.",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "11",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "assists": "11",
+        "flag": "germany",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "5.",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -37,39 +55,21 @@
     },
     {
         "rank": "-",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "10",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Max Kruse",
+        "name": "Thomas Müller",
         "country": "Germany",
-        "team": "Werder Bremen",
+        "team": "Bayern München",
         "assists": "10",
         "flag": "germany",
-        "logo": "werder_bremen"
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Sébastien Haller",
         "country": "France",
         "team": "Eintracht Frankfurt",
         "assists": "9",
         "flag": "france",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "9",
-        "flag": "germany",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -81,7 +81,16 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "9",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "11.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
@@ -108,15 +117,6 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "8",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
         "rank": "14.",
         "name": "Jonathan de Guzmán",
         "country": "Netherlands",
@@ -124,6 +124,15 @@
         "assists": "7",
         "flag": "netherlands",
         "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Götze",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -135,7 +144,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": "Maximilian Arnold",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -145,12 +154,21 @@
     },
     {
         "rank": "-",
-        "name": "Mario Götze",
+        "name": "Kerem Demirbay",
         "country": "Germany",
-        "team": "Borussia Dortmund",
+        "team": "1899 Hoffenheim",
         "assists": "6",
         "flag": "germany",
-        "logo": "borussia_dortmund"
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "6",
         "flag": "germany",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Halstenberg",
-        "country": "Germany",
-        "team": "RB Leipzig",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": " Joelinton",
-        "country": "Brazil",
-        "team": "1899 Hoffenheim",
-        "assists": "6",
-        "flag": "brazil",
-        "logo": "1899_hoffenheim"
     }
 ]

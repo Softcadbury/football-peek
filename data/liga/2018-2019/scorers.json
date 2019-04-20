@@ -19,21 +19,21 @@
     },
     {
         "rank": "3.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "18",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Cristhian Stuani",
         "country": "Uruguay",
         "team": "Girona FC",
         "goals": "18",
         "flag": "uruguay",
         "logo": "girona_fc"
-    },
-    {
-        "rank": "4.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "17",
-        "flag": "france",
-        "logo": "real_madrid"
     },
     {
         "rank": "5.",
@@ -55,6 +55,24 @@
     },
     {
         "rank": "7.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "Atlético Madrid",
+        "goals": "14",
+        "flag": "france",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Raúl de Tomás",
+        "country": "Spain",
+        "team": "Rayo Vallecano",
+        "goals": "14",
+        "flag": "spain",
+        "logo": "rayo_vallecano"
+    },
+    {
+        "rank": "9.",
         "name": " Charles",
         "country": "Brazil",
         "team": "SD Eibar",
@@ -64,30 +82,12 @@
     },
     {
         "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "goals": "13",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Mata",
         "country": "Spain",
         "team": "Getafe CF",
         "goals": "13",
         "flag": "spain",
         "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Raúl de Tomás",
-        "country": "Spain",
-        "team": "Rayo Vallecano",
-        "goals": "13",
-        "flag": "spain",
-        "logo": "rayo_vallecano"
     },
     {
         "rank": "11.",
@@ -126,31 +126,40 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "15.",
+        "rank": "-",
         "name": " Molina",
         "country": "Spain",
         "team": "Getafe CF",
-        "goals": "10",
+        "goals": "11",
         "flag": "spain",
         "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Morales",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "levante_ud"
     },
     {
         "rank": "-",
         "name": " Pablo Sarabia",
         "country": "Spain",
         "team": "Sevilla FC",
-        "goals": "10",
+        "goals": "11",
         "flag": "spain",
         "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Williams",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "18.",
+        "name": " Morales",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "10",
+        "flag": "spain",
+        "logo": "levante_ud"
     },
     {
         "rank": "-",
@@ -162,21 +171,12 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "19.",
+        "rank": "20.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "Sevilla FC",
         "goals": "9",
         "flag": "portugal",
         "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Williams",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
     }
 ]

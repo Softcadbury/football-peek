@@ -1,21 +1,21 @@
 [
     {
         "rank": "1.",
+        "name": "Fabio Quagliarella",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "goals": "22",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "2.",
         "name": "Krzysztof Piątek",
         "country": "Poland",
         "team": "Genoa CFC",
         "goals": "21",
         "flag": "poland",
         "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Fabio Quagliarella",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "21",
-        "flag": "italy",
-        "logo": "sampdoria"
     },
     {
         "rank": "3.",
@@ -40,7 +40,7 @@
         "name": "Arkadiusz Milik",
         "country": "Poland",
         "team": "SSC Napoli",
-        "goals": "16",
+        "goals": "17",
         "flag": "poland",
         "logo": "ssc_napoli"
     },
@@ -73,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Leonardo Pavoletti",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "goals": "12",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Andrea Petagna",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
@@ -81,7 +90,7 @@
         "logo": "spal_2013_ferrara"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
         "name": "Josip Iličič",
         "country": "Slovenia",
         "team": "Atalanta",
@@ -97,15 +106,6 @@
         "goals": "11",
         "flag": "belgium",
         "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Leonardo Pavoletti",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "goals": "11",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
     },
     {
         "rank": "13.",
@@ -136,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sampdoria",
+        "goals": "9",
+        "flag": "france",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
         "name": "Stephan El Shaarawy",
         "country": "Italy",
         "team": "AS Roma",
@@ -153,13 +162,13 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "18.",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sampdoria",
+        "rank": "19.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
         "goals": "8",
-        "flag": "france",
-        "logo": "sampdoria"
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "8",
         "flag": "italy",
         "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Mandžukić",
-        "country": "Croatia",
-        "team": "Juventus",
-        "goals": "8",
-        "flag": "croatia",
-        "logo": "juventus"
     }
 ]

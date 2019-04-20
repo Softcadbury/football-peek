@@ -19,12 +19,30 @@
     },
     {
         "rank": "3.",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "assists": "4",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "Olympique Lyon",
         "assists": "4",
         "flag": "netherlands",
         "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": " Jordi Alba",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -45,7 +63,16 @@
         "logo": "afc_ajax"
     },
     {
-        "rank": "6.",
+        "rank": "8.",
+        "name": " Alex Telles",
+        "country": "Brazil",
+        "team": "FC Porto",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "fc_porto"
+    },
+    {
+        "rank": "-",
         "name": "Houssem Aouar",
         "country": "France",
         "team": "Olympique Lyon",
@@ -70,6 +97,15 @@
         "assists": "3",
         "flag": "argentina",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
+        "assists": "3",
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -100,12 +136,12 @@
     },
     {
         "rank": "-",
-        "name": " Jordi Alba",
-        "country": "Spain",
-        "team": "FC Barcelona",
+        "name": " João Cancelo",
+        "country": "Portugal",
+        "team": "Juventus",
         "assists": "3",
-        "flag": "spain",
-        "logo": "fc_barcelona"
+        "flag": "portugal",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "assists": "3",
         "flag": "italy",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "18.",
-        "name": "Emre Akbaba",
-        "country": "Turkey",
-        "team": "Galatasaray",
-        "assists": "2",
-        "flag": "turkey",
-        "logo": "galatasaray"
-    },
-    {
-        "rank": "-",
-        "name": "David Alaba",
-        "country": "Austria",
-        "team": "Bayern München",
-        "assists": "2",
-        "flag": "austria",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": " Alex Telles",
-        "country": "Brazil",
-        "team": "FC Porto",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "fc_porto"
     }
 ]
