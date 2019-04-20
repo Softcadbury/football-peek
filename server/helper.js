@@ -41,7 +41,7 @@ function readJsonFile(path) {
 }
 
 // Writes content in a json file
-function writeJsonFile(path, content) {
+function writeJsonFile(path, content, resolve) {
     var fs = require('fs');
 
     fs.writeFile(path, JSON.stringify(content, null, 4), err => {
@@ -50,6 +50,8 @@ function writeJsonFile(path, content) {
         } else {
             log('File updated: ' + path);
         }
+
+        resolve();
     });
 }
 
@@ -124,15 +126,18 @@ function runUpdate(itemsExtended, updateData, arg) {
 
         if (item) {
             // Run the update on the specified item
-            updateData(item);
-            return;
+            return updateData(item);
         }
     }
 
+    var promises = [];
+
     // Run the update on all items
     for (var i = 0; i < itemsExtended.length; i++) {
-        updateData(itemsExtended[i]);
+        promises.push(updateData(itemsExtended[i]));
     }
+
+    return Promise.all(promises);
 }
 
 // Get the current round of a league

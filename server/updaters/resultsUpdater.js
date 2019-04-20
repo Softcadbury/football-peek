@@ -15,7 +15,7 @@ var leaguesExtended = [
 
 // Updates results of current period
 function update(leagueArg) {
-    helper.runUpdate(leaguesExtended, updateData, leagueArg);
+    return helper.runUpdate(leaguesExtended, updateData, leagueArg);
 }
 
 // Updates the results of an itemExtended
@@ -39,13 +39,15 @@ function updateData(itemExtended) {
         }
     }
 
-    Promise.all(promises).then(() => {
-        if (results.some(p => p.matches.length < 9)) {
-            helper.log('Error while updating result: ' + itemExtended.item.code);
-            return;
-        }
+    return new Promise((resolve) => {
+        Promise.all(promises).then(() => {
+            if (results.some(p => p.matches.length < 9)) {
+                helper.log('Error while updating result: ' + itemExtended.item.code);
+                return;
+            }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current), results);
+            helper.writeJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current), results, resolve);
+        });
     });
 }
 

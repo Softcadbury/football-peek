@@ -14,7 +14,7 @@ var competitionsExtended = [
 
 // Updates tournament of current period
 function update(arg) {
-    helper.runUpdate(competitionsExtended, updateData, arg);
+    return helper.runUpdate(competitionsExtended, updateData, arg);
 }
 
 // Updates the tournament of an itemExtended
@@ -27,21 +27,23 @@ function updateData(itemExtended) {
         promises.push(parseRound(itemExtended, results, i));
     }
 
-    Promise.all(promises).then(() => {
-        if (itemExtended.roundNumber === 4 && (results[3].matches.length !== 8 || !results[3].matches[0].team1) ||
-            itemExtended.roundNumber === 5 && (results[4].matches.length !== 16 || !results[4].matches[0].team1)) {
-            helper.log('Error while updating tournament: ' + itemExtended.item.code);
-            return;
-        }
-
-        // Remove empty phases
-        for (var j = results.length - 1; j >= 0; j--) {
-            if (!results[j].matches[0] || !results[j].matches[0].team1) {
-                results.splice(j, 1);
+    return new Promise((resolve) => {
+        Promise.all(promises).then(() => {
+            if (itemExtended.roundNumber === 4 && (results[3].matches.length !== 8 || !results[3].matches[0].team1) ||
+                itemExtended.roundNumber === 5 && (results[4].matches.length !== 16 || !results[4].matches[0].team1)) {
+                helper.log('Error while updating tournament: ' + itemExtended.item.code);
+                return;
             }
-        }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.periods.current), results);
+            // Remove empty phases
+            for (var j = results.length - 1; j >= 0; j--) {
+                if (!results[j].matches[0] || !results[j].matches[0].team1) {
+                    results.splice(j, 1);
+                }
+            }
+
+            helper.writeJsonFile(helper.stringFormat(config.paths.tournamentData, itemExtended.item.code, config.periods.current), results, resolve);
+        });
     });
 }
 

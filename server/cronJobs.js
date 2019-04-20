@@ -34,17 +34,17 @@ var competitionCronJobTimes = [
 function setupCrons() {
     // Setup crons for leagues update
     leagueCronJobTimes.forEach((time) => {
-        (new CronJob(time, () => {
+        (new CronJob(time, async () => {
             helper.log('Run league update');
-            mainUpdater.updateLeague();
+            await mainUpdater.updateLeague();
         }, null, false, 'Europe/Paris')).start();
     });
 
     // Setup crons for competitions update
     competitionCronJobTimes.forEach((time) => {
-        (new CronJob(time, () => {
+        (new CronJob(time, async () => {
             helper.log('Run competition update');
-            mainUpdater.updateCompetition();
+            await mainUpdater.updateCompetition();
         }, null, false, 'Europe/Paris')).start();
     });
 }

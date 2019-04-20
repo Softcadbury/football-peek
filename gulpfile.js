@@ -5,9 +5,25 @@ var config = require('./server/config');
 var leagues = require('./server/data/leagues');
 var competitions = require('./server/data/competitions');
 
+// Updates all data
+gulp.task('upall', async () => {
+    var mainUpdater = require('./server/updaters/mainUpdater');
+
+    config.downloadImages = true;
+    config.fullResultUpdate = true;
+
+    await mainUpdater.updateLeague(leagues.bundesliga.smallName);
+    await mainUpdater.updateLeague(leagues.premierLeague.smallName);
+    await mainUpdater.updateLeague(leagues.ligue1.smallName);
+    await mainUpdater.updateLeague(leagues.serieA.smallName);
+    await mainUpdater.updateLeague(leagues.liga.smallName);
+    await mainUpdater.updateCompetition(competitions.championsLeague.smallName);
+    await mainUpdater.updateCompetition(competitions.europaLeague.smallName);
+});
+
 // Updates data
 // Format: gulp up -l [lague small name] -c [competition small name]
-gulp.task('up', () => {
+gulp.task('up', async () => {
     var mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
@@ -20,7 +36,7 @@ gulp.task('up', () => {
     if (leagueArg) {
         leagueArg = typeof leagueArg === 'string' ? leagueArg.toUpperCase() : null;
         if (!leagueArg || Object.values(leagues).some(p => p.smallName === leagueArg)) {
-            mainUpdater.updateLeague(leagueArg);
+            await mainUpdater.updateLeague(leagueArg);
         } else {
             console.log(leagueArg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG]');
         }
@@ -29,7 +45,7 @@ gulp.task('up', () => {
     if (competitionArg) {
         competitionArg = typeof competitionArg === 'string' ? competitionArg.toUpperCase() : null;
         if (!competitionArg || Object.values(competitions).some(p => p.smallName === competitionArg)) {
-            mainUpdater.updateCompetition(competitionArg);
+            await mainUpdater.updateCompetition(competitionArg);
         } else {
             console.log(competitionArg + ' not found. Options are -c [C1|C3]');
         }

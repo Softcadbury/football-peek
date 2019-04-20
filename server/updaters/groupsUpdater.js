@@ -13,7 +13,7 @@ var competitionsExtended = [
 
 // Updates results of current period
 function update(arg) {
-    helper.runUpdate(competitionsExtended, updateData, arg);
+    return helper.runUpdate(competitionsExtended, updateData, arg);
 }
 
 // Updates the results of an itemExtended
@@ -26,13 +26,15 @@ function updateData(itemExtended) {
         promises.push(parseRound(itemExtended, results, i));
     }
 
-    Promise.all(promises).then(() => {
-        if (results.some(p => p.matches.length !== 12) || results.some(p => p.table.length !== 4)) {
-            helper.log('Error while updating groups: ' + itemExtended.item.code);
-            return;
-        }
+    return new Promise((resolve) => {
+        Promise.all(promises).then(() => {
+            if (results.some(p => p.matches.length !== 12) || results.some(p => p.table.length !== 4)) {
+                helper.log('Error while updating groups: ' + itemExtended.item.code);
+                return;
+            }
 
-        helper.writeJsonFile(helper.stringFormat(config.paths.groupsData, itemExtended.item.code, config.periods.current), results);
+            helper.writeJsonFile(helper.stringFormat(config.paths.groupsData, itemExtended.item.code, config.periods.current), results, resolve);
+        });
     });
 }
 
