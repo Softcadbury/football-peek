@@ -13,32 +13,19 @@ router.route('/chart/:item/:period?').get((req, res) => {
     var data = {
         title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedPeriod,
         description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedPeriod,
-        items: items,
-        datasets: [
-            {
-                label: 'Bayern München',
-                showLine: true,
-                data: [
-                    {
-                        x: 5,
-                        y: 3
-                    }
-                ]
-            }
-        ]
+        items: items
     };
 
     var resultsData = getData(config.paths.resultsData, requestedItem, requestedPeriod);
-    var datasetsDictionary = {};
+    var teams = {};
 
     resultsData.forEach(result => {
         result.matches.forEach(matche => {
-            setDatasetsDictionary(datasetsDictionary, matche.date, matche.homeTeam, matche.score);
-            setDatasetsDictionary(datasetsDictionary, matche.date, matche.awayTeam, matche.score, true);
+            saveScore(teams, matche.date, matche.homeTeam, matche.awayTeam, matche.score);
         });
     });
 
-    console.log(datasetsDictionary);
+    data.datasets = convertToDataset(teams);
 
     res.render('pages/chart', Object.assign(data));
 });
@@ -47,20 +34,44 @@ function getData(dataPath, requestedItem, requestedPeriod) {
     return helper.readJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedPeriod));
 }
 
-function setDatasetsDictionary(datasetsDictionary, date, teamName, score, isAwayTeam) {
+function saveScore(datasetsDictionary, date, homeTeam, awayTeam, score) {
     if (!score.includes(':')) {
         return;
     }
 
-    if (!datasetsDictionary[teamName]) {
-        datasetsDictionary[teamName] = {
-            label: teamName,
-            showLine: true,
-            data: []
+    if (!datasetsDictionary[homeTeam]) {
+        datasetsDictionary[homeTeam] = {
+            name: homeTeam,
+            matches: []
+        };
+    }
+    if (!datasetsDictionary[awayTeam]) {
+        datasetsDictionary[awayTeam] = {
+            name: awayTeam,
+            matches: []
         };
     }
 
-    datasetsDictionary[teamName].data.push({ x: 1, y: 1 });
+    datasetsDictionary[homeTeam].matches.push({ date, points: getPoints(score, false) });
+    datasetsDictionary[awayTeam].matches.push({ date, points: getPoints(score, true) });
+}
+
+function convertToDataset(teams) {
+    return Object.values(teams).map((team) => {
+        let orderedMatches = team.matches.sort(sortDates);
+        var points = [];
+
+        for (let i = 0, currentPoints = 0; i < orderedMatches.length; i++) {
+            currentPoints += orderedMatches[i].points;
+            points.push({ x: i + 1, y: currentPoints });
+        }
+
+        return {
+            label: team.name,
+            data: points,
+            showLine: true
+        };
+    });
 }
 
 function getPoints(score, isAwayTeam) {
@@ -69,6 +80,16 @@ function getPoints(score, isAwayTeam) {
     var score2 = isAwayTeam ? splittedScore[0] : splittedScore[1];
 
     return score1 === score2 ? 1 : score1 > score2 ? 3 : 0;
+}
+
+function sortDates(matche1, matche2) {
+    var splittedDate1 = matche1.date.split('/').map(p => Number(p));
+    var splittedDate2 = matche2.date.split('/').map(p => Number(p));
+
+    var tick1 = splittedDate1[2] * 10000 + splittedDate1[1] * 100 + splittedDate1[0];
+    var tick2 = splittedDate2[2] * 10000 + splittedDate2[1] * 100 + splittedDate2[0];
+
+    return tick1 - tick2;
 }
 
 module.exports = router;
