@@ -3237,7 +3237,7 @@
                 "time": "12:30",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "tottenham_hotspur"
             },
@@ -3246,7 +3246,7 @@
                 "time": "15:00",
                 "homeTeam": "AFC Bournemouth",
                 "awayTeam": "Fulham FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "afc_bournemouth",
                 "awayTeamLogo": "fulham_fc"
             },
@@ -3255,7 +3255,7 @@
                 "time": "15:00",
                 "homeTeam": "Huddersfield Town",
                 "awayTeam": "Watford FC",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "huddersfield_town",
                 "awayTeamLogo": "watford_fc"
             },
@@ -3264,7 +3264,7 @@
                 "time": "15:00",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "leicester_city"
             },
@@ -3273,7 +3273,7 @@
                 "time": "15:00",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "brighton___hove_albion"
             },
@@ -3282,7 +3282,7 @@
                 "time": "17:30",
                 "homeTeam": "Newcastle United",
                 "awayTeam": "Southampton FC",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "newcastle_united",
                 "awayTeamLogo": "southampton_fc"
             },
@@ -3291,7 +3291,7 @@
                 "time": "13:30",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Manchester United",
-                "score": "-:-",
+                "score": "4:0",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "manchester_united"
             },
@@ -3300,7 +3300,7 @@
                 "time": "16:00",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "crystal_palace"
             },
@@ -3309,7 +3309,7 @@
                 "time": "16:00",
                 "homeTeam": "Cardiff City",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "cardiff_city",
                 "awayTeamLogo": "liverpool_fc"
             },
@@ -3392,6 +3392,15 @@
             },
             {
                 "date": "28/04/2019",
+                "time": "12:00",
+                "homeTeam": "Leicester City",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "leicester_city",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "28/04/2019",
                 "time": "14:05",
                 "homeTeam": "Burnley FC",
                 "awayTeam": "Manchester City",
@@ -3407,15 +3416,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "manchester_united",
                 "awayTeamLogo": "chelsea_fc"
-            },
-            {
-                "date": "29/04/2019",
-                "time": "20:00",
-                "homeTeam": "Leicester City",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "leicester_city",
-                "awayTeamLogo": "arsenal_fc"
             }
         ]
     },

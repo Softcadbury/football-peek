@@ -10,6 +10,15 @@
     },
     {
         "rank": "-",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Arsenal FC",
+        "goals": "19",
+        "flag": "gabon",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
@@ -18,16 +27,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "3.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
-        "goals": "18",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -63,11 +63,11 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "8.",
+        "rank": "-",
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "15",
+        "goals": "16",
         "flag": "england",
         "logo": "leicester_city"
     },
@@ -90,7 +90,25 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": " Richarlison",
+        "country": "Brazil",
+        "team": "Everton FC",
+        "goals": "13",
+        "flag": "brazil",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Gylfi Sigurðsson",
+        "country": "Iceland",
+        "team": "Everton FC",
+        "goals": "13",
+        "flag": "iceland",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "13.",
         "name": "Raúl Jiménez",
         "country": "Mexico",
         "team": "Wolverhampton Wanderers",
@@ -118,30 +136,12 @@
     },
     {
         "rank": "-",
-        "name": " Richarlison",
-        "country": "Brazil",
-        "team": "Everton FC",
-        "goals": "12",
-        "flag": "brazil",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
         "name": " Roberto Firmino",
         "country": "Brazil",
         "team": "Liverpool FC",
         "goals": "12",
         "flag": "brazil",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Gylfi Sigurðsson",
-        "country": "Iceland",
-        "team": "Everton FC",
-        "goals": "12",
-        "flag": "iceland",
-        "logo": "everton_fc"
     },
     {
         "rank": "-",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "19.",
+        "name": "Ashley Barnes",
+        "country": "England",
+        "team": "Burnley FC",
+        "goals": "11",
+        "flag": "england",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "-",
         "name": "Joshua King",
         "country": "Norway",
         "team": "AFC Bournemouth",
         "goals": "11",
         "flag": "norway",
         "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Glenn Murray",
-        "country": "England",
-        "team": "Brighton & Hove Albion",
-        "goals": "11",
-        "flag": "england",
-        "logo": "brighton___hove_albion"
     }
 ]

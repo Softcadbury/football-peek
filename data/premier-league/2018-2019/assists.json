@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Eden Hazard",
+        "country": "Belgium",
+        "team": "Chelsea FC",
+        "assists": "13",
+        "flag": "belgium",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "2.",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
@@ -16,15 +25,6 @@
         "assists": "12",
         "flag": "scotland",
         "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Eden Hazard",
-        "country": "Belgium",
-        "team": "Chelsea FC",
-        "assists": "12",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
     },
     {
         "rank": "4.",
@@ -64,12 +64,30 @@
     },
     {
         "rank": "-",
+        "name": "Trent Alexander-Arnold",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "8",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": " João Moutinho",
         "country": "Portugal",
         "team": "Wolverhampton Wanderers",
         "assists": "8",
         "flag": "portugal",
         "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Arsenal FC",
+        "assists": "8",
+        "flag": "france",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -90,16 +108,7 @@
         "logo": "afc_bournemouth"
     },
     {
-        "rank": "11.",
-        "name": "Trent Alexander-Arnold",
-        "country": "England",
-        "team": "Liverpool FC",
-        "assists": "7",
-        "flag": "england",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "13.",
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "Manchester City",
@@ -115,15 +124,6 @@
         "assists": "7",
         "flag": "mexico",
         "logo": "wolverhampton_wanderers"
-    },
-    {
-        "rank": "-",
-        "name": "Alexandre Lacazette",
-        "country": "France",
-        "team": "Arsenal FC",
-        "assists": "7",
-        "flag": "france",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "-",

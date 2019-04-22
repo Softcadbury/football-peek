@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Julian Brandt",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "11",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Filip Kostić",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
@@ -36,16 +45,16 @@
         "logo": "werder_bremen"
     },
     {
-        "rank": "5.",
-        "name": "Julian Brandt",
+        "rank": "-",
+        "name": "Marco Reus",
         "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "10",
+        "team": "Borussia Dortmund",
+        "assists": "11",
         "flag": "germany",
-        "logo": "bayer_leverkusen"
+        "logo": "borussia_dortmund"
     },
     {
-        "rank": "-",
+        "rank": "7.",
         "name": "Thorgan Hazard",
         "country": "Belgium",
         "team": "Bor. Mönchengladbach",
@@ -63,7 +72,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Sébastien Haller",
         "country": "France",
         "team": "Eintracht Frankfurt",
@@ -73,12 +82,12 @@
     },
     {
         "rank": "-",
-        "name": "Marco Reus",
+        "name": "Florian Neuhaus",
         "country": "Germany",
-        "team": "Borussia Dortmund",
+        "team": "Bor. Mönchengladbach",
         "assists": "9",
         "flag": "germany",
-        "logo": "borussia_dortmund"
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -90,22 +99,13 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
         "assists": "8",
         "flag": "poland",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Neuhaus",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "assists": "8",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -127,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": "Kerem Demirbay",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Mario Götze",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -144,7 +153,16 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "17.",
+        "rank": "18.",
+        "name": " Aarón",
+        "country": "Spain",
+        "team": "1. FSV Mainz 05",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
         "name": "Maximilian Arnold",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Kerem Demirbay",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
+        "name": "Jean-Paul Boëtius",
+        "country": "Netherlands",
+        "team": "1. FSV Mainz 05",
         "assists": "6",
-        "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Günter",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "sc_freiburg"
+        "flag": "netherlands",
+        "logo": "1__fsv_mainz_05"
     }
 ]
