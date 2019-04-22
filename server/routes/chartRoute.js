@@ -35,7 +35,7 @@ function getData(dataPath, requestedItem, requestedPeriod) {
 }
 
 function saveScore(datasetsDictionary, date, homeTeam, awayTeam, score) {
-    if (!score.includes(':')) {
+    if (!score.includes(':') || score === '-:-') {
         return;
     }
 
@@ -56,22 +56,6 @@ function saveScore(datasetsDictionary, date, homeTeam, awayTeam, score) {
     datasetsDictionary[awayTeam].matches.push({ date, points: getPoints(score, true) });
 }
 
-function convertToDataset(teams) {
-    return Object.values(teams).map((team) => {
-        let currentPoints = 0;
-
-        let points = team.matches.sort(sortDates).map(team => {
-            currentPoints += team.points;
-            return currentPoints;
-        });
-
-        return {
-            name: team.name,
-            data: points
-        };
-    });
-}
-
 function getPoints(score, isAwayTeam) {
     var splittedScore = score.split(':');
     var score1 = isAwayTeam ? splittedScore[1] : splittedScore[0];
@@ -80,14 +64,25 @@ function getPoints(score, isAwayTeam) {
     return score1 === score2 ? 1 : score1 > score2 ? 3 : 0;
 }
 
-function sortDates(matche1, matche2) {
-    var splittedDate1 = matche1.date.split('/').map(p => Number(p));
-    var splittedDate2 = matche2.date.split('/').map(p => Number(p));
+function convertToDataset(teams) {
+    return Object.values(teams).map((team) => {
+        let currentPoints = 0;
 
-    var tick1 = splittedDate1[2] * 10000 + splittedDate1[1] * 100 + splittedDate1[0];
-    var tick2 = splittedDate2[2] * 10000 + splittedDate2[1] * 100 + splittedDate2[0];
+        let points = team.matches.map(team => {
+            currentPoints += team.points;
+            return currentPoints;
+        });
 
-    return tick1 - tick2;
+        return {
+            name: team.name,
+            data: points
+        };
+    }).sort((team1, team2) => {
+        let team1Points = team1.data[team1.data.length - 1];
+        let team2Points = team2.data[team2.data.length - 1];
+
+        return team1Points < team2Points ? 1 : team1Points > team2Points ? -1 : 0;
+    });
 }
 
 module.exports = router;
