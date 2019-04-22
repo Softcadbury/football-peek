@@ -20,8 +20,8 @@ function update(arg) {
 
 // Updates the table of an itemExtended
 function updateData(itemExtended) {
-    return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), ($) => {
+    return new Promise(resolve => {
+        helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
             var results = [];
 
             $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {

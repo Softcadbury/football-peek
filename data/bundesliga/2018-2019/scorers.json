@@ -18,11 +18,11 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": " Paco Alcácer",
         "country": "Spain",
         "team": "Borussia Dortmund",
-        "goals": "16",
+        "goals": "17",
         "flag": "spain",
         "logo": "borussia_dortmund"
     },
@@ -31,8 +31,26 @@
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
-        "goals": "15",
+        "goals": "16",
         "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Marco Reus",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "goals": "16",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "6.",
+        "name": "Ishak Belfodil",
+        "country": "Algeria",
+        "team": "1899 Hoffenheim",
+        "goals": "15",
+        "flag": "algeria",
         "logo": "1899_hoffenheim"
     },
     {
@@ -45,16 +63,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "-",
-        "name": "Marco Reus",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "goals": "15",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Sébastien Haller",
         "country": "France",
         "team": "Eintracht Frankfurt",
@@ -72,16 +81,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "9.",
-        "name": "Ishak Belfodil",
-        "country": "Algeria",
-        "team": "1899 Hoffenheim",
-        "goals": "13",
-        "flag": "algeria",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Kai Havertz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -90,13 +90,31 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "11.",
+        "rank": "-",
         "name": "Kevin Volland",
         "country": "Germany",
         "team": "Bayer Leverkusen",
-        "goals": "12",
+        "goals": "13",
         "flag": "germany",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "12.",
+        "name": "Jean-Philippe Mateta",
+        "country": "France",
+        "team": "1. FSV Mainz 05",
+        "goals": "12",
+        "flag": "france",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "goals": "12",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -108,16 +126,16 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "13.",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
+        "rank": "15.",
+        "name": "Jadon Sancho",
+        "country": "England",
+        "team": "Borussia Dortmund",
         "goals": "11",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
+        "flag": "england",
+        "logo": "borussia_dortmund"
     },
     {
-        "rank": "14.",
+        "rank": "16.",
         "name": "Ondrej Duda",
         "country": "Slovakia",
         "team": "Hertha BSC",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Jean-Philippe Mateta",
-        "country": "France",
-        "team": "1. FSV Mainz 05",
+        "name": "Dodi Lukebakio",
+        "country": "Congo DR",
+        "team": "Fortuna Düsseldorf",
         "goals": "10",
-        "flag": "france",
-        "logo": "1__fsv_mainz_05"
+        "flag": "congo_dr",
+        "logo": "fortuna_dusseldorf"
     },
     {
-        "rank": "-",
-        "name": "Jadon Sancho",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "goals": "10",
-        "flag": "england",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "19.",
+        "rank": "20.",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Bayern München",
         "goals": "9",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Thorgan Hazard",
-        "country": "Belgium",
-        "team": "Bor. Mönchengladbach",
-        "goals": "9",
-        "flag": "belgium",
-        "logo": "bor__monchengladbach"
     }
 ]

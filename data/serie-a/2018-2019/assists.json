@@ -37,6 +37,15 @@
     },
     {
         "rank": "-",
+        "name": "Manuel Lazzari",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "-",
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
@@ -45,7 +54,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Juventus",
@@ -61,15 +70,6 @@
         "assists": "7",
         "flag": "slovenia",
         "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Manuel Lazzari",
-        "country": "Italy",
-        "team": "SPAL 2013 Ferrara",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "spal_2013_ferrara"
     },
     {
         "rank": "9.",
@@ -91,12 +91,30 @@
     },
     {
         "rank": "-",
+        "name": "Joaquín Correa",
+        "country": "Argentina",
+        "team": "Lazio Roma",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
         "assists": "6",
         "flag": "italy",
         "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Rade Krunić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Empoli FC",
+        "assists": "6",
+        "flag": "bosnia_herzegovina",
+        "logo": "empoli_fc"
     },
     {
         "rank": "-",
@@ -108,13 +126,22 @@
         "logo": "juventus"
     },
     {
-        "rank": "13.",
-        "name": "Joaquín Correa",
-        "country": "Argentina",
-        "team": "Lazio Roma",
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "assists": "6",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "16.",
+        "name": "Danilo D'Ambrosio",
+        "country": "Italy",
+        "team": "Inter",
         "assists": "5",
-        "flag": "argentina",
-        "logo": "lazio_roma"
+        "flag": "italy",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -123,6 +150,15 @@
         "team": "Atalanta",
         "assists": "5",
         "flag": "switzerland",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Hans Hateboer",
+        "country": "Netherlands",
+        "team": "Atalanta",
+        "assists": "5",
+        "flag": "netherlands",
         "logo": "atalanta"
     },
     {
@@ -142,41 +178,5 @@
         "assists": "5",
         "flag": "netherlands",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Cristhian Kouamé",
-        "country": "Ivory Coast",
-        "team": "Genoa CFC",
-        "assists": "5",
-        "flag": "ivory_coast",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Rade Krunić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Empoli FC",
-        "assists": "5",
-        "flag": "bosnia_herzegovina",
-        "logo": "empoli_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Pol Lirola",
-        "country": "Spain",
-        "team": "Sassuolo Calcio",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Nicola Murru",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "sampdoria"
     }
 ]

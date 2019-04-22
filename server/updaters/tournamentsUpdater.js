@@ -27,7 +27,7 @@ function updateData(itemExtended) {
         promises.push(parseRound(itemExtended, results, i));
     }
 
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
         Promise.all(promises).then(() => {
             if (itemExtended.roundNumber === 4 && (results[3].matches.length !== 8 || !results[3].matches[0].team1) ||
                 itemExtended.roundNumber === 5 && (results[4].matches.length !== 16 || !results[4].matches[0].team1)) {
@@ -49,8 +49,8 @@ function updateData(itemExtended) {
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, roundIndex) {
-    return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.periods.current, tournamentDataUrlExtensions[roundIndex]), ($) => {
+    return new Promise(resolve => {
+        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.periods.current, tournamentDataUrlExtensions[roundIndex]), $ => {
             var currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {

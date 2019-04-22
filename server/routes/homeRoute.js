@@ -49,7 +49,7 @@ function getLeagueMatches(item, handledDates) {
         });
     });
 
-    return matches;
+    return matches.sort(sortMatchesByDate);
 }
 
 function getCompetitionMatches(item, handledDates) {
@@ -140,7 +140,7 @@ function sortMatchesByDate(matche1, matche2) {
     var tick1 = splittedDate1[2] * 10000 + splittedDate1[1] * 100 + splittedDate1[0];
     var tick2 = splittedDate2[2] * 10000 + splittedDate2[1] * 100 + splittedDate2[0];
 
-    return tick1 - tick2;
+    return tick1 < tick2 ? -1 : tick1 > tick2 ? 1 : 0;
 }
 
 module.exports = router;

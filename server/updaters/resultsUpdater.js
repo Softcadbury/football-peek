@@ -39,7 +39,7 @@ function updateData(itemExtended) {
         }
     }
 
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
         Promise.all(promises).then(() => {
             if (results.some(p => p.matches.length < 9)) {
                 helper.log('Error while updating result: ' + itemExtended.item.code);
@@ -53,8 +53,8 @@ function updateData(itemExtended) {
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, roundIndex) {
-    return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.periods.current, itemExtended.extra, roundIndex + 1), ($) => {
+    return new Promise(resolve => {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.periods.current, itemExtended.extra, roundIndex + 1), $ => {
             var currentMatches = results[roundIndex].matches;
             currentMatches.splice(0, currentMatches.length);
             var currentDate;

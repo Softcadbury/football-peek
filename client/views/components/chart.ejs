@@ -1,0 +1,49 @@
+<% if (resultsData.length) { %>
+    <div id="chart" style="height: 500px"></div>
+<% } %>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/7.1.1/highcharts.js" integrity="sha256-O5kijMW4yuKUTmtSzMwUv8ziygKdBLRB8vUzoTau/AQ=" crossorigin="anonymous"></script>
+<script>
+    Highcharts.chart('chart', {
+        series: <%- JSON.stringify(chartDatasets) %>,
+        credits: false,
+        title: null,
+        chart: {
+            backgroundColor: '#fafafa',
+            type: 'line'
+        },
+        yAxis: {
+            title: {
+                text: 'Number of points'
+            }
+        },
+        xAxis: {
+            allowDecimals: false
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size: 13px">{series.name}</span><br/>',
+            pointFormat: '{point.y} points on round {point.x}'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'top',
+            itemMarginBottom: 3
+        },
+        plotOptions: {
+            line: {
+                pointStart: 1,
+                marker: {
+                    enabled: false,
+                    symbol: 'circle',
+                    radius: 2,
+                    states: {
+                        hover: {
+                            enabled: true
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>
