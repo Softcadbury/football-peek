@@ -7,7 +7,7 @@ var express = require('express');
 var router = express.Router();
 
 router.route('/chart/:item/:period?').get((req, res) => {
-    var requestedItem = items.find(item => item.isCompetition && item.code === req.params.item) || items[0];
+    var requestedItem = items.find(item => item.code === req.params.item) || items[0];
     var requestedPeriod = config.periods.availables.find(period => req.params.period === period) || config.periods.current;
 
     var data = {
@@ -58,18 +58,16 @@ function saveScore(datasetsDictionary, date, homeTeam, awayTeam, score) {
 
 function convertToDataset(teams) {
     return Object.values(teams).map((team) => {
-        let orderedMatches = team.matches.sort(sortDates);
-        var points = [];
+        let currentPoints = 0;
 
-        for (let i = 0, currentPoints = 0; i < orderedMatches.length; i++) {
-            currentPoints += orderedMatches[i].points;
-            points.push({ x: i + 1, y: currentPoints });
-        }
+        let points = team.matches.sort(sortDates).map(team => {
+            currentPoints += team.points;
+            return currentPoints;
+        });
 
         return {
-            label: team.name,
-            data: points,
-            showLine: true
+            name: team.name,
+            data: points
         };
     });
 }

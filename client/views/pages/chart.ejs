@@ -1,15 +1,39 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" integrity="sha256-oSgtFCCmHWRPQ/JmR4OoZ3Xke1Pw4v50uh6pLcu+fIc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/7.1.1/highcharts.js" integrity="sha256-O5kijMW4yuKUTmtSzMwUv8ziygKdBLRB8vUzoTau/AQ=" crossorigin="anonymous"></script>
 
-<div id="chart">
-    <canvas id="myChart"></canvas>
+<div id="charts">
+    <div id="chart"></div>
 </div>
 
 <script>
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var scatterChart = new Chart(ctx, {
-        type: 'scatter',
-        data: {
-            datasets: <%- JSON.stringify(datasets) %>
+    Highcharts.chart('chart', {
+        series: <%- JSON.stringify(datasets) %>,
+        credits: false,
+        title: {
+            text: 'Number of points by rounds'
+        },
+        yAxis: {
+            title: {
+                text: 'Number of points'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size: 13px">{series.name}</span><br/>',
+            pointFormat: '{point.y} points on round {point.x}'
+        },
+        plotOptions: {
+            line: {
+                pointStart: 1,
+                marker: {
+                    enabled: false,
+                    symbol: 'circle',
+                    radius: 2,
+                    states: {
+                        hover: {
+                            enabled: true
+                        }
+                    }
+                }
+            }
         }
     });
 </script>
