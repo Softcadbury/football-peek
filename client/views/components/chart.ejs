@@ -1,12 +1,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/7.1.1/highcharts.js" integrity="sha256-O5kijMW4yuKUTmtSzMwUv8ziygKdBLRB8vUzoTau/AQ=" crossorigin="anonymous"></script>
 
-<div id="charts">
-    <div id="chart" style="height: 500px"></div>
-</div>
+<div id="chart" style="height: 500px"></div>
 
 <script>
     Highcharts.chart('chart', {
-        series: <%- JSON.stringify(datasets) %>,
+        series: <%- JSON.stringify(chartDatasets) %>,
         credits: false,
         title: null,
         chart: {

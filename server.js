@@ -29,7 +29,6 @@ app.listen(config.port, () => {
 app.use('/', require('./server/routes/manifestRoute'));
 app.use('/', require('./server/routes/sitemapRoute'));
 app.use('/', require('./server/routes/homeRoute'));
-app.use('/', require('./server/routes/chartRoute'));
 app.use('/', require('./server/routes/itemRoute'));
 
 // Setup cron jobs

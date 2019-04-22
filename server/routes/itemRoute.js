@@ -60,7 +60,8 @@ function renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundO
             tableData,
             requestedPeriod: requestedPeriod,
             requestedRound: requestedRound,
-            previousAndNextGroupUrls: getPreviousAndNextRoundUrls(requestedItem.code, requestedPeriod, requestedRound, resultsData.length)
+            previousAndNextGroupUrls: getPreviousAndNextRoundUrls(requestedItem.code, requestedPeriod, requestedRound, resultsData.length),
+            chartDatasets: getChartDatasets(resultsData)
         })
     );
 }
@@ -89,6 +90,69 @@ function getPreviousAndNextRoundUrls(requestedItemCode, requestedPeriod, request
 
 function getRoundOrGroupUrl(requestedItemCode, requestedPeriod, roundOrGroup) {
     return '/' + requestedItemCode + '/' + requestedPeriod + '/' + roundOrGroup;
+}
+
+function getChartDatasets(resultsData) {
+    var teams = {};
+
+    resultsData.forEach(result => {
+        result.matches.forEach(matche => {
+            saveScore(teams, matche.date, matche.homeTeam, matche.awayTeam, matche.score);
+        });
+    });
+
+    return convertToDataset(teams);
+}
+
+function saveScore(datasetsDictionary, date, homeTeam, awayTeam, score) {
+    if (!score.includes(':') || score === '-:-') {
+        return;
+    }
+
+    if (!datasetsDictionary[homeTeam]) {
+        datasetsDictionary[homeTeam] = {
+            name: homeTeam,
+            matches: []
+        };
+    }
+    if (!datasetsDictionary[awayTeam]) {
+        datasetsDictionary[awayTeam] = {
+            name: awayTeam,
+            matches: []
+        };
+    }
+
+    datasetsDictionary[homeTeam].matches.push({ date, points: getPoints(score, false) });
+    datasetsDictionary[awayTeam].matches.push({ date, points: getPoints(score, true) });
+}
+
+function getPoints(score, isAwayTeam) {
+    var splittedScore = score.split(':');
+    var score1 = isAwayTeam ? splittedScore[1] : splittedScore[0];
+    var score2 = isAwayTeam ? splittedScore[0] : splittedScore[1];
+
+    return score1 === score2 ? 1 : score1 > score2 ? 3 : 0;
+}
+
+function convertToDataset(teams) {
+    return Object.values(teams).map((team) => {
+        let currentPoints = 0;
+
+        let points = team.matches.map(team => {
+            currentPoints += team.points;
+            return currentPoints;
+        });
+
+        return {
+            name: team.name,
+            data: points
+        };
+    }).sort((team1, team2) => {
+        let team1Points = team1.data[team1.data.length - 1];
+        let team2Points = team2.data[team2.data.length - 1];
+
+        return team1Points < team2Points ? 1 : team1Points > team2Points ? -1 : 0;
+    });
 }
 
 module.exports = router;
