@@ -26,7 +26,7 @@ function updateData(itemExtended) {
         promises.push(parseRound(itemExtended, results, i));
     }
 
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
         Promise.all(promises).then(() => {
             if (results.some(p => p.matches.length !== 12) || results.some(p => p.table.length !== 4)) {
                 helper.log('Error while updating groups: ' + itemExtended.item.code);
@@ -40,8 +40,8 @@ function updateData(itemExtended) {
 
 // Parse a page of an itemExtended
 function parseRound(itemExtended, results, groupIndex) {
-    return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.periods.current, resultsDataUrlExtensions[groupIndex]), ($) => {
+    return new Promise(resolve => {
+        helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.periods.current, resultsDataUrlExtensions[groupIndex]), $ => {
             var currentMatches = results[groupIndex].matches;
             var currentDate;
 

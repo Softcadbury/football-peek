@@ -135,11 +135,11 @@ function getPoints(score, isAwayTeam) {
 }
 
 function convertToDataset(teams) {
-    return Object.values(teams).map((team) => {
+    return Object.values(teams).map(team => {
         let currentPoints = 0;
 
-        let points = team.matches.map(team => {
-            currentPoints += team.points;
+        let points = team.matches.map(matche => {
+            currentPoints += matche.points;
             return currentPoints;
         });
 

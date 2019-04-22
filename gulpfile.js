@@ -38,6 +38,7 @@ gulp.task('up', async () => {
         if (!leagueArg || Object.values(leagues).some(p => p.smallName === leagueArg)) {
             await mainUpdater.updateLeague(leagueArg);
         } else {
+            // eslint-disable-next-line no-console
             console.log(leagueArg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG]');
         }
     }
@@ -47,6 +48,7 @@ gulp.task('up', async () => {
         if (!competitionArg || Object.values(competitions).some(p => p.smallName === competitionArg)) {
             await mainUpdater.updateCompetition(competitionArg);
         } else {
+            // eslint-disable-next-line no-console
             console.log(competitionArg + ' not found. Options are -c [C1|C3]');
         }
     }

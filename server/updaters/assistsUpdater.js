@@ -30,8 +30,8 @@ function updateCompetitions(arg) {
 
 // Updates the assists of an itemExtended
 function updateData(itemExtended) {
-    return new Promise((resolve) => {
-        helper.scrapeUrl(helper.stringFormat(assistsDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), ($) => {
+    return new Promise(resolve => {
+        helper.scrapeUrl(helper.stringFormat(assistsDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
             var results = [];
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {

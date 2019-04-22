@@ -33,7 +33,7 @@ var competitionCronJobTimes = [
 
 function setupCrons() {
     // Setup crons for leagues update
-    leagueCronJobTimes.forEach((time) => {
+    leagueCronJobTimes.forEach(time => {
         (new CronJob(time, async () => {
             helper.log('Run league update');
             await mainUpdater.updateLeague();
@@ -41,7 +41,7 @@ function setupCrons() {
     });
 
     // Setup crons for competitions update
-    competitionCronJobTimes.forEach((time) => {
+    competitionCronJobTimes.forEach(time => {
         (new CronJob(time, async () => {
             helper.log('Run competition update');
             await mainUpdater.updateCompetition();
