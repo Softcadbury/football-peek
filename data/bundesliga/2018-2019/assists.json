@@ -4,7 +4,7 @@
         "name": "Jadon Sancho",
         "country": "England",
         "team": "Borussia Dortmund",
-        "assists": "16",
+        "assists": "17",
         "flag": "england",
         "logo": "borussia_dortmund"
     },
@@ -72,7 +72,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "10",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "10.",
         "name": "Sébastien Haller",
         "country": "France",
         "team": "Eintracht Frankfurt",
@@ -88,15 +97,6 @@
         "assists": "9",
         "flag": "germany",
         "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "9",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
     },
     {
         "rank": "12.",
@@ -118,6 +118,15 @@
     },
     {
         "rank": "14.",
+        "name": "Maximilian Arnold",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
         "name": "Jonathan de Guzmán",
         "country": "Netherlands",
         "team": "Eintracht Frankfurt",
@@ -145,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Jonathan Schmid",
+        "country": "France",
+        "team": "FC Augsburg",
+        "assists": "7",
+        "flag": "france",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
@@ -153,30 +171,12 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "18.",
+        "rank": "20.",
         "name": " Aarón",
         "country": "Spain",
         "team": "1. FSV Mainz 05",
         "assists": "6",
         "flag": "spain",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Maximilian Arnold",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Jean-Paul Boëtius",
-        "country": "Netherlands",
-        "team": "1. FSV Mainz 05",
-        "assists": "6",
-        "flag": "netherlands",
         "logo": "1__fsv_mainz_05"
     }
 ]

@@ -72,7 +72,16 @@
         "logo": "atalanta"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "assists": "7",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "10.",
         "name": "Cristiano Biraghi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -109,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": "Justin Kluivert",
+        "country": "Netherlands",
+        "team": "AS Roma",
+        "assists": "6",
+        "flag": "netherlands",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Rade Krunić",
         "country": "Bosnia-Herzegovina",
         "team": "Empoli FC",
@@ -127,15 +145,15 @@
     },
     {
         "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Atalanta",
+        "name": "Miralem Pjanić",
+        "country": "Bosnia-Herzegovina",
+        "team": "Juventus",
         "assists": "6",
-        "flag": "colombia",
-        "logo": "atalanta"
+        "flag": "bosnia_herzegovina",
+        "logo": "juventus"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": "Danilo D'Ambrosio",
         "country": "Italy",
         "team": "Inter",
@@ -160,23 +178,5 @@
         "assists": "5",
         "flag": "netherlands",
         "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Justin Kluivert",
-        "country": "Netherlands",
-        "team": "AS Roma",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "as_roma"
     }
 ]

@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "assists": "8",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
         "name": "Adrien Thomasson",
         "country": "France",
         "team": "RC Strasbourg",
@@ -45,7 +54,7 @@
         "logo": "rc_strasbourg"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Andy Delort",
         "country": "France",
         "team": "Montpellier HSC",
@@ -61,6 +70,15 @@
         "assists": "7",
         "flag": "netherlands",
         "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Wahbi Khazri",
+        "country": "Tunisia",
+        "team": "AS Saint-Étienne",
+        "assists": "7",
+        "flag": "tunisia",
+        "logo": "as_saint_etienne"
     },
     {
         "rank": "-",
@@ -82,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": "Lucas Ocampos",
+        "country": "Argentina",
+        "team": "Olympique Marseille",
+        "assists": "7",
+        "flag": "argentina",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
         "name": " Rebocho",
         "country": "Portugal",
         "team": "EA Guingamp",
@@ -99,7 +126,7 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "12.",
+        "rank": "15.",
         "name": " Dani Alves",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
@@ -127,30 +154,12 @@
     },
     {
         "rank": "-",
-        "name": "Nabil Fekir",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "assists": "6",
-        "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
         "name": "Jonathan Ikoné",
         "country": "France",
         "team": "Lille OSC",
         "assists": "6",
         "flag": "france",
         "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Wahbi Khazri",
-        "country": "Tunisia",
-        "team": "AS Saint-Étienne",
-        "assists": "6",
-        "flag": "tunisia",
-        "logo": "as_saint_etienne"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "assists": "6",
         "flag": "cape_verde",
         "logo": "rc_strasbourg"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Ocampos",
-        "country": "Argentina",
-        "team": "Olympique Marseille",
-        "assists": "6",
-        "flag": "argentina",
-        "logo": "olympique_marseille"
     }
 ]

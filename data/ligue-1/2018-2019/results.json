@@ -3142,7 +3142,7 @@
                 "time": "19:45",
                 "homeTeam": "Girondins Bordeaux",
                 "awayTeam": "Olympique Lyon",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "girondins_bordeaux",
                 "awayTeamLogo": "olympique_lyon"
             },
@@ -3151,7 +3151,7 @@
                 "time": "14:00",
                 "homeTeam": "Amiens SC",
                 "awayTeam": "RC Strasbourg",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "amiens_sc",
                 "awayTeamLogo": "rc_strasbourg"
             },
@@ -3160,7 +3160,7 @@
                 "time": "14:00",
                 "homeTeam": "Angers SCO",
                 "awayTeam": "Stade Reims",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "angers_sco",
                 "awayTeamLogo": "stade_reims"
             },
@@ -3169,7 +3169,7 @@
                 "time": "14:00",
                 "homeTeam": "SM Caen",
                 "awayTeam": "Dijon FCO",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sm_caen",
                 "awayTeamLogo": "dijon_fco"
             },
@@ -3178,7 +3178,7 @@
                 "time": "14:00",
                 "homeTeam": "Lille OSC",
                 "awayTeam": "Nîmes Olympique",
-                "score": "-:-",
+                "score": "5:0",
                 "homeTeamLogo": "lille_osc",
                 "awayTeamLogo": "nimes_olympique"
             },
@@ -3187,7 +3187,7 @@
                 "time": "14:00",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "EA Guingamp",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "ogc_nice",
                 "awayTeamLogo": "ea_guingamp"
             },
@@ -3196,7 +3196,7 @@
                 "time": "16:00",
                 "homeTeam": "AS Saint-Étienne",
                 "awayTeam": "Toulouse FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "as_saint_etienne",
                 "awayTeamLogo": "toulouse_fc"
             },
@@ -3205,7 +3205,7 @@
                 "time": "20:00",
                 "homeTeam": "Olympique Marseille",
                 "awayTeam": "FC Nantes",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "olympique_marseille",
                 "awayTeamLogo": "fc_nantes"
             },
@@ -3214,7 +3214,7 @@
                 "time": "18:00",
                 "homeTeam": "Montpellier HSC",
                 "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "montpellier_hsc",
                 "awayTeamLogo": "paris_saint_germain"
             },
@@ -3232,6 +3232,24 @@
     {
         "round": 35,
         "matches": [
+            {
+                "date": "03/05/2019",
+                "time": "19:45",
+                "homeTeam": "RC Strasbourg",
+                "awayTeam": "Olympique Marseille",
+                "score": "-:-",
+                "homeTeamLogo": "rc_strasbourg",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "04/05/2019",
+                "time": "16:00",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "OGC Nice",
+                "score": "-:-",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "ogc_nice"
+            },
             {
                 "date": "04/05/2019",
                 "time": "19:00",
@@ -3253,51 +3271,6 @@
             {
                 "date": "04/05/2019",
                 "time": "19:00",
-                "homeTeam": "Olympique Lyon",
-                "awayTeam": "Lille OSC",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_lyon",
-                "awayTeamLogo": "lille_osc"
-            },
-            {
-                "date": "04/05/2019",
-                "time": "19:00",
-                "homeTeam": "AS Monaco",
-                "awayTeam": "AS Saint-Étienne",
-                "score": "-:-",
-                "homeTeamLogo": "as_monaco",
-                "awayTeamLogo": "as_saint_etienne"
-            },
-            {
-                "date": "04/05/2019",
-                "time": "19:00",
-                "homeTeam": "Montpellier HSC",
-                "awayTeam": "Amiens SC",
-                "score": "-:-",
-                "homeTeamLogo": "montpellier_hsc",
-                "awayTeamLogo": "amiens_sc"
-            },
-            {
-                "date": "04/05/2019",
-                "time": "19:00",
-                "homeTeam": "FC Nantes",
-                "awayTeam": "Dijon FCO",
-                "score": "-:-",
-                "homeTeamLogo": "fc_nantes",
-                "awayTeamLogo": "dijon_fco"
-            },
-            {
-                "date": "04/05/2019",
-                "time": "19:00",
-                "homeTeam": "Paris Saint-Germain",
-                "awayTeam": "OGC Nice",
-                "score": "-:-",
-                "homeTeamLogo": "paris_saint_germain",
-                "awayTeamLogo": "ogc_nice"
-            },
-            {
-                "date": "04/05/2019",
-                "time": "19:00",
                 "homeTeam": "Stade Reims",
                 "awayTeam": "Nîmes Olympique",
                 "score": "-:-",
@@ -3305,28 +3278,73 @@
                 "awayTeamLogo": "nimes_olympique"
             },
             {
-                "date": "04/05/2019",
-                "time": "19:00",
-                "homeTeam": "RC Strasbourg",
-                "awayTeam": "Olympique Marseille",
+                "date": "05/05/2019",
+                "time": "14:00",
+                "homeTeam": "Montpellier HSC",
+                "awayTeam": "Amiens SC",
                 "score": "-:-",
-                "homeTeamLogo": "rc_strasbourg",
-                "awayTeamLogo": "olympique_marseille"
+                "homeTeamLogo": "montpellier_hsc",
+                "awayTeamLogo": "amiens_sc"
             },
             {
-                "date": "04/05/2019",
-                "time": "19:00",
+                "date": "05/05/2019",
+                "time": "14:00",
+                "homeTeam": "FC Nantes",
+                "awayTeam": "Dijon FCO",
+                "score": "-:-",
+                "homeTeamLogo": "fc_nantes",
+                "awayTeamLogo": "dijon_fco"
+            },
+            {
+                "date": "05/05/2019",
+                "time": "14:00",
                 "homeTeam": "Toulouse FC",
                 "awayTeam": "Stade Rennes",
                 "score": "-:-",
                 "homeTeamLogo": "toulouse_fc",
                 "awayTeamLogo": "stade_rennes"
+            },
+            {
+                "date": "05/05/2019",
+                "time": "16:00",
+                "homeTeam": "AS Monaco",
+                "awayTeam": "AS Saint-Étienne",
+                "score": "-:-",
+                "homeTeamLogo": "as_monaco",
+                "awayTeamLogo": "as_saint_etienne"
+            },
+            {
+                "date": "05/05/2019",
+                "time": "20:00",
+                "homeTeam": "Olympique Lyon",
+                "awayTeam": "Lille OSC",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_lyon",
+                "awayTeamLogo": "lille_osc"
             }
         ]
     },
     {
         "round": 36,
         "matches": [
+            {
+                "date": "10/05/2019",
+                "time": "19:45",
+                "homeTeam": "AS Saint-Étienne",
+                "awayTeam": "Montpellier HSC",
+                "score": "-:-",
+                "homeTeamLogo": "as_saint_etienne",
+                "awayTeamLogo": "montpellier_hsc"
+            },
+            {
+                "date": "11/05/2019",
+                "time": "16:00",
+                "homeTeam": "Angers SCO",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "angers_sco",
+                "awayTeamLogo": "paris_saint_germain"
+            },
             {
                 "date": "11/05/2019",
                 "time": "19:00",
@@ -3335,15 +3353,6 @@
                 "score": "-:-",
                 "homeTeamLogo": "amiens_sc",
                 "awayTeamLogo": "toulouse_fc"
-            },
-            {
-                "date": "11/05/2019",
-                "time": "19:00",
-                "homeTeam": "Angers SCO",
-                "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
-                "homeTeamLogo": "angers_sco",
-                "awayTeamLogo": "paris_saint_germain"
             },
             {
                 "date": "11/05/2019",
@@ -3366,24 +3375,6 @@
             {
                 "date": "11/05/2019",
                 "time": "19:00",
-                "homeTeam": "Lille OSC",
-                "awayTeam": "Girondins Bordeaux",
-                "score": "-:-",
-                "homeTeamLogo": "lille_osc",
-                "awayTeamLogo": "girondins_bordeaux"
-            },
-            {
-                "date": "11/05/2019",
-                "time": "19:00",
-                "homeTeam": "Olympique Marseille",
-                "awayTeam": "Olympique Lyon",
-                "score": "-:-",
-                "homeTeamLogo": "olympique_marseille",
-                "awayTeamLogo": "olympique_lyon"
-            },
-            {
-                "date": "11/05/2019",
-                "time": "19:00",
                 "homeTeam": "OGC Nice",
                 "awayTeam": "FC Nantes",
                 "score": "-:-",
@@ -3400,8 +3391,8 @@
                 "awayTeamLogo": "as_monaco"
             },
             {
-                "date": "11/05/2019",
-                "time": "19:00",
+                "date": "12/05/2019",
+                "time": "14:00",
                 "homeTeam": "Stade Rennes",
                 "awayTeam": "EA Guingamp",
                 "score": "-:-",
@@ -3409,13 +3400,22 @@
                 "awayTeamLogo": "ea_guingamp"
             },
             {
-                "date": "11/05/2019",
-                "time": "19:00",
-                "homeTeam": "AS Saint-Étienne",
-                "awayTeam": "Montpellier HSC",
+                "date": "12/05/2019",
+                "time": "16:00",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "Girondins Bordeaux",
                 "score": "-:-",
-                "homeTeamLogo": "as_saint_etienne",
-                "awayTeamLogo": "montpellier_hsc"
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "girondins_bordeaux"
+            },
+            {
+                "date": "12/05/2019",
+                "time": "20:00",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Olympique Lyon",
+                "score": "-:-",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "olympique_lyon"
             }
         ]
     },

@@ -2587,7 +2587,7 @@
                 "time": "19:30",
                 "homeTeam": "FC Augsburg",
                 "awayTeam": "Bayer Leverkusen",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "fc_augsburg",
                 "awayTeamLogo": "bayer_leverkusen"
             },
@@ -2596,7 +2596,7 @@
                 "time": "14:30",
                 "homeTeam": "Borussia Dortmund",
                 "awayTeam": "FC Schalke 04",
-                "score": "-:-",
+                "score": "2:4",
                 "homeTeamLogo": "borussia_dortmund",
                 "awayTeamLogo": "fc_schalke_04"
             },
@@ -2605,7 +2605,7 @@
                 "time": "14:30",
                 "homeTeam": "Eintracht Frankfurt",
                 "awayTeam": "Hertha BSC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "eintracht_frankfurt",
                 "awayTeamLogo": "hertha_bsc"
             },
@@ -2614,7 +2614,7 @@
                 "time": "14:30",
                 "homeTeam": "Fortuna Düsseldorf",
                 "awayTeam": "Werder Bremen",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "fortuna_dusseldorf",
                 "awayTeamLogo": "werder_bremen"
             },
@@ -2623,7 +2623,7 @@
                 "time": "14:30",
                 "homeTeam": "RB Leipzig",
                 "awayTeam": "SC Freiburg",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "rb_leipzig",
                 "awayTeamLogo": "sc_freiburg"
             },
@@ -2632,7 +2632,7 @@
                 "time": "14:30",
                 "homeTeam": "Hannover 96",
                 "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "hannover_96",
                 "awayTeamLogo": "1__fsv_mainz_05"
             },
@@ -2641,7 +2641,7 @@
                 "time": "17:30",
                 "homeTeam": "VfB Stuttgart",
                 "awayTeam": "Bor. Mönchengladbach",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "vfb_stuttgart",
                 "awayTeamLogo": "bor__monchengladbach"
             },
@@ -2650,7 +2650,7 @@
                 "time": "14:30",
                 "homeTeam": "1899 Hoffenheim",
                 "awayTeam": "VfL Wolfsburg",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "1899_hoffenheim",
                 "awayTeamLogo": "vfl_wolfsburg"
             },
@@ -2659,7 +2659,7 @@
                 "time": "17:00",
                 "homeTeam": "1. FC Nürnberg",
                 "awayTeam": "Bayern München",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "1__fc_nurnberg",
                 "awayTeamLogo": "bayern_munchen"
             }
@@ -2811,15 +2811,6 @@
             {
                 "date": "11/05/2019",
                 "time": "14:30",
-                "homeTeam": "Eintracht Frankfurt",
-                "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
-                "homeTeamLogo": "eintracht_frankfurt",
-                "awayTeamLogo": "1__fsv_mainz_05"
-            },
-            {
-                "date": "11/05/2019",
-                "time": "14:30",
                 "homeTeam": "VfB Stuttgart",
                 "awayTeam": "VfL Wolfsburg",
                 "score": "-:-",
@@ -2834,6 +2825,15 @@
                 "score": "-:-",
                 "homeTeamLogo": "borussia_dortmund",
                 "awayTeamLogo": "fortuna_dusseldorf"
+            },
+            {
+                "date": "12/05/2019",
+                "time": "17:00",
+                "homeTeam": "Eintracht Frankfurt",
+                "awayTeam": "1. FSV Mainz 05",
+                "score": "-:-",
+                "homeTeamLogo": "eintracht_frankfurt",
+                "awayTeamLogo": "1__fsv_mainz_05"
             }
         ]
     },

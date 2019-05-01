@@ -13,7 +13,7 @@
         "name": "Nicolas Pépé",
         "country": "Ivory Coast",
         "team": "Lille OSC",
-        "goals": "19",
+        "goals": "20",
         "flag": "ivory_coast",
         "logo": "lille_osc"
     },
@@ -31,9 +31,18 @@
         "name": "Andy Delort",
         "country": "France",
         "team": "Montpellier HSC",
-        "goals": "13",
+        "goals": "14",
         "flag": "france",
         "logo": "montpellier_hsc"
+    },
+    {
+        "rank": "5.",
+        "name": "Moussa Dembélé",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "13",
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -63,13 +72,13 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "8.",
-        "name": "Moussa Dembélé",
+        "rank": "9.",
+        "name": "Jonathan Bamba",
         "country": "France",
-        "team": "Olympique Lyon",
+        "team": "Lille OSC",
         "goals": "12",
         "flag": "france",
-        "logo": "olympique_lyon"
+        "logo": "lille_osc"
     },
     {
         "rank": "-",
@@ -90,15 +99,6 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "11.",
-        "name": "Jonathan Bamba",
-        "country": "France",
-        "team": "Lille OSC",
-        "goals": "11",
-        "flag": "france",
-        "logo": "lille_osc"
-    },
-    {
         "rank": "12.",
         "name": "Stéphane Bahoken",
         "country": "France",
@@ -106,6 +106,15 @@
         "goals": "10",
         "flag": "france",
         "logo": "angers_sco"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
+        "goals": "10",
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
@@ -144,16 +153,7 @@
         "logo": "stade_reims"
     },
     {
-        "rank": "17.",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
-        "goals": "9",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
+        "rank": "18.",
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Olympique Lyon",
