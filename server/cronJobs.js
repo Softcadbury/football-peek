@@ -2,6 +2,8 @@
 
 var CronJob = require('cron').CronJob;
 var helper = require('./helper');
+var leagues = require('./data/leagues');
+var competitions = require('./data/competitions');
 var mainUpdater = require('./updaters/mainUpdater');
 
 var leagueCronJobTimes = [
@@ -36,7 +38,11 @@ function setupCrons() {
     leagueCronJobTimes.forEach(time => {
         (new CronJob(time, async () => {
             helper.log('Run league update');
-            await mainUpdater.updateLeague();
+            await mainUpdater.updateLeague(leagues.bundesliga);
+            await mainUpdater.updateLeague(leagues.premierLeague);
+            await mainUpdater.updateLeague(leagues.ligue1);
+            await mainUpdater.updateLeague(leagues.serieA);
+            await mainUpdater.updateLeague(leagues.liga);
         }, null, false, 'Europe/Paris')).start();
     });
 
@@ -44,7 +50,8 @@ function setupCrons() {
     competitionCronJobTimes.forEach(time => {
         (new CronJob(time, async () => {
             helper.log('Run competition update');
-            await mainUpdater.updateCompetition();
+            await mainUpdater.updateCompetition(competitions.championsLeague);
+            await mainUpdater.updateCompetition(competitions.europaLeague);
         }, null, false, 'Europe/Paris')).start();
     });
 }

@@ -119,27 +119,6 @@ function downloadImage(src, path) {
     }
 }
 
-// Helper to run an update of data
-function runUpdate(itemsExtended, updateData, arg) {
-    if (arg) {
-        var item = itemsExtended.find(p => p.item.smallName === arg);
-
-        if (item) {
-            // Run the update on the specified item
-            return updateData(item);
-        }
-    }
-
-    var promises = [];
-
-    // Run the update on all items
-    for (var i = 0; i < itemsExtended.length; i++) {
-        promises.push(updateData(itemsExtended[i]));
-    }
-
-    return Promise.all(promises);
-}
-
 // Get the current round of a league
 function getLeagueCurrentRound(resultsData) {
     if (!resultsData) {
@@ -183,7 +162,6 @@ module.exports = {
     scrapeUrl: scrapeUrl,
     manageFlagProperty: manageFlagProperty,
     manageLogoProperty: manageLogoProperty,
-    runUpdate: runUpdate,
     getLeagueCurrentRound: getLeagueCurrentRound,
     log: log
 };

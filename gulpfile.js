@@ -1,57 +1,24 @@
 'use strict';
 
 var gulp = require('gulp');
-var config = require('./server/config');
-var leagues = require('./server/data/leagues');
-var competitions = require('./server/data/competitions');
 
 // Updates all data
-gulp.task('upall', async () => {
+gulp.task('up', async () => {
+    var config = require('./server/config');
+    var leagues = require('./server/data/leagues');
+    var competitions = require('./server/data/competitions');
     var mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
     config.fullResultUpdate = true;
 
-    await mainUpdater.updateLeague(leagues.bundesliga.smallName);
-    await mainUpdater.updateLeague(leagues.premierLeague.smallName);
-    await mainUpdater.updateLeague(leagues.ligue1.smallName);
-    await mainUpdater.updateLeague(leagues.serieA.smallName);
-    await mainUpdater.updateLeague(leagues.liga.smallName);
-    await mainUpdater.updateCompetition(competitions.championsLeague.smallName);
-    await mainUpdater.updateCompetition(competitions.europaLeague.smallName);
-});
-
-// Updates data
-// Format: gulp up -l [lague small name] -c [competition small name]
-gulp.task('up', async () => {
-    var mainUpdater = require('./server/updaters/mainUpdater');
-
-    config.downloadImages = true;
-    config.fullResultUpdate = false;
-
-    var argv = require('yargs').argv;
-    var leagueArg = argv.l;
-    var competitionArg = argv.c;
-
-    if (leagueArg) {
-        leagueArg = typeof leagueArg === 'string' ? leagueArg.toUpperCase() : null;
-        if (!leagueArg || Object.values(leagues).some(p => p.smallName === leagueArg)) {
-            await mainUpdater.updateLeague(leagueArg);
-        } else {
-            // eslint-disable-next-line no-console
-            console.log(leagueArg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG]');
-        }
-    }
-
-    if (competitionArg) {
-        competitionArg = typeof competitionArg === 'string' ? competitionArg.toUpperCase() : null;
-        if (!competitionArg || Object.values(competitions).some(p => p.smallName === competitionArg)) {
-            await mainUpdater.updateCompetition(competitionArg);
-        } else {
-            // eslint-disable-next-line no-console
-            console.log(competitionArg + ' not found. Options are -c [C1|C3]');
-        }
-    }
+    await mainUpdater.updateLeague(leagues.bundesliga);
+    await mainUpdater.updateLeague(leagues.premierLeague);
+    await mainUpdater.updateLeague(leagues.ligue1);
+    await mainUpdater.updateLeague(leagues.serieA);
+    await mainUpdater.updateLeague(leagues.liga);
+    await mainUpdater.updateCompetition(competitions.championsLeague);
+    await mainUpdater.updateCompetition(competitions.europaLeague);
 });
 
 // Check coding rules

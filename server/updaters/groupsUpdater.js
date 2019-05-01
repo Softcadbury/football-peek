@@ -11,13 +11,8 @@ var competitionsExtended = [
     { item: competitions.europaLeague, url: 'europa-league', groupNumber: 12 }
 ];
 
-// Updates results of current period
-function update(arg) {
-    return helper.runUpdate(competitionsExtended, updateData, arg);
-}
-
-// Updates the results of an itemExtended
-function updateData(itemExtended) {
+function update(item) {
+    var itemExtended = competitionsExtended.find(p => p.item === item);
     var results = [];
     var promises = [];
 

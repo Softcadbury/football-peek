@@ -18,18 +18,17 @@ var competitionsExtended = [
     { item: competitions.europaLeague, url: 'europa-league', extra: '' }
 ];
 
-// Updates scorers of current period for leagues
-function updateLeagues(arg) {
-    return helper.runUpdate(leaguesExtended, updateData, arg);
+function updateLeagues(item) {
+    var itemExtended = leaguesExtended.find(p => p.item === item);
+    return update(itemExtended);
 }
 
-// Updates scorers of current period for competitions
-function updateCompetitions(arg) {
-    return helper.runUpdate(competitionsExtended, updateData, arg);
+function updateCompetitions(item) {
+    var itemExtended = competitionsExtended.find(p => p.item === item);
+    return update(itemExtended);
 }
 
-// Updates the scorers of a itemExtended
-function updateData(itemExtended) {
+function update(itemExtended) {
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(scorersDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
             var results = [];

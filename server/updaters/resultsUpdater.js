@@ -13,13 +13,8 @@ var leaguesExtended = [
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '', roundNumber: 38 }
 ];
 
-// Updates results of current period
-function update(leagueArg) {
-    return helper.runUpdate(leaguesExtended, updateData, leagueArg);
-}
-
-// Updates the results of an itemExtended
-function updateData(itemExtended) {
+function update(item) {
+    var itemExtended = leaguesExtended.find(p => p.item === item);
     var results = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current));
     var promises = [];
 

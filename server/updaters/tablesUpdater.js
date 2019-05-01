@@ -13,13 +13,9 @@ var leaguesExtended = [
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '' }
 ];
 
-// Updates tables of current period
-function update(arg) {
-    return helper.runUpdate(leaguesExtended, updateData, arg);
-}
+function update(item) {
+    var itemExtended = leaguesExtended.find(p => p.item === item);
 
-// Updates the table of an itemExtended
-function updateData(itemExtended) {
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
             var results = [];
