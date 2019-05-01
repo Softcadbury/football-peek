@@ -1,10 +1,10 @@
 'use strict';
 
 var gulp = require('gulp');
+var config = require('./server/config');
 
 // Updates all data
 gulp.task('up', async () => {
-    var config = require('./server/config');
     var leagues = require('./server/data/leagues');
     var competitions = require('./server/data/competitions');
     var mainUpdater = require('./server/updaters/mainUpdater');
