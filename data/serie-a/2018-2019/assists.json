@@ -4,12 +4,12 @@
         "name": "Papu Gómez",
         "country": "Argentina",
         "team": "Atalanta",
-        "assists": "10",
+        "assists": "11",
         "flag": "argentina",
         "logo": "atalanta"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
@@ -18,11 +18,11 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
-        "assists": "9",
+        "assists": "10",
         "flag": "spain",
         "logo": "ac_milan"
     },
@@ -31,12 +31,12 @@
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
-        "assists": "8",
+        "assists": "9",
         "flag": "spain",
         "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
+        "rank": "5.",
         "name": "Manuel Lazzari",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
@@ -109,6 +109,24 @@
     },
     {
         "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "6",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Remo Freuler",
+        "country": "Switzerland",
+        "team": "Atalanta",
+        "assists": "6",
+        "flag": "switzerland",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -136,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Pol Lirola",
+        "country": "Spain",
+        "team": "Sassuolo Calcio",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Mario Mandžukić",
         "country": "Croatia",
         "team": "Juventus",
@@ -151,32 +178,5 @@
         "assists": "6",
         "flag": "bosnia_herzegovina",
         "logo": "juventus"
-    },
-    {
-        "rank": "18.",
-        "name": "Danilo D'Ambrosio",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Remo Freuler",
-        "country": "Switzerland",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "switzerland",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Hans Hateboer",
-        "country": "Netherlands",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "atalanta"
     }
 ]

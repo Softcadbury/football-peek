@@ -4,36 +4,36 @@
         "name": "Fabio Quagliarella",
         "country": "Italy",
         "team": "Sampdoria",
-        "goals": "23",
+        "goals": "26",
         "flag": "italy",
         "logo": "sampdoria"
     },
     {
         "rank": "2.",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "goals": "22",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "3.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
+        "goals": "21",
+        "flag": "portugal",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Krzysztof Piątek",
         "country": "Poland",
         "team": "Genoa CFC",
         "goals": "21",
         "flag": "poland",
         "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Atalanta",
-        "goals": "21",
-        "flag": "colombia",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "4.",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Juventus",
-        "goals": "20",
-        "flag": "portugal",
-        "logo": "juventus"
     },
     {
         "rank": "5.",
@@ -46,6 +46,15 @@
     },
     {
         "rank": "6.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "15",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Empoli FC",
@@ -54,7 +63,16 @@
         "logo": "empoli_fc"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Andrea Petagna",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "goals": "15",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "9.",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
@@ -64,42 +82,33 @@
     },
     {
         "rank": "-",
-        "name": "Andrea Petagna",
-        "country": "Italy",
-        "team": "SPAL 2013 Ferrara",
-        "goals": "14",
-        "flag": "italy",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "9.",
-        "name": "Andrea Belotti",
-        "country": "Italy",
-        "team": "Torino FC",
-        "goals": "13",
-        "flag": "italy",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
-        "goals": "13",
+        "goals": "14",
         "flag": "belgium",
         "logo": "ssc_napoli"
     },
     {
-        "rank": "11.",
+        "rank": "-",
         "name": "Leonardo Pavoletti",
         "country": "Italy",
         "team": "Cagliari Calcio",
-        "goals": "12",
+        "goals": "14",
         "flag": "italy",
         "logo": "cagliari_calcio"
     },
     {
         "rank": "12.",
+        "name": "Stephan El Shaarawy",
+        "country": "Italy",
+        "team": "AS Roma",
+        "goals": "11",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Josip Iličič",
         "country": "Slovenia",
         "team": "Atalanta",
@@ -108,13 +117,13 @@
         "logo": "atalanta"
     },
     {
-        "rank": "13.",
-        "name": "Stephan El Shaarawy",
-        "country": "Italy",
-        "team": "AS Roma",
+        "rank": "14.",
+        "name": "Gregoire Defrel",
+        "country": "France",
+        "team": "Sampdoria",
         "goals": "10",
-        "flag": "italy",
-        "logo": "as_roma"
+        "flag": "france",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -135,7 +144,16 @@
         "logo": "inter"
     },
     {
-        "rank": "16.",
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "10",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "18.",
         "name": "Rodrigo de Paul",
         "country": "Argentina",
         "team": "Udinese Calcio",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Gregoire Defrel",
-        "country": "France",
-        "team": "Sampdoria",
-        "goals": "9",
-        "flag": "france",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "goals": "9",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "19.",
-        "name": "Felipe Caicedo",
-        "country": "Ecuador",
-        "team": "Lazio Roma",
-        "goals": "8",
-        "flag": "ecuador",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "AS Roma",
-        "goals": "8",
+        "goals": "9",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Roberto Inglese",
+        "country": "Italy",
+        "team": "Parma Calcio 1913",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "parma_calcio_1913"
     }
 ]

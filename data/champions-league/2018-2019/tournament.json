@@ -1,5 +1,20 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "01/06/2019",
+                "time1": "20:00",
+                "team1": "Tottenham Hotspur",
+                "team2": "Liverpool FC",
+                "score1": "-:-",
+                "winner": "",
+                "team1Logo": "tottenham_hotspur",
+                "team2Logo": "liverpool_fc"
+            }
+        ]
+    },
+    {
         "name": "Semi-finals",
         "matches": [
             {
@@ -10,8 +25,8 @@
                 "team1": "Tottenham Hotspur",
                 "team2": "AFC Ajax",
                 "score1": "0:1",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "3:2",
+                "winner": "Tottenham Hotspur",
                 "team1Logo": "tottenham_hotspur",
                 "team2Logo": "afc_ajax"
             },
@@ -22,9 +37,9 @@
                 "time2": "20:00",
                 "team1": "FC Barcelona",
                 "team2": "Liverpool FC",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "3:0",
+                "score2": "0:4",
+                "winner": "Liverpool FC",
                 "team1Logo": "fc_barcelona",
                 "team2Logo": "liverpool_fc"
             }

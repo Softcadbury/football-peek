@@ -1,24 +1,33 @@
 [
     {
         "rank": "1.",
-        "name": "Ryan Fraser",
-        "country": "Scotland",
-        "team": "AFC Bournemouth",
-        "assists": "13",
-        "flag": "scotland",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
-        "assists": "13",
+        "assists": "15",
         "flag": "belgium",
         "logo": "chelsea_fc"
     },
     {
+        "rank": "2.",
+        "name": "Ryan Fraser",
+        "country": "Scotland",
+        "team": "AFC Bournemouth",
+        "assists": "14",
+        "flag": "scotland",
+        "logo": "afc_bournemouth"
+    },
+    {
         "rank": "3.",
+        "name": "Trent Alexander-Arnold",
+        "country": "England",
+        "team": "Liverpool FC",
+        "assists": "12",
+        "flag": "england",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": "Christian Eriksen",
         "country": "Denmark",
         "team": "Tottenham Hotspur",
@@ -27,7 +36,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Andrew Robertson",
         "country": "Scotland",
         "team": "Liverpool FC",
@@ -36,7 +45,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Manchester City",
@@ -45,16 +54,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "6.",
-        "name": "Trent Alexander-Arnold",
-        "country": "England",
-        "team": "Liverpool FC",
-        "assists": "9",
-        "flag": "england",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
+        "rank": "7.",
         "name": "Paul Pogba",
         "country": "France",
         "team": "Manchester United",
@@ -91,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": " David Silva",
+        "country": "Spain",
+        "team": "Manchester City",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": " João Moutinho",
         "country": "Portugal",
         "team": "Wolverhampton Wanderers",
@@ -109,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": "Matt Ritchie",
+        "country": "Scotland",
+        "team": "Newcastle United",
+        "assists": "8",
+        "flag": "scotland",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
@@ -117,7 +135,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "14.",
+        "rank": "16.",
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "Manchester City",
@@ -160,23 +178,5 @@
         "assists": "7",
         "flag": "england",
         "logo": "burnley_fc"
-    },
-    {
-        "rank": "19.",
-        "name": " David Silva",
-        "country": "Spain",
-        "team": "Manchester City",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Abdoulaye Doucouré",
-        "country": "France",
-        "team": "Watford FC",
-        "assists": "6",
-        "flag": "france",
-        "logo": "watford_fc"
     }
 ]
