@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "34",
+        "goals": "36",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "20",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "5.",
         "name": "Cristhian Stuani",
         "country": "Uruguay",
         "team": "Girona FC",
@@ -36,25 +45,16 @@
         "logo": "girona_fc"
     },
     {
-        "rank": "5.",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "18",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
         "rank": "6.",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
-        "goals": "17",
+        "goals": "18",
         "flag": "france",
         "logo": "sevilla_fc"
     },
     {
-        "rank": "-",
+        "rank": "7.",
         "name": " Borja Iglesias",
         "country": "Spain",
         "team": "Espanyol Barcelona",
@@ -126,7 +126,25 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": " Roger",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
+        "name": " Williams",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "17.",
         "name": " Morales",
         "country": "Spain",
         "team": "Levante UD",
@@ -142,24 +160,6 @@
         "goals": "12",
         "flag": "spain",
         "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roger",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": " Williams",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
     },
     {
         "rank": "19.",

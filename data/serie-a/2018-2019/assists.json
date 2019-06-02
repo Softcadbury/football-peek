@@ -4,7 +4,7 @@
         "name": "Papu Gómez",
         "country": "Argentina",
         "team": "Atalanta",
-        "assists": "11",
+        "assists": "12",
         "flag": "argentina",
         "logo": "atalanta"
     },
@@ -13,8 +13,17 @@
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
-        "assists": "10",
+        "assists": "11",
         "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "3.",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "10",
+        "flag": "spain",
         "logo": "ssc_napoli"
     },
     {
@@ -27,16 +36,16 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "4.",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "assists": "9",
-        "flag": "spain",
-        "logo": "ssc_napoli"
+        "rank": "5.",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
+        "assists": "8",
+        "flag": "argentina",
+        "logo": "udinese_calcio"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": "Manuel Lazzari",
         "country": "Italy",
         "team": "SPAL 2013 Ferrara",
@@ -54,7 +63,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Juventus",
@@ -73,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": "Cengiz Ünder",
+        "country": "Turkey",
+        "team": "AS Roma",
+        "assists": "7",
+        "flag": "turkey",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Duván Zapata",
         "country": "Colombia",
         "team": "Atalanta",
@@ -81,7 +99,7 @@
         "logo": "atalanta"
     },
     {
-        "rank": "10.",
+        "rank": "12.",
         "name": "Cristiano Biraghi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -127,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -151,32 +178,5 @@
         "assists": "6",
         "flag": "bosnia_herzegovina",
         "logo": "empoli_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Pol Lirola",
-        "country": "Spain",
-        "team": "Sassuolo Calcio",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Mandžukić",
-        "country": "Croatia",
-        "team": "Juventus",
-        "assists": "6",
-        "flag": "croatia",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Miralem Pjanić",
-        "country": "Bosnia-Herzegovina",
-        "team": "Juventus",
-        "assists": "6",
-        "flag": "bosnia_herzegovina",
-        "logo": "juventus"
     }
 ]

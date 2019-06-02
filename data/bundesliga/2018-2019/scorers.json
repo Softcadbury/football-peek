@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Kai Havertz",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "17",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Luka Jović",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
@@ -27,20 +36,11 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "4.",
-        "name": "Kai Havertz",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "goals": "16",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
         "rank": "-",
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
-        "goals": "16",
+        "goals": "17",
         "flag": "croatia",
         "logo": "1899_hoffenheim"
     },
@@ -49,9 +49,27 @@
         "name": "Marco Reus",
         "country": "Germany",
         "team": "Borussia Dortmund",
-        "goals": "16",
+        "goals": "17",
         "flag": "germany",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Wout Weghorst",
+        "country": "Netherlands",
+        "team": "VfL Wolfsburg",
+        "goals": "17",
+        "flag": "netherlands",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "8.",
+        "name": "Ishak Belfodil",
+        "country": "Algeria",
+        "team": "1899 Hoffenheim",
+        "goals": "16",
+        "flag": "algeria",
+        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -63,13 +81,13 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "8.",
-        "name": "Ishak Belfodil",
-        "country": "Algeria",
-        "team": "1899 Hoffenheim",
+        "rank": "10.",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "Eintracht Frankfurt",
         "goals": "15",
-        "flag": "algeria",
-        "logo": "1899_hoffenheim"
+        "flag": "france",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -81,13 +99,13 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "10.",
-        "name": "Sébastien Haller",
+        "rank": "12.",
+        "name": "Jean-Philippe Mateta",
         "country": "France",
-        "team": "Eintracht Frankfurt",
+        "team": "1. FSV Mainz 05",
         "goals": "14",
         "flag": "france",
-        "logo": "eintracht_frankfurt"
+        "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "-",
@@ -99,24 +117,6 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "-",
-        "name": "Wout Weghorst",
-        "country": "Netherlands",
-        "team": "VfL Wolfsburg",
-        "goals": "14",
-        "flag": "netherlands",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "13.",
-        "name": "Jean-Philippe Mateta",
-        "country": "France",
-        "team": "1. FSV Mainz 05",
-        "goals": "13",
-        "flag": "france",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
         "rank": "14.",
         "name": "Alassane Pléa",
         "country": "France",
@@ -126,7 +126,16 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "15.",
+        "rank": "-",
+        "name": "Jadon Sancho",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "goals": "12",
+        "flag": "england",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "16.",
         "name": "Ondrej Duda",
         "country": "Slovakia",
         "team": "Hertha BSC",
@@ -142,15 +151,6 @@
         "goals": "11",
         "flag": "germany",
         "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Jadon Sancho",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "goals": "11",
-        "flag": "england",
-        "logo": "borussia_dortmund"
     },
     {
         "rank": "18.",

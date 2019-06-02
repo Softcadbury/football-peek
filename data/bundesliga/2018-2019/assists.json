@@ -13,7 +13,7 @@
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "15",
+        "assists": "16",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
@@ -27,7 +27,25 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Marco Reus",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "12",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "12",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "6.",
         "name": "Thorgan Hazard",
         "country": "Belgium",
         "team": "Bor. Mönchengladbach",
@@ -55,33 +73,15 @@
     },
     {
         "rank": "-",
-        "name": "Marco Reus",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "11",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "assists": "11",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "9.",
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "10",
+        "assists": "11",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
     {
-        "rank": "-",
+        "rank": "10.",
         "name": "Florian Neuhaus",
         "country": "Germany",
         "team": "Bor. Mönchengladbach",
@@ -91,6 +91,15 @@
     },
     {
         "rank": "11.",
+        "name": "Kerem Demirbay",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "9",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Sébastien Haller",
         "country": "France",
         "team": "Eintracht Frankfurt",
@@ -108,13 +117,13 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "13.",
-        "name": "Kerem Demirbay",
+        "rank": "14.",
+        "name": "Maximilian Arnold",
         "country": "Germany",
-        "team": "1899 Hoffenheim",
+        "team": "VfL Wolfsburg",
         "assists": "8",
         "flag": "germany",
-        "logo": "1899_hoffenheim"
+        "logo": "vfl_wolfsburg"
     },
     {
         "rank": "-",
@@ -144,13 +153,13 @@
         "logo": "hertha_bsc"
     },
     {
-        "rank": "17.",
-        "name": "Maximilian Arnold",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
+        "rank": "18.",
+        "name": "Charles Aránguiz",
+        "country": "Chile",
+        "team": "Bayer Leverkusen",
         "assists": "7",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
+        "flag": "chile",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "assists": "7",
         "flag": "netherlands",
         "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Emil Forsberg",
-        "country": "Sweden",
-        "team": "RB Leipzig",
-        "assists": "7",
-        "flag": "sweden",
-        "logo": "rb_leipzig"
     }
 ]
