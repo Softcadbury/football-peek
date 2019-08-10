@@ -6,7 +6,7 @@ var config = require('./server/config');
 // Updates all data
 gulp.task('up', async () => {
     var leagues = require('./server/data/leagues');
-    var competitions = require('./server/data/competitions');
+    // var competitions = require('./server/data/competitions');
     var mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
@@ -17,8 +17,8 @@ gulp.task('up', async () => {
     await mainUpdater.updateLeague(leagues.ligue1);
     await mainUpdater.updateLeague(leagues.serieA);
     await mainUpdater.updateLeague(leagues.liga);
-    await mainUpdater.updateCompetition(competitions.championsLeague);
-    await mainUpdater.updateCompetition(competitions.europaLeague);
+    // await mainUpdater.updateCompetition(competitions.championsLeague);
+    // await mainUpdater.updateCompetition(competitions.europaLeague);
 });
 
 // Check coding rules

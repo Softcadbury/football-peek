@@ -4,7 +4,7 @@
 function config() {
     var periodFormat = '{0}-{1}';
     var firstHandledYear = 2000;
-    var lastHandledPeriod = 2018;
+    var lastHandledPeriod = 2019;
 
     var currentPeriod = periodFormat.replace('{0}', lastHandledPeriod).replace('{1}', lastHandledPeriod + 1);
     var availablesPeriod = [];

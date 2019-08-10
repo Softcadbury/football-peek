@@ -32,5 +32,4 @@ app.use('/', require('./server/routes/homeRoute'));
 app.use('/', require('./server/routes/itemRoute'));
 
 // Setup cron jobs
-// Disable auto-update until next year
-// require('./server/cronJobs').setupCrons();
+require('./server/cronJobs').setupCrons();
