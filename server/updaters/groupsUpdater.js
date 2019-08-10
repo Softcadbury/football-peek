@@ -25,6 +25,7 @@ function update(item) {
         Promise.all(promises).then(() => {
             if (results.some(p => p.matches.length !== 12) || results.some(p => p.table.length !== 4)) {
                 helper.log('Error while updating groups: ' + itemExtended.item.code);
+                resolve();
                 return;
             }
 

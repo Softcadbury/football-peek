@@ -35,6 +35,7 @@ function update(itemExtended) {
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
                 if (index <= 0 || index > 20) {
+                    resolve();
                     return;
                 }
 
@@ -51,6 +52,7 @@ function update(itemExtended) {
 
             if (results.length < 5) {
                 helper.log('Error while updating assists: ' + itemExtended.item.code);
+                resolve();
                 return;
             }
 

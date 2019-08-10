@@ -22,6 +22,7 @@ function update(item) {
 
             $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {
                 if (index <= 0) {
+                    resolve();
                     return;
                 }
 
@@ -42,6 +43,7 @@ function update(item) {
 
             if (results.length < 18) {
                 helper.log('Error while updating table: ' + itemExtended.item.code);
+                resolve();
                 return;
             }
 

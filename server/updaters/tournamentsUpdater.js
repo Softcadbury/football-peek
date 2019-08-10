@@ -27,6 +27,7 @@ function update(item) {
             if (itemExtended.roundNumber === 4 && (results[3].matches.length !== 8 || !results[3].matches[0].team1) ||
                 itemExtended.roundNumber === 5 && (results[4].matches.length !== 16 || !results[4].matches[0].team1)) {
                 helper.log('Error while updating tournament: ' + itemExtended.item.code);
+                resolve();
                 return;
             }
 
