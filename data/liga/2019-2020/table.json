@@ -2,18 +2,18 @@
     {
         "rank": "1",
         "team": "Athletic Bilbao",
-        "points": "0",
-        "played": "0",
-        "win": "0",
+        "points": "3",
+        "played": "1",
+        "win": "1",
         "draw": "0",
         "lost": "0",
-        "goalsFor": "0",
+        "goalsFor": "1",
         "goalsAgainst": "0",
-        "goalDifference": "0",
+        "goalDifference": "1",
         "logo": "athletic_bilbao"
     },
     {
-        "rank": " ",
+        "rank": "2",
         "team": "Atlético Madrid",
         "points": "0",
         "played": "0",
@@ -89,19 +89,6 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": " ",
-        "team": "FC Barcelona",
-        "points": "0",
-        "played": "0",
-        "win": "0",
-        "draw": "0",
-        "lost": "0",
-        "goalsFor": "0",
-        "goalsAgainst": "0",
-        "goalDifference": "0",
-        "logo": "fc_barcelona"
     },
     {
         "rank": " ",
@@ -258,5 +245,18 @@
         "goalsAgainst": "0",
         "goalDifference": "0",
         "logo": "villarreal_cf"
+    },
+    {
+        "rank": "20",
+        "team": "FC Barcelona",
+        "points": "0",
+        "played": "1",
+        "win": "0",
+        "draw": "0",
+        "lost": "1",
+        "goalsFor": "0",
+        "goalsAgainst": "1",
+        "goalDifference": "-1",
+        "logo": "fc_barcelona"
     }
 ]
