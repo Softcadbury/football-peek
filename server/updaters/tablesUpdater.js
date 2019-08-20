@@ -6,11 +6,11 @@ var leagues = require('../data/leagues');
 
 var tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
 var leaguesExtended = [
-    { item: leagues.bundesliga, url: 'bundesliga', extra: '/1' },
+    { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
     { item: leagues.serieA, url: 'ita-serie-a', extra: '' },
-    { item: leagues.premierLeague, url: 'eng-premier-league', extra: '/1' }
+    { item: leagues.premierLeague, url: 'eng-premier-league', extra: '' }
 ];
 
 function update(item) {

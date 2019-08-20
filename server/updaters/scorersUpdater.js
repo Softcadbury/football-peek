@@ -18,14 +18,14 @@ var competitionsExtended = [
     { item: competitions.europaLeague, url: 'europa-league', extra: '' }
 ];
 
-function updateLeagues(item) {
+async function updateLeagues(item) {
     var itemExtended = leaguesExtended.find(p => p.item === item);
-    return update(itemExtended);
+    return await update(itemExtended);
 }
 
-function updateCompetitions(item) {
+async function updateCompetitions(item) {
     var itemExtended = competitionsExtended.find(p => p.item === item);
-    return update(itemExtended);
+    return await update(itemExtended);
 }
 
 function update(itemExtended) {
