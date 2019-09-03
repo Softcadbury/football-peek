@@ -1,15 +1,6 @@
 [
     {
         "rank": "1.",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "2.",
         "name": "Domenico Berardi",
         "country": "Italy",
         "team": "Sassuolo Calcio",
@@ -18,52 +9,70 @@
         "logo": "sassuolo_calcio"
     },
     {
+        "rank": "2.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Aleksandar Kolarov",
+        "country": "Serbia",
+        "team": "AS Roma",
+        "goals": "2",
+        "flag": "serbia",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Cristhian Kouamé",
+        "country": "Ivory Coast",
+        "team": "Genoa CFC",
+        "goals": "2",
+        "flag": "ivory_coast",
+        "logo": "genoa_cfc"
+    },
+    {
+        "rank": "-",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Inter",
+        "goals": "2",
+        "flag": "belgium",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Muriel",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "goals": "2",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
         "rank": "-",
         "name": "Erick Pulgar",
         "country": "Chile",
         "team": "ACF Fiorentina",
-        "goals": "3",
+        "goals": "2",
         "flag": "chile",
         "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Stefano Sensi",
-        "country": "Italy",
-        "team": "Inter",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "8.",
         "name": "Duván Zapata",
         "country": "Colombia",
         "team": "Atalanta",
@@ -81,102 +90,93 @@
         "logo": "torino_fc"
     },
     {
-        "rank": "-",
-        "name": "Cristhian Kouamé",
-        "country": "Ivory Coast",
-        "team": "Genoa CFC",
-        "goals": "2",
-        "flag": "ivory_coast",
-        "logo": "genoa_cfc"
+        "rank": "11.",
+        "name": " Álex Berenguer",
+        "country": "Spain",
+        "team": "Torino FC",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "torino_fc"
     },
     {
         "rank": "-",
-        "name": "Luis Muriel",
-        "country": "Colombia",
-        "team": "Atalanta",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "atalanta"
+        "name": "Kevin-Prince Boateng",
+        "country": "Ghana",
+        "team": "ACF Fiorentina",
+        "goals": "1",
+        "flag": "ghana",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
+        "name": "Kevin Bonifazi",
+        "country": "Italy",
+        "team": "Torino FC",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Marcelo Brozović",
+        "country": "Croatia",
         "team": "Inter",
-        "goals": "2",
-        "flag": "belgium",
+        "goals": "1",
+        "flag": "croatia",
         "logo": "inter"
     },
     {
         "rank": "-",
-        "name": "Aleksandar Kolarov",
-        "country": "Serbia",
-        "team": "AS Roma",
-        "goals": "2",
-        "flag": "serbia",
-        "logo": "as_roma"
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "AC Milan",
+        "goals": "1",
+        "flag": "turkey",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
-        "name": " Gervinho",
-        "country": "Ivory Coast",
-        "team": "Parma Calcio 1913",
-        "goals": "2",
-        "flag": "ivory_coast",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "2",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Andrea Pinamonti",
+        "name": "Antonio Candreva",
         "country": "Italy",
-        "team": "Genoa CFC",
-        "goals": "2",
+        "team": "Inter",
+        "goals": "1",
         "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Andrea Petagna",
-        "country": "Italy",
-        "team": "SPAL 2013 Ferrara",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "spal_2013_ferrara"
-    },
-    {
-        "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "2",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
+        "logo": "inter"
     },
     {
         "rank": "-",
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Sassuolo Calcio",
-        "goals": "2",
+        "goals": "1",
         "flag": "italy",
         "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
-        "name": "Papu Gómez",
+        "name": "Giorgio Chiellini",
+        "country": "Italy",
+        "team": "Juventus",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Joaquín Correa",
         "country": "Argentina",
-        "team": "Atalanta",
-        "goals": "2",
+        "team": "Lazio Roma",
+        "goals": "1",
         "flag": "argentina",
-        "logo": "atalanta"
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Criscito",
+        "country": "Italy",
+        "team": "Genoa CFC",
+        "goals": "1",
+        "flag": "italy",
+        "logo": "genoa_cfc"
     }
 ]

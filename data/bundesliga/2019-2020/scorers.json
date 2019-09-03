@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "7",
+        "goals": "6",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -18,43 +18,16 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": " Paco Alcácer",
         "country": "Spain",
         "team": "Borussia Dortmund",
-        "goals": "5",
+        "goals": "4",
         "flag": "spain",
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "-",
-        "name": "Jadon Sancho",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "goals": "5",
-        "flag": "england",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "5.",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "6.",
-        "name": "Ruben Vargas",
-        "country": "Switzerland",
-        "team": "FC Augsburg",
-        "goals": "3",
-        "flag": "switzerland",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Yuya Osako",
         "country": "Japan",
         "team": "Werder Bremen",
@@ -64,96 +37,33 @@
     },
     {
         "rank": "-",
-        "name": "Luca Waldschmidt",
-        "country": "Germany",
-        "team": "SC Freiburg",
+        "name": "Ruben Vargas",
+        "country": "Switzerland",
+        "team": "FC Augsburg",
         "goals": "3",
-        "flag": "germany",
-        "logo": "sc_freiburg"
+        "flag": "switzerland",
+        "logo": "fc_augsburg"
     },
     {
-        "rank": "-",
-        "name": "Streli Mamba",
-        "country": "Germany",
-        "team": "SC Paderborn 07",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "sc_paderborn_07"
+        "rank": "6.",
+        "name": "Sebastian Andersson",
+        "country": "Sweden",
+        "team": "1. FC Union Berlin",
+        "goals": "2",
+        "flag": "sweden",
+        "logo": "1__fc_union_berlin"
     },
     {
         "rank": "-",
         "name": "Josip Brekalo",
         "country": "Croatia",
         "team": "VfL Wolfsburg",
-        "goals": "3",
+        "goals": "2",
         "flag": "croatia",
         "logo": "vfl_wolfsburg"
     },
     {
         "rank": "-",
-        "name": " Gonçalo Paciência",
-        "country": "Portugal",
-        "team": "Eintracht Frankfurt",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Wout Weghorst",
-        "country": "Netherlands",
-        "team": "VfL Wolfsburg",
-        "goals": "3",
-        "flag": "netherlands",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Niederlechner",
-        "country": "Germany",
-        "team": "FC Augsburg",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Höler",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Yussuf Poulsen",
-        "country": "Denmark",
-        "team": "RB Leipzig",
-        "goals": "3",
-        "flag": "denmark",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Ellyes Skhiri",
-        "country": "Tunisia",
-        "team": "1. FC Köln",
-        "goals": "3",
-        "flag": "tunisia",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "18.",
         "name": "Marius Bülter",
         "country": "Germany",
         "team": "1. FC Union Berlin",
@@ -172,11 +82,101 @@
     },
     {
         "rank": "-",
-        "name": "Sebastian Andersson",
-        "country": "Sweden",
-        "team": "1. FC Union Berlin",
+        "name": " Gonçalo Paciência",
+        "country": "Portugal",
+        "team": "Eintracht Frankfurt",
         "goals": "2",
-        "flag": "sweden",
-        "logo": "1__fc_union_berlin"
+        "flag": "portugal",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Rouwen Hennings",
+        "country": "Germany",
+        "team": "Fortuna Düsseldorf",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "fortuna_dusseldorf"
+    },
+    {
+        "rank": "-",
+        "name": "Streli Mamba",
+        "country": "Germany",
+        "team": "SC Paderborn 07",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "sc_paderborn_07"
+    },
+    {
+        "rank": "-",
+        "name": "Jadon Sancho",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "goals": "2",
+        "flag": "england",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Luca Waldschmidt",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "goals": "2",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Wout Weghorst",
+        "country": "Netherlands",
+        "team": "VfL Wolfsburg",
+        "goals": "2",
+        "flag": "netherlands",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "16.",
+        "name": "David Alaba",
+        "country": "Austria",
+        "team": "Bayern München",
+        "goals": "1",
+        "flag": "austria",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Charles Aránguiz",
+        "country": "Chile",
+        "team": "Bayer Leverkusen",
+        "goals": "1",
+        "flag": "chile",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Maximilian Arnold",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "1",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Kaan Ayhan",
+        "country": "Turkey",
+        "team": "Fortuna Düsseldorf",
+        "goals": "1",
+        "flag": "turkey",
+        "logo": "fortuna_dusseldorf"
+    },
+    {
+        "rank": "-",
+        "name": "Leon Bailey",
+        "country": "Jamaica",
+        "team": "Bayer Leverkusen",
+        "goals": "1",
+        "flag": "jamaica",
+        "logo": "bayer_leverkusen"
     }
 ]

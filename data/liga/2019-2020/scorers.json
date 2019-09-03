@@ -4,7 +4,7 @@
         "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
-        "goals": "4",
+        "goals": "3",
         "flag": "spain",
         "logo": "villarreal_cf"
     },
@@ -13,25 +13,16 @@
         "name": " Loren",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "4",
+        "goals": "3",
         "flag": "spain",
         "logo": "real_betis"
     },
     {
         "rank": "3.",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "FC Barcelona",
-        "goals": "3",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
         "name": "Gareth Bale",
         "country": "Wales",
         "team": "Real Madrid",
-        "goals": "3",
+        "goals": "2",
         "flag": "wales",
         "logo": "real_madrid"
     },
@@ -40,63 +31,9 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "goals": "3",
+        "goals": "2",
         "flag": "france",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Moi Gómez",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Torres",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": " Carles Pérez",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Capa",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "10.",
-        "name": " Roger",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": " Parejo",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -109,6 +46,15 @@
     },
     {
         "rank": "-",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "FC Barcelona",
+        "goals": "2",
+        "flag": "france",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": " Joselu",
         "country": "Spain",
         "team": "CD Alavés",
@@ -118,12 +64,21 @@
     },
     {
         "rank": "-",
-        "name": " Sergi Guardiola",
+        "name": " Moi Gómez",
         "country": "Spain",
-        "team": "Real Valladolid",
+        "team": "Villarreal CF",
         "goals": "2",
         "flag": "spain",
-        "logo": "real_valladolid"
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Parejo",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -145,25 +100,25 @@
     },
     {
         "rank": "-",
-        "name": " Vitolo",
+        "name": " Roberto Torres",
         "country": "Spain",
-        "team": "Atlético Madrid",
+        "team": "CA Osasuna",
         "goals": "2",
         "flag": "spain",
-        "logo": "atletico_madrid"
+        "logo": "ca_osasuna"
     },
     {
         "rank": "-",
-        "name": " Reguilón",
+        "name": " Roger",
         "country": "Spain",
-        "team": "Sevilla FC",
+        "team": "Levante UD",
         "goals": "2",
         "flag": "spain",
-        "logo": "sevilla_fc"
+        "logo": "levante_ud"
     },
     {
         "rank": "-",
-        "name": " Óscar Plano",
+        "name": " Sergi Guardiola",
         "country": "Spain",
         "team": "Real Valladolid",
         "goals": "2",
@@ -172,11 +127,56 @@
     },
     {
         "rank": "-",
-        "name": " João Félix",
-        "country": "Portugal",
+        "name": " Vitolo",
+        "country": "Spain",
         "team": "Atlético Madrid",
         "goals": "2",
-        "flag": "portugal",
+        "flag": "spain",
         "logo": "atletico_madrid"
+    },
+    {
+        "rank": "16.",
+        "name": " Aduriz",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": " Arbilla",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "goals": "1",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Arthur",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "goals": "1",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Ezequiel Ávila",
+        "country": "Argentina",
+        "team": "CA Osasuna",
+        "goals": "1",
+        "flag": "argentina",
+        "logo": "ca_osasuna"
+    },
+    {
+        "rank": "-",
+        "name": "Ramon Azeez",
+        "country": "Nigeria",
+        "team": "Granada CF",
+        "goals": "1",
+        "flag": "nigeria",
+        "logo": "granada_cf"
     }
 ]
