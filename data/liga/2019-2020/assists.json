@@ -1,6 +1,60 @@
 [
     {
         "rank": "1.",
+        "name": " Capa",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "2.",
+        "name": " Carles Pérez",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Cucurella",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Emerson",
+        "country": "Brazil",
+        "team": "Real Betis",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Sergi Roberto",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Karl Toko Ekambi",
+        "country": "Cameroon",
+        "team": "Villarreal CF",
+        "assists": "2",
+        "flag": "cameroon",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "7.",
         "name": " Alcaraz",
         "country": "Spain",
         "team": "Real Valladolid",
@@ -28,6 +82,24 @@
     },
     {
         "rank": "-",
+        "name": "Éver Banega",
+        "country": "Argentina",
+        "team": "Sevilla FC",
+        "assists": "1",
+        "flag": "argentina",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Enis Bardhi",
+        "country": "North Macedonia",
+        "team": "Levante UD",
+        "assists": "1",
+        "flag": "north_macedonia",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -37,12 +109,48 @@
     },
     {
         "rank": "-",
-        "name": " Capa",
+        "name": " Busquets",
         "country": "Spain",
-        "team": "Athletic Bilbao",
+        "team": "FC Barcelona",
         "assists": "1",
         "flag": "spain",
-        "logo": "athletic_bilbao"
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Canales",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Dani Carvajal",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Denis Suárez",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": " Diego Costa",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "assists": "1",
+        "flag": "spain",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -55,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": " Emerson",
-        "country": "Brazil",
-        "team": "Real Betis",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
         "name": " Febas",
         "country": "Spain",
         "team": "RCD Mallorca",
@@ -73,97 +172,7 @@
     },
     {
         "rank": "-",
-        "name": " Marcelo",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Moi Gómez",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Montoro",
-        "country": "Spain",
-        "team": "Granada CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Reguilón",
-        "country": "Spain",
-        "team": "Sevilla FC",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Torres",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": " Santi Cazorla",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Soldado",
-        "country": "Spain",
-        "team": "Granada CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Kieran Trippier",
-        "country": "England",
-        "team": "Atlético Madrid",
-        "assists": "1",
-        "flag": "england",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Waldo Rubio",
-        "country": "Spain",
-        "team": "Real Valladolid",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "real_valladolid"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel Wass",
-        "country": "Denmark",
-        "team": "Valencia CF",
-        "assists": "1",
-        "flag": "denmark",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Xavi Quintillà",
+        "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
         "assists": "1",

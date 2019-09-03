@@ -1,30 +1,129 @@
 [
     {
         "rank": "1.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "2.",
+        "name": "Teemu Pukki",
+        "country": "Finland",
+        "team": "Norwich City",
+        "goals": "6",
+        "flag": "finland",
+        "logo": "norwich_city"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "goals": "6",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "4.",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
-        "goals": "4",
+        "goals": "5",
         "flag": "england",
         "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Teemu Pukki",
-        "country": "Finland",
-        "team": "Norwich City",
-        "goals": "4",
-        "flag": "finland",
-        "logo": "norwich_city"
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "5",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
     },
     {
-        "rank": "3.",
+        "rank": "6.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "Chelsea FC",
+        "goals": "4",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Ashley Barnes",
         "country": "England",
         "team": "Burnley FC",
-        "goals": "3",
+        "goals": "4",
         "flag": "england",
         "logo": "burnley_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "4",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": " David Silva",
+        "country": "Spain",
+        "team": "Manchester City",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "11.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Arsenal FC",
+        "goals": "3",
+        "flag": "gabon",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Sébastien Haller",
+        "country": "France",
+        "team": "West Ham United",
+        "goals": "3",
+        "flag": "france",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": "Daniel James",
+        "country": "Wales",
+        "team": "Manchester United",
+        "goals": "3",
+        "flag": "wales",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "3",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -37,146 +136,47 @@
     },
     {
         "rank": "-",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
         "goals": "3",
-        "flag": "belgium",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "6.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "manchester_city"
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
         "name": "Anthony Martial",
         "country": "France",
         "team": "Manchester United",
-        "goals": "2",
+        "goals": "3",
         "flag": "france",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
-        "goals": "2",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Érik Lamela",
-        "country": "Argentina",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Tanguy NDombèlé",
-        "country": "France",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "france",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": " Lucas",
-        "country": "Brazil",
-        "team": "Tottenham Hotspur",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "2",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "2",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Ceballos",
-        "country": "Spain",
-        "team": "Arsenal FC",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
         "name": "Todd Cantwell",
         "country": "England",
         "team": "Norwich City",
-        "goals": "2",
+        "goals": "3",
         "flag": "england",
         "logo": "norwich_city"
     },
     {
-        "rank": "-",
-        "name": "Paul Pogba",
-        "country": "France",
-        "team": "Manchester United",
+        "rank": "19.",
+        "name": "Harry Wilson",
+        "country": "Wales",
+        "team": "AFC Bournemouth",
         "goals": "2",
-        "flag": "france",
-        "logo": "manchester_united"
+        "flag": "wales",
+        "logo": "afc_bournemouth"
     },
     {
         "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Manchester City",
+        "name": "Mason Mount",
+        "country": "England",
+        "team": "Chelsea FC",
         "goals": "2",
-        "flag": "algeria",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Erik Pieters",
-        "country": "Netherlands",
-        "team": "Burnley FC",
-        "goals": "2",
-        "flag": "netherlands",
-        "logo": "burnley_fc"
+        "flag": "england",
+        "logo": "chelsea_fc"
     }
 ]

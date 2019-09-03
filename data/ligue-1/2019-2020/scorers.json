@@ -4,21 +4,30 @@
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "Olympique Lyon",
-        "goals": "4",
+        "goals": "5",
         "flag": "netherlands",
         "logo": "olympique_lyon"
     },
     {
-        "rank": "2.",
-        "name": "Habib Diallo",
-        "country": "Senegal",
-        "team": "FC Metz",
-        "goals": "3",
-        "flag": "senegal",
-        "logo": "fc_metz"
+        "rank": "-",
+        "name": "Wylan Cyprien",
+        "country": "France",
+        "team": "OGC Nice",
+        "goals": "5",
+        "flag": "france",
+        "logo": "ogc_nice"
     },
     {
-        "rank": "-",
+        "rank": "3.",
+        "name": "Victor Osimhen",
+        "country": "Nigeria",
+        "team": "Lille OSC",
+        "goals": "4",
+        "flag": "nigeria",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "4.",
         "name": "Moussa Dembélé",
         "country": "France",
         "team": "Olympique Lyon",
@@ -28,12 +37,57 @@
     },
     {
         "rank": "-",
-        "name": "Wylan Cyprien",
-        "country": "France",
-        "team": "OGC Nice",
+        "name": "Habib Diallo",
+        "country": "Senegal",
+        "team": "FC Metz",
         "goals": "3",
-        "flag": "france",
-        "logo": "ogc_nice"
+        "flag": "senegal",
+        "logo": "fc_metz"
+    },
+    {
+        "rank": "-",
+        "name": "Islam Slimani",
+        "country": "Algeria",
+        "team": "AS Monaco",
+        "goals": "3",
+        "flag": "algeria",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
+        "team": "Paris Saint-Germain",
+        "goals": "3",
+        "flag": "cameroon",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Efthimios Koulouris",
+        "country": "Greece",
+        "team": "Toulouse FC",
+        "goals": "3",
+        "flag": "greece",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Zinedine Ferhat",
+        "country": "Algeria",
+        "team": "Nîmes Olympique",
+        "goals": "3",
+        "flag": "algeria",
+        "logo": "nimes_olympique"
     },
     {
         "rank": "-",
@@ -46,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": "Mathias Autret",
+        "country": "France",
+        "team": "Stade Brest",
+        "goals": "3",
+        "flag": "france",
+        "logo": "stade_brest"
+    },
+    {
+        "rank": "-",
         "name": " Thiago Mendes",
         "country": "Brazil",
         "team": "Olympique Lyon",
@@ -54,7 +117,52 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": " Juan Bernat",
+        "country": "Spain",
+        "team": "Paris Saint-Germain",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "15.",
+        "name": "Farid El Melali",
+        "country": "Algeria",
+        "team": "Angers SCO",
+        "goals": "2",
+        "flag": "algeria",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Denkey",
+        "country": "Togo",
+        "team": "Nîmes Olympique",
+        "goals": "2",
+        "flag": "togo",
+        "logo": "nimes_olympique"
+    },
+    {
+        "rank": "-",
+        "name": "Darío Benedetto",
+        "country": "Argentina",
+        "team": "Olympique Marseille",
+        "goals": "2",
+        "flag": "argentina",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
+        "name": "Jean-Victor Makengo",
+        "country": "France",
+        "team": "Toulouse FC",
+        "goals": "2",
+        "flag": "france",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
         "name": "Edinson Cavani",
         "country": "Uruguay",
         "team": "Paris Saint-Germain",
@@ -64,119 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Victor Osimhen",
-        "country": "Nigeria",
-        "team": "Lille OSC",
+        "name": "M'Baye Niang",
+        "country": "Senegal",
+        "team": "Stade Rennes",
         "goals": "2",
-        "flag": "nigeria",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Efthimios Koulouris",
-        "country": "Greece",
-        "team": "Toulouse FC",
-        "goals": "2",
-        "flag": "greece",
-        "logo": "toulouse_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jeff Reine-Adélaïde",
-        "country": "France",
-        "team": "Angers SCO",
-        "goals": "2",
-        "flag": "france",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Mathias Pereira Lage",
-        "country": "Portugal",
-        "team": "Angers SCO",
-        "goals": "2",
-        "flag": "portugal",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Kylian Mbappé",
-        "country": "France",
-        "team": "Paris Saint-Germain",
-        "goals": "2",
-        "flag": "france",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Chadrac Akolo",
-        "country": "Congo DR",
-        "team": "Amiens SC",
-        "goals": "2",
-        "flag": "congo_dr",
-        "logo": "amiens_sc"
-    },
-    {
-        "rank": "-",
-        "name": "Mathias Autret",
-        "country": "France",
-        "team": "Stade Brest",
-        "goals": "2",
-        "flag": "france",
-        "logo": "stade_brest"
-    },
-    {
-        "rank": "-",
-        "name": "Boulaye Dia",
-        "country": "France",
-        "team": "Stade Reims",
-        "goals": "2",
-        "flag": "france",
-        "logo": "stade_reims"
-    },
-    {
-        "rank": "16.",
-        "name": "Julien Faussurier",
-        "country": "France",
-        "team": "Stade Brest",
-        "goals": "1",
-        "flag": "france",
-        "logo": "stade_brest"
-    },
-    {
-        "rank": "-",
-        "name": "Jean-Eudes Aholou",
-        "country": "Ivory Coast",
-        "team": "AS Saint-Étienne",
-        "goals": "1",
-        "flag": "ivory_coast",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
-        "goals": "1",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Denis Bouanga",
-        "country": "Gabon",
-        "team": "AS Saint-Étienne",
-        "goals": "1",
-        "flag": "gabon",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": " Dante",
-        "country": "Brazil",
-        "team": "OGC Nice",
-        "goals": "1",
-        "flag": "brazil",
-        "logo": "ogc_nice"
+        "flag": "senegal",
+        "logo": "stade_rennes"
     }
 ]
