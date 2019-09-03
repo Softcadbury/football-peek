@@ -46,15 +46,14 @@ function setupCrons() {
         }, null, false, 'Europe/Paris')).start();
     });
 
-    // Competition not started yet
-    // // Setup crons for competitions update
-    // competitionCronJobTimes.forEach(time => {
-    //     (new CronJob(time, async () => {
-    //         helper.log('Run competition update');
-    //         await mainUpdater.updateCompetition(competitions.championsLeague);
-    //         await mainUpdater.updateCompetition(competitions.europaLeague);
-    //     }, null, false, 'Europe/Paris')).start();
-    // });
+    // Setup crons for competitions update
+    competitionCronJobTimes.forEach(time => {
+        (new CronJob(time, async () => {
+            helper.log('Run competition update');
+            await mainUpdater.updateCompetition(competitions.championsLeague);
+            await mainUpdater.updateCompetition(competitions.europaLeague);
+        }, null, false, 'Europe/Paris')).start();
+    });
 }
 
 module.exports = {
