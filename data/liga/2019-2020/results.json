@@ -292,7 +292,7 @@
                 "time": "20:00",
                 "homeTeam": "RCD Mallorca",
                 "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "rcd_mallorca",
                 "awayTeamLogo": "athletic_bilbao"
             },
@@ -301,7 +301,7 @@
                 "time": "12:00",
                 "homeTeam": "Real Madrid",
                 "awayTeam": "Levante UD",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "real_madrid",
                 "awayTeamLogo": "levante_ud"
             },
@@ -310,7 +310,7 @@
                 "time": "15:00",
                 "homeTeam": "CD Leganés",
                 "awayTeam": "Villarreal CF",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "cd_leganes",
                 "awayTeamLogo": "villarreal_cf"
             },
@@ -319,7 +319,7 @@
                 "time": "17:30",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Atlético Madrid",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "real_sociedad",
                 "awayTeamLogo": "atletico_madrid"
             },
@@ -328,7 +328,7 @@
                 "time": "20:00",
                 "homeTeam": "FC Barcelona",
                 "awayTeam": "Valencia CF",
-                "score": "-:-",
+                "score": "5:2",
                 "homeTeamLogo": "fc_barcelona",
                 "awayTeamLogo": "valencia_cf"
             },
@@ -337,7 +337,7 @@
                 "time": "11:00",
                 "homeTeam": "SD Eibar",
                 "awayTeam": "Espanyol Barcelona",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "sd_eibar",
                 "awayTeamLogo": "espanyol_barcelona"
             },
@@ -346,7 +346,7 @@
                 "time": "13:00",
                 "homeTeam": "CD Alavés",
                 "awayTeam": "Sevilla FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "cd_alaves",
                 "awayTeamLogo": "sevilla_fc"
             },
@@ -355,7 +355,7 @@
                 "time": "15:00",
                 "homeTeam": "Celta Vigo",
                 "awayTeam": "Granada CF",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "celta_vigo",
                 "awayTeamLogo": "granada_cf"
             },
@@ -364,7 +364,7 @@
                 "time": "17:30",
                 "homeTeam": "Real Valladolid",
                 "awayTeam": "CA Osasuna",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "real_valladolid",
                 "awayTeamLogo": "ca_osasuna"
             },
@@ -373,7 +373,7 @@
                 "time": "20:00",
                 "homeTeam": "Real Betis",
                 "awayTeam": "Getafe CF",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "real_betis",
                 "awayTeamLogo": "getafe_cf"
             }
@@ -387,7 +387,7 @@
                 "time": "20:00",
                 "homeTeam": "CA Osasuna",
                 "awayTeam": "Real Betis",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "ca_osasuna",
                 "awayTeamLogo": "real_betis"
             },
@@ -396,7 +396,7 @@
                 "time": "12:00",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "Real Valladolid",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "villarreal_cf",
                 "awayTeamLogo": "real_valladolid"
             },
@@ -405,7 +405,7 @@
                 "time": "15:00",
                 "homeTeam": "Levante UD",
                 "awayTeam": "SD Eibar",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "levante_ud",
                 "awayTeamLogo": "sd_eibar"
             },
@@ -414,7 +414,7 @@
                 "time": "17:30",
                 "homeTeam": "Atlético Madrid",
                 "awayTeam": "Celta Vigo",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "atletico_madrid",
                 "awayTeamLogo": "celta_vigo"
             },
@@ -423,7 +423,7 @@
                 "time": "20:00",
                 "homeTeam": "Granada CF",
                 "awayTeam": "FC Barcelona",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "granada_cf",
                 "awayTeamLogo": "fc_barcelona"
             },
@@ -432,7 +432,7 @@
                 "time": "11:00",
                 "homeTeam": "Getafe CF",
                 "awayTeam": "RCD Mallorca",
-                "score": "-:-",
+                "score": "4:2",
                 "homeTeamLogo": "getafe_cf",
                 "awayTeamLogo": "rcd_mallorca"
             },
@@ -441,7 +441,7 @@
                 "time": "13:00",
                 "homeTeam": "Espanyol Barcelona",
                 "awayTeam": "Real Sociedad",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "espanyol_barcelona",
                 "awayTeamLogo": "real_sociedad"
             },
@@ -668,17 +668,8 @@
         "round": 8,
         "matches": [
             {
-                "date": "06/10/2019",
-                "time": "",
-                "homeTeam": "FC Barcelona",
-                "awayTeam": "Sevilla FC",
-                "score": "-:-",
-                "homeTeamLogo": "fc_barcelona",
-                "awayTeamLogo": "sevilla_fc"
-            },
-            {
-                "date": "06/10/2019",
-                "time": "",
+                "date": "04/10/2019",
+                "time": "20:00",
                 "homeTeam": "Real Betis",
                 "awayTeam": "SD Eibar",
                 "score": "-:-",
@@ -686,17 +677,8 @@
                 "awayTeamLogo": "sd_eibar"
             },
             {
-                "date": "06/10/2019",
-                "time": "",
-                "homeTeam": "Celta Vigo",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "celta_vigo",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "date": "06/10/2019",
-                "time": "",
+                "date": "05/10/2019",
+                "time": "12:00",
                 "homeTeam": "CD Leganés",
                 "awayTeam": "Levante UD",
                 "score": "-:-",
@@ -704,17 +686,26 @@
                 "awayTeamLogo": "levante_ud"
             },
             {
-                "date": "06/10/2019",
-                "time": "",
-                "homeTeam": "RCD Mallorca",
-                "awayTeam": "Espanyol Barcelona",
+                "date": "05/10/2019",
+                "time": "15:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Granada CF",
                 "score": "-:-",
-                "homeTeamLogo": "rcd_mallorca",
-                "awayTeamLogo": "espanyol_barcelona"
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "granada_cf"
             },
             {
-                "date": "06/10/2019",
-                "time": "",
+                "date": "05/10/2019",
+                "time": "17:30",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "CD Alavés",
+                "score": "-:-",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "cd_alaves"
+            },
+            {
+                "date": "05/10/2019",
+                "time": "20:00",
                 "homeTeam": "CA Osasuna",
                 "awayTeam": "Villarreal CF",
                 "score": "-:-",
@@ -723,16 +714,34 @@
             },
             {
                 "date": "06/10/2019",
-                "time": "",
-                "homeTeam": "Real Madrid",
-                "awayTeam": "Granada CF",
+                "time": "11:00",
+                "homeTeam": "RCD Mallorca",
+                "awayTeam": "Espanyol Barcelona",
                 "score": "-:-",
-                "homeTeamLogo": "real_madrid",
-                "awayTeamLogo": "granada_cf"
+                "homeTeamLogo": "rcd_mallorca",
+                "awayTeamLogo": "espanyol_barcelona"
             },
             {
                 "date": "06/10/2019",
-                "time": "",
+                "time": "13:00",
+                "homeTeam": "Celta Vigo",
+                "awayTeam": "Athletic Bilbao",
+                "score": "-:-",
+                "homeTeamLogo": "celta_vigo",
+                "awayTeamLogo": "athletic_bilbao"
+            },
+            {
+                "date": "06/10/2019",
+                "time": "15:00",
+                "homeTeam": "Real Valladolid",
+                "awayTeam": "Atlético Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "real_valladolid",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "06/10/2019",
+                "time": "17:30",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Getafe CF",
                 "score": "-:-",
@@ -741,21 +750,12 @@
             },
             {
                 "date": "06/10/2019",
-                "time": "",
-                "homeTeam": "Valencia CF",
-                "awayTeam": "CD Alavés",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Sevilla FC",
                 "score": "-:-",
-                "homeTeamLogo": "valencia_cf",
-                "awayTeamLogo": "cd_alaves"
-            },
-            {
-                "date": "06/10/2019",
-                "time": "",
-                "homeTeam": "Real Valladolid",
-                "awayTeam": "Atlético Madrid",
-                "score": "-:-",
-                "homeTeamLogo": "real_valladolid",
-                "awayTeamLogo": "atletico_madrid"
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "sevilla_fc"
             }
         ]
     },
@@ -763,62 +763,8 @@
         "round": 9,
         "matches": [
             {
-                "date": "20/10/2019",
-                "time": "",
-                "homeTeam": "CD Alavés",
-                "awayTeam": "Celta Vigo",
-                "score": "-:-",
-                "homeTeamLogo": "cd_alaves",
-                "awayTeamLogo": "celta_vigo"
-            },
-            {
-                "date": "20/10/2019",
-                "time": "",
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Real Valladolid",
-                "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "real_valladolid"
-            },
-            {
-                "date": "20/10/2019",
-                "time": "",
-                "homeTeam": "Atlético Madrid",
-                "awayTeam": "Valencia CF",
-                "score": "-:-",
-                "homeTeamLogo": "atletico_madrid",
-                "awayTeamLogo": "valencia_cf"
-            },
-            {
-                "date": "20/10/2019",
-                "time": "",
-                "homeTeam": "SD Eibar",
-                "awayTeam": "FC Barcelona",
-                "score": "-:-",
-                "homeTeamLogo": "sd_eibar",
-                "awayTeamLogo": "fc_barcelona"
-            },
-            {
-                "date": "20/10/2019",
-                "time": "",
-                "homeTeam": "Espanyol Barcelona",
-                "awayTeam": "Villarreal CF",
-                "score": "-:-",
-                "homeTeamLogo": "espanyol_barcelona",
-                "awayTeamLogo": "villarreal_cf"
-            },
-            {
-                "date": "20/10/2019",
-                "time": "",
-                "homeTeam": "Getafe CF",
-                "awayTeam": "CD Leganés",
-                "score": "-:-",
-                "homeTeamLogo": "getafe_cf",
-                "awayTeamLogo": "cd_leganes"
-            },
-            {
-                "date": "20/10/2019",
-                "time": "",
+                "date": "18/10/2019",
+                "time": "20:00",
                 "homeTeam": "Granada CF",
                 "awayTeam": "CA Osasuna",
                 "score": "-:-",
@@ -826,8 +772,35 @@
                 "awayTeamLogo": "ca_osasuna"
             },
             {
-                "date": "20/10/2019",
-                "time": "",
+                "date": "19/10/2019",
+                "time": "12:00",
+                "homeTeam": "SD Eibar",
+                "awayTeam": "FC Barcelona",
+                "score": "-:-",
+                "homeTeamLogo": "sd_eibar",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "19/10/2019",
+                "time": "15:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Valencia CF",
+                "score": "-:-",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "19/10/2019",
+                "time": "17:30",
+                "homeTeam": "Getafe CF",
+                "awayTeam": "CD Leganés",
+                "score": "-:-",
+                "homeTeamLogo": "getafe_cf",
+                "awayTeamLogo": "cd_leganes"
+            },
+            {
+                "date": "19/10/2019",
+                "time": "20:00",
                 "homeTeam": "RCD Mallorca",
                 "awayTeam": "Real Madrid",
                 "score": "-:-",
@@ -836,7 +809,16 @@
             },
             {
                 "date": "20/10/2019",
-                "time": "",
+                "time": "11:00",
+                "homeTeam": "CD Alavés",
+                "awayTeam": "Celta Vigo",
+                "score": "-:-",
+                "homeTeamLogo": "cd_alaves",
+                "awayTeamLogo": "celta_vigo"
+            },
+            {
+                "date": "20/10/2019",
+                "time": "13:00",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Real Betis",
                 "score": "-:-",
@@ -845,7 +827,25 @@
             },
             {
                 "date": "20/10/2019",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "Espanyol Barcelona",
+                "awayTeam": "Villarreal CF",
+                "score": "-:-",
+                "homeTeamLogo": "espanyol_barcelona",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "20/10/2019",
+                "time": "17:30",
+                "homeTeam": "Athletic Bilbao",
+                "awayTeam": "Real Valladolid",
+                "score": "-:-",
+                "homeTeamLogo": "athletic_bilbao",
+                "awayTeamLogo": "real_valladolid"
+            },
+            {
+                "date": "20/10/2019",
+                "time": "20:00",
                 "homeTeam": "Sevilla FC",
                 "awayTeam": "Levante UD",
                 "score": "-:-",

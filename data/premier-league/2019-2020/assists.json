@@ -4,7 +4,7 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "5",
+        "assists": "7",
         "flag": "belgium",
         "logo": "manchester_city"
     },
@@ -18,13 +18,67 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": " Emi",
+        "country": "Argentina",
+        "team": "Norwich City",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "norwich_city"
+    },
+    {
+        "rank": "4.",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Manchester City",
+        "assists": "3",
+        "flag": "algeria",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "6.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Trent Alexander-Arnold",
         "country": "England",
         "team": "Liverpool FC",
         "assists": "2",
         "flag": "england",
         "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Christian Atsu",
+        "country": "Ghana",
+        "team": "Newcastle United",
+        "assists": "2",
+        "flag": "ghana",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
+        "name": "Sofiane Boufal",
+        "country": "Morocco",
+        "team": "Southampton FC",
+        "assists": "2",
+        "flag": "morocco",
+        "logo": "southampton_fc"
     },
     {
         "rank": "-",
@@ -46,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": " Diego Rico",
+        "country": "Spain",
+        "team": "AFC Bournemouth",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "afc_bournemouth"
+    },
+    {
+        "rank": "-",
         "name": "Lucas Digne",
         "country": "France",
         "team": "Everton FC",
@@ -55,12 +118,12 @@
     },
     {
         "rank": "-",
-        "name": " Emi",
-        "country": "Argentina",
-        "team": "Norwich City",
+        "name": " Felipe Anderson",
+        "country": "Brazil",
+        "team": "West Ham United",
         "assists": "2",
-        "flag": "argentina",
-        "logo": "norwich_city"
+        "flag": "brazil",
+        "logo": "west_ham_united"
     },
     {
         "rank": "-",
@@ -73,12 +136,21 @@
     },
     {
         "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Manchester City",
+        "name": "Ainsley Maitland-Niles",
+        "country": "England",
+        "team": "Arsenal FC",
         "assists": "2",
-        "flag": "algeria",
-        "logo": "manchester_city"
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Dwight McNeil",
+        "country": "England",
+        "team": "Burnley FC",
+        "assists": "2",
+        "flag": "england",
+        "logo": "burnley_fc"
     },
     {
         "rank": "-",
@@ -100,83 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
+        "name": "Teemu Pukki",
+        "country": "Finland",
+        "team": "Norwich City",
         "assists": "2",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "assists": "2",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "14.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " Andreas Pereira",
-        "country": "Brazil",
-        "team": "Manchester United",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Atsu",
-        "country": "Ghana",
-        "team": "Newcastle United",
-        "assists": "1",
-        "flag": "ghana",
-        "logo": "newcastle_united"
-    },
-    {
-        "rank": "-",
-        "name": " Azpilicueta",
-        "country": "Spain",
-        "team": "Chelsea FC",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "George Baldock",
-        "country": "England",
-        "team": "Sheffield United",
-        "assists": "1",
-        "flag": "england",
-        "logo": "sheffield_united"
-    },
-    {
-        "rank": "-",
-        "name": "Willy Boly",
-        "country": "France",
-        "team": "Wolverhampton Wanderers",
-        "assists": "1",
-        "flag": "france",
-        "logo": "wolverhampton_wanderers"
-    },
-    {
-        "rank": "-",
-        "name": "Sofiane Boufal",
-        "country": "Morocco",
-        "team": "Southampton FC",
-        "assists": "1",
-        "flag": "morocco",
-        "logo": "southampton_fc"
+        "flag": "finland",
+        "logo": "norwich_city"
     }
 ]

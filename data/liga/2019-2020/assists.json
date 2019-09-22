@@ -9,7 +9,16 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": " Montoro",
+        "country": "Spain",
+        "team": "Granada CF",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "granada_cf"
+    },
+    {
+        "rank": "3.",
         "name": " Carles Pérez",
         "country": "Spain",
         "team": "FC Barcelona",
@@ -28,12 +37,57 @@
     },
     {
         "rank": "-",
+        "name": " Dani Carvajal",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Emerson",
         "country": "Brazil",
         "team": "Real Betis",
         "assists": "2",
         "flag": "brazil",
         "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "FC Barcelona",
+        "assists": "2",
+        "flag": "france",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Fabián Orellana",
+        "country": "Chile",
+        "team": "SD Eibar",
+        "assists": "2",
+        "flag": "chile",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Portu",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": " Santi Cazorla",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -46,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": " Soldado",
+        "country": "Spain",
+        "team": "Granada CF",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "granada_cf"
+    },
+    {
+        "rank": "-",
         "name": "Karl Toko Ekambi",
         "country": "Cameroon",
         "team": "Villarreal CF",
@@ -54,7 +117,7 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "7.",
+        "rank": "14.",
         "name": " Alcaraz",
         "country": "Spain",
         "team": "Real Valladolid",
@@ -70,6 +133,24 @@
         "assists": "1",
         "flag": "spain",
         "logo": "cd_alaves"
+    },
+    {
+        "rank": "-",
+        "name": " Arthur",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "assists": "1",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Ezequiel Ávila",
+        "country": "Argentina",
+        "team": "CA Osasuna",
+        "assists": "1",
+        "flag": "argentina",
+        "logo": "ca_osasuna"
     },
     {
         "rank": "-",
@@ -91,92 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Enis Bardhi",
-        "country": "North Macedonia",
-        "team": "Levante UD",
-        "assists": "1",
-        "flag": "north_macedonia",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
         "assists": "1",
         "flag": "france",
         "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Busquets",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Canales",
-        "country": "Spain",
-        "team": "Real Betis",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Carvajal",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Denis Suárez",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": " Diego Costa",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Pape Diop",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": " Febas",
-        "country": "Spain",
-        "team": "RCD Mallorca",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "rcd_mallorca"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "villarreal_cf"
     }
 ]
