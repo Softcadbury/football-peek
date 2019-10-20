@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Ángel",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
         "name": "Claudiu Keșerü",
         "country": "Romania",
         "team": "PFC Ludogorets Razgrad",
@@ -9,7 +18,43 @@
         "logo": "pfc_ludogorets_razgrad"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": "Donyell Malen",
+        "country": "Netherlands",
+        "team": "PSV Eindhoven",
+        "goals": "3",
+        "flag": "netherlands",
+        "logo": "psv_eindhoven"
+    },
+    {
+        "rank": "-",
+        "name": "Andraž Šporar",
+        "country": "Slovenia",
+        "team": "Slovan Bratislava",
+        "goals": "3",
+        "flag": "slovenia",
+        "logo": "slovan_bratislava"
+    },
+    {
+        "rank": "5.",
+        "name": "Antoine Bernier",
+        "country": "Belgium",
+        "team": "F91 Dudelange",
+        "goals": "2",
+        "flag": "belgium",
+        "logo": "f91_dudelange"
+    },
+    {
+        "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Sporting CP",
+        "goals": "2",
+        "flag": "portugal",
+        "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
         "name": "Kevin Bua",
         "country": "Spain",
         "team": "FC Basel",
@@ -28,12 +73,39 @@
     },
     {
         "rank": "-",
+        "name": " Gabriel Martinelli",
+        "country": "Brazil",
+        "team": "Arsenal FC",
+        "goals": "2",
+        "flag": "brazil",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Javier Hernández",
+        "country": "Mexico",
+        "team": "Sevilla FC",
+        "goals": "2",
+        "flag": "mexico",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
         "name": "Mario Leitgeb",
         "country": "Austria",
         "team": "Wolfsberger AC",
         "goals": "2",
         "flag": "austria",
         "logo": "wolfsberger_ac"
+    },
+    {
+        "rank": "-",
+        "name": "Jody Lukoki",
+        "country": "Congo DR",
+        "team": "PFC Ludogorets Razgrad",
+        "goals": "2",
+        "flag": "congo_dr",
+        "logo": "pfc_ludogorets_razgrad"
     },
     {
         "rank": "-",
@@ -46,12 +118,39 @@
     },
     {
         "rank": "-",
+        "name": "Noah Okafor",
+        "country": "Switzerland",
+        "team": "FC Basel",
+        "goals": "2",
+        "flag": "switzerland",
+        "logo": "fc_basel"
+    },
+    {
+        "rank": "-",
         "name": "Andrija Pavlović",
         "country": "Serbia",
         "team": "APOEL Nikosia",
         "goals": "2",
         "flag": "serbia",
         "logo": "apoel_nikosia"
+    },
+    {
+        "rank": "-",
+        "name": " Rafael Forster",
+        "country": "Brazil",
+        "team": "PFC Ludogorets Razgrad",
+        "goals": "2",
+        "flag": "brazil",
+        "logo": "pfc_ludogorets_razgrad"
+    },
+    {
+        "rank": "-",
+        "name": "Umar Sadiq",
+        "country": "Nigeria",
+        "team": "Partizan",
+        "goals": "2",
+        "flag": "nigeria",
+        "logo": "partizan"
     },
     {
         "rank": "-",
@@ -64,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": "Andraž Šporar",
-        "country": "Slovenia",
-        "team": "Slovan Bratislava",
-        "goals": "2",
-        "flag": "slovenia",
-        "logo": "slovan_bratislava"
-    },
-    {
-        "rank": "-",
         "name": " Tiquinho Soares",
         "country": "Brazil",
         "team": "FC Porto",
@@ -81,102 +171,12 @@
         "logo": "fc_porto"
     },
     {
-        "rank": "10.",
-        "name": " Ángel",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
         "rank": "-",
-        "name": "Maximilian Arnold",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
+        "name": "Joe Willock",
+        "country": "England",
         "team": "Arsenal FC",
-        "goals": "1",
-        "flag": "gabon",
+        "goals": "2",
+        "flag": "england",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Eugene Banada",
-        "country": "Ukraine",
-        "team": "FC Oleksandriya",
-        "goals": "1",
-        "flag": "ukraine",
-        "logo": "fc_oleksandriya"
-    },
-    {
-        "rank": "-",
-        "name": " Bastos",
-        "country": "Angola",
-        "team": "Lazio Roma",
-        "goals": "1",
-        "flag": "angola",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Timo Baumgartl",
-        "country": "Germany",
-        "team": "PSV Eindhoven",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "psv_eindhoven"
-    },
-    {
-        "rank": "-",
-        "name": "Antoine Bernier",
-        "country": "Belgium",
-        "team": "F91 Dudelange",
-        "goals": "1",
-        "flag": "belgium",
-        "logo": "f91_dudelange"
-    },
-    {
-        "rank": "-",
-        "name": "Myron Boadu",
-        "country": "Netherlands",
-        "team": "AZ Alkmaar",
-        "goals": "1",
-        "flag": "netherlands",
-        "logo": "az_alkmaar"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Brekalo",
-        "country": "Croatia",
-        "team": "VfL Wolfsburg",
-        "goals": "1",
-        "flag": "croatia",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Sporting CP",
-        "goals": "1",
-        "flag": "portugal",
-        "logo": "sporting_cp"
-    },
-    {
-        "rank": "-",
-        "name": "Vitaliy Buyalskiy",
-        "country": "Ukraine",
-        "team": "Dinamo Kiev",
-        "goals": "1",
-        "flag": "ukraine",
-        "logo": "dinamo_kiev"
     }
 ]

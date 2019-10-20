@@ -1,30 +1,57 @@
 [
     {
         "rank": "1.",
-        "name": "Moussa Dembélé",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "5",
-        "flag": "france",
-        "logo": "olympique_lyon"
+        "name": "Habib Diallo",
+        "country": "Senegal",
+        "team": "FC Metz",
+        "goals": "7",
+        "flag": "senegal",
+        "logo": "fc_metz"
     },
     {
         "rank": "-",
         "name": "Victor Osimhen",
         "country": "Nigeria",
         "team": "Lille OSC",
-        "goals": "5",
+        "goals": "7",
         "flag": "nigeria",
         "logo": "lille_osc"
     },
     {
         "rank": "3.",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "AS Monaco",
+        "goals": "6",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Moussa Dembélé",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "6",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "5.",
         "name": "Darío Benedetto",
         "country": "Argentina",
         "team": "Olympique Marseille",
-        "goals": "4",
+        "goals": "5",
         "flag": "argentina",
         "logo": "olympique_marseille"
+    },
+    {
+        "rank": "6.",
+        "name": "Rachid Alioui",
+        "country": "Morocco",
+        "team": "Angers SCO",
+        "goals": "4",
+        "flag": "morocco",
+        "logo": "angers_sco"
     },
     {
         "rank": "-",
@@ -37,24 +64,42 @@
     },
     {
         "rank": "-",
-        "name": "Habib Diallo",
-        "country": "Senegal",
-        "team": "FC Metz",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
         "goals": "4",
-        "flag": "senegal",
-        "logo": "fc_metz"
-    },
-    {
-        "rank": "6.",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "AS Monaco",
-        "goals": "3",
-        "flag": "france",
-        "logo": "as_monaco"
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
+        "name": "Efthimios Koulouris",
+        "country": "Greece",
+        "team": "Toulouse FC",
+        "goals": "4",
+        "flag": "greece",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Islam Slimani",
+        "country": "Algeria",
+        "team": "AS Monaco",
+        "goals": "4",
+        "flag": "algeria",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "12.",
         "name": "Jimmy Briand",
         "country": "France",
         "team": "Girondins Bordeaux",
@@ -91,46 +136,10 @@
     },
     {
         "rank": "-",
-        "name": "Romain Hamouma",
-        "country": "France",
-        "team": "AS Saint-Étienne",
-        "goals": "3",
-        "flag": "france",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": "Islam Slimani",
-        "country": "Algeria",
-        "team": "AS Monaco",
-        "goals": "3",
-        "flag": "algeria",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "13.",
-        "name": "Mathias Autret",
-        "country": "France",
-        "team": "Stade Brest",
-        "goals": "2",
-        "flag": "france",
-        "logo": "stade_brest"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Paris Saint-Germain",
-        "goals": "2",
-        "flag": "uruguay",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
         "name": "Nicolas de Préville",
         "country": "France",
         "team": "Girondins Bordeaux",
-        "goals": "2",
+        "goals": "3",
         "flag": "france",
         "logo": "girondins_bordeaux"
     },
@@ -139,7 +148,7 @@
         "name": "Andy Delort",
         "country": "Algeria",
         "team": "Montpellier HSC",
-        "goals": "2",
+        "goals": "3",
         "flag": "algeria",
         "logo": "montpellier_hsc"
     },
@@ -148,35 +157,26 @@
         "name": "Kevin Denkey",
         "country": "Togo",
         "team": "Nîmes Olympique",
-        "goals": "2",
+        "goals": "3",
         "flag": "togo",
         "logo": "nimes_olympique"
     },
     {
         "rank": "-",
-        "name": "Ángel Di María",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Farid El Melali",
-        "country": "Algeria",
-        "team": "Angers SCO",
-        "goals": "2",
-        "flag": "algeria",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Valère Germain",
+        "name": "Boulaye Dia",
         "country": "France",
-        "team": "Olympique Marseille",
-        "goals": "2",
+        "team": "Stade Reims",
+        "goals": "3",
         "flag": "france",
-        "logo": "olympique_marseille"
+        "logo": "stade_reims"
+    },
+    {
+        "rank": "-",
+        "name": "Serhou Guirassy",
+        "country": "France",
+        "team": "Amiens SC",
+        "goals": "3",
+        "flag": "france",
+        "logo": "amiens_sc"
     }
 ]

@@ -4,30 +4,102 @@
         "name": "Alfred Duncan",
         "country": "Ghana",
         "team": "Sassuolo Calcio",
-        "assists": "3",
+        "assists": "5",
         "flag": "ghana",
         "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "5",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "4.",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
         "name": "Lorenzo Pellegrini",
         "country": "Italy",
         "team": "AS Roma",
-        "assists": "3",
+        "assists": "4",
         "flag": "italy",
         "logo": "as_roma"
     },
     {
-        "rank": "3.",
+        "rank": "6.",
         "name": "Nicolò Barella",
         "country": "Italy",
         "team": "Inter",
-        "assists": "2",
+        "assists": "3",
         "flag": "italy",
         "logo": "inter"
     },
     {
         "rank": "-",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Dejan Kulusevski",
+        "country": "Sweden",
+        "team": "Parma Calcio 1913",
+        "assists": "3",
+        "flag": "sweden",
+        "logo": "parma_calcio_1913"
+    },
+    {
+        "rank": "-",
+        "name": "Riccardo Orsolini",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Stefano Sensi",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "12.",
         "name": "Daniele Baselli",
         "country": "Italy",
         "team": "Torino FC",
@@ -46,12 +118,48 @@
     },
     {
         "rank": "-",
+        "name": "Francesco Caputo",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
         "name": " Douglas Costa",
         "country": "Brazil",
         "team": "Juventus",
         "assists": "2",
         "flag": "brazil",
         "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Remo Freuler",
+        "country": "Switzerland",
+        "team": "Atalanta",
+        "assists": "2",
+        "flag": "switzerland",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": " Gervinho",
+        "country": "Ivory Coast",
+        "team": "Parma Calcio 1913",
+        "assists": "2",
+        "flag": "ivory_coast",
+        "logo": "parma_calcio_1913"
     },
     {
         "rank": "-",
@@ -64,119 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Papu Gómez",
-        "country": "Argentina",
+        "name": "Robin Gosens",
+        "country": "Germany",
         "team": "Atalanta",
         "assists": "2",
-        "flag": "argentina",
+        "flag": "germany",
         "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Dejan Kulusevski",
-        "country": "Sweden",
-        "team": "Parma Calcio 1913",
-        "assists": "2",
-        "flag": "sweden",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Riccardo Orsolini",
-        "country": "Italy",
-        "team": "Bologna FC",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Stefano Sensi",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "15.",
-        "name": " Alex Sandro",
-        "country": "Brazil",
-        "team": "Juventus",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Cristian Ansaldi",
-        "country": "Argentina",
-        "team": "Torino FC",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Kwadwo Asamoah",
-        "country": "Ghana",
-        "team": "Inter",
-        "assists": "1",
-        "flag": "ghana",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Francesco Caputo",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Gaetano Castrovilli",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Luca Cigarini",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
-        "assists": "1",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
     }
 ]

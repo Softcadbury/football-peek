@@ -1,11 +1,29 @@
 [
     {
         "rank": "1.",
-        "name": "Mohammed Ihattaren",
+        "name": "Mohamed Ihattaren",
         "country": "Netherlands",
         "team": "PSV Eindhoven",
-        "assists": "2",
+        "assists": "3",
         "flag": "netherlands",
+        "logo": "psv_eindhoven"
+    },
+    {
+        "rank": "-",
+        "name": "Anton Nedyalkov",
+        "country": "Bulgaria",
+        "team": "PFC Ludogorets Razgrad",
+        "assists": "3",
+        "flag": "bulgaria",
+        "logo": "pfc_ludogorets_razgrad"
+    },
+    {
+        "rank": "3.",
+        "name": "Ritsu Doan",
+        "country": "Japan",
+        "team": "PSV Eindhoven",
+        "assists": "2",
+        "flag": "japan",
         "logo": "psv_eindhoven"
     },
     {
@@ -19,12 +37,21 @@
     },
     {
         "rank": "-",
-        "name": "Anton Nedyalkov",
-        "country": "Bulgaria",
-        "team": "PFC Ludogorets Razgrad",
+        "name": "Vadis Odjidja-Ofoe",
+        "country": "Belgium",
+        "team": "KAA Gent",
         "assists": "2",
-        "flag": "bulgaria",
-        "logo": "pfc_ludogorets_razgrad"
+        "flag": "belgium",
+        "logo": "kaa_gent"
+    },
+    {
+        "rank": "-",
+        "name": " Raúl García",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "getafe_cf"
     },
     {
         "rank": "-",
@@ -37,6 +64,33 @@
     },
     {
         "rank": "-",
+        "name": "Romano Schmid",
+        "country": "Austria",
+        "team": "Wolfsberger AC",
+        "assists": "2",
+        "flag": "austria",
+        "logo": "wolfsberger_ac"
+    },
+    {
+        "rank": "-",
+        "name": "Valentin Stocker",
+        "country": "Switzerland",
+        "team": "FC Basel",
+        "assists": "2",
+        "flag": "switzerland",
+        "logo": "fc_basel"
+    },
+    {
+        "rank": "-",
+        "name": " Wanderson",
+        "country": "Brazil",
+        "team": "PFC Ludogorets Razgrad",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "pfc_ludogorets_razgrad"
+    },
+    {
+        "rank": "-",
         "name": "Nicolò Zaniolo",
         "country": "Italy",
         "team": "AS Roma",
@@ -45,7 +99,25 @@
         "logo": "as_roma"
     },
     {
-        "rank": "6.",
+        "rank": "12.",
+        "name": " André Horta",
+        "country": "Portugal",
+        "team": "Sporting Braga",
+        "assists": "1",
+        "flag": "portugal",
+        "logo": "sporting_braga"
+    },
+    {
+        "rank": "-",
+        "name": "Maximilian Arnold",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "assists": "1",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
         "name": "Roger Assalé",
         "country": "Ivory Coast",
         "team": "BSC Young Boys",
@@ -64,12 +136,30 @@
     },
     {
         "rank": "-",
+        "name": "Borna Barišić",
+        "country": "Croatia",
+        "team": "Rangers FC",
+        "assists": "1",
+        "flag": "croatia",
+        "logo": "rangers_fc"
+    },
+    {
+        "rank": "-",
         "name": "Pierre Bengtsson",
         "country": "Sweden",
         "team": "FC København",
         "assists": "1",
         "flag": "sweden",
         "logo": "fc_k_benhavn"
+    },
+    {
+        "rank": "-",
+        "name": "Jo Inge Berget",
+        "country": "Norway",
+        "team": "Malmö FF",
+        "assists": "1",
+        "flag": "norway",
+        "logo": "malmo_ff"
     },
     {
         "rank": "-",
@@ -88,95 +178,5 @@
         "assists": "1",
         "flag": "netherlands",
         "logo": "az_alkmaar"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Bolasie",
-        "country": "Congo DR",
-        "team": "Sporting CP",
-        "assists": "1",
-        "flag": "congo_dr",
-        "logo": "sporting_cp"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Bouchouari",
-        "country": "Belgium",
-        "team": "F91 Dudelange",
-        "assists": "1",
-        "flag": "belgium",
-        "logo": "f91_dudelange"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Brekalo",
-        "country": "Croatia",
-        "team": "VfL Wolfsburg",
-        "assists": "1",
-        "flag": "croatia",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Jesús Corona",
-        "country": "Mexico",
-        "team": "FC Porto",
-        "assists": "1",
-        "flag": "mexico",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Laurent Depoitre",
-        "country": "Belgium",
-        "team": "KAA Gent",
-        "assists": "1",
-        "flag": "belgium",
-        "logo": "kaa_gent"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Díaz",
-        "country": "Colombia",
-        "team": "FC Porto",
-        "assists": "1",
-        "flag": "colombia",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "assists": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Fred",
-        "country": "Brazil",
-        "team": "Manchester United",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Galeno",
-        "country": "Brazil",
-        "team": "Sporting Braga",
-        "assists": "1",
-        "flag": "brazil",
-        "logo": "sporting_braga"
-    },
-    {
-        "rank": "-",
-        "name": "Dmytro Grechyshkin",
-        "country": "Ukraine",
-        "team": "FC Oleksandriya",
-        "assists": "1",
-        "flag": "ukraine",
-        "logo": "fc_oleksandriya"
     }
 ]

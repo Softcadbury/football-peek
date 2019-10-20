@@ -1,12 +1,30 @@
 [
     {
         "rank": "1.",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Erling Håland",
         "country": "Norway",
         "team": "RB Salzburg",
-        "goals": "3",
+        "goals": "4",
         "flag": "norway",
         "logo": "rb_salzburg"
+    },
+    {
+        "rank": "3.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
+        "goals": "3",
+        "flag": "poland",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -18,13 +36,94 @@
         "logo": "dinamo_zagreb"
     },
     {
-        "rank": "3.",
+        "rank": "5.",
+        "name": "Sardar Azmoun",
+        "country": "Iran",
+        "team": "Zenit St. Petersburg",
+        "goals": "2",
+        "flag": "iran",
+        "logo": "zenit_st__petersburg"
+    },
+    {
+        "rank": "-",
+        "name": "Emmanuel Bonaventure",
+        "country": "Nigeria",
+        "team": "Club Brugge KV",
+        "goals": "2",
+        "flag": "nigeria",
+        "logo": "club_brugge_kv"
+    },
+    {
+        "rank": "-",
+        "name": "Memphis Depay",
+        "country": "Netherlands",
+        "team": "Olympique Lyon",
+        "goals": "2",
+        "flag": "netherlands",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
         "name": "Ángel Di María",
         "country": "Argentina",
         "team": "Paris Saint-Germain",
         "goals": "2",
         "flag": "argentina",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Achraf Hakimi",
+        "country": "Morocco",
+        "team": "Borussia Dortmund",
+        "goals": "2",
+        "flag": "morocco",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Hee-chan Hwang",
+        "country": "South Korea",
+        "team": "RB Salzburg",
+        "goals": "2",
+        "flag": "south_korea",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "2",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Quincy Promes",
+        "country": "Netherlands",
+        "team": "AFC Ajax",
+        "goals": "2",
+        "flag": "netherlands",
+        "logo": "afc_ajax"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "2",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "2",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -36,22 +135,22 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "5.",
+        "rank": "16.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "Chelsea FC",
+        "goals": "1",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Edson Álvarez",
         "country": "Mexico",
         "team": "AFC Ajax",
         "goals": "1",
         "flag": "mexico",
         "logo": "afc_ajax"
-    },
-    {
-        "rank": "-",
-        "name": "Sardar Azmoun",
-        "country": "Iran",
-        "team": "Zenit St. Petersburg",
-        "goals": "1",
-        "flag": "iran",
-        "logo": "zenit_st__petersburg"
     },
     {
         "rank": "-",
@@ -73,110 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Kingsley Coman",
-        "country": "France",
-        "team": "Bayern München",
-        "goals": "1",
-        "flag": "france",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Juan Cuadrado",
-        "country": "Colombia",
+        "name": "Federico Bernardeschi",
+        "country": "Italy",
         "team": "Juventus",
         "goals": "1",
-        "flag": "colombia",
+        "flag": "italy",
         "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": " Daniel Podence",
-        "country": "Portugal",
-        "team": "Olympiakos Piräus",
-        "goals": "1",
-        "flag": "portugal",
-        "logo": "olympiakos_piraus"
-    },
-    {
-        "rank": "-",
-        "name": "Memphis Depay",
-        "country": "Netherlands",
-        "team": "Olympique Lyon",
-        "goals": "1",
-        "flag": "netherlands",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "1",
-        "flag": "brazil",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "İlkay Gündoğan",
-        "country": "Germany",
-        "team": "Manchester City",
-        "goals": "1",
-        "flag": "germany",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Héctor Herrera",
-        "country": "Mexico",
-        "team": "Atlético Madrid",
-        "goals": "1",
-        "flag": "mexico",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Hee-chan Hwang",
-        "country": "South Korea",
-        "team": "RB Salzburg",
-        "goals": "1",
-        "flag": "south_korea",
-        "logo": "rb_salzburg"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "1",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Grzegorz Krychowiak",
-        "country": "Poland",
-        "team": "Lokomotiv Moskva",
-        "goals": "1",
-        "flag": "poland",
-        "logo": "lokomotiv_moskva"
-    },
-    {
-        "rank": "-",
-        "name": "Marin Leovac",
-        "country": "Croatia",
-        "team": "Dinamo Zagreb",
-        "goals": "1",
-        "flag": "croatia",
-        "logo": "dinamo_zagreb"
-    },
-    {
-        "rank": "-",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "Bayern München",
-        "goals": "1",
-        "flag": "poland",
-        "logo": "bayern_munchen"
     }
 ]
