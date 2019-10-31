@@ -1,12 +1,30 @@
 [
     {
         "rank": "1.",
+        "name": "Andraž Šporar",
+        "country": "Slovenia",
+        "team": "Slovan Bratislava",
+        "goals": "4",
+        "flag": "slovenia",
+        "logo": "slovan_bratislava"
+    },
+    {
+        "rank": "2.",
         "name": " Ángel",
         "country": "Spain",
         "team": "Getafe CF",
         "goals": "3",
         "flag": "spain",
         "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Gabriel Martinelli",
+        "country": "Brazil",
+        "team": "Arsenal FC",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -27,22 +45,31 @@
         "logo": "psv_eindhoven"
     },
     {
-        "rank": "-",
-        "name": "Andraž Šporar",
-        "country": "Slovenia",
-        "team": "Slovan Bratislava",
-        "goals": "3",
-        "flag": "slovenia",
-        "logo": "slovan_bratislava"
+        "rank": "6.",
+        "name": "Roger Assalé",
+        "country": "Ivory Coast",
+        "team": "BSC Young Boys",
+        "goals": "2",
+        "flag": "ivory_coast",
+        "logo": "bsc_young_boys"
     },
     {
-        "rank": "5.",
+        "rank": "-",
         "name": "Antoine Bernier",
         "country": "Belgium",
         "team": "F91 Dudelange",
         "goals": "2",
         "flag": "belgium",
         "logo": "f91_dudelange"
+    },
+    {
+        "rank": "-",
+        "name": "Myron Boadu",
+        "country": "Netherlands",
+        "team": "AZ Alkmaar",
+        "goals": "2",
+        "flag": "netherlands",
+        "logo": "az_alkmaar"
     },
     {
         "rank": "-",
@@ -64,6 +91,33 @@
     },
     {
         "rank": "-",
+        "name": " Campuzano",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Ryan Christie",
+        "country": "Scotland",
+        "team": "Celtic FC",
+        "goals": "2",
+        "flag": "scotland",
+        "logo": "celtic_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Dani Quintana",
+        "country": "Spain",
+        "team": "Qarabağ FK",
+        "goals": "2",
+        "flag": "spain",
+        "logo": "qaraba__fk"
+    },
+    {
+        "rank": "-",
         "name": "Jonathan David",
         "country": "Canada",
         "team": "KAA Gent",
@@ -73,12 +127,12 @@
     },
     {
         "rank": "-",
-        "name": " Gabriel Martinelli",
-        "country": "Brazil",
-        "team": "Arsenal FC",
+        "name": "Ciprian Deac",
+        "country": "Romania",
+        "team": "CFR Cluj",
         "goals": "2",
-        "flag": "brazil",
-        "logo": "arsenal_fc"
+        "flag": "romania",
+        "logo": "cfr_cluj"
     },
     {
         "rank": "-",
@@ -88,6 +142,15 @@
         "goals": "2",
         "flag": "mexico",
         "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Teun Koopmeiners",
+        "country": "Netherlands",
+        "team": "AZ Alkmaar",
+        "goals": "2",
+        "flag": "netherlands",
+        "logo": "az_alkmaar"
     },
     {
         "rank": "-",
@@ -109,74 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Bibras Natcho",
-        "country": "Israel",
-        "team": "Partizan",
+        "name": "Alfredo Morelos",
+        "country": "Colombia",
+        "team": "Rangers FC",
         "goals": "2",
-        "flag": "israel",
-        "logo": "partizan"
-    },
-    {
-        "rank": "-",
-        "name": "Noah Okafor",
-        "country": "Switzerland",
-        "team": "FC Basel",
-        "goals": "2",
-        "flag": "switzerland",
-        "logo": "fc_basel"
-    },
-    {
-        "rank": "-",
-        "name": "Andrija Pavlović",
-        "country": "Serbia",
-        "team": "APOEL Nikosia",
-        "goals": "2",
-        "flag": "serbia",
-        "logo": "apoel_nikosia"
-    },
-    {
-        "rank": "-",
-        "name": " Rafael Forster",
-        "country": "Brazil",
-        "team": "PFC Ludogorets Razgrad",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "pfc_ludogorets_razgrad"
-    },
-    {
-        "rank": "-",
-        "name": "Umar Sadiq",
-        "country": "Nigeria",
-        "team": "Partizan",
-        "goals": "2",
-        "flag": "nigeria",
-        "logo": "partizan"
-    },
-    {
-        "rank": "-",
-        "name": "Danel Sinani",
-        "country": "Luxembourg",
-        "team": "F91 Dudelange",
-        "goals": "2",
-        "flag": "luxembourg",
-        "logo": "f91_dudelange"
-    },
-    {
-        "rank": "-",
-        "name": " Tiquinho Soares",
-        "country": "Brazil",
-        "team": "FC Porto",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "fc_porto"
-    },
-    {
-        "rank": "-",
-        "name": "Joe Willock",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "2",
-        "flag": "england",
-        "logo": "arsenal_fc"
+        "flag": "colombia",
+        "logo": "rangers_fc"
     }
 ]

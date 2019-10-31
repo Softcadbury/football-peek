@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "9",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "2.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "Chelsea FC",
@@ -18,7 +27,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Arsenal FC",
@@ -27,7 +36,25 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "7",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "6.",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "6",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Teemu Pukki",
         "country": "Finland",
         "team": "Norwich City",
@@ -36,39 +63,30 @@
         "logo": "norwich_city"
     },
     {
-        "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "goals": "6",
-        "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "6",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "7.",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "5",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
         "goals": "5",
         "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Marcus Rashford",
+        "country": "England",
+        "team": "Manchester United",
+        "goals": "5",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "5",
+        "flag": "egypt",
         "logo": "liverpool_fc"
     },
     {
@@ -81,7 +99,16 @@
         "logo": "afc_bournemouth"
     },
     {
-        "rank": "10.",
+        "rank": "12.",
+        "name": "Jordan Ayew",
+        "country": "Ghana",
+        "team": "Crystal Palace",
+        "goals": "4",
+        "flag": "ghana",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "-",
         "name": "Ashley Barnes",
         "country": "England",
         "team": "Burnley FC",
@@ -118,21 +145,21 @@
     },
     {
         "rank": "-",
+        "name": "Neal Maupay",
+        "country": "Argentina",
+        "team": "Brighton & Hove Albion",
+        "goals": "4",
+        "flag": "argentina",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
         "name": "Mason Mount",
         "country": "England",
         "team": "Chelsea FC",
         "goals": "4",
         "flag": "england",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "goals": "4",
         "flag": "new_zealand",
         "logo": "burnley_fc"
-    },
-    {
-        "rank": "18.",
-        "name": "Jordan Ayew",
-        "country": "Ghana",
-        "team": "Crystal Palace",
-        "goals": "3",
-        "flag": "ghana",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Daniel James",
-        "country": "Wales",
-        "team": "Manchester United",
-        "goals": "3",
-        "flag": "wales",
-        "logo": "manchester_united"
     }
 ]
