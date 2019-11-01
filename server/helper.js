@@ -148,13 +148,13 @@ function log(message) {
 }
 
 module.exports = {
-    stringSanitize: stringSanitize,
-    stringFormat: stringFormat,
-    readJsonFile: readJsonFile,
-    writeJsonFile: writeJsonFile,
-    scrapeUrl: scrapeUrl,
-    manageFlagProperty: manageFlagProperty,
-    manageLogoProperty: manageLogoProperty,
-    getLeagueCurrentRound: getLeagueCurrentRound,
-    log: log
+    stringSanitize,
+    stringFormat,
+    readJsonFile,
+    writeJsonFile,
+    scrapeUrl,
+    manageFlagProperty,
+    manageLogoProperty,
+    getLeagueCurrentRound,
+    log
 };

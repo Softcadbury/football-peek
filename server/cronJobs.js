@@ -57,5 +57,5 @@ function setupCrons() {
 }
 
 module.exports = {
-    setupCrons: setupCrons
+    setupCrons
 };

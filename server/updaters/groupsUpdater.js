@@ -95,5 +95,5 @@ function parseRound(itemExtended, results, groupIndex) {
 }
 
 module.exports = {
-    update: update
+    update
 };

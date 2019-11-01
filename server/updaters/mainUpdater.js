@@ -24,6 +24,6 @@ async function updateCompetition(item) {
 }
 
 module.exports = {
-    updateLeague: updateLeague,
-    updateCompetition: updateCompetition
+    updateLeague,
+    updateCompetition
 };

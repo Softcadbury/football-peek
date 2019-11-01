@@ -83,5 +83,5 @@ function parseRound(itemExtended, results, roundIndex) {
 }
 
 module.exports = {
-    update: update
+    update
 };

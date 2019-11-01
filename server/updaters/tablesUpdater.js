@@ -57,5 +57,5 @@ function update(item) {
 }
 
 module.exports = {
-    update: update
+    update
 };

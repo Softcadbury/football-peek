@@ -160,5 +160,5 @@ function parseScore(score, hasToReverseScore) {
 }
 
 module.exports = {
-    update: update
+    update
 };

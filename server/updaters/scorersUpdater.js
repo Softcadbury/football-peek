@@ -67,6 +67,6 @@ function update(itemExtended) {
 }
 
 module.exports = {
-    updateLeagues: updateLeagues,
-    updateCompetitions: updateCompetitions
+    updateLeagues,
+    updateCompetitions
 };
