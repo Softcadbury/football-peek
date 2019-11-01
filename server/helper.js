@@ -10,6 +10,8 @@ const config = require('./config');
 
 const jsonFileCache = new NodeCache({ stdTTL: 300 });
 
+winston.configure({ transports: [new winston.transports.File({ filename: 'info.log' }), new winston.transports.Console()] });
+
 // Sanitizes a string to be a filename
 function stringSanitize(str) {
     return str
@@ -152,14 +154,6 @@ function getLeagueCurrentRound(resultsData) {
 
 // Log a message in the console and a log file
 function log(message) {
-    winston.configure({
-        transports: [
-            new winston.transports.File({
-                filename: 'info.log'
-            }),
-            new winston.transports.Console()
-        ]
-    });
     winston.info(message);
 }
 
