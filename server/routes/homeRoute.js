@@ -38,7 +38,7 @@ function getItemsMatches(filteredItems, limitDate) {
 }
 
 function getLeagueMatches(item, handledDates) {
-    const resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
+    const resultsData = helper.readCachedJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
     const matches = [];
 
     resultsData.forEach(result => {
@@ -53,7 +53,7 @@ function getLeagueMatches(item, handledDates) {
 }
 
 function getCompetitionMatches(item, handledDates) {
-    const tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
+    const tournamentData = helper.readCachedJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
     const tournamentMatches = [];
 
     for (let i = tournamentData.length - 1; i >= 0; i--) {
@@ -91,7 +91,7 @@ function getCompetitionMatches(item, handledDates) {
         return tournamentMatches.sort(sortMatchesByDate);
     }
 
-    const groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+    const groupsData = helper.readCachedJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
     const groupMatches = [];
 
     groupsData.forEach(group => {

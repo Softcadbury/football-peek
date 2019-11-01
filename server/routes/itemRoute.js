@@ -67,7 +67,7 @@ function renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundO
 }
 
 function getData(dataPath, requestedItem, requestedPeriod) {
-    return helper.readJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedPeriod));
+    return helper.readCachedJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedPeriod));
 }
 
 function getPreviousAndNextGroupUrls(requestedItemCode, requestedPeriod, requestedGroup, numberOfGroups) {

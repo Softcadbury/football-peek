@@ -6,7 +6,10 @@ const fs = require('fs');
 const request = require('request');
 const cheerio = require('cheerio');
 const winston = require('winston');
+const NodeCache = require('node-cache');
 const config = require('./config');
+
+const jsonFileCache = new NodeCache({ stdTTL: 300 });
 
 // Sanitizes a string to be a filename
 function stringSanitize(str) {
@@ -43,6 +46,20 @@ function readJsonFile(path) {
     return jsonfile.readFileSync(path, {
         throws: false
     });
+}
+
+// Reads a json file from cache and return its content
+function readCachedJsonFile(path) {
+    let value = jsonFileCache.get(path);
+
+    if (value) {
+        return value;
+    }
+
+    value = readJsonFile(path);
+    jsonFileCache.set(path, value);
+
+    return value;
 }
 
 // Writes content in a json file
@@ -151,6 +168,7 @@ module.exports = {
     stringSanitize,
     stringFormat,
     readJsonFile,
+    readCachedJsonFile,
     writeJsonFile,
     scrapeUrl,
     manageFlagProperty,
