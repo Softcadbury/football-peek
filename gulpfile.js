@@ -1,13 +1,13 @@
 'use strict';
 
-var gulp = require('gulp');
-var config = require('./server/config');
+const gulp = require('gulp');
 
 // Updates all data
 gulp.task('up', async () => {
-    var leagues = require('./server/data/leagues');
-    var competitions = require('./server/data/competitions');
-    var mainUpdater = require('./server/updaters/mainUpdater');
+    const config = require('./server/config');
+    const leagues = require('./server/data/leagues');
+    const competitions = require('./server/data/competitions');
+    const mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
     config.fullResultUpdate = true;
@@ -23,7 +23,8 @@ gulp.task('up', async () => {
 
 // Check coding rules
 gulp.task('lint', () => {
-    var eslint = require('gulp-eslint');
+    const eslint = require('gulp-eslint');
+
     return gulp
         .src(['**/*.js', '!node_modules/**', '!dist/**'])
         .pipe(eslint())
@@ -33,7 +34,8 @@ gulp.task('lint', () => {
 
 // Run tests
 gulp.task('test', () => {
-    var mocha = require('gulp-mocha');
+    const mocha = require('gulp-mocha');
+
     gulp
         .src('./tests/*.js', {
             read: false
@@ -47,8 +49,8 @@ gulp.task('test', () => {
 
 // Build the sprite
 gulp.task('sprite', () => {
-    var spritesmith = require('gulp.spritesmith');
-    var spritesmithOptions = spritesmith({
+    const spritesmith = require('gulp.spritesmith');
+    const spritesmithOptions = spritesmith({
         cssName: 'client/styles/misc/sprite.css',
         imgName: 'client/images/sprite.png',
         imgPath: '../../images/sprite.png'
@@ -62,7 +64,7 @@ gulp.task('sprite', () => {
 
 // Optimize images
 gulp.task('optim', () => {
-    var imagemin = require('gulp-imagemin');
+    const imagemin = require('gulp-imagemin');
 
     gulp
         .src('client/images/*')
@@ -72,15 +74,15 @@ gulp.task('optim', () => {
 
 // Build the application in the dist folder
 gulp.task('build', () => {
-    var webpack = require('webpack');
-    var webpackStream = require('webpack-stream');
-    var CleanWebpackPlugin = require('clean-webpack-plugin');
-    var ExtractTextPlugin = require('extract-text-webpack-plugin');
-    var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+    const webpack = require('webpack');
+    const webpackStream = require('webpack-stream');
+    const CleanWebpackPlugin = require('clean-webpack-plugin');
+    const ExtractTextPlugin = require('extract-text-webpack-plugin');
+    const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
-    var extractLess = new ExtractTextPlugin('style.bundle.[hash].css');
+    const extractLess = new ExtractTextPlugin('style.bundle.[hash].css');
 
-    var webpackModule = {
+    const webpackModule = {
         rules: [
             {
                 test: /\.less$/,
@@ -102,7 +104,7 @@ gulp.task('build', () => {
         ]
     };
 
-    var webpackPlugins = [
+    const webpackPlugins = [
         new CleanWebpackPlugin(['dist']),
         new UglifyJsPlugin(),
         new webpack.LoaderOptionsPlugin({
@@ -134,7 +136,7 @@ gulp.task('build', () => {
 
 // Inject built files in layout view
 gulp.task('inject', ['build'], () => {
-    var inject = require('gulp-inject');
+    const inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
     return gulp
@@ -154,8 +156,10 @@ gulp.task('inject', ['build'], () => {
 
 // Start the node server
 gulp.task('start', () => {
-    var nodemon = require('gulp-nodemon');
-    var options = {
+    const config = require('./server/config');
+    const nodemon = require('gulp-nodemon');
+
+    const options = {
         script: 'server.js',
         delayTime: 1,
         env: {
@@ -169,9 +173,11 @@ gulp.task('start', () => {
 
 // Manage build, start the node server and open the browser
 gulp.task('default', ['inject', 'start'], () => {
+    const config = require('./server/config');
+    const openBrowser = require('gulp-open');
+
     gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['inject']);
 
-    var openBrowser = require('gulp-open');
     gulp.src('/').pipe(
         openBrowser({
             uri: '127.0.0.1:' + config.port,

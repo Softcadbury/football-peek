@@ -1,22 +1,22 @@
 'use strict';
 
-var config = require('../config');
-var helper = require('../helper');
-var competitions = require('../data/competitions');
+const config = require('../config');
+const helper = require('../helper');
+const competitions = require('../data/competitions');
 
-var resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-gruppe-{2}';
-var resultsDataUrlExtensions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'];
-var competitionsExtended = [
+const resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-gruppe-{2}';
+const resultsDataUrlExtensions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'];
+const competitionsExtended = [
     { item: competitions.championsLeague, url: 'champions-league', groupNumber: 8 },
     { item: competitions.europaLeague, url: 'europa-league', groupNumber: 12 }
 ];
 
 function update(item) {
-    var itemExtended = competitionsExtended.find(p => p.item === item);
-    var results = [];
-    var promises = [];
+    const itemExtended = competitionsExtended.find(p => p.item === item);
+    const results = [];
+    const promises = [];
 
-    for (var i = 0; i < itemExtended.groupNumber; i++) {
+    for (let i = 0; i < itemExtended.groupNumber; i++) {
         results.push({ name: resultsDataUrlExtensions[i], matches: [], table: [] });
         promises.push(parseRound(itemExtended, results, i));
     }
@@ -38,15 +38,15 @@ function update(item) {
 function parseRound(itemExtended, results, groupIndex) {
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(resultsDataUrl, itemExtended.url, config.periods.current, resultsDataUrlExtensions[groupIndex]), $ => {
-            var currentMatches = results[groupIndex].matches;
-            var currentDate;
+            const currentMatches = results[groupIndex].matches;
+            let currentDate;
 
             $('#site > div.white > div.content > div > div:nth-child(4) > div > table tr').each((index, elem) => {
                 if (index >= 12) {
                     return;
                 }
 
-                var isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
+                const isLiveScore = $(elem).find(' td:nth-child(6) > a > span').length;
                 currentDate = $(elem).find('td:nth-child(1)').text() || currentDate;
 
                 currentMatches.push({
@@ -58,12 +58,12 @@ function parseRound(itemExtended, results, groupIndex) {
                 });
             });
 
-            for (var i = 0; i < currentMatches.length; i++) {
+            for (let i = 0; i < currentMatches.length; i++) {
                 currentMatches[i].homeTeamLogo = helper.stringSanitize(currentMatches[i].homeTeam);
                 currentMatches[i].awayTeamLogo = helper.stringSanitize(currentMatches[i].awayTeam);
             }
 
-            var currentTable = results[groupIndex].table;
+            const currentTable = results[groupIndex].table;
 
             $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {
                 if (index <= 0) {
@@ -85,7 +85,7 @@ function parseRound(itemExtended, results, groupIndex) {
                 });
             });
 
-            for (var j = 0; j < currentTable.length; j++) {
+            for (let j = 0; j < currentTable.length; j++) {
                 helper.manageLogoProperty(currentTable[j]);
             }
 

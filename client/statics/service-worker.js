@@ -1,6 +1,6 @@
 'use strict';
 
-var cacheVersion = 'v1';
+const cacheVersion = 'v1';
 
 this.addEventListener('activate', function (event) {
     event.waitUntil(
@@ -17,7 +17,7 @@ this.addEventListener('activate', function (event) {
 });
 
 this.addEventListener('fetch', function (event) {
-    var originalResponse;
+    let originalResponse;
 
     event.respondWith(
         fetch(event.request.clone())

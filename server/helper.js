@@ -1,5 +1,13 @@
 'use strict';
 
+const fileExists = require('file-exists');
+const jsonfile = require('jsonfile');
+const fs = require('fs');
+const request = require('request');
+const cheerio = require('cheerio');
+const winston = require('winston');
+const config = require('./config');
+
 // Sanitizes a string to be a filename
 function stringSanitize(str) {
     return str
@@ -19,7 +27,7 @@ function stringSanitize(str) {
 
 // Formats a string with arguments
 function stringFormat(str) {
-    for (var i = 0; i + 1 < arguments.length; i++) {
+    for (let i = 0; i + 1 < arguments.length; i++) {
         str = str.replace('{' + i + '}', arguments[i + 1]);
     }
 
@@ -28,9 +36,6 @@ function stringFormat(str) {
 
 // Reads a json file and return its content
 function readJsonFile(path) {
-    var fileExists = require('file-exists');
-    var jsonfile = require('jsonfile');
-
     if (!fileExists.sync(path)) {
         return [];
     }
@@ -42,8 +47,6 @@ function readJsonFile(path) {
 
 // Writes content in a json file
 function writeJsonFile(path, content, resolve) {
-    var fs = require('fs');
-
     fs.writeFile(path, JSON.stringify(content, null, 4), err => {
         if (err) {
             log('Error while writing: ' + path + ' -> ' + err);
@@ -57,14 +60,11 @@ function writeJsonFile(path, content, resolve) {
 
 // Scrapes an url and call the callback with its content
 function scrapeUrl(url, callback) {
-    var request = require('request');
-    var cheerio = require('cheerio');
-
     request(url, (err, resp, body) => {
         if (err) {
             log('Error while requesting: ' + url + ' -> ' + err);
         } else {
-            var $ = cheerio.load(body);
+            const $ = cheerio.load(body);
             try {
                 callback($);
             } catch (e) {
@@ -78,7 +78,6 @@ function scrapeUrl(url, callback) {
 function manageFlagProperty(item) {
     item.flag = stringSanitize(item.country);
 
-    var config = require('./config');
     if (config.downloadImages) {
         downloadImage(item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
     }
@@ -90,7 +89,6 @@ function manageFlagProperty(item) {
 function manageLogoProperty(item) {
     item.logo = stringSanitize(item.team);
 
-    var config = require('./config');
     if (config.downloadImages) {
         downloadImage(item.logoSrc, stringFormat(config.paths.logosData, item.logo));
     }
@@ -100,10 +98,6 @@ function manageLogoProperty(item) {
 
 // Download an image in a path
 function downloadImage(src, path) {
-    var fileExists = require('file-exists');
-    var request = require('request');
-    var fs = require('fs');
-
     if (!fileExists.sync(path) && !path.endsWith('/.gif')) {
         request.head(src, err => {
             if (err) {
@@ -125,10 +119,10 @@ function getLeagueCurrentRound(resultsData) {
         return 1;
     }
 
-    var round = 1;
+    let round = 1;
 
-    for (var i = 0; i < resultsData.length; i++) {
-        var result = resultsData[i];
+    for (let i = 0; i < resultsData.length; i++) {
+        const result = resultsData[i];
 
         if (result.matches.filter(p => p.score === '-:-').length === result.matches.length) {
             break;
@@ -142,7 +136,6 @@ function getLeagueCurrentRound(resultsData) {
 
 // Log a message in the console and a log file
 function log(message) {
-    var winston = require('winston');
     winston.configure({
         transports: [
             new winston.transports.File({

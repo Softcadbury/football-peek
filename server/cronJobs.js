@@ -1,12 +1,12 @@
 'use strict';
 
-var CronJob = require('cron').CronJob;
-var helper = require('./helper');
-var leagues = require('./data/leagues');
-var competitions = require('./data/competitions');
-var mainUpdater = require('./updaters/mainUpdater');
+const CronJob = require('cron').CronJob;
+const helper = require('./helper');
+const leagues = require('./data/leagues');
+const competitions = require('./data/competitions');
+const mainUpdater = require('./updaters/mainUpdater');
 
-var leagueCronJobTimes = [
+const leagueCronJobTimes = [
     '00 00 09 * * *',
     '00 40 15 * * sat,sun',
     '00 30 16 * * sat,sun',
@@ -22,7 +22,7 @@ var leagueCronJobTimes = [
     '00 50 23 * * *'
 ];
 
-var competitionCronJobTimes = [
+const competitionCronJobTimes = [
     '00 05 09 * * *',
     '00 05 19 * * tue,wed,thu',
     '00 05 21 * * tue,wed,thu',

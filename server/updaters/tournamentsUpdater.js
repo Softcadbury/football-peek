@@ -1,23 +1,23 @@
 'use strict';
 
-var config = require('../config');
-var helper = require('../helper');
-var competitions = require('../data/competitions');
+const config = require('../config');
+const helper = require('../helper');
+const competitions = require('../data/competitions');
 
-var tournamentDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-{2}';
-var tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale', 'sechzehntelfinale'];
-var tournamentDataUrlExtensionsNames = ['Final', 'Semi-finals', 'Quarter-finals', 'Eighth-finals', 'Sixteenth-finals'];
-var competitionsExtended = [
+const tournamentDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-{2}';
+const tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale', 'sechzehntelfinale'];
+const tournamentDataUrlExtensionsNames = ['Final', 'Semi-finals', 'Quarter-finals', 'Eighth-finals', 'Sixteenth-finals'];
+const competitionsExtended = [
     { item: competitions.championsLeague, url: 'champions-league', roundNumber: 4 },
     { item: competitions.europaLeague, url: 'europa-league', roundNumber: 5 }
 ];
 
 function update(item) {
-    var itemExtended = competitionsExtended.find(p => p.item === item);
-    var results = [];
-    var promises = [];
+    const itemExtended = competitionsExtended.find(p => p.item === item);
+    const results = [];
+    const promises = [];
 
-    for (var i = 0; i < itemExtended.roundNumber; i++) {
+    for (let i = 0; i < itemExtended.roundNumber; i++) {
         results.push({ name: tournamentDataUrlExtensionsNames[i], matches: [] });
         promises.push(parseRound(itemExtended, results, i));
     }
@@ -32,7 +32,7 @@ function update(item) {
             }
 
             // Remove empty phases
-            for (var j = results.length - 1; j >= 0; j--) {
+            for (let j = results.length - 1; j >= 0; j--) {
                 if (!results[j].matches[0] || !results[j].matches[0].team1) {
                     results.splice(j, 1);
                 }
@@ -47,7 +47,7 @@ function update(item) {
 function parseRound(itemExtended, results, roundIndex) {
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.periods.current, tournamentDataUrlExtensions[roundIndex]), $ => {
-            var currentMatches = results[roundIndex].matches;
+            const currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
                 if (index >= Math.pow(2, roundIndex + 2)) {
@@ -61,7 +61,7 @@ function parseRound(itemExtended, results, roundIndex) {
                 }
             });
 
-            for (var i = 0; i < currentMatches.length; i++) {
+            for (let i = 0; i < currentMatches.length; i++) {
                 currentMatches[i].team1Logo = helper.stringSanitize(currentMatches[i].team1);
                 currentMatches[i].team2Logo = helper.stringSanitize(currentMatches[i].team2);
             }
@@ -76,11 +76,11 @@ function parseFinalPhase($, elem, currentMatches, index) {
         return;
     }
 
-    var team1 = $(elem).find('td:nth-child(3) > a').text();
-    var team2 = $(elem).find('td:nth-child(5) > a').text();
-    var score = parseScore($(elem).find('td:nth-child(6) > a').text());
-    var finalScore = score.split(' ').length === 1 ? score : score.split(' ')[1].replace('(', '').replace(')', '');
-    var winner = '';
+    const team1 = $(elem).find('td:nth-child(3) > a').text();
+    const team2 = $(elem).find('td:nth-child(5) > a').text();
+    const score = parseScore($(elem).find('td:nth-child(6) > a').text());
+    const finalScore = score.split(' ').length === 1 ? score : score.split(' ')[1].replace('(', '').replace(')', '');
+    const winner = '';
 
     if (finalScore !== '-:-') {
         winner = finalScore.split(':')[0] > finalScore.split(':')[1] ? team1 : team2;
@@ -113,7 +113,7 @@ function parsePhaseOtherThanFinal($, elem, currentMatches, index) {
             currentMatches[currentMatches.length - 1].score2 = parseScore($(elem).find('td:nth-child(5) > a').text(), true);
             break;
         case 2:
-            var match = currentMatches[currentMatches.length - 1];
+            const match = currentMatches[currentMatches.length - 1];
             match.date1 = $(elem).find('td:nth-child(2)').text().split(' ')[2];
             match.time1 = $(elem).find('td:nth-child(2)').text().split(' ')[3];
             match.date2 = $(elem).find('td:nth-child(4)').text().split(' ')[3];
@@ -131,7 +131,7 @@ function parseScore(score, hasToReverseScore) {
         return '-:-';
     }
 
-    var scores = score
+    const scores = score
         .replace('pso', '')
         .replace('aet', '')
         .replace('(', '')
@@ -140,7 +140,7 @@ function parseScore(score, hasToReverseScore) {
         .trim()
         .split(' ');
 
-    var newScorePart1 = scores[0];
+    const newScorePart1 = scores[0];
 
     if (hasToReverseScore) {
         newScorePart1 = newScorePart1.split(':')[1] + ':' + newScorePart1.split(':')[0];
@@ -150,7 +150,7 @@ function parseScore(score, hasToReverseScore) {
         return newScorePart1;
     }
 
-    var newScorePart2 = scores[3];
+    const newScorePart2 = scores[3];
 
     if (hasToReverseScore) {
         newScorePart2 = newScorePart2.split(':')[1] + ':' + newScorePart2.split(':')[0];

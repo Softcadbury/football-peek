@@ -1,11 +1,11 @@
 'use strict';
 
-var tablesUpdater = require('./tablesUpdater');
-var resultsUpdater = require('./resultsUpdater');
+const tablesUpdater = require('./tablesUpdater');
+const resultsUpdater = require('./resultsUpdater');
 // var tournamentsUpdater = require('./tournamentsUpdater');
-var groupsUpdater = require('./groupsUpdater');
-var scorersUpdater = require('./scorersUpdater');
-var assistsUpdater = require('./assistsUpdater');
+const groupsUpdater = require('./groupsUpdater');
+const scorersUpdater = require('./scorersUpdater');
+const assistsUpdater = require('./assistsUpdater');
 
 // Updates league data
 async function updateLeague(item) {

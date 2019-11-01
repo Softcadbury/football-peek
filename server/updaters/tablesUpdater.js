@@ -1,11 +1,11 @@
 'use strict';
 
-var config = require('../config');
-var helper = require('../helper');
-var leagues = require('../data/leagues');
+const config = require('../config');
+const helper = require('../helper');
+const leagues = require('../data/leagues');
 
-var tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
-var leaguesExtended = [
+const tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
+const leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
@@ -14,11 +14,11 @@ var leaguesExtended = [
 ];
 
 function update(item) {
-    var itemExtended = leaguesExtended.find(p => p.item === item);
+    const itemExtended = leaguesExtended.find(p => p.item === item);
 
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
-            var results = [];
+            const results = [];
 
             $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {
                 if (index <= 0) {
@@ -47,7 +47,7 @@ function update(item) {
                 return;
             }
 
-            for (var i = 0; i < results.length; i++) {
+            for (let i = 0; i < results.length; i++) {
                 helper.manageLogoProperty(results[i]);
             }
 

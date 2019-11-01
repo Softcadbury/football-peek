@@ -1,12 +1,12 @@
 'use strict';
 
-var items = require('../data/items');
-var config = require('../config');
-var helper = require('../helper');
-var express = require('express');
-var router = express.Router();
+const items = require('../data/items');
+const config = require('../config');
+const helper = require('../helper');
+const express = require('express');
+const router = express.Router();
 
-var data = {
+const data = {
     title: 'Football Peek - The quickest access to football results',
     description: 'Access football results, tables, top scorers and top assists from the major leagues and competitions',
     items: items
@@ -23,11 +23,11 @@ router.route('/').get((req, res) => {
 });
 
 function getItemsMatches(filteredItems, limitDate) {
-    var dates = getHandledDates(limitDate);
-    var itemsMatches = [];
+    const dates = getHandledDates(limitDate);
+    const itemsMatches = [];
 
     filteredItems.forEach(item => {
-        var matches = item.isCompetition ? getCompetitionMatches(item, dates) : getLeagueMatches(item, dates);
+        const matches = item.isCompetition ? getCompetitionMatches(item, dates) : getLeagueMatches(item, dates);
 
         if (matches.length) {
             itemsMatches.push({ item, matches });
@@ -38,8 +38,8 @@ function getItemsMatches(filteredItems, limitDate) {
 }
 
 function getLeagueMatches(item, handledDates) {
-    var resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
-    var matches = [];
+    const resultsData = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, item.code, config.periods.current));
+    const matches = [];
 
     resultsData.forEach(result => {
         result.matches.forEach(matche => {
@@ -53,8 +53,8 @@ function getLeagueMatches(item, handledDates) {
 }
 
 function getCompetitionMatches(item, handledDates) {
-    var tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
-    var tournamentMatches = [];
+    const tournamentData = helper.readJsonFile(helper.stringFormat(config.paths.tournamentData, item.code, config.periods.current));
+    const tournamentMatches = [];
 
     for (let i = tournamentData.length - 1; i >= 0; i--) {
         const round = tournamentData[i];
@@ -73,7 +73,7 @@ function getCompetitionMatches(item, handledDates) {
             }
 
             if (handledDates.indexOf(matche.date2) !== -1 && matche.score2.indexOf(':') != -1) {
-                var reversedScore = matche.score2.split(':')[1] + ':' + matche.score2.split(':')[0];
+                const reversedScore = matche.score2.split(':')[1] + ':' + matche.score2.split(':')[0];
                 tournamentMatches.push({
                     date: matche.date2,
                     time: matche.time2,
@@ -91,8 +91,8 @@ function getCompetitionMatches(item, handledDates) {
         return tournamentMatches.sort(sortMatchesByDate);
     }
 
-    var groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
-    var groupMatches = [];
+    const groupsData = helper.readJsonFile(helper.stringFormat(config.paths.groupsData, item.code, config.periods.current));
+    const groupMatches = [];
 
     groupsData.forEach(group => {
         group.matches.forEach(matche => {
@@ -106,16 +106,16 @@ function getCompetitionMatches(item, handledDates) {
 }
 
 function getHandledDates(limitDate) {
-    var currentDate = new Date();
-    var dates = [];
+    const currentDate = new Date();
+    const dates = [];
 
-    for (var i = limitDate; i >= 1; i--) {
+    for (let i = limitDate; i >= 1; i--) {
         dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate() - i))));
     }
 
     dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate()))));
 
-    for (var j = 1; j <= limitDate; j++) {
+    for (let j = 1; j <= limitDate; j++) {
         dates.push(getFormattedDate(new Date(new Date().setDate(currentDate.getDate() + j))));
     }
 
@@ -123,9 +123,9 @@ function getHandledDates(limitDate) {
 }
 
 function getFormattedDate(date) {
-    var dd = date.getDate();
-    var mm = date.getMonth() + 1;
-    var yyyy = date.getFullYear();
+    let dd = date.getDate();
+    let mm = date.getMonth() + 1;
+    const yyyy = date.getFullYear();
 
     dd = dd < 10 ? '0' + dd : dd;
     mm = mm < 10 ? '0' + mm : mm;
@@ -134,11 +134,11 @@ function getFormattedDate(date) {
 }
 
 function sortMatchesByDate(matche1, matche2) {
-    var splittedDate1 = matche1.date.split('/').map(p => Number(p));
-    var splittedDate2 = matche2.date.split('/').map(p => Number(p));
+    const splittedDate1 = matche1.date.split('/').map(p => Number(p));
+    const splittedDate2 = matche2.date.split('/').map(p => Number(p));
 
-    var tick1 = splittedDate1[2] * 10000 + splittedDate1[1] * 100 + splittedDate1[0];
-    var tick2 = splittedDate2[2] * 10000 + splittedDate2[1] * 100 + splittedDate2[0];
+    const tick1 = splittedDate1[2] * 10000 + splittedDate1[1] * 100 + splittedDate1[0];
+    const tick2 = splittedDate2[2] * 10000 + splittedDate2[1] * 100 + splittedDate2[0];
 
     return tick1 < tick2 ? -1 : tick1 > tick2 ? 1 : 0;
 }

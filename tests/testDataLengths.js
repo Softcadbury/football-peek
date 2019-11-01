@@ -1,11 +1,11 @@
 /* global describe, it */
 'use strict';
 
-var assert = require('chai').assert;
-var fileExists = require('file-exists');
-var config = require('../server/config');
-var helper = require('../server/helper');
-var items = require('../server/data/items');
+const assert = require('chai').assert;
+const fileExists = require('file-exists');
+const config = require('../server/config');
+const helper = require('../server/helper');
+const items = require('../server/data/items');
 
 describe('Data lengths', () => {
     items.forEach(item => {
@@ -29,13 +29,13 @@ describe('Data lengths', () => {
 });
 
 function testTournamentData(code, period) {
-    var path = helper.stringFormat(config.paths.tournamentData, code, period);
+    const path = helper.stringFormat(config.paths.tournamentData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Tournament should have the right number of matches', () => {
         if (data.length > 0) {
@@ -61,13 +61,13 @@ function testTournamentData(code, period) {
 }
 
 function testGroupsData(code, period) {
-    var path = helper.stringFormat(config.paths.groupsData, code, period);
+    const path = helper.stringFormat(config.paths.groupsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Group should have the right number of teams', () => {
         data.forEach(item => {
@@ -85,13 +85,13 @@ function testGroupsData(code, period) {
 }
 
 function testTableData(code, period) {
-    var path = helper.stringFormat(config.paths.tableData, code, period);
+    const path = helper.stringFormat(config.paths.tableData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Table should have the right number of teams', () => {
         assert.isTrue(data.length == 18 || data.length == 20);
@@ -99,13 +99,13 @@ function testTableData(code, period) {
 }
 
 function testResultData(code, period) {
-    var path = helper.stringFormat(config.paths.resultsData, code, period);
+    const path = helper.stringFormat(config.paths.resultsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Result should have the right number of matches', () => {
         assert.isTrue(data.length == 34 || data.length == 38);
@@ -113,13 +113,13 @@ function testResultData(code, period) {
 }
 
 function testScorersData(code, period) {
-    var path = helper.stringFormat(config.paths.scorersData, code, period);
+    const path = helper.stringFormat(config.paths.scorersData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Scorers should have the right number of players', () => {
         assert.lengthOf(data, 20);
@@ -127,13 +127,13 @@ function testScorersData(code, period) {
 }
 
 function testAssistsData(code, period) {
-    var path = helper.stringFormat(config.paths.assistsData, code, period);
+    const path = helper.stringFormat(config.paths.assistsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Assists should have the right number of players', () => {
         assert.lengthOf(data, 20);

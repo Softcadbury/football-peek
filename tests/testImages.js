@@ -1,14 +1,14 @@
 /* global describe, it */
 'use strict';
 
-var assert = require('chai').assert;
-var fileExists = require('file-exists');
-var fs = require('fs');
-var config = require('../server/config');
-var helper = require('../server/helper');
-var items = require('../server/data/items');
+const assert = require('chai').assert;
+const fileExists = require('file-exists');
+const fs = require('fs');
+const config = require('../server/config');
+const helper = require('../server/helper');
+const items = require('../server/data/items');
 
-var spriteFileContent;
+let spriteFileContent;
 
 describe('Images intergrity', () => {
     spriteFileContent = fs.readFileSync('./client/styles/misc/sprite.css', 'utf8');
@@ -34,13 +34,13 @@ describe('Images intergrity', () => {
 });
 
 function testTournamentData(code, period) {
-    var path = helper.stringFormat(config.paths.tournamentData, code, period);
+    const path = helper.stringFormat(config.paths.tournamentData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     if (data.length > 0) {
         testImagesExistance('Tournament Final', data[0].matches);
@@ -64,13 +64,13 @@ function testTournamentData(code, period) {
 }
 
 function testGroupsData(code, period) {
-    var path = helper.stringFormat(config.paths.groupsData, code, period);
+    const path = helper.stringFormat(config.paths.groupsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     data.forEach(item => {
         testImagesExistance('Group Matches', item.matches);
@@ -79,49 +79,49 @@ function testGroupsData(code, period) {
 }
 
 function testTableData(code, period) {
-    var path = helper.stringFormat(config.paths.tableData, code, period);
+    const path = helper.stringFormat(config.paths.tableData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     testImagesExistance('Table', data);
 }
 
 function testResultData(code, period) {
-    var path = helper.stringFormat(config.paths.resultsData, code, period);
+    const path = helper.stringFormat(config.paths.resultsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     testImagesExistance('Results', data[0].matches);
 }
 
 function testScorersData(code, period) {
-    var path = helper.stringFormat(config.paths.scorersData, code, period);
+    const path = helper.stringFormat(config.paths.scorersData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     testImagesExistance('Scorers', data);
 }
 
 function testAssistsData(code, period) {
-    var path = helper.stringFormat(config.paths.assistsData, code, period);
+    const path = helper.stringFormat(config.paths.assistsData, code, period);
 
     if (!fileExists.sync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     testImagesExistance('Assists', data);
 }

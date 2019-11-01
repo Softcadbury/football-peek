@@ -1,37 +1,37 @@
 'use strict';
 
-var config = require('../config');
-var helper = require('../helper');
-var leagues = require('../data/leagues');
-var competitions = require('../data/competitions');
+const config = require('../config');
+const helper = require('../helper');
+const leagues = require('../data/leagues');
+const competitions = require('../data/competitions');
 
-var assistsDataUrl = 'http://www.worldfootball.net/assists/{0}-{1}{2}';
-var leaguesExtended = [
+const assistsDataUrl = 'http://www.worldfootball.net/assists/{0}-{1}{2}';
+const leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
     { item: leagues.serieA, url: 'ita-serie-a', extra: '' },
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '' }
 ];
-var competitionsExtended = [
+const competitionsExtended = [
     { item: competitions.championsLeague, url: 'champions-league', extra: '' },
     { item: competitions.europaLeague, url: 'europa-league', extra: '' }
 ];
 
 async function updateLeagues(item) {
-    var itemExtended = leaguesExtended.find(p => p.item === item);
+    const itemExtended = leaguesExtended.find(p => p.item === item);
     return await update(itemExtended);
 }
 
 async function updateCompetitions(item) {
-    var itemExtended = competitionsExtended.find(p => p.item === item);
+    const itemExtended = competitionsExtended.find(p => p.item === item);
     return await update(itemExtended);
 }
 
 function update(itemExtended) {
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(assistsDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
-            var results = [];
+            const results = [];
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
                 if (index <= 0 || index > 20) {
@@ -56,7 +56,7 @@ function update(itemExtended) {
                 return;
             }
 
-            for (var i = 0; i < results.length; i++) {
+            for (let i = 0; i < results.length; i++) {
                 helper.manageFlagProperty(results[i]);
                 helper.manageLogoProperty(results[i]);
             }
