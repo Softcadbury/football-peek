@@ -1,6 +1,5 @@
 'use strict';
 
-const fileExists = require('file-exists');
 const jsonfile = require('jsonfile');
 const fs = require('fs');
 const request = require('request');
@@ -39,7 +38,7 @@ function stringFormat(str) {
 
 // Reads a json file and return its content
 function readJsonFile(path) {
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return [];
     }
 
@@ -115,7 +114,7 @@ function manageLogoProperty(item) {
 
 // Download an image in a path
 function downloadImage(src, path) {
-    if (!fileExists.sync(path) && !path.endsWith('/.gif')) {
+    if (!fs.existsSync(path) && !path.endsWith('/.gif')) {
         request.head(src, err => {
             if (err) {
                 log('Error while downloading image: ' + path + ' -> ' + err);

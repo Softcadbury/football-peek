@@ -2,7 +2,6 @@
 'use strict';
 
 const assert = require('chai').assert;
-const fileExists = require('file-exists');
 const fs = require('fs');
 const config = require('../server/config');
 const helper = require('../server/helper');
@@ -36,7 +35,7 @@ describe('Images intergrity', () => {
 function testTournamentData(code, period) {
     const path = helper.stringFormat(config.paths.tournamentData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
@@ -66,7 +65,7 @@ function testTournamentData(code, period) {
 function testGroupsData(code, period) {
     const path = helper.stringFormat(config.paths.groupsData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
@@ -81,7 +80,7 @@ function testGroupsData(code, period) {
 function testTableData(code, period) {
     const path = helper.stringFormat(config.paths.tableData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
@@ -93,7 +92,7 @@ function testTableData(code, period) {
 function testResultData(code, period) {
     const path = helper.stringFormat(config.paths.resultsData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
@@ -105,7 +104,7 @@ function testResultData(code, period) {
 function testScorersData(code, period) {
     const path = helper.stringFormat(config.paths.scorersData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
@@ -117,7 +116,7 @@ function testScorersData(code, period) {
 function testAssistsData(code, period) {
     const path = helper.stringFormat(config.paths.assistsData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
