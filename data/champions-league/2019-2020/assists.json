@@ -72,7 +72,16 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Hakim Ziyech",
+        "country": "Morocco",
+        "team": "AFC Ajax",
+        "assists": "3",
+        "flag": "morocco",
+        "logo": "afc_ajax"
+    },
+    {
+        "rank": "10.",
         "name": " Alan Patrick",
         "country": "Brazil",
         "team": "Shakhtar Donetsk",
@@ -82,12 +91,39 @@
     },
     {
         "rank": "-",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "assists": "2",
         "flag": "germany",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Léo Dubois",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "assists": "2",
+        "flag": "france",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Gonzalo Higuaín",
+        "country": "Argentina",
+        "team": "Juventus",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -109,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Toni Kroos",
+        "country": "Germany",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Érik Lamela",
         "country": "Argentina",
         "team": "Tottenham Hotspur",
@@ -118,65 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Marcelo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Marko Marin",
         "country": "Germany",
         "team": "Crvena Zvezda",
         "assists": "2",
         "flag": "germany",
         "logo": "crvena_zvezda"
-    },
-    {
-        "rank": "-",
-        "name": "Dieumerci Ndongala",
-        "country": "Congo DR",
-        "team": "KRC Genk",
-        "assists": "2",
-        "flag": "congo_dr",
-        "logo": "krc_genk"
-    },
-    {
-        "rank": "-",
-        "name": "Magomed Ozdoev",
-        "country": "Russia",
-        "team": "Zenit St. Petersburg",
-        "assists": "2",
-        "flag": "russia",
-        "logo": "zenit_st__petersburg"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "assists": "2",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Dušan Tadić",
-        "country": "Serbia",
-        "team": "AFC Ajax",
-        "assists": "2",
-        "flag": "serbia",
-        "logo": "afc_ajax"
-    },
-    {
-        "rank": "-",
-        "name": " Thiago",
-        "country": "Spain",
-        "team": "Bayern München",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Corentin Tolisso",
-        "country": "France",
-        "team": "Bayern München",
-        "assists": "2",
-        "flag": "france",
-        "logo": "bayern_munchen"
     }
 ]

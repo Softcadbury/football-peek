@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "9",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "2.",
         "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
@@ -9,25 +18,43 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "2.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "7",
-        "flag": "france",
-        "logo": "real_madrid"
-    },
-    {
         "rank": "-",
         "name": " Loren",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "7",
+        "goals": "8",
         "flag": "spain",
         "logo": "real_betis"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "8",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "5.",
+        "name": " Lucas Pérez",
+        "country": "Spain",
+        "team": "CD Alavés",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "cd_alaves"
+    },
+    {
+        "rank": "6.",
+        "name": " Parejo",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
@@ -36,7 +63,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "5.",
+        "rank": "8.",
         "name": " Ángel",
         "country": "Spain",
         "team": "Getafe CF",
@@ -46,21 +73,39 @@
     },
     {
         "rank": "-",
-        "name": " Lucas Pérez",
-        "country": "Spain",
-        "team": "CD Alavés",
+        "name": "Maximiliano Gómez",
+        "country": "Uruguay",
+        "team": "Valencia CF",
         "goals": "5",
-        "flag": "spain",
-        "logo": "cd_alaves"
+        "flag": "uruguay",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
-        "name": " Parejo",
+        "name": " Morata",
         "country": "Spain",
-        "team": "Valencia CF",
+        "team": "Atlético Madrid",
         "goals": "5",
         "flag": "spain",
-        "logo": "valencia_cf"
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Lucas Ocampos",
+        "country": "Argentina",
+        "team": "Sevilla FC",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Santi Cazorla",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -81,22 +126,22 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "10.",
-        "name": "Maximiliano Gómez",
-        "country": "Uruguay",
-        "team": "Valencia CF",
-        "goals": "4",
-        "flag": "uruguay",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
+        "rank": "15.",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "FC Barcelona",
         "goals": "4",
         "flag": "france",
         "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Joselu",
+        "country": "Spain",
+        "team": "CD Alavés",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "cd_alaves"
     },
     {
         "rank": "-",
@@ -109,15 +154,6 @@
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
         "name": " Mikel Oyarzabal",
         "country": "Spain",
         "team": "Real Sociedad",
@@ -127,12 +163,12 @@
     },
     {
         "rank": "-",
-        "name": "Lucas Ocampos",
-        "country": "Argentina",
-        "team": "Sevilla FC",
+        "name": " Muniain",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
         "goals": "4",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
+        "flag": "spain",
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "4",
         "flag": "chile",
         "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Puertas",
-        "country": "Spain",
-        "team": "Granada CF",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Raúl García",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Santi Cazorla",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "20.",
-        "name": "Martin Braithwaite",
-        "country": "Denmark",
-        "team": "CD Leganés",
-        "goals": "3",
-        "flag": "denmark",
-        "logo": "cd_leganes"
     }
 ]

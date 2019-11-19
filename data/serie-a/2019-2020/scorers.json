@@ -4,12 +4,21 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "12",
+        "goals": "14",
         "flag": "italy",
         "logo": "lazio_roma"
     },
     {
         "rank": "2.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Inter",
+        "goals": "9",
+        "flag": "belgium",
+        "logo": "inter"
+    },
+    {
+        "rank": "3.",
         "name": "Luis Muriel",
         "country": "Colombia",
         "team": "Atalanta",
@@ -18,22 +27,40 @@
         "logo": "atalanta"
     },
     {
-        "rank": "3.",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Inter",
+        "rank": "4.",
+        "name": "Andrea Belotti",
+        "country": "Italy",
+        "team": "Torino FC",
         "goals": "7",
-        "flag": "belgium",
-        "logo": "inter"
+        "flag": "italy",
+        "logo": "torino_fc"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Domenico Berardi",
         "country": "Italy",
         "team": "Sassuolo Calcio",
-        "goals": "6",
+        "goals": "7",
         "flag": "italy",
         "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "6.",
+        "name": "Joaquín Correa",
+        "country": "Argentina",
+        "team": "Lazio Roma",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": " João Pedro",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -45,13 +72,22 @@
         "logo": "atalanta"
     },
     {
-        "rank": "6.",
-        "name": "Andrea Belotti",
+        "rank": "9.",
+        "name": "Francesco Caputo",
         "country": "Italy",
-        "team": "Torino FC",
+        "team": "Sassuolo Calcio",
         "goals": "5",
         "flag": "italy",
-        "logo": "torino_fc"
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Andreas Cornelius",
+        "country": "Denmark",
+        "team": "Parma Calcio 1913",
+        "goals": "5",
+        "flag": "denmark",
+        "logo": "parma_calcio_1913"
     },
     {
         "rank": "-",
@@ -70,15 +106,6 @@
         "goals": "5",
         "flag": "bosnia_herzegovina",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": " João Pedro",
-        "country": "Brazil",
-        "team": "Cagliari Calcio",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -108,16 +135,16 @@
         "logo": "inter"
     },
     {
-        "rank": "13.",
-        "name": "Andreas Cornelius",
-        "country": "Denmark",
-        "team": "Parma Calcio 1913",
-        "goals": "4",
-        "flag": "denmark",
-        "logo": "parma_calcio_1913"
+        "rank": "-",
+        "name": "Arkadiusz Milik",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "5",
+        "flag": "poland",
+        "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
+        "rank": "17.",
         "name": "Alfredo Donnarumma",
         "country": "Italy",
         "team": "Brescia Calcio",
@@ -151,32 +178,5 @@
         "goals": "4",
         "flag": "serbia",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "4",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "goals": "4",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "20.",
-        "name": "Francesco Caputo",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
     }
 ]

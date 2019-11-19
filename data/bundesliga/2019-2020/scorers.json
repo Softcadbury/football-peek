@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "13",
+        "goals": "16",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,27 +13,54 @@
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "goals": "6",
+        "goals": "11",
         "flag": "germany",
         "logo": "rb_leipzig"
     },
     {
         "rank": "3.",
+        "name": "Rouwen Hennings",
+        "country": "Germany",
+        "team": "Fortuna Düsseldorf",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "fortuna_dusseldorf"
+    },
+    {
+        "rank": "4.",
         "name": " Gonçalo Paciência",
         "country": "Portugal",
         "team": "Eintracht Frankfurt",
-        "goals": "5",
+        "goals": "6",
         "flag": "portugal",
         "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
-        "name": "Rouwen Hennings",
+        "name": "Nils Petersen",
         "country": "Germany",
-        "team": "Fortuna Düsseldorf",
-        "goals": "5",
+        "team": "SC Freiburg",
+        "goals": "6",
         "flag": "germany",
-        "logo": "fortuna_dusseldorf"
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "6.",
+        "name": "Sebastian Andersson",
+        "country": "Sweden",
+        "team": "1. FC Union Berlin",
+        "goals": "5",
+        "flag": "sweden",
+        "logo": "1__fc_union_berlin"
+    },
+    {
+        "rank": "-",
+        "name": "Amine Harit",
+        "country": "Morocco",
+        "team": "FC Schalke 04",
+        "goals": "5",
+        "flag": "morocco",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -55,6 +82,24 @@
     },
     {
         "rank": "-",
+        "name": "Marcus Thuram",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "goals": "5",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "goals": "5",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
         "name": "Wout Weghorst",
         "country": "Netherlands",
         "team": "VfL Wolfsburg",
@@ -63,13 +108,13 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "8.",
-        "name": "Amine Harit",
-        "country": "Morocco",
-        "team": "FC Schalke 04",
+        "rank": "13.",
+        "name": "Patrick Herrmann",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
         "goals": "4",
-        "flag": "morocco",
-        "logo": "fc_schalke_04"
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -100,21 +145,30 @@
     },
     {
         "rank": "-",
-        "name": "Marcus Thuram",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
+        "name": "Milot Rashica",
+        "country": "Kosovo",
+        "team": "Werder Bremen",
         "goals": "4",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
+        "flag": "kosovo",
+        "logo": "werder_bremen"
     },
     {
         "rank": "-",
-        "name": "Kevin Volland",
+        "name": "Marcel Sabitzer",
+        "country": "Austria",
+        "team": "RB Leipzig",
+        "goals": "4",
+        "flag": "austria",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Suat Serdar",
         "country": "Germany",
-        "team": "Bayer Leverkusen",
+        "team": "FC Schalke 04",
         "goals": "4",
         "flag": "germany",
-        "logo": "bayer_leverkusen"
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -124,59 +178,5 @@
         "goals": "4",
         "flag": "germany",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "15.",
-        "name": "Sebastian Andersson",
-        "country": "Sweden",
-        "team": "1. FC Union Berlin",
-        "goals": "3",
-        "flag": "sweden",
-        "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "Eintracht Frankfurt",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Marius Bülter",
-        "country": "Germany",
-        "team": "1. FC Union Berlin",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
-        "name": "Javairô Dilrosun",
-        "country": "Netherlands",
-        "team": "Hertha BSC",
-        "goals": "3",
-        "flag": "netherlands",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Bas Dost",
-        "country": "Netherlands",
-        "team": "Eintracht Frankfurt",
-        "goals": "3",
-        "flag": "netherlands",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Breel Embolo",
-        "country": "Switzerland",
-        "team": "Bor. Mönchengladbach",
-        "goals": "3",
-        "flag": "switzerland",
-        "logo": "bor__monchengladbach"
     }
 ]

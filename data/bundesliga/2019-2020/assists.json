@@ -4,9 +4,36 @@
         "name": "Thorgan Hazard",
         "country": "Belgium",
         "team": "Borussia Dortmund",
-        "assists": "5",
+        "assists": "6",
         "flag": "belgium",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "3.",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "5",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Yussuf Poulsen",
+        "country": "Denmark",
+        "team": "RB Leipzig",
+        "assists": "5",
+        "flag": "denmark",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -18,7 +45,16 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "3.",
+        "rank": "6.",
+        "name": "László Bénes",
+        "country": "Slovakia",
+        "team": "Bor. Mönchengladbach",
+        "assists": "4",
+        "flag": "slovakia",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
         "name": " Coutinho",
         "country": "Brazil",
         "team": "Bayern München",
@@ -37,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": "Christian Günter",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
         "name": "Davy Klaassen",
         "country": "Netherlands",
         "team": "Werder Bremen",
@@ -46,12 +91,12 @@
     },
     {
         "rank": "-",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
+        "name": "Christopher Nkunku",
+        "country": "France",
+        "team": "RB Leipzig",
         "assists": "4",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "france",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -63,22 +108,58 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "8.",
-        "name": "László Bénes",
-        "country": "Slovakia",
+        "rank": "-",
+        "name": "Erik Thommy",
+        "country": "Germany",
+        "team": "Fortuna Düsseldorf",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "fortuna_dusseldorf"
+    },
+    {
+        "rank": "-",
+        "name": "Marcus Thuram",
+        "country": "France",
         "team": "Bor. Mönchengladbach",
-        "assists": "3",
-        "flag": "slovakia",
+        "assists": "4",
+        "flag": "france",
         "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Timo Werner",
+        "country": "Germany",
+        "team": "RB Leipzig",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "17.",
         "name": "Josip Brekalo",
         "country": "Croatia",
         "team": "VfL Wolfsburg",
         "assists": "3",
         "flag": "croatia",
         "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Danny da Costa",
+        "country": "Germany",
+        "team": "Eintracht Frankfurt",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -96,87 +177,6 @@
         "team": "1899 Hoffenheim",
         "assists": "3",
         "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Amine Harit",
-        "country": "Morocco",
-        "team": "FC Schalke 04",
-        "assists": "3",
-        "flag": "morocco",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Höler",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "3",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Yussuf Poulsen",
-        "country": "Denmark",
-        "team": "RB Leipzig",
-        "assists": "3",
-        "flag": "denmark",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "assists": "3",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Nuri Şahin",
-        "country": "Turkey",
-        "team": "Werder Bremen",
-        "assists": "3",
-        "flag": "turkey",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Robert Skov",
-        "country": "Denmark",
-        "team": "1899 Hoffenheim",
-        "assists": "3",
-        "flag": "denmark",
         "logo": "1899_hoffenheim"
     }
 ]

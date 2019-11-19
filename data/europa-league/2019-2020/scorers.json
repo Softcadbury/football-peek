@@ -1,6 +1,33 @@
 [
     {
         "rank": "1.",
+        "name": " Munir",
+        "country": "Spain",
+        "team": "Sevilla FC",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "2.",
+        "name": "Myron Boadu",
+        "country": "Netherlands",
+        "team": "AZ Alkmaar",
+        "goals": "4",
+        "flag": "netherlands",
+        "logo": "az_alkmaar"
+    },
+    {
+        "rank": "-",
+        "name": "Danel Sinani",
+        "country": "Luxembourg",
+        "team": "F91 Dudelange",
+        "goals": "4",
+        "flag": "luxembourg",
+        "logo": "f91_dudelange"
+    },
+    {
+        "rank": "-",
         "name": "Andraž Šporar",
         "country": "Slovenia",
         "team": "Slovan Bratislava",
@@ -9,13 +36,31 @@
         "logo": "slovan_bratislava"
     },
     {
-        "rank": "2.",
+        "rank": "5.",
         "name": " Ángel",
         "country": "Spain",
         "team": "Getafe CF",
         "goals": "3",
         "flag": "spain",
         "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Sporting CP",
+        "goals": "3",
+        "flag": "portugal",
+        "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
+        "name": " Campuzano",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -45,7 +90,25 @@
         "logo": "psv_eindhoven"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Alfredo Morelos",
+        "country": "Colombia",
+        "team": "Rangers FC",
+        "goals": "3",
+        "flag": "colombia",
+        "logo": "rangers_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Roman Yaremchuk",
+        "country": "Ukraine",
+        "team": "KAA Gent",
+        "goals": "3",
+        "flag": "ukraine",
+        "logo": "kaa_gent"
+    },
+    {
+        "rank": "13.",
         "name": "Roger Assalé",
         "country": "Ivory Coast",
         "team": "BSC Young Boys",
@@ -64,21 +127,12 @@
     },
     {
         "rank": "-",
-        "name": "Myron Boadu",
-        "country": "Netherlands",
-        "team": "AZ Alkmaar",
+        "name": " Bruno Duarte",
+        "country": "Brazil",
+        "team": "Vitória Guimarães",
         "goals": "2",
-        "flag": "netherlands",
-        "logo": "az_alkmaar"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Sporting CP",
-        "goals": "2",
-        "flag": "portugal",
-        "logo": "sporting_cp"
+        "flag": "brazil",
+        "logo": "vitoria_guimaraes"
     },
     {
         "rank": "-",
@@ -91,15 +145,6 @@
     },
     {
         "rank": "-",
-        "name": " Campuzano",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
         "name": "Ryan Christie",
         "country": "Scotland",
         "team": "Celtic FC",
@@ -109,74 +154,29 @@
     },
     {
         "rank": "-",
+        "name": "Enzo Crivelli",
+        "country": "France",
+        "team": "İstanbul Başakşehir F.K.",
+        "goals": "2",
+        "flag": "france",
+        "logo": "i_stanbul_ba_ak_ehir_f_k_"
+    },
+    {
+        "rank": "-",
+        "name": "Munas Dabbur",
+        "country": "Israel",
+        "team": "Sevilla FC",
+        "goals": "2",
+        "flag": "israel",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "-",
         "name": " Dani Quintana",
         "country": "Spain",
         "team": "Qarabağ FK",
         "goals": "2",
         "flag": "spain",
         "logo": "qaraba__fk"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan David",
-        "country": "Canada",
-        "team": "KAA Gent",
-        "goals": "2",
-        "flag": "canada",
-        "logo": "kaa_gent"
-    },
-    {
-        "rank": "-",
-        "name": "Ciprian Deac",
-        "country": "Romania",
-        "team": "CFR Cluj",
-        "goals": "2",
-        "flag": "romania",
-        "logo": "cfr_cluj"
-    },
-    {
-        "rank": "-",
-        "name": "Javier Hernández",
-        "country": "Mexico",
-        "team": "Sevilla FC",
-        "goals": "2",
-        "flag": "mexico",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Teun Koopmeiners",
-        "country": "Netherlands",
-        "team": "AZ Alkmaar",
-        "goals": "2",
-        "flag": "netherlands",
-        "logo": "az_alkmaar"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Leitgeb",
-        "country": "Austria",
-        "team": "Wolfsberger AC",
-        "goals": "2",
-        "flag": "austria",
-        "logo": "wolfsberger_ac"
-    },
-    {
-        "rank": "-",
-        "name": "Jody Lukoki",
-        "country": "Congo DR",
-        "team": "PFC Ludogorets Razgrad",
-        "goals": "2",
-        "flag": "congo_dr",
-        "logo": "pfc_ludogorets_razgrad"
-    },
-    {
-        "rank": "-",
-        "name": "Alfredo Morelos",
-        "country": "Colombia",
-        "team": "Rangers FC",
-        "goals": "2",
-        "flag": "colombia",
-        "logo": "rangers_fc"
     }
 ]
