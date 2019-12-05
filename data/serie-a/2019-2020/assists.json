@@ -4,18 +4,36 @@
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
-        "assists": "8",
+        "assists": "9",
         "flag": "spain",
         "logo": "lazio_roma"
     },
     {
         "rank": "2.",
+        "name": "Lorenzo Pellegrini",
+        "country": "Italy",
+        "team": "AS Roma",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "3.",
         "name": "Alfred Duncan",
         "country": "Ghana",
         "team": "Sassuolo Calcio",
         "assists": "5",
         "flag": "ghana",
         "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Paolo Ghiglione",
+        "country": "Italy",
+        "team": "Genoa CFC",
+        "assists": "5",
+        "flag": "italy",
+        "logo": "genoa_cfc"
     },
     {
         "rank": "-",
@@ -45,13 +63,31 @@
         "logo": "parma_calcio_1913"
     },
     {
-        "rank": "6.",
-        "name": "Paolo Ghiglione",
+        "rank": "-",
+        "name": "Radja Nainggolan",
+        "country": "Belgium",
+        "team": "Cagliari Calcio",
+        "assists": "5",
+        "flag": "belgium",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "9.",
+        "name": "Francesco Caputo",
         "country": "Italy",
-        "team": "Genoa CFC",
+        "team": "Sassuolo Calcio",
         "assists": "4",
         "flag": "italy",
-        "logo": "genoa_cfc"
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Luca Cigarini",
+        "country": "Italy",
+        "team": "Cagliari Calcio",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "cagliari_calcio"
     },
     {
         "rank": "-",
@@ -73,39 +109,39 @@
     },
     {
         "rank": "-",
-        "name": "Radja Nainggolan",
-        "country": "Belgium",
-        "team": "Cagliari Calcio",
+        "name": "Sergej Milinković-Savić",
+        "country": "Serbia",
+        "team": "Lazio Roma",
         "assists": "4",
-        "flag": "belgium",
-        "logo": "cagliari_calcio"
+        "flag": "serbia",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
-        "name": "Lorenzo Pellegrini",
+        "name": "Riccardo Orsolini",
         "country": "Italy",
-        "team": "AS Roma",
+        "team": "Bologna FC",
         "assists": "4",
         "flag": "italy",
-        "logo": "as_roma"
+        "logo": "bologna_fc"
     },
     {
-        "rank": "11.",
-        "name": "Francesco Caputo",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
+        "rank": "15.",
+        "name": "Rodrigo Bentancur",
+        "country": "Uruguay",
+        "team": "Juventus",
         "assists": "3",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
+        "flag": "uruguay",
+        "logo": "juventus"
     },
     {
         "rank": "-",
-        "name": "Luca Cigarini",
-        "country": "Italy",
-        "team": "Cagliari Calcio",
+        "name": "Marcelo Brozović",
+        "country": "Croatia",
+        "team": "Inter",
         "assists": "3",
-        "flag": "italy",
-        "logo": "cagliari_calcio"
+        "flag": "croatia",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "assists": "3",
         "flag": "ivory_coast",
         "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": "Sergej Milinković-Savić",
-        "country": "Serbia",
-        "team": "Lazio Roma",
-        "assists": "3",
-        "flag": "serbia",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Riccardo Orsolini",
-        "country": "Italy",
-        "team": "Bologna FC",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Rômulo",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Stefano Sensi",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "inter"
     }
 ]

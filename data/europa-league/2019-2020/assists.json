@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Galeno",
+        "country": "Brazil",
+        "team": "Sporting Braga",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "sporting_braga"
+    },
+    {
+        "rank": "-",
         "name": "Vadis Odjidja-Ofoe",
         "country": "Belgium",
         "team": "KAA Gent",
@@ -9,22 +18,40 @@
         "logo": "kaa_gent"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
+        "name": "Borna Barišić",
+        "country": "Croatia",
+        "team": "Rangers FC",
+        "assists": "3",
+        "flag": "croatia",
+        "logo": "rangers_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Jo Inge Berget",
+        "country": "Norway",
+        "team": "Malmö FF",
+        "assists": "3",
+        "flag": "norway",
+        "logo": "malmo_ff"
+    },
+    {
+        "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Sporting CP",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
         "name": " Dani Quintana",
         "country": "Spain",
         "team": "Qarabağ FK",
         "assists": "3",
         "flag": "spain",
         "logo": "qaraba__fk"
-    },
-    {
-        "rank": "-",
-        "name": " Galeno",
-        "country": "Brazil",
-        "team": "Sporting Braga",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "sporting_braga"
     },
     {
         "rank": "-",
@@ -37,6 +64,15 @@
     },
     {
         "rank": "-",
+        "name": "Sam Larsson",
+        "country": "Sweden",
+        "team": "Feyenoord",
+        "assists": "3",
+        "flag": "sweden",
+        "logo": "feyenoord"
+    },
+    {
+        "rank": "-",
         "name": "Anton Nedyalkov",
         "country": "Bulgaria",
         "team": "PFC Ludogorets Razgrad",
@@ -45,7 +81,43 @@
         "logo": "pfc_ludogorets_razgrad"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": " Nuno Sequeira",
+        "country": "Portugal",
+        "team": "Sporting Braga",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "sporting_braga"
+    },
+    {
+        "rank": "-",
+        "name": "Reinhold Ranftl",
+        "country": "Austria",
+        "team": "LASK",
+        "assists": "3",
+        "flag": "austria",
+        "logo": "lask"
+    },
+    {
+        "rank": "-",
+        "name": "Viktor Tsygankov",
+        "country": "Ukraine",
+        "team": "Dinamo Kiev",
+        "assists": "3",
+        "flag": "ukraine",
+        "logo": "dinamo_kiev"
+    },
+    {
+        "rank": "-",
+        "name": " Wanderson",
+        "country": "Brazil",
+        "team": "PFC Ludogorets Razgrad",
+        "assists": "3",
+        "flag": "brazil",
+        "logo": "pfc_ludogorets_razgrad"
+    },
+    {
+        "rank": "14.",
         "name": "Maximilian Arnold",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -61,15 +133,6 @@
         "assists": "2",
         "flag": "ivory_coast",
         "logo": "bsc_young_boys"
-    },
-    {
-        "rank": "-",
-        "name": "Borna Barišić",
-        "country": "Croatia",
-        "team": "Rangers FC",
-        "assists": "2",
-        "flag": "croatia",
-        "logo": "rangers_fc"
     },
     {
         "rank": "-",
@@ -109,74 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Munas Dabbur",
-        "country": "Israel",
-        "team": "Sevilla FC",
+        "name": "Vitaliy Buyalskiy",
+        "country": "Ukraine",
+        "team": "Dinamo Kiev",
         "assists": "2",
-        "flag": "israel",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Dani de Wit",
-        "country": "Netherlands",
-        "team": "AZ Alkmaar",
-        "assists": "2",
-        "flag": "netherlands",
-        "logo": "az_alkmaar"
-    },
-    {
-        "rank": "-",
-        "name": "Ritsu Doan",
-        "country": "Japan",
-        "team": "PSV Eindhoven",
-        "assists": "2",
-        "flag": "japan",
-        "logo": "psv_eindhoven"
-    },
-    {
-        "rank": "-",
-        "name": "Odsonne Édouard",
-        "country": "France",
-        "team": "Celtic FC",
-        "assists": "2",
-        "flag": "france",
-        "logo": "celtic_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Granero",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Romain Hamouma",
-        "country": "France",
-        "team": "AS Saint-Étienne",
-        "assists": "2",
-        "flag": "france",
-        "logo": "as_saint_etienne"
-    },
-    {
-        "rank": "-",
-        "name": "Daichi Kamada",
-        "country": "Japan",
-        "team": "Eintracht Frankfurt",
-        "assists": "2",
-        "flag": "japan",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Liendl",
-        "country": "Austria",
-        "team": "Wolfsberger AC",
-        "assists": "2",
-        "flag": "austria",
-        "logo": "wolfsberger_ac"
+        "flag": "ukraine",
+        "logo": "dinamo_kiev"
     }
 ]
