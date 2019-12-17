@@ -2,8 +2,8 @@
 
 const tablesUpdater = require('./tablesUpdater');
 const resultsUpdater = require('./resultsUpdater');
-// var tournamentsUpdater = require('./tournamentsUpdater');
-const groupsUpdater = require('./groupsUpdater');
+var tournamentsUpdater = require('./tournamentsUpdater');
+// const groupsUpdater = require('./groupsUpdater');
 const scorersUpdater = require('./scorersUpdater');
 const assistsUpdater = require('./assistsUpdater');
 
@@ -17,8 +17,8 @@ async function updateLeague(item) {
 
 // Updates competition data
 async function updateCompetition(item) {
-    // await tournamentsUpdater.update(item); Not started yet
-    await groupsUpdater.update(item);
+    await tournamentsUpdater.update(item);
+    // await groupsUpdater.update(item); This phase is over
     await scorersUpdater.updateCompetitions(item);
     await assistsUpdater.updateCompetitions(item);
 }

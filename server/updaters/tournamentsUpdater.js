@@ -80,7 +80,7 @@ function parseFinalPhase($, elem, currentMatches, index) {
     const team2 = $(elem).find('td:nth-child(5) > a').text();
     const score = parseScore($(elem).find('td:nth-child(6) > a').text());
     const finalScore = score.split(' ').length === 1 ? score : score.split(' ')[1].replace('(', '').replace(')', '');
-    const winner = '';
+    let winner = '';
 
     if (finalScore !== '-:-') {
         winner = finalScore.split(':')[0] > finalScore.split(':')[1] ? team1 : team2;
@@ -140,7 +140,7 @@ function parseScore(score, hasToReverseScore) {
         .trim()
         .split(' ');
 
-    const newScorePart1 = scores[0];
+    let newScorePart1 = scores[0];
 
     if (hasToReverseScore) {
         newScorePart1 = newScorePart1.split(':')[1] + ':' + newScorePart1.split(':')[0];
@@ -150,7 +150,7 @@ function parseScore(score, hasToReverseScore) {
         return newScorePart1;
     }
 
-    const newScorePart2 = scores[3];
+    let newScorePart2 = scores[3];
 
     if (hasToReverseScore) {
         newScorePart2 = newScorePart2.split(':')[1] + ':' + newScorePart2.split(':')[0];

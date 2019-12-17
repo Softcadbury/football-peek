@@ -26,13 +26,16 @@ document.onkeydown = function (e) {
 };
 
 const allTime = document.getElementsByClassName('time');
+const currentOffset = new Date().getTimezoneOffset() / 60;
+
+const isSummerTime = false;
+const offsetSummerTime = isSummerTime ? 1 : 0;
 
 for (let i = 0; i < allTime.length; i++) {
     const time = allTime[i].dataset.time;
     const hour = time.split(':')[0];
     const minute = time.split(':')[1];
-    const offset = new Date().getTimezoneOffset() / 60;
-    const newTime = ((hour - offset - 1) % 24) + ':' + minute;
+    const newTime = (hour - currentOffset - offsetSummerTime) + ':' + minute;
 
     allTime[i].innerHTML = newTime;
 }
