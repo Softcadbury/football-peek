@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": " João Pedro",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
+        "goals": "10",
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Inter",
@@ -18,16 +27,34 @@
         "logo": "inter"
     },
     {
-        "rank": "3.",
-        "name": " João Pedro",
-        "country": "Brazil",
-        "team": "Cagliari Calcio",
+        "rank": "4.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
         "goals": "9",
-        "flag": "brazil",
-        "logo": "cagliari_calcio"
+        "flag": "portugal",
+        "logo": "juventus"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Luis Muriel",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "goals": "9",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "6.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "8",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Lautaro Martínez",
         "country": "Argentina",
         "team": "Inter",
@@ -36,31 +63,13 @@
         "logo": "inter"
     },
     {
-        "rank": "-",
-        "name": "Luis Muriel",
-        "country": "Colombia",
-        "team": "Atalanta",
-        "goals": "8",
-        "flag": "colombia",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "6.",
+        "rank": "8.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
         "goals": "7",
         "flag": "italy",
         "logo": "torino_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "7",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
@@ -72,22 +81,13 @@
         "logo": "sassuolo_calcio"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Joaquín Correa",
         "country": "Argentina",
         "team": "Lazio Roma",
         "goals": "6",
         "flag": "argentina",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Juventus",
-        "goals": "6",
-        "flag": "portugal",
-        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -100,6 +100,15 @@
     },
     {
         "rank": "-",
+        "name": "Arkadiusz Milik",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "goals": "6",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": "Duván Zapata",
         "country": "Colombia",
         "team": "Atalanta",
@@ -108,7 +117,7 @@
         "logo": "atalanta"
     },
     {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Andreas Cornelius",
         "country": "Denmark",
         "team": "Parma Calcio 1913",
@@ -145,38 +154,29 @@
     },
     {
         "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "goals": "5",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "18.",
-        "name": "Jérémie Boga",
-        "country": "Ivory Coast",
-        "team": "Sassuolo Calcio",
-        "goals": "4",
-        "flag": "ivory_coast",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Alfredo Donnarumma",
-        "country": "Italy",
-        "team": "Brescia Calcio",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "brescia_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Paulo Dybala",
+        "name": "Rodrigo Palacio",
         "country": "Argentina",
-        "team": "Juventus",
-        "goals": "4",
+        "team": "Bologna FC",
+        "goals": "5",
         "flag": "argentina",
-        "logo": "juventus"
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Andrea Petagna",
+        "country": "Italy",
+        "team": "SPAL 2013 Ferrara",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "spal_2013_ferrara"
+    },
+    {
+        "rank": "-",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "Cagliari Calcio",
+        "goals": "5",
+        "flag": "argentina",
+        "logo": "cagliari_calcio"
     }
 ]

@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "16",
+        "goals": "18",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,7 +13,7 @@
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "goals": "13",
+        "goals": "16",
         "flag": "germany",
         "logo": "rb_leipzig"
     },
@@ -28,6 +28,51 @@
     },
     {
         "rank": "4.",
+        "name": "Marco Reus",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "5.",
+        "name": "Sebastian Andersson",
+        "country": "Sweden",
+        "team": "1. FC Union Berlin",
+        "goals": "8",
+        "flag": "sweden",
+        "logo": "1__fc_union_berlin"
+    },
+    {
+        "rank": "-",
+        "name": "Jadon Sancho",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "goals": "8",
+        "flag": "england",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "7.",
+        "name": "Florian Niederlechner",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Milot Rashica",
+        "country": "Kosovo",
+        "team": "Werder Bremen",
+        "goals": "7",
+        "flag": "kosovo",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "-",
         "name": "Wout Weghorst",
         "country": "Netherlands",
         "team": "VfL Wolfsburg",
@@ -36,13 +81,22 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "5.",
-        "name": "Sebastian Andersson",
-        "country": "Sweden",
-        "team": "1. FC Union Berlin",
+        "rank": "10.",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Bayern München",
         "goals": "6",
-        "flag": "sweden",
-        "logo": "1__fc_union_berlin"
+        "flag": "brazil",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Breel Embolo",
+        "country": "Switzerland",
+        "team": "Bor. Mönchengladbach",
+        "goals": "6",
+        "flag": "switzerland",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -64,15 +118,6 @@
     },
     {
         "rank": "-",
-        "name": "Florian Niederlechner",
-        "country": "Germany",
-        "team": "FC Augsburg",
-        "goals": "6",
-        "flag": "germany",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
         "name": "Nils Petersen",
         "country": "Germany",
         "team": "SC Freiburg",
@@ -82,21 +127,12 @@
     },
     {
         "rank": "-",
-        "name": "Milot Rashica",
-        "country": "Kosovo",
-        "team": "Werder Bremen",
+        "name": "Marcel Sabitzer",
+        "country": "Austria",
+        "team": "RB Leipzig",
         "goals": "6",
-        "flag": "kosovo",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Reus",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "goals": "6",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
+        "flag": "austria",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -108,22 +144,22 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "13.",
-        "name": "Breel Embolo",
-        "country": "Switzerland",
-        "team": "Bor. Mönchengladbach",
-        "goals": "5",
-        "flag": "switzerland",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
+        "rank": "17.",
         "name": "Patrick Herrmann",
         "country": "Germany",
         "team": "Bor. Mönchengladbach",
         "goals": "5",
         "flag": "germany",
         "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Martin Hinteregger",
+        "country": "Austria",
+        "team": "Eintracht Frankfurt",
+        "goals": "5",
+        "flag": "austria",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "goals": "5",
         "flag": "spain",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "goals": "5",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Jadon Sancho",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "goals": "5",
-        "flag": "england",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Suat Serdar",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "goals": "5",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
     }
 ]

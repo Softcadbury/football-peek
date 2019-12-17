@@ -4,7 +4,7 @@
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "14",
+        "goals": "16",
         "flag": "england",
         "logo": "leicester_city"
     },
@@ -18,22 +18,49 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Arsenal FC",
-        "goals": "10",
+        "goals": "11",
         "flag": "gabon",
         "logo": "arsenal_fc"
     },
     {
         "rank": "4.",
+        "name": "Marcus Rashford",
+        "country": "England",
+        "team": "Manchester United",
+        "goals": "10",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "5.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
         "goals": "9",
         "flag": "argentina",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Danny Ings",
+        "country": "England",
+        "team": "Southampton FC",
+        "goals": "9",
+        "flag": "england",
+        "logo": "southampton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "9",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -46,51 +73,60 @@
     },
     {
         "rank": "-",
-        "name": "Marcus Rashford",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "9",
-        "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "7.",
-        "name": "Danny Ings",
-        "country": "England",
-        "team": "Southampton FC",
-        "goals": "8",
-        "flag": "england",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
         "name": "Teemu Pukki",
         "country": "Finland",
         "team": "Norwich City",
-        "goals": "8",
+        "goals": "9",
         "flag": "finland",
         "logo": "norwich_city"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "9",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
-        "goals": "8",
+        "goals": "9",
         "flag": "england",
         "logo": "manchester_city"
     },
     {
-        "rank": "10.",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
+        "rank": "12.",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
         "goals": "7",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
+        "flag": "belgium",
+        "logo": "manchester_city"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Neal Maupay",
+        "country": "Argentina",
+        "team": "Brighton & Hove Albion",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
+        "name": "Chris Wood",
+        "country": "New Zealand",
+        "team": "Burnley FC",
+        "goals": "7",
+        "flag": "new_zealand",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "15.",
         "name": "Ashley Barnes",
         "country": "England",
         "team": "Burnley FC",
@@ -109,12 +145,12 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
+        "name": " Richarlison",
+        "country": "Brazil",
+        "team": "Everton FC",
         "goals": "6",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
+        "flag": "brazil",
+        "logo": "everton_fc"
     },
     {
         "rank": "-",
@@ -126,16 +162,7 @@
         "logo": "afc_bournemouth"
     },
     {
-        "rank": "-",
-        "name": "Chris Wood",
-        "country": "New Zealand",
-        "team": "Burnley FC",
-        "goals": "6",
-        "flag": "new_zealand",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "16.",
+        "rank": "19.",
         "name": "Dele Alli",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -151,32 +178,5 @@
         "goals": "5",
         "flag": "portugal",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
-        "goals": "5",
-        "flag": "belgium",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "5",
-        "flag": "brazil",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "James Maddison",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "5",
-        "flag": "england",
-        "logo": "leicester_city"
     }
 ]

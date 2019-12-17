@@ -4,9 +4,36 @@
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "7",
+        "assists": "9",
         "flag": "germany",
         "logo": "bayern_munchen"
+    },
+    {
+        "rank": "2.",
+        "name": "Jadon Sancho",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "assists": "8",
+        "flag": "england",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "3.",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Borussia Dortmund",
+        "assists": "7",
+        "flag": "belgium",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Florian Niederlechner",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -18,31 +45,22 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "3.",
+        "rank": "6.",
+        "name": " Coutinho",
+        "country": "Brazil",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "brazil",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Christian Günter",
         "country": "Germany",
         "team": "SC Freiburg",
         "assists": "6",
         "flag": "germany",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Thorgan Hazard",
-        "country": "Belgium",
-        "team": "Borussia Dortmund",
-        "assists": "6",
-        "flag": "belgium",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Jadon Sancho",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "assists": "6",
-        "flag": "england",
-        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -54,13 +72,58 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "7.",
+        "rank": "9.",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "5",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Achraf Hakimi",
+        "country": "Morocco",
+        "team": "Borussia Dortmund",
+        "assists": "5",
+        "flag": "morocco",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Amine Harit",
+        "country": "Morocco",
+        "team": "FC Schalke 04",
+        "assists": "5",
+        "flag": "morocco",
+        "logo": "fc_schalke_04"
+    },
+    {
+        "rank": "-",
+        "name": "Davy Klaassen",
+        "country": "Netherlands",
+        "team": "Werder Bremen",
+        "assists": "5",
+        "flag": "netherlands",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "-",
         "name": "Filip Kostić",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
         "assists": "5",
         "flag": "serbia",
         "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "assists": "5",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
@@ -73,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Marcus Thuram",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "assists": "5",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
@@ -81,22 +153,13 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "10.",
+        "rank": "18.",
         "name": "László Bénes",
         "country": "Slovakia",
         "team": "Bor. Mönchengladbach",
         "assists": "4",
         "flag": "slovakia",
         "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Bayern München",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -109,74 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Achraf Hakimi",
-        "country": "Morocco",
-        "team": "Borussia Dortmund",
-        "assists": "4",
-        "flag": "morocco",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Amine Harit",
-        "country": "Morocco",
-        "team": "FC Schalke 04",
-        "assists": "4",
-        "flag": "morocco",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
         "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
         "assists": "4",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Davy Klaassen",
-        "country": "Netherlands",
-        "team": "Werder Bremen",
-        "assists": "4",
-        "flag": "netherlands",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Dodi Lukebakio",
-        "country": "Belgium",
-        "team": "Hertha BSC",
-        "assists": "4",
-        "flag": "belgium",
-        "logo": "hertha_bsc"
-    },
-    {
-        "rank": "-",
-        "name": "Karim Onisiwo",
-        "country": "Austria",
-        "team": "1. FSV Mainz 05",
-        "assists": "4",
-        "flag": "austria",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
-        "assists": "4",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
     }
 ]

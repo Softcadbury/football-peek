@@ -4,12 +4,21 @@
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
-        "assists": "9",
+        "assists": "11",
         "flag": "spain",
         "logo": "lazio_roma"
     },
     {
         "rank": "2.",
+        "name": "Dejan Kulusevski",
+        "country": "Sweden",
+        "team": "Parma Calcio 1913",
+        "assists": "6",
+        "flag": "sweden",
+        "logo": "parma_calcio_1913"
+    },
+    {
+        "rank": "-",
         "name": "Lorenzo Pellegrini",
         "country": "Italy",
         "team": "AS Roma",
@@ -18,7 +27,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Alfred Duncan",
         "country": "Ghana",
         "team": "Sassuolo Calcio",
@@ -55,15 +64,6 @@
     },
     {
         "rank": "-",
-        "name": "Dejan Kulusevski",
-        "country": "Sweden",
-        "team": "Parma Calcio 1913",
-        "assists": "5",
-        "flag": "sweden",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
         "name": "Radja Nainggolan",
         "country": "Belgium",
         "team": "Cagliari Calcio",
@@ -73,6 +73,24 @@
     },
     {
         "rank": "9.",
+        "name": "Rodrigo Bentancur",
+        "country": "Uruguay",
+        "team": "Juventus",
+        "assists": "4",
+        "flag": "uruguay",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Marcelo Brozović",
+        "country": "Croatia",
+        "team": "Inter",
+        "assists": "4",
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Sassuolo Calcio",
@@ -88,6 +106,15 @@
         "assists": "4",
         "flag": "italy",
         "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Gonzalo Higuaín",
+        "country": "Argentina",
+        "team": "Juventus",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -126,22 +153,22 @@
         "logo": "bologna_fc"
     },
     {
-        "rank": "15.",
-        "name": "Rodrigo Bentancur",
-        "country": "Uruguay",
-        "team": "Juventus",
-        "assists": "3",
-        "flag": "uruguay",
-        "logo": "juventus"
+        "rank": "-",
+        "name": "Rafael Tolói",
+        "country": "Brazil",
+        "team": "Atalanta",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "atalanta"
     },
     {
-        "rank": "-",
-        "name": "Marcelo Brozović",
-        "country": "Croatia",
-        "team": "Inter",
+        "rank": "19.",
+        "name": "Federico Chiesa",
+        "country": "Italy",
+        "team": "ACF Fiorentina",
         "assists": "3",
-        "flag": "croatia",
-        "logo": "inter"
+        "flag": "italy",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "-",
@@ -151,32 +178,5 @@
         "assists": "3",
         "flag": "brazil",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Marten de Roon",
-        "country": "Netherlands",
-        "team": "Atalanta",
-        "assists": "3",
-        "flag": "netherlands",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Stefan de Vrij",
-        "country": "Netherlands",
-        "team": "Inter",
-        "assists": "3",
-        "flag": "netherlands",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": " Gervinho",
-        "country": "Ivory Coast",
-        "team": "Parma Calcio 1913",
-        "assists": "3",
-        "flag": "ivory_coast",
-        "logo": "parma_calcio_1913"
     }
 ]

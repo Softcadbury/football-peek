@@ -4,16 +4,25 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "assists": "5",
+        "assists": "6",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "2.",
+        "rank": "-",
+        "name": " Rodrigo",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "3.",
         "name": "Éver Banega",
         "country": "Argentina",
         "team": "Sevilla FC",
-        "assists": "4",
+        "assists": "5",
         "flag": "argentina",
         "logo": "sevilla_fc"
     },
@@ -22,9 +31,27 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "assists": "4",
+        "assists": "5",
         "flag": "france",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Víctor Díaz",
+        "country": "Spain",
+        "team": "Granada CF",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "granada_cf"
+    },
+    {
+        "rank": "6.",
+        "name": " Campaña",
+        "country": "Spain",
+        "team": "Levante UD",
+        "assists": "4",
+        "flag": "spain",
+        "logo": "levante_ud"
     },
     {
         "rank": "-",
@@ -37,12 +64,39 @@
     },
     {
         "rank": "-",
+        "name": "Ángel Correa",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "assists": "4",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Dani Carvajal",
         "country": "Spain",
         "team": "Real Madrid",
         "assists": "4",
         "flag": "spain",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Emerson",
+        "country": "Brazil",
+        "team": "Real Betis",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "FC Barcelona",
+        "assists": "4",
+        "flag": "france",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -109,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": " Rodrigo",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
         "name": " Santi Cazorla",
         "country": "Spain",
         "team": "Villarreal CF",
@@ -126,57 +171,12 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "15.",
+        "rank": "20.",
         "name": " Aleix Vidal",
         "country": "Spain",
         "team": "CD Alavés",
         "assists": "3",
         "flag": "spain",
         "logo": "cd_alaves"
-    },
-    {
-        "rank": "-",
-        "name": " Arthur",
-        "country": "Brazil",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Correa",
-        "country": "Argentina",
-        "team": "Atlético Madrid",
-        "assists": "3",
-        "flag": "argentina",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Cucurella",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Emerson",
-        "country": "Brazil",
-        "team": "Real Betis",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Febas",
-        "country": "Spain",
-        "team": "RCD Mallorca",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "rcd_mallorca"
     }
 ]
