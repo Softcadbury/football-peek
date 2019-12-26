@@ -13,9 +13,18 @@
         "name": "Dejan Kulusevski",
         "country": "Sweden",
         "team": "Parma Calcio 1913",
-        "assists": "6",
+        "assists": "7",
         "flag": "sweden",
         "logo": "parma_calcio_1913"
+    },
+    {
+        "rank": "3.",
+        "name": "Papu Gómez",
+        "country": "Argentina",
+        "team": "Atalanta",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -27,7 +36,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Alfred Duncan",
         "country": "Ghana",
         "team": "Sassuolo Calcio",
@@ -43,15 +52,6 @@
         "assists": "5",
         "flag": "italy",
         "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Papu Gómez",
-        "country": "Argentina",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -87,6 +87,15 @@
         "team": "Inter",
         "assists": "4",
         "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "4",
+        "flag": "italy",
         "logo": "inter"
     },
     {
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Jacopo Petriccione",
+        "country": "Italy",
+        "team": "US Lecce",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "us_lecce"
+    },
+    {
+        "rank": "-",
         "name": "Rafael Tolói",
         "country": "Brazil",
         "team": "Atalanta",
         "assists": "4",
         "flag": "brazil",
         "logo": "atalanta"
-    },
-    {
-        "rank": "19.",
-        "name": "Federico Chiesa",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "assists": "3",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": " Dalbert",
-        "country": "Brazil",
-        "team": "Inter",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "inter"
     }
 ]

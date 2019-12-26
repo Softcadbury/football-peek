@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "13",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -9,20 +18,11 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "FC Barcelona",
-        "goals": "12",
-        "flag": "argentina",
-        "logo": "fc_barcelona"
-    },
-    {
         "rank": "3.",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "9",
+        "goals": "10",
         "flag": "uruguay",
         "logo": "fc_barcelona"
     },
@@ -34,6 +34,15 @@
         "goals": "8",
         "flag": "spain",
         "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Ezequiel Ávila",
+        "country": "Argentina",
+        "team": "CA Osasuna",
+        "goals": "8",
+        "flag": "argentina",
+        "logo": "ca_osasuna"
     },
     {
         "rank": "-",
@@ -63,13 +72,58 @@
         "logo": "cd_alaves"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": " Roger",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "10.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "FC Barcelona",
+        "goals": "7",
+        "flag": "france",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
         "name": " Joselu",
         "country": "Spain",
         "team": "CD Alavés",
         "goals": "7",
         "flag": "spain",
         "logo": "cd_alaves"
+    },
+    {
+        "rank": "-",
+        "name": " Mikel Oyarzabal",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": "Álvaro Morata",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -81,16 +135,7 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "10.",
-        "name": "Ezequiel Ávila",
-        "country": "Argentina",
-        "team": "CA Osasuna",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
+        "rank": "16.",
         "name": "Ante Budimir",
         "country": "Croatia",
         "team": "RCD Mallorca",
@@ -109,24 +154,6 @@
     },
     {
         "rank": "-",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "FC Barcelona",
-        "goals": "6",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
         "name": " Joaquín",
         "country": "Spain",
         "team": "Real Betis",
@@ -136,39 +163,12 @@
     },
     {
         "rank": "-",
-        "name": " Mikel Oyarzabal",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": "Álvaro Morata",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Parejo",
         "country": "Spain",
         "team": "Valencia CF",
         "goals": "6",
         "flag": "spain",
         "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Roger",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "levante_ud"
     },
     {
         "rank": "-",

@@ -4,7 +4,7 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "9",
+        "assists": "10",
         "flag": "belgium",
         "logo": "manchester_city"
     },
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Harvey Barnes",
+        "country": "England",
+        "team": "Leicester City",
+        "assists": "5",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
         "name": " Emi",
         "country": "Argentina",
         "team": "Norwich City",
@@ -64,6 +73,15 @@
     },
     {
         "rank": "-",
+        "name": " João Moutinho",
+        "country": "Portugal",
+        "team": "Wolverhampton Wanderers",
+        "assists": "5",
+        "flag": "portugal",
+        "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
@@ -81,16 +99,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "10.",
-        "name": "Harvey Barnes",
-        "country": "England",
-        "team": "Leicester City",
-        "assists": "4",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "12.",
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "Manchester City",
@@ -109,12 +118,21 @@
     },
     {
         "rank": "-",
-        "name": " João Moutinho",
-        "country": "Portugal",
-        "team": "Wolverhampton Wanderers",
+        "name": "Jack Grealish",
+        "country": "England",
+        "team": "Aston Villa",
         "assists": "4",
-        "flag": "portugal",
-        "logo": "wolverhampton_wanderers"
+        "flag": "england",
+        "logo": "aston_villa"
+    },
+    {
+        "rank": "-",
+        "name": "Pascal Groß",
+        "country": "Germany",
+        "team": "Brighton & Hove Albion",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "brighton___hove_albion"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "assists": "4",
         "flag": "egypt",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Tammy Abraham",
-        "country": "England",
-        "team": "Chelsea FC",
-        "assists": "3",
-        "flag": "england",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Dele Alli",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "assists": "3",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     }
 ]

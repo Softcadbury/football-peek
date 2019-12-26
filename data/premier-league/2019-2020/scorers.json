@@ -4,12 +4,21 @@
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "16",
+        "goals": "17",
         "flag": "england",
         "logo": "leicester_city"
     },
     {
         "rank": "2.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Arsenal FC",
+        "goals": "12",
+        "flag": "gabon",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "3.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "Chelsea FC",
@@ -19,48 +28,39 @@
     },
     {
         "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
+        "name": "Danny Ings",
+        "country": "England",
+        "team": "Southampton FC",
         "goals": "11",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
+        "flag": "england",
+        "logo": "southampton_fc"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Marcus Rashford",
         "country": "England",
         "team": "Manchester United",
-        "goals": "10",
+        "goals": "11",
         "flag": "england",
         "logo": "manchester_united"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "10",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "7.",
         "name": "Kun Agüero",
         "country": "Argentina",
         "team": "Manchester City",
         "goals": "9",
         "flag": "argentina",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Danny Ings",
-        "country": "England",
-        "team": "Southampton FC",
-        "goals": "9",
-        "flag": "england",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "9",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": "Raúl Jiménez",
+        "country": "Mexico",
+        "team": "Wolverhampton Wanderers",
+        "goals": "7",
+        "flag": "mexico",
+        "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
         "name": "Neal Maupay",
         "country": "Argentina",
         "team": "Brighton & Hove Albion",
@@ -126,7 +135,16 @@
         "logo": "burnley_fc"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
+        "name": "Dele Alli",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "6",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Ashley Barnes",
         "country": "England",
         "team": "Burnley FC",
@@ -136,47 +154,29 @@
     },
     {
         "rank": "-",
-        "name": "Raúl Jiménez",
-        "country": "Mexico",
-        "team": "Wolverhampton Wanderers",
-        "goals": "6",
-        "flag": "mexico",
-        "logo": "wolverhampton_wanderers"
-    },
-    {
-        "rank": "-",
-        "name": " Richarlison",
-        "country": "Brazil",
+        "name": "Dominic Calvert-Lewin",
+        "country": "England",
         "team": "Everton FC",
         "goals": "6",
-        "flag": "brazil",
+        "flag": "england",
         "logo": "everton_fc"
     },
     {
         "rank": "-",
-        "name": "Harry Wilson",
-        "country": "Wales",
-        "team": "AFC Bournemouth",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
         "goals": "6",
-        "flag": "wales",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "19.",
-        "name": "Dele Alli",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "5",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
+        "flag": "brazil",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": " Bernardo Silva",
-        "country": "Portugal",
-        "team": "Manchester City",
-        "goals": "5",
-        "flag": "portugal",
-        "logo": "manchester_city"
+        "name": "Anthony Martial",
+        "country": "France",
+        "team": "Manchester United",
+        "goals": "6",
+        "flag": "france",
+        "logo": "manchester_united"
     }
 ]
