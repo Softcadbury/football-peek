@@ -10,7 +10,7 @@ gulp.task('up', async () => {
     const mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
-    config.fullResultUpdate = true;
+    config.fullResultUpdate = false;
 
     await mainUpdater.updateLeague(leagues.bundesliga);
     await mainUpdater.updateLeague(leagues.premierLeague);
@@ -36,7 +36,7 @@ gulp.task('lint', () => {
 gulp.task('test', () => {
     const mocha = require('gulp-mocha');
 
-    gulp.src('./tests/*.js', {
+    return gulp.src('./tests/*.js', {
         read: false
     }).pipe(
         mocha({
@@ -54,7 +54,7 @@ gulp.task('sprite', () => {
         imgPath: '../../images/sprite.png'
     });
 
-    gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
+    return gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('.'));
 });
@@ -63,7 +63,7 @@ gulp.task('sprite', () => {
 gulp.task('optim', () => {
     const imagemin = require('gulp-imagemin');
 
-    gulp.src('client/images/*')
+    return gulp.src('client/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('client/images'));
 });
@@ -168,13 +168,13 @@ gulp.task('start', () => {
 });
 
 // Manage build, start the node server and open the browser
-gulp.task('default', gulp.parallel('inject', 'start'), () => {
+gulp.task('default', gulp.series('inject', 'start'), () => {
     const config = require('./server/config');
     const openBrowser = require('gulp-open');
 
     gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['inject']);
 
-    gulp.src('/').pipe(
+    return gulp.src('/').pipe(
         openBrowser({
             uri: '127.0.0.1:' + config.port,
             app: 'chrome'
