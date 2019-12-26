@@ -3,7 +3,7 @@
 const gulp = require('gulp');
 
 // Updates all data
-gulp.task('up', async () => {
+exports.up = async () => {
     const config = require('./server/config');
     const leagues = require('./server/data/leagues');
     const competitions = require('./server/data/competitions');
@@ -19,10 +19,10 @@ gulp.task('up', async () => {
     await mainUpdater.updateLeague(leagues.liga);
     await mainUpdater.updateCompetition(competitions.championsLeague);
     await mainUpdater.updateCompetition(competitions.europaLeague);
-});
+};
 
 // Check coding rules
-gulp.task('lint', () => {
+exports.lint = () => {
     const eslint = require('gulp-eslint');
 
     return gulp
@@ -30,23 +30,25 @@ gulp.task('lint', () => {
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
-});
+};
 
 // Run tests
-gulp.task('test', () => {
+exports.test = () => {
     const mocha = require('gulp-mocha');
 
-    return gulp.src('./tests/*.js', {
-        read: false
-    }).pipe(
-        mocha({
-            reporter: 'nyan'
+    return gulp
+        .src('./tests/*.js', {
+            read: false
         })
-    );
-});
+        .pipe(
+            mocha({
+                reporter: 'nyan'
+            })
+        );
+};
 
 // Build the sprite
-gulp.task('sprite', () => {
+exports.sprite = () => {
     const spritesmith = require('gulp.spritesmith');
     const spritesmithOptions = spritesmith({
         cssName: 'client/styles/misc/sprite.css',
@@ -54,22 +56,24 @@ gulp.task('sprite', () => {
         imgPath: '../../images/sprite.png'
     });
 
-    return gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
+    return gulp
+        .src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('.'));
-});
+};
 
 // Optimize images
-gulp.task('optim', () => {
+exports.optim = () => {
     const imagemin = require('gulp-imagemin');
 
-    return gulp.src('client/images/*')
+    return gulp
+        .src('client/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('client/images'));
-});
+};
 
 // Build the application in the dist folder
-gulp.task('build', () => {
+exports.build = function build() {
     const webpack = require('webpack');
     const webpackStream = require('webpack-stream');
     const CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -128,10 +132,10 @@ gulp.task('build', () => {
             )
         )
         .pipe(gulp.dest('./dist'));
-});
+};
 
 // Inject built files in layout view
-gulp.task('inject', gulp.series('build'), () => {
+exports.inject = function inject() {
     const inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
@@ -148,10 +152,14 @@ gulp.task('inject', gulp.series('build'), () => {
             )
         )
         .pipe(gulp.dest('./client/views/commons'));
-});
+};
+
+exports.watch = function watch() {
+    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], gulp.series(exports.build, exports.inject));
+};
 
 // Start the node server
-gulp.task('start', () => {
+exports.node = function node() {
     const config = require('./server/config');
     const nodemon = require('gulp-nodemon');
 
@@ -165,19 +173,6 @@ gulp.task('start', () => {
     };
 
     return nodemon(options);
-});
+};
 
-// Manage build, start the node server and open the browser
-gulp.task('default', gulp.series('inject', 'start'), () => {
-    const config = require('./server/config');
-    const openBrowser = require('gulp-open');
-
-    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['inject']);
-
-    return gulp.src('/').pipe(
-        openBrowser({
-            uri: '127.0.0.1:' + config.port,
-            app: 'chrome'
-        })
-    );
-});
+exports.start = gulp.series(exports.build, exports.inject, gulp.parallel(exports.watch, exports.node));

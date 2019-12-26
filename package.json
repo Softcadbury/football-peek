@@ -2,14 +2,14 @@
     "name": "football",
     "version": "2.0.0",
     "repository": "https://github.com/Softcadbury/football-peek.git",
-    "author": "Softcadbury <romain.parage@gmail.com>",
+    "author": "Softcadbury",
     "license": "MIT",
     "main": "server.js",
     "scripts": {
-        "start": "gulp",
+        "start": "gulp start",
+        "up": "gulp up",
         "test": "gulp test",
         "lint": "gulp lint",
-        "up": "gulp up",
         "sprite": "gulp sprite",
         "optim": "gulp optim"
     },
@@ -28,14 +28,13 @@
         "gulp-inject": "5.0.4",
         "gulp-mocha": "7.0.2",
         "gulp-nodemon": "2.4.2",
-        "gulp-open": "3.0.1",
         "gulp.spritesmith": "6.11.0",
         "less": "3.0.4",
         "less-loader": "4.1.0",
         "mocha": "6.1.4",
         "style-loader": "0.21.0",
         "uglifyjs-webpack-plugin": "1.2.5",
-        "webpack": "4.8.3",
+        "webpack": "^4.41.4",
         "webpack-stream": "4.0.3"
     },
     "dependencies": {
