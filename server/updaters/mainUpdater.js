@@ -2,7 +2,7 @@
 
 const tablesUpdater = require('./tablesUpdater');
 const resultsUpdater = require('./resultsUpdater');
-var tournamentsUpdater = require('./tournamentsUpdater');
+const tournamentsUpdater = require('./tournamentsUpdater');
 // const groupsUpdater = require('./groupsUpdater');
 const scorersUpdater = require('./scorersUpdater');
 const assistsUpdater = require('./assistsUpdater');

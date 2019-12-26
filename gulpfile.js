@@ -36,15 +36,13 @@ gulp.task('lint', () => {
 gulp.task('test', () => {
     const mocha = require('gulp-mocha');
 
-    gulp
-        .src('./tests/*.js', {
-            read: false
+    gulp.src('./tests/*.js', {
+        read: false
+    }).pipe(
+        mocha({
+            reporter: 'nyan'
         })
-        .pipe(
-            mocha({
-                reporter: 'nyan'
-            })
-        );
+    );
 });
 
 // Build the sprite
@@ -56,8 +54,7 @@ gulp.task('sprite', () => {
         imgPath: '../../images/sprite.png'
     });
 
-    gulp
-        .src(['data/images/**/*.gif', 'data/images/**/*.png'])
+    gulp.src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('.'));
 });
@@ -66,8 +63,7 @@ gulp.task('sprite', () => {
 gulp.task('optim', () => {
     const imagemin = require('gulp-imagemin');
 
-    gulp
-        .src('client/images/*')
+    gulp.src('client/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('client/images'));
 });
@@ -135,7 +131,7 @@ gulp.task('build', () => {
 });
 
 // Inject built files in layout view
-gulp.task('inject', ['build'], () => {
+gulp.task('inject', gulp.series('build'), () => {
     const inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
@@ -172,7 +168,7 @@ gulp.task('start', () => {
 });
 
 // Manage build, start the node server and open the browser
-gulp.task('default', ['inject', 'start'], () => {
+gulp.task('default', gulp.parallel('inject', 'start'), () => {
     const config = require('./server/config');
     const openBrowser = require('gulp-open');
 
