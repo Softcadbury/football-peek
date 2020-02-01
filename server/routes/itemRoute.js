@@ -1,17 +1,17 @@
 'use strict';
 
-var config = require('../config');
-var helper = require('../helper');
-var items = require('../data/items');
-var express = require('express');
-var router = express.Router();
+const config = require('../config');
+const helper = require('../helper');
+const items = require('../data/items');
+const express = require('express');
+const router = express.Router();
 
 router.route('/:item/:period?/:roundOrGroup?').get((req, res) => {
-    var requestedItem = items.find(item => item.code === req.params.item) || items[0];
-    var requestedPeriod = config.periods.availables.find(period => req.params.period === period) || config.periods.current;
-    var requestedRoundOrGroup = req.params.roundOrGroup;
+    const requestedItem = items.find(item => item.code === req.params.item) || items[0];
+    const requestedPeriod = config.periods.availables.find(period => req.params.period === period) || config.periods.current;
+    const requestedRoundOrGroup = req.params.roundOrGroup;
 
-    var data = {
+    const data = {
         title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedPeriod,
         description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedPeriod,
         items: items,
@@ -31,9 +31,9 @@ router.route('/:item/:period?/:roundOrGroup?').get((req, res) => {
 
 // Render a competition item
 function renderCompetition(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup) {
-    var tournamentData = getData(config.paths.tournamentData, requestedItem, requestedPeriod);
-    var groupsData = getData(config.paths.groupsData, requestedItem, requestedPeriod);
-    var requestedGroup = requestedRoundOrGroup || 'a';
+    const tournamentData = getData(config.paths.tournamentData, requestedItem, requestedPeriod);
+    const groupsData = getData(config.paths.groupsData, requestedItem, requestedPeriod);
+    const requestedGroup = requestedRoundOrGroup || 'a';
 
     res.render(
         'pages/competition',
@@ -49,9 +49,9 @@ function renderCompetition(res, data, requestedItem, requestedPeriod, requestedR
 
 // Render a league item
 function renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundOrGroup) {
-    var resultsData = getData(config.paths.resultsData, requestedItem, requestedPeriod);
-    var tableData = getData(config.paths.tableData, requestedItem, requestedPeriod);
-    var requestedRound = requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData);
+    const resultsData = getData(config.paths.resultsData, requestedItem, requestedPeriod);
+    const tableData = getData(config.paths.tableData, requestedItem, requestedPeriod);
+    const requestedRound = requestedRoundOrGroup || helper.getLeagueCurrentRound(resultsData);
 
     res.render(
         'pages/league',
@@ -67,11 +67,11 @@ function renderLeague(res, data, requestedItem, requestedPeriod, requestedRoundO
 }
 
 function getData(dataPath, requestedItem, requestedPeriod) {
-    return helper.readJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedPeriod));
+    return helper.readCachedJsonFile(helper.stringFormat(dataPath, requestedItem.code, requestedPeriod));
 }
 
 function getPreviousAndNextGroupUrls(requestedItemCode, requestedPeriod, requestedGroup, numberOfGroups) {
-    var requestedGroupCharCode = requestedGroup.charCodeAt(0);
+    const requestedGroupCharCode = requestedGroup.charCodeAt(0);
 
     return {
         previous: requestedGroupCharCode > 96 + 1 ? getRoundOrGroupUrl(requestedItemCode, requestedPeriod, String.fromCharCode(requestedGroupCharCode - 1)) : null,
@@ -80,7 +80,7 @@ function getPreviousAndNextGroupUrls(requestedItemCode, requestedPeriod, request
 }
 
 function getPreviousAndNextRoundUrls(requestedItemCode, requestedPeriod, requestedRound, numberOfRounds) {
-    var requestedRoundNumber = parseInt(requestedRound, 10);
+    const requestedRoundNumber = parseInt(requestedRound, 10);
 
     return {
         previous: requestedRoundNumber > 1 ? getRoundOrGroupUrl(requestedItemCode, requestedPeriod, requestedRoundNumber - 1) : null,
@@ -93,7 +93,7 @@ function getRoundOrGroupUrl(requestedItemCode, requestedPeriod, roundOrGroup) {
 }
 
 function getChartDatasets(resultsData) {
-    var teams = {};
+    const teams = {};
 
     resultsData.forEach(result => {
         result.matches.forEach(matche => {
@@ -127,9 +127,9 @@ function saveScore(datasetsDictionary, date, homeTeam, awayTeam, score) {
 }
 
 function getPoints(score, isAwayTeam) {
-    var splittedScore = score.split(':');
-    var score1 = isAwayTeam ? splittedScore[1] : splittedScore[0];
-    var score2 = isAwayTeam ? splittedScore[0] : splittedScore[1];
+    const splittedScore = score.split(':');
+    const score1 = isAwayTeam ? splittedScore[1] : splittedScore[0];
+    const score2 = isAwayTeam ? splittedScore[0] : splittedScore[1];
 
     return score1 === score2 ? 1 : score1 > score2 ? 3 : 0;
 }
@@ -138,7 +138,7 @@ function convertToDataset(teams) {
     return Object.values(teams).map(team => {
         let currentPoints = 0;
 
-        let points = team.matches.map(matche => {
+        const points = team.matches.map(matche => {
             currentPoints += matche.points;
             return currentPoints;
         });
@@ -148,8 +148,8 @@ function convertToDataset(teams) {
             data: points
         };
     }).sort((team1, team2) => {
-        let team1Points = team1.data[team1.data.length - 1];
-        let team2Points = team2.data[team2.data.length - 1];
+        const team1Points = team1.data[team1.data.length - 1];
+        const team2Points = team2.data[team2.data.length - 1];
 
         return team1Points < team2Points ? 1 : team1Points > team2Points ? -1 : 0;
     });

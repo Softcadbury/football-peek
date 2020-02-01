@@ -1,11 +1,11 @@
 /* global describe, it */
 'use strict';
 
-var assert = require('chai').assert;
-var fileExists = require('file-exists');
-var config = require('../server/config');
-var helper = require('../server/helper');
-var items = require('../server/data/items');
+const assert = require('chai').assert;
+const fs = require('fs');
+const config = require('../server/config');
+const helper = require('../server/helper');
+const items = require('../server/data/items');
 
 describe('Data keys', () => {
     items.forEach(item => {
@@ -29,13 +29,13 @@ describe('Data keys', () => {
 });
 
 function testTournamentData(code, period) {
-    var path = helper.stringFormat(config.paths.tournamentData, code, period);
+    const path = helper.stringFormat(config.paths.tournamentData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     if (data.length > 0) {
         testTournamentDataSpecific('Tournament Final', data[0]);
@@ -71,13 +71,13 @@ function testTournamentDataSpecific(dataName, data) {
 }
 
 function testGroupsData(code, period) {
-    var path = helper.stringFormat(config.paths.groupsData, code, period);
+    const path = helper.stringFormat(config.paths.groupsData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Group should have the correct keys', () => {
         data.forEach(item => {
@@ -92,13 +92,13 @@ function testGroupsData(code, period) {
 }
 
 function testTableData(code, period) {
-    var path = helper.stringFormat(config.paths.tableData, code, period);
+    const path = helper.stringFormat(config.paths.tableData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Table should have the correct keys', () => {
         data.forEach(item => assertKeys(item, 'rank', 'team', 'points', 'played', 'win', 'draw', 'lost', 'goalsFor', 'goalsAgainst', 'goalDifference', 'logo'));
@@ -106,13 +106,13 @@ function testTableData(code, period) {
 }
 
 function testResultData(code, period) {
-    var path = helper.stringFormat(config.paths.resultsData, code, period);
+    const path = helper.stringFormat(config.paths.resultsData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Result should have the correct keys', () => {
         data.forEach(item => {
@@ -125,13 +125,13 @@ function testResultData(code, period) {
 }
 
 function testScorersData(code, period) {
-    var path = helper.stringFormat(config.paths.scorersData, code, period);
+    const path = helper.stringFormat(config.paths.scorersData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Scorers should have the correct keys', () => {
         data.forEach(item => assertKeys(item, 'rank', 'name', 'country', 'team', 'goals', 'flag', 'logo'));
@@ -139,13 +139,13 @@ function testScorersData(code, period) {
 }
 
 function testAssistsData(code, period) {
-    var path = helper.stringFormat(config.paths.assistsData, code, period);
+    const path = helper.stringFormat(config.paths.assistsData, code, period);
 
-    if (!fileExists.sync(path)) {
+    if (!fs.existsSync(path)) {
         return;
     }
 
-    var data = helper.readJsonFile(path);
+    const data = helper.readJsonFile(path);
 
     it('Assists should have the correct keys', () => {
         data.forEach(item => assertKeys(item, 'rank', 'name', 'country', 'team', 'assists', 'flag', 'logo'));

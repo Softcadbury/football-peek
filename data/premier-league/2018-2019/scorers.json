@@ -1,42 +1,51 @@
 [
     {
         "rank": "1.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "19",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Arsenal FC",
-        "goals": "19",
+        "goals": "22",
         "flag": "gabon",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "22",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "19",
+        "goals": "22",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
     {
         "rank": "4.",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "18",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "21",
+        "flag": "argentina",
+        "logo": "manchester_city"
     },
     {
         "rank": "5.",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "18",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "6.",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -54,7 +63,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Eden Hazard",
         "country": "Belgium",
         "team": "Chelsea FC",
@@ -63,22 +72,40 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "-",
-        "name": "Jamie Vardy",
+        "rank": "9.",
+        "name": "Callum Wilson",
         "country": "England",
-        "team": "Leicester City",
-        "goals": "16",
+        "team": "AFC Bournemouth",
+        "goals": "14",
         "flag": "england",
-        "logo": "leicester_city"
+        "logo": "afc_bournemouth"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
+        "name": "Raúl Jiménez",
+        "country": "Mexico",
+        "team": "Wolverhampton Wanderers",
+        "goals": "13",
+        "flag": "mexico",
+        "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
         "name": "Alexandre Lacazette",
         "country": "France",
         "team": "Arsenal FC",
         "goals": "13",
         "flag": "france",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Glenn Murray",
+        "country": "England",
+        "team": "Brighton & Hove Albion",
+        "goals": "13",
+        "flag": "england",
+        "logo": "brighton___hove_albion"
     },
     {
         "rank": "-",
@@ -108,13 +135,31 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "13.",
-        "name": "Raúl Jiménez",
-        "country": "Mexico",
-        "team": "Wolverhampton Wanderers",
+        "rank": "16.",
+        "name": " Ayoze Pérez",
+        "country": "Spain",
+        "team": "Newcastle United",
         "goals": "12",
-        "flag": "mexico",
-        "logo": "wolverhampton_wanderers"
+        "flag": "spain",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
+        "name": "Ashley Barnes",
+        "country": "England",
+        "team": "Burnley FC",
+        "goals": "12",
+        "flag": "england",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Joshua King",
+        "country": "Norway",
+        "team": "AFC Bournemouth",
+        "goals": "12",
+        "flag": "norway",
+        "logo": "afc_bournemouth"
     },
     {
         "rank": "-",
@@ -133,50 +178,5 @@
         "goals": "12",
         "flag": "serbia",
         "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "12",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Heung-min Son",
-        "country": "South Korea",
-        "team": "Tottenham Hotspur",
-        "goals": "12",
-        "flag": "south_korea",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Callum Wilson",
-        "country": "England",
-        "team": "AFC Bournemouth",
-        "goals": "12",
-        "flag": "england",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "19.",
-        "name": "Ashley Barnes",
-        "country": "England",
-        "team": "Burnley FC",
-        "goals": "11",
-        "flag": "england",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Joshua King",
-        "country": "Norway",
-        "team": "AFC Bournemouth",
-        "goals": "11",
-        "flag": "norway",
-        "logo": "afc_bournemouth"
     }
 ]

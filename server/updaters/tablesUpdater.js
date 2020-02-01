@@ -1,11 +1,11 @@
 'use strict';
 
-var config = require('../config');
-var helper = require('../helper');
-var leagues = require('../data/leagues');
+const config = require('../config');
+const helper = require('../helper');
+const leagues = require('../data/leagues');
 
-var tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
-var leaguesExtended = [
+const tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
+const leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
@@ -13,19 +13,16 @@ var leaguesExtended = [
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '' }
 ];
 
-// Updates tables of current period
-function update(arg) {
-    return helper.runUpdate(leaguesExtended, updateData, arg);
-}
+function update(item) {
+    const itemExtended = leaguesExtended.find(p => p.item === item);
 
-// Updates the table of an itemExtended
-function updateData(itemExtended) {
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(tableDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
-            var results = [];
+            const results = [];
 
             $('#site > div.white > div.content > div > div:nth-child(7) > div > table.standard_tabelle tr').each((index, elem) => {
                 if (index <= 0) {
+                    resolve();
                     return;
                 }
 
@@ -46,10 +43,11 @@ function updateData(itemExtended) {
 
             if (results.length < 18) {
                 helper.log('Error while updating table: ' + itemExtended.item.code);
+                resolve();
                 return;
             }
 
-            for (var i = 0; i < results.length; i++) {
+            for (let i = 0; i < results.length; i++) {
                 helper.manageLogoProperty(results[i]);
             }
 
@@ -59,5 +57,5 @@ function updateData(itemExtended) {
 }
 
 module.exports = {
-    update: update
+    update
 };

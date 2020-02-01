@@ -1,14 +1,14 @@
 'use strict';
 
-var config = require('./server/config');
-var helper = require('./server/helper');
-var express = require('express');
-var expressLayouts = require('express-ejs-layouts');
-var compression = require('compression');
-var app = express();
+const config = require('./server/config');
+const helper = require('./server/helper');
+const express = require('express');
+const expressLayouts = require('express-ejs-layouts');
+const compression = require('compression');
+const app = express();
 
 // Middlewares configuration
-var oneWeek = 604800000;
+const oneWeek = 604800000;
 app.use(compression());
 app.use(express.static('client/statics'));
 app.use(express.static('client/images', { maxAge: oneWeek }));

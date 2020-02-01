@@ -1,29 +1,29 @@
 'use strict';
 
-var tablesUpdater = require('./tablesUpdater');
-var resultsUpdater = require('./resultsUpdater');
-var tournamentsUpdater = require('./tournamentsUpdater');
-var groupsUpdater = require('./groupsUpdater');
-var scorersUpdater = require('./scorersUpdater');
-var assistsUpdater = require('./assistsUpdater');
+const tablesUpdater = require('./tablesUpdater');
+const resultsUpdater = require('./resultsUpdater');
+const tournamentsUpdater = require('./tournamentsUpdater');
+// const groupsUpdater = require('./groupsUpdater');
+const scorersUpdater = require('./scorersUpdater');
+const assistsUpdater = require('./assistsUpdater');
 
 // Updates league data
-async function updateLeague(arg) {
-    await tablesUpdater.update(arg);
-    await resultsUpdater.update(arg);
-    await scorersUpdater.updateLeagues(arg);
-    await assistsUpdater.updateLeagues(arg);
+async function updateLeague(item) {
+    await tablesUpdater.update(item);
+    await resultsUpdater.update(item);
+    await scorersUpdater.updateLeagues(item);
+    await assistsUpdater.updateLeagues(item);
 }
 
 // Updates competition data
-async function updateCompetition(arg) {
-    await tournamentsUpdater.update(arg);
-    await groupsUpdater.update(arg);
-    await scorersUpdater.updateCompetitions(arg);
-    await assistsUpdater.updateCompetitions(arg);
+async function updateCompetition(item) {
+    await tournamentsUpdater.update(item);
+    // await groupsUpdater.update(item); This phase is over
+    await scorersUpdater.updateCompetitions(item);
+    await assistsUpdater.updateCompetitions(item);
 }
 
 module.exports = {
-    updateLeague: updateLeague,
-    updateCompetition: updateCompetition
+    updateLeague,
+    updateCompetition
 };

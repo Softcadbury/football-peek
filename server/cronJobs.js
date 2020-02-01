@@ -1,10 +1,12 @@
 'use strict';
 
-var CronJob = require('cron').CronJob;
-var helper = require('./helper');
-var mainUpdater = require('./updaters/mainUpdater');
+const CronJob = require('cron').CronJob;
+const helper = require('./helper');
+const leagues = require('./data/leagues');
+const competitions = require('./data/competitions');
+const mainUpdater = require('./updaters/mainUpdater');
 
-var leagueCronJobTimes = [
+const leagueCronJobTimes = [
     '00 00 09 * * *',
     '00 40 15 * * sat,sun',
     '00 30 16 * * sat,sun',
@@ -20,7 +22,7 @@ var leagueCronJobTimes = [
     '00 50 23 * * *'
 ];
 
-var competitionCronJobTimes = [
+const competitionCronJobTimes = [
     '00 05 09 * * *',
     '00 05 19 * * tue,wed,thu',
     '00 05 21 * * tue,wed,thu',
@@ -36,7 +38,11 @@ function setupCrons() {
     leagueCronJobTimes.forEach(time => {
         (new CronJob(time, async () => {
             helper.log('Run league update');
-            await mainUpdater.updateLeague();
+            await mainUpdater.updateLeague(leagues.bundesliga);
+            await mainUpdater.updateLeague(leagues.premierLeague);
+            await mainUpdater.updateLeague(leagues.ligue1);
+            await mainUpdater.updateLeague(leagues.serieA);
+            await mainUpdater.updateLeague(leagues.liga);
         }, null, false, 'Europe/Paris')).start();
     });
 
@@ -44,11 +50,12 @@ function setupCrons() {
     competitionCronJobTimes.forEach(time => {
         (new CronJob(time, async () => {
             helper.log('Run competition update');
-            await mainUpdater.updateCompetition();
+            await mainUpdater.updateCompetition(competitions.championsLeague);
+            await mainUpdater.updateCompetition(competitions.europaLeague);
         }, null, false, 'Europe/Paris')).start();
     });
 }
 
 module.exports = {
-    setupCrons: setupCrons
+    setupCrons
 };

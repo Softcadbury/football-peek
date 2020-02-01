@@ -1,15 +1,14 @@
-/* global process */
 'use strict';
 
 function config() {
-    var periodFormat = '{0}-{1}';
-    var firstHandledYear = 2000;
-    var lastHandledPeriod = 2018;
+    const periodFormat = '{0}-{1}';
+    const firstHandledYear = 2000;
+    const lastHandledPeriod = 2019;
 
-    var currentPeriod = periodFormat.replace('{0}', lastHandledPeriod).replace('{1}', lastHandledPeriod + 1);
-    var availablesPeriod = [];
+    const currentPeriod = periodFormat.replace('{0}', lastHandledPeriod).replace('{1}', lastHandledPeriod + 1);
+    const availablesPeriod = [];
 
-    for (var i = lastHandledPeriod; i >= firstHandledYear; i--) {
+    for (let i = lastHandledPeriod; i >= firstHandledYear; i--) {
         availablesPeriod.push(periodFormat.replace('{0}', i).replace('{1}', i + 1));
     }
 

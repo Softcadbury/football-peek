@@ -4,36 +4,45 @@
         "name": "Papu Gómez",
         "country": "Argentina",
         "team": "Atalanta",
-        "assists": "10",
+        "assists": "12",
         "flag": "argentina",
         "logo": "atalanta"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Dries Mertens",
         "country": "Belgium",
         "team": "SSC Napoli",
-        "assists": "10",
+        "assists": "11",
         "flag": "belgium",
         "logo": "ssc_napoli"
     },
     {
         "rank": "3.",
+        "name": " José Callejón",
+        "country": "Spain",
+        "team": "SSC Napoli",
+        "assists": "10",
+        "flag": "spain",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": " Suso",
         "country": "Spain",
         "team": "AC Milan",
-        "assists": "9",
+        "assists": "10",
         "flag": "spain",
         "logo": "ac_milan"
     },
     {
-        "rank": "4.",
-        "name": " José Callejón",
-        "country": "Spain",
-        "team": "SSC Napoli",
+        "rank": "5.",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Udinese Calcio",
         "assists": "8",
-        "flag": "spain",
-        "logo": "ssc_napoli"
+        "flag": "argentina",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
@@ -54,7 +63,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Juventus",
@@ -72,7 +81,25 @@
         "logo": "atalanta"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Cengiz Ünder",
+        "country": "Turkey",
+        "team": "AS Roma",
+        "assists": "7",
+        "flag": "turkey",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "assists": "7",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "12.",
         "name": "Cristiano Biraghi",
         "country": "Italy",
         "team": "ACF Fiorentina",
@@ -100,6 +127,33 @@
     },
     {
         "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "assists": "6",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Remo Freuler",
+        "country": "Switzerland",
+        "team": "Atalanta",
+        "assists": "6",
+        "flag": "switzerland",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Lorenzo Insigne",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -109,74 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Justin Kluivert",
+        "country": "Netherlands",
+        "team": "AS Roma",
+        "assists": "6",
+        "flag": "netherlands",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Rade Krunić",
         "country": "Bosnia-Herzegovina",
         "team": "Empoli FC",
         "assists": "6",
         "flag": "bosnia_herzegovina",
         "logo": "empoli_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mario Mandžukić",
-        "country": "Croatia",
-        "team": "Juventus",
-        "assists": "6",
-        "flag": "croatia",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Atalanta",
-        "assists": "6",
-        "flag": "colombia",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "16.",
-        "name": "Danilo D'Ambrosio",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Remo Freuler",
-        "country": "Switzerland",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "switzerland",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Hans Hateboer",
-        "country": "Netherlands",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Justin Kluivert",
-        "country": "Netherlands",
-        "team": "AS Roma",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "as_roma"
     }
 ]

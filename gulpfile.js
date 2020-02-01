@@ -1,73 +1,42 @@
 'use strict';
 
-var gulp = require('gulp');
-var config = require('./server/config');
-var leagues = require('./server/data/leagues');
-var competitions = require('./server/data/competitions');
+const gulp = require('gulp');
 
 // Updates all data
-gulp.task('upall', async () => {
-    var mainUpdater = require('./server/updaters/mainUpdater');
-
-    config.downloadImages = true;
-    config.fullResultUpdate = true;
-
-    await mainUpdater.updateLeague(leagues.bundesliga.smallName);
-    await mainUpdater.updateLeague(leagues.premierLeague.smallName);
-    await mainUpdater.updateLeague(leagues.ligue1.smallName);
-    await mainUpdater.updateLeague(leagues.serieA.smallName);
-    await mainUpdater.updateLeague(leagues.liga.smallName);
-    await mainUpdater.updateCompetition(competitions.championsLeague.smallName);
-    await mainUpdater.updateCompetition(competitions.europaLeague.smallName);
-});
-
-// Updates data
-// Format: gulp up -l [lague small name] -c [competition small name]
-gulp.task('up', async () => {
-    var mainUpdater = require('./server/updaters/mainUpdater');
+exports.up = async () => {
+    const config = require('./server/config');
+    const leagues = require('./server/data/leagues');
+    const competitions = require('./server/data/competitions');
+    const mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
     config.fullResultUpdate = false;
 
-    var argv = require('yargs').argv;
-    var leagueArg = argv.l;
-    var competitionArg = argv.c;
-
-    if (leagueArg) {
-        leagueArg = typeof leagueArg === 'string' ? leagueArg.toUpperCase() : null;
-        if (!leagueArg || Object.values(leagues).some(p => p.smallName === leagueArg)) {
-            await mainUpdater.updateLeague(leagueArg);
-        } else {
-            // eslint-disable-next-line no-console
-            console.log(leagueArg + ' not found. Options are -l [DEU|ESP|ITA|FRA|ENG]');
-        }
-    }
-
-    if (competitionArg) {
-        competitionArg = typeof competitionArg === 'string' ? competitionArg.toUpperCase() : null;
-        if (!competitionArg || Object.values(competitions).some(p => p.smallName === competitionArg)) {
-            await mainUpdater.updateCompetition(competitionArg);
-        } else {
-            // eslint-disable-next-line no-console
-            console.log(competitionArg + ' not found. Options are -c [C1|C3]');
-        }
-    }
-});
+    await mainUpdater.updateLeague(leagues.bundesliga);
+    await mainUpdater.updateLeague(leagues.premierLeague);
+    await mainUpdater.updateLeague(leagues.ligue1);
+    await mainUpdater.updateLeague(leagues.serieA);
+    await mainUpdater.updateLeague(leagues.liga);
+    await mainUpdater.updateCompetition(competitions.championsLeague);
+    await mainUpdater.updateCompetition(competitions.europaLeague);
+};
 
 // Check coding rules
-gulp.task('lint', () => {
-    var eslint = require('gulp-eslint');
+exports.lint = () => {
+    const eslint = require('gulp-eslint');
+
     return gulp
         .src(['**/*.js', '!node_modules/**', '!dist/**'])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
-});
+};
 
 // Run tests
-gulp.task('test', () => {
-    var mocha = require('gulp-mocha');
-    gulp
+exports.test = () => {
+    const mocha = require('gulp-mocha');
+
+    return gulp
         .src('./tests/*.js', {
             read: false
         })
@@ -76,44 +45,44 @@ gulp.task('test', () => {
                 reporter: 'nyan'
             })
         );
-});
+};
 
 // Build the sprite
-gulp.task('sprite', () => {
-    var spritesmith = require('gulp.spritesmith');
-    var spritesmithOptions = spritesmith({
+exports.sprite = () => {
+    const spritesmith = require('gulp.spritesmith');
+    const spritesmithOptions = spritesmith({
         cssName: 'client/styles/misc/sprite.css',
         imgName: 'client/images/sprite.png',
         imgPath: '../../images/sprite.png'
     });
 
-    gulp
+    return gulp
         .src(['data/images/**/*.gif', 'data/images/**/*.png'])
         .pipe(spritesmithOptions)
         .pipe(gulp.dest('.'));
-});
+};
 
 // Optimize images
-gulp.task('optim', () => {
-    var imagemin = require('gulp-imagemin');
+exports.optim = () => {
+    const imagemin = require('gulp-imagemin');
 
-    gulp
+    return gulp
         .src('client/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('client/images'));
-});
+};
 
 // Build the application in the dist folder
-gulp.task('build', () => {
-    var webpack = require('webpack');
-    var webpackStream = require('webpack-stream');
-    var CleanWebpackPlugin = require('clean-webpack-plugin');
-    var ExtractTextPlugin = require('extract-text-webpack-plugin');
-    var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+exports.build = function build() {
+    const webpack = require('webpack');
+    const webpackStream = require('webpack-stream');
+    const CleanWebpackPlugin = require('clean-webpack-plugin');
+    const ExtractTextPlugin = require('extract-text-webpack-plugin');
+    const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
-    var extractLess = new ExtractTextPlugin('style.bundle.[hash].css');
+    const extractLess = new ExtractTextPlugin('style.bundle.[hash].css');
 
-    var webpackModule = {
+    const webpackModule = {
         rules: [
             {
                 test: /\.less$/,
@@ -135,7 +104,7 @@ gulp.task('build', () => {
         ]
     };
 
-    var webpackPlugins = [
+    const webpackPlugins = [
         new CleanWebpackPlugin(['dist']),
         new UglifyJsPlugin(),
         new webpack.LoaderOptionsPlugin({
@@ -163,11 +132,11 @@ gulp.task('build', () => {
             )
         )
         .pipe(gulp.dest('./dist'));
-});
+};
 
 // Inject built files in layout view
-gulp.task('inject', ['build'], () => {
-    var inject = require('gulp-inject');
+exports.inject = function inject() {
+    const inject = require('gulp-inject');
     inject.transform.html.js = filepath => `<script src="${filepath}" async></script>`;
 
     return gulp
@@ -183,12 +152,18 @@ gulp.task('inject', ['build'], () => {
             )
         )
         .pipe(gulp.dest('./client/views/commons'));
-});
+};
+
+exports.watch = function watch() {
+    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], gulp.series(exports.build, exports.inject));
+};
 
 // Start the node server
-gulp.task('start', () => {
-    var nodemon = require('gulp-nodemon');
-    var options = {
+exports.node = function node() {
+    const config = require('./server/config');
+    const nodemon = require('gulp-nodemon');
+
+    const options = {
         script: 'server.js',
         delayTime: 1,
         env: {
@@ -198,17 +173,6 @@ gulp.task('start', () => {
     };
 
     return nodemon(options);
-});
+};
 
-// Manage build, start the node server and open the browser
-gulp.task('default', ['inject', 'start'], () => {
-    gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], ['inject']);
-
-    var openBrowser = require('gulp-open');
-    gulp.src('/').pipe(
-        openBrowser({
-            uri: '127.0.0.1:' + config.port,
-            app: 'chrome'
-        })
-    );
-});
+exports.start = gulp.series(exports.build, exports.inject, gulp.parallel(exports.watch, exports.node));

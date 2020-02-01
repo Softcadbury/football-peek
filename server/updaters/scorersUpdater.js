@@ -1,41 +1,41 @@
 'use strict';
 
-var config = require('../config');
-var helper = require('../helper');
-var leagues = require('../data/leagues');
-var competitions = require('../data/competitions');
+const config = require('../config');
+const helper = require('../helper');
+const leagues = require('../data/leagues');
+const competitions = require('../data/competitions');
 
-var scorersDataUrl = 'http://www.worldfootball.net/goalgetter/{0}-{1}{2}';
-var leaguesExtended = [
+const scorersDataUrl = 'http://www.worldfootball.net/goalgetter/{0}-{1}{2}';
+const leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },
     { item: leagues.ligue1, url: 'fra-ligue-1', extra: '' },
     { item: leagues.serieA, url: 'ita-serie-a', extra: '' },
     { item: leagues.premierLeague, url: 'eng-premier-league', extra: '' }
 ];
-var competitionsExtended = [
+const competitionsExtended = [
     { item: competitions.championsLeague, url: 'champions-league', extra: '' },
     { item: competitions.europaLeague, url: 'europa-league', extra: '' }
 ];
 
-// Updates scorers of current period for leagues
-function updateLeagues(arg) {
-    return helper.runUpdate(leaguesExtended, updateData, arg);
+async function updateLeagues(item) {
+    const itemExtended = leaguesExtended.find(p => p.item === item);
+    return await update(itemExtended);
 }
 
-// Updates scorers of current period for competitions
-function updateCompetitions(arg) {
-    return helper.runUpdate(competitionsExtended, updateData, arg);
+async function updateCompetitions(item) {
+    const itemExtended = competitionsExtended.find(p => p.item === item);
+    return await update(itemExtended);
 }
 
-// Updates the scorers of a itemExtended
-function updateData(itemExtended) {
+function update(itemExtended) {
     return new Promise(resolve => {
         helper.scrapeUrl(helper.stringFormat(scorersDataUrl, itemExtended.url, config.periods.current, itemExtended.extra), $ => {
-            var results = [];
+            const results = [];
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
                 if (index <= 0 || index > 20) {
+                    resolve();
                     return;
                 }
 
@@ -52,10 +52,11 @@ function updateData(itemExtended) {
 
             if (results.length < 5) {
                 helper.log('Error while updating scorers: ' + itemExtended.item.code);
+                resolve();
                 return;
             }
 
-            for (var i = 0; i < results.length; i++) {
+            for (let i = 0; i < results.length; i++) {
                 helper.manageFlagProperty(results[i]);
                 helper.manageLogoProperty(results[i]);
             }
@@ -66,6 +67,6 @@ function updateData(itemExtended) {
 }
 
 module.exports = {
-    updateLeagues: updateLeagues,
-    updateCompetitions: updateCompetitions
+    updateLeagues,
+    updateCompetitions
 };

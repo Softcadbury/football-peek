@@ -14,7 +14,7 @@ const competitions = {
 };
 
 // Add property isCompetition to every competition
-for (var competition in competitions) {
+for (let competition in competitions) {
     if (competitions.hasOwnProperty(competition)) {
         competitions[competition].isCompetition = true;
     }

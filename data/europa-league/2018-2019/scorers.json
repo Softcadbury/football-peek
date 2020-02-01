@@ -4,12 +4,30 @@
         "name": "Olivier Giroud",
         "country": "France",
         "team": "Chelsea FC",
-        "goals": "10",
+        "goals": "11",
         "flag": "france",
         "logo": "chelsea_fc"
     },
     {
         "rank": "2.",
+        "name": "Luka Jović",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "goals": "10",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "3.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Arsenal FC",
+        "goals": "8",
+        "flag": "gabon",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "Sevilla FC",
@@ -27,16 +45,7 @@
         "logo": "rb_salzburg"
     },
     {
-        "rank": "-",
-        "name": "Luka Jović",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "goals": "8",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Fredrik Gulbrandsen",
         "country": "Norway",
         "team": "RB Salzburg",
@@ -55,6 +64,15 @@
     },
     {
         "rank": "-",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Arsenal FC",
+        "goals": "5",
+        "flag": "france",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Giovani Lo Celso",
         "country": "Argentina",
         "team": "Real Betis",
@@ -63,22 +81,22 @@
         "logo": "real_betis"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": " Pedro",
+        "country": "Spain",
+        "team": "Chelsea FC",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "11.",
         "name": "Lucas Alario",
         "country": "Argentina",
         "team": "Bayer Leverkusen",
         "goals": "4",
         "flag": "argentina",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
-        "goals": "4",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -127,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Ruben Loftus-Cheek",
+        "country": "England",
+        "team": "Chelsea FC",
+        "goals": "4",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Takumi Minamino",
         "country": "Japan",
         "team": "RB Salzburg",
@@ -151,32 +178,5 @@
         "goals": "4",
         "flag": "argentina",
         "logo": "apollon_limassol"
-    },
-    {
-        "rank": "18.",
-        "name": "Marcus Antonsson",
-        "country": "Sweden",
-        "team": "Malmö FF",
-        "goals": "3",
-        "flag": "sweden",
-        "logo": "malmo_ff"
-    },
-    {
-        "rank": "-",
-        "name": "Sardar Azmoun",
-        "country": "Iran",
-        "team": "Zenit St. Petersburg",
-        "goals": "3",
-        "flag": "iran",
-        "logo": "zenit_st__petersburg"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Sporting CP",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "sporting_cp"
     }
 ]

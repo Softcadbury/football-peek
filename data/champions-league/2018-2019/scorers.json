@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "10",
+        "goals": "12",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -91,12 +91,30 @@
     },
     {
         "rank": "-",
+        "name": " Lucas",
+        "country": "Brazil",
+        "team": "Tottenham Hotspur",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
         "goals": "5",
         "flag": "brazil",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "5",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -108,7 +126,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "13.",
+        "rank": "15.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -160,23 +178,5 @@
         "goals": "4",
         "flag": "senegal",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Kylian Mbappé",
-        "country": "France",
-        "team": "Paris Saint-Germain",
-        "goals": "4",
-        "flag": "france",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": " Raphaël Guerreiro",
-        "country": "Portugal",
-        "team": "Borussia Dortmund",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "borussia_dortmund"
     }
 ]
