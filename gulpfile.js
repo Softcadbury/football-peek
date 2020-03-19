@@ -10,7 +10,7 @@ exports.up = async () => {
     const mainUpdater = require('./server/updaters/mainUpdater');
 
     config.downloadImages = true;
-    config.fullResultUpdate = false;
+    config.fullResultUpdate = true;
 
     await mainUpdater.updateLeague(leagues.bundesliga);
     await mainUpdater.updateLeague(leagues.premierLeague);

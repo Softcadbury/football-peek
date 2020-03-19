@@ -127,7 +127,7 @@ function parsePhaseOtherThanFinal($, elem, currentMatches, index) {
 
 // Clean score by removing useless parts
 function parseScore(score, hasToReverseScore) {
-    if (!score) {
+    if (!score || score.indexOf('resch') !== -1) {
         return '-:-';
     }
 

@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "13",
+        "goals": "19",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,61 +13,25 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "goals": "12",
+        "goals": "14",
         "flag": "france",
         "logo": "real_madrid"
     },
     {
         "rank": "3.",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
-        "goals": "10",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "4.",
-        "name": " Ángel",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Ezequiel Ávila",
-        "country": "Argentina",
-        "team": "CA Osasuna",
-        "goals": "8",
-        "flag": "argentina",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
         "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
-        "goals": "8",
+        "goals": "11",
         "flag": "spain",
         "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Loren",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "real_betis"
     },
     {
         "rank": "-",
         "name": " Lucas Pérez",
         "country": "Spain",
         "team": "CD Alavés",
-        "goals": "8",
+        "goals": "11",
         "flag": "spain",
         "logo": "cd_alaves"
     },
@@ -76,70 +40,52 @@
         "name": " Roger",
         "country": "Spain",
         "team": "Levante UD",
-        "goals": "8",
+        "goals": "11",
         "flag": "spain",
         "logo": "levante_ud"
     },
     {
-        "rank": "10.",
-        "name": "Antoine Griezmann",
-        "country": "France",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
         "team": "FC Barcelona",
-        "goals": "7",
-        "flag": "france",
+        "goals": "11",
+        "flag": "uruguay",
         "logo": "fc_barcelona"
     },
     {
-        "rank": "-",
-        "name": " Iago Aspas",
+        "rank": "7.",
+        "name": " Ángel",
         "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "7",
+        "team": "Getafe CF",
+        "goals": "10",
         "flag": "spain",
-        "logo": "celta_vigo"
+        "logo": "getafe_cf"
     },
     {
         "rank": "-",
-        "name": " Joselu",
-        "country": "Spain",
-        "team": "CD Alavés",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "cd_alaves"
+        "name": "Lucas Ocampos",
+        "country": "Argentina",
+        "team": "Sevilla FC",
+        "goals": "10",
+        "flag": "argentina",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "9.",
+        "name": "Ezequiel Ávila",
+        "country": "Argentina",
+        "team": "CA Osasuna",
+        "goals": "9",
+        "flag": "argentina",
+        "logo": "ca_osasuna"
     },
     {
         "rank": "-",
-        "name": " Mikel Oyarzabal",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": "Álvaro Morata",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "7",
-        "flag": "brazil",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "16.",
         "name": "Ante Budimir",
         "country": "Croatia",
         "team": "RCD Mallorca",
-        "goals": "6",
+        "goals": "9",
         "flag": "croatia",
         "logo": "rcd_mallorca"
     },
@@ -148,35 +94,89 @@
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Valencia CF",
-        "goals": "6",
+        "goals": "9",
         "flag": "uruguay",
         "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": " Joselu",
+        "country": "Spain",
+        "team": "CD Alavés",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "cd_alaves"
+    },
+    {
+        "rank": "-",
+        "name": " Loren",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Raúl García",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "9",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "17.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "FC Barcelona",
+        "goals": "8",
+        "flag": "france",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
         "name": " Joaquín",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "6",
+        "goals": "8",
         "flag": "spain",
         "logo": "real_betis"
     },
     {
         "rank": "-",
-        "name": " Parejo",
+        "name": " Mata",
         "country": "Spain",
-        "team": "Valencia CF",
-        "goals": "6",
+        "team": "Getafe CF",
+        "goals": "8",
         "flag": "spain",
-        "logo": "valencia_cf"
+        "logo": "getafe_cf"
     },
     {
         "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Villarreal CF",
-        "goals": "6",
-        "flag": "cameroon",
-        "logo": "villarreal_cf"
+        "name": " Mikel Oyarzabal",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "real_sociedad"
     }
 ]

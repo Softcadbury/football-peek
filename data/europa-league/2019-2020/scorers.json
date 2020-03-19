@@ -1,6 +1,33 @@
 [
     {
         "rank": "1.",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Sporting CP",
+        "goals": "6",
+        "flag": "portugal",
+        "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
+        "name": " Diogo Jota",
+        "country": "Portugal",
+        "team": "Wolverhampton Wanderers",
+        "goals": "6",
+        "flag": "portugal",
+        "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
+        "name": "Daichi Kamada",
+        "country": "Japan",
+        "team": "Eintracht Frankfurt",
+        "goals": "6",
+        "flag": "japan",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Alfredo Morelos",
         "country": "Colombia",
         "team": "Rangers FC",
@@ -9,13 +36,31 @@
         "logo": "rangers_fc"
     },
     {
-        "rank": "2.",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
+        "rank": "-",
+        "name": "Andraž Šporar",
+        "country": "Slovenia",
         "team": "Sporting CP",
-        "goals": "5",
-        "flag": "portugal",
+        "goals": "6",
+        "flag": "slovenia",
         "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Višća",
+        "country": "Bosnia-Herzegovina",
+        "team": "İstanbul Başakşehir F.K.",
+        "goals": "6",
+        "flag": "bosnia_herzegovina",
+        "logo": "i_stanbul_ba_ak_ehir_f_k_"
+    },
+    {
+        "rank": "7.",
+        "name": "Mason Greenwood",
+        "country": "England",
+        "team": "Manchester United",
+        "goals": "5",
+        "flag": "england",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -28,15 +73,15 @@
     },
     {
         "rank": "-",
-        "name": "Andraž Šporar",
-        "country": "Slovenia",
-        "team": "Slovan Bratislava",
+        "name": "Marko Raguž",
+        "country": "Austria",
+        "team": "LASK",
         "goals": "5",
-        "flag": "slovenia",
-        "logo": "slovan_bratislava"
+        "flag": "austria",
+        "logo": "lask"
     },
     {
-        "rank": "5.",
+        "rank": "10.",
         "name": "Myron Boadu",
         "country": "Netherlands",
         "team": "AZ Alkmaar",
@@ -55,12 +100,12 @@
     },
     {
         "rank": "-",
-        "name": "Mason Greenwood",
-        "country": "England",
-        "team": "Manchester United",
+        "name": "Fabian Frei",
+        "country": "Switzerland",
+        "team": "FC Basel",
         "goals": "4",
-        "flag": "england",
-        "logo": "manchester_united"
+        "flag": "switzerland",
+        "logo": "fc_basel"
     },
     {
         "rank": "-",
@@ -99,7 +144,7 @@
         "logo": "f91_dudelange"
     },
     {
-        "rank": "12.",
+        "rank": "17.",
         "name": " Ángel",
         "country": "Spain",
         "team": "Getafe CF",
@@ -109,74 +154,29 @@
     },
     {
         "rank": "-",
-        "name": " Campuzano",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Ryan Christie",
-        "country": "Scotland",
-        "team": "Celtic FC",
-        "goals": "3",
-        "flag": "scotland",
-        "logo": "celtic_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Enzo Crivelli",
-        "country": "France",
-        "team": "İstanbul Başakşehir F.K.",
-        "goals": "3",
-        "flag": "france",
-        "logo": "i_stanbul_ba_ak_ehir_f_k_"
-    },
-    {
-        "rank": "-",
-        "name": "Munas Dabbur",
-        "country": "Israel",
-        "team": "Sevilla FC",
-        "goals": "3",
-        "flag": "israel",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Diogo Jota",
-        "country": "Portugal",
-        "team": "Wolverhampton Wanderers",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "wolverhampton_wanderers"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Martinelli",
-        "country": "Brazil",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
         "team": "Arsenal FC",
         "goals": "3",
-        "flag": "brazil",
+        "flag": "gabon",
         "logo": "arsenal_fc"
     },
     {
         "rank": "-",
-        "name": "Raúl Jiménez",
-        "country": "Mexico",
-        "team": "Wolverhampton Wanderers",
+        "name": "Josip Brekalo",
+        "country": "Croatia",
+        "team": "VfL Wolfsburg",
         "goals": "3",
-        "flag": "mexico",
-        "logo": "wolverhampton_wanderers"
+        "flag": "croatia",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Bua",
+        "country": "Spain",
+        "team": "FC Basel",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "fc_basel"
     }
 ]

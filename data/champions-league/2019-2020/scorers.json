@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "10",
+        "goals": "11",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,12 +13,21 @@
         "name": "Erling Håland",
         "country": "Norway",
         "team": "RB Salzburg",
-        "goals": "8",
+        "goals": "10",
         "flag": "norway",
         "logo": "rb_salzburg"
     },
     {
         "rank": "3.",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
@@ -27,7 +36,16 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Dries Mertens",
+        "country": "Belgium",
+        "team": "SSC Napoli",
+        "goals": "6",
+        "flag": "belgium",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "6.",
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "Olympique Lyon",
@@ -37,12 +55,30 @@
     },
     {
         "rank": "-",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Mauro Icardi",
         "country": "Argentina",
         "team": "Paris Saint-Germain",
         "goals": "5",
         "flag": "argentina",
         "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "-",
+        "name": "Josip Iličič",
+        "country": "Slovenia",
+        "team": "Atalanta",
+        "goals": "5",
+        "flag": "slovenia",
+        "logo": "atalanta"
     },
     {
         "rank": "-",
@@ -64,15 +100,6 @@
     },
     {
         "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
-        "goals": "5",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
@@ -90,7 +117,7 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "11.",
+        "rank": "14.",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
@@ -100,21 +127,12 @@
     },
     {
         "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
+        "name": "Emil Forsberg",
+        "country": "Sweden",
+        "team": "RB Leipzig",
         "goals": "4",
-        "flag": "brazil",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "Bayern München",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "sweden",
+        "logo": "rb_leipzig"
     },
     {
         "rank": "-",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
+        "name": "Marcel Sabitzer",
+        "country": "Austria",
+        "team": "RB Leipzig",
         "goals": "4",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
-        "goals": "3",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Youssef El-Arabi",
-        "country": "Morocco",
-        "team": "Olympiakos Piräus",
-        "goals": "3",
-        "flag": "morocco",
-        "logo": "olympiakos_piraus"
+        "flag": "austria",
+        "logo": "rb_leipzig"
     }
 ]
