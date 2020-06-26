@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "19",
+        "goals": "21",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "goals": "14",
+        "goals": "17",
         "flag": "france",
         "logo": "real_madrid"
     },
@@ -22,9 +22,18 @@
         "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
-        "goals": "11",
+        "goals": "12",
         "flag": "spain",
         "logo": "villarreal_cf"
+    },
+    {
+        "rank": "4.",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
@@ -34,6 +43,15 @@
         "goals": "11",
         "flag": "spain",
         "logo": "cd_alaves"
+    },
+    {
+        "rank": "-",
+        "name": "Lucas Ocampos",
+        "country": "Argentina",
+        "team": "Sevilla FC",
+        "goals": "11",
+        "flag": "argentina",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "-",
@@ -54,7 +72,7 @@
         "logo": "fc_barcelona"
     },
     {
-        "rank": "7.",
+        "rank": "9.",
         "name": " Ángel",
         "country": "Spain",
         "team": "Getafe CF",
@@ -64,15 +82,15 @@
     },
     {
         "rank": "-",
-        "name": "Lucas Ocampos",
-        "country": "Argentina",
-        "team": "Sevilla FC",
+        "name": " Raúl García",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
         "goals": "10",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
+        "flag": "spain",
+        "logo": "athletic_bilbao"
     },
     {
-        "rank": "9.",
+        "rank": "11.",
         "name": "Ezequiel Ávila",
         "country": "Argentina",
         "team": "CA Osasuna",
@@ -100,15 +118,6 @@
     },
     {
         "rank": "-",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
         "name": " Joselu",
         "country": "Spain",
         "team": "CD Alavés",
@@ -127,46 +136,10 @@
     },
     {
         "rank": "-",
-        "name": " Raúl García",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "9",
-        "flag": "brazil",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "17.",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "FC Barcelona",
-        "goals": "8",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Joaquín",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
         "name": " Mata",
         "country": "Spain",
         "team": "Getafe CF",
-        "goals": "8",
+        "goals": "9",
         "flag": "spain",
         "logo": "getafe_cf"
     },
@@ -175,8 +148,35 @@
         "name": " Mikel Oyarzabal",
         "country": "Spain",
         "team": "Real Sociedad",
-        "goals": "8",
+        "goals": "9",
         "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": "Álvaro Morata",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Óscar",
+        "country": "Spain",
+        "team": "CD Leganés",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "cd_leganes"
+    },
+    {
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "9",
+        "flag": "brazil",
         "logo": "real_sociedad"
     }
 ]

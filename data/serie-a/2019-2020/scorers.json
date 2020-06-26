@@ -13,7 +13,7 @@
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Juventus",
-        "goals": "21",
+        "goals": "22",
         "flag": "portugal",
         "logo": "juventus"
     },
@@ -22,7 +22,7 @@
         "name": "Romelu Lukaku",
         "country": "Belgium",
         "team": "Inter",
-        "goals": "17",
+        "goals": "19",
         "flag": "belgium",
         "logo": "inter"
     },
@@ -49,12 +49,21 @@
         "name": "Francesco Caputo",
         "country": "Italy",
         "team": "Sassuolo Calcio",
-        "goals": "13",
+        "goals": "14",
         "flag": "italy",
         "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "14",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "8.",
         "name": "Luis Muriel",
         "country": "Colombia",
         "team": "Atalanta",
@@ -63,22 +72,31 @@
         "logo": "atalanta"
     },
     {
-        "rank": "8.",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "AS Roma",
-        "goals": "12",
-        "flag": "bosnia_herzegovina",
-        "logo": "as_roma"
+        "rank": "-",
+        "name": "Duván Zapata",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "goals": "13",
+        "flag": "colombia",
+        "logo": "atalanta"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Lautaro Martínez",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "11",
+        "goals": "12",
         "flag": "argentina",
         "logo": "inter"
+    },
+    {
+        "rank": "11.",
+        "name": "Andreas Cornelius",
+        "country": "Denmark",
+        "team": "Parma Calcio 1913",
+        "goals": "11",
+        "flag": "denmark",
+        "logo": "parma_calcio_1913"
     },
     {
         "rank": "-",
@@ -90,20 +108,11 @@
         "logo": "spal_2013_ferrara"
     },
     {
-        "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Atalanta",
-        "goals": "11",
-        "flag": "colombia",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Andrea Belotti",
         "country": "Italy",
         "team": "Torino FC",
-        "goals": "9",
+        "goals": "10",
         "flag": "italy",
         "logo": "torino_fc"
     },
@@ -112,7 +121,7 @@
         "name": "Domenico Berardi",
         "country": "Italy",
         "team": "Sassuolo Calcio",
-        "goals": "9",
+        "goals": "10",
         "flag": "italy",
         "logo": "sassuolo_calcio"
     },
@@ -121,9 +130,18 @@
         "name": "Arkadiusz Milik",
         "country": "Poland",
         "team": "SSC Napoli",
-        "goals": "9",
+        "goals": "10",
         "flag": "poland",
         "logo": "ssc_napoli"
+    },
+    {
+        "rank": "16.",
+        "name": "Marco Mancosu",
+        "country": "Italy",
+        "team": "US Lecce",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "us_lecce"
     },
     {
         "rank": "-",
@@ -135,7 +153,7 @@
         "logo": "sampdoria"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": "Jérémie Boga",
         "country": "Ivory Coast",
         "team": "Sassuolo Calcio",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Andreas Cornelius",
-        "country": "Denmark",
-        "team": "Parma Calcio 1913",
-        "goals": "8",
-        "flag": "denmark",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Mancosu",
-        "country": "Italy",
-        "team": "US Lecce",
-        "goals": "8",
-        "flag": "italy",
-        "logo": "us_lecce"
-    },
-    {
-        "rank": "20.",
-        "name": "Joaquín Correa",
+        "name": "Paulo Dybala",
         "country": "Argentina",
-        "team": "Lazio Roma",
-        "goals": "7",
+        "team": "Juventus",
+        "goals": "8",
         "flag": "argentina",
-        "logo": "lazio_roma"
+        "logo": "juventus"
     }
 ]

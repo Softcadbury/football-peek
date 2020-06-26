@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "assists": "12",
+        "assists": "16",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -18,7 +18,16 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "assists": "8",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "4.",
         "name": " Roberto Torres",
         "country": "Spain",
         "team": "CA Osasuna",
@@ -37,15 +46,15 @@
     },
     {
         "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
+        "name": " Santi Cazorla",
+        "country": "Spain",
+        "team": "Villarreal CF",
         "assists": "7",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Éver Banega",
         "country": "Argentina",
         "team": "Sevilla FC",
@@ -91,15 +100,6 @@
     },
     {
         "rank": "-",
-        "name": " Santi Cazorla",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
         "name": "Daniel Wass",
         "country": "Denmark",
         "team": "Valencia CF",
@@ -118,12 +118,39 @@
     },
     {
         "rank": "-",
+        "name": " Canales",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Cucurella",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
         "name": " Dani Carvajal",
         "country": "Spain",
         "team": "Real Madrid",
         "assists": "5",
         "flag": "spain",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Denis Suárez",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
@@ -136,47 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Toni Kroos",
-        "country": "Germany",
-        "team": "Real Madrid",
-        "assists": "5",
-        "flag": "germany",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Lucas Pérez",
+        "name": " Jesús Navas",
         "country": "Spain",
-        "team": "CD Alavés",
+        "team": "Sevilla FC",
         "assists": "5",
         "flag": "spain",
-        "logo": "cd_alaves"
+        "logo": "sevilla_fc"
     },
     {
         "rank": "-",
-        "name": " Mata",
+        "name": " Koke",
         "country": "Spain",
-        "team": "Getafe CF",
+        "team": "Atlético Madrid",
         "assists": "5",
         "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Martin Ødegaard",
-        "country": "Norway",
-        "team": "Real Sociedad",
-        "assists": "5",
-        "flag": "norway",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Víctor Díaz",
-        "country": "Spain",
-        "team": "Granada CF",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "granada_cf"
+        "logo": "atletico_madrid"
     }
 ]
