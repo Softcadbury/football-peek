@@ -1,28 +1,69 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "21/08/2020",
+                "time1": "20:00",
+                "team1": "Sevilla FC",
+                "team2": "Inter",
+                "score1": "3:2",
+                "winner": "Sevilla FC",
+                "team1Logo": "sevilla_fc",
+                "team2Logo": "inter"
+            }
+        ]
+    },
+    {
         "name": "Eighth-finals",
         "matches": [
             {
                 "date1": "12/03/2020",
                 "date2": "05/08/2020",
-                "time1": "17:55",
-                "team1": "İstanbul Başakşehir F.K.",
-                "team2": "FC København",
-                "score1": "1:0",
-                "score2": "-:-",
-                "winner": "",
-                "team1Logo": "i_stanbul_ba_ak_ehir_f_k_",
-                "team2Logo": "fc_k_benhavn"
+                "time2": "20:00",
+                "team1": "Inter",
+                "team2": "Getafe CF",
+                "score1": "dnp",
+                "score2": "0:2",
+                "winner": "Inter",
+                "team1Logo": "inter",
+                "team2Logo": "getafe_cf"
+            },
+            {
+                "date1": "12/03/2020",
+                "date2": "06/08/2020",
+                "time2": "17:55",
+                "team1": "Sevilla FC",
+                "team2": "AS Roma",
+                "score1": "dnp",
+                "score2": "0:2",
+                "winner": "Sevilla FC",
+                "team1Logo": "sevilla_fc",
+                "team2Logo": "as_roma"
             },
             {
                 "date1": "12/03/2020",
                 "date2": "05/08/2020",
                 "time1": "17:55",
+                "time2": "17:55",
+                "team1": "İstanbul Başakşehir",
+                "team2": "FC København",
+                "score1": "1:0",
+                "score2": "0:3",
+                "winner": "FC København",
+                "team1Logo": "i_stanbul_ba_ak_ehir",
+                "team2Logo": "fc_k_benhavn"
+            },
+            {
+                "date1": "12/03/2020",
+                "date2": "06/08/2020",
+                "time1": "17:55",
+                "time2": "20:00",
                 "team1": "Eintracht Frankfurt",
                 "team2": "FC Basel",
                 "score1": "0:3",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "0:1",
+                "winner": "FC Basel",
                 "team1Logo": "eintracht_frankfurt",
                 "team2Logo": "fc_basel"
             },
@@ -30,35 +71,38 @@
                 "date1": "12/03/2020",
                 "date2": "05/08/2020",
                 "time1": "17:55",
+                "time2": "20:00",
                 "team1": "LASK",
                 "team2": "Manchester United",
                 "score1": "0:5",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:2",
+                "winner": "Manchester United",
                 "team1Logo": "lask",
                 "team2Logo": "manchester_united"
             },
             {
                 "date1": "12/03/2020",
-                "date2": "05/08/2020",
+                "date2": "06/08/2020",
                 "time1": "20:00",
+                "time2": "20:00",
                 "team1": "Olympiakos Piräus",
                 "team2": "Wolverhampton Wanderers",
                 "score1": "1:1",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "0:1",
+                "winner": "Wolverhampton Wanderers",
                 "team1Logo": "olympiakos_piraus",
                 "team2Logo": "wolverhampton_wanderers"
             },
             {
                 "date1": "12/03/2020",
-                "date2": "05/08/2020",
+                "date2": "06/08/2020",
                 "time1": "20:00",
+                "time2": "17:55",
                 "team1": "Rangers FC",
                 "team2": "Bayer Leverkusen",
                 "score1": "1:3",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "0:1",
+                "winner": "Bayer Leverkusen",
                 "team1Logo": "rangers_fc",
                 "team2Logo": "bayer_leverkusen"
             },
@@ -66,35 +110,14 @@
                 "date1": "12/03/2020",
                 "date2": "05/08/2020",
                 "time1": "20:00",
+                "time2": "17:55",
                 "team1": "VfL Wolfsburg",
                 "team2": "Shakhtar Donetsk",
                 "score1": "1:2",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "0:3",
+                "winner": "Shakhtar Donetsk",
                 "team1Logo": "vfl_wolfsburg",
                 "team2Logo": "shakhtar_donetsk"
-            },
-            {
-                "date1": "05/08/2020",
-                "date2": "05/08/2020",
-                "team1": "Inter",
-                "team2": "Getafe CF",
-                "score1": "-:-",
-                "score2": "undefined:dnp",
-                "winner": "",
-                "team1Logo": "inter",
-                "team2Logo": "getafe_cf"
-            },
-            {
-                "date1": "05/08/2020",
-                "date2": "05/08/2020",
-                "team1": "Sevilla FC",
-                "team2": "AS Roma",
-                "score1": "-:-",
-                "score2": "undefined:dnp",
-                "winner": "",
-                "team1Logo": "sevilla_fc",
-                "team2Logo": "as_roma"
             }
         ]
     },
@@ -107,12 +130,12 @@
                 "time1": "17:55",
                 "time2": "17:55",
                 "team1": "Sporting CP",
-                "team2": "İstanbul Başakşehir F.K.",
+                "team2": "İstanbul Başakşehir",
                 "score1": "3:1",
                 "score2": "1:4",
-                "winner": "İstanbul Başakşehir F.K.",
+                "winner": "İstanbul Başakşehir",
                 "team1Logo": "sporting_cp",
-                "team2Logo": "i_stanbul_ba_ak_ehir_f_k_"
+                "team2Logo": "i_stanbul_ba_ak_ehir"
             },
             {
                 "date1": "20/02/2020",

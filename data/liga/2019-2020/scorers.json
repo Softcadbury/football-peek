@@ -4,7 +4,7 @@
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "FC Barcelona",
-        "goals": "21",
+        "goals": "25",
         "flag": "argentina",
         "logo": "fc_barcelona"
     },
@@ -13,7 +13,7 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "goals": "17",
+        "goals": "21",
         "flag": "france",
         "logo": "real_madrid"
     },
@@ -22,18 +22,72 @@
         "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
-        "goals": "12",
+        "goals": "18",
         "flag": "spain",
         "logo": "villarreal_cf"
     },
     {
         "rank": "4.",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
+        "goals": "16",
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "5.",
+        "name": " Raúl García",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "15",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "6.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "11",
+        "goals": "14",
         "flag": "spain",
         "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": "Lucas Ocampos",
+        "country": "Argentina",
+        "team": "Sevilla FC",
+        "goals": "14",
+        "flag": "argentina",
+        "logo": "sevilla_fc"
+    },
+    {
+        "rank": "8.",
+        "name": "Ante Budimir",
+        "country": "Croatia",
+        "team": "RCD Mallorca",
+        "goals": "13",
+        "flag": "croatia",
+        "logo": "rcd_mallorca"
+    },
+    {
+        "rank": "9.",
+        "name": "Álvaro Morata",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "10.",
+        "name": " Joselu",
+        "country": "Spain",
+        "team": "CD Alavés",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "cd_alaves"
     },
     {
         "rank": "-",
@@ -46,12 +100,12 @@
     },
     {
         "rank": "-",
-        "name": "Lucas Ocampos",
-        "country": "Argentina",
-        "team": "Sevilla FC",
+        "name": " Mata",
+        "country": "Spain",
+        "team": "Getafe CF",
         "goals": "11",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
+        "flag": "spain",
+        "logo": "getafe_cf"
     },
     {
         "rank": "-",
@@ -64,15 +118,33 @@
     },
     {
         "rank": "-",
-        "name": "Luis Suárez",
-        "country": "Uruguay",
-        "team": "FC Barcelona",
+        "name": " Santi Cazorla",
+        "country": "Spain",
+        "team": "Villarreal CF",
         "goals": "11",
-        "flag": "uruguay",
-        "logo": "fc_barcelona"
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": " Sergio Ramos",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Willian José",
+        "country": "Brazil",
+        "team": "Real Sociedad",
+        "goals": "11",
+        "flag": "brazil",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "17.",
         "name": " Ángel",
         "country": "Spain",
         "team": "Getafe CF",
@@ -82,101 +154,29 @@
     },
     {
         "rank": "-",
-        "name": " Raúl García",
+        "name": " Carlos Fernández",
         "country": "Spain",
-        "team": "Athletic Bilbao",
+        "team": "Granada CF",
         "goals": "10",
         "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "11.",
-        "name": "Ezequiel Ávila",
-        "country": "Argentina",
-        "team": "CA Osasuna",
-        "goals": "9",
-        "flag": "argentina",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": "Ante Budimir",
-        "country": "Croatia",
-        "team": "RCD Mallorca",
-        "goals": "9",
-        "flag": "croatia",
-        "logo": "rcd_mallorca"
+        "logo": "granada_cf"
     },
     {
         "rank": "-",
         "name": "Maximiliano Gómez",
         "country": "Uruguay",
         "team": "Valencia CF",
-        "goals": "9",
+        "goals": "10",
         "flag": "uruguay",
         "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Joselu",
-        "country": "Spain",
-        "team": "CD Alavés",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "cd_alaves"
     },
     {
         "rank": "-",
         "name": " Loren",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "9",
+        "goals": "10",
         "flag": "spain",
         "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Mata",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Mikel Oyarzabal",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": "Álvaro Morata",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Óscar",
-        "country": "Spain",
-        "team": "CD Leganés",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "cd_leganes"
-    },
-    {
-        "rank": "-",
-        "name": " Willian José",
-        "country": "Brazil",
-        "team": "Real Sociedad",
-        "goals": "9",
-        "flag": "brazil",
-        "logo": "real_sociedad"
     }
 ]

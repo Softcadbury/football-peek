@@ -4,7 +4,7 @@
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
-        "assists": "13",
+        "assists": "15",
         "flag": "spain",
         "logo": "lazio_roma"
     },
@@ -13,7 +13,7 @@
         "name": "Papu Gómez",
         "country": "Argentina",
         "team": "Atalanta",
-        "assists": "12",
+        "assists": "14",
         "flag": "argentina",
         "logo": "atalanta"
     },
@@ -28,6 +28,60 @@
     },
     {
         "rank": "4.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "AC Milan",
+        "assists": "8",
+        "flag": "turkey",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Dejan Kulusevski",
+        "country": "Sweden",
+        "team": "Parma Calcio 1913",
+        "assists": "8",
+        "flag": "sweden",
+        "logo": "parma_calcio_1913"
+    },
+    {
+        "rank": "-",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Inter",
+        "assists": "8",
+        "flag": "chile",
+        "logo": "inter"
+    },
+    {
+        "rank": "9.",
+        "name": "Rodrigo Bentancur",
+        "country": "Uruguay",
+        "team": "Juventus",
+        "assists": "7",
+        "flag": "uruguay",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Inter",
@@ -37,37 +91,28 @@
     },
     {
         "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
         "assists": "7",
-        "flag": "italy",
-        "logo": "lazio_roma"
+        "flag": "argentina",
+        "logo": "juventus"
     },
     {
         "rank": "-",
-        "name": "Dejan Kulusevski",
-        "country": "Sweden",
-        "team": "Parma Calcio 1913",
+        "name": "Seko Fofana",
+        "country": "Ivory Coast",
+        "team": "Udinese Calcio",
         "assists": "7",
-        "flag": "sweden",
-        "logo": "parma_calcio_1913"
-    },
-    {
-        "rank": "7.",
-        "name": "Rodrigo Bentancur",
-        "country": "Uruguay",
-        "team": "Juventus",
-        "assists": "6",
-        "flag": "uruguay",
-        "logo": "juventus"
+        "flag": "ivory_coast",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
         "name": "Robin Gosens",
         "country": "Germany",
         "team": "Atalanta",
-        "assists": "6",
+        "assists": "7",
         "flag": "germany",
         "logo": "atalanta"
     },
@@ -76,80 +121,8 @@
         "name": " José Callejón",
         "country": "Spain",
         "team": "SSC Napoli",
-        "assists": "6",
+        "assists": "7",
         "flag": "spain",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Radja Nainggolan",
-        "country": "Belgium",
-        "team": "Cagliari Calcio",
-        "assists": "6",
-        "flag": "belgium",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "11.",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Marcelo Brozović",
-        "country": "Croatia",
-        "team": "Inter",
-        "assists": "5",
-        "flag": "croatia",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Marten de Roon",
-        "country": "Netherlands",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Alfred Duncan",
-        "country": "Ghana",
-        "team": "Sassuolo Calcio",
-        "assists": "5",
-        "flag": "ghana",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Paolo Ghiglione",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Iličič",
-        "country": "Slovenia",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "slovenia",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "assists": "5",
-        "flag": "italy",
         "logo": "ssc_napoli"
     },
     {
@@ -157,26 +130,53 @@
         "name": "Darko Lazović",
         "country": "Serbia",
         "team": "Hellas Verona",
-        "assists": "5",
+        "assists": "7",
         "flag": "serbia",
         "logo": "hellas_verona"
     },
     {
         "rank": "-",
-        "name": "Luca Pellegrini",
+        "name": "Sandro Tonali",
         "country": "Italy",
-        "team": "Cagliari Calcio",
-        "assists": "5",
+        "team": "Brescia Calcio",
+        "assists": "7",
         "flag": "italy",
-        "logo": "cagliari_calcio"
+        "logo": "brescia_calcio"
+    },
+    {
+        "rank": "17.",
+        "name": "Musa Barrow",
+        "country": "Gambia",
+        "team": "Bologna FC",
+        "assists": "6",
+        "flag": "gambia",
+        "logo": "bologna_fc"
     },
     {
         "rank": "-",
-        "name": "Rafael Tolói",
-        "country": "Brazil",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "brazil",
-        "logo": "atalanta"
+        "name": "Cristiano Biraghi",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Marcelo Brozović",
+        "country": "Croatia",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Francesco Caputo",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
     }
 ]

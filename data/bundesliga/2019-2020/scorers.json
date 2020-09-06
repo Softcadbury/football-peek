@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "33",
+        "goals": "34",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,7 +13,7 @@
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "goals": "26",
+        "goals": "28",
         "flag": "germany",
         "logo": "rb_leipzig"
     },
@@ -91,6 +91,15 @@
     },
     {
         "rank": "-",
+        "name": " André Silva",
+        "country": "Portugal",
+        "team": "Eintracht Frankfurt",
+        "goals": "12",
+        "flag": "portugal",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Bayern München",
@@ -108,16 +117,16 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "13.",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "Eintracht Frankfurt",
-        "goals": "11",
-        "flag": "portugal",
-        "logo": "eintracht_frankfurt"
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "12",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
     },
     {
-        "rank": "-",
+        "rank": "15.",
         "name": "Nils Petersen",
         "country": "Germany",
         "team": "SC Freiburg",
@@ -135,7 +144,7 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": "Alassane Pléa",
         "country": "France",
         "team": "Bor. Mönchengladbach",
@@ -162,21 +171,12 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "19.",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "goals": "9",
-        "flag": "austria",
-        "logo": "rb_leipzig"
-    },
-    {
         "rank": "-",
-        "name": "Lars Stindl",
+        "name": "Kevin Volland",
         "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "goals": "9",
+        "team": "Bayer Leverkusen",
+        "goals": "10",
         "flag": "germany",
-        "logo": "bor__monchengladbach"
+        "logo": "bayer_leverkusen"
     }
 ]

@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "11",
+        "goals": "15",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -22,9 +22,27 @@
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Bayern München",
-        "goals": "6",
+        "goals": "9",
         "flag": "germany",
         "logo": "bayern_munchen"
+    },
+    {
+        "rank": "4.",
+        "name": "Memphis Depay",
+        "country": "Netherlands",
+        "team": "Olympique Lyon",
+        "goals": "6",
+        "flag": "netherlands",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -45,22 +63,22 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "6.",
-        "name": "Memphis Depay",
-        "country": "Netherlands",
-        "team": "Olympique Lyon",
-        "goals": "5",
-        "flag": "netherlands",
-        "logo": "olympique_lyon"
+        "rank": "-",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "6",
+        "flag": "england",
+        "logo": "manchester_city"
     },
     {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
+        "rank": "9.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
         "goals": "5",
-        "flag": "brazil",
-        "logo": "manchester_city"
+        "flag": "france",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
@@ -109,21 +127,21 @@
     },
     {
         "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
+        "name": "Luis Suárez",
+        "country": "Uruguay",
+        "team": "FC Barcelona",
         "goals": "5",
-        "flag": "england",
-        "logo": "manchester_city"
+        "flag": "uruguay",
+        "logo": "fc_barcelona"
     },
     {
-        "rank": "14.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
+        "rank": "16.",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Juventus",
         "goals": "4",
-        "flag": "france",
-        "logo": "real_madrid"
+        "flag": "portugal",
+        "logo": "juventus"
     },
     {
         "rank": "-",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "4",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Mislav Oršić",
         "country": "Croatia",
         "team": "Dinamo Zagreb",
         "goals": "4",
         "flag": "croatia",
         "logo": "dinamo_zagreb"
-    },
-    {
-        "rank": "-",
-        "name": "Quincy Promes",
-        "country": "Netherlands",
-        "team": "AFC Ajax",
-        "goals": "4",
-        "flag": "netherlands",
-        "logo": "afc_ajax"
-    },
-    {
-        "rank": "-",
-        "name": " Rodrygo",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Marcel Sabitzer",
-        "country": "Austria",
-        "team": "RB Leipzig",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "rb_leipzig"
     }
 ]

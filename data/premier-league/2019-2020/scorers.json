@@ -4,7 +4,7 @@
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "19",
+        "goals": "23",
         "flag": "england",
         "logo": "leicester_city"
     },
@@ -13,61 +13,70 @@
         "name": "Pierre-Emerick Aubameyang",
         "country": "Gabon",
         "team": "Arsenal FC",
-        "goals": "17",
+        "goals": "22",
         "flag": "gabon",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mohamed Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "17",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "4.",
-        "name": "Kun Agüero",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "goals": "16",
-        "flag": "argentina",
-        "logo": "manchester_city"
     },
     {
         "rank": "-",
         "name": "Danny Ings",
         "country": "England",
         "team": "Southampton FC",
-        "goals": "16",
+        "goals": "22",
         "flag": "england",
         "logo": "southampton_fc"
     },
     {
+        "rank": "4.",
+        "name": "Raheem Sterling",
+        "country": "England",
+        "team": "Manchester City",
+        "goals": "20",
+        "flag": "england",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "5.",
+        "name": "Mohamed Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "19",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
         "rank": "6.",
-        "name": "Raúl Jiménez",
-        "country": "Mexico",
-        "team": "Wolverhampton Wanderers",
-        "goals": "15",
-        "flag": "mexico",
-        "logo": "wolverhampton_wanderers"
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "18",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
-        "goals": "15",
+        "goals": "18",
         "flag": "senegal",
         "logo": "liverpool_fc"
     },
     {
         "rank": "8.",
+        "name": "Raúl Jiménez",
+        "country": "Mexico",
+        "team": "Wolverhampton Wanderers",
+        "goals": "17",
+        "flag": "mexico",
+        "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
         "name": "Anthony Martial",
         "country": "France",
         "team": "Manchester United",
-        "goals": "14",
+        "goals": "17",
         "flag": "france",
         "logo": "manchester_united"
     },
@@ -76,21 +85,48 @@
         "name": "Marcus Rashford",
         "country": "England",
         "team": "Manchester United",
-        "goals": "14",
+        "goals": "17",
         "flag": "england",
         "logo": "manchester_united"
     },
     {
-        "rank": "10.",
+        "rank": "11.",
+        "name": "Kun Agüero",
+        "country": "Argentina",
+        "team": "Manchester City",
+        "goals": "16",
+        "flag": "argentina",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "12.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "Chelsea FC",
-        "goals": "13",
+        "goals": "15",
         "flag": "england",
         "logo": "chelsea_fc"
     },
     {
+        "rank": "13.",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "14",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
         "rank": "-",
+        "name": "Chris Wood",
+        "country": "New Zealand",
+        "team": "Burnley FC",
+        "goals": "14",
+        "flag": "new_zealand",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "15.",
         "name": "Dominic Calvert-Lewin",
         "country": "England",
         "team": "Everton FC",
@@ -99,30 +135,30 @@
         "logo": "everton_fc"
     },
     {
-        "rank": "12.",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "12",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
         "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "goals": "12",
-        "flag": "england",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "14.",
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "goals": "11",
+        "goals": "13",
         "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": " Richarlison",
+        "country": "Brazil",
+        "team": "Everton FC",
+        "goals": "13",
+        "flag": "brazil",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "18.",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Manchester City",
+        "goals": "11",
+        "flag": "algeria",
         "logo": "manchester_city"
     },
     {
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Chris Wood",
-        "country": "New Zealand",
-        "team": "Burnley FC",
+        "name": "Heung-min Son",
+        "country": "South Korea",
+        "team": "Tottenham Hotspur",
         "goals": "11",
-        "flag": "new_zealand",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "17.",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Manchester City",
-        "goals": "10",
-        "flag": "brazil",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " Richarlison",
-        "country": "Brazil",
-        "team": "Everton FC",
-        "goals": "10",
-        "flag": "brazil",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "19.",
-        "name": "Jordan Ayew",
-        "country": "Ghana",
-        "team": "Crystal Palace",
-        "goals": "9",
-        "flag": "ghana",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Manchester City",
-        "goals": "9",
-        "flag": "algeria",
-        "logo": "manchester_city"
+        "flag": "south_korea",
+        "logo": "tottenham_hotspur"
     }
 ]

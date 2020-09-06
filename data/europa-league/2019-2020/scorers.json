@@ -4,12 +4,21 @@
         "name": " Bruno Fernandes",
         "country": "Portugal",
         "team": "Sporting CP",
-        "goals": "6",
+        "goals": "8",
         "flag": "portugal",
         "logo": "sporting_cp"
     },
     {
-        "rank": "-",
+        "rank": "2.",
+        "name": "Romelu Lukaku",
+        "country": "Belgium",
+        "team": "Inter",
+        "goals": "7",
+        "flag": "belgium",
+        "logo": "inter"
+    },
+    {
+        "rank": "3.",
         "name": " Diogo Jota",
         "country": "Portugal",
         "team": "Wolverhampton Wanderers",
@@ -48,13 +57,22 @@
         "rank": "-",
         "name": "Edin Višća",
         "country": "Bosnia-Herzegovina",
-        "team": "İstanbul Başakşehir F.K.",
+        "team": "İstanbul Başakşehir",
         "goals": "6",
         "flag": "bosnia_herzegovina",
-        "logo": "i_stanbul_ba_ak_ehir_f_k_"
+        "logo": "i_stanbul_ba_ak_ehir"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
+        "name": "Fabian Frei",
+        "country": "Switzerland",
+        "team": "FC Basel",
+        "goals": "5",
+        "flag": "switzerland",
+        "logo": "fc_basel"
+    },
+    {
+        "rank": "-",
         "name": "Mason Greenwood",
         "country": "England",
         "team": "Manchester United",
@@ -81,7 +99,7 @@
         "logo": "lask"
     },
     {
-        "rank": "10.",
+        "rank": "12.",
         "name": "Myron Boadu",
         "country": "Netherlands",
         "team": "AZ Alkmaar",
@@ -100,12 +118,30 @@
     },
     {
         "rank": "-",
-        "name": "Fabian Frei",
-        "country": "Switzerland",
-        "team": "FC Basel",
+        "name": "Kai Havertz",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
         "goals": "4",
-        "flag": "switzerland",
-        "logo": "fc_basel"
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Raúl Jiménez",
+        "country": "Mexico",
+        "team": "Wolverhampton Wanderers",
+        "goals": "4",
+        "flag": "mexico",
+        "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
+        "name": " Júnior Moraes",
+        "country": "Ukraine",
+        "team": "Shakhtar Donetsk",
+        "goals": "4",
+        "flag": "ukraine",
+        "logo": "shakhtar_donetsk"
     },
     {
         "rank": "-",
@@ -115,6 +151,15 @@
         "goals": "4",
         "flag": "romania",
         "logo": "pfc_ludogorets_razgrad"
+    },
+    {
+        "rank": "-",
+        "name": "Anthony Martial",
+        "country": "France",
+        "team": "Manchester United",
+        "goals": "4",
+        "flag": "france",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -133,50 +178,5 @@
         "goals": "4",
         "flag": "nigeria",
         "logo": "partizan"
-    },
-    {
-        "rank": "-",
-        "name": "Danel Sinani",
-        "country": "Luxembourg",
-        "team": "F91 Dudelange",
-        "goals": "4",
-        "flag": "luxembourg",
-        "logo": "f91_dudelange"
-    },
-    {
-        "rank": "17.",
-        "name": " Ángel",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
-        "goals": "3",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Josip Brekalo",
-        "country": "Croatia",
-        "team": "VfL Wolfsburg",
-        "goals": "3",
-        "flag": "croatia",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Bua",
-        "country": "Spain",
-        "team": "FC Basel",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "fc_basel"
     }
 ]
