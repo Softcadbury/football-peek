@@ -3,7 +3,7 @@
 function config() {
     const periodFormat = '{0}-{1}';
     const firstHandledYear = 2000;
-    const lastHandledPeriod = 2019;
+    const lastHandledPeriod = 2020;
 
     const currentPeriod = periodFormat.replace('{0}', lastHandledPeriod).replace('{1}', lastHandledPeriod + 1);
     const availablesPeriod = [];
