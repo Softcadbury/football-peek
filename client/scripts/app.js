@@ -28,7 +28,7 @@ document.onkeydown = function (e) {
 const allTime = document.getElementsByClassName('time');
 const currentOffset = new Date().getTimezoneOffset() / 60;
 
-const isSummerTime = false;
+const isSummerTime = true;
 const offsetSummerTime = isSummerTime ? 1 : 0;
 
 for (let i = 0; i < allTime.length; i++) {
