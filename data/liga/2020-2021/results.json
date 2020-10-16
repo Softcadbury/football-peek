@@ -3,29 +3,29 @@
         "round": 1,
         "matches": [
             {
-                "date": "11/09/2020",
-                "time": "20:00",
-                "homeTeam": "Granada CF",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "granada_cf",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
                 "date": "12/09/2020",
                 "time": "15:00",
                 "homeTeam": "SD Eibar",
                 "awayTeam": "Celta Vigo",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "sd_eibar",
                 "awayTeamLogo": "celta_vigo"
+            },
+            {
+                "date": "12/09/2020",
+                "time": "17:30",
+                "homeTeam": "Granada CF",
+                "awayTeam": "Athletic Bilbao",
+                "score": "2:0",
+                "homeTeamLogo": "granada_cf",
+                "awayTeamLogo": "athletic_bilbao"
             },
             {
                 "date": "12/09/2020",
                 "time": "20:00",
                 "homeTeam": "Cádiz CF",
                 "awayTeam": "CA Osasuna",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "cadiz_cf",
                 "awayTeamLogo": "ca_osasuna"
             },
@@ -49,10 +49,19 @@
             },
             {
                 "date": "13/09/2020",
+                "time": "13:00",
+                "homeTeam": "CD Alavés",
+                "awayTeam": "Real Betis",
+                "score": "0:1",
+                "homeTeamLogo": "cd_alaves",
+                "awayTeamLogo": "real_betis"
+            },
+            {
+                "date": "13/09/2020",
                 "time": "15:00",
                 "homeTeam": "Real Valladolid",
                 "awayTeam": "Real Sociedad",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "real_valladolid",
                 "awayTeamLogo": "real_sociedad"
             },
@@ -61,7 +70,7 @@
                 "time": "17:30",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "SD Huesca",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "villarreal_cf",
                 "awayTeamLogo": "sd_huesca"
             },
@@ -70,18 +79,9 @@
                 "time": "20:00",
                 "homeTeam": "Valencia CF",
                 "awayTeam": "Levante UD",
-                "score": "-:-",
+                "score": "4:2",
                 "homeTeamLogo": "valencia_cf",
                 "awayTeamLogo": "levante_ud"
-            },
-            {
-                "date": "14/09/2020",
-                "time": "20:00",
-                "homeTeam": "CD Alavés",
-                "awayTeam": "Real Betis",
-                "score": "-:-",
-                "homeTeamLogo": "cd_alaves",
-                "awayTeamLogo": "real_betis"
             },
             {
                 "date": "12/01/2021",
@@ -98,31 +98,31 @@
         "round": 2,
         "matches": [
             {
-                "date": "18/09/2020",
-                "time": "20:00",
+                "date": "19/09/2020",
+                "time": "15:00",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "SD Eibar",
+                "score": "2:1",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "sd_eibar"
+            },
+            {
+                "date": "19/09/2020",
+                "time": "17:30",
                 "homeTeam": "Getafe CF",
                 "awayTeam": "CA Osasuna",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "getafe_cf",
                 "awayTeamLogo": "ca_osasuna"
             },
             {
                 "date": "19/09/2020",
-                "time": "15:00",
+                "time": "20:00",
                 "homeTeam": "Celta Vigo",
                 "awayTeam": "Valencia CF",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "celta_vigo",
                 "awayTeamLogo": "valencia_cf"
-            },
-            {
-                "date": "19/09/2020",
-                "time": "20:00",
-                "homeTeam": "Villarreal CF",
-                "awayTeam": "SD Eibar",
-                "score": "-:-",
-                "homeTeamLogo": "villarreal_cf",
-                "awayTeamLogo": "sd_eibar"
             },
             {
                 "date": "20/09/2020",
@@ -147,16 +147,25 @@
                 "time": "15:00",
                 "homeTeam": "SD Huesca",
                 "awayTeam": "Cádiz CF",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "sd_huesca",
                 "awayTeamLogo": "cadiz_cf"
             },
             {
                 "date": "20/09/2020",
                 "time": "17:30",
+                "homeTeam": "Real Betis",
+                "awayTeam": "Real Valladolid",
+                "score": "2:0",
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "real_valladolid"
+            },
+            {
+                "date": "20/09/2020",
+                "time": "17:30",
                 "homeTeam": "Granada CF",
                 "awayTeam": "CD Alavés",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "granada_cf",
                 "awayTeamLogo": "cd_alaves"
             },
@@ -165,18 +174,9 @@
                 "time": "20:00",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Real Madrid",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "real_sociedad",
                 "awayTeamLogo": "real_madrid"
-            },
-            {
-                "date": "21/09/2020",
-                "time": "20:00",
-                "homeTeam": "Real Betis",
-                "awayTeam": "Real Valladolid",
-                "score": "-:-",
-                "homeTeamLogo": "real_betis",
-                "awayTeamLogo": "real_valladolid"
             },
             {
                 "date": "06/01/2021",
@@ -193,94 +193,94 @@
         "round": 3,
         "matches": [
             {
-                "date": "27/09/2020",
-                "time": "",
+                "date": "26/09/2020",
+                "time": "12:00",
                 "homeTeam": "CD Alavés",
                 "awayTeam": "Getafe CF",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "cd_alaves",
                 "awayTeamLogo": "getafe_cf"
             },
             {
-                "date": "27/09/2020",
-                "time": "",
-                "homeTeam": "Atlético Madrid",
-                "awayTeam": "Granada CF",
-                "score": "-:-",
-                "homeTeamLogo": "atletico_madrid",
-                "awayTeamLogo": "granada_cf"
+                "date": "26/09/2020",
+                "time": "15:00",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "SD Huesca",
+                "score": "1:1",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "sd_huesca"
             },
             {
-                "date": "27/09/2020",
-                "time": "",
-                "homeTeam": "FC Barcelona",
-                "awayTeam": "Villarreal CF",
-                "score": "-:-",
-                "homeTeamLogo": "fc_barcelona",
-                "awayTeamLogo": "villarreal_cf"
+                "date": "26/09/2020",
+                "time": "17:30",
+                "homeTeam": "Elche CF",
+                "awayTeam": "Real Sociedad",
+                "score": "0:3",
+                "homeTeamLogo": "elche_cf",
+                "awayTeamLogo": "real_sociedad"
             },
             {
-                "date": "27/09/2020",
-                "time": "",
+                "date": "26/09/2020",
+                "time": "20:00",
                 "homeTeam": "Real Betis",
                 "awayTeam": "Real Madrid",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "real_betis",
                 "awayTeamLogo": "real_madrid"
             },
             {
                 "date": "27/09/2020",
-                "time": "",
-                "homeTeam": "SD Eibar",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "sd_eibar",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "date": "27/09/2020",
-                "time": "",
-                "homeTeam": "Cádiz CF",
-                "awayTeam": "Sevilla FC",
-                "score": "-:-",
-                "homeTeamLogo": "cadiz_cf",
-                "awayTeamLogo": "sevilla_fc"
-            },
-            {
-                "date": "27/09/2020",
-                "time": "",
+                "time": "11:00",
                 "homeTeam": "CA Osasuna",
                 "awayTeam": "Levante UD",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "ca_osasuna",
                 "awayTeamLogo": "levante_ud"
             },
             {
                 "date": "27/09/2020",
-                "time": "",
-                "homeTeam": "Valencia CF",
-                "awayTeam": "SD Huesca",
-                "score": "-:-",
-                "homeTeamLogo": "valencia_cf",
-                "awayTeamLogo": "sd_huesca"
+                "time": "13:00",
+                "homeTeam": "SD Eibar",
+                "awayTeam": "Athletic Bilbao",
+                "score": "1:2",
+                "homeTeamLogo": "sd_eibar",
+                "awayTeamLogo": "athletic_bilbao"
             },
             {
                 "date": "27/09/2020",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Granada CF",
+                "score": "6:1",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "granada_cf"
+            },
+            {
+                "date": "27/09/2020",
+                "time": "17:30",
+                "homeTeam": "Cádiz CF",
+                "awayTeam": "Sevilla FC",
+                "score": "1:3",
+                "homeTeamLogo": "cadiz_cf",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "27/09/2020",
+                "time": "17:30",
                 "homeTeam": "Real Valladolid",
                 "awayTeam": "Celta Vigo",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "real_valladolid",
                 "awayTeamLogo": "celta_vigo"
             },
             {
                 "date": "27/09/2020",
-                "time": "",
-                "homeTeam": "Elche CF",
-                "awayTeam": "Real Sociedad",
-                "score": "-:-",
-                "homeTeamLogo": "elche_cf",
-                "awayTeamLogo": "real_sociedad"
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Villarreal CF",
+                "score": "4:0",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "villarreal_cf"
             }
         ]
     },
@@ -288,94 +288,94 @@
         "round": 4,
         "matches": [
             {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Cádiz CF",
-                "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "cadiz_cf"
+                "date": "29/09/2020",
+                "time": "18:00",
+                "homeTeam": "Real Sociedad",
+                "awayTeam": "Valencia CF",
+                "score": "0:1",
+                "homeTeamLogo": "real_sociedad",
+                "awayTeamLogo": "valencia_cf"
             },
             {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "Celta Vigo",
-                "awayTeam": "FC Barcelona",
-                "score": "-:-",
-                "homeTeamLogo": "celta_vigo",
-                "awayTeamLogo": "fc_barcelona"
-            },
-            {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "SD Eibar",
-                "awayTeam": "Elche CF",
-                "score": "-:-",
-                "homeTeamLogo": "sd_eibar",
-                "awayTeamLogo": "elche_cf"
-            },
-            {
-                "date": "30/09/2020",
-                "time": "",
+                "date": "29/09/2020",
+                "time": "20:30",
                 "homeTeam": "Getafe CF",
                 "awayTeam": "Real Betis",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "getafe_cf",
                 "awayTeamLogo": "real_betis"
             },
             {
                 "date": "30/09/2020",
+                "time": "18:00",
+                "homeTeam": "SD Huesca",
+                "awayTeam": "Atlético Madrid",
+                "score": "0:0",
+                "homeTeamLogo": "sd_huesca",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "30/09/2020",
+                "time": "18:00",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "CD Alavés",
+                "score": "3:1",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "cd_alaves"
+            },
+            {
+                "date": "30/09/2020",
+                "time": "20:30",
+                "homeTeam": "SD Eibar",
+                "awayTeam": "Elche CF",
+                "score": "0:1",
+                "homeTeamLogo": "sd_eibar",
+                "awayTeamLogo": "elche_cf"
+            },
+            {
+                "date": "30/09/2020",
+                "time": "20:30",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Real Valladolid",
+                "score": "1:0",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "real_valladolid"
+            },
+            {
+                "date": "01/10/2020",
+                "time": "18:00",
+                "homeTeam": "Athletic Bilbao",
+                "awayTeam": "Cádiz CF",
+                "score": "0:1",
+                "homeTeamLogo": "athletic_bilbao",
+                "awayTeamLogo": "cadiz_cf"
+            },
+            {
+                "date": "01/10/2020",
+                "time": "18:00",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Levante UD",
+                "score": "1:0",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "levante_ud"
+            },
+            {
+                "date": "01/10/2020",
+                "time": "20:30",
+                "homeTeam": "Celta Vigo",
+                "awayTeam": "FC Barcelona",
+                "score": "0:3",
+                "homeTeamLogo": "celta_vigo",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "12/01/2021",
                 "time": "",
                 "homeTeam": "Granada CF",
                 "awayTeam": "CA Osasuna",
                 "score": "-:-",
                 "homeTeamLogo": "granada_cf",
                 "awayTeamLogo": "ca_osasuna"
-            },
-            {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "SD Huesca",
-                "awayTeam": "Atlético Madrid",
-                "score": "-:-",
-                "homeTeamLogo": "sd_huesca",
-                "awayTeamLogo": "atletico_madrid"
-            },
-            {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "Real Madrid",
-                "awayTeam": "Real Valladolid",
-                "score": "-:-",
-                "homeTeamLogo": "real_madrid",
-                "awayTeamLogo": "real_valladolid"
-            },
-            {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "Real Sociedad",
-                "awayTeam": "Valencia CF",
-                "score": "-:-",
-                "homeTeamLogo": "real_sociedad",
-                "awayTeamLogo": "valencia_cf"
-            },
-            {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "Sevilla FC",
-                "awayTeam": "Levante UD",
-                "score": "-:-",
-                "homeTeamLogo": "sevilla_fc",
-                "awayTeamLogo": "levante_ud"
-            },
-            {
-                "date": "30/09/2020",
-                "time": "",
-                "homeTeam": "Villarreal CF",
-                "awayTeam": "CD Alavés",
-                "score": "-:-",
-                "homeTeamLogo": "villarreal_cf",
-                "awayTeamLogo": "cd_alaves"
             }
         ]
     },
@@ -383,94 +383,94 @@
         "round": 5,
         "matches": [
             {
-                "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "CD Alavés",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "cd_alaves",
-                "awayTeamLogo": "athletic_bilbao"
+                "date": "03/10/2020",
+                "time": "12:00",
+                "homeTeam": "Real Valladolid",
+                "awayTeam": "SD Eibar",
+                "score": "1:2",
+                "homeTeamLogo": "real_valladolid",
+                "awayTeamLogo": "sd_eibar"
             },
             {
-                "date": "04/10/2020",
-                "time": "",
+                "date": "03/10/2020",
+                "time": "15:00",
                 "homeTeam": "Atlético Madrid",
                 "awayTeam": "Villarreal CF",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "atletico_madrid",
                 "awayTeamLogo": "villarreal_cf"
             },
             {
-                "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "FC Barcelona",
-                "awayTeam": "Sevilla FC",
-                "score": "-:-",
-                "homeTeamLogo": "fc_barcelona",
-                "awayTeamLogo": "sevilla_fc"
-            },
-            {
-                "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "Cádiz CF",
-                "awayTeam": "Granada CF",
-                "score": "-:-",
-                "homeTeamLogo": "cadiz_cf",
-                "awayTeamLogo": "granada_cf"
-            },
-            {
-                "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "Levante UD",
-                "awayTeam": "Real Madrid",
-                "score": "-:-",
-                "homeTeamLogo": "levante_ud",
-                "awayTeamLogo": "real_madrid"
-            },
-            {
-                "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "CA Osasuna",
-                "awayTeam": "Celta Vigo",
-                "score": "-:-",
-                "homeTeamLogo": "ca_osasuna",
-                "awayTeamLogo": "celta_vigo"
-            },
-            {
-                "date": "04/10/2020",
-                "time": "",
+                "date": "03/10/2020",
+                "time": "17:30",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Getafe CF",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "real_sociedad",
                 "awayTeamLogo": "getafe_cf"
             },
             {
-                "date": "04/10/2020",
-                "time": "",
+                "date": "03/10/2020",
+                "time": "17:30",
+                "homeTeam": "Elche CF",
+                "awayTeam": "SD Huesca",
+                "score": "0:0",
+                "homeTeamLogo": "elche_cf",
+                "awayTeamLogo": "sd_huesca"
+            },
+            {
+                "date": "03/10/2020",
+                "time": "20:00",
                 "homeTeam": "Valencia CF",
                 "awayTeam": "Real Betis",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "valencia_cf",
                 "awayTeamLogo": "real_betis"
             },
             {
                 "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "Real Valladolid",
-                "awayTeam": "SD Eibar",
-                "score": "-:-",
-                "homeTeamLogo": "real_valladolid",
-                "awayTeamLogo": "sd_eibar"
+                "time": "11:00",
+                "homeTeam": "CA Osasuna",
+                "awayTeam": "Celta Vigo",
+                "score": "2:0",
+                "homeTeamLogo": "ca_osasuna",
+                "awayTeamLogo": "celta_vigo"
             },
             {
                 "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "Elche CF",
-                "awayTeam": "SD Huesca",
-                "score": "-:-",
-                "homeTeamLogo": "elche_cf",
-                "awayTeamLogo": "sd_huesca"
+                "time": "13:00",
+                "homeTeam": "CD Alavés",
+                "awayTeam": "Athletic Bilbao",
+                "score": "1:0",
+                "homeTeamLogo": "cd_alaves",
+                "awayTeamLogo": "athletic_bilbao"
+            },
+            {
+                "date": "04/10/2020",
+                "time": "15:00",
+                "homeTeam": "Levante UD",
+                "awayTeam": "Real Madrid",
+                "score": "0:2",
+                "homeTeamLogo": "levante_ud",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "04/10/2020",
+                "time": "17:30",
+                "homeTeam": "Cádiz CF",
+                "awayTeam": "Granada CF",
+                "score": "1:1",
+                "homeTeamLogo": "cadiz_cf",
+                "awayTeamLogo": "granada_cf"
+            },
+            {
+                "date": "04/10/2020",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Sevilla FC",
+                "score": "1:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "sevilla_fc"
             }
         ]
     },
@@ -478,35 +478,17 @@
         "round": 6,
         "matches": [
             {
-                "date": "18/10/2020",
-                "time": "",
-                "homeTeam": "CD Alavés",
-                "awayTeam": "Elche CF",
+                "date": "17/10/2020",
+                "time": "12:00",
+                "homeTeam": "Granada CF",
+                "awayTeam": "Sevilla FC",
                 "score": "-:-",
-                "homeTeamLogo": "cd_alaves",
-                "awayTeamLogo": "elche_cf"
+                "homeTeamLogo": "granada_cf",
+                "awayTeamLogo": "sevilla_fc"
             },
             {
-                "date": "18/10/2020",
-                "time": "",
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Levante UD",
-                "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "levante_ud"
-            },
-            {
-                "date": "18/10/2020",
-                "time": "",
-                "homeTeam": "Real Betis",
-                "awayTeam": "Real Sociedad",
-                "score": "-:-",
-                "homeTeamLogo": "real_betis",
-                "awayTeamLogo": "real_sociedad"
-            },
-            {
-                "date": "18/10/2020",
-                "time": "",
+                "date": "17/10/2020",
+                "time": "15:00",
                 "homeTeam": "Celta Vigo",
                 "awayTeam": "Atlético Madrid",
                 "score": "-:-",
@@ -514,17 +496,17 @@
                 "awayTeamLogo": "atletico_madrid"
             },
             {
-                "date": "18/10/2020",
-                "time": "",
-                "homeTeam": "SD Eibar",
-                "awayTeam": "CA Osasuna",
+                "date": "17/10/2020",
+                "time": "17:30",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Cádiz CF",
                 "score": "-:-",
-                "homeTeamLogo": "sd_eibar",
-                "awayTeamLogo": "ca_osasuna"
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "cadiz_cf"
             },
             {
-                "date": "18/10/2020",
-                "time": "",
+                "date": "17/10/2020",
+                "time": "20:00",
                 "homeTeam": "Getafe CF",
                 "awayTeam": "FC Barcelona",
                 "score": "-:-",
@@ -533,16 +515,43 @@
             },
             {
                 "date": "18/10/2020",
-                "time": "",
-                "homeTeam": "Granada CF",
-                "awayTeam": "Sevilla FC",
+                "time": "11:00",
+                "homeTeam": "SD Eibar",
+                "awayTeam": "CA Osasuna",
                 "score": "-:-",
-                "homeTeamLogo": "granada_cf",
-                "awayTeamLogo": "sevilla_fc"
+                "homeTeamLogo": "sd_eibar",
+                "awayTeamLogo": "ca_osasuna"
             },
             {
                 "date": "18/10/2020",
-                "time": "",
+                "time": "13:00",
+                "homeTeam": "Athletic Bilbao",
+                "awayTeam": "Levante UD",
+                "score": "-:-",
+                "homeTeamLogo": "athletic_bilbao",
+                "awayTeamLogo": "levante_ud"
+            },
+            {
+                "date": "18/10/2020",
+                "time": "15:00",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Valencia CF",
+                "score": "-:-",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "18/10/2020",
+                "time": "17:30",
+                "homeTeam": "CD Alavés",
+                "awayTeam": "Elche CF",
+                "score": "-:-",
+                "homeTeamLogo": "cd_alaves",
+                "awayTeamLogo": "elche_cf"
+            },
+            {
+                "date": "18/10/2020",
+                "time": "17:30",
                 "homeTeam": "SD Huesca",
                 "awayTeam": "Real Valladolid",
                 "score": "-:-",
@@ -551,21 +560,12 @@
             },
             {
                 "date": "18/10/2020",
-                "time": "",
-                "homeTeam": "Real Madrid",
-                "awayTeam": "Cádiz CF",
+                "time": "20:00",
+                "homeTeam": "Real Betis",
+                "awayTeam": "Real Sociedad",
                 "score": "-:-",
-                "homeTeamLogo": "real_madrid",
-                "awayTeamLogo": "cadiz_cf"
-            },
-            {
-                "date": "18/10/2020",
-                "time": "",
-                "homeTeam": "Villarreal CF",
-                "awayTeam": "Valencia CF",
-                "score": "-:-",
-                "homeTeamLogo": "villarreal_cf",
-                "awayTeamLogo": "valencia_cf"
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "real_sociedad"
             }
         ]
     },
@@ -573,8 +573,44 @@
         "round": 7,
         "matches": [
             {
-                "date": "25/10/2020",
-                "time": "",
+                "date": "23/10/2020",
+                "time": "20:00",
+                "homeTeam": "Elche CF",
+                "awayTeam": "Valencia CF",
+                "score": "-:-",
+                "homeTeamLogo": "elche_cf",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "24/10/2020",
+                "time": "12:00",
+                "homeTeam": "CA Osasuna",
+                "awayTeam": "Athletic Bilbao",
+                "score": "-:-",
+                "homeTeamLogo": "ca_osasuna",
+                "awayTeamLogo": "athletic_bilbao"
+            },
+            {
+                "date": "24/10/2020",
+                "time": "15:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Real Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "24/10/2020",
+                "time": "17:30",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "SD Eibar",
+                "score": "-:-",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "sd_eibar"
+            },
+            {
+                "date": "24/10/2020",
+                "time": "20:00",
                 "homeTeam": "Atlético Madrid",
                 "awayTeam": "Real Betis",
                 "score": "-:-",
@@ -583,70 +619,7 @@
             },
             {
                 "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "FC Barcelona",
-                "awayTeam": "Real Madrid",
-                "score": "-:-",
-                "homeTeamLogo": "fc_barcelona",
-                "awayTeamLogo": "real_madrid"
-            },
-            {
-                "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "Getafe CF",
-                "awayTeam": "Granada CF",
-                "score": "-:-",
-                "homeTeamLogo": "getafe_cf",
-                "awayTeamLogo": "granada_cf"
-            },
-            {
-                "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "Cádiz CF",
-                "awayTeam": "Villarreal CF",
-                "score": "-:-",
-                "homeTeamLogo": "cadiz_cf",
-                "awayTeamLogo": "villarreal_cf"
-            },
-            {
-                "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "Levante UD",
-                "awayTeam": "Celta Vigo",
-                "score": "-:-",
-                "homeTeamLogo": "levante_ud",
-                "awayTeamLogo": "celta_vigo"
-            },
-            {
-                "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "CA Osasuna",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "ca_osasuna",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "Real Sociedad",
-                "awayTeam": "SD Huesca",
-                "score": "-:-",
-                "homeTeamLogo": "real_sociedad",
-                "awayTeamLogo": "sd_huesca"
-            },
-            {
-                "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "Sevilla FC",
-                "awayTeam": "SD Eibar",
-                "score": "-:-",
-                "homeTeamLogo": "sevilla_fc",
-                "awayTeamLogo": "sd_eibar"
-            },
-            {
-                "date": "25/10/2020",
-                "time": "",
+                "time": "11:00",
                 "homeTeam": "Real Valladolid",
                 "awayTeam": "CD Alavés",
                 "score": "-:-",
@@ -655,12 +628,39 @@
             },
             {
                 "date": "25/10/2020",
-                "time": "",
-                "homeTeam": "Elche CF",
-                "awayTeam": "Valencia CF",
+                "time": "15:00",
+                "homeTeam": "Cádiz CF",
+                "awayTeam": "Villarreal CF",
                 "score": "-:-",
-                "homeTeamLogo": "elche_cf",
-                "awayTeamLogo": "valencia_cf"
+                "homeTeamLogo": "cadiz_cf",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "25/10/2020",
+                "time": "17:30",
+                "homeTeam": "Getafe CF",
+                "awayTeam": "Granada CF",
+                "score": "-:-",
+                "homeTeamLogo": "getafe_cf",
+                "awayTeamLogo": "granada_cf"
+            },
+            {
+                "date": "25/10/2020",
+                "time": "20:00",
+                "homeTeam": "Real Sociedad",
+                "awayTeam": "SD Huesca",
+                "score": "-:-",
+                "homeTeamLogo": "real_sociedad",
+                "awayTeamLogo": "sd_huesca"
+            },
+            {
+                "date": "26/10/2020",
+                "time": "20:00",
+                "homeTeam": "Levante UD",
+                "awayTeam": "Celta Vigo",
+                "score": "-:-",
+                "homeTeamLogo": "levante_ud",
+                "awayTeamLogo": "celta_vigo"
             }
         ]
     },
