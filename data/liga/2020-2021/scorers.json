@@ -1,118 +1,46 @@
 [
     {
         "rank": "1.",
-        "name": "Ansu Fati",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "fc_barcelona"
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "8",
+        "flag": "france",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
         "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
-        "goals": "3",
+        "goals": "8",
         "flag": "spain",
         "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Maximiliano Gómez",
-        "country": "Uruguay",
-        "team": "Valencia CF",
-        "goals": "3",
-        "flag": "uruguay",
-        "logo": "valencia_cf"
     },
     {
         "rank": "-",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "3",
+        "goals": "8",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
-        "rank": "-",
-        "name": " Morales",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "levante_ud"
+        "rank": "4.",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
-        "name": " Paco Alcácer",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "7.",
-        "name": " Ángel",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "getafe_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Cristian Tello",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": "Luuk de Jong",
-        "country": "Netherlands",
-        "team": "Sevilla FC",
-        "goals": "2",
-        "flag": "netherlands",
-        "logo": "sevilla_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Kike García",
-        "country": "Spain",
-        "team": "SD Eibar",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "sd_eibar"
-    },
-    {
-        "rank": "-",
-        "name": " Manu Vallejo",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Portu",
+        "name": " Mikel Oyarzabal",
         "country": "Spain",
         "team": "Real Sociedad",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto López",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "2",
+        "goals": "7",
         "flag": "spain",
         "logo": "real_sociedad"
     },
@@ -121,62 +49,134 @@
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "Atlético Madrid",
-        "goals": "2",
+        "goals": "7",
         "flag": "uruguay",
         "logo": "atletico_madrid"
     },
     {
-        "rank": "-",
-        "name": " Unai López",
+        "rank": "7.",
+        "name": " Morales",
         "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "2",
+        "team": "Levante UD",
+        "goals": "6",
         "flag": "spain",
-        "logo": "athletic_bilbao"
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "8.",
+        "name": " Carlos Soler",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
-        "name": " Vinicius Júnior",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "goals": "2",
-        "flag": "brazil",
-        "logo": "real_madrid"
+        "name": "Youssef En-Nesyri",
+        "country": "Morocco",
+        "team": "Sevilla FC",
+        "goals": "5",
+        "flag": "morocco",
+        "logo": "sevilla_fc"
     },
     {
         "rank": "-",
-        "name": " William Carvalho",
+        "name": " João Félix",
         "country": "Portugal",
-        "team": "Real Betis",
-        "goals": "2",
+        "team": "Atlético Madrid",
+        "goals": "5",
         "flag": "portugal",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Kike García",
+        "country": "Spain",
+        "team": "SD Eibar",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "sd_eibar"
+    },
+    {
+        "rank": "-",
+        "name": " Marcos Llorente",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Paco Alcácer",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Roger",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "5",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "15.",
+        "name": " Ángel",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Cristian Tello",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "4",
+        "flag": "spain",
         "logo": "real_betis"
     },
     {
-        "rank": "18.",
-        "name": " Adrián",
+        "rank": "-",
+        "name": "Ansu Fati",
         "country": "Spain",
-        "team": "CA Osasuna",
-        "goals": "1",
+        "team": "FC Barcelona",
+        "goals": "4",
         "flag": "spain",
-        "logo": "ca_osasuna"
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
-        "name": " Álvaro Negredo",
-        "country": "Spain",
-        "team": "Cádiz CF",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "cadiz_cf"
+        "name": "Maximiliano Gómez",
+        "country": "Uruguay",
+        "team": "Valencia CF",
+        "goals": "4",
+        "flag": "uruguay",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "1",
-        "flag": "france",
-        "logo": "real_madrid"
+        "name": " Manu Vallejo",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Portu",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "4",
+        "flag": "spain",
+        "logo": "real_sociedad"
     }
 ]
