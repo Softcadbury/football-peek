@@ -1,91 +1,37 @@
 [
     {
         "rank": "1.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "assists": "5",
-        "flag": "france",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Correa",
-        "country": "Argentina",
-        "team": "Atlético Madrid",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "assists": "5",
+        "assists": "12",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
-        "rank": "4.",
-        "name": " Canales",
+        "rank": "2.",
+        "name": " Marcos Llorente",
         "country": "Spain",
-        "team": "Real Betis",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Carlos Soler",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Óscar Plano",
-        "country": "Spain",
-        "team": "Real Valladolid",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "real_valladolid"
-    },
-    {
-        "rank": "-",
-        "name": " Rodrygo",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Kieran Trippier",
-        "country": "England",
         "team": "Atlético Madrid",
-        "assists": "4",
-        "flag": "england",
+        "assists": "11",
+        "flag": "spain",
         "logo": "atletico_madrid"
     },
     {
-        "rank": "9.",
-        "name": " Álvaro Negredo",
-        "country": "Spain",
-        "team": "Cádiz CF",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "cadiz_cf"
+        "rank": "3.",
+        "name": "Toni Kroos",
+        "country": "Germany",
+        "team": "Real Madrid",
+        "assists": "10",
+        "flag": "germany",
+        "logo": "real_madrid"
     },
     {
-        "rank": "-",
+        "rank": "4.",
         "name": "Yannick Carrasco",
         "country": "Belgium",
         "team": "Atlético Madrid",
-        "assists": "3",
+        "assists": "9",
         "flag": "belgium",
         "logo": "atletico_madrid"
     },
@@ -94,89 +40,143 @@
         "name": " Denis Suárez",
         "country": "Spain",
         "team": "Celta Vigo",
-        "assists": "3",
+        "assists": "9",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
         "rank": "-",
-        "name": "Cucho Hernández",
-        "country": "Colombia",
-        "team": "Getafe CF",
-        "assists": "3",
-        "flag": "colombia",
-        "logo": "getafe_cf"
+        "name": " Jorge De Frutos",
+        "country": "Spain",
+        "team": "Levante UD",
+        "assists": "9",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "FC Barcelona",
+        "assists": "9",
+        "flag": "argentina",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "8.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "assists": "8",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Carlos Soler",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Correa",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "assists": "8",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Mikel Oyarzabal",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "assists": "8",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "12.",
+        "name": " Gayà",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "FC Barcelona",
+        "assists": "7",
+        "flag": "france",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Trigueros",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "15.",
+        "name": " Canales",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
         "name": " Jesús Navas",
         "country": "Spain",
         "team": "Sevilla FC",
-        "assists": "3",
+        "assists": "6",
         "flag": "spain",
         "logo": "sevilla_fc"
     },
     {
         "rank": "-",
-        "name": " Jordi Alba",
+        "name": " Joan Jordán",
         "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Kang-in Lee",
-        "country": "South Korea",
-        "team": "Valencia CF",
-        "assists": "3",
-        "flag": "south_korea",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Darwin Machís",
-        "country": "Venezuela",
-        "team": "Granada CF",
-        "assists": "3",
-        "flag": "venezuela",
-        "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Lucas Ocampos",
-        "country": "Argentina",
         "team": "Sevilla FC",
-        "assists": "3",
-        "flag": "argentina",
+        "assists": "6",
+        "flag": "spain",
         "logo": "sevilla_fc"
     },
     {
         "rank": "-",
-        "name": " Portu",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "real_sociedad"
+        "name": "Kieran Trippier",
+        "country": "England",
+        "team": "Atlético Madrid",
+        "assists": "6",
+        "flag": "england",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
-        "name": " Yuri",
+        "name": " Williams",
         "country": "Spain",
         "team": "Athletic Bilbao",
-        "assists": "3",
+        "assists": "6",
         "flag": "spain",
         "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "20.",
-        "name": " Campaña",
-        "country": "Spain",
-        "team": "Levante UD",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "levante_ud"
     }
 ]

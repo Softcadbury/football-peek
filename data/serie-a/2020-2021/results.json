@@ -221,15 +221,6 @@
             },
             {
                 "date": "04/10/2020",
-                "time": "",
-                "homeTeam": "Juventus",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "04/10/2020",
                 "time": "11:30",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Cagliari Calcio",
@@ -281,6 +272,15 @@
                 "score": "1:2",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "07/04/2021",
+                "time": "17:45",
+                "homeTeam": "Juventus",
+                "awayTeam": "SSC Napoli",
+                "score": "2:1",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "ssc_napoli"
             }
         ]
     },
@@ -943,7 +943,7 @@
                 "time": "14:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Atalanta",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "atalanta"
             }
@@ -1337,7 +1337,7 @@
                 "time": "11:30",
                 "homeTeam": "Inter",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "6:2",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "fc_crotone"
             },
@@ -1346,7 +1346,7 @@
                 "time": "14:00",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "5:1",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "sassuolo_calcio"
             },
@@ -1355,7 +1355,7 @@
                 "time": "14:00",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "ssc_napoli"
             },
@@ -1364,7 +1364,7 @@
                 "time": "14:00",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "bologna_fc"
             },
@@ -1373,7 +1373,7 @@
                 "time": "14:00",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "lazio_roma"
             },
@@ -1382,7 +1382,7 @@
                 "time": "14:00",
                 "homeTeam": "Parma Calcio 1913",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "parma_calcio_1913",
                 "awayTeamLogo": "torino_fc"
             },
@@ -1391,7 +1391,7 @@
                 "time": "14:00",
                 "homeTeam": "AS Roma",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "sampdoria"
             },
@@ -1400,7 +1400,7 @@
                 "time": "14:00",
                 "homeTeam": "Spezia Calcio",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "spezia_calcio",
                 "awayTeamLogo": "hellas_verona"
             },
@@ -1409,7 +1409,7 @@
                 "time": "17:00",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "ac_milan"
             },
@@ -1418,7 +1418,7 @@
                 "time": "19:45",
                 "homeTeam": "Juventus",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "udinese_calcio"
             }
@@ -1432,7 +1432,7 @@
                 "time": "11:30",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "benevento_calcio"
             },
@@ -1441,7 +1441,7 @@
                 "time": "14:00",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "parma_calcio_1913"
             },
@@ -1450,7 +1450,7 @@
                 "time": "14:00",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "udinese_calcio"
             },
@@ -1459,7 +1459,7 @@
                 "time": "14:00",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "AS Roma",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "as_roma"
             },
@@ -1468,7 +1468,7 @@
                 "time": "14:00",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "acf_fiorentina"
             },
@@ -1477,7 +1477,7 @@
                 "time": "14:00",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "Inter",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "inter"
             },
@@ -1486,7 +1486,7 @@
                 "time": "14:00",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "genoa_cfc"
             },
@@ -1495,7 +1495,7 @@
                 "time": "14:00",
                 "homeTeam": "Torino FC",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "torino_fc",
                 "awayTeamLogo": "hellas_verona"
             },
@@ -1504,7 +1504,7 @@
                 "time": "17:00",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "spezia_calcio"
             },
@@ -1513,7 +1513,7 @@
                 "time": "19:45",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Juventus",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "juventus"
             }
@@ -1527,7 +1527,7 @@
                 "time": "14:00",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "Atalanta",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "atalanta"
             },
@@ -1536,7 +1536,7 @@
                 "time": "17:00",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "bologna_fc"
             },
@@ -1545,7 +1545,7 @@
                 "time": "19:45",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "torino_fc"
             },
@@ -1554,7 +1554,7 @@
                 "time": "11:30",
                 "homeTeam": "AS Roma",
                 "awayTeam": "Inter",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "inter"
             },
@@ -1563,7 +1563,7 @@
                 "time": "14:00",
                 "homeTeam": "Parma Calcio 1913",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "parma_calcio_1913",
                 "awayTeamLogo": "lazio_roma"
             },
@@ -1572,7 +1572,7 @@
                 "time": "14:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "ssc_napoli"
             },
@@ -1581,7 +1581,7 @@
                 "time": "14:00",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "fc_crotone"
             },
@@ -1590,7 +1590,7 @@
                 "time": "17:00",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "cagliari_calcio"
             },
@@ -1599,7 +1599,7 @@
                 "time": "19:45",
                 "homeTeam": "Juventus",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "sassuolo_calcio"
             },
@@ -1608,7 +1608,7 @@
                 "time": "19:45",
                 "homeTeam": "Spezia Calcio",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "spezia_calcio",
                 "awayTeamLogo": "sampdoria"
             }
@@ -1622,7 +1622,7 @@
                 "time": "19:45",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "AS Roma",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "as_roma"
             },
@@ -1631,7 +1631,7 @@
                 "time": "14:00",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "hellas_verona"
             },
@@ -1640,7 +1640,7 @@
                 "time": "17:00",
                 "homeTeam": "Torino FC",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "torino_fc",
                 "awayTeamLogo": "spezia_calcio"
             },
@@ -1649,7 +1649,7 @@
                 "time": "19:45",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "udinese_calcio"
             },
@@ -1658,7 +1658,7 @@
                 "time": "11:30",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "6:0",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "acf_fiorentina"
             },
@@ -1667,7 +1667,7 @@
                 "time": "14:00",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "benevento_calcio"
             },
@@ -1676,7 +1676,7 @@
                 "time": "14:00",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "parma_calcio_1913"
             },
@@ -1685,7 +1685,7 @@
                 "time": "17:00",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "genoa_cfc"
             },
@@ -1694,7 +1694,7 @@
                 "time": "19:45",
                 "homeTeam": "Inter",
                 "awayTeam": "Juventus",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "juventus"
             },
@@ -1703,7 +1703,7 @@
                 "time": "19:45",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "ac_milan"
             }
@@ -1717,7 +1717,7 @@
                 "time": "19:45",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "torino_fc"
             },
@@ -1726,7 +1726,7 @@
                 "time": "14:00",
                 "homeTeam": "AS Roma",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "4:3",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "spezia_calcio"
             },
@@ -1735,7 +1735,7 @@
                 "time": "17:00",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Atalanta",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "atalanta"
             },
@@ -1744,7 +1744,7 @@
                 "time": "17:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Inter",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "inter"
             },
@@ -1753,7 +1753,7 @@
                 "time": "19:45",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "fc_crotone"
             },
@@ -1762,7 +1762,7 @@
                 "time": "11:30",
                 "homeTeam": "Juventus",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "bologna_fc"
             },
@@ -1771,7 +1771,7 @@
                 "time": "14:00",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "cagliari_calcio"
             },
@@ -1780,7 +1780,7 @@
                 "time": "14:00",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "ssc_napoli"
             },
@@ -1789,7 +1789,7 @@
                 "time": "17:00",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "sassuolo_calcio"
             },
@@ -1798,7 +1798,7 @@
                 "time": "19:45",
                 "homeTeam": "Parma Calcio 1913",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "parma_calcio_1913",
                 "awayTeamLogo": "sampdoria"
             }
@@ -1812,43 +1812,25 @@
                 "time": "19:45",
                 "homeTeam": "Torino FC",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "torino_fc",
                 "awayTeamLogo": "acf_fiorentina"
             },
             {
                 "date": "30/01/2021",
                 "time": "14:00",
-                "homeTeam": "FC Crotone",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "fc_crotone",
-                "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "30/01/2021",
-                "time": "14:00",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "30/01/2021",
-                "time": "14:00",
-                "homeTeam": "Cagliari Calcio",
-                "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "cagliari_calcio",
-                "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "30/01/2021",
                 "time": "17:00",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "Juventus",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "juventus"
             },
@@ -1857,7 +1839,7 @@
                 "time": "19:45",
                 "homeTeam": "Inter",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "4:0",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "benevento_calcio"
             },
@@ -1866,25 +1848,43 @@
                 "time": "11:30",
                 "homeTeam": "Spezia Calcio",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "spezia_calcio",
                 "awayTeamLogo": "udinese_calcio"
             },
             {
                 "date": "31/01/2021",
                 "time": "14:00",
+                "homeTeam": "FC Crotone",
+                "awayTeam": "Genoa CFC",
+                "score": "0:3",
+                "homeTeamLogo": "fc_crotone",
+                "awayTeamLogo": "genoa_cfc"
+            },
+            {
+                "date": "31/01/2021",
+                "time": "14:00",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "31/01/2021",
+                "time": "14:00",
+                "homeTeam": "Cagliari Calcio",
+                "awayTeam": "Sassuolo Calcio",
+                "score": "1:1",
+                "homeTeamLogo": "cagliari_calcio",
+                "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "31/01/2021",
                 "time": "17:00",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "parma_calcio_1913"
             },
@@ -1893,7 +1893,7 @@
                 "time": "19:45",
                 "homeTeam": "AS Roma",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "hellas_verona"
             }
@@ -1905,18 +1905,9 @@
             {
                 "date": "05/02/2021",
                 "time": "19:45",
-                "homeTeam": "AC Milan",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "05/02/2021",
-                "time": "19:45",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Inter",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "inter"
             },
@@ -1925,7 +1916,7 @@
                 "time": "14:00",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "spezia_calcio"
             },
@@ -1934,7 +1925,7 @@
                 "time": "14:00",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "torino_fc"
             },
@@ -1943,7 +1934,7 @@
                 "time": "17:00",
                 "homeTeam": "Juventus",
                 "awayTeam": "AS Roma",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "as_roma"
             },
@@ -1952,7 +1943,7 @@
                 "time": "19:45",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "ssc_napoli"
             },
@@ -1961,16 +1952,25 @@
                 "time": "11:30",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "sampdoria"
             },
             {
                 "date": "07/02/2021",
                 "time": "14:00",
+                "homeTeam": "AC Milan",
+                "awayTeam": "FC Crotone",
+                "score": "4:0",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "07/02/2021",
+                "time": "14:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "hellas_verona"
             },
@@ -1979,7 +1979,7 @@
                 "time": "17:00",
                 "homeTeam": "Parma Calcio 1913",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "parma_calcio_1913",
                 "awayTeamLogo": "bologna_fc"
             },
@@ -1988,7 +1988,7 @@
                 "time": "19:45",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "cagliari_calcio"
             }
@@ -2002,7 +2002,7 @@
                 "time": "19:45",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "benevento_calcio"
             },
@@ -2011,7 +2011,7 @@
                 "time": "14:00",
                 "homeTeam": "Torino FC",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "torino_fc",
                 "awayTeamLogo": "genoa_cfc"
             },
@@ -2020,7 +2020,7 @@
                 "time": "17:00",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "Juventus",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "juventus"
             },
@@ -2029,7 +2029,7 @@
                 "time": "19:45",
                 "homeTeam": "Spezia Calcio",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "spezia_calcio",
                 "awayTeamLogo": "ac_milan"
             },
@@ -2038,7 +2038,7 @@
                 "time": "11:30",
                 "homeTeam": "AS Roma",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "udinese_calcio"
             },
@@ -2047,7 +2047,7 @@
                 "time": "14:00",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Atalanta",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "atalanta"
             },
@@ -2056,7 +2056,7 @@
                 "time": "14:00",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "acf_fiorentina"
             },
@@ -2065,7 +2065,7 @@
                 "time": "17:00",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "sassuolo_calcio"
             },
@@ -2074,7 +2074,7 @@
                 "time": "19:45",
                 "homeTeam": "Inter",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "lazio_roma"
             },
@@ -2083,7 +2083,7 @@
                 "time": "19:45",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "parma_calcio_1913"
             }
@@ -2097,7 +2097,7 @@
                 "time": "17:30",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "spezia_calcio"
             },
@@ -2106,7 +2106,7 @@
                 "time": "19:45",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "torino_fc"
             },
@@ -2115,7 +2115,7 @@
                 "time": "14:00",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "sampdoria"
             },
@@ -2124,7 +2124,7 @@
                 "time": "17:00",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "hellas_verona"
             },
@@ -2133,7 +2133,7 @@
                 "time": "19:45",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "bologna_fc"
             },
@@ -2142,7 +2142,7 @@
                 "time": "11:30",
                 "homeTeam": "Parma Calcio 1913",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "parma_calcio_1913",
                 "awayTeamLogo": "udinese_calcio"
             },
@@ -2151,7 +2151,7 @@
                 "time": "14:00",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Inter",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "inter"
             },
@@ -2160,7 +2160,7 @@
                 "time": "17:00",
                 "homeTeam": "Atalanta",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "4:2",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "ssc_napoli"
             },
@@ -2169,7 +2169,7 @@
                 "time": "19:45",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "AS Roma",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "as_roma"
             },
@@ -2178,7 +2178,7 @@
                 "time": "19:45",
                 "homeTeam": "Juventus",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "fc_crotone"
             }
@@ -2188,20 +2188,11 @@
         "round": 24,
         "matches": [
             {
-                "date": "26/02/2021",
-                "time": "19:45",
-                "homeTeam": "Torino FC",
-                "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "sassuolo_calcio"
-            },
-            {
                 "date": "27/02/2021",
                 "time": "14:00",
                 "homeTeam": "Spezia Calcio",
                 "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "spezia_calcio",
                 "awayTeamLogo": "parma_calcio_1913"
             },
@@ -2210,7 +2201,7 @@
                 "time": "17:00",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "lazio_roma"
             },
@@ -2219,7 +2210,7 @@
                 "time": "19:45",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "Juventus",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "juventus"
             },
@@ -2228,7 +2219,7 @@
                 "time": "11:30",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "Atalanta",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "atalanta"
             },
@@ -2237,7 +2228,7 @@
                 "time": "14:00",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "cagliari_calcio"
             },
@@ -2246,7 +2237,7 @@
                 "time": "14:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "acf_fiorentina"
             },
@@ -2255,7 +2246,7 @@
                 "time": "14:00",
                 "homeTeam": "Inter",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "genoa_cfc"
             },
@@ -2264,7 +2255,7 @@
                 "time": "17:00",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "benevento_calcio"
             },
@@ -2273,9 +2264,18 @@
                 "time": "19:45",
                 "homeTeam": "AS Roma",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "17/03/2021",
+                "time": "14:00",
+                "homeTeam": "Torino FC",
+                "awayTeam": "Sassuolo Calcio",
+                "score": "3:2",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "sassuolo_calcio"
             }
         ]
     },
@@ -2283,94 +2283,94 @@
         "round": 25,
         "matches": [
             {
-                "date": "03/03/2021",
-                "time": "",
-                "homeTeam": "Cagliari Calcio",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "cagliari_calcio",
-                "awayTeamLogo": "bologna_fc"
-            },
-            {
-                "date": "03/03/2021",
-                "time": "",
-                "homeTeam": "Atalanta",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "03/03/2021",
-                "time": "",
-                "homeTeam": "Parma Calcio 1913",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "parma_calcio_1913",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "03/03/2021",
-                "time": "",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "03/03/2021",
-                "time": "",
-                "homeTeam": "ACF Fiorentina",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "acf_fiorentina",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "03/03/2021",
-                "time": "",
+                "date": "02/03/2021",
+                "time": "19:45",
                 "homeTeam": "Juventus",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "spezia_calcio"
             },
             {
                 "date": "03/03/2021",
-                "time": "",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "torino_fc"
+                "time": "17:30",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "SSC Napoli",
+                "score": "3:3",
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "ssc_napoli"
             },
             {
                 "date": "03/03/2021",
-                "time": "",
+                "time": "19:45",
+                "homeTeam": "Cagliari Calcio",
+                "awayTeam": "Bologna FC",
+                "score": "1:0",
+                "homeTeamLogo": "cagliari_calcio",
+                "awayTeamLogo": "bologna_fc"
+            },
+            {
+                "date": "03/03/2021",
+                "time": "19:45",
+                "homeTeam": "Atalanta",
+                "awayTeam": "FC Crotone",
+                "score": "5:1",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "03/03/2021",
+                "time": "19:45",
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "AS Roma",
+                "score": "1:2",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "03/03/2021",
+                "time": "19:45",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "udinese_calcio"
             },
             {
                 "date": "03/03/2021",
-                "time": "",
+                "time": "19:45",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "hellas_verona"
             },
             {
                 "date": "03/03/2021",
-                "time": "",
+                "time": "19:45",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "sampdoria"
+            },
+            {
+                "date": "04/03/2021",
+                "time": "19:45",
+                "homeTeam": "Parma Calcio 1913",
+                "awayTeam": "Inter",
+                "score": "1:2",
+                "homeTeamLogo": "parma_calcio_1913",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "18/05/2021",
+                "time": "19:30",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Torino FC",
+                "score": "0:0",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "torino_fc"
             }
         ]
     },
@@ -2378,94 +2378,94 @@
         "round": 26,
         "matches": [
             {
-                "date": "07/03/2021",
-                "time": "",
-                "homeTeam": "Inter",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "inter",
-                "awayTeamLogo": "atalanta"
-            },
-            {
-                "date": "07/03/2021",
-                "time": "",
+                "date": "06/03/2021",
+                "time": "14:00",
                 "homeTeam": "Spezia Calcio",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "spezia_calcio",
                 "awayTeamLogo": "benevento_calcio"
             },
             {
-                "date": "07/03/2021",
-                "time": "",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "bologna_fc"
+                "date": "06/03/2021",
+                "time": "17:00",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "Sassuolo Calcio",
+                "score": "2:0",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "sassuolo_calcio"
             },
             {
-                "date": "07/03/2021",
-                "time": "",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "cagliari_calcio"
-            },
-            {
-                "date": "07/03/2021",
-                "time": "",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "07/03/2021",
-                "time": "",
+                "date": "06/03/2021",
+                "time": "19:45",
                 "homeTeam": "Juventus",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "lazio_roma"
             },
             {
                 "date": "07/03/2021",
-                "time": "",
+                "time": "11:30",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Genoa CFC",
+                "score": "1:0",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "genoa_cfc"
+            },
+            {
+                "date": "07/03/2021",
+                "time": "14:00",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "ac_milan"
             },
             {
                 "date": "07/03/2021",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "parma_calcio_1913"
             },
             {
                 "date": "07/03/2021",
-                "time": "",
-                "homeTeam": "Udinese Calcio",
-                "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "udinese_calcio",
-                "awayTeamLogo": "sassuolo_calcio"
+                "time": "14:00",
+                "homeTeam": "FC Crotone",
+                "awayTeam": "Torino FC",
+                "score": "4:2",
+                "homeTeamLogo": "fc_crotone",
+                "awayTeamLogo": "torino_fc"
             },
             {
                 "date": "07/03/2021",
-                "time": "",
-                "homeTeam": "FC Crotone",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "fc_crotone",
-                "awayTeamLogo": "torino_fc"
+                "time": "17:00",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "Cagliari Calcio",
+                "score": "2:2",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "07/03/2021",
+                "time": "19:45",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Bologna FC",
+                "score": "3:1",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "bologna_fc"
+            },
+            {
+                "date": "08/03/2021",
+                "time": "19:45",
+                "homeTeam": "Inter",
+                "awayTeam": "Atalanta",
+                "score": "1:0",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "atalanta"
             }
         ]
     },
@@ -2473,94 +2473,94 @@
         "round": 27,
         "matches": [
             {
-                "date": "14/03/2021",
-                "time": "",
+                "date": "12/03/2021",
+                "time": "14:00",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "fc_crotone"
             },
             {
-                "date": "14/03/2021",
-                "time": "",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "acf_fiorentina"
-            },
-            {
-                "date": "14/03/2021",
-                "time": "",
-                "homeTeam": "Torino FC",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "14/03/2021",
-                "time": "",
-                "homeTeam": "Cagliari Calcio",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "cagliari_calcio",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "14/03/2021",
-                "time": "",
-                "homeTeam": "AC Milan",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "14/03/2021",
-                "time": "",
-                "homeTeam": "Parma Calcio 1913",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "parma_calcio_1913",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "14/03/2021",
-                "time": "",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "Sampdoria",
-                "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "sampdoria"
-            },
-            {
-                "date": "14/03/2021",
-                "time": "",
+                "date": "12/03/2021",
+                "time": "19:45",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "spezia_calcio"
             },
             {
-                "date": "14/03/2021",
-                "time": "",
+                "date": "13/03/2021",
+                "time": "14:00",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "Hellas Verona",
+                "score": "3:2",
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "hellas_verona"
+            },
+            {
+                "date": "13/03/2021",
+                "time": "17:00",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "ACF Fiorentina",
+                "score": "1:4",
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "13/03/2021",
+                "time": "19:45",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "udinese_calcio"
             },
             {
                 "date": "14/03/2021",
-                "time": "",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "Hellas Verona",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "hellas_verona"
+                "time": "11:30",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "Sampdoria",
+                "score": "3:1",
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "sampdoria"
+            },
+            {
+                "date": "14/03/2021",
+                "time": "14:00",
+                "homeTeam": "Torino FC",
+                "awayTeam": "Inter",
+                "score": "1:2",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "14/03/2021",
+                "time": "14:00",
+                "homeTeam": "Parma Calcio 1913",
+                "awayTeam": "AS Roma",
+                "score": "2:0",
+                "homeTeamLogo": "parma_calcio_1913",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "14/03/2021",
+                "time": "17:00",
+                "homeTeam": "Cagliari Calcio",
+                "awayTeam": "Juventus",
+                "score": "1:3",
+                "homeTeamLogo": "cagliari_calcio",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "14/03/2021",
+                "time": "19:45",
+                "homeTeam": "AC Milan",
+                "awayTeam": "SSC Napoli",
+                "score": "0:1",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "ssc_napoli"
             }
         ]
     },
@@ -2568,94 +2568,94 @@
         "round": 28,
         "matches": [
             {
-                "date": "21/03/2021",
-                "time": "",
-                "homeTeam": "Hellas Verona",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "hellas_verona",
-                "awayTeamLogo": "atalanta"
+                "date": "19/03/2021",
+                "time": "19:45",
+                "homeTeam": "Parma Calcio 1913",
+                "awayTeam": "Genoa CFC",
+                "score": "1:2",
+                "homeTeamLogo": "parma_calcio_1913",
+                "awayTeamLogo": "genoa_cfc"
             },
             {
-                "date": "21/03/2021",
-                "time": "",
-                "homeTeam": "Juventus",
-                "awayTeam": "Benevento Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "benevento_calcio"
-            },
-            {
-                "date": "21/03/2021",
-                "time": "",
+                "date": "20/03/2021",
+                "time": "14:00",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "bologna_fc"
             },
             {
-                "date": "21/03/2021",
-                "time": "",
+                "date": "20/03/2021",
+                "time": "17:00",
                 "homeTeam": "Spezia Calcio",
                 "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "spezia_calcio",
                 "awayTeamLogo": "cagliari_calcio"
             },
             {
                 "date": "21/03/2021",
-                "time": "",
-                "homeTeam": "Parma Calcio 1913",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "parma_calcio_1913",
-                "awayTeamLogo": "genoa_cfc"
+                "time": "11:30",
+                "homeTeam": "Hellas Verona",
+                "awayTeam": "Atalanta",
+                "score": "0:2",
+                "homeTeamLogo": "hellas_verona",
+                "awayTeamLogo": "atalanta"
             },
             {
                 "date": "21/03/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "Benevento Calcio",
+                "score": "0:1",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "benevento_calcio"
+            },
+            {
+                "date": "21/03/2021",
+                "time": "14:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "lazio_roma"
             },
             {
                 "date": "21/03/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "Torino FC",
+                "score": "1:0",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "21/03/2021",
+                "time": "17:00",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "AC Milan",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "ac_milan"
             },
             {
                 "date": "21/03/2021",
-                "time": "",
+                "time": "19:45",
                 "homeTeam": "AS Roma",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "ssc_napoli"
             },
             {
-                "date": "21/03/2021",
-                "time": "",
+                "date": "07/04/2021",
+                "time": "17:45",
                 "homeTeam": "Inter",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "sassuolo_calcio"
-            },
-            {
-                "date": "21/03/2021",
-                "time": "",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "torino_fc"
             }
         ]
     },
@@ -2664,93 +2664,93 @@
         "matches": [
             {
                 "date": "03/04/2021",
-                "time": "",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "03/04/2021",
-                "time": "",
-                "homeTeam": "Genoa CFC",
-                "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
-                "homeTeamLogo": "genoa_cfc",
-                "awayTeamLogo": "acf_fiorentina"
-            },
-            {
-                "date": "03/04/2021",
-                "time": "",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "03/04/2021",
-                "time": "",
-                "homeTeam": "Torino FC",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "03/04/2021",
-                "time": "",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "parma_calcio_1913"
-            },
-            {
-                "date": "03/04/2021",
-                "time": "",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "03/04/2021",
-                "time": "",
+                "time": "11:30",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "sampdoria"
             },
             {
                 "date": "03/04/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "FC Crotone",
+                "score": "4:3",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "03/04/2021",
+                "time": "14:00",
+                "homeTeam": "Genoa CFC",
+                "awayTeam": "ACF Fiorentina",
+                "score": "1:1",
+                "homeTeamLogo": "genoa_cfc",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "03/04/2021",
+                "time": "14:00",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "Parma Calcio 1913",
+                "score": "2:2",
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "parma_calcio_1913"
+            },
+            {
+                "date": "03/04/2021",
+                "time": "14:00",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "AS Roma",
+                "score": "2:2",
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "03/04/2021",
+                "time": "14:00",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "spezia_calcio"
             },
             {
                 "date": "03/04/2021",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "Atalanta",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "atalanta",
                 "awayTeamLogo": "udinese_calcio"
             },
             {
                 "date": "03/04/2021",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "hellas_verona"
+            },
+            {
+                "date": "03/04/2021",
+                "time": "17:00",
+                "homeTeam": "Torino FC",
+                "awayTeam": "Juventus",
+                "score": "2:2",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "03/04/2021",
+                "time": "19:45",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "Inter",
+                "score": "0:1",
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "inter"
             }
         ]
     },
@@ -2758,94 +2758,94 @@
         "round": 30,
         "matches": [
             {
-                "date": "11/04/2021",
-                "time": "",
-                "homeTeam": "ACF Fiorentina",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "acf_fiorentina",
-                "awayTeamLogo": "atalanta"
+                "date": "10/04/2021",
+                "time": "14:00",
+                "homeTeam": "Spezia Calcio",
+                "awayTeam": "FC Crotone",
+                "score": "3:2",
+                "homeTeamLogo": "spezia_calcio",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "10/04/2021",
+                "time": "17:00",
+                "homeTeam": "Parma Calcio 1913",
+                "awayTeam": "AC Milan",
+                "score": "1:3",
+                "homeTeamLogo": "parma_calcio_1913",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "10/04/2021",
+                "time": "19:45",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "Torino FC",
+                "score": "0:1",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "torino_fc"
             },
             {
                 "date": "11/04/2021",
-                "time": "",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "bologna_fc"
-            },
-            {
-                "date": "11/04/2021",
-                "time": "",
+                "time": "11:30",
                 "homeTeam": "Inter",
                 "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "cagliari_calcio"
             },
             {
                 "date": "11/04/2021",
-                "time": "",
-                "homeTeam": "Spezia Calcio",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "spezia_calcio",
-                "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "11/04/2021",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "Juventus",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "genoa_cfc"
             },
             {
                 "date": "11/04/2021",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "lazio_roma"
             },
             {
                 "date": "11/04/2021",
-                "time": "",
-                "homeTeam": "Parma Calcio 1913",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "parma_calcio_1913",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "11/04/2021",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "ssc_napoli"
             },
             {
                 "date": "11/04/2021",
-                "time": "",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "sassuolo_calcio"
+                "time": "17:00",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Bologna FC",
+                "score": "1:0",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "bologna_fc"
             },
             {
                 "date": "11/04/2021",
-                "time": "",
-                "homeTeam": "Udinese Calcio",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "udinese_calcio",
-                "awayTeamLogo": "torino_fc"
+                "time": "19:45",
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "Atalanta",
+                "score": "2:3",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "12/04/2021",
+                "time": "19:45",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "Sassuolo Calcio",
+                "score": "0:1",
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "sassuolo_calcio"
             }
         ]
     },
@@ -2853,94 +2853,94 @@
         "round": 31,
         "matches": [
             {
-                "date": "18/04/2021",
-                "time": "",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Benevento Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "benevento_calcio"
+                "date": "17/04/2021",
+                "time": "14:00",
+                "homeTeam": "FC Crotone",
+                "awayTeam": "Udinese Calcio",
+                "score": "1:2",
+                "homeTeamLogo": "fc_crotone",
+                "awayTeamLogo": "udinese_calcio"
             },
             {
-                "date": "18/04/2021",
-                "time": "",
+                "date": "17/04/2021",
+                "time": "14:00",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "Hellas Verona",
+                "score": "3:1",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "hellas_verona"
+            },
+            {
+                "date": "17/04/2021",
+                "time": "17:00",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "acf_fiorentina"
             },
             {
-                "date": "18/04/2021",
-                "time": "",
-                "homeTeam": "AC Milan",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "18/04/2021",
-                "time": "",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "18/04/2021",
-                "time": "",
-                "homeTeam": "Atalanta",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "18/04/2021",
-                "time": "",
+                "date": "17/04/2021",
+                "time": "19:45",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
+                "score": "4:3",
                 "homeTeamLogo": "cagliari_calcio",
                 "awayTeamLogo": "parma_calcio_1913"
             },
             {
                 "date": "18/04/2021",
-                "time": "",
-                "homeTeam": "Torino FC",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "as_roma"
+                "time": "11:30",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Genoa CFC",
+                "score": "2:1",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "genoa_cfc"
             },
             {
                 "date": "18/04/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Benevento Calcio",
+                "score": "5:3",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "benevento_calcio"
+            },
+            {
+                "date": "18/04/2021",
+                "time": "14:00",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Juventus",
+                "score": "1:0",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "18/04/2021",
+                "time": "14:00",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Spezia Calcio",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "spezia_calcio"
             },
             {
                 "date": "18/04/2021",
-                "time": "",
-                "homeTeam": "FC Crotone",
-                "awayTeam": "Udinese Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "fc_crotone",
-                "awayTeamLogo": "udinese_calcio"
+                "time": "17:00",
+                "homeTeam": "Torino FC",
+                "awayTeam": "AS Roma",
+                "score": "3:1",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "as_roma"
             },
             {
                 "date": "18/04/2021",
-                "time": "",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "Hellas Verona",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "hellas_verona"
+                "time": "19:45",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Inter",
+                "score": "1:1",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "inter"
             }
         ]
     },
@@ -2948,94 +2948,94 @@
         "round": 32,
         "matches": [
             {
-                "date": "21/04/2021",
-                "time": "",
-                "homeTeam": "AS Roma",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "atalanta"
-            },
-            {
-                "date": "21/04/2021",
-                "time": "",
-                "homeTeam": "Genoa CFC",
-                "awayTeam": "Benevento Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "genoa_cfc",
-                "awayTeamLogo": "benevento_calcio"
-            },
-            {
-                "date": "21/04/2021",
-                "time": "",
-                "homeTeam": "Udinese Calcio",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "udinese_calcio",
-                "awayTeamLogo": "cagliari_calcio"
-            },
-            {
-                "date": "21/04/2021",
-                "time": "",
+                "date": "20/04/2021",
+                "time": "19:45",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "acf_fiorentina"
             },
             {
                 "date": "21/04/2021",
-                "time": "",
-                "homeTeam": "Spezia Calcio",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "spezia_calcio",
-                "awayTeamLogo": "inter"
-            },
-            {
-                "date": "21/04/2021",
-                "time": "",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Lazio Roma",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "lazio_roma"
-            },
-            {
-                "date": "21/04/2021",
-                "time": "",
-                "homeTeam": "Juventus",
-                "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "parma_calcio_1913"
-            },
-            {
-                "date": "21/04/2021",
-                "time": "",
-                "homeTeam": "FC Crotone",
-                "awayTeam": "Sampdoria",
-                "score": "-:-",
-                "homeTeamLogo": "fc_crotone",
-                "awayTeamLogo": "sampdoria"
-            },
-            {
-                "date": "21/04/2021",
-                "time": "",
+                "time": "17:30",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "21/04/2021",
-                "time": "",
+                "time": "19:45",
+                "homeTeam": "Genoa CFC",
+                "awayTeam": "Benevento Calcio",
+                "score": "2:2",
+                "homeTeamLogo": "genoa_cfc",
+                "awayTeamLogo": "benevento_calcio"
+            },
+            {
+                "date": "21/04/2021",
+                "time": "19:45",
+                "homeTeam": "Udinese Calcio",
+                "awayTeam": "Cagliari Calcio",
+                "score": "0:1",
+                "homeTeamLogo": "udinese_calcio",
+                "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "21/04/2021",
+                "time": "19:45",
+                "homeTeam": "Spezia Calcio",
+                "awayTeam": "Inter",
+                "score": "1:1",
+                "homeTeamLogo": "spezia_calcio",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "21/04/2021",
+                "time": "19:45",
+                "homeTeam": "Juventus",
+                "awayTeam": "Parma Calcio 1913",
+                "score": "3:1",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "parma_calcio_1913"
+            },
+            {
+                "date": "21/04/2021",
+                "time": "19:45",
+                "homeTeam": "FC Crotone",
+                "awayTeam": "Sampdoria",
+                "score": "0:1",
+                "homeTeamLogo": "fc_crotone",
+                "awayTeamLogo": "sampdoria"
+            },
+            {
+                "date": "21/04/2021",
+                "time": "19:45",
                 "homeTeam": "Bologna FC",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "bologna_fc",
                 "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "22/04/2021",
+                "time": "17:30",
+                "homeTeam": "AS Roma",
+                "awayTeam": "Atalanta",
+                "score": "1:1",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "22/04/2021",
+                "time": "19:45",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Lazio Roma",
+                "score": "5:2",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "lazio_roma"
             }
         ]
     },
@@ -3043,94 +3043,94 @@
         "round": 33,
         "matches": [
             {
-                "date": "25/04/2021",
-                "time": "",
-                "homeTeam": "Atalanta",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "bologna_fc"
+                "date": "24/04/2021",
+                "time": "14:00",
+                "homeTeam": "Genoa CFC",
+                "awayTeam": "Spezia Calcio",
+                "score": "2:0",
+                "homeTeamLogo": "genoa_cfc",
+                "awayTeamLogo": "spezia_calcio"
             },
             {
-                "date": "25/04/2021",
-                "time": "",
+                "date": "24/04/2021",
+                "time": "17:00",
                 "homeTeam": "Parma Calcio 1913",
                 "awayTeam": "FC Crotone",
-                "score": "-:-",
+                "score": "3:4",
                 "homeTeamLogo": "parma_calcio_1913",
                 "awayTeamLogo": "fc_crotone"
             },
             {
-                "date": "25/04/2021",
-                "time": "",
-                "homeTeam": "ACF Fiorentina",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "acf_fiorentina",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "25/04/2021",
-                "time": "",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "25/04/2021",
-                "time": "",
-                "homeTeam": "Torino FC",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "25/04/2021",
-                "time": "",
-                "homeTeam": "Cagliari Calcio",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "cagliari_calcio",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "25/04/2021",
-                "time": "",
+                "date": "24/04/2021",
+                "time": "19:45",
                 "homeTeam": "Sassuolo Calcio",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sassuolo_calcio",
                 "awayTeamLogo": "sampdoria"
             },
             {
                 "date": "25/04/2021",
-                "time": "",
-                "homeTeam": "Genoa CFC",
-                "awayTeam": "Spezia Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "genoa_cfc",
-                "awayTeamLogo": "spezia_calcio"
-            },
-            {
-                "date": "25/04/2021",
-                "time": "",
+                "time": "11:30",
                 "homeTeam": "Benevento Calcio",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "2:4",
                 "homeTeamLogo": "benevento_calcio",
                 "awayTeamLogo": "udinese_calcio"
             },
             {
                 "date": "25/04/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "ACF Fiorentina",
+                "awayTeam": "Juventus",
+                "score": "1:1",
+                "homeTeamLogo": "acf_fiorentina",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "25/04/2021",
+                "time": "14:00",
                 "homeTeam": "Inter",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "inter",
                 "awayTeamLogo": "hellas_verona"
+            },
+            {
+                "date": "25/04/2021",
+                "time": "17:00",
+                "homeTeam": "Cagliari Calcio",
+                "awayTeam": "AS Roma",
+                "score": "3:2",
+                "homeTeamLogo": "cagliari_calcio",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "25/04/2021",
+                "time": "19:45",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Bologna FC",
+                "score": "5:0",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "bologna_fc"
+            },
+            {
+                "date": "26/04/2021",
+                "time": "17:30",
+                "homeTeam": "Torino FC",
+                "awayTeam": "SSC Napoli",
+                "score": "0:2",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "ssc_napoli"
+            },
+            {
+                "date": "26/04/2021",
+                "time": "19:45",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "AC Milan",
+                "score": "3:0",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "ac_milan"
             }
         ]
     },
@@ -3138,94 +3138,94 @@
         "round": 34,
         "matches": [
             {
-                "date": "02/05/2021",
-                "time": "",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "atalanta"
+                "date": "01/05/2021",
+                "time": "14:00",
+                "homeTeam": "Hellas Verona",
+                "awayTeam": "Spezia Calcio",
+                "score": "1:1",
+                "homeTeamLogo": "hellas_verona",
+                "awayTeamLogo": "spezia_calcio"
             },
             {
-                "date": "02/05/2021",
-                "time": "",
+                "date": "01/05/2021",
+                "time": "17:00",
+                "homeTeam": "FC Crotone",
+                "awayTeam": "Inter",
+                "score": "0:2",
+                "homeTeamLogo": "fc_crotone",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "01/05/2021",
+                "time": "19:45",
                 "homeTeam": "AC Milan",
                 "awayTeam": "Benevento Calcio",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "ac_milan",
                 "awayTeamLogo": "benevento_calcio"
             },
             {
                 "date": "02/05/2021",
-                "time": "",
-                "homeTeam": "SSC Napoli",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "ssc_napoli",
-                "awayTeamLogo": "cagliari_calcio"
-            },
-            {
-                "date": "02/05/2021",
-                "time": "",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "acf_fiorentina"
-            },
-            {
-                "date": "02/05/2021",
-                "time": "",
+                "time": "11:30",
                 "homeTeam": "Lazio Roma",
                 "awayTeam": "Genoa CFC",
-                "score": "-:-",
+                "score": "4:3",
                 "homeTeamLogo": "lazio_roma",
                 "awayTeamLogo": "genoa_cfc"
             },
             {
                 "date": "02/05/2021",
-                "time": "",
-                "homeTeam": "FC Crotone",
-                "awayTeam": "Inter",
-                "score": "-:-",
-                "homeTeamLogo": "fc_crotone",
-                "awayTeamLogo": "inter"
+                "time": "14:00",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "Atalanta",
+                "score": "1:1",
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "atalanta"
             },
             {
                 "date": "02/05/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "SSC Napoli",
+                "awayTeam": "Cagliari Calcio",
+                "score": "1:1",
+                "homeTeamLogo": "ssc_napoli",
+                "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "02/05/2021",
+                "time": "14:00",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "ACF Fiorentina",
+                "score": "3:3",
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "02/05/2021",
+                "time": "17:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Juventus",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "juventus"
             },
             {
                 "date": "02/05/2021",
-                "time": "",
-                "homeTeam": "Torino FC",
-                "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "parma_calcio_1913"
-            },
-            {
-                "date": "02/05/2021",
-                "time": "",
+                "time": "19:45",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "AS Roma",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "sampdoria",
                 "awayTeamLogo": "as_roma"
             },
             {
-                "date": "02/05/2021",
-                "time": "",
-                "homeTeam": "Hellas Verona",
-                "awayTeam": "Spezia Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "hellas_verona",
-                "awayTeamLogo": "spezia_calcio"
+                "date": "03/05/2021",
+                "time": "19:45",
+                "homeTeam": "Torino FC",
+                "awayTeam": "Parma Calcio 1913",
+                "score": "1:0",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "parma_calcio_1913"
             }
         ]
     },
@@ -3233,94 +3233,94 @@
         "round": 35,
         "matches": [
             {
-                "date": "09/05/2021",
-                "time": "",
-                "homeTeam": "Parma Calcio 1913",
-                "awayTeam": "Atalanta",
-                "score": "-:-",
-                "homeTeamLogo": "parma_calcio_1913",
-                "awayTeamLogo": "atalanta"
-            },
-            {
-                "date": "09/05/2021",
-                "time": "",
+                "date": "08/05/2021",
+                "time": "14:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Bologna FC",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "bologna_fc"
             },
             {
-                "date": "09/05/2021",
-                "time": "",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "cagliari_calcio"
+                "date": "08/05/2021",
+                "time": "14:00",
+                "homeTeam": "Spezia Calcio",
+                "awayTeam": "SSC Napoli",
+                "score": "1:4",
+                "homeTeamLogo": "spezia_calcio",
+                "awayTeamLogo": "ssc_napoli"
             },
             {
-                "date": "09/05/2021",
-                "time": "",
-                "homeTeam": "AS Roma",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "as_roma",
-                "awayTeamLogo": "fc_crotone"
+                "date": "08/05/2021",
+                "time": "17:00",
+                "homeTeam": "Inter",
+                "awayTeam": "Sampdoria",
+                "score": "5:1",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "sampdoria"
             },
             {
-                "date": "09/05/2021",
-                "time": "",
+                "date": "08/05/2021",
+                "time": "19:45",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "lazio_roma"
             },
             {
                 "date": "09/05/2021",
-                "time": "",
-                "homeTeam": "Juventus",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "juventus",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "09/05/2021",
-                "time": "",
-                "homeTeam": "Spezia Calcio",
-                "awayTeam": "SSC Napoli",
-                "score": "-:-",
-                "homeTeamLogo": "spezia_calcio",
-                "awayTeamLogo": "ssc_napoli"
-            },
-            {
-                "date": "09/05/2021",
-                "time": "",
-                "homeTeam": "Inter",
-                "awayTeam": "Sampdoria",
-                "score": "-:-",
-                "homeTeamLogo": "inter",
-                "awayTeamLogo": "sampdoria"
-            },
-            {
-                "date": "09/05/2021",
-                "time": "",
+                "time": "11:30",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "09/05/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "Parma Calcio 1913",
+                "awayTeam": "Atalanta",
+                "score": "2:5",
+                "homeTeamLogo": "parma_calcio_1913",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "09/05/2021",
+                "time": "14:00",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "Cagliari Calcio",
+                "score": "1:3",
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "09/05/2021",
+                "time": "14:00",
                 "homeTeam": "Hellas Verona",
                 "awayTeam": "Torino FC",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "hellas_verona",
                 "awayTeamLogo": "torino_fc"
+            },
+            {
+                "date": "09/05/2021",
+                "time": "17:00",
+                "homeTeam": "AS Roma",
+                "awayTeam": "FC Crotone",
+                "score": "5:0",
+                "homeTeamLogo": "as_roma",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "09/05/2021",
+                "time": "19:45",
+                "homeTeam": "Juventus",
+                "awayTeam": "AC Milan",
+                "score": "0:3",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "ac_milan"
             }
         ]
     },
@@ -3328,92 +3328,92 @@
         "round": 36,
         "matches": [
             {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Atalanta",
-                "awayTeam": "Benevento Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "benevento_calcio"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Cagliari Calcio",
-                "awayTeam": "ACF Fiorentina",
-                "score": "-:-",
-                "homeTeamLogo": "cagliari_calcio",
-                "awayTeamLogo": "acf_fiorentina"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "Genoa CFC",
-                "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "genoa_cfc"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Torino FC",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Lazio Roma",
-                "awayTeam": "Parma Calcio 1913",
-                "score": "-:-",
-                "homeTeamLogo": "lazio_roma",
-                "awayTeamLogo": "parma_calcio_1913"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Inter",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "inter",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
-                "homeTeam": "Sampdoria",
-                "awayTeam": "Spezia Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "sampdoria",
-                "awayTeamLogo": "spezia_calcio"
-            },
-            {
-                "date": "12/05/2021",
-                "time": "",
+                "date": "11/05/2021",
+                "time": "19:45",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "Udinese Calcio",
-                "score": "-:-",
+                "score": "5:1",
                 "homeTeamLogo": "ssc_napoli",
                 "awayTeamLogo": "udinese_calcio"
             },
             {
                 "date": "12/05/2021",
-                "time": "",
+                "time": "17:30",
+                "homeTeam": "Cagliari Calcio",
+                "awayTeam": "ACF Fiorentina",
+                "score": "0:0",
+                "homeTeamLogo": "cagliari_calcio",
+                "awayTeamLogo": "acf_fiorentina"
+            },
+            {
+                "date": "12/05/2021",
+                "time": "19:45",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Benevento Calcio",
+                "score": "2:0",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "benevento_calcio"
+            },
+            {
+                "date": "12/05/2021",
+                "time": "19:45",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "Genoa CFC",
+                "score": "0:2",
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "genoa_cfc"
+            },
+            {
+                "date": "12/05/2021",
+                "time": "19:45",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "Juventus",
+                "score": "1:3",
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "12/05/2021",
+                "time": "19:45",
+                "homeTeam": "Torino FC",
+                "awayTeam": "AC Milan",
+                "score": "0:7",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "12/05/2021",
+                "time": "19:45",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Parma Calcio 1913",
+                "score": "1:0",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "parma_calcio_1913"
+            },
+            {
+                "date": "12/05/2021",
+                "time": "19:45",
+                "homeTeam": "Inter",
+                "awayTeam": "AS Roma",
+                "score": "3:1",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "12/05/2021",
+                "time": "19:45",
+                "homeTeam": "Sampdoria",
+                "awayTeam": "Spezia Calcio",
+                "score": "2:2",
+                "homeTeamLogo": "sampdoria",
+                "awayTeamLogo": "spezia_calcio"
+            },
+            {
+                "date": "13/05/2021",
+                "time": "19:45",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "Hellas Verona",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "fc_crotone",
                 "awayTeamLogo": "hellas_verona"
             }
@@ -3423,94 +3423,94 @@
         "round": 37,
         "matches": [
             {
-                "date": "16/05/2021",
-                "time": "",
+                "date": "15/05/2021",
+                "time": "14:00",
                 "homeTeam": "Genoa CFC",
                 "awayTeam": "Atalanta",
-                "score": "-:-",
+                "score": "3:4",
                 "homeTeamLogo": "genoa_cfc",
                 "awayTeamLogo": "atalanta"
             },
             {
-                "date": "16/05/2021",
-                "time": "",
-                "homeTeam": "Hellas Verona",
-                "awayTeam": "Bologna FC",
-                "score": "-:-",
-                "homeTeamLogo": "hellas_verona",
-                "awayTeamLogo": "bologna_fc"
+                "date": "15/05/2021",
+                "time": "14:00",
+                "homeTeam": "Spezia Calcio",
+                "awayTeam": "Torino FC",
+                "score": "4:1",
+                "homeTeamLogo": "spezia_calcio",
+                "awayTeamLogo": "torino_fc"
             },
             {
-                "date": "16/05/2021",
-                "time": "",
-                "homeTeam": "AC Milan",
-                "awayTeam": "Cagliari Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "ac_milan",
-                "awayTeamLogo": "cagliari_calcio"
-            },
-            {
-                "date": "16/05/2021",
-                "time": "",
-                "homeTeam": "Benevento Calcio",
-                "awayTeam": "FC Crotone",
-                "score": "-:-",
-                "homeTeamLogo": "benevento_calcio",
-                "awayTeamLogo": "fc_crotone"
-            },
-            {
-                "date": "16/05/2021",
-                "time": "",
+                "date": "15/05/2021",
+                "time": "17:00",
                 "homeTeam": "Juventus",
                 "awayTeam": "Inter",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "juventus",
                 "awayTeamLogo": "inter"
             },
             {
-                "date": "16/05/2021",
-                "time": "",
+                "date": "15/05/2021",
+                "time": "19:45",
                 "homeTeam": "AS Roma",
                 "awayTeam": "Lazio Roma",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "as_roma",
                 "awayTeamLogo": "lazio_roma"
             },
             {
                 "date": "16/05/2021",
-                "time": "",
+                "time": "11:30",
                 "homeTeam": "ACF Fiorentina",
                 "awayTeam": "SSC Napoli",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "acf_fiorentina",
                 "awayTeamLogo": "ssc_napoli"
             },
             {
                 "date": "16/05/2021",
-                "time": "",
+                "time": "14:00",
+                "homeTeam": "Benevento Calcio",
+                "awayTeam": "FC Crotone",
+                "score": "1:1",
+                "homeTeamLogo": "benevento_calcio",
+                "awayTeamLogo": "fc_crotone"
+            },
+            {
+                "date": "16/05/2021",
+                "time": "14:00",
                 "homeTeam": "Udinese Calcio",
                 "awayTeam": "Sampdoria",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "udinese_calcio",
                 "awayTeamLogo": "sampdoria"
             },
             {
                 "date": "16/05/2021",
-                "time": "",
+                "time": "17:00",
                 "homeTeam": "Parma Calcio 1913",
                 "awayTeam": "Sassuolo Calcio",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "parma_calcio_1913",
                 "awayTeamLogo": "sassuolo_calcio"
             },
             {
                 "date": "16/05/2021",
-                "time": "",
-                "homeTeam": "Spezia Calcio",
-                "awayTeam": "Torino FC",
-                "score": "-:-",
-                "homeTeamLogo": "spezia_calcio",
-                "awayTeamLogo": "torino_fc"
+                "time": "19:45",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Cagliari Calcio",
+                "score": "0:0",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "cagliari_calcio"
+            },
+            {
+                "date": "17/05/2021",
+                "time": "19:45",
+                "homeTeam": "Hellas Verona",
+                "awayTeam": "Bologna FC",
+                "score": "2:2",
+                "homeTeamLogo": "hellas_verona",
+                "awayTeamLogo": "bologna_fc"
             }
         ]
     },
@@ -3518,17 +3518,8 @@
         "round": 38,
         "matches": [
             {
-                "date": "23/05/2021",
-                "time": "",
-                "homeTeam": "Torino FC",
-                "awayTeam": "Benevento Calcio",
-                "score": "-:-",
-                "homeTeamLogo": "torino_fc",
-                "awayTeamLogo": "benevento_calcio"
-            },
-            {
-                "date": "23/05/2021",
-                "time": "",
+                "date": "22/05/2021",
+                "time": "19:45",
                 "homeTeam": "FC Crotone",
                 "awayTeam": "ACF Fiorentina",
                 "score": "-:-",
@@ -3536,8 +3527,8 @@
                 "awayTeamLogo": "acf_fiorentina"
             },
             {
-                "date": "23/05/2021",
-                "time": "",
+                "date": "22/05/2021",
+                "time": "19:45",
                 "homeTeam": "Cagliari Calcio",
                 "awayTeam": "Genoa CFC",
                 "score": "-:-",
@@ -3545,35 +3536,8 @@
                 "awayTeamLogo": "genoa_cfc"
             },
             {
-                "date": "23/05/2021",
-                "time": "",
-                "homeTeam": "Bologna FC",
-                "awayTeam": "Juventus",
-                "score": "-:-",
-                "homeTeamLogo": "bologna_fc",
-                "awayTeamLogo": "juventus"
-            },
-            {
-                "date": "23/05/2021",
-                "time": "",
-                "homeTeam": "Sassuolo Calcio",
-                "awayTeam": "Lazio Roma",
-                "score": "-:-",
-                "homeTeamLogo": "sassuolo_calcio",
-                "awayTeamLogo": "lazio_roma"
-            },
-            {
-                "date": "23/05/2021",
-                "time": "",
-                "homeTeam": "Atalanta",
-                "awayTeam": "AC Milan",
-                "score": "-:-",
-                "homeTeamLogo": "atalanta",
-                "awayTeamLogo": "ac_milan"
-            },
-            {
-                "date": "23/05/2021",
-                "time": "",
+                "date": "22/05/2021",
+                "time": "19:45",
                 "homeTeam": "Sampdoria",
                 "awayTeam": "Parma Calcio 1913",
                 "score": "-:-",
@@ -3582,16 +3546,7 @@
             },
             {
                 "date": "23/05/2021",
-                "time": "",
-                "homeTeam": "Spezia Calcio",
-                "awayTeam": "AS Roma",
-                "score": "-:-",
-                "homeTeamLogo": "spezia_calcio",
-                "awayTeamLogo": "as_roma"
-            },
-            {
-                "date": "23/05/2021",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "Inter",
                 "awayTeam": "Udinese Calcio",
                 "score": "-:-",
@@ -3600,7 +3555,52 @@
             },
             {
                 "date": "23/05/2021",
-                "time": "",
+                "time": "19:45",
+                "homeTeam": "Torino FC",
+                "awayTeam": "Benevento Calcio",
+                "score": "-:-",
+                "homeTeamLogo": "torino_fc",
+                "awayTeamLogo": "benevento_calcio"
+            },
+            {
+                "date": "23/05/2021",
+                "time": "19:45",
+                "homeTeam": "Bologna FC",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "bologna_fc",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "23/05/2021",
+                "time": "19:45",
+                "homeTeam": "Sassuolo Calcio",
+                "awayTeam": "Lazio Roma",
+                "score": "-:-",
+                "homeTeamLogo": "sassuolo_calcio",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "23/05/2021",
+                "time": "19:45",
+                "homeTeam": "Atalanta",
+                "awayTeam": "AC Milan",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "23/05/2021",
+                "time": "19:45",
+                "homeTeam": "Spezia Calcio",
+                "awayTeam": "AS Roma",
+                "score": "-:-",
+                "homeTeamLogo": "spezia_calcio",
+                "awayTeamLogo": "as_roma"
+            },
+            {
+                "date": "23/05/2021",
+                "time": "19:45",
                 "homeTeam": "SSC Napoli",
                 "awayTeam": "Hellas Verona",
                 "score": "-:-",

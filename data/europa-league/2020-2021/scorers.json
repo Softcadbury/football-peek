@@ -1,10 +1,19 @@
 [
     {
         "rank": "1.",
+        "name": " Borja Mayoral",
+        "country": "Spain",
+        "team": "AS Roma",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": " Pizzi",
         "country": "Portugal",
         "team": "SL Benfica",
-        "goals": "6",
+        "goals": "7",
         "flag": "portugal",
         "logo": "sl_benfica"
     },
@@ -13,18 +22,99 @@
         "name": "Yusuf Yazıcı",
         "country": "Turkey",
         "team": "Lille OSC",
-        "goals": "6",
+        "goals": "7",
         "flag": "turkey",
         "logo": "lille_osc"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
+        "name": " Carlos Vinícius",
+        "country": "Brazil",
+        "team": "Tottenham Hotspur",
+        "goals": "6",
+        "flag": "brazil",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Munas Dabbur",
+        "country": "Israel",
+        "team": "1899 Hoffenheim",
+        "goals": "6",
+        "flag": "israel",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "AS Roma",
+        "goals": "6",
+        "flag": "bosnia_herzegovina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": " Gerard",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Mislav Oršić",
+        "country": "Croatia",
+        "team": "Dinamo Zagreb",
+        "goals": "6",
+        "flag": "croatia",
+        "logo": "dinamo_zagreb"
+    },
+    {
+        "rank": "-",
+        "name": " Paco Alcácer",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Nicolas Pépé",
+        "country": "Ivory Coast",
+        "team": "Arsenal FC",
+        "goals": "6",
+        "flag": "ivory_coast",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "11.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
         "goals": "5",
         "flag": "jamaica",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Manchester United",
+        "goals": "5",
+        "flag": "portugal",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Edinson Cavani",
+        "country": "Uruguay",
+        "team": "Manchester United",
+        "goals": "5",
+        "flag": "uruguay",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
@@ -46,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Michael Liendl",
+        "country": "Austria",
+        "team": "Wolfsberger AC",
+        "goals": "5",
+        "flag": "austria",
+        "logo": "wolfsberger_ac"
+    },
+    {
+        "rank": "-",
         "name": "Donyell Malen",
         "country": "Netherlands",
         "team": "PSV Eindhoven",
@@ -63,120 +162,21 @@
         "logo": "sl_benfica"
     },
     {
-        "rank": "8.",
-        "name": "Elton Acolatse",
-        "country": "Netherlands",
-        "team": "Hapoel Be'er Sheva",
-        "goals": "4",
-        "flag": "netherlands",
-        "logo": "hapoel_be_er_sheva"
-    },
-    {
         "rank": "-",
-        "name": "Munas Dabbur",
+        "name": "Lior Refaelov",
         "country": "Israel",
-        "team": "1899 Hoffenheim",
-        "goals": "4",
+        "team": "Royal Antwerp FC",
+        "goals": "5",
         "flag": "israel",
-        "logo": "1899_hoffenheim"
+        "logo": "royal_antwerp_fc"
     },
     {
         "rank": "-",
-        "name": "Amine Gouiri",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "4",
-        "flag": "france",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "-",
-        "name": "Olarenwaju Kayode",
-        "country": "Nigeria",
-        "team": "Sivasspor",
-        "goals": "4",
-        "flag": "nigeria",
-        "logo": "sivasspor"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Liendl",
-        "country": "Austria",
-        "team": "Wolfsberger AC",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "wolfsberger_ac"
-    },
-    {
-        "rank": "-",
-        "name": "Elvis Manu",
-        "country": "Ghana",
-        "team": "PFC Ludogorets Razgrad",
-        "goals": "4",
-        "flag": "ghana",
-        "logo": "pfc_ludogorets_razgrad"
-    },
-    {
-        "rank": "-",
-        "name": "Jean-Pierre Nsame",
-        "country": "Cameroon",
-        "team": "BSC Young Boys",
-        "goals": "4",
-        "flag": "cameroon",
-        "logo": "bsc_young_boys"
-    },
-    {
-        "rank": "-",
-        "name": " Paco Alcácer",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "16.",
-        "name": "Carlos Bacca",
-        "country": "Colombia",
-        "team": "Villarreal CF",
-        "goals": "3",
-        "flag": "colombia",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Harvey Barnes",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "3",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Karim Bellarabi",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": " Borja Mayoral",
-        "country": "Spain",
-        "team": "AS Roma",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Brahim Díaz",
-        "country": "Spain",
-        "team": "AC Milan",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "ac_milan"
+        "name": "Eran Zahavi",
+        "country": "Israel",
+        "team": "PSV Eindhoven",
+        "goals": "5",
+        "flag": "israel",
+        "logo": "psv_eindhoven"
     }
 ]
