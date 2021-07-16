@@ -3,9 +3,10 @@
 const tablesUpdater = require('./tablesUpdater');
 const resultsUpdater = require('./resultsUpdater');
 const tournamentsUpdater = require('./tournamentsUpdater');
-// const groupsUpdater = require('./groupsUpdater');
+const groupsUpdater = require('./groupsUpdater');
 const scorersUpdater = require('./scorersUpdater');
 const assistsUpdater = require('./assistsUpdater');
+const config = require('../config');
 
 // Updates league data
 async function updateLeague(item) {
@@ -17,8 +18,8 @@ async function updateLeague(item) {
 
 // Updates competition data
 async function updateCompetition(item) {
-    await tournamentsUpdater.update(item);
-    // await groupsUpdater.update(item); This phase is over
+    config.updateCompetitionTournaments && await tournamentsUpdater.update(item);
+    config.updateCompetitionGroups && await groupsUpdater.update(item);
     await scorersUpdater.updateCompetitions(item);
     await assistsUpdater.updateCompetitions(item);
 }

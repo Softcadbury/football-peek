@@ -4,7 +4,7 @@
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "10",
+        "assists": "21",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
@@ -13,12 +13,120 @@
         "name": "Jadon Sancho",
         "country": "England",
         "team": "Borussia Dortmund",
-        "assists": "9",
+        "assists": "16",
         "flag": "england",
         "logo": "borussia_dortmund"
     },
     {
         "rank": "3.",
+        "name": "Christopher Nkunku",
+        "country": "France",
+        "team": "RB Leipzig",
+        "assists": "14",
+        "flag": "france",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "4.",
+        "name": "Thorgan Hazard",
+        "country": "Belgium",
+        "team": "Borussia Dortmund",
+        "assists": "13",
+        "flag": "belgium",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "13",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "6.",
+        "name": "Christian Günter",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "assists": "10",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Achraf Hakimi",
+        "country": "Morocco",
+        "team": "Borussia Dortmund",
+        "assists": "10",
+        "flag": "morocco",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "assists": "10",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "9.",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "9",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Robert Skov",
+        "country": "Denmark",
+        "team": "1899 Hoffenheim",
+        "assists": "9",
+        "flag": "denmark",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "11.",
+        "name": "Maximilian Arnold",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Julian Brandt",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "SC Freiburg",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Florian Niederlechner",
         "country": "Germany",
         "team": "FC Augsburg",
@@ -28,155 +136,47 @@
     },
     {
         "rank": "-",
-        "name": "Christopher Nkunku",
+        "name": "Marcus Thuram",
         "country": "France",
-        "team": "RB Leipzig",
+        "team": "Bor. Mönchengladbach",
         "assists": "8",
         "flag": "france",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "5.",
-        "name": "Thorgan Hazard",
-        "country": "Belgium",
-        "team": "Borussia Dortmund",
-        "assists": "7",
-        "flag": "belgium",
-        "logo": "borussia_dortmund"
+        "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "7",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
+        "name": "Christopher Trimmel",
+        "country": "Austria",
+        "team": "1. FC Union Berlin",
+        "assists": "8",
+        "flag": "austria",
+        "logo": "1__fc_union_berlin"
     },
     {
         "rank": "-",
         "name": "Kevin Volland",
         "country": "Germany",
         "team": "Bayer Leverkusen",
-        "assists": "7",
+        "assists": "8",
         "flag": "germany",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "8.",
-        "name": " Coutinho",
-        "country": "Brazil",
-        "team": "Bayern München",
-        "assists": "6",
-        "flag": "brazil",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Christian Günter",
-        "country": "Germany",
-        "team": "SC Freiburg",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Achraf Hakimi",
-        "country": "Morocco",
-        "team": "Borussia Dortmund",
-        "assists": "6",
-        "flag": "morocco",
-        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
         "name": "Timo Werner",
         "country": "Germany",
         "team": "RB Leipzig",
-        "assists": "6",
+        "assists": "8",
         "flag": "germany",
         "logo": "rb_leipzig"
     },
     {
-        "rank": "12.",
-        "name": "Jean-Paul Boëtius",
-        "country": "Netherlands",
-        "team": "1. FSV Mainz 05",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Gnabry",
+        "rank": "20.",
+        "name": "Karim Bellarabi",
         "country": "Germany",
-        "team": "Bayern München",
-        "assists": "5",
+        "team": "Bayer Leverkusen",
+        "assists": "7",
         "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Amine Harit",
-        "country": "Morocco",
-        "team": "FC Schalke 04",
-        "assists": "5",
-        "flag": "morocco",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Davy Klaassen",
-        "country": "Netherlands",
-        "team": "Werder Bremen",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
-        "assists": "5",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Yussuf Poulsen",
-        "country": "Denmark",
-        "team": "RB Leipzig",
-        "assists": "5",
-        "flag": "denmark",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Marcus Thuram",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
-        "assists": "5",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "19.",
-        "name": "László Bénes",
-        "country": "Slovakia",
-        "team": "Bor. Mönchengladbach",
-        "assists": "4",
-        "flag": "slovakia",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Vladimír Darida",
-        "country": "Czech Republic",
-        "team": "Hertha BSC",
-        "assists": "4",
-        "flag": "czech_republic",
-        "logo": "hertha_bsc"
+        "logo": "bayer_leverkusen"
     }
 ]

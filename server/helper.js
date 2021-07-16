@@ -96,7 +96,7 @@ function scrapeUrl(url, callback) {
 function manageFlagProperty(item) {
     item.flag = stringSanitize(item.country);
 
-    if (config.downloadImages) {
+    if (config.updateWithImagesDownload) {
         downloadImage(item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
     }
 
@@ -107,7 +107,7 @@ function manageFlagProperty(item) {
 function manageLogoProperty(item) {
     item.logo = stringSanitize(item.team);
 
-    if (config.downloadImages) {
+    if (config.updateWithImagesDownload) {
         downloadImage(item.logoSrc, stringFormat(config.paths.logosData, item.logo));
     }
 

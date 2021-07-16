@@ -1,5 +1,50 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "23/08/2020",
+                "time1": "20:00",
+                "team1": "Paris Saint-Germain",
+                "team2": "Bayern München",
+                "score1": "0:1",
+                "winner": "Bayern München",
+                "team1Logo": "paris_saint_germain",
+                "team2Logo": "bayern_munchen"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "date1": "18/08/2020",
+                "time1": "20:00",
+                "team1": "RB Leipzig",
+                "team2": "Paris Saint-Germain",
+                "score1": "0:3",
+                "winner": "Paris Saint-Germain",
+                "team1Logo": "rb_leipzig",
+                "team2Logo": "paris_saint_germain"
+            }
+        ]
+    },
+    {
+        "name": "Quarter-finals",
+        "matches": [
+            {
+                "date1": "12/08/2020",
+                "time1": "20:00",
+                "team1": "Atalanta",
+                "team2": "Paris Saint-Germain",
+                "score1": "1:2",
+                "winner": "Paris Saint-Germain",
+                "team1Logo": "atalanta",
+                "team2Logo": "paris_saint_germain"
+            }
+        ]
+    },
+    {
         "name": "Eighth-finals",
         "matches": [
             {
@@ -9,9 +54,9 @@
                 "time2": "20:00",
                 "team1": "Borussia Dortmund",
                 "team2": "Paris Saint-Germain",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "2:1",
+                "score2": "0:2",
+                "winner": "Paris Saint-Germain",
                 "team1Logo": "borussia_dortmund",
                 "team2Logo": "paris_saint_germain"
             },
@@ -22,9 +67,9 @@
                 "time2": "20:00",
                 "team1": "Atlético Madrid",
                 "team2": "Liverpool FC",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:0",
+                "score2": "3:2",
+                "winner": "Atlético Madrid",
                 "team1Logo": "atletico_madrid",
                 "team2Logo": "liverpool_fc"
             },
@@ -35,9 +80,9 @@
                 "time2": "20:00",
                 "team1": "Atalanta",
                 "team2": "Valencia CF",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "4:1",
+                "score2": "4:3",
+                "winner": "Atalanta",
                 "team1Logo": "atalanta",
                 "team2Logo": "valencia_cf"
             },
@@ -48,61 +93,61 @@
                 "time2": "20:00",
                 "team1": "Tottenham Hotspur",
                 "team2": "RB Leipzig",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "0:1",
+                "score2": "0:3",
+                "winner": "RB Leipzig",
                 "team1Logo": "tottenham_hotspur",
                 "team2Logo": "rb_leipzig"
             },
             {
                 "date1": "25/02/2020",
-                "date2": "18/03/2020",
+                "date2": "08/08/2020",
                 "time1": "20:00",
                 "time2": "20:00",
                 "team1": "Chelsea FC",
                 "team2": "Bayern München",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "0:3",
+                "score2": "1:4",
+                "winner": "Bayern München",
                 "team1Logo": "chelsea_fc",
                 "team2Logo": "bayern_munchen"
             },
             {
                 "date1": "25/02/2020",
-                "date2": "18/03/2020",
+                "date2": "08/08/2020",
                 "time1": "20:00",
                 "time2": "20:00",
                 "team1": "SSC Napoli",
                 "team2": "FC Barcelona",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:1",
+                "score2": "1:3",
+                "winner": "FC Barcelona",
                 "team1Logo": "ssc_napoli",
                 "team2Logo": "fc_barcelona"
             },
             {
                 "date1": "26/02/2020",
-                "date2": "17/03/2020",
+                "date2": "07/08/2020",
                 "time1": "20:00",
                 "time2": "20:00",
                 "team1": "Real Madrid",
                 "team2": "Manchester City",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:2",
+                "score2": "1:2",
+                "winner": "Manchester City",
                 "team1Logo": "real_madrid",
                 "team2Logo": "manchester_city"
             },
             {
                 "date1": "26/02/2020",
-                "date2": "17/03/2020",
+                "date2": "07/08/2020",
                 "time1": "20:00",
                 "time2": "20:00",
                 "team1": "Olympique Lyon",
                 "team2": "Juventus",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:0",
+                "score2": "1:2",
+                "winner": "Olympique Lyon",
                 "team1Logo": "olympique_lyon",
                 "team2Logo": "juventus"
             }

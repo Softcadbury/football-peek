@@ -1,0 +1,1338 @@
+[
+    {
+        "name": "a",
+        "matches": [
+            {
+                "date": "21/10/2020",
+                "time": "17:55",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "2:2",
+                "homeTeamLogo": "rb_salzburg",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "21/10/2020",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Atlético Madrid",
+                "score": "4:0",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "17:55",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "Bayern München",
+                "score": "1:2",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "RB Salzburg",
+                "score": "3:2",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "rb_salzburg"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "17:55",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "Atlético Madrid",
+                "score": "1:1",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "20:00",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "Bayern München",
+                "score": "2:6",
+                "homeTeamLogo": "rb_salzburg",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "0:0",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "RB Salzburg",
+                "score": "3:1",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "rb_salzburg"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "17:55",
+                "homeTeam": "Lokomotiv Moskva",
+                "awayTeam": "RB Salzburg",
+                "score": "1:3",
+                "homeTeamLogo": "lokomotiv_moskva",
+                "awayTeamLogo": "rb_salzburg"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Bayern München",
+                "score": "1:1",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Lokomotiv Moskva",
+                "score": "2:0",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "lokomotiv_moskva"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "20:00",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "Atlético Madrid",
+                "score": "0:2",
+                "homeTeamLogo": "rb_salzburg",
+                "awayTeamLogo": "atletico_madrid"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Bayern München",
+                "points": "16",
+                "played": "6",
+                "win": "5",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "18",
+                "goalsAgainst": "5",
+                "goalDifference": "13",
+                "logo": "bayern_munchen"
+            },
+            {
+                "rank": "2",
+                "team": "Atlético Madrid",
+                "points": "9",
+                "played": "6",
+                "win": "2",
+                "draw": "3",
+                "lost": "1",
+                "goalsFor": "7",
+                "goalsAgainst": "8",
+                "goalDifference": "-1",
+                "logo": "atletico_madrid"
+            },
+            {
+                "rank": "3",
+                "team": "RB Salzburg",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "10",
+                "goalsAgainst": "17",
+                "goalDifference": "-7",
+                "logo": "rb_salzburg"
+            },
+            {
+                "rank": "4",
+                "team": "Lokomotiv Moskva",
+                "points": "3",
+                "played": "6",
+                "win": "0",
+                "draw": "3",
+                "lost": "3",
+                "goalsFor": "5",
+                "goalsAgainst": "10",
+                "goalDifference": "-5",
+                "logo": "lokomotiv_moskva"
+            }
+        ]
+    },
+    {
+        "name": "b",
+        "matches": [
+            {
+                "date": "21/10/2020",
+                "time": "17:55",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "2:3",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "21/10/2020",
+                "time": "20:00",
+                "homeTeam": "Inter",
+                "awayTeam": "Bor. Mönchengladbach",
+                "score": "2:2",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "bor__monchengladbach"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "17:55",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Inter",
+                "score": "0:0",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "20:00",
+                "homeTeam": "Bor. Mönchengladbach",
+                "awayTeam": "Real Madrid",
+                "score": "2:2",
+                "homeTeamLogo": "bor__monchengladbach",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "17:55",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Bor. Mönchengladbach",
+                "score": "0:6",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "bor__monchengladbach"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "20:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Inter",
+                "score": "3:2",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "17:55",
+                "homeTeam": "Bor. Mönchengladbach",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "4:0",
+                "homeTeamLogo": "bor__monchengladbach",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "20:00",
+                "homeTeam": "Inter",
+                "awayTeam": "Real Madrid",
+                "score": "0:2",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "17:55",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Real Madrid",
+                "score": "2:0",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "20:00",
+                "homeTeam": "Bor. Mönchengladbach",
+                "awayTeam": "Inter",
+                "score": "2:3",
+                "homeTeamLogo": "bor__monchengladbach",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "20:00",
+                "homeTeam": "Inter",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "0:0",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "20:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Bor. Mönchengladbach",
+                "score": "2:0",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "bor__monchengladbach"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Real Madrid",
+                "points": "10",
+                "played": "6",
+                "win": "3",
+                "draw": "1",
+                "lost": "2",
+                "goalsFor": "11",
+                "goalsAgainst": "9",
+                "goalDifference": "2",
+                "logo": "real_madrid"
+            },
+            {
+                "rank": "2",
+                "team": "Bor. Mönchengladbach",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "16",
+                "goalsAgainst": "9",
+                "goalDifference": "7",
+                "logo": "bor__monchengladbach"
+            },
+            {
+                "rank": "3",
+                "team": "Shakhtar Donetsk",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "5",
+                "goalsAgainst": "12",
+                "goalDifference": "-7",
+                "logo": "shakhtar_donetsk"
+            },
+            {
+                "rank": "4",
+                "team": "Inter",
+                "points": "6",
+                "played": "6",
+                "win": "1",
+                "draw": "3",
+                "lost": "2",
+                "goalsFor": "7",
+                "goalsAgainst": "9",
+                "goalDifference": "-2",
+                "logo": "inter"
+            }
+        ]
+    },
+    {
+        "name": "c",
+        "matches": [
+            {
+                "date": "21/10/2020",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "FC Porto",
+                "score": "3:1",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "21/10/2020",
+                "time": "20:00",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Olympique Marseille",
+                "score": "1:0",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "2:0",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "20:00",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Manchester City",
+                "score": "0:3",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Olympique Marseille",
+                "score": "3:0",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "3:0",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "17:55",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "Manchester City",
+                "score": "0:1",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "20:00",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "FC Porto",
+                "score": "0:2",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Manchester City",
+                "score": "0:0",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "20:00",
+                "homeTeam": "Olympique Marseille",
+                "awayTeam": "Olympiakos Piräus",
+                "score": "2:1",
+                "homeTeamLogo": "olympique_marseille",
+                "awayTeamLogo": "olympiakos_piraus"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Olympique Marseille",
+                "score": "3:0",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "olympique_marseille"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "20:00",
+                "homeTeam": "Olympiakos Piräus",
+                "awayTeam": "FC Porto",
+                "score": "0:2",
+                "homeTeamLogo": "olympiakos_piraus",
+                "awayTeamLogo": "fc_porto"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Manchester City",
+                "points": "16",
+                "played": "6",
+                "win": "5",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "13",
+                "goalsAgainst": "1",
+                "goalDifference": "12",
+                "logo": "manchester_city"
+            },
+            {
+                "rank": "2",
+                "team": "FC Porto",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "10",
+                "goalsAgainst": "3",
+                "goalDifference": "7",
+                "logo": "fc_porto"
+            },
+            {
+                "rank": "3",
+                "team": "Olympiakos Piräus",
+                "points": "3",
+                "played": "6",
+                "win": "1",
+                "draw": "0",
+                "lost": "5",
+                "goalsFor": "2",
+                "goalsAgainst": "10",
+                "goalDifference": "-8",
+                "logo": "olympiakos_piraus"
+            },
+            {
+                "rank": "4",
+                "team": "Olympique Marseille",
+                "points": "3",
+                "played": "6",
+                "win": "1",
+                "draw": "0",
+                "lost": "5",
+                "goalsFor": "2",
+                "goalsAgainst": "13",
+                "goalDifference": "-11",
+                "logo": "olympique_marseille"
+            }
+        ]
+    },
+    {
+        "name": "d",
+        "matches": [
+            {
+                "date": "21/10/2020",
+                "time": "20:00",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Liverpool FC",
+                "score": "0:1",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "21/10/2020",
+                "time": "20:00",
+                "homeTeam": "FC Midtjylland",
+                "awayTeam": "Atalanta",
+                "score": "0:4",
+                "homeTeamLogo": "fc_midtjylland",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "20:00",
+                "homeTeam": "Atalanta",
+                "awayTeam": "AFC Ajax",
+                "score": "2:2",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "27/10/2020",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "FC Midtjylland",
+                "score": "2:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "fc_midtjylland"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "20:00",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Liverpool FC",
+                "score": "0:5",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "03/11/2020",
+                "time": "20:00",
+                "homeTeam": "FC Midtjylland",
+                "awayTeam": "AFC Ajax",
+                "score": "1:2",
+                "homeTeamLogo": "fc_midtjylland",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "20:00",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "FC Midtjylland",
+                "score": "3:1",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "fc_midtjylland"
+            },
+            {
+                "date": "25/11/2020",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Atalanta",
+                "score": "0:2",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "20:00",
+                "homeTeam": "Atalanta",
+                "awayTeam": "FC Midtjylland",
+                "score": "1:1",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "fc_midtjylland"
+            },
+            {
+                "date": "01/12/2020",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "AFC Ajax",
+                "score": "1:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "17:55",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Atalanta",
+                "score": "0:1",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "17:55",
+                "homeTeam": "FC Midtjylland",
+                "awayTeam": "Liverpool FC",
+                "score": "1:1",
+                "homeTeamLogo": "fc_midtjylland",
+                "awayTeamLogo": "liverpool_fc"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Liverpool FC",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "10",
+                "goalsAgainst": "3",
+                "goalDifference": "7",
+                "logo": "liverpool_fc"
+            },
+            {
+                "rank": "2",
+                "team": "Atalanta",
+                "points": "11",
+                "played": "6",
+                "win": "3",
+                "draw": "2",
+                "lost": "1",
+                "goalsFor": "10",
+                "goalsAgainst": "8",
+                "goalDifference": "2",
+                "logo": "atalanta"
+            },
+            {
+                "rank": "3",
+                "team": "AFC Ajax",
+                "points": "7",
+                "played": "6",
+                "win": "2",
+                "draw": "1",
+                "lost": "3",
+                "goalsFor": "7",
+                "goalsAgainst": "7",
+                "goalDifference": "0",
+                "logo": "afc_ajax"
+            },
+            {
+                "rank": "4",
+                "team": "FC Midtjylland",
+                "points": "2",
+                "played": "6",
+                "win": "0",
+                "draw": "2",
+                "lost": "4",
+                "goalsFor": "4",
+                "goalsAgainst": "13",
+                "goalDifference": "-9",
+                "logo": "fc_midtjylland"
+            }
+        ]
+    },
+    {
+        "name": "e",
+        "matches": [
+            {
+                "date": "20/10/2020",
+                "time": "20:00",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Sevilla FC",
+                "score": "0:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "20/10/2020",
+                "time": "20:00",
+                "homeTeam": "Stade Rennes",
+                "awayTeam": "FK Krasnodar",
+                "score": "1:1",
+                "homeTeamLogo": "stade_rennes",
+                "awayTeamLogo": "fk_krasnodar"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "17:55",
+                "homeTeam": "FK Krasnodar",
+                "awayTeam": "Chelsea FC",
+                "score": "0:4",
+                "homeTeamLogo": "fk_krasnodar",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "20:00",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Stade Rennes",
+                "score": "1:0",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "stade_rennes"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "20:00",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Stade Rennes",
+                "score": "3:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "stade_rennes"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "20:00",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "FK Krasnodar",
+                "score": "3:2",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "fk_krasnodar"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "17:55",
+                "homeTeam": "Stade Rennes",
+                "awayTeam": "Chelsea FC",
+                "score": "1:2",
+                "homeTeamLogo": "stade_rennes",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "17:55",
+                "homeTeam": "FK Krasnodar",
+                "awayTeam": "Sevilla FC",
+                "score": "1:2",
+                "homeTeamLogo": "fk_krasnodar",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "17:55",
+                "homeTeam": "FK Krasnodar",
+                "awayTeam": "Stade Rennes",
+                "score": "1:0",
+                "homeTeamLogo": "fk_krasnodar",
+                "awayTeamLogo": "stade_rennes"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "20:00",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Chelsea FC",
+                "score": "0:4",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "08/12/2020",
+                "time": "20:00",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "FK Krasnodar",
+                "score": "1:1",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "fk_krasnodar"
+            },
+            {
+                "date": "08/12/2020",
+                "time": "20:00",
+                "homeTeam": "Stade Rennes",
+                "awayTeam": "Sevilla FC",
+                "score": "1:3",
+                "homeTeamLogo": "stade_rennes",
+                "awayTeamLogo": "sevilla_fc"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Chelsea FC",
+                "points": "14",
+                "played": "6",
+                "win": "4",
+                "draw": "2",
+                "lost": "0",
+                "goalsFor": "14",
+                "goalsAgainst": "2",
+                "goalDifference": "12",
+                "logo": "chelsea_fc"
+            },
+            {
+                "rank": "2",
+                "team": "Sevilla FC",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "9",
+                "goalsAgainst": "8",
+                "goalDifference": "1",
+                "logo": "sevilla_fc"
+            },
+            {
+                "rank": "3",
+                "team": "FK Krasnodar",
+                "points": "5",
+                "played": "6",
+                "win": "1",
+                "draw": "2",
+                "lost": "3",
+                "goalsFor": "6",
+                "goalsAgainst": "11",
+                "goalDifference": "-5",
+                "logo": "fk_krasnodar"
+            },
+            {
+                "rank": "4",
+                "team": "Stade Rennes",
+                "points": "1",
+                "played": "6",
+                "win": "0",
+                "draw": "1",
+                "lost": "5",
+                "goalsFor": "3",
+                "goalsAgainst": "11",
+                "goalDifference": "-8",
+                "logo": "stade_rennes"
+            }
+        ]
+    },
+    {
+        "name": "f",
+        "matches": [
+            {
+                "date": "20/10/2020",
+                "time": "17:55",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Club Brugge KV",
+                "score": "1:2",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "20/10/2020",
+                "time": "20:00",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Borussia Dortmund",
+                "score": "3:1",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "2:0",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "20:00",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Lazio Roma",
+                "score": "1:1",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "17:55",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Lazio Roma",
+                "score": "1:1",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "20:00",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Borussia Dortmund",
+                "score": "0:3",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "Club Brugge KV",
+                "score": "3:0",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "20:00",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "3:1",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "Lazio Roma",
+                "score": "1:1",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "lazio_roma"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "20:00",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "3:0",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "08/12/2020",
+                "time": "17:55",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Borussia Dortmund",
+                "score": "1:2",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "08/12/2020",
+                "time": "17:55",
+                "homeTeam": "Lazio Roma",
+                "awayTeam": "Club Brugge KV",
+                "score": "2:2",
+                "homeTeamLogo": "lazio_roma",
+                "awayTeamLogo": "club_brugge_kv"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Borussia Dortmund",
+                "points": "13",
+                "played": "6",
+                "win": "4",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "12",
+                "goalsAgainst": "5",
+                "goalDifference": "7",
+                "logo": "borussia_dortmund"
+            },
+            {
+                "rank": "2",
+                "team": "Lazio Roma",
+                "points": "10",
+                "played": "6",
+                "win": "2",
+                "draw": "4",
+                "lost": "0",
+                "goalsFor": "11",
+                "goalsAgainst": "7",
+                "goalDifference": "4",
+                "logo": "lazio_roma"
+            },
+            {
+                "rank": "3",
+                "team": "Club Brugge KV",
+                "points": "8",
+                "played": "6",
+                "win": "2",
+                "draw": "2",
+                "lost": "2",
+                "goalsFor": "8",
+                "goalsAgainst": "10",
+                "goalDifference": "-2",
+                "logo": "club_brugge_kv"
+            },
+            {
+                "rank": "4",
+                "team": "Zenit St. Petersburg",
+                "points": "1",
+                "played": "6",
+                "win": "0",
+                "draw": "1",
+                "lost": "5",
+                "goalsFor": "4",
+                "goalsAgainst": "13",
+                "goalDifference": "-9",
+                "logo": "zenit_st__petersburg"
+            }
+        ]
+    },
+    {
+        "name": "g",
+        "matches": [
+            {
+                "date": "20/10/2020",
+                "time": "17:55",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "Juventus",
+                "score": "0:2",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "20/10/2020",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Ferencvárosi TC",
+                "score": "5:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "ferencvarosi_tc"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "20:00",
+                "homeTeam": "Ferencvárosi TC",
+                "awayTeam": "Dinamo Kiev",
+                "score": "2:2",
+                "homeTeamLogo": "ferencvarosi_tc",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "20:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "FC Barcelona",
+                "score": "0:2",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Dinamo Kiev",
+                "score": "2:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "20:00",
+                "homeTeam": "Ferencvárosi TC",
+                "awayTeam": "Juventus",
+                "score": "1:4",
+                "homeTeamLogo": "ferencvarosi_tc",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "20:00",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "FC Barcelona",
+                "score": "0:4",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "20:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "Ferencvárosi TC",
+                "score": "2:1",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "ferencvarosi_tc"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "20:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "Dinamo Kiev",
+                "score": "3:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "20:00",
+                "homeTeam": "Ferencvárosi TC",
+                "awayTeam": "FC Barcelona",
+                "score": "0:3",
+                "homeTeamLogo": "ferencvarosi_tc",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "08/12/2020",
+                "time": "20:00",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "Ferencvárosi TC",
+                "score": "1:0",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "ferencvarosi_tc"
+            },
+            {
+                "date": "08/12/2020",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Juventus",
+                "score": "0:3",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "juventus"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Juventus",
+                "points": "15",
+                "played": "6",
+                "win": "5",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "14",
+                "goalsAgainst": "4",
+                "goalDifference": "10",
+                "logo": "juventus"
+            },
+            {
+                "rank": "2",
+                "team": "FC Barcelona",
+                "points": "15",
+                "played": "6",
+                "win": "5",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "16",
+                "goalsAgainst": "5",
+                "goalDifference": "11",
+                "logo": "fc_barcelona"
+            },
+            {
+                "rank": "3",
+                "team": "Dinamo Kiev",
+                "points": "4",
+                "played": "6",
+                "win": "1",
+                "draw": "1",
+                "lost": "4",
+                "goalsFor": "4",
+                "goalsAgainst": "13",
+                "goalDifference": "-9",
+                "logo": "dinamo_kiev"
+            },
+            {
+                "rank": "4",
+                "team": "Ferencvárosi TC",
+                "points": "1",
+                "played": "6",
+                "win": "0",
+                "draw": "1",
+                "lost": "5",
+                "goalsFor": "5",
+                "goalsAgainst": "17",
+                "goalDifference": "-12",
+                "logo": "ferencvarosi_tc"
+            }
+        ]
+    },
+    {
+        "name": "h",
+        "matches": [
+            {
+                "date": "20/10/2020",
+                "time": "20:00",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "İstanbul Başakşehir",
+                "score": "2:0",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "i_stanbul_ba_ak_ehir"
+            },
+            {
+                "date": "20/10/2020",
+                "time": "20:00",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Manchester United",
+                "score": "1:2",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "17:55",
+                "homeTeam": "İstanbul Başakşehir",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "0:2",
+                "homeTeamLogo": "i_stanbul_ba_ak_ehir",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "28/10/2020",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "RB Leipzig",
+                "score": "5:0",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "17:55",
+                "homeTeam": "İstanbul Başakşehir",
+                "awayTeam": "Manchester United",
+                "score": "2:1",
+                "homeTeamLogo": "i_stanbul_ba_ak_ehir",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "04/11/2020",
+                "time": "20:00",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "2:1",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "İstanbul Başakşehir",
+                "score": "4:1",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "i_stanbul_ba_ak_ehir"
+            },
+            {
+                "date": "24/11/2020",
+                "time": "20:00",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "RB Leipzig",
+                "score": "1:0",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "17:55",
+                "homeTeam": "İstanbul Başakşehir",
+                "awayTeam": "RB Leipzig",
+                "score": "3:4",
+                "homeTeamLogo": "i_stanbul_ba_ak_ehir",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "02/12/2020",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "1:3",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "08/12/2020",
+                "time": "20:00",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "Manchester United",
+                "score": "3:2",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "09/12/2020",
+                "time": "17:55",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "İstanbul Başakşehir",
+                "score": "5:1",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "i_stanbul_ba_ak_ehir"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Paris Saint-Germain",
+                "points": "12",
+                "played": "6",
+                "win": "4",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "13",
+                "goalsAgainst": "6",
+                "goalDifference": "7",
+                "logo": "paris_saint_germain"
+            },
+            {
+                "rank": "2",
+                "team": "RB Leipzig",
+                "points": "12",
+                "played": "6",
+                "win": "4",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "11",
+                "goalsAgainst": "12",
+                "goalDifference": "-1",
+                "logo": "rb_leipzig"
+            },
+            {
+                "rank": "3",
+                "team": "Manchester United",
+                "points": "9",
+                "played": "6",
+                "win": "3",
+                "draw": "0",
+                "lost": "3",
+                "goalsFor": "15",
+                "goalsAgainst": "10",
+                "goalDifference": "5",
+                "logo": "manchester_united"
+            },
+            {
+                "rank": "4",
+                "team": "İstanbul Başakşehir",
+                "points": "3",
+                "played": "6",
+                "win": "1",
+                "draw": "0",
+                "lost": "5",
+                "goalsFor": "7",
+                "goalsAgainst": "18",
+                "goalDifference": "-11",
+                "logo": "i_stanbul_ba_ak_ehir"
+            }
+        ]
+    }
+]

@@ -18,7 +18,7 @@ function update(item) {
     let results = helper.readJsonFile(helper.stringFormat(config.paths.resultsData, itemExtended.item.code, config.periods.current));
     const promises = [];
 
-    if (config.fullResultUpdate || !results.length) {
+    if (config.updateWithFullResults || !results.length) {
         results = [];
 
         for (let i = 0; i < itemExtended.roundNumber; i++) {
