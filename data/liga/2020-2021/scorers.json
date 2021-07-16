@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "23",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": " Gerard",
         "country": "Spain",
         "team": "Villarreal CF",
@@ -18,20 +27,11 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "3.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "22",
-        "flag": "france",
-        "logo": "real_madrid"
-    },
-    {
         "rank": "4.",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "Atlético Madrid",
-        "goals": "20",
+        "goals": "21",
         "flag": "uruguay",
         "logo": "atletico_madrid"
     },
@@ -49,12 +49,21 @@
         "name": "Alexander Isak",
         "country": "Sweden",
         "team": "Real Sociedad",
-        "goals": "16",
+        "goals": "17",
         "flag": "sweden",
         "logo": "real_sociedad"
     },
     {
         "rank": "7.",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "14",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
         "name": " Morales",
         "country": "Spain",
         "team": "Levante UD",
@@ -63,13 +72,13 @@
         "logo": "levante_ud"
     },
     {
-        "rank": "8.",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
+        "rank": "9.",
+        "name": "Antoine Griezmann",
+        "country": "France",
+        "team": "FC Barcelona",
         "goals": "13",
-        "flag": "spain",
-        "logo": "celta_vigo"
+        "flag": "france",
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -81,16 +90,7 @@
         "logo": "sd_huesca"
     },
     {
-        "rank": "10.",
-        "name": "Antoine Griezmann",
-        "country": "France",
-        "team": "FC Barcelona",
-        "goals": "12",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
+        "rank": "11.",
         "name": " Kike García",
         "country": "Spain",
         "team": "SD Eibar",
@@ -109,6 +109,15 @@
     },
     {
         "rank": "-",
+        "name": " Roger",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "12",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "-",
         "name": " Santi Mina",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -117,7 +126,16 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
+        "name": " Borja Iglesias",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
         "name": "Ante Budimir",
         "country": "Croatia",
         "team": "CA Osasuna",
@@ -153,30 +171,12 @@
         "logo": "real_sociedad"
     },
     {
-        "rank": "-",
-        "name": " Roger",
-        "country": "Spain",
-        "team": "Levante UD",
-        "goals": "11",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "19.",
-        "name": " Borja Iglesias",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "10",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
         "rank": "20.",
-        "name": " Soldado",
+        "name": " Brais Méndez",
         "country": "Spain",
-        "team": "Granada CF",
+        "team": "Celta Vigo",
         "goals": "9",
         "flag": "spain",
-        "logo": "granada_cf"
+        "logo": "celta_vigo"
     }
 ]

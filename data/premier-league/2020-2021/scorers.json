@@ -4,12 +4,12 @@
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "22",
+        "goals": "23",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "-",
+        "rank": "2.",
         "name": "Mohamed Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "Patrick Bamford",
+        "country": "England",
+        "team": "Leeds United",
+        "goals": "17",
+        "flag": "england",
+        "logo": "leeds_united"
+    },
+    {
+        "rank": "-",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
@@ -36,16 +45,7 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "5.",
-        "name": "Patrick Bamford",
-        "country": "England",
-        "team": "Leeds United",
-        "goals": "16",
-        "flag": "england",
-        "logo": "leeds_united"
-    },
-    {
-        "rank": "-",
+        "rank": "6.",
         "name": "Dominic Calvert-Lewin",
         "country": "England",
         "team": "Everton FC",
@@ -55,6 +55,24 @@
     },
     {
         "rank": "7.",
+        "name": "Jamie Vardy",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "15",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "8.",
+        "name": "Ollie Watkins",
+        "country": "England",
+        "team": "Aston Villa",
+        "goals": "14",
+        "flag": "england",
+        "logo": "aston_villa"
+    },
+    {
+        "rank": "9.",
         "name": "İlkay Gündoğan",
         "country": "Germany",
         "team": "Manchester City",
@@ -70,24 +88,6 @@
         "goals": "13",
         "flag": "france",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "13",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Ollie Watkins",
-        "country": "England",
-        "team": "Aston Villa",
-        "goals": "13",
-        "flag": "england",
-        "logo": "aston_villa"
     },
     {
         "rank": "11.",
@@ -127,6 +127,33 @@
     },
     {
         "rank": "15.",
+        "name": "Gareth Bale",
+        "country": "Wales",
+        "team": "Tottenham Hotspur",
+        "goals": "11",
+        "flag": "wales",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "11",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Matheus Pereira",
+        "country": "Brazil",
+        "team": "West Bromwich Albion",
+        "goals": "11",
+        "flag": "brazil",
+        "logo": "west_bromwich_albion"
+    },
+    {
+        "rank": "-",
         "name": "Marcus Rashford",
         "country": "England",
         "team": "Manchester United",
@@ -144,39 +171,12 @@
         "logo": "crystal_palace"
     },
     {
-        "rank": "17.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
+        "rank": "20.",
+        "name": "Michail Antonio",
+        "country": "Jamaica",
+        "team": "West Ham United",
         "goals": "10",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Manchester United",
-        "goals": "10",
-        "flag": "uruguay",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Matheus Pereira",
-        "country": "Brazil",
-        "team": "West Bromwich Albion",
-        "goals": "10",
-        "flag": "brazil",
-        "logo": "west_bromwich_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Raheem Sterling",
-        "country": "England",
-        "team": "Manchester City",
-        "goals": "10",
-        "flag": "england",
-        "logo": "manchester_city"
+        "flag": "jamaica",
+        "logo": "west_ham_united"
     }
 ]

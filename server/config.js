@@ -14,9 +14,9 @@ function config() {
 
     return {
         port: process.env.PORT || 5000,
-        updateLeaguesAndCompetitions: true,
+        updateLeaguesAndCompetitions: false,
         updateCompetitionGroups: false,
-        updateCompetitionTournaments: true,
+        updateCompetitionTournaments: false,
         updateWithImagesDownload: false,
         updateWithFullResults: false,
         paths: {

@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "40",
+        "goals": "41",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,36 +13,36 @@
         "name": " André Silva",
         "country": "Portugal",
         "team": "Eintracht Frankfurt",
-        "goals": "27",
+        "goals": "28",
         "flag": "portugal",
         "logo": "eintracht_frankfurt"
     },
     {
         "rank": "3.",
-        "name": "Erling Håland",
+        "name": "Erling Haaland",
         "country": "Norway",
         "team": "Borussia Dortmund",
-        "goals": "25",
+        "goals": "27",
         "flag": "norway",
         "logo": "borussia_dortmund"
     },
     {
         "rank": "4.",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "goals": "20",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Wout Weghorst",
         "country": "Netherlands",
         "team": "VfL Wolfsburg",
         "goals": "20",
         "flag": "netherlands",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "5.",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "goals": "19",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
     },
     {
         "rank": "6.",
@@ -58,7 +58,7 @@
         "name": "Lars Stindl",
         "country": "Germany",
         "team": "Bor. Mönchengladbach",
-        "goals": "13",
+        "goals": "14",
         "flag": "germany",
         "logo": "bor__monchengladbach"
     },
@@ -73,6 +73,24 @@
     },
     {
         "rank": "-",
+        "name": "Silas Katompa Mvumpa",
+        "country": "Congo DR",
+        "team": "VfB Stuttgart",
+        "goals": "11",
+        "flag": "congo_dr",
+        "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "-",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "1. FC Union Berlin",
+        "goals": "11",
+        "flag": "germany",
+        "logo": "1__fc_union_berlin"
+    },
+    {
+        "rank": "-",
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
@@ -81,25 +99,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "-",
-        "name": "Silas Wamangituka",
-        "country": "Congo DR",
-        "team": "VfB Stuttgart",
-        "goals": "11",
-        "flag": "congo_dr",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "11.",
-        "name": "Max Kruse",
+        "rank": "12.",
+        "name": "Serge Gnabry",
         "country": "Germany",
-        "team": "1. FC Union Berlin",
+        "team": "Bayern München",
         "goals": "10",
         "flag": "germany",
-        "logo": "1__fc_union_berlin"
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Leon Bailey",
         "country": "Jamaica",
         "team": "Bayer Leverkusen",
@@ -115,15 +124,6 @@
         "goals": "9",
         "flag": "togo",
         "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "Bayern München",
-        "goals": "9",
-        "flag": "germany",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -145,6 +145,15 @@
     },
     {
         "rank": "17.",
+        "name": "André Hahn",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
         "name": "Nils Petersen",
         "country": "Germany",
         "team": "SC Freiburg",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Marco Reus",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Marcel Sabitzer",
         "country": "Austria",
         "team": "RB Leipzig",
         "goals": "8",
         "flag": "austria",
         "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Roland Sallai",
-        "country": "Hungary",
-        "team": "SC Freiburg",
-        "goals": "8",
-        "flag": "hungary",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Jadon Sancho",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "goals": "8",
-        "flag": "england",
-        "logo": "borussia_dortmund"
     }
 ]

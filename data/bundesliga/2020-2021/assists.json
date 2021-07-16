@@ -10,20 +10,20 @@
     },
     {
         "rank": "2.",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "15",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "3.",
         "name": "Daichi Kamada",
         "country": "Japan",
         "team": "Eintracht Frankfurt",
         "assists": "13",
         "flag": "japan",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "13",
-        "flag": "serbia",
         "logo": "eintracht_frankfurt"
     },
     {
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Kingsley Coman",
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "11",
+        "flag": "france",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Jonas Hofmann",
         "country": "Germany",
         "team": "Bor. Mönchengladbach",
@@ -45,16 +54,7 @@
         "logo": "bor__monchengladbach"
     },
     {
-        "rank": "6.",
-        "name": "Kingsley Coman",
-        "country": "France",
-        "team": "Bayern München",
-        "assists": "10",
-        "flag": "france",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
+        "rank": "7.",
         "name": " Dani Olmo",
         "country": "Spain",
         "team": "RB Leipzig",
@@ -108,7 +108,16 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": "Christopher Trimmel",
+        "country": "Austria",
+        "team": "1. FC Union Berlin",
+        "assists": "10",
+        "flag": "austria",
+        "logo": "1__fc_union_berlin"
+    },
+    {
+        "rank": "14.",
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Bayern München",
@@ -127,15 +136,15 @@
     },
     {
         "rank": "-",
-        "name": "Christopher Trimmel",
-        "country": "Austria",
-        "team": "1. FC Union Berlin",
+        "name": "Lars Stindl",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
         "assists": "9",
-        "flag": "austria",
-        "logo": "1__fc_union_berlin"
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
     },
     {
-        "rank": "16.",
+        "rank": "17.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "Eintracht Frankfurt",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Ihlas Bebou",
+        "country": "Togo",
+        "team": "1899 Hoffenheim",
+        "assists": "8",
+        "flag": "togo",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Ermedin Demirović",
         "country": "Bosnia-Herzegovina",
         "team": "SC Freiburg",
         "assists": "8",
         "flag": "bosnia_herzegovina",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Marco Reus",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "8",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Marcus Thuram",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
-        "assists": "8",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
     }
 ]
