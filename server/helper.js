@@ -65,14 +65,21 @@ function readCachedJsonFile(path) {
 
 // Writes content in a json file
 function writeJsonFile(path, content, resolve) {
-    fs.writeFile(path, JSON.stringify(content, null, 4), err => {
-        if (err) {
-            log('Error while writing: ' + path + ' -> ' + err);
+    fs.mkdir(path.substring(0, path.lastIndexOf('/') + 1), { recursive: true }, err1 => {
+        if (err1) {
+            log('Error while creating folder: ' + path + ' -> ' + err1);
+            resolve();
         } else {
-            log('File updated: ' + path);
+            fs.writeFile(path, JSON.stringify(content, null, 4), err2 => {
+                if (err2) {
+                    log('Error while writing: ' + path + ' -> ' + err2);
+                    resolve();
+                } else {
+                    log('File updated: ' + path);
+                    resolve();
+                }
+            });
         }
-
-        resolve();
     });
 }
 
