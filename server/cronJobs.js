@@ -36,33 +36,29 @@ const competitionCronJobTimes = [
 
 function setupCrons() {
     // Setup crons for leagues update
-    leagueCronJobTimes.forEach(time => {
-        (new CronJob(time, async () => {
-            if (!config.updateLeaguesAndCompetitions) {
-                return;
-            }
-
-            helper.log('Run league update');
-            await mainUpdater.updateLeague(leagues.bundesliga);
-            await mainUpdater.updateLeague(leagues.premierLeague);
-            await mainUpdater.updateLeague(leagues.ligue1);
-            await mainUpdater.updateLeague(leagues.serieA);
-            await mainUpdater.updateLeague(leagues.liga);
-        }, null, false, 'Europe/Paris')).start();
-    });
+    if (config.updateLeagues) {
+        leagueCronJobTimes.forEach(time => {
+            (new CronJob(time, async () => {
+                helper.log('Run league update');
+                await mainUpdater.updateLeague(leagues.bundesliga);
+                await mainUpdater.updateLeague(leagues.premierLeague);
+                await mainUpdater.updateLeague(leagues.ligue1);
+                await mainUpdater.updateLeague(leagues.serieA);
+                await mainUpdater.updateLeague(leagues.liga);
+            }, null, false, 'Europe/Paris')).start();
+        });
+    }
 
     // Setup crons for competitions update
-    competitionCronJobTimes.forEach(time => {
-        (new CronJob(time, async () => {
-            if (!config.updateLeaguesAndCompetitions) {
-                return;
-            }
-
-            helper.log('Run competition update');
-            await mainUpdater.updateCompetition(competitions.championsLeague);
-            await mainUpdater.updateCompetition(competitions.europaLeague);
-        }, null, false, 'Europe/Paris')).start();
-    });
+    if (config.updateCompetitions) {
+        competitionCronJobTimes.forEach(time => {
+            (new CronJob(time, async () => {
+                helper.log('Run competition update');
+                await mainUpdater.updateCompetition(competitions.championsLeague);
+                await mainUpdater.updateCompetition(competitions.europaLeague);
+            }, null, false, 'Europe/Paris')).start();
+        });
+    }
 }
 
 module.exports = {
