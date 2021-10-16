@@ -1,0 +1,1338 @@
+[
+    {
+        "name": "a",
+        "matches": [
+            {
+                "date": "15/09/2021",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "RB Leipzig",
+                "score": "6:3",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "15/09/2021",
+                "time": "20:00",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "1:1",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "20:00",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Manchester City",
+                "score": "2:0",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "20:00",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "Club Brugge KV",
+                "score": "1:2",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "17:45",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "Manchester City",
+                "score": "-:-",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "20:00",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "RB Leipzig",
+                "score": "-:-",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "20:00",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Club Brugge KV",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "club_brugge_kv"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Paris Saint-Germain",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "paris_saint_germain"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "20:00",
+                "homeTeam": "Club Brugge KV",
+                "awayTeam": "RB Leipzig",
+                "score": "-:-",
+                "homeTeamLogo": "club_brugge_kv",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "17:45",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "Manchester City",
+                "score": "-:-",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "17:45",
+                "homeTeam": "Paris Saint-Germain",
+                "awayTeam": "Club Brugge KV",
+                "score": "-:-",
+                "homeTeamLogo": "paris_saint_germain",
+                "awayTeamLogo": "club_brugge_kv"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Paris Saint-Germain",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "1",
+                "goalDifference": "2",
+                "logo": "paris_saint_germain"
+            },
+            {
+                "rank": "2",
+                "team": "Club Brugge KV",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "2",
+                "goalDifference": "1",
+                "logo": "club_brugge_kv"
+            },
+            {
+                "rank": "3",
+                "team": "Manchester City",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "6",
+                "goalsAgainst": "5",
+                "goalDifference": "1",
+                "logo": "manchester_city"
+            },
+            {
+                "rank": "4",
+                "team": "RB Leipzig",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "4",
+                "goalsAgainst": "8",
+                "goalDifference": "-4",
+                "logo": "rb_leipzig"
+            }
+        ]
+    },
+    {
+        "name": "b",
+        "matches": [
+            {
+                "date": "15/09/2021",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "FC Porto",
+                "score": "0:0",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "15/09/2021",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "AC Milan",
+                "score": "3:2",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Liverpool FC",
+                "score": "1:5",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "20:00",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Atlético Madrid",
+                "score": "1:2",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Liverpool FC",
+                "score": "-:-",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "AC Milan",
+                "score": "-:-",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "17:45",
+                "homeTeam": "AC Milan",
+                "awayTeam": "FC Porto",
+                "score": "-:-",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Atlético Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "FC Porto",
+                "score": "-:-",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "fc_porto"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "20:00",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "AC Milan",
+                "score": "-:-",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "ac_milan"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "20:00",
+                "homeTeam": "FC Porto",
+                "awayTeam": "Atlético Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "fc_porto",
+                "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "20:00",
+                "homeTeam": "AC Milan",
+                "awayTeam": "Liverpool FC",
+                "score": "-:-",
+                "homeTeamLogo": "ac_milan",
+                "awayTeamLogo": "liverpool_fc"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Liverpool FC",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "8",
+                "goalsAgainst": "3",
+                "goalDifference": "5",
+                "logo": "liverpool_fc"
+            },
+            {
+                "rank": "2",
+                "team": "Atlético Madrid",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "2",
+                "goalsAgainst": "1",
+                "goalDifference": "1",
+                "logo": "atletico_madrid"
+            },
+            {
+                "rank": "3",
+                "team": "FC Porto",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "1",
+                "goalsAgainst": "5",
+                "goalDifference": "-4",
+                "logo": "fc_porto"
+            },
+            {
+                "rank": "4",
+                "team": "AC Milan",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "3",
+                "goalsAgainst": "5",
+                "goalDifference": "-2",
+                "logo": "ac_milan"
+            }
+        ]
+    },
+    {
+        "name": "c",
+        "matches": [
+            {
+                "date": "15/09/2021",
+                "time": "17:45",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "Borussia Dortmund",
+                "score": "1:2",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "15/09/2021",
+                "time": "20:00",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "AFC Ajax",
+                "score": "1:5",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "17:45",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Beşiktaş",
+                "score": "2:0",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "be_ikta_"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "Sporting CP",
+                "score": "1:0",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "17:45",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "Sporting CP",
+                "score": "-:-",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "20:00",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Borussia Dortmund",
+                "score": "-:-",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "AFC Ajax",
+                "score": "-:-",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "20:00",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "Beşiktaş",
+                "score": "-:-",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "be_ikta_"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "17:45",
+                "homeTeam": "Beşiktaş",
+                "awayTeam": "AFC Ajax",
+                "score": "-:-",
+                "homeTeamLogo": "be_ikta_",
+                "awayTeamLogo": "afc_ajax"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "20:00",
+                "homeTeam": "Sporting CP",
+                "awayTeam": "Borussia Dortmund",
+                "score": "-:-",
+                "homeTeamLogo": "sporting_cp",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "20:00",
+                "homeTeam": "AFC Ajax",
+                "awayTeam": "Sporting CP",
+                "score": "-:-",
+                "homeTeamLogo": "afc_ajax",
+                "awayTeamLogo": "sporting_cp"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "20:00",
+                "homeTeam": "Borussia Dortmund",
+                "awayTeam": "Beşiktaş",
+                "score": "-:-",
+                "homeTeamLogo": "borussia_dortmund",
+                "awayTeamLogo": "be_ikta_"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "AFC Ajax",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "7",
+                "goalsAgainst": "1",
+                "goalDifference": "6",
+                "logo": "afc_ajax"
+            },
+            {
+                "rank": "2",
+                "team": "Borussia Dortmund",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "1",
+                "goalDifference": "2",
+                "logo": "borussia_dortmund"
+            },
+            {
+                "rank": "3",
+                "team": "Beşiktaş",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "1",
+                "goalsAgainst": "4",
+                "goalDifference": "-3",
+                "logo": "be_ikta_"
+            },
+            {
+                "rank": "4",
+                "team": "Sporting CP",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "1",
+                "goalsAgainst": "6",
+                "goalDifference": "-5",
+                "logo": "sporting_cp"
+            }
+        ]
+    },
+    {
+        "name": "d",
+        "matches": [
+            {
+                "date": "15/09/2021",
+                "time": "17:45",
+                "homeTeam": "FC Sheriff",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "2:0",
+                "homeTeamLogo": "fc_sheriff",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "15/09/2021",
+                "time": "20:00",
+                "homeTeam": "Inter",
+                "awayTeam": "Real Madrid",
+                "score": "0:1",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "17:45",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Inter",
+                "score": "0:0",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "28/09/2021",
+                "time": "20:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "FC Sheriff",
+                "score": "1:2",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "fc_sheriff"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "20:00",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "Real Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "19/10/2021",
+                "time": "20:00",
+                "homeTeam": "Inter",
+                "awayTeam": "FC Sheriff",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "fc_sheriff"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "17:45",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "-:-",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "03/11/2021",
+                "time": "20:00",
+                "homeTeam": "FC Sheriff",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "fc_sheriff",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "17:45",
+                "homeTeam": "Inter",
+                "awayTeam": "Shakhtar Donetsk",
+                "score": "-:-",
+                "homeTeamLogo": "inter",
+                "awayTeamLogo": "shakhtar_donetsk"
+            },
+            {
+                "date": "24/11/2021",
+                "time": "20:00",
+                "homeTeam": "FC Sheriff",
+                "awayTeam": "Real Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "fc_sheriff",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "20:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Inter",
+                "score": "-:-",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "inter"
+            },
+            {
+                "date": "07/12/2021",
+                "time": "20:00",
+                "homeTeam": "Shakhtar Donetsk",
+                "awayTeam": "FC Sheriff",
+                "score": "-:-",
+                "homeTeamLogo": "shakhtar_donetsk",
+                "awayTeamLogo": "fc_sheriff"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "FC Sheriff",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "1",
+                "goalDifference": "3",
+                "logo": "fc_sheriff"
+            },
+            {
+                "rank": "2",
+                "team": "Real Madrid",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "2",
+                "goalsAgainst": "2",
+                "goalDifference": "0",
+                "logo": "real_madrid"
+            },
+            {
+                "rank": "3",
+                "team": "Inter",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "0",
+                "goalsAgainst": "1",
+                "goalDifference": "-1",
+                "logo": "inter"
+            },
+            {
+                "rank": "4",
+                "team": "Shakhtar Donetsk",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "0",
+                "goalsAgainst": "2",
+                "goalDifference": "-2",
+                "logo": "shakhtar_donetsk"
+            }
+        ]
+    },
+    {
+        "name": "e",
+        "matches": [
+            {
+                "date": "14/09/2021",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Bayern München",
+                "score": "0:3",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "14/09/2021",
+                "time": "20:00",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "SL Benfica",
+                "score": "0:0",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "20:00",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "FC Barcelona",
+                "score": "3:0",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Dinamo Kiev",
+                "score": "5:0",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "17:45",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Dinamo Kiev",
+                "score": "-:-",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "dinamo_kiev"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "20:00",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Bayern München",
+                "score": "-:-",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "SL Benfica",
+                "score": "-:-",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "20:00",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "FC Barcelona",
+                "score": "-:-",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "17:45",
+                "homeTeam": "Dinamo Kiev",
+                "awayTeam": "Bayern München",
+                "score": "-:-",
+                "homeTeamLogo": "dinamo_kiev",
+                "awayTeamLogo": "bayern_munchen"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "20:00",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "SL Benfica",
+                "score": "-:-",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "sl_benfica"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "20:00",
+                "homeTeam": "Bayern München",
+                "awayTeam": "FC Barcelona",
+                "score": "-:-",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "20:00",
+                "homeTeam": "SL Benfica",
+                "awayTeam": "Dinamo Kiev",
+                "score": "-:-",
+                "homeTeamLogo": "sl_benfica",
+                "awayTeamLogo": "dinamo_kiev"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Bayern München",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "8",
+                "goalsAgainst": "0",
+                "goalDifference": "8",
+                "logo": "bayern_munchen"
+            },
+            {
+                "rank": "2",
+                "team": "SL Benfica",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "0",
+                "goalDifference": "3",
+                "logo": "sl_benfica"
+            },
+            {
+                "rank": "3",
+                "team": "Dinamo Kiev",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "0",
+                "goalsAgainst": "5",
+                "goalDifference": "-5",
+                "logo": "dinamo_kiev"
+            },
+            {
+                "rank": "4",
+                "team": "FC Barcelona",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "0",
+                "goalsAgainst": "6",
+                "goalDifference": "-6",
+                "logo": "fc_barcelona"
+            }
+        ]
+    },
+    {
+        "name": "f",
+        "matches": [
+            {
+                "date": "14/09/2021",
+                "time": "17:45",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "Manchester United",
+                "score": "2:1",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "14/09/2021",
+                "time": "20:00",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Atalanta",
+                "score": "2:2",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "17:45",
+                "homeTeam": "Atalanta",
+                "awayTeam": "BSC Young Boys",
+                "score": "1:0",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "bsc_young_boys"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Villarreal CF",
+                "score": "2:1",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Atalanta",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "20:00",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "Villarreal CF",
+                "score": "-:-",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "20:00",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Manchester United",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "20:00",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "BSC Young Boys",
+                "score": "-:-",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "bsc_young_boys"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "17:45",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "Manchester United",
+                "score": "-:-",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "20:00",
+                "homeTeam": "BSC Young Boys",
+                "awayTeam": "Atalanta",
+                "score": "-:-",
+                "homeTeamLogo": "bsc_young_boys",
+                "awayTeamLogo": "atalanta"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "20:00",
+                "homeTeam": "Atalanta",
+                "awayTeam": "Villarreal CF",
+                "score": "-:-",
+                "homeTeamLogo": "atalanta",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "BSC Young Boys",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "bsc_young_boys"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Atalanta",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "2",
+                "goalDifference": "1",
+                "logo": "atalanta"
+            },
+            {
+                "rank": "2",
+                "team": "BSC Young Boys",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "2",
+                "goalsAgainst": "2",
+                "goalDifference": "0",
+                "logo": "bsc_young_boys"
+            },
+            {
+                "rank": "3",
+                "team": "Manchester United",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "3",
+                "goalDifference": "0",
+                "logo": "manchester_united"
+            },
+            {
+                "rank": "4",
+                "team": "Villarreal CF",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "3",
+                "goalsAgainst": "4",
+                "goalDifference": "-1",
+                "logo": "villarreal_cf"
+            }
+        ]
+    },
+    {
+        "name": "g",
+        "matches": [
+            {
+                "date": "14/09/2021",
+                "time": "17:45",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "RB Salzburg",
+                "score": "1:1",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "rb_salzburg"
+            },
+            {
+                "date": "14/09/2021",
+                "time": "20:00",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "VfL Wolfsburg",
+                "score": "0:0",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "vfl_wolfsburg"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "20:00",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "Lille OSC",
+                "score": "2:1",
+                "homeTeamLogo": "rb_salzburg",
+                "awayTeamLogo": "lille_osc"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "20:00",
+                "homeTeam": "VfL Wolfsburg",
+                "awayTeam": "Sevilla FC",
+                "score": "1:1",
+                "homeTeamLogo": "vfl_wolfsburg",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "17:45",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "VfL Wolfsburg",
+                "score": "-:-",
+                "homeTeamLogo": "rb_salzburg",
+                "awayTeamLogo": "vfl_wolfsburg"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "20:00",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "Sevilla FC",
+                "score": "-:-",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "17:45",
+                "homeTeam": "VfL Wolfsburg",
+                "awayTeam": "RB Salzburg",
+                "score": "-:-",
+                "homeTeamLogo": "vfl_wolfsburg",
+                "awayTeamLogo": "rb_salzburg"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "20:00",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "Lille OSC",
+                "score": "-:-",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "lille_osc"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "20:00",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "RB Salzburg",
+                "score": "-:-",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "rb_salzburg"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "20:00",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "VfL Wolfsburg",
+                "score": "-:-",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "vfl_wolfsburg"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "20:00",
+                "homeTeam": "RB Salzburg",
+                "awayTeam": "Sevilla FC",
+                "score": "-:-",
+                "homeTeamLogo": "rb_salzburg",
+                "awayTeamLogo": "sevilla_fc"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "20:00",
+                "homeTeam": "VfL Wolfsburg",
+                "awayTeam": "Lille OSC",
+                "score": "-:-",
+                "homeTeamLogo": "vfl_wolfsburg",
+                "awayTeamLogo": "lille_osc"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "RB Salzburg",
+                "points": "4",
+                "played": "2",
+                "win": "1",
+                "draw": "1",
+                "lost": "0",
+                "goalsFor": "3",
+                "goalsAgainst": "2",
+                "goalDifference": "1",
+                "logo": "rb_salzburg"
+            },
+            {
+                "rank": "2",
+                "team": "Sevilla FC",
+                "points": "2",
+                "played": "2",
+                "win": "0",
+                "draw": "2",
+                "lost": "0",
+                "goalsFor": "2",
+                "goalsAgainst": "2",
+                "goalDifference": "0",
+                "logo": "sevilla_fc"
+            },
+            {
+                "rank": "3",
+                "team": "VfL Wolfsburg",
+                "points": "2",
+                "played": "2",
+                "win": "0",
+                "draw": "2",
+                "lost": "0",
+                "goalsFor": "1",
+                "goalsAgainst": "1",
+                "goalDifference": "0",
+                "logo": "vfl_wolfsburg"
+            },
+            {
+                "rank": "4",
+                "team": "Lille OSC",
+                "points": "1",
+                "played": "2",
+                "win": "0",
+                "draw": "1",
+                "lost": "1",
+                "goalsFor": "1",
+                "goalsAgainst": "2",
+                "goalDifference": "-1",
+                "logo": "lille_osc"
+            }
+        ]
+    },
+    {
+        "name": "h",
+        "matches": [
+            {
+                "date": "14/09/2021",
+                "time": "20:00",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "1:0",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "14/09/2021",
+                "time": "20:00",
+                "homeTeam": "Malmö FF",
+                "awayTeam": "Juventus",
+                "score": "0:3",
+                "homeTeamLogo": "malmo_ff",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "17:45",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Malmö FF",
+                "score": "4:0",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "malmo_ff"
+            },
+            {
+                "date": "29/09/2021",
+                "time": "20:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "Chelsea FC",
+                "score": "1:0",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "20:00",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "20/10/2021",
+                "time": "20:00",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Malmö FF",
+                "score": "-:-",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "malmo_ff"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "17:45",
+                "homeTeam": "Malmö FF",
+                "awayTeam": "Chelsea FC",
+                "score": "-:-",
+                "homeTeamLogo": "malmo_ff",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "02/11/2021",
+                "time": "20:00",
+                "homeTeam": "Juventus",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "-:-",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "20:00",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Juventus",
+                "score": "-:-",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "juventus"
+            },
+            {
+                "date": "23/11/2021",
+                "time": "20:00",
+                "homeTeam": "Malmö FF",
+                "awayTeam": "Zenit St. Petersburg",
+                "score": "-:-",
+                "homeTeamLogo": "malmo_ff",
+                "awayTeamLogo": "zenit_st__petersburg"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "17:45",
+                "homeTeam": "Zenit St. Petersburg",
+                "awayTeam": "Chelsea FC",
+                "score": "-:-",
+                "homeTeamLogo": "zenit_st__petersburg",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "08/12/2021",
+                "time": "17:45",
+                "homeTeam": "Juventus",
+                "awayTeam": "Malmö FF",
+                "score": "-:-",
+                "homeTeamLogo": "juventus",
+                "awayTeamLogo": "malmo_ff"
+            }
+        ],
+        "table": [
+            {
+                "rank": "1",
+                "team": "Juventus",
+                "points": "6",
+                "played": "2",
+                "win": "2",
+                "draw": "0",
+                "lost": "0",
+                "goalsFor": "4",
+                "goalsAgainst": "0",
+                "goalDifference": "4",
+                "logo": "juventus"
+            },
+            {
+                "rank": "2",
+                "team": "Chelsea FC",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "1",
+                "goalsAgainst": "1",
+                "goalDifference": "0",
+                "logo": "chelsea_fc"
+            },
+            {
+                "rank": "3",
+                "team": "Zenit St. Petersburg",
+                "points": "3",
+                "played": "2",
+                "win": "1",
+                "draw": "0",
+                "lost": "1",
+                "goalsFor": "4",
+                "goalsAgainst": "1",
+                "goalDifference": "3",
+                "logo": "zenit_st__petersburg"
+            },
+            {
+                "rank": "4",
+                "team": "Malmö FF",
+                "points": "0",
+                "played": "2",
+                "win": "0",
+                "draw": "0",
+                "lost": "2",
+                "goalsFor": "0",
+                "goalsAgainst": "7",
+                "goalDifference": "-7",
+                "logo": "malmo_ff"
+            }
+        ]
+    }
+]
