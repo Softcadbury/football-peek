@@ -50,7 +50,7 @@ function setupCrons() {
     }
 
     // Setup crons for competitions update
-    if (config.updateCompetitions) {
+    if (config.updateCompetitionGroups || config.updateCompetitionTournaments) {
         competitionCronJobTimes.forEach(time => {
             (new CronJob(time, async () => {
                 helper.log('Run competition update');
