@@ -4,7 +4,7 @@ const config = require('../config');
 const helper = require('../helper');
 const leagues = require('../data/leagues');
 
-const tableDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
+const tableDataUrl = 'https://www.worldfootball.net/schedule/{0}-{1}-spieltag{2}';
 const leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },

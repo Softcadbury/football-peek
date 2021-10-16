@@ -5,7 +5,7 @@ const helper = require('../helper');
 const leagues = require('../data/leagues');
 const competitions = require('../data/competitions');
 
-const scorersDataUrl = 'http://www.worldfootball.net/goalgetter/{0}-{1}{2}';
+const scorersDataUrl = 'https://www.worldfootball.net/goalgetter/{0}-{1}{2}';
 const leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },
