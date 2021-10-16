@@ -4,11 +4,11 @@ const config = require('../config');
 const helper = require('../helper');
 const competitions = require('../data/competitions');
 
-const resultsDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-gruppe-{2}';
-const resultsDataUrlExtensions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l'];
+const resultsDataUrl = 'https://www.worldfootball.net/schedule/{0}-{1}-gruppe-{2}';
+const resultsDataUrlExtensions = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 const competitionsExtended = [
     { item: competitions.championsLeague, url: 'champions-league', groupNumber: 8 },
-    { item: competitions.europaLeague, url: 'europa-league', groupNumber: 12 }
+    { item: competitions.europaLeague, url: 'europa-league', groupNumber: 8 }
 ];
 
 function update(item) {

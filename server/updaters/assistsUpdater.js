@@ -5,7 +5,7 @@ const helper = require('../helper');
 const leagues = require('../data/leagues');
 const competitions = require('../data/competitions');
 
-const assistsDataUrl = 'http://www.worldfootball.net/assists/{0}-{1}{2}';
+const assistsDataUrl = 'https://www.worldfootball.net/assists/{0}-{1}{2}';
 const leaguesExtended = [
     { item: leagues.bundesliga, url: 'bundesliga', extra: '' },
     { item: leagues.liga, url: 'esp-primera-division', extra: '' },

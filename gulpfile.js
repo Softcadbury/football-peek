@@ -2,13 +2,15 @@
 
 const gulp = require('gulp');
 
-// Updates all data
+// Update data
 exports.up = async () => {
     const config = require('./server/config');
     const leagues = require('./server/data/leagues');
     const competitions = require('./server/data/competitions');
     const mainUpdater = require('./server/updaters/mainUpdater');
 
+    config.updateCompetitionGroups = true;
+    config.updateCompetitionTournaments = true;
     config.updateWithImagesDownload = true;
     config.updateWithFullResults = true;
 
@@ -154,6 +156,7 @@ exports.inject = function inject() {
         .pipe(gulp.dest('./client/views/commons'));
 };
 
+// Watch client files modification
 exports.watch = function watch() {
     gulp.watch(['./client/scripts/**/*', './client/styles/**/*'], gulp.series(exports.build, exports.inject));
 };

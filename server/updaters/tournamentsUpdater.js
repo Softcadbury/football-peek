@@ -4,7 +4,7 @@ const config = require('../config');
 const helper = require('../helper');
 const competitions = require('../data/competitions');
 
-const tournamentDataUrl = 'http://www.worldfootball.net/schedule/{0}-{1}-{2}';
+const tournamentDataUrl = 'https://www.worldfootball.net/schedule/{0}-{1}-{2}';
 const tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'achtelfinale', 'sechzehntelfinale'];
 const tournamentDataUrlExtensionsNames = ['Final', 'Semi-finals', 'Quarter-finals', 'Eighth-finals', 'Sixteenth-finals'];
 const competitionsExtended = [
