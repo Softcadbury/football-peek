@@ -9,6 +9,7 @@ const router = express.Router();
 const data = {
     title: 'Football Peek - The quickest access to football results',
     description: 'Access football results, tables, top scorers and top assists from the major leagues and competitions',
+    isSummerTime: config.isSummerTime,
     items: items
 };
 

@@ -14,6 +14,7 @@ router.route('/:item/:period?/:roundOrGroup?').get((req, res) => {
     const data = {
         title: 'Football Peek - ' + requestedItem.name + ' results - Season ' + requestedPeriod,
         description: 'Access ' + requestedItem.name + ' results, tables, top scorers and top assists for season ' + requestedPeriod,
+        isSummerTime: config.isSummerTime,
         items: items,
         periods: config.periods.availables,
         requestedItem: requestedItem,
