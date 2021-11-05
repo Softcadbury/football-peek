@@ -4,18 +4,81 @@
         "name": "Jonathan David",
         "country": "Canada",
         "team": "Lille OSC",
-        "goals": "6",
+        "goals": "8",
         "flag": "canada",
         "logo": "lille_osc"
+    },
+    {
+        "rank": "2.",
+        "name": "Andy Delort",
+        "country": "Algeria",
+        "team": "OGC Nice",
+        "goals": "7",
+        "flag": "algeria",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "-",
+        "name": "Wahbi Khazri",
+        "country": "Tunisia",
+        "team": "AS Saint-Étienne",
+        "goals": "7",
+        "flag": "tunisia",
+        "logo": "as_saint_etienne"
     },
     {
         "rank": "-",
         "name": "Gaëtan Laborde",
         "country": "France",
         "team": "Stade Rennes",
-        "goals": "6",
+        "goals": "7",
         "flag": "france",
         "logo": "stade_rennes"
+    },
+    {
+        "rank": "5.",
+        "name": "Mohamed Bayo",
+        "country": "Guinea",
+        "team": "Clermont Foot",
+        "goals": "6",
+        "flag": "guinea",
+        "logo": "clermont_foot"
+    },
+    {
+        "rank": "-",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "AS Monaco",
+        "goals": "6",
+        "flag": "france",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Ludovic Blas",
+        "country": "France",
+        "team": "FC Nantes",
+        "goals": "6",
+        "flag": "france",
+        "logo": "fc_nantes"
+    },
+    {
+        "rank": "-",
+        "name": "Habib Diallo",
+        "country": "Senegal",
+        "team": "RC Strasbourg",
+        "goals": "6",
+        "flag": "senegal",
+        "logo": "rc_strasbourg"
+    },
+    {
+        "rank": "-",
+        "name": "Amine Gouiri",
+        "country": "France",
+        "team": "OGC Nice",
+        "goals": "6",
+        "flag": "france",
+        "logo": "ogc_nice"
     },
     {
         "rank": "-",
@@ -27,61 +90,25 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "4.",
-        "name": "Mohamed Bayo",
-        "country": "Guinea",
-        "team": "Clermont Foot",
-        "goals": "5",
-        "flag": "guinea",
-        "logo": "clermont_foot"
-    },
-    {
-        "rank": "-",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "AS Monaco",
-        "goals": "5",
-        "flag": "france",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Ludovic Blas",
-        "country": "France",
-        "team": "FC Nantes",
-        "goals": "5",
-        "flag": "france",
-        "logo": "fc_nantes"
-    },
-    {
-        "rank": "-",
-        "name": "Amine Gouiri",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "5",
-        "flag": "france",
-        "logo": "ogc_nice"
-    },
-    {
         "rank": "-",
         "name": "Dimitri Payet",
         "country": "France",
         "team": "Olympique Marseille",
-        "goals": "5",
+        "goals": "6",
         "flag": "france",
         "logo": "olympique_marseille"
     },
     {
-        "rank": "9.",
-        "name": "Andy Delort",
-        "country": "Algeria",
-        "team": "OGC Nice",
-        "goals": "4",
-        "flag": "algeria",
-        "logo": "ogc_nice"
+        "rank": "12.",
+        "name": "Ludovic Ajorque",
+        "country": "France",
+        "team": "RC Strasbourg",
+        "goals": "5",
+        "flag": "france",
+        "logo": "rc_strasbourg"
     },
     {
-        "rank": "-",
+        "rank": "13.",
         "name": "Moussa Dembélé",
         "country": "France",
         "team": "Olympique Lyon",
@@ -91,12 +118,57 @@
     },
     {
         "rank": "-",
-        "name": "Wahbi Khazri",
-        "country": "Tunisia",
-        "team": "AS Saint-Étienne",
+        "name": "Hugo Ekitike",
+        "country": "France",
+        "team": "Stade Reims",
         "goals": "4",
-        "flag": "tunisia",
-        "logo": "as_saint_etienne"
+        "flag": "france",
+        "logo": "stade_reims"
+    },
+    {
+        "rank": "-",
+        "name": "Przemysław Frankowski",
+        "country": "Poland",
+        "team": "RC Lens",
+        "goals": "4",
+        "flag": "poland",
+        "logo": "rc_lens"
+    },
+    {
+        "rank": "-",
+        "name": "Franck Honorat",
+        "country": "France",
+        "team": "Stade Brest",
+        "goals": "4",
+        "flag": "france",
+        "logo": "stade_brest"
+    },
+    {
+        "rank": "-",
+        "name": "Ui-jo Hwang",
+        "country": "South Korea",
+        "team": "Girondins Bordeaux",
+        "goals": "4",
+        "flag": "south_korea",
+        "logo": "girondins_bordeaux"
+    },
+    {
+        "rank": "-",
+        "name": "Arnaud Kalimuendo",
+        "country": "France",
+        "team": "RC Lens",
+        "goals": "4",
+        "flag": "france",
+        "logo": "rc_lens"
+    },
+    {
+        "rank": "-",
+        "name": "Armand Laurienté",
+        "country": "France",
+        "team": "FC Lorient",
+        "goals": "4",
+        "flag": "france",
+        "logo": "fc_lorient"
     },
     {
         "rank": "-",
@@ -106,77 +178,5 @@
         "goals": "4",
         "flag": "brazil",
         "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "Elbasan Rashani",
-        "country": "Kosovo",
-        "team": "Clermont Foot",
-        "goals": "4",
-        "flag": "kosovo",
-        "logo": "clermont_foot"
-    },
-    {
-        "rank": "14.",
-        "name": "Ludovic Ajorque",
-        "country": "France",
-        "team": "RC Strasbourg",
-        "goals": "3",
-        "flag": "france",
-        "logo": "rc_strasbourg"
-    },
-    {
-        "rank": "-",
-        "name": " Ander Herrera",
-        "country": "Spain",
-        "team": "Paris Saint-Germain",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": "Fabien Centonze",
-        "country": "France",
-        "team": "FC Metz",
-        "goals": "3",
-        "flag": "france",
-        "logo": "fc_metz"
-    },
-    {
-        "rank": "-",
-        "name": "Habib Diallo",
-        "country": "Senegal",
-        "team": "RC Strasbourg",
-        "goals": "3",
-        "flag": "senegal",
-        "logo": "rc_strasbourg"
-    },
-    {
-        "rank": "-",
-        "name": "Bamba Dieng",
-        "country": "Senegal",
-        "team": "Olympique Marseille",
-        "goals": "3",
-        "flag": "senegal",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Sofiane Diop",
-        "country": "France",
-        "team": "AS Monaco",
-        "goals": "3",
-        "flag": "france",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "Kasper Dolberg",
-        "country": "Denmark",
-        "team": "OGC Nice",
-        "goals": "3",
-        "flag": "denmark",
-        "logo": "ogc_nice"
     }
 ]

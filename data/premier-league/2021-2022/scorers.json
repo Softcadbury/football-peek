@@ -4,7 +4,7 @@
         "name": "Mo Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "7",
+        "goals": "10",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -13,7 +13,7 @@
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "6",
+        "goals": "7",
         "flag": "england",
         "logo": "leicester_city"
     },
@@ -22,7 +22,7 @@
         "name": "Michail Antonio",
         "country": "Jamaica",
         "team": "West Ham United",
-        "goals": "5",
+        "goals": "6",
         "flag": "jamaica",
         "logo": "west_ham_united"
     },
@@ -31,12 +31,21 @@
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Liverpool FC",
-        "goals": "5",
+        "goals": "6",
         "flag": "senegal",
         "logo": "liverpool_fc"
     },
     {
         "rank": "5.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "Arsenal FC",
+        "goals": "4",
+        "flag": "gabon",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": " Bruno Fernandes",
         "country": "Portugal",
         "team": "Manchester United",
@@ -46,12 +55,75 @@
     },
     {
         "rank": "-",
+        "name": "Maxwel Cornet",
+        "country": "Ivory Coast",
+        "team": "Burnley FC",
+        "goals": "4",
+        "flag": "ivory_coast",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Manchester United",
+        "goals": "4",
+        "flag": "portugal",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": " Diogo Jota",
+        "country": "Portugal",
+        "team": "Liverpool FC",
+        "goals": "4",
+        "flag": "portugal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mason Greenwood",
+        "country": "England",
+        "team": "Manchester United",
+        "goals": "4",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Hee-chan Hwang",
+        "country": "South Korea",
+        "team": "Wolverhampton Wanderers",
+        "goals": "4",
+        "flag": "south_korea",
+        "logo": "wolverhampton_wanderers"
+    },
+    {
+        "rank": "-",
+        "name": "Reece James",
+        "country": "England",
+        "team": "Chelsea FC",
+        "goals": "4",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Neal Maupay",
         "country": "France",
         "team": "Brighton & Hove Albion",
         "goals": "4",
         "flag": "france",
         "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
+        "name": " Raphinha",
+        "country": "Brazil",
+        "team": "Leeds United",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "leeds_united"
     },
     {
         "rank": "-",
@@ -72,7 +144,25 @@
         "logo": "watford_fc"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Heung-min Son",
+        "country": "South Korea",
+        "team": "Tottenham Hotspur",
+        "goals": "4",
+        "flag": "south_korea",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Callum Wilson",
+        "country": "England",
+        "team": "Newcastle United",
+        "goals": "4",
+        "flag": "england",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "19.",
         "name": "Saïd Benrahma",
         "country": "Algeria",
         "team": "West Ham United",
@@ -88,95 +178,5 @@
         "goals": "3",
         "flag": "england",
         "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Manchester United",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Diogo Jota",
-        "country": "Portugal",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Demarai Gray",
-        "country": "England",
-        "team": "Everton FC",
-        "goals": "3",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mason Greenwood",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "3",
-        "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Hee-chan Hwang",
-        "country": "South Korea",
-        "team": "Wolverhampton Wanderers",
-        "goals": "3",
-        "flag": "south_korea",
-        "logo": "wolverhampton_wanderers"
-    },
-    {
-        "rank": "-",
-        "name": "Romelu Lukaku",
-        "country": "Belgium",
-        "team": "Chelsea FC",
-        "goals": "3",
-        "flag": "belgium",
-        "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Raphinha",
-        "country": "Brazil",
-        "team": "Leeds United",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "leeds_united"
-    },
-    {
-        "rank": "-",
-        "name": "Heung-min Son",
-        "country": "South Korea",
-        "team": "Tottenham Hotspur",
-        "goals": "3",
-        "flag": "south_korea",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Andros Townsend",
-        "country": "England",
-        "team": "Everton FC",
-        "goals": "3",
-        "flag": "england",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "20.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
-        "goals": "2",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
     }
 ]

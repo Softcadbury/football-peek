@@ -10,12 +10,39 @@
     },
     {
         "rank": "2.",
+        "name": "Óscar Trejo",
+        "country": "Argentina",
+        "team": "Rayo Vallecano",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "rayo_vallecano"
+    },
+    {
+        "rank": "3.",
+        "name": "Sergiño Dest",
+        "country": "USA",
+        "team": "FC Barcelona",
+        "assists": "3",
+        "flag": "usa",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": " Muniain",
         "country": "Spain",
         "team": "Athletic Bilbao",
         "assists": "3",
         "flag": "spain",
         "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": " Rubén Rochina",
+        "country": "Spain",
+        "team": "Granada CF",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "granada_cf"
     },
     {
         "rank": "-",
@@ -36,13 +63,22 @@
         "logo": "villarreal_cf"
     },
     {
-        "rank": "5.",
+        "rank": "8.",
         "name": "David Alaba",
         "country": "Austria",
         "team": "Real Madrid",
         "assists": "2",
         "flag": "austria",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Brais Méndez",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
@@ -64,12 +100,57 @@
     },
     {
         "rank": "-",
+        "name": "Yannick Carrasco",
+        "country": "Belgium",
+        "team": "Atlético Madrid",
+        "assists": "2",
+        "flag": "belgium",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Correa",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Frenkie de Jong",
         "country": "Netherlands",
         "team": "FC Barcelona",
         "assists": "2",
         "flag": "netherlands",
         "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Rodrigo de Paul",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "assists": "2",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Memphis Depay",
+        "country": "Netherlands",
+        "team": "FC Barcelona",
+        "assists": "2",
+        "flag": "netherlands",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": "Boulaye Dia",
+        "country": "France",
+        "team": "Villarreal CF",
+        "assists": "2",
+        "flag": "france",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -82,101 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Nabil Fekir",
+        "country": "France",
+        "team": "Real Betis",
+        "assists": "2",
+        "flag": "france",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
         "name": " Fidel",
         "country": "Spain",
         "team": "Elche CF",
         "assists": "2",
         "flag": "spain",
         "logo": "elche_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Gonçalo Guedes",
-        "country": "Portugal",
-        "team": "Valencia CF",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Lemar",
-        "country": "France",
-        "team": "Atlético Madrid",
-        "assists": "2",
-        "flag": "france",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Melero",
-        "country": "Spain",
-        "team": "Levante UD",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": " Paco Alcácer",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Torres",
-        "country": "Spain",
-        "team": "CA Osasuna",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": " Rubén Rochina",
-        "country": "Spain",
-        "team": "Granada CF",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "granada_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Sergi Guardiola",
-        "country": "Spain",
-        "team": "Rayo Vallecano",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "rayo_vallecano"
-    },
-    {
-        "rank": "-",
-        "name": "Óscar Trejo",
-        "country": "Argentina",
-        "team": "Rayo Vallecano",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "rayo_vallecano"
-    },
-    {
-        "rank": "-",
-        "name": " Vinicius Júnior",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "20.",
-        "name": "Marcos Acuña",
-        "country": "Argentina",
-        "team": "Sevilla FC",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "sevilla_fc"
     }
 ]
