@@ -4,9 +4,18 @@
         "name": "Mario Götze",
         "country": "Germany",
         "team": "PSV Eindhoven",
-        "assists": "3",
+        "assists": "4",
         "flag": "germany",
         "logo": "psv_eindhoven"
+    },
+    {
+        "rank": "2.",
+        "name": "Kyogo Furuhashi",
+        "country": "Japan",
+        "team": "Celtic FC",
+        "assists": "3",
+        "flag": "japan",
+        "logo": "celtic_fc"
     },
     {
         "rank": "-",
@@ -19,6 +28,33 @@
     },
     {
         "rank": "-",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "3",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Victor Moses",
+        "country": "Nigeria",
+        "team": "Spartak Moskva",
+        "assists": "3",
+        "flag": "nigeria",
+        "logo": "spartak_moskva"
+    },
+    {
+        "rank": "-",
+        "name": "Andrea Petagna",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
         "name": " Ricardo Horta",
         "country": "Portugal",
         "team": "Sporting Braga",
@@ -27,7 +63,43 @@
         "logo": "sporting_braga"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": "Florian Wirtz",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "9.",
+        "name": "Liel Abada",
+        "country": "Israel",
+        "team": "Celtic FC",
+        "assists": "2",
+        "flag": "israel",
+        "logo": "celtic_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Nadiem Amiri",
+        "country": "Germany",
+        "team": "Bayer Leverkusen",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Harvey Barnes",
+        "country": "England",
+        "team": "Leicester City",
+        "assists": "2",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
         "name": "Rafael Borré",
         "country": "Colombia",
         "team": "Eintracht Frankfurt",
@@ -55,12 +127,30 @@
     },
     {
         "rank": "-",
+        "name": " Canales",
+        "country": "Spain",
+        "team": "Real Betis",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
         "name": "Aaron Cresswell",
         "country": "England",
         "team": "West Ham United",
         "assists": "2",
         "flag": "england",
         "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": "Giovanni Di Lorenzo",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -73,110 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Viktor Fischer",
+        "country": "Denmark",
+        "team": "Royal Antwerp FC",
+        "assists": "2",
+        "flag": "denmark",
+        "logo": "royal_antwerp_fc"
+    },
+    {
+        "rank": "-",
         "name": "Jeremie Frimpong",
         "country": "Netherlands",
         "team": "Bayer Leverkusen",
         "assists": "2",
         "flag": "netherlands",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Junya Ito",
-        "country": "Japan",
-        "team": "KRC Genk",
-        "assists": "2",
-        "flag": "japan",
-        "logo": "krc_genk"
-    },
-    {
-        "rank": "-",
-        "name": " Joseba Zaldúa",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": " Jota",
-        "country": "Portugal",
-        "team": "Celtic FC",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "celtic_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Mario González",
-        "country": "Spain",
-        "team": "Sporting Braga",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "sporting_braga"
-    },
-    {
-        "rank": "-",
-        "name": "Martin Minchev",
-        "country": "Bulgaria",
-        "team": "Sparta Praha",
-        "assists": "2",
-        "flag": "bulgaria",
-        "logo": "sparta_praha"
-    },
-    {
-        "rank": "-",
-        "name": "Victor Moses",
-        "country": "Nigeria",
-        "team": "Spartak Moskva",
-        "assists": "2",
-        "flag": "nigeria",
-        "logo": "spartak_moskva"
-    },
-    {
-        "rank": "-",
-        "name": "Mislav Oršić",
-        "country": "Croatia",
-        "team": "Dinamo Zagreb",
-        "assists": "2",
-        "flag": "croatia",
-        "logo": "dinamo_zagreb"
-    },
-    {
-        "rank": "-",
-        "name": "Matteo Politano",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Olympique Lyon",
-        "assists": "2",
-        "flag": "cameroon",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": "David Turnbull",
-        "country": "Scotland",
-        "team": "Celtic FC",
-        "assists": "2",
-        "flag": "scotland",
-        "logo": "celtic_fc"
-    },
-    {
-        "rank": "20.",
-        "name": "Liel Abada",
-        "country": "Israel",
-        "team": "Celtic FC",
-        "assists": "1",
-        "flag": "israel",
-        "logo": "celtic_fc"
     }
 ]

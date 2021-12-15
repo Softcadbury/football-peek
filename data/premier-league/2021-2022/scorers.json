@@ -4,7 +4,7 @@
         "name": "Mo Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "10",
+        "goals": "14",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
@@ -13,12 +13,66 @@
         "name": "Jamie Vardy",
         "country": "England",
         "team": "Leicester City",
-        "goals": "7",
+        "goals": "9",
         "flag": "england",
         "logo": "leicester_city"
     },
     {
         "rank": "3.",
+        "name": " Diogo Jota",
+        "country": "Portugal",
+        "team": "Liverpool FC",
+        "goals": "8",
+        "flag": "portugal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "4.",
+        "name": " Bernardo Silva",
+        "country": "Portugal",
+        "team": "Manchester City",
+        "goals": "7",
+        "flag": "portugal",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": " Cristiano Ronaldo",
+        "country": "Portugal",
+        "team": "Manchester United",
+        "goals": "7",
+        "flag": "portugal",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Emmanuel Dennis",
+        "country": "Nigeria",
+        "team": "Watford FC",
+        "goals": "7",
+        "flag": "nigeria",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "7",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Raphinha",
+        "country": "Brazil",
+        "team": "Leeds United",
+        "goals": "7",
+        "flag": "brazil",
+        "logo": "leeds_united"
+    },
+    {
+        "rank": "9.",
         "name": "Michail Antonio",
         "country": "Jamaica",
         "team": "West Ham United",
@@ -28,127 +82,37 @@
     },
     {
         "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
+        "name": "Conor Gallagher",
+        "country": "England",
+        "team": "Crystal Palace",
         "goals": "6",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "5.",
-        "name": "Pierre-Emerick Aubameyang",
-        "country": "Gabon",
-        "team": "Arsenal FC",
-        "goals": "4",
-        "flag": "gabon",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Manchester United",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Maxwel Cornet",
-        "country": "Ivory Coast",
-        "team": "Burnley FC",
-        "goals": "4",
-        "flag": "ivory_coast",
-        "logo": "burnley_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Cristiano Ronaldo",
-        "country": "Portugal",
-        "team": "Manchester United",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": " Diogo Jota",
-        "country": "Portugal",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mason Greenwood",
-        "country": "England",
-        "team": "Manchester United",
-        "goals": "4",
         "flag": "england",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Hee-chan Hwang",
-        "country": "South Korea",
-        "team": "Wolverhampton Wanderers",
-        "goals": "4",
-        "flag": "south_korea",
-        "logo": "wolverhampton_wanderers"
-    },
-    {
-        "rank": "-",
-        "name": "Reece James",
-        "country": "England",
-        "team": "Chelsea FC",
-        "goals": "4",
-        "flag": "england",
-        "logo": "chelsea_fc"
+        "logo": "crystal_palace"
     },
     {
         "rank": "-",
         "name": "Neal Maupay",
         "country": "France",
         "team": "Brighton & Hove Albion",
-        "goals": "4",
+        "goals": "6",
         "flag": "france",
         "logo": "brighton___hove_albion"
     },
     {
         "rank": "-",
-        "name": " Raphinha",
-        "country": "Brazil",
-        "team": "Leeds United",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "leeds_united"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ismaïla Sarr",
-        "country": "Senegal",
-        "team": "Watford FC",
-        "goals": "4",
-        "flag": "senegal",
-        "logo": "watford_fc"
+        "name": "Mason Mount",
+        "country": "England",
+        "team": "Chelsea FC",
+        "goals": "6",
+        "flag": "england",
+        "logo": "chelsea_fc"
     },
     {
         "rank": "-",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
-        "goals": "4",
+        "goals": "6",
         "flag": "south_korea",
         "logo": "tottenham_hotspur"
     },
@@ -157,26 +121,62 @@
         "name": "Callum Wilson",
         "country": "England",
         "team": "Newcastle United",
-        "goals": "4",
+        "goals": "6",
         "flag": "england",
         "logo": "newcastle_united"
     },
     {
-        "rank": "19.",
-        "name": "Saïd Benrahma",
-        "country": "Algeria",
-        "team": "West Ham United",
-        "goals": "3",
-        "flag": "algeria",
-        "logo": "west_ham_united"
+        "rank": "15.",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Manchester United",
+        "goals": "5",
+        "flag": "portugal",
+        "logo": "manchester_united"
     },
     {
         "rank": "-",
-        "name": "Dominic Calvert-Lewin",
+        "name": "Maxwel Cornet",
+        "country": "Ivory Coast",
+        "team": "Burnley FC",
+        "goals": "5",
+        "flag": "ivory_coast",
+        "logo": "burnley_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Demarai Gray",
         "country": "England",
         "team": "Everton FC",
-        "goals": "3",
+        "goals": "5",
         "flag": "england",
         "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Joshua King",
+        "country": "Norway",
+        "team": "Watford FC",
+        "goals": "5",
+        "flag": "norway",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Teemu Pukki",
+        "country": "Finland",
+        "team": "Norwich City",
+        "goals": "5",
+        "flag": "finland",
+        "logo": "norwich_city"
+    },
+    {
+        "rank": "-",
+        "name": "Ismaïla Sarr",
+        "country": "Senegal",
+        "team": "Watford FC",
+        "goals": "5",
+        "flag": "senegal",
+        "logo": "watford_fc"
     }
 ]

@@ -9,8 +9,6 @@ async function up() {
     const competitions = require('./server/data/competitions');
     const mainUpdater = require('./server/updaters/mainUpdater');
 
-    config.updateCompetitionGroups = true;
-    config.updateCompetitionTournaments = true;
     config.updateWithImagesDownload = true;
     config.updateWithFullResults = true;
 

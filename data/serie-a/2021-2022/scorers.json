@@ -1,55 +1,46 @@
 [
     {
         "rank": "1.",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "9",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "2.",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "Hellas Verona",
-        "goals": "8",
-        "flag": "argentina",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
         "name": "Dušan Vlahović",
         "country": "Serbia",
         "team": "ACF Fiorentina",
-        "goals": "8",
+        "goals": "15",
         "flag": "serbia",
         "logo": "acf_fiorentina"
     },
     {
+        "rank": "2.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "13",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "3.",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "Hellas Verona",
+        "goals": "12",
+        "flag": "argentina",
+        "logo": "hellas_verona"
+    },
+    {
         "rank": "4.",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
+        "name": "Lautaro Martínez",
+        "country": "Argentina",
         "team": "Inter",
-        "goals": "7",
-        "flag": "bosnia_herzegovina",
+        "goals": "10",
+        "flag": "argentina",
         "logo": "inter"
     },
     {
         "rank": "5.",
-        "name": "Mattia Destro",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "goals": "6",
-        "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
         "name": " João Pedro",
         "country": "Brazil",
         "team": "Cagliari Calcio",
-        "goals": "6",
+        "goals": "9",
         "flag": "brazil",
         "logo": "cagliari_calcio"
     },
@@ -58,61 +49,115 @@
         "name": "Duván Zapata",
         "country": "Colombia",
         "team": "Atalanta",
-        "goals": "6",
+        "goals": "9",
         "flag": "colombia",
         "logo": "atalanta"
     },
     {
-        "rank": "8.",
-        "name": "Domenico Criscito",
+        "rank": "7.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "8",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "Inter",
+        "goals": "8",
+        "flag": "bosnia_herzegovina",
+        "logo": "inter"
+    },
+    {
+        "rank": "9.",
+        "name": " Beto",
+        "country": "Portugal",
+        "team": "Udinese Calcio",
+        "goals": "7",
+        "flag": "portugal",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Mattia Destro",
         "country": "Italy",
         "team": "Genoa CFC",
-        "goals": "5",
+        "goals": "7",
         "flag": "italy",
         "logo": "genoa_cfc"
     },
     {
         "rank": "-",
-        "name": "Lautaro Martínez",
-        "country": "Argentina",
+        "name": "Zlatan Ibrahimović",
+        "country": "Sweden",
+        "team": "AC Milan",
+        "goals": "7",
+        "flag": "sweden",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Pašalić",
+        "country": "Croatia",
+        "team": "Atalanta",
+        "goals": "7",
+        "flag": "croatia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "13.",
+        "name": "Marko Arnautović",
+        "country": "Austria",
+        "team": "Bologna FC",
+        "goals": "6",
+        "flag": "austria",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
         "team": "Inter",
-        "goals": "5",
-        "flag": "argentina",
+        "goals": "6",
+        "flag": "turkey",
         "logo": "inter"
     },
     {
         "rank": "-",
-        "name": "Victor Osimhen",
-        "country": "Nigeria",
-        "team": "SSC Napoli",
-        "goals": "5",
-        "flag": "nigeria",
-        "logo": "ssc_napoli"
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "goals": "6",
+        "flag": "italy",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
-        "name": "Lorenzo Pellegrini",
+        "name": "Andrea Pinamonti",
         "country": "Italy",
-        "team": "AS Roma",
-        "goals": "5",
+        "team": "Inter",
+        "goals": "6",
         "flag": "italy",
-        "logo": "as_roma"
+        "logo": "inter"
     },
     {
-        "rank": "12.",
-        "name": "Marko Arnautović",
-        "country": "Austria",
-        "team": "Bologna FC",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "bologna_fc"
+        "rank": "17.",
+        "name": "Mattia Aramu",
+        "country": "Italy",
+        "team": "Venezia FC",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "venezia_fc"
     },
     {
         "rank": "-",
         "name": "Antonín Barák",
         "country": "Czech Republic",
         "team": "Hellas Verona",
-        "goals": "4",
+        "goals": "5",
         "flag": "czech_republic",
         "logo": "hellas_verona"
     },
@@ -121,62 +166,17 @@
         "name": "Musa Barrow",
         "country": "Gambia",
         "team": "Bologna FC",
-        "goals": "4",
+        "goals": "5",
         "flag": "gambia",
         "logo": "bologna_fc"
     },
     {
         "rank": "-",
-        "name": "Domenico Berardi",
+        "name": "Domenico Criscito",
         "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "4",
+        "team": "Genoa CFC",
+        "goals": "5",
         "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Candreva",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Joaquín Correa",
-        "country": "Argentina",
-        "team": "Inter",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "AC Milan",
-        "goals": "4",
-        "flag": "france",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Andrea Pinamonti",
-        "country": "Italy",
-        "team": "Inter",
-        "goals": "4",
-        "flag": "italy",
-        "logo": "inter"
+        "logo": "genoa_cfc"
     }
 ]

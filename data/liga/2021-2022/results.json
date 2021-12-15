@@ -289,24 +289,6 @@
         "matches": [
             {
                 "date": "11/09/2021",
-                "time": "",
-                "homeTeam": "Sevilla FC",
-                "awayTeam": "FC Barcelona",
-                "score": "-:-",
-                "homeTeamLogo": "sevilla_fc",
-                "awayTeamLogo": "fc_barcelona"
-            },
-            {
-                "date": "11/09/2021",
-                "time": "",
-                "homeTeam": "Villarreal CF",
-                "awayTeam": "CD Alavés",
-                "score": "-:-",
-                "homeTeamLogo": "villarreal_cf",
-                "awayTeamLogo": "cd_alaves"
-            },
-            {
-                "date": "11/09/2021",
                 "time": "17:30",
                 "homeTeam": "Levante UD",
                 "awayTeam": "Rayo Vallecano",
@@ -376,6 +358,24 @@
                 "score": "1:2",
                 "homeTeamLogo": "granada_cf",
                 "awayTeamLogo": "real_betis"
+            },
+            {
+                "date": "21/12/2021",
+                "time": "18:00",
+                "homeTeam": "Villarreal CF",
+                "awayTeam": "CD Alavés",
+                "score": "-:-",
+                "homeTeamLogo": "villarreal_cf",
+                "awayTeamLogo": "cd_alaves"
+            },
+            {
+                "date": "21/12/2021",
+                "time": "20:30",
+                "homeTeam": "Sevilla FC",
+                "awayTeam": "FC Barcelona",
+                "score": "-:-",
+                "homeTeamLogo": "sevilla_fc",
+                "awayTeamLogo": "fc_barcelona"
             }
         ]
     },
@@ -782,24 +782,6 @@
             },
             {
                 "date": "17/10/2021",
-                "time": "",
-                "homeTeam": "Granada CF",
-                "awayTeam": "Atlético Madrid",
-                "score": "-:-",
-                "homeTeamLogo": "granada_cf",
-                "awayTeamLogo": "atletico_madrid"
-            },
-            {
-                "date": "17/10/2021",
-                "time": "",
-                "homeTeam": "Real Madrid",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "real_madrid",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "date": "17/10/2021",
                 "time": "13:00",
                 "homeTeam": "Rayo Vallecano",
                 "awayTeam": "Elche CF",
@@ -851,6 +833,24 @@
                 "score": "2:0",
                 "homeTeamLogo": "espanyol_barcelona",
                 "awayTeamLogo": "cadiz_cf"
+            },
+            {
+                "date": "01/12/2021",
+                "time": "20:00",
+                "homeTeam": "Real Madrid",
+                "awayTeam": "Athletic Bilbao",
+                "score": "1:0",
+                "homeTeamLogo": "real_madrid",
+                "awayTeamLogo": "athletic_bilbao"
+            },
+            {
+                "date": "22/12/2021",
+                "time": "18:00",
+                "homeTeam": "Granada CF",
+                "awayTeam": "Atlético Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "granada_cf",
+                "awayTeamLogo": "atletico_madrid"
             }
         ]
     },
@@ -1147,7 +1147,7 @@
                 "time": "20:00",
                 "homeTeam": "Athletic Bilbao",
                 "awayTeam": "Cádiz CF",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "athletic_bilbao",
                 "awayTeamLogo": "cadiz_cf"
             },
@@ -1156,7 +1156,7 @@
                 "time": "13:00",
                 "homeTeam": "Espanyol Barcelona",
                 "awayTeam": "Granada CF",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "espanyol_barcelona",
                 "awayTeamLogo": "granada_cf"
             },
@@ -1165,7 +1165,7 @@
                 "time": "15:15",
                 "homeTeam": "Celta Vigo",
                 "awayTeam": "FC Barcelona",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "celta_vigo",
                 "awayTeamLogo": "fc_barcelona"
             },
@@ -1174,7 +1174,7 @@
                 "time": "17:30",
                 "homeTeam": "CD Alavés",
                 "awayTeam": "Levante UD",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "cd_alaves",
                 "awayTeamLogo": "levante_ud"
             },
@@ -1183,7 +1183,7 @@
                 "time": "20:00",
                 "homeTeam": "Real Madrid",
                 "awayTeam": "Rayo Vallecano",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "real_madrid",
                 "awayTeamLogo": "rayo_vallecano"
             },
@@ -1192,7 +1192,7 @@
                 "time": "13:00",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "Getafe CF",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "villarreal_cf",
                 "awayTeamLogo": "getafe_cf"
             },
@@ -1201,7 +1201,7 @@
                 "time": "15:15",
                 "homeTeam": "Valencia CF",
                 "awayTeam": "Atlético Madrid",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "valencia_cf",
                 "awayTeamLogo": "atletico_madrid"
             },
@@ -1210,7 +1210,7 @@
                 "time": "17:30",
                 "homeTeam": "CA Osasuna",
                 "awayTeam": "Real Sociedad",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "ca_osasuna",
                 "awayTeamLogo": "real_sociedad"
             },
@@ -1219,7 +1219,7 @@
                 "time": "17:30",
                 "homeTeam": "RCD Mallorca",
                 "awayTeam": "Elche CF",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "rcd_mallorca",
                 "awayTeamLogo": "elche_cf"
             },
@@ -1228,7 +1228,7 @@
                 "time": "20:00",
                 "homeTeam": "Real Betis",
                 "awayTeam": "Sevilla FC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "real_betis",
                 "awayTeamLogo": "sevilla_fc"
             }
@@ -1242,7 +1242,7 @@
                 "time": "20:00",
                 "homeTeam": "Levante UD",
                 "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "levante_ud",
                 "awayTeamLogo": "athletic_bilbao"
             },
@@ -1251,7 +1251,7 @@
                 "time": "13:00",
                 "homeTeam": "Celta Vigo",
                 "awayTeam": "Villarreal CF",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "celta_vigo",
                 "awayTeamLogo": "villarreal_cf"
             },
@@ -1260,7 +1260,7 @@
                 "time": "15:15",
                 "homeTeam": "Sevilla FC",
                 "awayTeam": "CD Alavés",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "sevilla_fc",
                 "awayTeamLogo": "cd_alaves"
             },
@@ -1269,7 +1269,7 @@
                 "time": "17:30",
                 "homeTeam": "Atlético Madrid",
                 "awayTeam": "CA Osasuna",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "atletico_madrid",
                 "awayTeamLogo": "ca_osasuna"
             },
@@ -1278,7 +1278,7 @@
                 "time": "20:00",
                 "homeTeam": "FC Barcelona",
                 "awayTeam": "Espanyol Barcelona",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "fc_barcelona",
                 "awayTeamLogo": "espanyol_barcelona"
             },
@@ -1287,7 +1287,7 @@
                 "time": "13:00",
                 "homeTeam": "Getafe CF",
                 "awayTeam": "Cádiz CF",
-                "score": "-:-",
+                "score": "4:0",
                 "homeTeamLogo": "getafe_cf",
                 "awayTeamLogo": "cadiz_cf"
             },
@@ -1296,7 +1296,7 @@
                 "time": "15:15",
                 "homeTeam": "Granada CF",
                 "awayTeam": "Real Madrid",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "granada_cf",
                 "awayTeamLogo": "real_madrid"
             },
@@ -1305,7 +1305,7 @@
                 "time": "17:30",
                 "homeTeam": "Elche CF",
                 "awayTeam": "Real Betis",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "elche_cf",
                 "awayTeamLogo": "real_betis"
             },
@@ -1314,7 +1314,7 @@
                 "time": "20:00",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Valencia CF",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "real_sociedad",
                 "awayTeamLogo": "valencia_cf"
             },
@@ -1323,7 +1323,7 @@
                 "time": "20:00",
                 "homeTeam": "Rayo Vallecano",
                 "awayTeam": "RCD Mallorca",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "rayo_vallecano",
                 "awayTeamLogo": "rcd_mallorca"
             }
@@ -1333,11 +1333,20 @@
         "round": 15,
         "matches": [
             {
+                "date": "26/11/2021",
+                "time": "20:00",
+                "homeTeam": "Athletic Bilbao",
+                "awayTeam": "Granada CF",
+                "score": "2:2",
+                "homeTeamLogo": "athletic_bilbao",
+                "awayTeamLogo": "granada_cf"
+            },
+            {
                 "date": "27/11/2021",
                 "time": "13:00",
                 "homeTeam": "CD Alavés",
                 "awayTeam": "Celta Vigo",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "cd_alaves",
                 "awayTeamLogo": "celta_vigo"
             },
@@ -1346,7 +1355,7 @@
                 "time": "15:15",
                 "homeTeam": "Valencia CF",
                 "awayTeam": "Rayo Vallecano",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "valencia_cf",
                 "awayTeamLogo": "rayo_vallecano"
             },
@@ -1355,7 +1364,7 @@
                 "time": "17:30",
                 "homeTeam": "RCD Mallorca",
                 "awayTeam": "Getafe CF",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "rcd_mallorca",
                 "awayTeamLogo": "getafe_cf"
             },
@@ -1364,7 +1373,7 @@
                 "time": "20:00",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "FC Barcelona",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "villarreal_cf",
                 "awayTeamLogo": "fc_barcelona"
             },
@@ -1373,7 +1382,7 @@
                 "time": "13:00",
                 "homeTeam": "Real Betis",
                 "awayTeam": "Levante UD",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "real_betis",
                 "awayTeamLogo": "levante_ud"
             },
@@ -1382,7 +1391,7 @@
                 "time": "15:15",
                 "homeTeam": "Espanyol Barcelona",
                 "awayTeam": "Real Sociedad",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "espanyol_barcelona",
                 "awayTeamLogo": "real_sociedad"
             },
@@ -1391,25 +1400,16 @@
                 "time": "17:30",
                 "homeTeam": "Cádiz CF",
                 "awayTeam": "Atlético Madrid",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "cadiz_cf",
                 "awayTeamLogo": "atletico_madrid"
             },
             {
                 "date": "28/11/2021",
                 "time": "20:00",
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Granada CF",
-                "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "granada_cf"
-            },
-            {
-                "date": "28/11/2021",
-                "time": "20:00",
                 "homeTeam": "Real Madrid",
                 "awayTeam": "Sevilla FC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "real_madrid",
                 "awayTeamLogo": "sevilla_fc"
             },
@@ -1418,7 +1418,7 @@
                 "time": "20:00",
                 "homeTeam": "CA Osasuna",
                 "awayTeam": "Elche CF",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "ca_osasuna",
                 "awayTeamLogo": "elche_cf"
             }
@@ -1428,94 +1428,94 @@
         "round": 16,
         "matches": [
             {
-                "date": "05/12/2021",
-                "time": "",
-                "homeTeam": "Atlético Madrid",
-                "awayTeam": "RCD Mallorca",
-                "score": "-:-",
-                "homeTeamLogo": "atletico_madrid",
-                "awayTeamLogo": "rcd_mallorca"
-            },
-            {
-                "date": "05/12/2021",
-                "time": "",
-                "homeTeam": "Celta Vigo",
-                "awayTeam": "Valencia CF",
-                "score": "-:-",
-                "homeTeamLogo": "celta_vigo",
-                "awayTeamLogo": "valencia_cf"
-            },
-            {
-                "date": "05/12/2021",
-                "time": "",
-                "homeTeam": "FC Barcelona",
-                "awayTeam": "Real Betis",
-                "score": "-:-",
-                "homeTeamLogo": "fc_barcelona",
-                "awayTeamLogo": "real_betis"
-            },
-            {
-                "date": "05/12/2021",
-                "time": "",
-                "homeTeam": "Elche CF",
-                "awayTeam": "Cádiz CF",
-                "score": "-:-",
-                "homeTeamLogo": "elche_cf",
-                "awayTeamLogo": "cadiz_cf"
-            },
-            {
-                "date": "05/12/2021",
-                "time": "",
-                "homeTeam": "Getafe CF",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "getafe_cf",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "date": "05/12/2021",
-                "time": "",
+                "date": "03/12/2021",
+                "time": "20:00",
                 "homeTeam": "Granada CF",
                 "awayTeam": "CD Alavés",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "granada_cf",
                 "awayTeamLogo": "cd_alaves"
             },
             {
-                "date": "05/12/2021",
-                "time": "",
+                "date": "04/12/2021",
+                "time": "13:00",
                 "homeTeam": "Sevilla FC",
                 "awayTeam": "Villarreal CF",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "sevilla_fc",
                 "awayTeamLogo": "villarreal_cf"
             },
             {
-                "date": "05/12/2021",
-                "time": "",
-                "homeTeam": "Rayo Vallecano",
-                "awayTeam": "Espanyol Barcelona",
-                "score": "-:-",
-                "homeTeamLogo": "rayo_vallecano",
-                "awayTeamLogo": "espanyol_barcelona"
+                "date": "04/12/2021",
+                "time": "15:15",
+                "homeTeam": "FC Barcelona",
+                "awayTeam": "Real Betis",
+                "score": "0:1",
+                "homeTeamLogo": "fc_barcelona",
+                "awayTeamLogo": "real_betis"
             },
             {
-                "date": "05/12/2021",
-                "time": "",
+                "date": "04/12/2021",
+                "time": "17:30",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "RCD Mallorca",
+                "score": "1:2",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "rcd_mallorca"
+            },
+            {
+                "date": "04/12/2021",
+                "time": "20:00",
                 "homeTeam": "Real Sociedad",
                 "awayTeam": "Real Madrid",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "real_sociedad",
                 "awayTeamLogo": "real_madrid"
             },
             {
                 "date": "05/12/2021",
-                "time": "",
+                "time": "13:00",
+                "homeTeam": "Rayo Vallecano",
+                "awayTeam": "Espanyol Barcelona",
+                "score": "1:0",
+                "homeTeamLogo": "rayo_vallecano",
+                "awayTeamLogo": "espanyol_barcelona"
+            },
+            {
+                "date": "05/12/2021",
+                "time": "15:15",
+                "homeTeam": "Elche CF",
+                "awayTeam": "Cádiz CF",
+                "score": "3:1",
+                "homeTeamLogo": "elche_cf",
+                "awayTeamLogo": "cadiz_cf"
+            },
+            {
+                "date": "05/12/2021",
+                "time": "17:30",
                 "homeTeam": "Levante UD",
                 "awayTeam": "CA Osasuna",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "levante_ud",
                 "awayTeamLogo": "ca_osasuna"
+            },
+            {
+                "date": "05/12/2021",
+                "time": "20:00",
+                "homeTeam": "Celta Vigo",
+                "awayTeam": "Valencia CF",
+                "score": "1:2",
+                "homeTeamLogo": "celta_vigo",
+                "awayTeamLogo": "valencia_cf"
+            },
+            {
+                "date": "06/12/2021",
+                "time": "20:00",
+                "homeTeam": "Getafe CF",
+                "awayTeam": "Athletic Bilbao",
+                "score": "0:0",
+                "homeTeamLogo": "getafe_cf",
+                "awayTeamLogo": "athletic_bilbao"
             }
         ]
     },
@@ -1523,94 +1523,94 @@
         "round": 17,
         "matches": [
             {
-                "date": "12/12/2021",
-                "time": "",
+                "date": "10/12/2021",
+                "time": "20:00",
+                "homeTeam": "RCD Mallorca",
+                "awayTeam": "Celta Vigo",
+                "score": "0:0",
+                "homeTeamLogo": "rcd_mallorca",
+                "awayTeamLogo": "celta_vigo"
+            },
+            {
+                "date": "11/12/2021",
+                "time": "13:00",
+                "homeTeam": "Espanyol Barcelona",
+                "awayTeam": "Levante UD",
+                "score": "4:3",
+                "homeTeamLogo": "espanyol_barcelona",
+                "awayTeamLogo": "levante_ud"
+            },
+            {
+                "date": "11/12/2021",
+                "time": "15:15",
+                "homeTeam": "CD Alavés",
+                "awayTeam": "Getafe CF",
+                "score": "1:1",
+                "homeTeamLogo": "cd_alaves",
+                "awayTeamLogo": "getafe_cf"
+            },
+            {
+                "date": "11/12/2021",
+                "time": "17:30",
+                "homeTeam": "Valencia CF",
+                "awayTeam": "Elche CF",
+                "score": "2:1",
+                "homeTeamLogo": "valencia_cf",
+                "awayTeamLogo": "elche_cf"
+            },
+            {
+                "date": "11/12/2021",
+                "time": "20:00",
                 "homeTeam": "Athletic Bilbao",
                 "awayTeam": "Sevilla FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "athletic_bilbao",
                 "awayTeamLogo": "sevilla_fc"
             },
             {
                 "date": "12/12/2021",
-                "time": "",
-                "homeTeam": "Real Betis",
-                "awayTeam": "Real Sociedad",
-                "score": "-:-",
-                "homeTeamLogo": "real_betis",
-                "awayTeamLogo": "real_sociedad"
-            },
-            {
-                "date": "12/12/2021",
-                "time": "",
-                "homeTeam": "CA Osasuna",
-                "awayTeam": "FC Barcelona",
-                "score": "-:-",
-                "homeTeamLogo": "ca_osasuna",
-                "awayTeamLogo": "fc_barcelona"
-            },
-            {
-                "date": "12/12/2021",
-                "time": "",
-                "homeTeam": "CD Alavés",
-                "awayTeam": "Getafe CF",
-                "score": "-:-",
-                "homeTeamLogo": "cd_alaves",
-                "awayTeamLogo": "getafe_cf"
-            },
-            {
-                "date": "12/12/2021",
-                "time": "",
-                "homeTeam": "Espanyol Barcelona",
-                "awayTeam": "Levante UD",
-                "score": "-:-",
-                "homeTeamLogo": "espanyol_barcelona",
-                "awayTeamLogo": "levante_ud"
-            },
-            {
-                "date": "12/12/2021",
-                "time": "",
-                "homeTeam": "Cádiz CF",
-                "awayTeam": "Granada CF",
-                "score": "-:-",
-                "homeTeamLogo": "cadiz_cf",
-                "awayTeamLogo": "granada_cf"
-            },
-            {
-                "date": "12/12/2021",
-                "time": "",
-                "homeTeam": "Valencia CF",
-                "awayTeam": "Elche CF",
-                "score": "-:-",
-                "homeTeamLogo": "valencia_cf",
-                "awayTeamLogo": "elche_cf"
-            },
-            {
-                "date": "12/12/2021",
-                "time": "",
+                "time": "13:00",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "Rayo Vallecano",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "villarreal_cf",
                 "awayTeamLogo": "rayo_vallecano"
             },
             {
                 "date": "12/12/2021",
-                "time": "",
-                "homeTeam": "RCD Mallorca",
-                "awayTeam": "Celta Vigo",
-                "score": "-:-",
-                "homeTeamLogo": "rcd_mallorca",
-                "awayTeamLogo": "celta_vigo"
+                "time": "15:15",
+                "homeTeam": "CA Osasuna",
+                "awayTeam": "FC Barcelona",
+                "score": "2:2",
+                "homeTeamLogo": "ca_osasuna",
+                "awayTeamLogo": "fc_barcelona"
             },
             {
                 "date": "12/12/2021",
-                "time": "",
+                "time": "17:30",
+                "homeTeam": "Real Betis",
+                "awayTeam": "Real Sociedad",
+                "score": "4:0",
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "real_sociedad"
+            },
+            {
+                "date": "12/12/2021",
+                "time": "20:00",
                 "homeTeam": "Real Madrid",
                 "awayTeam": "Atlético Madrid",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "real_madrid",
                 "awayTeamLogo": "atletico_madrid"
+            },
+            {
+                "date": "13/12/2021",
+                "time": "20:00",
+                "homeTeam": "Cádiz CF",
+                "awayTeam": "Granada CF",
+                "score": "1:1",
+                "homeTeamLogo": "cadiz_cf",
+                "awayTeamLogo": "granada_cf"
             }
         ]
     },
@@ -1618,17 +1618,8 @@
         "round": 18,
         "matches": [
             {
-                "date": "19/12/2021",
-                "time": "",
-                "homeTeam": "Athletic Bilbao",
-                "awayTeam": "Real Betis",
-                "score": "-:-",
-                "homeTeamLogo": "athletic_bilbao",
-                "awayTeamLogo": "real_betis"
-            },
-            {
-                "date": "19/12/2021",
-                "time": "",
+                "date": "17/12/2021",
+                "time": "20:00",
                 "homeTeam": "Celta Vigo",
                 "awayTeam": "Espanyol Barcelona",
                 "score": "-:-",
@@ -1636,8 +1627,26 @@
                 "awayTeamLogo": "espanyol_barcelona"
             },
             {
-                "date": "19/12/2021",
-                "time": "",
+                "date": "18/12/2021",
+                "time": "13:00",
+                "homeTeam": "Rayo Vallecano",
+                "awayTeam": "CD Alavés",
+                "score": "-:-",
+                "homeTeamLogo": "rayo_vallecano",
+                "awayTeamLogo": "cd_alaves"
+            },
+            {
+                "date": "18/12/2021",
+                "time": "15:15",
+                "homeTeam": "Real Sociedad",
+                "awayTeam": "Villarreal CF",
+                "score": "-:-",
+                "homeTeamLogo": "real_sociedad",
+                "awayTeamLogo": "villarreal_cf"
+            },
+            {
+                "date": "18/12/2021",
+                "time": "17:30",
                 "homeTeam": "FC Barcelona",
                 "awayTeam": "Elche CF",
                 "score": "-:-",
@@ -1645,26 +1654,8 @@
                 "awayTeamLogo": "elche_cf"
             },
             {
-                "date": "19/12/2021",
-                "time": "",
-                "homeTeam": "Getafe CF",
-                "awayTeam": "CA Osasuna",
-                "score": "-:-",
-                "homeTeamLogo": "getafe_cf",
-                "awayTeamLogo": "ca_osasuna"
-            },
-            {
-                "date": "19/12/2021",
-                "time": "",
-                "homeTeam": "Granada CF",
-                "awayTeam": "RCD Mallorca",
-                "score": "-:-",
-                "homeTeamLogo": "granada_cf",
-                "awayTeamLogo": "rcd_mallorca"
-            },
-            {
-                "date": "19/12/2021",
-                "time": "",
+                "date": "18/12/2021",
+                "time": "20:00",
                 "homeTeam": "Sevilla FC",
                 "awayTeam": "Atlético Madrid",
                 "score": "-:-",
@@ -1673,16 +1664,34 @@
             },
             {
                 "date": "19/12/2021",
-                "time": "",
-                "homeTeam": "Rayo Vallecano",
-                "awayTeam": "CD Alavés",
+                "time": "13:00",
+                "homeTeam": "Granada CF",
+                "awayTeam": "RCD Mallorca",
                 "score": "-:-",
-                "homeTeamLogo": "rayo_vallecano",
-                "awayTeamLogo": "cd_alaves"
+                "homeTeamLogo": "granada_cf",
+                "awayTeamLogo": "rcd_mallorca"
             },
             {
                 "date": "19/12/2021",
-                "time": "",
+                "time": "15:15",
+                "homeTeam": "Athletic Bilbao",
+                "awayTeam": "Real Betis",
+                "score": "-:-",
+                "homeTeamLogo": "athletic_bilbao",
+                "awayTeamLogo": "real_betis"
+            },
+            {
+                "date": "19/12/2021",
+                "time": "17:30",
+                "homeTeam": "Getafe CF",
+                "awayTeam": "CA Osasuna",
+                "score": "-:-",
+                "homeTeamLogo": "getafe_cf",
+                "awayTeamLogo": "ca_osasuna"
+            },
+            {
+                "date": "19/12/2021",
+                "time": "20:00",
                 "homeTeam": "Real Madrid",
                 "awayTeam": "Cádiz CF",
                 "score": "-:-",
@@ -1690,17 +1699,8 @@
                 "awayTeamLogo": "cadiz_cf"
             },
             {
-                "date": "19/12/2021",
-                "time": "",
-                "homeTeam": "Real Sociedad",
-                "awayTeam": "Villarreal CF",
-                "score": "-:-",
-                "homeTeamLogo": "real_sociedad",
-                "awayTeamLogo": "villarreal_cf"
-            },
-            {
-                "date": "19/12/2021",
-                "time": "",
+                "date": "20/12/2021",
+                "time": "20:00",
                 "homeTeam": "Levante UD",
                 "awayTeam": "Valencia CF",
                 "score": "-:-",
@@ -1713,71 +1713,8 @@
         "round": 19,
         "matches": [
             {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "Atlético Madrid",
-                "awayTeam": "Rayo Vallecano",
-                "score": "-:-",
-                "homeTeamLogo": "atletico_madrid",
-                "awayTeamLogo": "rayo_vallecano"
-            },
-            {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "Real Betis",
-                "awayTeam": "Celta Vigo",
-                "score": "-:-",
-                "homeTeamLogo": "real_betis",
-                "awayTeamLogo": "celta_vigo"
-            },
-            {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "CA Osasuna",
-                "awayTeam": "Athletic Bilbao",
-                "score": "-:-",
-                "homeTeamLogo": "ca_osasuna",
-                "awayTeamLogo": "athletic_bilbao"
-            },
-            {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "CD Alavés",
-                "awayTeam": "Real Sociedad",
-                "score": "-:-",
-                "homeTeamLogo": "cd_alaves",
-                "awayTeamLogo": "real_sociedad"
-            },
-            {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "Cádiz CF",
-                "awayTeam": "Sevilla FC",
-                "score": "-:-",
-                "homeTeamLogo": "cadiz_cf",
-                "awayTeamLogo": "sevilla_fc"
-            },
-            {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "Elche CF",
-                "awayTeam": "Granada CF",
-                "score": "-:-",
-                "homeTeamLogo": "elche_cf",
-                "awayTeamLogo": "granada_cf"
-            },
-            {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "Getafe CF",
-                "awayTeam": "Real Madrid",
-                "score": "-:-",
-                "homeTeamLogo": "getafe_cf",
-                "awayTeamLogo": "real_madrid"
-            },
-            {
-                "date": "02/01/2022",
-                "time": "",
+                "date": "31/12/2021",
+                "time": "15:15",
                 "homeTeam": "Valencia CF",
                 "awayTeam": "Espanyol Barcelona",
                 "score": "-:-",
@@ -1786,7 +1723,61 @@
             },
             {
                 "date": "02/01/2022",
-                "time": "",
+                "time": "13:00",
+                "homeTeam": "Getafe CF",
+                "awayTeam": "Real Madrid",
+                "score": "-:-",
+                "homeTeamLogo": "getafe_cf",
+                "awayTeamLogo": "real_madrid"
+            },
+            {
+                "date": "02/01/2022",
+                "time": "15:15",
+                "homeTeam": "Atlético Madrid",
+                "awayTeam": "Rayo Vallecano",
+                "score": "-:-",
+                "homeTeamLogo": "atletico_madrid",
+                "awayTeamLogo": "rayo_vallecano"
+            },
+            {
+                "date": "02/01/2022",
+                "time": "15:15",
+                "homeTeam": "Elche CF",
+                "awayTeam": "Granada CF",
+                "score": "-:-",
+                "homeTeamLogo": "elche_cf",
+                "awayTeamLogo": "granada_cf"
+            },
+            {
+                "date": "02/01/2022",
+                "time": "17:30",
+                "homeTeam": "Real Betis",
+                "awayTeam": "Celta Vigo",
+                "score": "-:-",
+                "homeTeamLogo": "real_betis",
+                "awayTeamLogo": "celta_vigo"
+            },
+            {
+                "date": "02/01/2022",
+                "time": "17:30",
+                "homeTeam": "CD Alavés",
+                "awayTeam": "Real Sociedad",
+                "score": "-:-",
+                "homeTeamLogo": "cd_alaves",
+                "awayTeamLogo": "real_sociedad"
+            },
+            {
+                "date": "02/01/2022",
+                "time": "20:00",
+                "homeTeam": "RCD Mallorca",
+                "awayTeam": "FC Barcelona",
+                "score": "-:-",
+                "homeTeamLogo": "rcd_mallorca",
+                "awayTeamLogo": "fc_barcelona"
+            },
+            {
+                "date": "03/01/2022",
+                "time": "18:00",
                 "homeTeam": "Villarreal CF",
                 "awayTeam": "Levante UD",
                 "score": "-:-",
@@ -1794,13 +1785,22 @@
                 "awayTeamLogo": "levante_ud"
             },
             {
-                "date": "02/01/2022",
-                "time": "",
-                "homeTeam": "RCD Mallorca",
-                "awayTeam": "FC Barcelona",
+                "date": "03/01/2022",
+                "time": "20:00",
+                "homeTeam": "CA Osasuna",
+                "awayTeam": "Athletic Bilbao",
                 "score": "-:-",
-                "homeTeamLogo": "rcd_mallorca",
-                "awayTeamLogo": "fc_barcelona"
+                "homeTeamLogo": "ca_osasuna",
+                "awayTeamLogo": "athletic_bilbao"
+            },
+            {
+                "date": "03/01/2022",
+                "time": "20:15",
+                "homeTeam": "Cádiz CF",
+                "awayTeam": "Sevilla FC",
+                "score": "-:-",
+                "homeTeamLogo": "cadiz_cf",
+                "awayTeamLogo": "sevilla_fc"
             }
         ]
     },
@@ -1903,8 +1903,8 @@
         "round": 21,
         "matches": [
             {
-                "date": "19/01/2022",
-                "time": "",
+                "date": "22/12/2021",
+                "time": "20:30",
                 "homeTeam": "Athletic Bilbao",
                 "awayTeam": "Real Madrid",
                 "score": "-:-",
