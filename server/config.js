@@ -19,6 +19,7 @@ function config() {
         updateCompetitionTournaments: true,
         updateWithImagesDownload: false,
         updateWithFullResults: false,
+        isSummerTime: false,
         paths: {
             tableData: './data/{0}/{1}/table.json',
             scorersData: './data/{0}/{1}/scorers.json',
