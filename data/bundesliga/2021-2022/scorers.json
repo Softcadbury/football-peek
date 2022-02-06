@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "18",
+        "goals": "24",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,7 +13,7 @@
         "name": "Patrik Schick",
         "country": "Czech Republic",
         "team": "Bayer Leverkusen",
-        "goals": "14",
+        "goals": "18",
         "flag": "czech_republic",
         "logo": "bayer_leverkusen"
     },
@@ -22,7 +22,7 @@
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Borussia Dortmund",
-        "goals": "11",
+        "goals": "16",
         "flag": "norway",
         "logo": "borussia_dortmund"
     },
@@ -31,12 +31,39 @@
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "10",
+        "goals": "14",
         "flag": "france",
         "logo": "1__fc_koln"
     },
     {
         "rank": "5.",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "10",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Christopher Nkunku",
+        "country": "France",
+        "team": "RB Leipzig",
+        "goals": "10",
+        "flag": "france",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "7.",
+        "name": " André Silva",
+        "country": "Portugal",
+        "team": "RB Leipzig",
+        "goals": "9",
+        "flag": "portugal",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Taiwo Awoniyi",
         "country": "Nigeria",
         "team": "1. FC Union Berlin",
@@ -46,15 +73,24 @@
     },
     {
         "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "Bayern München",
+        "name": "Moussa Diaby",
+        "country": "France",
+        "team": "Bayer Leverkusen",
         "goals": "9",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "france",
+        "logo": "bayer_leverkusen"
     },
     {
-        "rank": "7.",
+        "rank": "10.",
+        "name": "Ihlas Bebou",
+        "country": "Togo",
+        "team": "1899 Hoffenheim",
+        "goals": "7",
+        "flag": "togo",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Jonathan Burkardt",
         "country": "Germany",
         "team": "1. FSV Mainz 05",
@@ -73,15 +109,42 @@
     },
     {
         "rank": "-",
-        "name": "Christopher Nkunku",
-        "country": "France",
-        "team": "RB Leipzig",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
         "goals": "7",
-        "flag": "france",
-        "logo": "rb_leipzig"
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Masaya Okugawa",
+        "country": "Japan",
+        "team": "Arminia Bielefeld",
+        "goals": "7",
+        "flag": "japan",
+        "logo": "arminia_bielefeld"
+    },
+    {
+        "rank": "-",
+        "name": "Sebastian Polter",
+        "country": "Germany",
+        "team": "VfL Bochum",
+        "goals": "7",
+        "flag": "germany",
+        "logo": "vfl_bochum"
+    },
+    {
+        "rank": "16.",
+        "name": "Rafael Borré",
+        "country": "Colombia",
+        "team": "Eintracht Frankfurt",
+        "goals": "6",
+        "flag": "colombia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": "Lukas Nmecha",
         "country": "Germany",
         "team": "VfL Wolfsburg",
@@ -91,12 +154,12 @@
     },
     {
         "rank": "-",
-        "name": "Sebastian Polter",
+        "name": "Leroy Sané",
         "country": "Germany",
-        "team": "VfL Bochum",
+        "team": "Bayern München",
         "goals": "6",
         "flag": "germany",
-        "logo": "vfl_bochum"
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -108,75 +171,12 @@
         "logo": "vfl_wolfsburg"
     },
     {
-        "rank": "13.",
-        "name": "Ihlas Bebou",
-        "country": "Togo",
-        "team": "1899 Hoffenheim",
-        "goals": "5",
-        "flag": "togo",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Moussa Diaby",
-        "country": "France",
-        "team": "Bayer Leverkusen",
-        "goals": "5",
-        "flag": "france",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Stevan Jovetić",
-        "country": "Montenegro",
-        "team": "Hertha BSC",
-        "goals": "5",
-        "flag": "montenegro",
-        "logo": "hertha_bsc"
-    },
-    {
         "rank": "-",
         "name": "Florian Wirtz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
-        "goals": "5",
+        "goals": "6",
         "flag": "germany",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "17.",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "RB Leipzig",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Julian Brandt",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Kingsley Coman",
-        "country": "France",
-        "team": "Bayern München",
-        "goals": "4",
-        "flag": "france",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Emil Forsberg",
-        "country": "Sweden",
-        "team": "RB Leipzig",
-        "goals": "4",
-        "flag": "sweden",
-        "logo": "rb_leipzig"
     }
 ]

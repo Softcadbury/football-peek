@@ -4,27 +4,45 @@
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "12",
+        "assists": "16",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
     {
         "rank": "2.",
+        "name": "Christopher Nkunku",
+        "country": "France",
+        "team": "RB Leipzig",
+        "assists": "9",
+        "flag": "france",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Florian Wirtz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
-        "assists": "8",
+        "assists": "9",
         "flag": "germany",
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
         "name": "Vincenzo Grifo",
         "country": "Italy",
         "team": "SC Freiburg",
         "assists": "7",
         "flag": "italy",
         "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "7",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -37,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": "Christopher Nkunku",
-        "country": "France",
-        "team": "RB Leipzig",
+        "name": "Karim Onisiwo",
+        "country": "Austria",
+        "team": "1. FSV Mainz 05",
         "assists": "7",
-        "flag": "france",
-        "logo": "rb_leipzig"
+        "flag": "austria",
+        "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "-",
@@ -54,21 +72,30 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "7.",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "6",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
+        "rank": "-",
+        "name": "Leroy Sané",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "8.",
+        "rank": "10.",
         "name": "Jude Bellingham",
         "country": "England",
         "team": "Borussia Dortmund",
-        "assists": "5",
+        "assists": "6",
         "flag": "england",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Julian Brandt",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "6",
+        "flag": "germany",
         "logo": "borussia_dortmund"
     },
     {
@@ -76,7 +103,7 @@
         "name": "Moussa Diaby",
         "country": "France",
         "team": "Bayer Leverkusen",
-        "assists": "5",
+        "assists": "6",
         "flag": "france",
         "logo": "bayer_leverkusen"
     },
@@ -85,80 +112,62 @@
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Borussia Dortmund",
-        "assists": "5",
+        "assists": "6",
         "flag": "norway",
         "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Karim Onisiwo",
+        "name": "Patrick Wimmer",
         "country": "Austria",
-        "team": "1. FSV Mainz 05",
-        "assists": "5",
+        "team": "Arminia Bielefeld",
+        "assists": "6",
         "flag": "austria",
-        "logo": "1__fsv_mainz_05"
+        "logo": "arminia_bielefeld"
     },
     {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Bayern München",
+        "rank": "15.",
+        "name": "Jeremie Frimpong",
+        "country": "Netherlands",
+        "team": "Bayer Leverkusen",
         "assists": "5",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "13.",
-        "name": "Alphonso Davies",
-        "country": "Canada",
-        "team": "Bayern München",
-        "assists": "4",
-        "flag": "canada",
-        "logo": "bayern_munchen"
+        "flag": "netherlands",
+        "logo": "bayer_leverkusen"
     },
     {
         "rank": "-",
         "name": "Christian Günter",
         "country": "Germany",
         "team": "SC Freiburg",
-        "assists": "4",
+        "assists": "5",
         "flag": "germany",
         "logo": "sc_freiburg"
     },
     {
         "rank": "-",
-        "name": "Genki Haraguchi",
-        "country": "Japan",
-        "team": "1. FC Union Berlin",
-        "assists": "4",
-        "flag": "japan",
-        "logo": "1__fc_union_berlin"
+        "name": "Branimir Hrgota",
+        "country": "Sweden",
+        "team": "SpVgg Greuther Fürth",
+        "assists": "5",
+        "flag": "sweden",
+        "logo": "spvgg_greuther_furth"
     },
     {
         "rank": "-",
-        "name": "Jonas Hector",
+        "name": "Joshua Kimmich",
         "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "4",
+        "team": "Bayern München",
+        "assists": "5",
         "flag": "germany",
-        "logo": "1__fc_koln"
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
         "name": "Max Kruse",
         "country": "Germany",
-        "team": "1. FC Union Berlin",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
-        "name": "Dodi Lukébakio",
-        "country": "Belgium",
         "team": "VfL Wolfsburg",
-        "assists": "4",
-        "flag": "belgium",
+        "assists": "5",
+        "flag": "germany",
         "logo": "vfl_wolfsburg"
     },
     {
@@ -166,17 +175,8 @@
         "name": "David Raum",
         "country": "Germany",
         "team": "1899 Hoffenheim",
-        "assists": "4",
+        "assists": "5",
         "flag": "germany",
         "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Benno Schmitz",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "1__fc_koln"
     }
 ]

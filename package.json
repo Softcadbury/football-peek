@@ -5,14 +5,6 @@
     "author": "Softcadbury",
     "license": "MIT",
     "main": "server.js",
-    "scripts": {
-        "start": "gulp start",
-        "up": "gulp up",
-        "test": "gulp test",
-        "lint": "gulp lint",
-        "sprite": "gulp sprite",
-        "optim": "gulp optim"
-    },
     "engines": {
         "node": ">=6.0",
         "npm": ">=4.0"
@@ -51,5 +43,12 @@
         "request": "2.87.0",
         "sitemap": "1.13.0",
         "winston": "2.4.2"
+    },
+    "scripts": {
+        "start": "gulp start",
+        "up": "gulp up",
+        "test": "gulp test",
+        "lint": "gulp lint",
+        "images": "gulp images"
     }
 }
