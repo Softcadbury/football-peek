@@ -9,7 +9,7 @@ const tournamentDataUrlExtensions = ['finale', 'halbfinale', 'viertelfinale', 'a
 const tournamentDataUrlExtensionsNames = ['Final', 'Semi-finals', 'Quarter-finals', 'Eighth-finals', 'Sixteenth-finals'];
 const competitionsExtended = [
     { item: competitions.championsLeague, url: 'champions-league', roundNumber: 4 },
-    { item: competitions.europaLeague, url: 'europa-league', roundNumber: 5 }
+    { item: competitions.europaLeague, url: 'europa-league', roundNumber: 4, hasPlayOffs: true, playsOffMatches: 8 }
 ];
 
 function update(item) {
@@ -22,11 +22,21 @@ function update(item) {
         promises.push(parseRound(itemExtended, results, i));
     }
 
+    if (itemExtended.hasPlayOffs) {
+        results.push({ name: 'Play-offs', matches: [] });
+        promises.push(parseRound(itemExtended, results, 4, true));
+    }
+
     return new Promise(resolve => {
         Promise.all(promises).then(() => {
-            if (itemExtended.roundNumber === 4 && (results[3].matches.length !== 8 || !results[3].matches[0].team1) ||
-                itemExtended.roundNumber === 5 && (results[4].matches.length !== 16 || !results[4].matches[0].team1)) {
-                helper.log('Error while updating tournament: ' + itemExtended.item.code);
+            const expectedMatches = itemExtended.hasPlayOffs ? itemExtended.playsOffMatches : itemExtended.roundNumber === 4 ? 8 : 16
+            const lastMatchIndex = itemExtended.hasPlayOffs ? itemExtended.roundNumber : itemExtended.roundNumber === 4 ? 3 : 4
+
+            if (results[lastMatchIndex].matches.length !== expectedMatches || !results[lastMatchIndex].matches[0].team1) {
+                helper.log(
+                    `Error while updating tournament: ${itemExtended.item.code}. ` +
+                    `Expected matches count is ${expectedMatches}, found ${results[lastMatchIndex].matches.length}. ` +
+                    `First team is: '${results[lastMatchIndex].matches[0].team1}'`);
                 resolve();
                 return;
             }
@@ -44,13 +54,16 @@ function update(item) {
 }
 
 // Parse a page of an itemExtended
-function parseRound(itemExtended, results, roundIndex) {
+function parseRound(itemExtended, results, roundIndex, hasPlayOffs) {
     return new Promise(resolve => {
-        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.periods.current, tournamentDataUrlExtensions[roundIndex]), $ => {
+        const urlExtension = hasPlayOffs ? 'playoffs' : tournamentDataUrlExtensions[roundIndex];
+        const numberOfMatches = hasPlayOffs ? itemExtended.playsOffMatches * 4 : Math.pow(2, roundIndex + 2);
+
+        helper.scrapeUrl(helper.stringFormat(tournamentDataUrl, itemExtended.url, config.periods.current, urlExtension), $ => {
             const currentMatches = results[roundIndex].matches;
 
             $('#site > div.white > div.content > div > div.box > div > table tr').each((index, elem) => {
-                if (index >= Math.pow(2, roundIndex + 2)) {
+                if (index >= numberOfMatches) {
                     return;
                 }
 
