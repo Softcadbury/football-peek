@@ -1,21 +1,21 @@
 [
     {
         "rank": "1.",
-        "name": "Dušan Vlahović",
-        "country": "Serbia",
-        "team": "ACF Fiorentina",
-        "goals": "15",
-        "flag": "serbia",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "2.",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "13",
+        "goals": "18",
         "flag": "italy",
         "logo": "lazio_roma"
+    },
+    {
+        "rank": "2.",
+        "name": "Dušan Vlahović",
+        "country": "Serbia",
+        "team": "ACF Fiorentina",
+        "goals": "17",
+        "flag": "serbia",
+        "logo": "acf_fiorentina"
     },
     {
         "rank": "3.",
@@ -31,18 +31,54 @@
         "name": "Lautaro Martínez",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "10",
+        "goals": "11",
         "flag": "argentina",
         "logo": "inter"
     },
     {
         "rank": "5.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "AS Roma",
+        "goals": "10",
+        "flag": "england",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "10",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": " João Pedro",
         "country": "Brazil",
         "team": "Cagliari Calcio",
-        "goals": "9",
+        "goals": "10",
         "flag": "brazil",
         "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "8.",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "Inter",
+        "goals": "9",
+        "flag": "bosnia_herzegovina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Gianluca Scamacca",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
@@ -54,38 +90,38 @@
         "logo": "atalanta"
     },
     {
-        "rank": "7.",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
+        "rank": "11.",
+        "name": "Antonín Barák",
+        "country": "Czech Republic",
+        "team": "Hellas Verona",
         "goals": "8",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
+        "flag": "czech_republic",
+        "logo": "hellas_verona"
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "Inter",
-        "goals": "8",
-        "flag": "bosnia_herzegovina",
-        "logo": "inter"
-    },
-    {
-        "rank": "9.",
         "name": " Beto",
         "country": "Portugal",
         "team": "Udinese Calcio",
-        "goals": "7",
+        "goals": "8",
         "flag": "portugal",
         "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Gianluca Caprari",
+        "country": "Italy",
+        "team": "Hellas Verona",
+        "goals": "8",
+        "flag": "italy",
+        "logo": "hellas_verona"
     },
     {
         "rank": "-",
         "name": "Mattia Destro",
         "country": "Italy",
         "team": "Genoa CFC",
-        "goals": "7",
+        "goals": "8",
         "flag": "italy",
         "logo": "genoa_cfc"
     },
@@ -94,89 +130,53 @@
         "name": "Zlatan Ibrahimović",
         "country": "Sweden",
         "team": "AC Milan",
-        "goals": "7",
+        "goals": "8",
         "flag": "sweden",
         "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Sergej Milinković-Savić",
+        "country": "Serbia",
+        "team": "Lazio Roma",
+        "goals": "8",
+        "flag": "serbia",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
         "name": "Mario Pašalić",
         "country": "Croatia",
         "team": "Atalanta",
-        "goals": "7",
+        "goals": "8",
         "flag": "croatia",
         "logo": "atalanta"
-    },
-    {
-        "rank": "13.",
-        "name": "Marko Arnautović",
-        "country": "Austria",
-        "team": "Bologna FC",
-        "goals": "6",
-        "flag": "austria",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Inter",
-        "goals": "6",
-        "flag": "turkey",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Candreva",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "goals": "6",
-        "flag": "italy",
-        "logo": "sampdoria"
     },
     {
         "rank": "-",
         "name": "Andrea Pinamonti",
         "country": "Italy",
         "team": "Inter",
-        "goals": "6",
+        "goals": "8",
         "flag": "italy",
         "logo": "inter"
     },
     {
-        "rank": "17.",
-        "name": "Mattia Aramu",
+        "rank": "19.",
+        "name": "Antonio Candreva",
         "country": "Italy",
-        "team": "Venezia FC",
-        "goals": "5",
+        "team": "Sampdoria",
+        "goals": "7",
         "flag": "italy",
-        "logo": "venezia_fc"
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
-        "name": "Antonín Barák",
-        "country": "Czech Republic",
-        "team": "Hellas Verona",
-        "goals": "5",
-        "flag": "czech_republic",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Musa Barrow",
-        "country": "Gambia",
-        "team": "Bologna FC",
-        "goals": "5",
-        "flag": "gambia",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Domenico Criscito",
-        "country": "Italy",
-        "team": "Genoa CFC",
-        "goals": "5",
-        "flag": "italy",
-        "logo": "genoa_cfc"
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "juventus"
     }
 ]
