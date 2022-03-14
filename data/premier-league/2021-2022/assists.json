@@ -4,7 +4,7 @@
         "name": "Trent Alexander-Arnold",
         "country": "England",
         "team": "Liverpool FC",
-        "assists": "10",
+        "assists": "11",
         "flag": "england",
         "logo": "liverpool_fc"
     },
@@ -13,26 +13,44 @@
         "name": "Mo Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "assists": "9",
+        "assists": "10",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
     {
         "rank": "3.",
+        "name": "Paul Pogba",
+        "country": "France",
+        "team": "Manchester United",
+        "assists": "9",
+        "flag": "france",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
         "name": "Andrew Robertson",
         "country": "Scotland",
         "team": "Liverpool FC",
-        "assists": "8",
+        "assists": "9",
         "flag": "scotland",
         "logo": "liverpool_fc"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Jarrod Bowen",
         "country": "England",
         "team": "West Ham United",
-        "assists": "7",
+        "assists": "8",
         "flag": "england",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "6.",
+        "name": "Michail Antonio",
+        "country": "Jamaica",
+        "team": "West Ham United",
+        "assists": "7",
+        "flag": "jamaica",
         "logo": "west_ham_united"
     },
     {
@@ -46,25 +64,43 @@
     },
     {
         "rank": "-",
-        "name": "Paul Pogba",
+        "name": "Alexandre Lacazette",
         "country": "France",
-        "team": "Manchester United",
+        "team": "Arsenal FC",
         "assists": "7",
         "flag": "france",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "7.",
-        "name": "Michail Antonio",
-        "country": "Jamaica",
-        "team": "West Ham United",
-        "assists": "6",
-        "flag": "jamaica",
-        "logo": "west_ham_united"
+        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
         "name": "Mason Mount",
+        "country": "England",
+        "team": "Chelsea FC",
+        "assists": "7",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "10.",
+        "name": "Saïd Benrahma",
+        "country": "Algeria",
+        "team": "West Ham United",
+        "assists": "6",
+        "flag": "algeria",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Manchester United",
+        "assists": "6",
+        "flag": "portugal",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Reece James",
         "country": "England",
         "team": "Chelsea FC",
         "assists": "6",
@@ -72,13 +108,13 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "9.",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Manchester United",
+        "rank": "13.",
+        "name": "Harvey Barnes",
+        "country": "England",
+        "team": "Leicester City",
         "assists": "5",
-        "flag": "portugal",
-        "logo": "manchester_united"
+        "flag": "england",
+        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -91,12 +127,30 @@
     },
     {
         "rank": "-",
-        "name": "Reece James",
+        "name": "Jordan Henderson",
         "country": "England",
-        "team": "Chelsea FC",
+        "team": "Liverpool FC",
         "assists": "5",
         "flag": "england",
-        "logo": "chelsea_fc"
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Kelechi Iheanacho",
+        "country": "Nigeria",
+        "team": "Leicester City",
+        "assists": "5",
+        "flag": "nigeria",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Danny Ings",
+        "country": "England",
+        "team": "Aston Villa",
+        "assists": "5",
+        "flag": "england",
+        "logo": "aston_villa"
     },
     {
         "rank": "-",
@@ -109,74 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Kiko Femenía",
+        "country": "Spain",
+        "team": "Watford FC",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "watford_fc"
+    },
+    {
+        "rank": "-",
         "name": "Mateo Kovačić",
         "country": "Croatia",
         "team": "Chelsea FC",
         "assists": "5",
         "flag": "croatia",
         "logo": "chelsea_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Nathan Redmond",
-        "country": "England",
-        "team": "Southampton FC",
-        "assists": "5",
-        "flag": "england",
-        "logo": "southampton_fc"
-    },
-    {
-        "rank": "15.",
-        "name": "Saïd Benrahma",
-        "country": "Algeria",
-        "team": "West Ham United",
-        "assists": "4",
-        "flag": "algeria",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Abdoulaye Doucouré",
-        "country": "France",
-        "team": "Everton FC",
-        "assists": "4",
-        "flag": "france",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Kelechi Iheanacho",
-        "country": "Nigeria",
-        "team": "Leicester City",
-        "assists": "4",
-        "flag": "nigeria",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Manchester City",
-        "assists": "4",
-        "flag": "algeria",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Declan Rice",
-        "country": "England",
-        "team": "West Ham United",
-        "assists": "4",
-        "flag": "england",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Bukayo Saka",
-        "country": "England",
-        "team": "Arsenal FC",
-        "assists": "4",
-        "flag": "england",
-        "logo": "arsenal_fc"
     }
 ]

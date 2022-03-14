@@ -4,12 +4,21 @@
         "name": " Bruno Fernandes",
         "country": "Portugal",
         "team": "Manchester United",
-        "assists": "6",
+        "assists": "7",
         "flag": "portugal",
         "logo": "manchester_united"
     },
     {
         "rank": "2.",
+        "name": "Leroy Sané",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "3.",
         "name": " Antony",
         "country": "Brazil",
         "team": "AFC Ajax",
@@ -18,16 +27,7 @@
         "logo": "afc_ajax"
     },
     {
-        "rank": "3.",
-        "name": "Jude Bellingham",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "assists": "4",
-        "flag": "england",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -37,21 +37,39 @@
     },
     {
         "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Bayern München",
+        "name": " Vinícius Júnior",
+        "country": "Brazil",
+        "team": "Real Madrid",
         "assists": "4",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "brazil",
+        "logo": "real_madrid"
     },
     {
         "rank": "6.",
+        "name": " Angeliño",
+        "country": "Spain",
+        "team": "RB Leipzig",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Maximilian Arnold",
         "country": "Germany",
         "team": "VfL Wolfsburg",
         "assists": "3",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Jude Bellingham",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "assists": "3",
+        "flag": "england",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
@@ -64,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": "Kingsley Coman",
+        "country": "France",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "france",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": " Cristiano",
         "country": "Brazil",
         "team": "FC Sheriff",
@@ -73,16 +100,7 @@
     },
     {
         "rank": "-",
-        "name": "Mahmoud Dahoud",
-        "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard",
+        "name": " Gerard Moreno",
         "country": "Spain",
         "team": "Villarreal CF",
         "assists": "3",
@@ -109,21 +127,21 @@
     },
     {
         "rank": "-",
-        "name": " José Angeliño",
-        "country": "Spain",
-        "team": "RB Leipzig",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "Bayern München",
         "assists": "3",
-        "flag": "spain",
-        "logo": "rb_leipzig"
+        "flag": "poland",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
-        "name": " Vinícius Júnior",
-        "country": "Brazil",
-        "team": "Real Madrid",
+        "name": "Thomas Müller",
+        "country": "Germany",
+        "team": "Bayern München",
         "assists": "3",
-        "flag": "brazil",
-        "logo": "real_madrid"
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -135,7 +153,16 @@
         "logo": "atalanta"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
+        "name": "Brenden Aaronson",
+        "country": "USA",
+        "team": "RB Salzburg",
+        "assists": "2",
+        "flag": "usa",
+        "logo": "rb_salzburg"
+    },
+    {
+        "rank": "-",
         "name": "Trent Alexander-Arnold",
         "country": "England",
         "team": "Liverpool FC",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Kingsley Coman",
-        "country": "France",
-        "team": "Bayern München",
+        "name": " Bernardo Silva",
+        "country": "Portugal",
+        "team": "Manchester City",
         "assists": "2",
-        "flag": "france",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Parejo",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Alphonso Davies",
-        "country": "Canada",
-        "team": "Bayern München",
-        "assists": "2",
-        "flag": "canada",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": " Douglas Santos",
-        "country": "Brazil",
-        "team": "Zenit St. Petersburg",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "zenit_st__petersburg"
+        "flag": "portugal",
+        "logo": "manchester_city"
     }
 ]
