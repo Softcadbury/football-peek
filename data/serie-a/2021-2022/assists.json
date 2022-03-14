@@ -1,12 +1,39 @@
 [
     {
         "rank": "1.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "assists": "10",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "2.",
+        "name": "Nicolò Barella",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "9",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "3.",
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "Inter",
         "assists": "8",
         "flag": "turkey",
         "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "sampdoria"
     },
     {
         "rank": "-",
@@ -18,38 +45,20 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "3.",
-        "name": "Nicolò Barella",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Antonio Candreva",
-        "country": "Italy",
-        "team": "Sampdoria",
-        "assists": "7",
-        "flag": "italy",
-        "logo": "sampdoria"
-    },
-    {
         "rank": "6.",
+        "name": "Gianluca Caprari",
+        "country": "Italy",
+        "team": "Hellas Verona",
+        "assists": "7",
+        "flag": "italy",
+        "logo": "hellas_verona"
+    },
+    {
+        "rank": "-",
         "name": " Felipe Anderson",
         "country": "Brazil",
         "team": "Lazio Roma",
-        "assists": "6",
+        "assists": "7",
         "flag": "brazil",
         "logo": "lazio_roma"
     },
@@ -58,7 +67,7 @@
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
-        "assists": "6",
+        "assists": "7",
         "flag": "spain",
         "logo": "lazio_roma"
     },
@@ -67,13 +76,40 @@
         "name": "Jordan Veretout",
         "country": "France",
         "team": "AS Roma",
-        "assists": "6",
+        "assists": "7",
         "flag": "france",
         "logo": "as_roma"
     },
     {
-        "rank": "9.",
-        "name": "Gianluca Caprari",
+        "rank": "10.",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "Juventus",
+        "assists": "5",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "Inter",
+        "assists": "5",
+        "flag": "bosnia_herzegovina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Eljif Elmas",
+        "country": "North Macedonia",
+        "team": "SSC Napoli",
+        "assists": "5",
+        "flag": "north_macedonia",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Davide Faraoni",
         "country": "Italy",
         "team": "Hellas Verona",
         "assists": "5",
@@ -82,12 +118,21 @@
     },
     {
         "rank": "-",
-        "name": "Francesco Caputo",
+        "name": "Theo Hernández",
+        "country": "France",
+        "team": "AC Milan",
+        "assists": "5",
+        "flag": "france",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Insigne",
         "country": "Italy",
-        "team": "Sassuolo Calcio",
+        "team": "SSC Napoli",
         "assists": "5",
         "flag": "italy",
-        "logo": "sassuolo_calcio"
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -109,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Mattia Zaccagni",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "5",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Piotr Zieliński",
         "country": "Poland",
         "team": "SSC Napoli",
@@ -117,66 +171,12 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "14.",
-        "name": "Andrea Cambiaso",
+        "rank": "20.",
+        "name": "Mattia Aramu",
         "country": "Italy",
-        "team": "Genoa CFC",
+        "team": "Venezia FC",
         "assists": "4",
         "flag": "italy",
-        "logo": "genoa_cfc"
-    },
-    {
-        "rank": "-",
-        "name": "Eljif Elmas",
-        "country": "North Macedonia",
-        "team": "SSC Napoli",
-        "assists": "4",
-        "flag": "north_macedonia",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Davide Faraoni",
-        "country": "Italy",
-        "team": "Hellas Verona",
-        "assists": "4",
-        "flag": "italy",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Theo Hernández",
-        "country": "France",
-        "team": "AC Milan",
-        "assists": "4",
-        "flag": "france",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "assists": "4",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": " João Pedro",
-        "country": "Brazil",
-        "team": "Cagliari Calcio",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Darko Lazović",
-        "country": "Serbia",
-        "team": "Hellas Verona",
-        "assists": "4",
-        "flag": "serbia",
-        "logo": "hellas_verona"
+        "logo": "venezia_fc"
     }
 ]
