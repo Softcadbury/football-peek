@@ -4,12 +4,21 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "assists": "10",
+        "assists": "11",
         "flag": "france",
         "logo": "real_madrid"
     },
     {
         "rank": "2.",
+        "name": "Ousmane Dembélé",
+        "country": "France",
+        "team": "FC Barcelona",
+        "assists": "9",
+        "flag": "france",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Óscar Trejo",
         "country": "Argentina",
         "team": "Rayo Vallecano",
@@ -18,22 +27,22 @@
         "logo": "rayo_vallecano"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
+        "name": "Sergi Darder",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Jorge De Frutos",
         "country": "Spain",
         "team": "Levante UD",
         "assists": "7",
         "flag": "spain",
         "logo": "levante_ud"
-    },
-    {
-        "rank": "-",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "FC Barcelona",
-        "assists": "7",
-        "flag": "france",
-        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
@@ -54,7 +63,16 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": " Vinícius Júnior",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "7",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "9.",
         "name": " Álex Berenguer",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -73,30 +91,12 @@
     },
     {
         "rank": "-",
-        "name": "Sergi Darder",
-        "country": "Spain",
-        "team": "Espanyol Barcelona",
-        "assists": "6",
-        "flag": "spain",
-        "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Real Betis",
         "assists": "6",
         "flag": "france",
         "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Vinícius Júnior",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "6",
-        "flag": "brazil",
-        "logo": "real_madrid"
     },
     {
         "rank": "12.",
@@ -115,6 +115,15 @@
         "assists": "5",
         "flag": "spain",
         "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Carlos Soler",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
@@ -153,22 +162,13 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "18.",
+        "rank": "19.",
         "name": "Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
         "assists": "4",
         "flag": "spain",
         "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
-        "name": " Carlos Soler",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "valencia_cf"
     },
     {
         "rank": "-",

@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "29",
+        "goals": "31",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -82,6 +82,15 @@
     },
     {
         "rank": "10.",
+        "name": "Jonathan Burkardt",
+        "country": "Germany",
+        "team": "1. FSV Mainz 05",
+        "goals": "9",
+        "flag": "germany",
+        "logo": "1__fsv_mainz_05"
+    },
+    {
+        "rank": "-",
         "name": "Marco Reus",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -90,7 +99,7 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "11.",
+        "rank": "12.",
         "name": "Jonas Hofmann",
         "country": "Germany",
         "team": "Bor. Mönchengladbach",
@@ -126,7 +135,7 @@
         "logo": "vfl_bochum"
     },
     {
-        "rank": "15.",
+        "rank": "16.",
         "name": "Ihlas Bebou",
         "country": "Togo",
         "team": "1899 Hoffenheim",
@@ -145,12 +154,12 @@
     },
     {
         "rank": "-",
-        "name": "Jonathan Burkardt",
-        "country": "Germany",
-        "team": "1. FSV Mainz 05",
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
+        "team": "FC Augsburg",
         "goals": "7",
-        "flag": "germany",
-        "logo": "1__fsv_mainz_05"
+        "flag": "austria",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -169,14 +178,5 @@
         "goals": "7",
         "flag": "germany",
         "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Müller",
-        "country": "Germany",
-        "team": "Bayern München",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "bayern_munchen"
     }
 ]

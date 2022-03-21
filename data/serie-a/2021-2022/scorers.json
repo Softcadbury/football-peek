@@ -4,7 +4,7 @@
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "20",
+        "goals": "21",
         "flag": "italy",
         "logo": "lazio_roma"
     },
@@ -13,12 +13,21 @@
         "name": "Dušan Vlahović",
         "country": "Serbia",
         "team": "Juventus",
-        "goals": "20",
+        "goals": "21",
         "flag": "serbia",
         "logo": "juventus"
     },
     {
         "rank": "3.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "AS Roma",
+        "goals": "15",
+        "flag": "england",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Giovanni Simeone",
         "country": "Argentina",
         "team": "Hellas Verona",
@@ -27,7 +36,16 @@
         "logo": "hellas_verona"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "14",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Lautaro Martínez",
         "country": "Argentina",
         "team": "Inter",
@@ -36,25 +54,16 @@
         "logo": "inter"
     },
     {
-        "rank": "5.",
-        "name": "Tammy Abraham",
-        "country": "England",
-        "team": "AS Roma",
-        "goals": "13",
-        "flag": "england",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "6.",
-        "name": "Domenico Berardi",
+        "rank": "7.",
+        "name": "Gianluca Scamacca",
         "country": "Italy",
         "team": "Sassuolo Calcio",
-        "goals": "12",
+        "goals": "13",
         "flag": "italy",
         "logo": "sassuolo_calcio"
     },
     {
-        "rank": "-",
+        "rank": "8.",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "Inter",
@@ -63,16 +72,16 @@
         "logo": "inter"
     },
     {
-        "rank": "-",
-        "name": "Gianluca Scamacca",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "12",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
+        "rank": "9.",
+        "name": "Victor Osimhen",
+        "country": "Nigeria",
+        "team": "SSC Napoli",
+        "goals": "11",
+        "flag": "nigeria",
+        "logo": "ssc_napoli"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Antonín Barák",
         "country": "Czech Republic",
         "team": "Hellas Verona",
@@ -99,13 +108,22 @@
         "logo": "cagliari_calcio"
     },
     {
-        "rank": "12.",
+        "rank": "13.",
         "name": "Marko Arnautović",
         "country": "Austria",
         "team": "Bologna FC",
         "goals": "9",
         "flag": "austria",
         "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Francesco Caputo",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
@@ -118,12 +136,12 @@
     },
     {
         "rank": "-",
-        "name": "Victor Osimhen",
-        "country": "Nigeria",
-        "team": "SSC Napoli",
+        "name": " Gerard Deulofeu",
+        "country": "Spain",
+        "team": "Udinese Calcio",
         "goals": "9",
-        "flag": "nigeria",
-        "logo": "ssc_napoli"
+        "flag": "spain",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
@@ -160,23 +178,5 @@
         "goals": "9",
         "flag": "colombia",
         "logo": "atalanta"
-    },
-    {
-        "rank": "19.",
-        "name": " Beto",
-        "country": "Portugal",
-        "team": "Udinese Calcio",
-        "goals": "8",
-        "flag": "portugal",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard Deulofeu",
-        "country": "Spain",
-        "team": "Udinese Calcio",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "udinese_calcio"
     }
 ]

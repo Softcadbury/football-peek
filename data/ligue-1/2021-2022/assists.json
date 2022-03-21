@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Benjamin Bourigeaud",
+        "country": "France",
+        "team": "Stade Rennes",
+        "assists": "10",
+        "flag": "france",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -27,7 +36,7 @@
         "logo": "olympique_marseille"
     },
     {
-        "rank": "4.",
+        "rank": "5.",
         "name": "Jonathan Clauss",
         "country": "France",
         "team": "RC Lens",
@@ -36,7 +45,7 @@
         "logo": "rc_lens"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Ludovic Ajorque",
         "country": "France",
         "team": "RC Strasbourg",
@@ -54,16 +63,16 @@
         "logo": "ogc_nice"
     },
     {
-        "rank": "7.",
-        "name": "Benjamin Bourigeaud",
-        "country": "France",
+        "rank": "-",
+        "name": "Lovro Majer",
+        "country": "Croatia",
         "team": "Stade Rennes",
-        "assists": "7",
-        "flag": "france",
+        "assists": "8",
+        "flag": "croatia",
         "logo": "stade_rennes"
     },
     {
-        "rank": "-",
+        "rank": "9.",
         "name": "Mattéo Guendouzi",
         "country": "France",
         "team": "Olympique Marseille",
@@ -82,15 +91,6 @@
     },
     {
         "rank": "-",
-        "name": "Lovro Majer",
-        "country": "Croatia",
-        "team": "Stade Rennes",
-        "assists": "7",
-        "flag": "croatia",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
         "name": "Moses Simon",
         "country": "Nigeria",
         "team": "FC Nantes",
@@ -99,7 +99,25 @@
         "logo": "fc_nantes"
     },
     {
-        "rank": "12.",
+        "rank": "-",
+        "name": "Hamari Traoré",
+        "country": "Mali",
+        "team": "Stade Rennes",
+        "assists": "7",
+        "flag": "mali",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "AS Monaco",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "14.",
         "name": "Yacine Adli",
         "country": "France",
         "team": "Girondins Bordeaux",
@@ -151,24 +169,6 @@
         "assists": "6",
         "flag": "france",
         "logo": "rc_strasbourg"
-    },
-    {
-        "rank": "-",
-        "name": "Hamari Traoré",
-        "country": "Mali",
-        "team": "Stade Rennes",
-        "assists": "6",
-        "flag": "mali",
-        "logo": "stade_rennes"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin Volland",
-        "country": "Germany",
-        "team": "AS Monaco",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "as_monaco"
     },
     {
         "rank": "20.",

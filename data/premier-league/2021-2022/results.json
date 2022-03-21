@@ -1513,7 +1513,7 @@
                 "time": "19:30",
                 "homeTeam": "Brighton & Hove Albion",
                 "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "brighton___hove_albion",
                 "awayTeamLogo": "tottenham_hotspur"
             }
@@ -1664,15 +1664,6 @@
             },
             {
                 "date": "11/01/2022",
-                "time": "",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Leicester City",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "leicester_city"
-            },
-            {
-                "date": "11/01/2022",
                 "time": "19:45",
                 "homeTeam": "Southampton FC",
                 "awayTeam": "Brentford FC",
@@ -1706,21 +1697,21 @@
                 "score": "1:4",
                 "homeTeamLogo": "watford_fc",
                 "awayTeamLogo": "crystal_palace"
+            },
+            {
+                "date": "20/04/2022",
+                "time": "19:45",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Leicester City",
+                "score": "-:-",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "leicester_city"
             }
         ]
     },
     {
         "round": 19,
         "matches": [
-            {
-                "date": "26/12/2021",
-                "time": "",
-                "homeTeam": "Burnley FC",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "burnley_fc",
-                "awayTeamLogo": "everton_fc"
-            },
             {
                 "date": "26/12/2021",
                 "time": "15:00",
@@ -1801,6 +1792,15 @@
                 "score": "4:0",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "watford_fc"
+            },
+            {
+                "date": "06/04/2022",
+                "time": "19:30",
+                "homeTeam": "Burnley FC",
+                "awayTeam": "Everton FC",
+                "score": "-:-",
+                "homeTeamLogo": "burnley_fc",
+                "awayTeamLogo": "everton_fc"
             }
         ]
     },
@@ -1893,7 +1893,7 @@
                 "time": "19:45",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "newcastle_united"
             }
@@ -2284,15 +2284,6 @@
         "matches": [
             {
                 "date": "12/02/2022",
-                "time": "",
-                "homeTeam": "Chelsea FC",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "chelsea_fc",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "date": "12/02/2022",
                 "time": "12:30",
                 "homeTeam": "Manchester United",
                 "awayTeam": "Southampton FC",
@@ -2371,6 +2362,15 @@
                 "score": "2:2",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "west_ham_united"
+            },
+            {
+                "date": "20/04/2022",
+                "time": "19:45",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "arsenal_fc"
             }
         ]
     },
@@ -2558,7 +2558,7 @@
                 "time": "20:15",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "liverpool_fc"
             }
@@ -2748,7 +2748,7 @@
                 "time": "20:00",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Manchester City",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "manchester_city"
             }
@@ -2771,45 +2771,18 @@
                 "time": "20:00",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Leeds United",
-                "score": "-:-",
+                "score": "2:3",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "leeds_united"
-            },
-            {
-                "date": "19/03/2022",
-                "time": "",
-                "homeTeam": "Manchester City",
-                "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_city",
-                "awayTeamLogo": "brighton___hove_albion"
-            },
-            {
-                "date": "19/03/2022",
-                "time": "",
-                "homeTeam": "Burnley FC",
-                "awayTeam": "Southampton FC",
-                "score": "-:-",
-                "homeTeamLogo": "burnley_fc",
-                "awayTeamLogo": "southampton_fc"
             },
             {
                 "date": "19/03/2022",
                 "time": "12:30",
                 "homeTeam": "Aston Villa",
                 "awayTeam": "Arsenal FC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "aston_villa",
                 "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "date": "20/03/2022",
-                "time": "",
-                "homeTeam": "Newcastle United",
-                "awayTeam": "Crystal Palace",
-                "score": "-:-",
-                "homeTeamLogo": "newcastle_united",
-                "awayTeamLogo": "crystal_palace"
             },
             {
                 "date": "20/03/2022",
@@ -2822,19 +2795,10 @@
             },
             {
                 "date": "20/03/2022",
-                "time": "",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "Manchester United",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "manchester_united"
-            },
-            {
-                "date": "20/03/2022",
                 "time": "14:00",
                 "homeTeam": "Leicester City",
                 "awayTeam": "Brentford FC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "brentford_fc"
             },
@@ -2843,9 +2807,45 @@
                 "time": "16:30",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "West Ham United",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "west_ham_united"
+            },
+            {
+                "date": "19/04/2022",
+                "time": "",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Manchester United",
+                "score": "-:-",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "20/04/2022",
+                "time": "19:45",
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Crystal Palace",
+                "score": "-:-",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "crystal_palace"
+            },
+            {
+                "date": "20/04/2022",
+                "time": "20:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Brighton & Hove Albion",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "brighton___hove_albion"
+            },
+            {
+                "date": "21/04/2022",
+                "time": "19:45",
+                "homeTeam": "Burnley FC",
+                "awayTeam": "Southampton FC",
+                "score": "-:-",
+                "homeTeamLogo": "burnley_fc",
+                "awayTeamLogo": "southampton_fc"
             }
         ]
     },
@@ -3045,15 +3045,6 @@
             {
                 "date": "16/04/2022",
                 "time": "",
-                "homeTeam": "Aston Villa",
-                "awayTeam": "Liverpool FC",
-                "score": "-:-",
-                "homeTeamLogo": "aston_villa",
-                "awayTeamLogo": "liverpool_fc"
-            },
-            {
-                "date": "16/04/2022",
-                "time": "",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Crystal Palace",
                 "score": "-:-",
@@ -3062,52 +3053,7 @@
             },
             {
                 "date": "16/04/2022",
-                "time": "",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "date": "16/04/2022",
-                "time": "",
-                "homeTeam": "Watford FC",
-                "awayTeam": "Brentford FC",
-                "score": "-:-",
-                "homeTeamLogo": "watford_fc",
-                "awayTeamLogo": "brentford_fc"
-            },
-            {
-                "date": "16/04/2022",
-                "time": "",
-                "homeTeam": "Leeds United",
-                "awayTeam": "Chelsea FC",
-                "score": "-:-",
-                "homeTeamLogo": "leeds_united",
-                "awayTeamLogo": "chelsea_fc"
-            },
-            {
-                "date": "16/04/2022",
-                "time": "",
-                "homeTeam": "Manchester United",
-                "awayTeam": "Norwich City",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_united",
-                "awayTeamLogo": "norwich_city"
-            },
-            {
-                "date": "16/04/2022",
-                "time": "",
-                "homeTeam": "Newcastle United",
-                "awayTeam": "Leicester City",
-                "score": "-:-",
-                "homeTeamLogo": "newcastle_united",
-                "awayTeamLogo": "leicester_city"
-            },
-            {
-                "date": "16/04/2022",
-                "time": "",
+                "time": "12:30",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Brighton & Hove Albion",
                 "score": "-:-",
@@ -3116,7 +3062,34 @@
             },
             {
                 "date": "16/04/2022",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "16/04/2022",
+                "time": "15:00",
+                "homeTeam": "Watford FC",
+                "awayTeam": "Brentford FC",
+                "score": "-:-",
+                "homeTeamLogo": "watford_fc",
+                "awayTeamLogo": "brentford_fc"
+            },
+            {
+                "date": "16/04/2022",
+                "time": "15:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Norwich City",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "norwich_city"
+            },
+            {
+                "date": "16/04/2022",
+                "time": "15:00",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Burnley FC",
                 "score": "-:-",
@@ -3125,7 +3098,34 @@
             },
             {
                 "date": "16/04/2022",
-                "time": "",
+                "time": "17:30",
+                "homeTeam": "Aston Villa",
+                "awayTeam": "Liverpool FC",
+                "score": "-:-",
+                "homeTeamLogo": "aston_villa",
+                "awayTeamLogo": "liverpool_fc"
+            },
+            {
+                "date": "17/04/2022",
+                "time": "12:00",
+                "homeTeam": "Leeds United",
+                "awayTeam": "Chelsea FC",
+                "score": "-:-",
+                "homeTeamLogo": "leeds_united",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "17/04/2022",
+                "time": "14:15",
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Leicester City",
+                "score": "-:-",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "leicester_city"
+            },
+            {
+                "date": "17/04/2022",
+                "time": "16:30",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Manchester City",
                 "score": "-:-",
@@ -3139,16 +3139,7 @@
         "matches": [
             {
                 "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "Leicester City",
-                "awayTeam": "Aston Villa",
-                "score": "-:-",
-                "homeTeamLogo": "leicester_city",
-                "awayTeamLogo": "aston_villa"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
+                "time": "12:30",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Manchester United",
                 "score": "-:-",
@@ -3157,16 +3148,16 @@
             },
             {
                 "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "Brighton & Hove Albion",
-                "awayTeam": "Southampton FC",
+                "time": "15:00",
+                "homeTeam": "Leicester City",
+                "awayTeam": "Aston Villa",
                 "score": "-:-",
-                "homeTeamLogo": "brighton___hove_albion",
-                "awayTeamLogo": "southampton_fc"
+                "homeTeamLogo": "leicester_city",
+                "awayTeamLogo": "aston_villa"
             },
             {
                 "date": "23/04/2022",
-                "time": "",
+                "time": "15:00",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Watford FC",
                 "score": "-:-",
@@ -3175,16 +3166,7 @@
             },
             {
                 "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "Brentford FC",
-                "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
-                "homeTeamLogo": "brentford_fc",
-                "awayTeamLogo": "tottenham_hotspur"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
+                "time": "15:00",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Leeds United",
                 "score": "-:-",
@@ -3193,16 +3175,7 @@
             },
             {
                 "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "Burnley FC",
-                "awayTeam": "Wolverhampton Wanderers",
-                "score": "-:-",
-                "homeTeamLogo": "burnley_fc",
-                "awayTeamLogo": "wolverhampton_wanderers"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
+                "time": "15:00",
                 "homeTeam": "Norwich City",
                 "awayTeam": "Newcastle United",
                 "score": "-:-",
@@ -3211,7 +3184,34 @@
             },
             {
                 "date": "23/04/2022",
-                "time": "",
+                "time": "17:30",
+                "homeTeam": "Brentford FC",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "-:-",
+                "homeTeamLogo": "brentford_fc",
+                "awayTeamLogo": "tottenham_hotspur"
+            },
+            {
+                "date": "24/04/2022",
+                "time": "14:00",
+                "homeTeam": "Brighton & Hove Albion",
+                "awayTeam": "Southampton FC",
+                "score": "-:-",
+                "homeTeamLogo": "brighton___hove_albion",
+                "awayTeamLogo": "southampton_fc"
+            },
+            {
+                "date": "24/04/2022",
+                "time": "14:00",
+                "homeTeam": "Burnley FC",
+                "awayTeam": "Wolverhampton Wanderers",
+                "score": "-:-",
+                "homeTeamLogo": "burnley_fc",
+                "awayTeamLogo": "wolverhampton_wanderers"
+            },
+            {
+                "date": "24/04/2022",
+                "time": "14:00",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "West Ham United",
                 "score": "-:-",
@@ -3219,8 +3219,8 @@
                 "awayTeamLogo": "west_ham_united"
             },
             {
-                "date": "23/04/2022",
-                "time": "",
+                "date": "24/04/2022",
+                "time": "16:30",
                 "homeTeam": "Liverpool FC",
                 "awayTeam": "Everton FC",
                 "score": "-:-",
@@ -3234,61 +3234,7 @@
         "matches": [
             {
                 "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Aston Villa",
-                "awayTeam": "Norwich City",
-                "score": "-:-",
-                "homeTeamLogo": "aston_villa",
-                "awayTeamLogo": "norwich_city"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Chelsea FC",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "chelsea_fc"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Crystal Palace",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "crystal_palace"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Watford FC",
-                "awayTeam": "Burnley FC",
-                "score": "-:-",
-                "homeTeamLogo": "watford_fc",
-                "awayTeamLogo": "burnley_fc"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Leeds United",
-                "awayTeam": "Manchester City",
-                "score": "-:-",
-                "homeTeamLogo": "leeds_united",
-                "awayTeamLogo": "manchester_city"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Manchester United",
-                "awayTeam": "Brentford FC",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_united",
-                "awayTeamLogo": "brentford_fc"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
+                "time": "12:30",
                 "homeTeam": "Newcastle United",
                 "awayTeam": "Liverpool FC",
                 "score": "-:-",
@@ -3297,7 +3243,34 @@
             },
             {
                 "date": "30/04/2022",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "Aston Villa",
+                "awayTeam": "Norwich City",
+                "score": "-:-",
+                "homeTeamLogo": "aston_villa",
+                "awayTeamLogo": "norwich_city"
+            },
+            {
+                "date": "30/04/2022",
+                "time": "15:00",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Crystal Palace",
+                "score": "-:-",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "crystal_palace"
+            },
+            {
+                "date": "30/04/2022",
+                "time": "15:00",
+                "homeTeam": "Watford FC",
+                "awayTeam": "Burnley FC",
+                "score": "-:-",
+                "homeTeamLogo": "watford_fc",
+                "awayTeamLogo": "burnley_fc"
+            },
+            {
+                "date": "30/04/2022",
+                "time": "15:00",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Leicester City",
                 "score": "-:-",
@@ -3306,7 +3279,34 @@
             },
             {
                 "date": "30/04/2022",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "Wolverhampton Wanderers",
+                "awayTeam": "Brighton & Hove Albion",
+                "score": "-:-",
+                "homeTeamLogo": "wolverhampton_wanderers",
+                "awayTeamLogo": "brighton___hove_albion"
+            },
+            {
+                "date": "30/04/2022",
+                "time": "17:30",
+                "homeTeam": "Leeds United",
+                "awayTeam": "Manchester City",
+                "score": "-:-",
+                "homeTeamLogo": "leeds_united",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "01/05/2022",
+                "time": "14:00",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Chelsea FC",
+                "score": "-:-",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "01/05/2022",
+                "time": "16:30",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Arsenal FC",
                 "score": "-:-",
@@ -3314,13 +3314,13 @@
                 "awayTeamLogo": "arsenal_fc"
             },
             {
-                "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Wolverhampton Wanderers",
-                "awayTeam": "Brighton & Hove Albion",
+                "date": "02/05/2022",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Brentford FC",
                 "score": "-:-",
-                "homeTeamLogo": "wolverhampton_wanderers",
-                "awayTeamLogo": "brighton___hove_albion"
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "brentford_fc"
             }
         ]
     },

@@ -4,25 +4,16 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "goals": "20",
+        "goals": "22",
         "flag": "france",
         "logo": "real_madrid"
     },
     {
         "rank": "2.",
-        "name": "Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "13",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
         "name": " Raúl de Tomás",
         "country": "Spain",
         "team": "Espanyol Barcelona",
-        "goals": "13",
+        "goals": "14",
         "flag": "spain",
         "logo": "espanyol_barcelona"
     },
@@ -31,7 +22,7 @@
         "name": "Enes Ünal",
         "country": "Turkey",
         "team": "Getafe CF",
-        "goals": "13",
+        "goals": "14",
         "flag": "turkey",
         "logo": "getafe_cf"
     },
@@ -40,9 +31,18 @@
         "name": " Vinícius Júnior",
         "country": "Brazil",
         "team": "Real Madrid",
-        "goals": "13",
+        "goals": "14",
         "flag": "brazil",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "5.",
+        "name": "Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "celta_vigo"
     },
     {
         "rank": "6.",
@@ -72,22 +72,22 @@
         "logo": "atletico_madrid"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": " Gonçalo Guedes",
+        "country": "Portugal",
+        "team": "Valencia CF",
+        "goals": "11",
+        "flag": "portugal",
+        "logo": "valencia_cf"
+    },
+    {
+        "rank": "10.",
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "FC Barcelona",
         "goals": "10",
         "flag": "netherlands",
         "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Gonçalo Guedes",
-        "country": "Portugal",
-        "team": "Valencia CF",
-        "goals": "10",
-        "flag": "portugal",
-        "logo": "valencia_cf"
     },
     {
         "rank": "11.",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "19.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "FC Barcelona",
+        "goals": "7",
+        "flag": "gabon",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Lucas Boyé",
         "country": "Argentina",
         "team": "Elche CF",
         "goals": "7",
         "flag": "argentina",
         "logo": "elche_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Iñaki Williams",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
     }
 ]

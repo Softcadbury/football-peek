@@ -2667,7 +2667,7 @@
                 "time": "20:00",
                 "homeTeam": "AS Saint-Étienne",
                 "awayTeam": "ESTAC Troyes",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "as_saint_etienne",
                 "awayTeamLogo": "estac_troyes"
             },
@@ -2676,7 +2676,7 @@
                 "time": "16:00",
                 "homeTeam": "RC Lens",
                 "awayTeam": "Clermont Foot",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "rc_lens",
                 "awayTeamLogo": "clermont_foot"
             },
@@ -2685,7 +2685,7 @@
                 "time": "20:00",
                 "homeTeam": "FC Nantes",
                 "awayTeam": "Lille OSC",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "fc_nantes",
                 "awayTeamLogo": "lille_osc"
             },
@@ -2694,7 +2694,7 @@
                 "time": "12:00",
                 "homeTeam": "AS Monaco",
                 "awayTeam": "Paris Saint-Germain",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "as_monaco",
                 "awayTeamLogo": "paris_saint_germain"
             },
@@ -2703,7 +2703,7 @@
                 "time": "14:00",
                 "homeTeam": "FC Lorient",
                 "awayTeam": "RC Strasbourg",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "fc_lorient",
                 "awayTeamLogo": "rc_strasbourg"
             },
@@ -2712,7 +2712,7 @@
                 "time": "14:00",
                 "homeTeam": "Girondins Bordeaux",
                 "awayTeam": "Montpellier HSC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "girondins_bordeaux",
                 "awayTeamLogo": "montpellier_hsc"
             },
@@ -2721,7 +2721,7 @@
                 "time": "14:00",
                 "homeTeam": "Angers SCO",
                 "awayTeam": "Stade Brest",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "angers_sco",
                 "awayTeamLogo": "stade_brest"
             },
@@ -2730,7 +2730,7 @@
                 "time": "14:00",
                 "homeTeam": "Stade Rennes",
                 "awayTeam": "FC Metz",
-                "score": "-:-",
+                "score": "6:1",
                 "homeTeamLogo": "stade_rennes",
                 "awayTeamLogo": "fc_metz"
             },
@@ -2739,7 +2739,7 @@
                 "time": "16:05",
                 "homeTeam": "Stade Reims",
                 "awayTeam": "Olympique Lyon",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "stade_reims",
                 "awayTeamLogo": "olympique_lyon"
             },
@@ -2748,7 +2748,7 @@
                 "time": "19:45",
                 "homeTeam": "Olympique Marseille",
                 "awayTeam": "OGC Nice",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "olympique_marseille",
                 "awayTeamLogo": "ogc_nice"
             }
@@ -2758,8 +2758,26 @@
         "round": 30,
         "matches": [
             {
-                "date": "03/04/2022",
-                "time": "",
+                "date": "02/04/2022",
+                "time": "16:00",
+                "homeTeam": "OGC Nice",
+                "awayTeam": "Stade Rennes",
+                "score": "-:-",
+                "homeTeamLogo": "ogc_nice",
+                "awayTeamLogo": "stade_rennes"
+            },
+            {
+                "date": "02/04/2022",
+                "time": "18:00",
+                "homeTeam": "Lille OSC",
+                "awayTeam": "Girondins Bordeaux",
+                "score": "-:-",
+                "homeTeamLogo": "lille_osc",
+                "awayTeamLogo": "girondins_bordeaux"
+            },
+            {
+                "date": "02/04/2022",
+                "time": "20:00",
                 "homeTeam": "AS Saint-Étienne",
                 "awayTeam": "Olympique Marseille",
                 "score": "-:-",
@@ -2768,7 +2786,16 @@
             },
             {
                 "date": "03/04/2022",
-                "time": "",
+                "time": "12:00",
+                "homeTeam": "RC Strasbourg",
+                "awayTeam": "RC Lens",
+                "score": "-:-",
+                "homeTeamLogo": "rc_strasbourg",
+                "awayTeamLogo": "rc_lens"
+            },
+            {
+                "date": "03/04/2022",
+                "time": "14:00",
                 "homeTeam": "Clermont Foot",
                 "awayTeam": "FC Nantes",
                 "score": "-:-",
@@ -2777,7 +2804,7 @@
             },
             {
                 "date": "03/04/2022",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "ESTAC Troyes",
                 "awayTeam": "Stade Reims",
                 "score": "-:-",
@@ -2786,7 +2813,7 @@
             },
             {
                 "date": "03/04/2022",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "FC Metz",
                 "awayTeam": "AS Monaco",
                 "score": "-:-",
@@ -2795,7 +2822,7 @@
             },
             {
                 "date": "03/04/2022",
-                "time": "",
+                "time": "14:00",
                 "homeTeam": "Montpellier HSC",
                 "awayTeam": "Stade Brest",
                 "score": "-:-",
@@ -2804,16 +2831,7 @@
             },
             {
                 "date": "03/04/2022",
-                "time": "",
-                "homeTeam": "OGC Nice",
-                "awayTeam": "Stade Rennes",
-                "score": "-:-",
-                "homeTeamLogo": "ogc_nice",
-                "awayTeamLogo": "stade_rennes"
-            },
-            {
-                "date": "03/04/2022",
-                "time": "",
+                "time": "16:05",
                 "homeTeam": "Olympique Lyon",
                 "awayTeam": "Angers SCO",
                 "score": "-:-",
@@ -2822,30 +2840,12 @@
             },
             {
                 "date": "03/04/2022",
-                "time": "",
-                "homeTeam": "Lille OSC",
-                "awayTeam": "Girondins Bordeaux",
-                "score": "-:-",
-                "homeTeamLogo": "lille_osc",
-                "awayTeamLogo": "girondins_bordeaux"
-            },
-            {
-                "date": "03/04/2022",
-                "time": "",
+                "time": "19:45",
                 "homeTeam": "Paris Saint-Germain",
                 "awayTeam": "FC Lorient",
                 "score": "-:-",
                 "homeTeamLogo": "paris_saint_germain",
                 "awayTeamLogo": "fc_lorient"
-            },
-            {
-                "date": "03/04/2022",
-                "time": "",
-                "homeTeam": "RC Strasbourg",
-                "awayTeam": "RC Lens",
-                "score": "-:-",
-                "homeTeamLogo": "rc_strasbourg",
-                "awayTeamLogo": "rc_lens"
             }
         ]
     },
