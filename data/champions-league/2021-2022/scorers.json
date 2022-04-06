@@ -99,7 +99,16 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "12.",
+        "rank": "-",
+        "name": "Darwin Núñez",
+        "country": "Uruguay",
+        "team": "SL Benfica",
+        "goals": "5",
+        "flag": "uruguay",
+        "logo": "sl_benfica"
+    },
+    {
+        "rank": "13.",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -115,15 +124,6 @@
         "goals": "4",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Darwin Núñez",
-        "country": "Uruguay",
-        "team": "SL Benfica",
-        "goals": "4",
-        "flag": "uruguay",
-        "logo": "sl_benfica"
     },
     {
         "rank": "-",
@@ -172,11 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
+        "name": "Luis Díaz",
+        "country": "Colombia",
+        "team": "Liverpool FC",
         "goals": "3",
-        "flag": "argentina",
-        "logo": "juventus"
+        "flag": "colombia",
+        "logo": "liverpool_fc"
     }
 ]

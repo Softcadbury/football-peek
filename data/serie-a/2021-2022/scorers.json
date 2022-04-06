@@ -19,21 +19,21 @@
     },
     {
         "rank": "3.",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "Hellas Verona",
+        "goals": "16",
+        "flag": "argentina",
+        "logo": "hellas_verona"
+    },
+    {
+        "rank": "4.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "AS Roma",
         "goals": "15",
         "flag": "england",
         "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "Hellas Verona",
-        "goals": "15",
-        "flag": "argentina",
-        "logo": "hellas_verona"
     },
     {
         "rank": "5.",
@@ -73,6 +73,24 @@
     },
     {
         "rank": "9.",
+        "name": " Beto",
+        "country": "Portugal",
+        "team": "Udinese Calcio",
+        "goals": "11",
+        "flag": "portugal",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": " João Pedro",
+        "country": "Brazil",
+        "team": "Cagliari Calcio",
+        "goals": "11",
+        "flag": "brazil",
+        "logo": "cagliari_calcio"
+    },
+    {
+        "rank": "-",
         "name": "Victor Osimhen",
         "country": "Nigeria",
         "team": "SSC Napoli",
@@ -81,7 +99,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "10.",
+        "rank": "12.",
         "name": "Antonín Barák",
         "country": "Czech Republic",
         "team": "Hellas Verona",
@@ -99,16 +117,7 @@
         "logo": "hellas_verona"
     },
     {
-        "rank": "-",
-        "name": " João Pedro",
-        "country": "Brazil",
-        "team": "Cagliari Calcio",
-        "goals": "10",
-        "flag": "brazil",
-        "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Marko Arnautović",
         "country": "Austria",
         "team": "Bologna FC",
@@ -145,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Sergej Milinković-Savić",
+        "country": "Serbia",
+        "team": "Lazio Roma",
+        "goals": "9",
+        "flag": "serbia",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
         "name": "Mario Pašalić",
         "country": "Croatia",
         "team": "Atalanta",
@@ -160,23 +178,5 @@
         "goals": "9",
         "flag": "italy",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Giacomo Raspadori",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "9",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Duván Zapata",
-        "country": "Colombia",
-        "team": "Atalanta",
-        "goals": "9",
-        "flag": "colombia",
-        "logo": "atalanta"
     }
 ]

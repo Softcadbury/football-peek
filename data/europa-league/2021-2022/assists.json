@@ -1,15 +1,6 @@
 [
     {
         "rank": "1.",
-        "name": "Mario Götze",
-        "country": "Germany",
-        "team": "PSV Eindhoven",
-        "assists": "4",
-        "flag": "germany",
-        "logo": "psv_eindhoven"
-    },
-    {
-        "rank": "-",
         "name": " Ricardo Horta",
         "country": "Portugal",
         "team": "Sporting Braga",
@@ -27,7 +18,7 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "4.",
+        "rank": "3.",
         "name": " Canales",
         "country": "Spain",
         "team": "Real Betis",
@@ -52,6 +43,15 @@
         "assists": "3",
         "flag": "russia",
         "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Mario Götze",
+        "country": "Germany",
+        "team": "PSV Eindhoven",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "psv_eindhoven"
     },
     {
         "rank": "-",
@@ -145,7 +145,7 @@
     },
     {
         "rank": "-",
-        "name": " Benson",
+        "name": "Manuel Benson",
         "country": "Belgium",
         "team": "Royal Antwerp FC",
         "assists": "2",

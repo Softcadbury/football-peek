@@ -13,7 +13,7 @@
         "name": "Christopher Nkunku",
         "country": "France",
         "team": "RB Leipzig",
-        "assists": "12",
+        "assists": "14",
         "flag": "france",
         "logo": "rb_leipzig"
     },
@@ -37,6 +37,24 @@
     },
     {
         "rank": "5.",
+        "name": "Moussa Diaby",
+        "country": "France",
+        "team": "Bayer Leverkusen",
+        "assists": "9",
+        "flag": "france",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "9",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "David Raum",
         "country": "Germany",
         "team": "1899 Hoffenheim",
@@ -45,16 +63,7 @@
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "6.",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "8",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Filip Kostić",
         "country": "Serbia",
         "team": "Eintracht Frankfurt",
@@ -63,7 +72,16 @@
         "logo": "eintracht_frankfurt"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Andrej Kramarić",
+        "country": "Croatia",
+        "team": "1899 Hoffenheim",
+        "assists": "8",
+        "flag": "croatia",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "10.",
         "name": "Jude Bellingham",
         "country": "England",
         "team": "Borussia Dortmund",
@@ -73,30 +91,12 @@
     },
     {
         "rank": "-",
-        "name": "Moussa Diaby",
-        "country": "France",
-        "team": "Bayer Leverkusen",
-        "assists": "7",
-        "flag": "france",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
         "name": "Vincenzo Grifo",
         "country": "Italy",
         "team": "SC Freiburg",
         "assists": "7",
         "flag": "italy",
         "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Andrej Kramarić",
-        "country": "Croatia",
-        "team": "1899 Hoffenheim",
-        "assists": "7",
-        "flag": "croatia",
-        "logo": "1899_hoffenheim"
     },
     {
         "rank": "-",
@@ -145,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Christian Günter",
+        "country": "Germany",
+        "team": "SC Freiburg",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Borussia Dortmund",
@@ -168,15 +177,6 @@
         "team": "RB Leipzig",
         "assists": "6",
         "flag": "hungary",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "20.",
-        "name": " Angeliño",
-        "country": "Spain",
-        "team": "RB Leipzig",
-        "assists": "5",
-        "flag": "spain",
         "logo": "rb_leipzig"
     }
 ]

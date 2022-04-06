@@ -13,7 +13,7 @@
         "name": " Diogo Jota",
         "country": "Portugal",
         "team": "Liverpool FC",
-        "goals": "13",
+        "goals": "14",
         "flag": "portugal",
         "logo": "liverpool_fc"
     },
@@ -22,7 +22,7 @@
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
-        "goals": "13",
+        "goals": "14",
         "flag": "south_korea",
         "logo": "tottenham_hotspur"
     },
@@ -64,6 +64,15 @@
     },
     {
         "rank": "8.",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "goals": "10",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Riyad Mahrez",
         "country": "Algeria",
         "team": "Manchester City",
@@ -90,22 +99,31 @@
         "logo": "leicester_city"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": "Wilfried Zaha",
+        "country": "Ivory Coast",
+        "team": "Crystal Palace",
+        "goals": "10",
+        "flag": "ivory_coast",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "13.",
+        "name": "Jarrod Bowen",
+        "country": "England",
+        "team": "West Ham United",
+        "goals": "9",
+        "flag": "england",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
         "name": " Bruno Fernandes",
         "country": "Portugal",
         "team": "Manchester United",
         "goals": "9",
         "flag": "portugal",
         "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
-        "goals": "9",
-        "flag": "belgium",
-        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -144,30 +162,12 @@
         "logo": "arsenal_fc"
     },
     {
-        "rank": "-",
-        "name": "Wilfried Zaha",
-        "country": "Ivory Coast",
-        "team": "Crystal Palace",
-        "goals": "9",
-        "flag": "ivory_coast",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "18.",
+        "rank": "19.",
         "name": "Michail Antonio",
         "country": "Jamaica",
         "team": "West Ham United",
         "goals": "8",
         "flag": "jamaica",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Jarrod Bowen",
-        "country": "England",
-        "team": "West Ham United",
-        "goals": "8",
-        "flag": "england",
         "logo": "west_ham_united"
     },
     {

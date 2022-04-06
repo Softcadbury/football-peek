@@ -2243,7 +2243,7 @@
                 "time": "19:30",
                 "homeTeam": "VfL Bochum",
                 "awayTeam": "Bor. Mönchengladbach",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "vfl_bochum",
                 "awayTeamLogo": "bor__monchengladbach"
             },
@@ -2329,7 +2329,7 @@
                 "time": "19:30",
                 "homeTeam": "1. FC Union Berlin",
                 "awayTeam": "1. FC Köln",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "1__fc_union_berlin",
                 "awayTeamLogo": "1__fc_koln"
             },
@@ -2338,7 +2338,7 @@
                 "time": "14:30",
                 "homeTeam": "SC Freiburg",
                 "awayTeam": "Bayern München",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "sc_freiburg",
                 "awayTeamLogo": "bayern_munchen"
             },
@@ -2347,7 +2347,7 @@
                 "time": "14:30",
                 "homeTeam": "Arminia Bielefeld",
                 "awayTeam": "VfB Stuttgart",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "arminia_bielefeld",
                 "awayTeamLogo": "vfb_stuttgart"
             },
@@ -2356,7 +2356,7 @@
                 "time": "14:30",
                 "homeTeam": "Bayer Leverkusen",
                 "awayTeam": "Hertha BSC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "bayer_leverkusen",
                 "awayTeamLogo": "hertha_bsc"
             },
@@ -2365,7 +2365,7 @@
                 "time": "14:30",
                 "homeTeam": "1899 Hoffenheim",
                 "awayTeam": "VfL Bochum",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "1899_hoffenheim",
                 "awayTeamLogo": "vfl_bochum"
             },
@@ -2374,7 +2374,7 @@
                 "time": "14:30",
                 "homeTeam": "Eintracht Frankfurt",
                 "awayTeam": "SpVgg Greuther Fürth",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "eintracht_frankfurt",
                 "awayTeamLogo": "spvgg_greuther_furth"
             },
@@ -2383,7 +2383,7 @@
                 "time": "17:30",
                 "homeTeam": "Borussia Dortmund",
                 "awayTeam": "RB Leipzig",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "borussia_dortmund",
                 "awayTeamLogo": "rb_leipzig"
             },
@@ -2392,7 +2392,7 @@
                 "time": "14:30",
                 "homeTeam": "FC Augsburg",
                 "awayTeam": "VfL Wolfsburg",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "fc_augsburg",
                 "awayTeamLogo": "vfl_wolfsburg"
             },
@@ -2401,7 +2401,7 @@
                 "time": "16:30",
                 "homeTeam": "Bor. Mönchengladbach",
                 "awayTeam": "1. FSV Mainz 05",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "bor__monchengladbach",
                 "awayTeamLogo": "1__fsv_mainz_05"
             }
@@ -2583,62 +2583,8 @@
         "round": 31,
         "matches": [
             {
-                "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "Bayern München",
-                "awayTeam": "Borussia Dortmund",
-                "score": "-:-",
-                "homeTeamLogo": "bayern_munchen",
-                "awayTeamLogo": "borussia_dortmund"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "SpVgg Greuther Fürth",
-                "awayTeam": "Bayer Leverkusen",
-                "score": "-:-",
-                "homeTeamLogo": "spvgg_greuther_furth",
-                "awayTeamLogo": "bayer_leverkusen"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "RB Leipzig",
-                "awayTeam": "1. FC Union Berlin",
-                "score": "-:-",
-                "homeTeamLogo": "rb_leipzig",
-                "awayTeamLogo": "1__fc_union_berlin"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "SC Freiburg",
-                "awayTeam": "Bor. Mönchengladbach",
-                "score": "-:-",
-                "homeTeamLogo": "sc_freiburg",
-                "awayTeamLogo": "bor__monchengladbach"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "Hertha BSC",
-                "awayTeam": "VfB Stuttgart",
-                "score": "-:-",
-                "homeTeamLogo": "hertha_bsc",
-                "awayTeamLogo": "vfb_stuttgart"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "Eintracht Frankfurt",
-                "awayTeam": "1899 Hoffenheim",
-                "score": "-:-",
-                "homeTeamLogo": "eintracht_frankfurt",
-                "awayTeamLogo": "1899_hoffenheim"
-            },
-            {
-                "date": "23/04/2022",
-                "time": "",
+                "date": "22/04/2022",
+                "time": "19:30",
                 "homeTeam": "VfL Wolfsburg",
                 "awayTeam": "1. FSV Mainz 05",
                 "score": "-:-",
@@ -2647,7 +2593,61 @@
             },
             {
                 "date": "23/04/2022",
-                "time": "",
+                "time": "14:30",
+                "homeTeam": "SpVgg Greuther Fürth",
+                "awayTeam": "Bayer Leverkusen",
+                "score": "-:-",
+                "homeTeamLogo": "spvgg_greuther_furth",
+                "awayTeamLogo": "bayer_leverkusen"
+            },
+            {
+                "date": "23/04/2022",
+                "time": "14:30",
+                "homeTeam": "RB Leipzig",
+                "awayTeam": "1. FC Union Berlin",
+                "score": "-:-",
+                "homeTeamLogo": "rb_leipzig",
+                "awayTeamLogo": "1__fc_union_berlin"
+            },
+            {
+                "date": "23/04/2022",
+                "time": "14:30",
+                "homeTeam": "SC Freiburg",
+                "awayTeam": "Bor. Mönchengladbach",
+                "score": "-:-",
+                "homeTeamLogo": "sc_freiburg",
+                "awayTeamLogo": "bor__monchengladbach"
+            },
+            {
+                "date": "23/04/2022",
+                "time": "14:30",
+                "homeTeam": "Eintracht Frankfurt",
+                "awayTeam": "1899 Hoffenheim",
+                "score": "-:-",
+                "homeTeamLogo": "eintracht_frankfurt",
+                "awayTeamLogo": "1899_hoffenheim"
+            },
+            {
+                "date": "23/04/2022",
+                "time": "14:30",
+                "homeTeam": "1. FC Köln",
+                "awayTeam": "Arminia Bielefeld",
+                "score": "-:-",
+                "homeTeamLogo": "1__fc_koln",
+                "awayTeamLogo": "arminia_bielefeld"
+            },
+            {
+                "date": "23/04/2022",
+                "time": "17:30",
+                "homeTeam": "Bayern München",
+                "awayTeam": "Borussia Dortmund",
+                "score": "-:-",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "borussia_dortmund"
+            },
+            {
+                "date": "24/04/2022",
+                "time": "14:30",
                 "homeTeam": "VfL Bochum",
                 "awayTeam": "FC Augsburg",
                 "score": "-:-",
@@ -2655,13 +2655,13 @@
                 "awayTeamLogo": "fc_augsburg"
             },
             {
-                "date": "23/04/2022",
-                "time": "",
-                "homeTeam": "1. FC Köln",
-                "awayTeam": "Arminia Bielefeld",
+                "date": "24/04/2022",
+                "time": "16:30",
+                "homeTeam": "Hertha BSC",
+                "awayTeam": "VfB Stuttgart",
                 "score": "-:-",
-                "homeTeamLogo": "1__fc_koln",
-                "awayTeamLogo": "arminia_bielefeld"
+                "homeTeamLogo": "hertha_bsc",
+                "awayTeamLogo": "vfb_stuttgart"
             }
         ]
     },
@@ -2669,8 +2669,17 @@
         "round": 32,
         "matches": [
             {
+                "date": "29/04/2022",
+                "time": "19:30",
+                "homeTeam": "1. FC Union Berlin",
+                "awayTeam": "SpVgg Greuther Fürth",
+                "score": "-:-",
+                "homeTeamLogo": "1__fc_union_berlin",
+                "awayTeamLogo": "spvgg_greuther_furth"
+            },
+            {
                 "date": "30/04/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "1. FSV Mainz 05",
                 "awayTeam": "Bayern München",
                 "score": "-:-",
@@ -2679,16 +2688,7 @@
             },
             {
                 "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Bor. Mönchengladbach",
-                "awayTeam": "RB Leipzig",
-                "score": "-:-",
-                "homeTeamLogo": "bor__monchengladbach",
-                "awayTeamLogo": "rb_leipzig"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "VfB Stuttgart",
                 "awayTeam": "VfL Wolfsburg",
                 "score": "-:-",
@@ -2697,25 +2697,7 @@
             },
             {
                 "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "Bayer Leverkusen",
-                "awayTeam": "Eintracht Frankfurt",
-                "score": "-:-",
-                "homeTeamLogo": "bayer_leverkusen",
-                "awayTeamLogo": "eintracht_frankfurt"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "1899 Hoffenheim",
-                "awayTeam": "SC Freiburg",
-                "score": "-:-",
-                "homeTeamLogo": "1899_hoffenheim",
-                "awayTeamLogo": "sc_freiburg"
-            },
-            {
-                "date": "30/04/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "Arminia Bielefeld",
                 "awayTeam": "Hertha BSC",
                 "score": "-:-",
@@ -2724,7 +2706,7 @@
             },
             {
                 "date": "30/04/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "FC Augsburg",
                 "awayTeam": "1. FC Köln",
                 "score": "-:-",
@@ -2733,7 +2715,7 @@
             },
             {
                 "date": "30/04/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "Borussia Dortmund",
                 "awayTeam": "VfL Bochum",
                 "score": "-:-",
@@ -2742,12 +2724,30 @@
             },
             {
                 "date": "30/04/2022",
-                "time": "",
-                "homeTeam": "1. FC Union Berlin",
-                "awayTeam": "SpVgg Greuther Fürth",
+                "time": "17:30",
+                "homeTeam": "1899 Hoffenheim",
+                "awayTeam": "SC Freiburg",
                 "score": "-:-",
-                "homeTeamLogo": "1__fc_union_berlin",
-                "awayTeamLogo": "spvgg_greuther_furth"
+                "homeTeamLogo": "1899_hoffenheim",
+                "awayTeamLogo": "sc_freiburg"
+            },
+            {
+                "date": "02/05/2022",
+                "time": "19:30",
+                "homeTeam": "Bor. Mönchengladbach",
+                "awayTeam": "RB Leipzig",
+                "score": "-:-",
+                "homeTeamLogo": "bor__monchengladbach",
+                "awayTeamLogo": "rb_leipzig"
+            },
+            {
+                "date": "02/05/2022",
+                "time": "19:30",
+                "homeTeam": "Bayer Leverkusen",
+                "awayTeam": "Eintracht Frankfurt",
+                "score": "-:-",
+                "homeTeamLogo": "bayer_leverkusen",
+                "awayTeamLogo": "eintracht_frankfurt"
             }
         ]
     },
@@ -2755,8 +2755,17 @@
         "round": 33,
         "matches": [
             {
+                "date": "06/05/2022",
+                "time": "19:30",
+                "homeTeam": "VfL Bochum",
+                "awayTeam": "Arminia Bielefeld",
+                "score": "-:-",
+                "homeTeamLogo": "vfl_bochum",
+                "awayTeamLogo": "arminia_bielefeld"
+            },
+            {
                 "date": "07/05/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "SpVgg Greuther Fürth",
                 "awayTeam": "Borussia Dortmund",
                 "score": "-:-",
@@ -2765,7 +2774,7 @@
             },
             {
                 "date": "07/05/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "1. FC Köln",
                 "awayTeam": "VfL Wolfsburg",
                 "score": "-:-",
@@ -2774,7 +2783,7 @@
             },
             {
                 "date": "07/05/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "1899 Hoffenheim",
                 "awayTeam": "Bayer Leverkusen",
                 "score": "-:-",
@@ -2783,7 +2792,7 @@
             },
             {
                 "date": "07/05/2022",
-                "time": "",
+                "time": "14:30",
                 "homeTeam": "SC Freiburg",
                 "awayTeam": "1. FC Union Berlin",
                 "score": "-:-",
@@ -2792,25 +2801,7 @@
             },
             {
                 "date": "07/05/2022",
-                "time": "",
-                "homeTeam": "Eintracht Frankfurt",
-                "awayTeam": "Bor. Mönchengladbach",
-                "score": "-:-",
-                "homeTeamLogo": "eintracht_frankfurt",
-                "awayTeamLogo": "bor__monchengladbach"
-            },
-            {
-                "date": "07/05/2022",
-                "time": "",
-                "homeTeam": "Bayern München",
-                "awayTeam": "VfB Stuttgart",
-                "score": "-:-",
-                "homeTeamLogo": "bayern_munchen",
-                "awayTeamLogo": "vfb_stuttgart"
-            },
-            {
-                "date": "07/05/2022",
-                "time": "",
+                "time": "17:30",
                 "homeTeam": "Hertha BSC",
                 "awayTeam": "1. FSV Mainz 05",
                 "score": "-:-",
@@ -2818,22 +2809,31 @@
                 "awayTeamLogo": "1__fsv_mainz_05"
             },
             {
-                "date": "07/05/2022",
-                "time": "",
+                "date": "08/05/2022",
+                "time": "14:30",
+                "homeTeam": "Eintracht Frankfurt",
+                "awayTeam": "Bor. Mönchengladbach",
+                "score": "-:-",
+                "homeTeamLogo": "eintracht_frankfurt",
+                "awayTeamLogo": "bor__monchengladbach"
+            },
+            {
+                "date": "08/05/2022",
+                "time": "16:30",
+                "homeTeam": "Bayern München",
+                "awayTeam": "VfB Stuttgart",
+                "score": "-:-",
+                "homeTeamLogo": "bayern_munchen",
+                "awayTeamLogo": "vfb_stuttgart"
+            },
+            {
+                "date": "08/05/2022",
+                "time": "18:30",
                 "homeTeam": "RB Leipzig",
                 "awayTeam": "FC Augsburg",
                 "score": "-:-",
                 "homeTeamLogo": "rb_leipzig",
                 "awayTeamLogo": "fc_augsburg"
-            },
-            {
-                "date": "07/05/2022",
-                "time": "",
-                "homeTeam": "VfL Bochum",
-                "awayTeam": "Arminia Bielefeld",
-                "score": "-:-",
-                "homeTeamLogo": "vfl_bochum",
-                "awayTeamLogo": "arminia_bielefeld"
             }
         ]
     },
