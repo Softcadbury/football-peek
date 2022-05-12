@@ -4,12 +4,39 @@
         "name": "Domenico Berardi",
         "country": "Italy",
         "team": "Sassuolo Calcio",
-        "assists": "10",
+        "assists": "12",
         "flag": "italy",
         "logo": "sassuolo_calcio"
     },
     {
         "rank": "2.",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "Inter",
+        "assists": "11",
+        "flag": "turkey",
+        "logo": "inter"
+    },
+    {
+        "rank": "3.",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "assists": "10",
+        "flag": "spain",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Sergej Milinković-Savić",
+        "country": "Serbia",
+        "team": "Lazio Roma",
+        "assists": "10",
+        "flag": "serbia",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "5.",
         "name": "Nicolò Barella",
         "country": "Italy",
         "team": "Inter",
@@ -18,16 +45,7 @@
         "logo": "inter"
     },
     {
-        "rank": "3.",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Inter",
-        "assists": "8",
-        "flag": "turkey",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
+        "rank": "6.",
         "name": "Antonio Candreva",
         "country": "Italy",
         "team": "Sampdoria",
@@ -37,24 +55,33 @@
     },
     {
         "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
         "assists": "8",
-        "flag": "spain",
-        "logo": "lazio_roma"
+        "flag": "italy",
+        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
-        "name": "Sergej Milinković-Savić",
-        "country": "Serbia",
-        "team": "Lazio Roma",
+        "name": "Luis Muriel",
+        "country": "Colombia",
+        "team": "Atalanta",
         "assists": "8",
-        "flag": "serbia",
-        "logo": "lazio_roma"
+        "flag": "colombia",
+        "logo": "atalanta"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Jordan Veretout",
+        "country": "France",
+        "team": "AS Roma",
+        "assists": "8",
+        "flag": "france",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "10.",
         "name": "Gianluca Caprari",
         "country": "Italy",
         "team": "Hellas Verona",
@@ -73,21 +100,48 @@
     },
     {
         "rank": "-",
-        "name": "Jordan Veretout",
-        "country": "France",
-        "team": "AS Roma",
+        "name": " Rafael Leão",
+        "country": "Portugal",
+        "team": "AC Milan",
         "assists": "7",
-        "flag": "france",
-        "logo": "as_roma"
+        "flag": "portugal",
+        "logo": "ac_milan"
     },
     {
-        "rank": "10.",
-        "name": "Lorenzo Insigne",
-        "country": "Italy",
-        "team": "SSC Napoli",
+        "rank": "13.",
+        "name": "Musa Barrow",
+        "country": "Gambia",
+        "team": "Bologna FC",
         "assists": "6",
-        "flag": "italy",
-        "logo": "ssc_napoli"
+        "flag": "gambia",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "bosnia_herzegovina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Nicolás González",
+        "country": "Argentina",
+        "team": "ACF Fiorentina",
+        "assists": "6",
+        "flag": "argentina",
+        "logo": "acf_fiorentina"
+    },
+    {
+        "rank": "-",
+        "name": "Henrikh Mkhitaryan",
+        "country": "Armenia",
+        "team": "AS Roma",
+        "assists": "6",
+        "flag": "armenia",
+        "logo": "as_roma"
     },
     {
         "rank": "-",
@@ -99,16 +153,16 @@
         "logo": "atalanta"
     },
     {
-        "rank": "12.",
-        "name": "Denzel Dumfries",
-        "country": "Netherlands",
-        "team": "Inter",
-        "assists": "5",
-        "flag": "netherlands",
-        "logo": "inter"
+        "rank": "-",
+        "name": "Isaac Success",
+        "country": "Nigeria",
+        "team": "Udinese Calcio",
+        "assists": "6",
+        "flag": "nigeria",
+        "logo": "udinese_calcio"
     },
     {
-        "rank": "-",
+        "rank": "19.",
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "Juventus",
@@ -118,65 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "Inter",
-        "assists": "5",
-        "flag": "bosnia_herzegovina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
         "name": "Eljif Elmas",
         "country": "North Macedonia",
         "team": "SSC Napoli",
         "assists": "5",
         "flag": "north_macedonia",
         "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Davide Faraoni",
-        "country": "Italy",
-        "team": "Hellas Verona",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Nicolás González",
-        "country": "Argentina",
-        "team": "ACF Fiorentina",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Theo Hernández",
-        "country": "France",
-        "team": "AC Milan",
-        "assists": "5",
-        "flag": "france",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Henrikh Mkhitaryan",
-        "country": "Armenia",
-        "team": "AS Roma",
-        "assists": "5",
-        "flag": "armenia",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Roberto Pereyra",
-        "country": "Argentina",
-        "team": "Udinese Calcio",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "udinese_calcio"
     }
 ]

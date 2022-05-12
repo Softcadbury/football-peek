@@ -1,5 +1,51 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "18/05/2022",
+                "time1": "20:00",
+                "team1": "Eintracht Frankfurt",
+                "team2": "Rangers FC",
+                "score1": "-:-",
+                "winner": "",
+                "team1Logo": "eintracht_frankfurt",
+                "team2Logo": "rangers_fc"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "date1": "28/04/2022",
+                "date2": "05/05/2022",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "RB Leipzig",
+                "team2": "Rangers FC",
+                "score1": "1:0",
+                "score2": "1:3",
+                "winner": "Rangers FC",
+                "team1Logo": "rb_leipzig",
+                "team2Logo": "rangers_fc"
+            },
+            {
+                "date1": "28/04/2022",
+                "date2": "05/05/2022",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "West Ham United",
+                "team2": "Eintracht Frankfurt",
+                "score1": "1:2",
+                "score2": "0:1",
+                "winner": "Eintracht Frankfurt",
+                "team1Logo": "west_ham_united",
+                "team2Logo": "eintracht_frankfurt"
+            }
+        ]
+    },
+    {
         "name": "Quarter-finals",
         "matches": [
             {
@@ -9,9 +55,9 @@
                 "time2": "17:45",
                 "team1": "RB Leipzig",
                 "team2": "Atalanta",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:1",
+                "score2": "2:0",
+                "winner": "RB Leipzig",
                 "team1Logo": "rb_leipzig",
                 "team2Logo": "atalanta"
             },
@@ -22,9 +68,9 @@
                 "time2": "20:00",
                 "team1": "Eintracht Frankfurt",
                 "team2": "FC Barcelona",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:1",
+                "score2": "3:2",
+                "winner": "Eintracht Frankfurt",
                 "team1Logo": "eintracht_frankfurt",
                 "team2Logo": "fc_barcelona"
             },
@@ -35,9 +81,9 @@
                 "time2": "20:00",
                 "team1": "West Ham United",
                 "team2": "Olympique Lyon",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:1",
+                "score2": "3:0",
+                "winner": "West Ham United",
                 "team1Logo": "west_ham_united",
                 "team2Logo": "olympique_lyon"
             },
@@ -48,9 +94,9 @@
                 "time2": "20:00",
                 "team1": "Sporting Braga",
                 "team2": "Rangers FC",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:0",
+                "score2": "1:3",
+                "winner": "Rangers FC",
                 "team1Logo": "sporting_braga",
                 "team2Logo": "rangers_fc"
             }

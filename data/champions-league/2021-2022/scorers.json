@@ -1,15 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "15",
+        "flag": "france",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "2.",
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "12",
+        "goals": "13",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": "Sébastien Haller",
         "country": "Ivory Coast",
         "team": "AFC Ajax",
@@ -18,16 +27,7 @@
         "logo": "afc_ajax"
     },
     {
-        "rank": "3.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "8",
-        "flag": "france",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Mo Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": "Riyad Mahrez",
+        "country": "Algeria",
+        "team": "Manchester City",
+        "goals": "7",
+        "flag": "algeria",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Christopher Nkunku",
         "country": "France",
         "team": "RB Leipzig",
@@ -45,7 +54,7 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": " Cristiano Ronaldo",
         "country": "Portugal",
         "team": "Manchester United",
@@ -55,12 +64,12 @@
     },
     {
         "rank": "-",
-        "name": "Riyad Mahrez",
-        "country": "Algeria",
-        "team": "Manchester City",
+        "name": "Arnaut Danjuma",
+        "country": "Netherlands",
+        "team": "Villarreal CF",
         "goals": "6",
-        "flag": "algeria",
-        "logo": "manchester_city"
+        "flag": "netherlands",
+        "logo": "villarreal_cf"
     },
     {
         "rank": "-",
@@ -73,6 +82,15 @@
     },
     {
         "rank": "-",
+        "name": "Darwin Núñez",
+        "country": "Uruguay",
+        "team": "SL Benfica",
+        "goals": "6",
+        "flag": "uruguay",
+        "logo": "sl_benfica"
+    },
+    {
+        "rank": "-",
         "name": "Leroy Sané",
         "country": "Germany",
         "team": "Bayern München",
@@ -81,13 +99,13 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "10.",
-        "name": "Arnaut Danjuma",
-        "country": "Netherlands",
-        "team": "Villarreal CF",
+        "rank": "12.",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
         "goals": "5",
-        "flag": "netherlands",
-        "logo": "villarreal_cf"
+        "flag": "senegal",
+        "logo": "liverpool_fc"
     },
     {
         "rank": "-",
@@ -100,15 +118,42 @@
     },
     {
         "rank": "-",
-        "name": "Darwin Núñez",
-        "country": "Uruguay",
-        "team": "SL Benfica",
+        "name": " Roberto Firmino",
+        "country": "Brazil",
+        "team": "Liverpool FC",
         "goals": "5",
-        "flag": "uruguay",
-        "logo": "sl_benfica"
+        "flag": "brazil",
+        "logo": "liverpool_fc"
     },
     {
-        "rank": "13.",
+        "rank": "-",
+        "name": " Rodrygo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "16.",
+        "name": "Luis Díaz",
+        "country": "Colombia",
+        "team": "Liverpool FC",
+        "goals": "4",
+        "flag": "colombia",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Manchester City",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
@@ -133,50 +178,5 @@
         "goals": "4",
         "flag": "portugal",
         "logo": "sporting_cp"
-    },
-    {
-        "rank": "16.",
-        "name": "Karim Adeyemi",
-        "country": "Germany",
-        "team": "RB Salzburg",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "rb_salzburg"
-    },
-    {
-        "rank": "-",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "RB Leipzig",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Steven Berghuis",
-        "country": "Netherlands",
-        "team": "AFC Ajax",
-        "goals": "3",
-        "flag": "netherlands",
-        "logo": "afc_ajax"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan David",
-        "country": "Canada",
-        "team": "Lille OSC",
-        "goals": "3",
-        "flag": "canada",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Díaz",
-        "country": "Colombia",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "colombia",
-        "logo": "liverpool_fc"
     }
 ]

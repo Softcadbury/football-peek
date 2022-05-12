@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "4",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": " Ricardo Horta",
         "country": "Portugal",
         "team": "Sporting Braga",
@@ -18,7 +27,25 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
+        "name": "Joe Aribo",
+        "country": "Nigeria",
+        "team": "Rangers FC",
+        "assists": "3",
+        "flag": "nigeria",
+        "logo": "rangers_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Rafael Borré",
+        "country": "Colombia",
+        "team": "Eintracht Frankfurt",
+        "assists": "3",
+        "flag": "colombia",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
         "name": " Canales",
         "country": "Spain",
         "team": "Real Betis",
@@ -64,12 +91,21 @@
     },
     {
         "rank": "-",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
+        "name": " Iuri Medeiros",
+        "country": "Portugal",
+        "team": "Sporting Braga",
         "assists": "3",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
+        "flag": "portugal",
+        "logo": "sporting_braga"
+    },
+    {
+        "rank": "-",
+        "name": "Ryan Kent",
+        "country": "England",
+        "team": "Rangers FC",
+        "assists": "3",
+        "flag": "england",
+        "logo": "rangers_fc"
     },
     {
         "rank": "-",
@@ -82,6 +118,15 @@
     },
     {
         "rank": "-",
+        "name": " Pablo Fornals",
+        "country": "Spain",
+        "team": "West Ham United",
+        "assists": "3",
+        "flag": "spain",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
         "name": "Andrea Petagna",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -90,7 +135,7 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "11.",
+        "rank": "16.",
         "name": "Liel Abada",
         "country": "Israel",
         "team": "Celtic FC",
@@ -118,65 +163,20 @@
     },
     {
         "rank": "-",
+        "name": " Angeliño",
+        "country": "Spain",
+        "team": "RB Leipzig",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Michail Antonio",
         "country": "Jamaica",
         "team": "West Ham United",
         "assists": "2",
         "flag": "jamaica",
         "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": "Harvey Barnes",
-        "country": "England",
-        "team": "Leicester City",
-        "assists": "2",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Jude Bellingham",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "assists": "2",
-        "flag": "england",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Manuel Benson",
-        "country": "Belgium",
-        "team": "Royal Antwerp FC",
-        "assists": "2",
-        "flag": "belgium",
-        "logo": "royal_antwerp_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Rafael Borré",
-        "country": "Colombia",
-        "team": "Eintracht Frankfurt",
-        "assists": "2",
-        "flag": "colombia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Guimarães",
-        "country": "Brazil",
-        "team": "Olympique Lyon",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "-",
-        "name": " Caio Henrique",
-        "country": "Brazil",
-        "team": "AS Monaco",
-        "assists": "2",
-        "flag": "brazil",
-        "logo": "as_monaco"
     }
 ]
