@@ -4,16 +4,16 @@
         "name": "Mo Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
-        "goals": "22",
+        "goals": "23",
         "flag": "egypt",
         "logo": "liverpool_fc"
     },
     {
-        "rank": "2.",
+        "rank": "-",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
-        "goals": "20",
+        "goals": "23",
         "flag": "south_korea",
         "logo": "tottenham_hotspur"
     },
@@ -28,6 +28,24 @@
     },
     {
         "rank": "4.",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "17",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "5.",
+        "name": "Sadio Mané",
+        "country": "Senegal",
+        "team": "Liverpool FC",
+        "goals": "16",
+        "flag": "senegal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "6.",
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
@@ -46,24 +64,24 @@
     },
     {
         "rank": "-",
-        "name": "Sadio Mané",
-        "country": "Senegal",
-        "team": "Liverpool FC",
-        "goals": "15",
-        "flag": "senegal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "7.",
-        "name": "Harry Kane",
+        "name": "Jamie Vardy",
         "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "13",
+        "team": "Leicester City",
+        "goals": "15",
         "flag": "england",
-        "logo": "tottenham_hotspur"
+        "logo": "leicester_city"
     },
     {
-        "rank": "-",
+        "rank": "9.",
+        "name": "Wilfried Zaha",
+        "country": "Ivory Coast",
+        "team": "Crystal Palace",
+        "goals": "14",
+        "flag": "ivory_coast",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "10.",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Manchester City",
@@ -72,16 +90,25 @@
         "logo": "manchester_city"
     },
     {
-        "rank": "-",
-        "name": "Wilfried Zaha",
-        "country": "Ivory Coast",
-        "team": "Crystal Palace",
-        "goals": "13",
-        "flag": "ivory_coast",
-        "logo": "crystal_palace"
+        "rank": "11.",
+        "name": "Jarrod Bowen",
+        "country": "England",
+        "team": "West Ham United",
+        "goals": "12",
+        "flag": "england",
+        "logo": "west_ham_united"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "James Maddison",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "12",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
         "name": "Ivan Toney",
         "country": "England",
         "team": "Brentford FC",
@@ -90,16 +117,7 @@
         "logo": "brentford_fc"
     },
     {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "12",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "12.",
+        "rank": "14.",
         "name": "Riyad Mahrez",
         "country": "Algeria",
         "team": "Manchester City",
@@ -118,46 +136,10 @@
     },
     {
         "rank": "-",
-        "name": "Bukayo Saka",
-        "country": "England",
-        "team": "Arsenal FC",
-        "goals": "11",
-        "flag": "england",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "15.",
-        "name": "Jarrod Bowen",
-        "country": "England",
-        "team": "West Ham United",
-        "goals": "10",
-        "flag": "england",
-        "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Manchester United",
-        "goals": "10",
-        "flag": "portugal",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Emmanuel Dennis",
-        "country": "Nigeria",
-        "team": "Watford FC",
-        "goals": "10",
-        "flag": "nigeria",
-        "logo": "watford_fc"
-    },
-    {
-        "rank": "-",
         "name": "Teemu Pukki",
         "country": "Finland",
         "team": "Norwich City",
-        "goals": "10",
+        "goals": "11",
         "flag": "finland",
         "logo": "norwich_city"
     },
@@ -166,17 +148,35 @@
         "name": " Raphinha",
         "country": "Brazil",
         "team": "Leeds United",
-        "goals": "10",
+        "goals": "11",
         "flag": "brazil",
         "logo": "leeds_united"
     },
     {
         "rank": "-",
-        "name": "Emile Smith Rowe",
+        "name": "Bukayo Saka",
         "country": "England",
         "team": "Arsenal FC",
-        "goals": "10",
+        "goals": "11",
         "flag": "england",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Ollie Watkins",
+        "country": "England",
+        "team": "Aston Villa",
+        "goals": "11",
+        "flag": "england",
+        "logo": "aston_villa"
+    },
+    {
+        "rank": "20.",
+        "name": "Michail Antonio",
+        "country": "Jamaica",
+        "team": "West Ham United",
+        "goals": "10",
+        "flag": "jamaica",
+        "logo": "west_ham_united"
     }
 ]

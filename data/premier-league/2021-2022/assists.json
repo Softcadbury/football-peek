@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": "Harvey Barnes",
+        "country": "England",
+        "team": "Leicester City",
+        "assists": "10",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
         "name": "Jarrod Bowen",
         "country": "England",
         "team": "West Ham United",
@@ -45,7 +54,25 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
+        "name": "Reece James",
+        "country": "England",
+        "team": "Chelsea FC",
+        "assists": "9",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "assists": "9",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Paul Pogba",
         "country": "France",
         "team": "Manchester United",
@@ -54,13 +81,22 @@
         "logo": "manchester_united"
     },
     {
-        "rank": "7.",
-        "name": "Harvey Barnes",
-        "country": "England",
-        "team": "Leicester City",
+        "rank": "10.",
+        "name": "Michail Antonio",
+        "country": "Jamaica",
+        "team": "West Ham United",
         "assists": "8",
-        "flag": "england",
-        "logo": "leicester_city"
+        "flag": "jamaica",
+        "logo": "west_ham_united"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "assists": "8",
+        "flag": "belgium",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
@@ -73,15 +109,6 @@
     },
     {
         "rank": "-",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "assists": "8",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
         "name": "Dejan Kulusevski",
         "country": "Sweden",
         "team": "Tottenham Hotspur",
@@ -90,34 +117,16 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "11.",
-        "name": "Michail Antonio",
-        "country": "Jamaica",
-        "team": "West Ham United",
-        "assists": "7",
-        "flag": "jamaica",
-        "logo": "west_ham_united"
-    },
-    {
         "rank": "-",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
-        "assists": "7",
-        "flag": "belgium",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Reece James",
+        "name": "James Maddison",
         "country": "England",
-        "team": "Chelsea FC",
-        "assists": "7",
+        "team": "Leicester City",
+        "assists": "8",
         "flag": "england",
-        "logo": "chelsea_fc"
+        "logo": "leicester_city"
     },
     {
-        "rank": "-",
+        "rank": "15.",
         "name": " João Cancelo",
         "country": "Portugal",
         "team": "Manchester City",
@@ -145,6 +154,15 @@
     },
     {
         "rank": "-",
+        "name": "Bukayo Saka",
+        "country": "England",
+        "team": "Arsenal FC",
+        "assists": "7",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Heung-min Son",
         "country": "South Korea",
         "team": "Tottenham Hotspur",
@@ -153,30 +171,12 @@
         "logo": "tottenham_hotspur"
     },
     {
-        "rank": "18.",
+        "rank": "20.",
         "name": "Saïd Benrahma",
         "country": "Algeria",
         "team": "West Ham United",
         "assists": "6",
         "flag": "algeria",
         "logo": "west_ham_united"
-    },
-    {
-        "rank": "-",
-        "name": " Bruno Fernandes",
-        "country": "Portugal",
-        "team": "Manchester United",
-        "assists": "6",
-        "flag": "portugal",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Emiliano Buendia",
-        "country": "Argentina",
-        "team": "Aston Villa",
-        "assists": "6",
-        "flag": "argentina",
-        "logo": "aston_villa"
     }
 ]

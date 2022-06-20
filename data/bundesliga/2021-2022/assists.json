@@ -4,7 +4,7 @@
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "17",
+        "assists": "18",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
@@ -46,21 +46,21 @@
     },
     {
         "rank": "6.",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "11",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Florian Wirtz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
         "assists": "11",
         "flag": "germany",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "7.",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "10",
-        "flag": "germany",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "8.",
@@ -91,6 +91,15 @@
     },
     {
         "rank": "11.",
+        "name": "Jude Bellingham",
+        "country": "England",
+        "team": "Borussia Dortmund",
+        "assists": "8",
+        "flag": "england",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -136,6 +145,15 @@
     },
     {
         "rank": "-",
+        "name": "Dominik Szoboszlai",
+        "country": "Hungary",
+        "team": "RB Leipzig",
+        "assists": "8",
+        "flag": "hungary",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Mark Uth",
         "country": "Germany",
         "team": "1. FC Köln",
@@ -144,39 +162,21 @@
         "logo": "1__fc_koln"
     },
     {
-        "rank": "17.",
-        "name": "Jude Bellingham",
-        "country": "England",
-        "team": "Borussia Dortmund",
-        "assists": "7",
-        "flag": "england",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
+        "rank": "19.",
+        "name": "Max Kruse",
         "country": "Germany",
-        "team": "Bayern München",
+        "team": "VfL Wolfsburg",
         "assists": "7",
         "flag": "germany",
-        "logo": "bayern_munchen"
+        "logo": "vfl_wolfsburg"
     },
     {
         "rank": "-",
-        "name": "Dominik Szoboszlai",
-        "country": "Hungary",
-        "team": "RB Leipzig",
+        "name": "Arne Maier",
+        "country": "Germany",
+        "team": "FC Augsburg",
         "assists": "7",
-        "flag": "hungary",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Wimmer",
-        "country": "Austria",
-        "team": "Arminia Bielefeld",
-        "assists": "7",
-        "flag": "austria",
-        "logo": "arminia_bielefeld"
+        "flag": "germany",
+        "logo": "fc_augsburg"
     }
 ]

@@ -13,7 +13,7 @@
         "name": "Dušan Vlahović",
         "country": "Serbia",
         "team": "Juventus",
-        "goals": "23",
+        "goals": "24",
         "flag": "serbia",
         "logo": "juventus"
     },
@@ -22,30 +22,48 @@
         "name": "Lautaro Martínez",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "19",
+        "goals": "21",
         "flag": "argentina",
         "logo": "inter"
     },
     {
         "rank": "4.",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "Hellas Verona",
-        "goals": "16",
-        "flag": "argentina",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "5.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "AS Roma",
-        "goals": "15",
+        "goals": "17",
         "flag": "england",
         "logo": "as_roma"
     },
     {
+        "rank": "-",
+        "name": "Giovanni Simeone",
+        "country": "Argentina",
+        "team": "Hellas Verona",
+        "goals": "17",
+        "flag": "argentina",
+        "logo": "hellas_verona"
+    },
+    {
         "rank": "6.",
+        "name": "Gianluca Scamacca",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "16",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "7.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "15",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "8.",
         "name": "Marko Arnautović",
         "country": "Austria",
         "team": "Bologna FC",
@@ -55,24 +73,15 @@
     },
     {
         "rank": "-",
-        "name": "Domenico Berardi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
+        "name": "Victor Osimhen",
+        "country": "Nigeria",
+        "team": "SSC Napoli",
         "goals": "14",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
+        "flag": "nigeria",
+        "logo": "ssc_napoli"
     },
     {
-        "rank": "-",
-        "name": "Gianluca Scamacca",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "14",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "Inter",
@@ -82,21 +91,21 @@
     },
     {
         "rank": "-",
+        "name": " Gerard Deulofeu",
+        "country": "Spain",
+        "team": "Udinese Calcio",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
         "name": " João Pedro",
         "country": "Brazil",
         "team": "Cagliari Calcio",
         "goals": "13",
         "flag": "brazil",
         "logo": "cagliari_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Victor Osimhen",
-        "country": "Nigeria",
-        "team": "SSC Napoli",
-        "goals": "13",
-        "flag": "nigeria",
-        "logo": "ssc_napoli"
     },
     {
         "rank": "-",
@@ -117,22 +126,13 @@
         "logo": "inter"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Gianluca Caprari",
         "country": "Italy",
         "team": "Hellas Verona",
         "goals": "12",
         "flag": "italy",
         "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard Deulofeu",
-        "country": "Spain",
-        "team": "Udinese Calcio",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "udinese_calcio"
     },
     {
         "rank": "16.",
@@ -163,20 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Dries Mertens",
-        "country": "Belgium",
-        "team": "SSC Napoli",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "AC Milan",
         "goals": "11",
-        "flag": "belgium",
-        "logo": "ssc_napoli"
+        "flag": "france",
+        "logo": "ac_milan"
     },
     {
-        "rank": "20.",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
-        "goals": "10",
-        "flag": "argentina",
-        "logo": "juventus"
+        "rank": "-",
+        "name": "Lorenzo Insigne",
+        "country": "Italy",
+        "team": "SSC Napoli",
+        "goals": "11",
+        "flag": "italy",
+        "logo": "ssc_napoli"
     }
 ]

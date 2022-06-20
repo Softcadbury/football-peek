@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "34",
+        "goals": "35",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -22,12 +22,21 @@
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Borussia Dortmund",
-        "goals": "21",
+        "goals": "22",
         "flag": "norway",
         "logo": "borussia_dortmund"
     },
     {
         "rank": "4.",
+        "name": "Anthony Modeste",
+        "country": "France",
+        "team": "1. FC Köln",
+        "goals": "20",
+        "flag": "france",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "-",
         "name": "Christopher Nkunku",
         "country": "France",
         "team": "RB Leipzig",
@@ -36,16 +45,16 @@
         "logo": "rb_leipzig"
     },
     {
-        "rank": "5.",
-        "name": "Anthony Modeste",
-        "country": "France",
-        "team": "1. FC Köln",
-        "goals": "19",
-        "flag": "france",
-        "logo": "1__fc_koln"
+        "rank": "6.",
+        "name": "Taiwo Awoniyi",
+        "country": "Nigeria",
+        "team": "1. FC Union Berlin",
+        "goals": "15",
+        "flag": "nigeria",
+        "logo": "1__fc_union_berlin"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Bayern München",
@@ -54,16 +63,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "7.",
-        "name": "Taiwo Awoniyi",
-        "country": "Nigeria",
-        "team": "1. FC Union Berlin",
-        "goals": "13",
-        "flag": "nigeria",
-        "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
+        "rank": "8.",
         "name": "Moussa Diaby",
         "country": "France",
         "team": "Bayer Leverkusen",
@@ -73,6 +73,24 @@
     },
     {
         "rank": "9.",
+        "name": "Jonas Hofmann",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "goals": "12",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "12",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "11.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "RB Leipzig",
@@ -90,21 +108,12 @@
         "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "-",
-        "name": "Max Kruse",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "11",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "12.",
-        "name": "Jonas Hofmann",
-        "country": "Germany",
+        "rank": "13.",
+        "name": "Alassane Pléa",
+        "country": "France",
         "team": "Bor. Mönchengladbach",
         "goals": "10",
-        "flag": "germany",
+        "flag": "france",
         "logo": "bor__monchengladbach"
     },
     {
@@ -117,13 +126,31 @@
         "logo": "vfl_bochum"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "goals": "9",
         "flag": "germany",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Breel Embolo",
+        "country": "Switzerland",
+        "team": "Bor. Mönchengladbach",
+        "goals": "9",
+        "flag": "switzerland",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
+        "team": "FC Augsburg",
+        "goals": "9",
+        "flag": "austria",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
@@ -145,38 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
-        "goals": "9",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
         "name": "Marco Reus",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "goals": "9",
         "flag": "germany",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "19.",
-        "name": "Breel Embolo",
-        "country": "Switzerland",
-        "team": "Bor. Mönchengladbach",
-        "goals": "8",
-        "flag": "switzerland",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "FC Augsburg",
-        "goals": "8",
-        "flag": "austria",
-        "logo": "fc_augsburg"
     }
 ]

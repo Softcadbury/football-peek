@@ -4,7 +4,7 @@
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
-        "goals": "24",
+        "goals": "28",
         "flag": "france",
         "logo": "paris_saint_germain"
     },
@@ -13,9 +13,18 @@
         "name": "Wissam Ben Yedder",
         "country": "France",
         "team": "AS Monaco",
-        "goals": "21",
+        "goals": "25",
         "flag": "france",
         "logo": "as_monaco"
+    },
+    {
+        "rank": "3.",
+        "name": "Moussa Dembélé",
+        "country": "France",
+        "team": "Olympique Lyon",
+        "goals": "21",
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
@@ -27,22 +36,22 @@
         "logo": "stade_rennes"
     },
     {
-        "rank": "4.",
-        "name": "Moussa Dembélé",
-        "country": "France",
-        "team": "Olympique Lyon",
-        "goals": "19",
-        "flag": "france",
-        "logo": "olympique_lyon"
-    },
-    {
         "rank": "5.",
         "name": "Andy Delort",
         "country": "Algeria",
         "team": "OGC Nice",
-        "goals": "15",
+        "goals": "18",
         "flag": "algeria",
         "logo": "ogc_nice"
+    },
+    {
+        "rank": "6.",
+        "name": "Jonathan David",
+        "country": "Canada",
+        "team": "Lille OSC",
+        "goals": "15",
+        "flag": "canada",
+        "logo": "lille_osc"
     },
     {
         "rank": "-",
@@ -54,25 +63,25 @@
         "logo": "stade_rennes"
     },
     {
-        "rank": "7.",
+        "rank": "8.",
         "name": "Mohamed Bayo",
         "country": "Guinea",
         "team": "Clermont Foot",
-        "goals": "13",
+        "goals": "14",
         "flag": "guinea",
         "logo": "clermont_foot"
     },
     {
-        "rank": "-",
-        "name": "Jonathan David",
-        "country": "Canada",
-        "team": "Lille OSC",
+        "rank": "9.",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
         "goals": "13",
-        "flag": "canada",
-        "logo": "lille_osc"
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
     },
     {
-        "rank": "9.",
+        "rank": "10.",
         "name": "Ludovic Ajorque",
         "country": "France",
         "team": "RC Strasbourg",
@@ -82,21 +91,21 @@
     },
     {
         "rank": "-",
+        "name": "Arnaud Kalimuendo",
+        "country": "France",
+        "team": "RC Lens",
+        "goals": "12",
+        "flag": "france",
+        "logo": "rc_lens"
+    },
+    {
+        "rank": "-",
         "name": "Randal Kolo Muani",
         "country": "Congo DR",
         "team": "FC Nantes",
         "goals": "12",
         "flag": "congo_dr",
         "logo": "fc_nantes"
-    },
-    {
-        "rank": "-",
-        "name": " Neymar",
-        "country": "Brazil",
-        "team": "Paris Saint-Germain",
-        "goals": "12",
-        "flag": "brazil",
-        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
@@ -117,7 +126,16 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
+        "name": "Benjamin Bourigeaud",
+        "country": "France",
+        "team": "Stade Rennes",
+        "goals": "11",
+        "flag": "france",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
         "name": "Habib Diallo",
         "country": "Senegal",
         "team": "RC Strasbourg",
@@ -153,30 +171,12 @@
         "logo": "girondins_bordeaux"
     },
     {
-        "rank": "-",
-        "name": "Arnaud Kalimuendo",
+        "rank": "20.",
+        "name": "Ludovic Blas",
         "country": "France",
-        "team": "RC Lens",
-        "goals": "11",
-        "flag": "france",
-        "logo": "rc_lens"
-    },
-    {
-        "rank": "19.",
-        "name": "Romain Faivre",
-        "country": "France",
-        "team": "Stade Brest",
+        "team": "FC Nantes",
         "goals": "10",
         "flag": "france",
-        "logo": "stade_brest"
-    },
-    {
-        "rank": "-",
-        "name": "Amine Gouiri",
-        "country": "France",
-        "team": "OGC Nice",
-        "goals": "10",
-        "flag": "france",
-        "logo": "ogc_nice"
+        "logo": "fc_nantes"
     }
 ]

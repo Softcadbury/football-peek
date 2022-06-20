@@ -13,12 +13,30 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "assists": "11",
+        "assists": "12",
         "flag": "france",
         "logo": "real_madrid"
     },
     {
         "rank": "3.",
+        "name": " Vinícius Júnior",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "11",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "4.",
+        "name": " Dani Parejo",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "10",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
         "name": " Jordi Alba",
         "country": "Spain",
         "team": "FC Barcelona",
@@ -28,24 +46,15 @@
     },
     {
         "rank": "-",
-        "name": " Vinícius Júnior",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "10",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "5.",
         "name": " Muniain",
         "country": "Spain",
         "team": "Athletic Bilbao",
-        "assists": "9",
+        "assists": "10",
         "flag": "spain",
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "-",
+        "rank": "7.",
         "name": " Sergi Darder",
         "country": "Spain",
         "team": "Espanyol Barcelona",
@@ -63,7 +72,7 @@
         "logo": "rayo_vallecano"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Nabil Fekir",
         "country": "France",
         "team": "Real Betis",
@@ -72,13 +81,22 @@
         "logo": "real_betis"
     },
     {
-        "rank": "9.",
-        "name": " Dani Parejo",
+        "rank": "-",
+        "name": "Luka Modrić",
+        "country": "Croatia",
+        "team": "Real Madrid",
+        "assists": "8",
+        "flag": "croatia",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "11.",
+        "name": " Canales",
         "country": "Spain",
-        "team": "Villarreal CF",
+        "team": "Real Betis",
         "assists": "7",
         "flag": "spain",
-        "logo": "villarreal_cf"
+        "logo": "real_betis"
     },
     {
         "rank": "-",
@@ -90,7 +108,16 @@
         "logo": "levante_ud"
     },
     {
-        "rank": "11.",
+        "rank": "-",
+        "name": " José Morales",
+        "country": "Spain",
+        "team": "Levante UD",
+        "assists": "7",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "14.",
         "name": " Álex Berenguer",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -100,12 +127,21 @@
     },
     {
         "rank": "-",
-        "name": " Canales",
+        "name": "Yannick Carrasco",
+        "country": "Belgium",
+        "team": "Atlético Madrid",
+        "assists": "6",
+        "flag": "belgium",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Fidel",
         "country": "Spain",
-        "team": "Real Betis",
+        "team": "Elche CF",
         "assists": "6",
         "flag": "spain",
-        "logo": "real_betis"
+        "logo": "elche_cf"
     },
     {
         "rank": "-",
@@ -126,7 +162,7 @@
         "logo": "ca_osasuna"
     },
     {
-        "rank": "15.",
+        "rank": "19.",
         "name": "Mauro Arambarri",
         "country": "Uruguay",
         "team": "Getafe CF",
@@ -136,47 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Carlos Soler",
+        "name": " Brais Méndez",
         "country": "Spain",
-        "team": "Valencia CF",
+        "team": "Celta Vigo",
         "assists": "5",
         "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Carrasco",
-        "country": "Belgium",
-        "team": "Atlético Madrid",
-        "assists": "5",
-        "flag": "belgium",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Correa",
-        "country": "Argentina",
-        "team": "Atlético Madrid",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Fidel",
-        "country": "Spain",
-        "team": "Elche CF",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "elche_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Gavi",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "fc_barcelona"
+        "logo": "celta_vigo"
     }
 ]

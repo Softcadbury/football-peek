@@ -4,7 +4,7 @@
         "name": "Domenico Berardi",
         "country": "Italy",
         "team": "Sassuolo Calcio",
-        "assists": "12",
+        "assists": "13",
         "flag": "italy",
         "logo": "sassuolo_calcio"
     },
@@ -13,12 +13,30 @@
         "name": "Hakan Çalhanoğlu",
         "country": "Turkey",
         "team": "Inter",
-        "assists": "11",
+        "assists": "12",
         "flag": "turkey",
         "logo": "inter"
     },
     {
         "rank": "3.",
+        "name": "Nicolò Barella",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "11",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "4.",
+        "name": "Antonio Candreva",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "assists": "10",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
         "name": " Luis Alberto",
         "country": "Spain",
         "team": "Lazio Roma",
@@ -36,22 +54,22 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "5.",
-        "name": "Nicolò Barella",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "9",
-        "flag": "italy",
-        "logo": "inter"
+        "rank": "-",
+        "name": " Rafael Leão",
+        "country": "Portugal",
+        "team": "AC Milan",
+        "assists": "10",
+        "flag": "portugal",
+        "logo": "ac_milan"
     },
     {
-        "rank": "6.",
-        "name": "Antonio Candreva",
-        "country": "Italy",
-        "team": "Sampdoria",
+        "rank": "8.",
+        "name": " Felipe Anderson",
+        "country": "Brazil",
+        "team": "Lazio Roma",
         "assists": "8",
-        "flag": "italy",
-        "logo": "sampdoria"
+        "flag": "brazil",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -81,7 +99,7 @@
         "logo": "as_roma"
     },
     {
-        "rank": "10.",
+        "rank": "12.",
         "name": "Gianluca Caprari",
         "country": "Italy",
         "team": "Hellas Verona",
@@ -91,24 +109,15 @@
     },
     {
         "rank": "-",
-        "name": " Felipe Anderson",
-        "country": "Brazil",
-        "team": "Lazio Roma",
+        "name": "Darko Lazović",
+        "country": "Serbia",
+        "team": "Hellas Verona",
         "assists": "7",
-        "flag": "brazil",
-        "logo": "lazio_roma"
+        "flag": "serbia",
+        "logo": "hellas_verona"
     },
     {
-        "rank": "-",
-        "name": " Rafael Leão",
-        "country": "Portugal",
-        "team": "AC Milan",
-        "assists": "7",
-        "flag": "portugal",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "13.",
+        "rank": "14.",
         "name": "Musa Barrow",
         "country": "Gambia",
         "team": "Bologna FC",
@@ -154,29 +163,20 @@
     },
     {
         "rank": "-",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Isaac Success",
         "country": "Nigeria",
         "team": "Udinese Calcio",
         "assists": "6",
         "flag": "nigeria",
         "logo": "udinese_calcio"
-    },
-    {
-        "rank": "19.",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "Juventus",
-        "assists": "5",
-        "flag": "argentina",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Eljif Elmas",
-        "country": "North Macedonia",
-        "team": "SSC Napoli",
-        "assists": "5",
-        "flag": "north_macedonia",
-        "logo": "ssc_napoli"
     }
 ]
