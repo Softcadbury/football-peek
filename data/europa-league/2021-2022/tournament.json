@@ -1,5 +1,108 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "18/05/2022",
+                "time1": "20:00",
+                "team1": "Eintracht Frankfurt",
+                "team2": "Rangers FC",
+                "score1": "1:1 (5:4)",
+                "winner": "Eintracht Frankfurt",
+                "team1Logo": "eintracht_frankfurt",
+                "team2Logo": "rangers_fc"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "date1": "28/04/2022",
+                "date2": "05/05/2022",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "RB Leipzig",
+                "team2": "Rangers FC",
+                "score1": "1:0",
+                "score2": "1:3",
+                "winner": "Rangers FC",
+                "team1Logo": "rb_leipzig",
+                "team2Logo": "rangers_fc"
+            },
+            {
+                "date1": "28/04/2022",
+                "date2": "05/05/2022",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "West Ham United",
+                "team2": "Eintracht Frankfurt",
+                "score1": "1:2",
+                "score2": "0:1",
+                "winner": "Eintracht Frankfurt",
+                "team1Logo": "west_ham_united",
+                "team2Logo": "eintracht_frankfurt"
+            }
+        ]
+    },
+    {
+        "name": "Quarter-finals",
+        "matches": [
+            {
+                "date1": "07/04/2022",
+                "date2": "14/04/2022",
+                "time1": "17:45",
+                "time2": "17:45",
+                "team1": "RB Leipzig",
+                "team2": "Atalanta",
+                "score1": "1:1",
+                "score2": "2:0",
+                "winner": "RB Leipzig",
+                "team1Logo": "rb_leipzig",
+                "team2Logo": "atalanta"
+            },
+            {
+                "date1": "07/04/2022",
+                "date2": "14/04/2022",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "Eintracht Frankfurt",
+                "team2": "FC Barcelona",
+                "score1": "1:1",
+                "score2": "3:2",
+                "winner": "Eintracht Frankfurt",
+                "team1Logo": "eintracht_frankfurt",
+                "team2Logo": "fc_barcelona"
+            },
+            {
+                "date1": "07/04/2022",
+                "date2": "14/04/2022",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "West Ham United",
+                "team2": "Olympique Lyon",
+                "score1": "1:1",
+                "score2": "3:0",
+                "winner": "West Ham United",
+                "team1Logo": "west_ham_united",
+                "team2Logo": "olympique_lyon"
+            },
+            {
+                "date1": "07/04/2022",
+                "date2": "14/04/2022",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "Sporting Braga",
+                "team2": "Rangers FC",
+                "score1": "1:0",
+                "score2": "1:3",
+                "winner": "Rangers FC",
+                "team1Logo": "sporting_braga",
+                "team2Logo": "rangers_fc"
+            }
+        ]
+    },
+    {
         "name": "Eighth-finals",
         "matches": [
             {
@@ -10,8 +113,8 @@
                 "team1": "FC Porto",
                 "team2": "Olympique Lyon",
                 "score1": "0:1",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:1",
+                "winner": "Olympique Lyon",
                 "team1Logo": "fc_porto",
                 "team2Logo": "olympique_lyon"
             },
@@ -23,8 +126,8 @@
                 "team1": "Real Betis",
                 "team2": "Eintracht Frankfurt",
                 "score1": "1:2",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:1",
+                "winner": "Eintracht Frankfurt",
                 "team1Logo": "real_betis",
                 "team2Logo": "eintracht_frankfurt"
             },
@@ -47,8 +150,8 @@
                 "team1": "Sevilla FC",
                 "team2": "West Ham United",
                 "score1": "1:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "0:2",
+                "winner": "West Ham United",
                 "team1Logo": "sevilla_fc",
                 "team2Logo": "west_ham_united"
             },
@@ -60,8 +163,8 @@
                 "team1": "Rangers FC",
                 "team2": "Crvena Zvezda",
                 "score1": "3:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:2",
+                "winner": "Rangers FC",
                 "team1Logo": "rangers_fc",
                 "team2Logo": "crvena_zvezda"
             },
@@ -73,8 +176,8 @@
                 "team1": "Sporting Braga",
                 "team2": "AS Monaco",
                 "score1": "2:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:1",
+                "winner": "Sporting Braga",
                 "team1Logo": "sporting_braga",
                 "team2Logo": "as_monaco"
             },
@@ -86,8 +189,8 @@
                 "team1": "Atalanta",
                 "team2": "Bayer Leverkusen",
                 "score1": "3:2",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "1:0",
+                "winner": "Atalanta",
                 "team1Logo": "atalanta",
                 "team2Logo": "bayer_leverkusen"
             },
@@ -99,8 +202,8 @@
                 "team1": "FC Barcelona",
                 "team2": "Galatasaray",
                 "score1": "0:0",
-                "score2": "-:-",
-                "winner": "",
+                "score2": "2:1",
+                "winner": "FC Barcelona",
                 "team1Logo": "fc_barcelona",
                 "team2Logo": "galatasaray"
             }

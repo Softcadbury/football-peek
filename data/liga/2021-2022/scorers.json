@@ -4,124 +4,133 @@
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
-        "goals": "20",
+        "goals": "27",
         "flag": "france",
         "logo": "real_madrid"
     },
     {
         "rank": "2.",
-        "name": "Iago Aspas",
+        "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
-        "goals": "13",
+        "goals": "18",
         "flag": "spain",
         "logo": "celta_vigo"
     },
     {
-        "rank": "-",
+        "rank": "3.",
         "name": " Raúl de Tomás",
         "country": "Spain",
         "team": "Espanyol Barcelona",
-        "goals": "13",
+        "goals": "17",
         "flag": "spain",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": "Enes Ünal",
-        "country": "Turkey",
-        "team": "Getafe CF",
-        "goals": "13",
-        "flag": "turkey",
-        "logo": "getafe_cf"
     },
     {
         "rank": "-",
         "name": " Vinícius Júnior",
         "country": "Brazil",
         "team": "Real Madrid",
-        "goals": "13",
+        "goals": "17",
         "flag": "brazil",
         "logo": "real_madrid"
     },
     {
-        "rank": "6.",
-        "name": " Joselu",
-        "country": "Spain",
-        "team": "CD Alavés",
-        "goals": "12",
-        "flag": "spain",
-        "logo": "cd_alaves"
-    },
-    {
-        "rank": "-",
+        "rank": "5.",
         "name": " Juanmi",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "12",
+        "goals": "16",
         "flag": "spain",
         "logo": "real_betis"
     },
     {
+        "rank": "-",
+        "name": "Enes Ünal",
+        "country": "Turkey",
+        "team": "Getafe CF",
+        "goals": "16",
+        "flag": "turkey",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "7.",
+        "name": " Joselu",
+        "country": "Spain",
+        "team": "CD Alavés",
+        "goals": "14",
+        "flag": "spain",
+        "logo": "cd_alaves"
+    },
+    {
         "rank": "8.",
+        "name": " José Morales",
+        "country": "Spain",
+        "team": "Levante UD",
+        "goals": "13",
+        "flag": "spain",
+        "logo": "levante_ud"
+    },
+    {
+        "rank": "9.",
         "name": "Ángel Correa",
         "country": "Argentina",
         "team": "Atlético Madrid",
-        "goals": "11",
+        "goals": "12",
         "flag": "argentina",
         "logo": "atletico_madrid"
     },
     {
-        "rank": "9.",
+        "rank": "-",
         "name": "Memphis Depay",
         "country": "Netherlands",
         "team": "FC Barcelona",
-        "goals": "10",
+        "goals": "12",
         "flag": "netherlands",
         "logo": "fc_barcelona"
+    },
+    {
+        "rank": "11.",
+        "name": "Pierre-Emerick Aubameyang",
+        "country": "Gabon",
+        "team": "FC Barcelona",
+        "goals": "11",
+        "flag": "gabon",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Carlos Soler",
+        "country": "Spain",
+        "team": "Valencia CF",
+        "goals": "11",
+        "flag": "spain",
+        "logo": "valencia_cf"
     },
     {
         "rank": "-",
         "name": " Gonçalo Guedes",
         "country": "Portugal",
         "team": "Valencia CF",
-        "goals": "10",
+        "goals": "11",
         "flag": "portugal",
         "logo": "valencia_cf"
-    },
-    {
-        "rank": "11.",
-        "name": " Carlos Soler",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Mikel Oyarzabal",
-        "country": "Spain",
-        "team": "Real Sociedad",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "real_sociedad"
     },
     {
         "rank": "-",
         "name": "Luis Suárez",
         "country": "Uruguay",
         "team": "Atlético Madrid",
-        "goals": "9",
+        "goals": "11",
         "flag": "uruguay",
         "logo": "atletico_madrid"
     },
     {
-        "rank": "14.",
+        "rank": "15.",
         "name": " Borja Iglesias",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "8",
+        "goals": "10",
         "flag": "spain",
         "logo": "real_betis"
     },
@@ -130,25 +139,25 @@
         "name": "Arnaut Danjuma",
         "country": "Netherlands",
         "team": "Villarreal CF",
-        "goals": "8",
+        "goals": "10",
         "flag": "netherlands",
         "logo": "villarreal_cf"
     },
     {
         "rank": "-",
-        "name": " Gerard Moreno",
+        "name": " Jorge Molina",
         "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "8",
+        "team": "Granada CF",
+        "goals": "10",
         "flag": "spain",
-        "logo": "villarreal_cf"
+        "logo": "granada_cf"
     },
     {
         "rank": "-",
         "name": " Marco Asensio",
         "country": "Spain",
         "team": "Real Madrid",
-        "goals": "8",
+        "goals": "10",
         "flag": "spain",
         "logo": "real_madrid"
     },
@@ -157,26 +166,17 @@
         "name": " Rafa Mir",
         "country": "Spain",
         "team": "Sevilla FC",
-        "goals": "8",
+        "goals": "10",
         "flag": "spain",
         "logo": "sevilla_fc"
     },
     {
-        "rank": "19.",
-        "name": "Lucas Boyé",
-        "country": "Argentina",
-        "team": "Elche CF",
-        "goals": "7",
-        "flag": "argentina",
-        "logo": "elche_cf"
-    },
-    {
-        "rank": "-",
-        "name": " Iñaki Williams",
+        "rank": "20.",
+        "name": " Gerard Moreno",
         "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "7",
+        "team": "Villarreal CF",
+        "goals": "9",
         "flag": "spain",
-        "logo": "athletic_bilbao"
+        "logo": "villarreal_cf"
     }
 ]

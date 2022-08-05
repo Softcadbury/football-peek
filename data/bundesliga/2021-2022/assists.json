@@ -4,7 +4,7 @@
         "name": "Thomas Müller",
         "country": "Germany",
         "team": "Bayern München",
-        "assists": "16",
+        "assists": "18",
         "flag": "germany",
         "logo": "bayern_munchen"
     },
@@ -13,12 +13,48 @@
         "name": "Christopher Nkunku",
         "country": "France",
         "team": "RB Leipzig",
-        "assists": "12",
+        "assists": "16",
         "flag": "france",
         "logo": "rb_leipzig"
     },
     {
-        "rank": "3.",
+        "rank": "-",
+        "name": "Marco Reus",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
+        "assists": "16",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "4.",
+        "name": "Moussa Diaby",
+        "country": "France",
+        "team": "Bayer Leverkusen",
+        "assists": "12",
+        "flag": "france",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "David Raum",
+        "country": "Germany",
+        "team": "1899 Hoffenheim",
+        "assists": "12",
+        "flag": "germany",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "6.",
+        "name": "Joshua Kimmich",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "11",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
         "name": "Florian Wirtz",
         "country": "Germany",
         "team": "Bayer Leverkusen",
@@ -27,101 +63,38 @@
         "logo": "bayer_leverkusen"
     },
     {
-        "rank": "4.",
-        "name": "Marco Reus",
+        "rank": "8.",
+        "name": "Christian Günter",
         "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "10",
-        "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "5.",
-        "name": "David Raum",
-        "country": "Germany",
-        "team": "1899 Hoffenheim",
+        "team": "SC Freiburg",
         "assists": "9",
         "flag": "germany",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "6.",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Eintracht Frankfurt",
-        "assists": "8",
-        "flag": "serbia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "7.",
-        "name": "Moussa Diaby",
-        "country": "France",
-        "team": "Bayer Leverkusen",
-        "assists": "7",
-        "flag": "france",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Vincenzo Grifo",
-        "country": "Italy",
-        "team": "SC Freiburg",
-        "assists": "7",
-        "flag": "italy",
         "logo": "sc_freiburg"
     },
     {
         "rank": "-",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "7",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Eintracht Frankfurt",
+        "assists": "9",
+        "flag": "serbia",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
         "name": "Andrej Kramarić",
         "country": "Croatia",
         "team": "1899 Hoffenheim",
-        "assists": "7",
+        "assists": "9",
         "flag": "croatia",
         "logo": "1899_hoffenheim"
     },
     {
-        "rank": "-",
-        "name": "Karim Onisiwo",
-        "country": "Austria",
-        "team": "1. FSV Mainz 05",
-        "assists": "7",
-        "flag": "austria",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Leroy Sané",
-        "country": "Germany",
-        "team": "Bayern München",
-        "assists": "7",
-        "flag": "germany",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Wimmer",
-        "country": "Austria",
-        "team": "Arminia Bielefeld",
-        "assists": "7",
-        "flag": "austria",
-        "logo": "arminia_bielefeld"
-    },
-    {
-        "rank": "14.",
+        "rank": "11.",
         "name": "Jude Bellingham",
         "country": "England",
         "team": "Borussia Dortmund",
-        "assists": "6",
+        "assists": "8",
         "flag": "england",
         "logo": "borussia_dortmund"
     },
@@ -130,34 +103,43 @@
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Borussia Dortmund",
-        "assists": "6",
+        "assists": "8",
         "flag": "germany",
         "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "-",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "SC Freiburg",
+        "assists": "8",
+        "flag": "italy",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Borussia Dortmund",
-        "assists": "6",
+        "assists": "8",
         "flag": "norway",
         "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Max Kruse",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "assists": "6",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
+        "name": "Karim Onisiwo",
+        "country": "Austria",
+        "team": "1. FSV Mainz 05",
+        "assists": "8",
+        "flag": "austria",
+        "logo": "1__fsv_mainz_05"
     },
     {
         "rank": "-",
         "name": "Borna Sosa",
         "country": "Croatia",
         "team": "VfB Stuttgart",
-        "assists": "6",
+        "assists": "8",
         "flag": "croatia",
         "logo": "vfb_stuttgart"
     },
@@ -166,17 +148,35 @@
         "name": "Dominik Szoboszlai",
         "country": "Hungary",
         "team": "RB Leipzig",
-        "assists": "6",
+        "assists": "8",
         "flag": "hungary",
         "logo": "rb_leipzig"
     },
     {
-        "rank": "20.",
-        "name": " Angeliño",
-        "country": "Spain",
-        "team": "RB Leipzig",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "rb_leipzig"
+        "rank": "-",
+        "name": "Mark Uth",
+        "country": "Germany",
+        "team": "1. FC Köln",
+        "assists": "8",
+        "flag": "germany",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "19.",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Arne Maier",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "7",
+        "flag": "germany",
+        "logo": "fc_augsburg"
     }
 ]

@@ -4,7 +4,7 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "Bayern München",
-        "goals": "29",
+        "goals": "35",
         "flag": "poland",
         "logo": "bayern_munchen"
     },
@@ -13,7 +13,7 @@
         "name": "Patrik Schick",
         "country": "Czech Republic",
         "team": "Bayer Leverkusen",
-        "goals": "20",
+        "goals": "24",
         "flag": "czech_republic",
         "logo": "bayer_leverkusen"
     },
@@ -22,7 +22,7 @@
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Borussia Dortmund",
-        "goals": "16",
+        "goals": "22",
         "flag": "norway",
         "logo": "borussia_dortmund"
     },
@@ -31,7 +31,7 @@
         "name": "Anthony Modeste",
         "country": "France",
         "team": "1. FC Köln",
-        "goals": "15",
+        "goals": "20",
         "flag": "france",
         "logo": "1__fc_koln"
     },
@@ -40,49 +40,94 @@
         "name": "Christopher Nkunku",
         "country": "France",
         "team": "RB Leipzig",
-        "goals": "15",
+        "goals": "20",
         "flag": "france",
         "logo": "rb_leipzig"
     },
     {
         "rank": "6.",
-        "name": "Moussa Diaby",
-        "country": "France",
-        "team": "Bayer Leverkusen",
-        "goals": "12",
-        "flag": "france",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "7.",
         "name": "Taiwo Awoniyi",
         "country": "Nigeria",
         "team": "1. FC Union Berlin",
-        "goals": "11",
+        "goals": "15",
         "flag": "nigeria",
         "logo": "1__fc_union_berlin"
     },
     {
+        "rank": "7.",
+        "name": "Serge Gnabry",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "14",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
         "rank": "8.",
+        "name": "Moussa Diaby",
+        "country": "France",
+        "team": "Bayer Leverkusen",
+        "goals": "13",
+        "flag": "france",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "9.",
+        "name": "Jonas Hofmann",
+        "country": "Germany",
+        "team": "Bor. Mönchengladbach",
+        "goals": "12",
+        "flag": "germany",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Max Kruse",
+        "country": "Germany",
+        "team": "VfL Wolfsburg",
+        "goals": "12",
+        "flag": "germany",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "11.",
         "name": " André Silva",
         "country": "Portugal",
         "team": "RB Leipzig",
-        "goals": "10",
+        "goals": "11",
         "flag": "portugal",
         "logo": "rb_leipzig"
     },
     {
         "rank": "-",
-        "name": "Serge Gnabry",
+        "name": "Jonathan Burkardt",
         "country": "Germany",
-        "team": "Bayern München",
-        "goals": "10",
+        "team": "1. FSV Mainz 05",
+        "goals": "11",
         "flag": "germany",
-        "logo": "bayern_munchen"
+        "logo": "1__fsv_mainz_05"
     },
     {
-        "rank": "10.",
-        "name": "Marco Reus",
+        "rank": "13.",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "goals": "10",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
+        "name": "Sebastian Polter",
+        "country": "Germany",
+        "team": "VfL Bochum",
+        "goals": "10",
+        "flag": "germany",
+        "logo": "vfl_bochum"
+    },
+    {
+        "rank": "15.",
+        "name": "Julian Brandt",
         "country": "Germany",
         "team": "Borussia Dortmund",
         "goals": "9",
@@ -90,93 +135,48 @@
         "logo": "borussia_dortmund"
     },
     {
-        "rank": "11.",
-        "name": "Jonas Hofmann",
-        "country": "Germany",
+        "rank": "-",
+        "name": "Breel Embolo",
+        "country": "Switzerland",
         "team": "Bor. Mönchengladbach",
-        "goals": "8",
-        "flag": "germany",
+        "goals": "9",
+        "flag": "switzerland",
         "logo": "bor__monchengladbach"
     },
     {
         "rank": "-",
-        "name": "Branimir Hrgota",
-        "country": "Sweden",
-        "team": "SpVgg Greuther Fürth",
-        "goals": "8",
-        "flag": "sweden",
-        "logo": "spvgg_greuther_furth"
-    },
-    {
-        "rank": "-",
-        "name": "Masaya Okugawa",
-        "country": "Japan",
-        "team": "Arminia Bielefeld",
-        "goals": "8",
-        "flag": "japan",
-        "logo": "arminia_bielefeld"
-    },
-    {
-        "rank": "-",
-        "name": "Sebastian Polter",
-        "country": "Germany",
-        "team": "VfL Bochum",
-        "goals": "8",
-        "flag": "germany",
-        "logo": "vfl_bochum"
-    },
-    {
-        "rank": "15.",
-        "name": "Ihlas Bebou",
-        "country": "Togo",
-        "team": "1899 Hoffenheim",
-        "goals": "7",
-        "flag": "togo",
-        "logo": "1899_hoffenheim"
-    },
-    {
-        "rank": "-",
-        "name": "Rafael Borré",
-        "country": "Colombia",
-        "team": "Eintracht Frankfurt",
-        "goals": "7",
-        "flag": "colombia",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan Burkardt",
-        "country": "Germany",
-        "team": "1. FSV Mainz 05",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "1__fsv_mainz_05"
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
+        "team": "FC Augsburg",
+        "goals": "9",
+        "flag": "austria",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
         "name": "Vincenzo Grifo",
         "country": "Italy",
         "team": "SC Freiburg",
-        "goals": "7",
+        "goals": "9",
         "flag": "italy",
         "logo": "sc_freiburg"
     },
     {
         "rank": "-",
-        "name": "Max Kruse",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "7",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
+        "name": "Branimir Hrgota",
+        "country": "Sweden",
+        "team": "SpVgg Greuther Fürth",
+        "goals": "9",
+        "flag": "sweden",
+        "logo": "spvgg_greuther_furth"
     },
     {
         "rank": "-",
-        "name": "Thomas Müller",
+        "name": "Marco Reus",
         "country": "Germany",
-        "team": "Bayern München",
-        "goals": "7",
+        "team": "Borussia Dortmund",
+        "goals": "9",
         "flag": "germany",
-        "logo": "bayern_munchen"
+        "logo": "borussia_dortmund"
     }
 ]
