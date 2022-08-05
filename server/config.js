@@ -3,7 +3,7 @@
 function config() {
     const periodFormat = '{0}-{1}';
     const firstHandledYear = 2000;
-    const lastHandledPeriod = 2021;
+    const lastHandledPeriod = 2022;
 
     const currentPeriod = periodFormat.replace('{0}', lastHandledPeriod).replace('{1}', lastHandledPeriod + 1);
     const availablesPeriod = [];
@@ -14,7 +14,7 @@ function config() {
 
     return {
         port: process.env.PORT || 5000,
-        updateLeagues: false,
+        updateLeagues: true,
         updateCompetitionGroups: false,
         updateCompetitionTournaments: false,
         updateWithImagesDownload: false,
