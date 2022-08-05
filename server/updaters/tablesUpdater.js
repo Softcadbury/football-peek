@@ -29,7 +29,7 @@ function update(item) {
                 results.push({
                     rank: $(elem).find('td:nth-child(1)').text(),
                     team: $(elem).find('td:nth-child(3) > a').text(),
-                    logoSrc: $(elem).find('td:nth-child(2) > img').attr('src'),
+                    logoSrc: $(elem).find('td:nth-child(2)').text(),
                     points: $(elem).find('td:nth-child(10)').text(),
                     played: $(elem).find('td:nth-child(4)').text(),
                     win: $(elem).find('td:nth-child(5)').text(),

@@ -104,7 +104,7 @@ function manageFlagProperty(item) {
     item.flag = stringSanitize(item.country);
 
     if (config.updateWithImagesDownload) {
-        downloadImage(item.flagSrc, stringFormat(config.paths.flagsData, item.flag));
+        downloadImage(extractSrcFromHtmlElement(item.flagSrc), stringFormat(config.paths.flagsData, item.flag));
     }
 
     delete item.flagSrc;
@@ -115,10 +115,16 @@ function manageLogoProperty(item) {
     item.logo = stringSanitize(item.team);
 
     if (config.updateWithImagesDownload) {
-        downloadImage(item.logoSrc, stringFormat(config.paths.logosData, item.logo));
+        downloadImage(extractSrcFromHtmlElement(item.logoSrc), stringFormat(config.paths.logosData, item.logo));
     }
 
     delete item.logoSrc;
+}
+
+// Fix to retrieve the src from the html element.
+// > img').attr('src') doesn't seem to work with Cheerio anymore.
+function extractSrcFromHtmlElement(htmlElement) {
+    return htmlElement.substring(htmlElement.indexOf('src=') + 5, htmlElement.indexOf('width=') - 2);
 }
 
 // Download an image in a path

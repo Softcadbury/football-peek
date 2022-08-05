@@ -43,9 +43,9 @@ function update(itemExtended) {
                     rank: $(elem).find('td:nth-child(1) > b').text() || '-',
                     name: $(elem).find(' td:nth-child(2) > a').text(),
                     country: $(elem).find('td:nth-child(4)').text(),
-                    flagSrc: $(elem).find('td:nth-child(3) > img').attr('src'),
+                    flagSrc: $(elem).find('td:nth-child(3)').text(),
                     team: $(elem).find('td:nth-child(5) > a:nth-last-child(1)').text(),
-                    logoSrc: $(elem).find('td:nth-child(5) > a:nth-last-child(2) > img').attr('src'),
+                    logoSrc: $(elem).find('td:nth-child(5) > a:nth-last-child(2)').text(),
                     assists: $(elem).find('td:nth-child(6) > b').text()
                 });
             });
