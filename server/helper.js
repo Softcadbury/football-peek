@@ -155,7 +155,8 @@ function getLeagueCurrentRound(resultsData) {
     for (let i = 0; i < resultsData.length; i++) {
         const result = resultsData[i];
 
-        if (result.matches.filter(p => p.score === '-:-').length === result.matches.length) {
+        // To be the current round, the round must be not played and same for the next two rounds
+        if (isRoundNotPlayed(result) && isRoundNotPlayed(resultsData[i + 1]) && isRoundNotPlayed(resultsData[i + 2])) {
             break;
         }
 
@@ -163,6 +164,11 @@ function getLeagueCurrentRound(resultsData) {
     }
 
     return round;
+}
+
+// Check if a round is not played, i.e. all matches are not played
+function isRoundNotPlayed(result) {
+    return !result || result.matches.filter(p => p.score === '-:-').length === result.matches.length;
 }
 
 // Log a message in the console and a log file
