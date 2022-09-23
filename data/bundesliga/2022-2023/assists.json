@@ -10,6 +10,15 @@
     },
     {
         "rank": "2.",
+        "name": "Sheraldo Becker",
+        "country": "Suriname",
+        "team": "1. FC Union Berlin",
+        "assists": "3",
+        "flag": "suriname",
+        "logo": "1__fc_union_berlin"
+    },
+    {
+        "rank": "-",
         "name": "Kingsley Coman",
         "country": "France",
         "team": "Bayern München",
@@ -46,6 +55,24 @@
     },
     {
         "rank": "-",
+        "name": "Daichi Kamada",
+        "country": "Japan",
+        "team": "Eintracht Frankfurt",
+        "assists": "3",
+        "flag": "japan",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Marcus Thuram",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "assists": "3",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "-",
         "name": "Mitchell Weiser",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -54,16 +81,7 @@
         "logo": "werder_bremen"
     },
     {
-        "rank": "7.",
-        "name": "Sheraldo Becker",
-        "country": "Suriname",
-        "team": "1. FC Union Berlin",
-        "assists": "2",
-        "flag": "suriname",
-        "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
+        "rank": "10.",
         "name": "Julian Brandt",
         "country": "Germany",
         "team": "Borussia Dortmund",
@@ -82,12 +100,21 @@
     },
     {
         "rank": "-",
-        "name": "Daichi Kamada",
-        "country": "Japan",
-        "team": "Eintracht Frankfurt",
+        "name": "Chidera Ejuke",
+        "country": "Nigeria",
+        "team": "Hertha BSC",
         "assists": "2",
-        "flag": "japan",
-        "logo": "eintracht_frankfurt"
+        "flag": "nigeria",
+        "logo": "hertha_bsc"
+    },
+    {
+        "rank": "-",
+        "name": "Philipp Hofmann",
+        "country": "Germany",
+        "team": "VfL Bochum",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "vfl_bochum"
     },
     {
         "rank": "-",
@@ -106,6 +133,15 @@
         "assists": "2",
         "flag": "croatia",
         "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
+        "name": "Tobias Mohr",
+        "country": "Germany",
+        "team": "FC Schalke 04",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "fc_schalke_04"
     },
     {
         "rank": "-",
@@ -142,41 +178,5 @@
         "assists": "2",
         "flag": "germany",
         "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Jordan Siebatcheu",
-        "country": "USA",
-        "team": "1. FC Union Berlin",
-        "assists": "2",
-        "flag": "usa",
-        "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
-        "name": "Kiliann Sildillia",
-        "country": "France",
-        "team": "SC Freiburg",
-        "assists": "2",
-        "flag": "france",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Jan Thielmann",
-        "country": "Germany",
-        "team": "1. FC Köln",
-        "assists": "2",
-        "flag": "germany",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Christopher Trimmel",
-        "country": "Austria",
-        "team": "1. FC Union Berlin",
-        "assists": "2",
-        "flag": "austria",
-        "logo": "1__fc_union_berlin"
     }
 ]

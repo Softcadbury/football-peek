@@ -4,12 +4,21 @@
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Manchester City",
-        "goals": "10",
+        "goals": "11",
         "flag": "norway",
         "logo": "manchester_city"
     },
     {
         "rank": "2.",
+        "name": "Harry Kane",
+        "country": "England",
+        "team": "Tottenham Hotspur",
+        "goals": "6",
+        "flag": "england",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Aleksandar Mitrović",
         "country": "Serbia",
         "team": "Fulham FC",
@@ -18,16 +27,7 @@
         "logo": "fulham_fc"
     },
     {
-        "rank": "3.",
-        "name": "Harry Kane",
-        "country": "England",
-        "team": "Tottenham Hotspur",
-        "goals": "5",
-        "flag": "england",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
+        "rank": "4.",
         "name": "Ivan Toney",
         "country": "England",
         "team": "Brentford FC",
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": " Gabriel Jesus",
+        "country": "Brazil",
+        "team": "Arsenal FC",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Alexis Mac Allister",
         "country": "Argentina",
         "team": "Brighton & Hove Albion",
@@ -63,22 +72,13 @@
         "logo": "crystal_palace"
     },
     {
-        "rank": "8.",
+        "rank": "9.",
         "name": "Luis Díaz",
         "country": "Colombia",
         "team": "Liverpool FC",
         "goals": "3",
         "flag": "colombia",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Gabriel Jesus",
-        "country": "Brazil",
-        "team": "Arsenal FC",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "arsenal_fc"
     },
     {
         "rank": "-",
@@ -97,6 +97,15 @@
         "goals": "3",
         "flag": "germany",
         "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "-",
+        "name": "James Maddison",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "3",
+        "flag": "england",
+        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -127,6 +136,15 @@
     },
     {
         "rank": "-",
+        "name": "Heung-min Son",
+        "country": "South Korea",
+        "team": "Tottenham Hotspur",
+        "goals": "3",
+        "flag": "south_korea",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": "Raheem Sterling",
         "country": "England",
         "team": "Chelsea FC",
@@ -135,7 +153,7 @@
         "logo": "chelsea_fc"
     },
     {
-        "rank": "16.",
+        "rank": "18.",
         "name": "Che Adams",
         "country": "Scotland",
         "team": "Southampton FC",
@@ -154,29 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Bernardo Silva",
-        "country": "Portugal",
-        "team": "Manchester City",
+        "name": "Taiwo Awoniyi",
+        "country": "Nigeria",
+        "team": "Nottingham Forest",
         "goals": "2",
-        "flag": "portugal",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Joshua Da Silva",
-        "country": "England",
-        "team": "Brentford FC",
-        "goals": "2",
-        "flag": "england",
-        "logo": "brentford_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Daniel Podence",
-        "country": "Portugal",
-        "team": "Wolverhampton Wanderers",
-        "goals": "2",
-        "flag": "portugal",
-        "logo": "wolverhampton_wanderers"
+        "flag": "nigeria",
+        "logo": "nottingham_forest"
     }
 ]

@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": " Neymar",
+        "country": "Brazil",
+        "team": "Paris Saint-Germain",
+        "goals": "8",
+        "flag": "brazil",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "2.",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -9,22 +18,40 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "-",
-        "name": " Neymar",
-        "country": "Brazil",
-        "team": "Paris Saint-Germain",
-        "goals": "7",
-        "flag": "brazil",
-        "logo": "paris_saint_germain"
+        "rank": "3.",
+        "name": "Terem Moffi",
+        "country": "Nigeria",
+        "team": "FC Lorient",
+        "goals": "6",
+        "flag": "nigeria",
+        "logo": "fc_lorient"
     },
     {
-        "rank": "3.",
+        "rank": "4.",
+        "name": "Mama Baldé",
+        "country": "Guinea-Bissau",
+        "team": "ESTAC Troyes",
+        "goals": "5",
+        "flag": "guinea_bissau",
+        "logo": "estac_troyes"
+    },
+    {
+        "rank": "-",
         "name": "Folarin Balogun",
         "country": "England",
         "team": "Stade Reims",
         "goals": "5",
         "flag": "england",
         "logo": "stade_reims"
+    },
+    {
+        "rank": "-",
+        "name": "Jonathan David",
+        "country": "Canada",
+        "team": "Lille OSC",
+        "goals": "5",
+        "flag": "canada",
+        "logo": "lille_osc"
     },
     {
         "rank": "-",
@@ -36,22 +63,22 @@
         "logo": "rc_lens"
     },
     {
-        "rank": "5.",
-        "name": "Jonathan David",
-        "country": "Canada",
-        "team": "Lille OSC",
+        "rank": "8.",
+        "name": "Alexandre Lacazette",
+        "country": "France",
+        "team": "Olympique Lyon",
         "goals": "4",
-        "flag": "canada",
-        "logo": "lille_osc"
+        "flag": "france",
+        "logo": "olympique_lyon"
     },
     {
         "rank": "-",
-        "name": "Terem Moffi",
-        "country": "Nigeria",
-        "team": "FC Lorient",
+        "name": "Lionel Messi",
+        "country": "Argentina",
+        "team": "Paris Saint-Germain",
         "goals": "4",
-        "flag": "nigeria",
-        "logo": "fc_lorient"
+        "flag": "argentina",
+        "logo": "paris_saint_germain"
     },
     {
         "rank": "-",
@@ -64,11 +91,38 @@
     },
     {
         "rank": "-",
+        "name": "Dango Ouattara",
+        "country": "Burkina Faso",
+        "team": "FC Lorient",
+        "goals": "4",
+        "flag": "burkina_faso",
+        "logo": "fc_lorient"
+    },
+    {
+        "rank": "-",
+        "name": "Alexis Sánchez",
+        "country": "Chile",
+        "team": "Olympique Marseille",
+        "goals": "4",
+        "flag": "chile",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
         "name": " Tetê",
         "country": "Brazil",
         "team": "Olympique Lyon",
         "goals": "4",
         "flag": "brazil",
+        "logo": "olympique_lyon"
+    },
+    {
+        "rank": "-",
+        "name": "Karl Toko Ekambi",
+        "country": "Cameroon",
+        "team": "Olympique Lyon",
+        "goals": "4",
+        "flag": "cameroon",
         "logo": "olympique_lyon"
     },
     {
@@ -81,22 +135,22 @@
         "logo": "montpellier_hsc"
     },
     {
-        "rank": "10.",
-        "name": "Mama Baldé",
-        "country": "Guinea-Bissau",
-        "team": "ESTAC Troyes",
-        "goals": "3",
-        "flag": "guinea_bissau",
-        "logo": "estac_troyes"
-    },
-    {
-        "rank": "-",
+        "rank": "16.",
         "name": "Jonathan Bamba",
         "country": "France",
         "team": "Lille OSC",
         "goals": "3",
         "flag": "france",
         "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
+        "name": "Sofiane Boufal",
+        "country": "Morocco",
+        "team": "Angers SCO",
+        "goals": "3",
+        "flag": "morocco",
+        "logo": "angers_sco"
     },
     {
         "rank": "-",
@@ -109,74 +163,20 @@
     },
     {
         "rank": "-",
-        "name": "Alexandre Lacazette",
-        "country": "France",
-        "team": "Olympique Lyon",
+        "name": "Andy Delort",
+        "country": "Algeria",
+        "team": "OGC Nice",
         "goals": "3",
-        "flag": "france",
-        "logo": "olympique_lyon"
+        "flag": "algeria",
+        "logo": "ogc_nice"
     },
     {
         "rank": "-",
-        "name": "Lionel Messi",
-        "country": "Argentina",
-        "team": "Paris Saint-Germain",
+        "name": "Habib Diallo",
+        "country": "Senegal",
+        "team": "RC Strasbourg",
         "goals": "3",
-        "flag": "argentina",
-        "logo": "paris_saint_germain"
-    },
-    {
-        "rank": "-",
-        "name": " Nuno Tavares",
-        "country": "Portugal",
-        "team": "Olympique Marseille",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Alexis Sánchez",
-        "country": "Chile",
-        "team": "Olympique Marseille",
-        "goals": "3",
-        "flag": "chile",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Tardieu",
-        "country": "France",
-        "team": "ESTAC Troyes",
-        "goals": "3",
-        "flag": "france",
-        "logo": "estac_troyes"
-    },
-    {
-        "rank": "-",
-        "name": "Karl Toko Ekambi",
-        "country": "Cameroon",
-        "team": "Olympique Lyon",
-        "goals": "3",
-        "flag": "cameroon",
-        "logo": "olympique_lyon"
-    },
-    {
-        "rank": "19.",
-        "name": "Komnen Andrić",
-        "country": "Serbia",
-        "team": "Clermont Foot",
-        "goals": "2",
-        "flag": "serbia",
-        "logo": "clermont_foot"
-    },
-    {
-        "rank": "-",
-        "name": "Mathias Autret",
-        "country": "France",
-        "team": "AJ Auxerre",
-        "goals": "2",
-        "flag": "france",
-        "logo": "aj_auxerre"
+        "flag": "senegal",
+        "logo": "rc_strasbourg"
     }
 ]

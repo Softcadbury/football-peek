@@ -4,12 +4,39 @@
         "name": "Marko Arnautović",
         "country": "Austria",
         "team": "Bologna FC",
-        "goals": "5",
+        "goals": "6",
         "flag": "austria",
         "logo": "bologna_fc"
     },
     {
         "rank": "2.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "3.",
+        "name": " Beto",
+        "country": "Portugal",
+        "team": "Udinese Calcio",
+        "goals": "4",
+        "flag": "portugal",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "AC Milan",
+        "goals": "4",
+        "flag": "france",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
         "name": "Teun Koopmeiners",
         "country": "Netherlands",
         "team": "Atalanta",
@@ -36,13 +63,40 @@
         "logo": "juventus"
     },
     {
-        "rank": "5.",
+        "rank": "8.",
+        "name": "Boulaye Dia",
+        "country": "Senegal",
+        "team": "US Salernitana 1919",
+        "goals": "3",
+        "flag": "senegal",
+        "logo": "us_salernitana_1919"
+    },
+    {
+        "rank": "-",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "AS Roma",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Lautaro Martínez",
         "country": "Argentina",
         "team": "Inter",
         "goals": "3",
         "flag": "argentina",
         "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "M'Bala Nzola",
+        "country": "Angola",
+        "team": "Spezia Calcio",
+        "goals": "3",
+        "flag": "angola",
+        "logo": "spezia_calcio"
     },
     {
         "rank": "-",
@@ -54,7 +108,43 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Nikola Vlašić",
+        "country": "Croatia",
+        "team": "Torino FC",
+        "goals": "3",
+        "flag": "croatia",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "14.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "AS Roma",
+        "goals": "2",
+        "flag": "england",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Filippo Bandinelli",
+        "country": "Italy",
+        "team": "Empoli FC",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "empoli_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Nicolò Barella",
+        "country": "Italy",
+        "team": "Inter",
+        "goals": "2",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Simone Bastoni",
         "country": "Italy",
         "team": "Spezia Calcio",
@@ -64,12 +154,21 @@
     },
     {
         "rank": "-",
-        "name": " Beto",
-        "country": "Portugal",
-        "team": "Udinese Calcio",
+        "name": "Marcelo Brozović",
+        "country": "Croatia",
+        "team": "Inter",
         "goals": "2",
-        "flag": "portugal",
-        "logo": "udinese_calcio"
+        "flag": "croatia",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Assan Ceesay",
+        "country": "Gambia",
+        "team": "US Lecce",
+        "goals": "2",
+        "flag": "gambia",
+        "logo": "us_lecce"
     },
     {
         "rank": "-",
@@ -79,104 +178,5 @@
         "goals": "2",
         "flag": "argentina",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Boulaye Dia",
-        "country": "Senegal",
-        "team": "US Salernitana 1919",
-        "goals": "2",
-        "flag": "senegal",
-        "logo": "us_salernitana_1919"
-    },
-    {
-        "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "AS Roma",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "AC Milan",
-        "goals": "2",
-        "flag": "france",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Henry",
-        "country": "France",
-        "team": "Hellas Verona",
-        "goals": "2",
-        "flag": "france",
-        "logo": "hellas_verona"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Min-jae Kim",
-        "country": "South Korea",
-        "team": "SSC Napoli",
-        "goals": "2",
-        "flag": "south_korea",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "Juventus",
-        "goals": "2",
-        "flag": "poland",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "M'Bala Nzola",
-        "country": "Angola",
-        "team": "Spezia Calcio",
-        "goals": "2",
-        "flag": "angola",
-        "logo": "spezia_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "David Okereke",
-        "country": "Nigeria",
-        "team": "US Cremonese",
-        "goals": "2",
-        "flag": "nigeria",
-        "logo": "us_cremonese"
-    },
-    {
-        "rank": "-",
-        "name": "Victor Osimhen",
-        "country": "Nigeria",
-        "team": "SSC Napoli",
-        "goals": "2",
-        "flag": "nigeria",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Ante Rebić",
-        "country": "Croatia",
-        "team": "AC Milan",
-        "goals": "2",
-        "flag": "croatia",
-        "logo": "ac_milan"
     }
 ]

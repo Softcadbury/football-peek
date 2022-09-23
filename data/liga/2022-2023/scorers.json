@@ -1,6 +1,24 @@
 [
     {
         "rank": "1.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "FC Barcelona",
+        "goals": "8",
+        "flag": "poland",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "2.",
+        "name": " Borja Iglesias",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "3.",
         "name": " Iago Aspas",
         "country": "Spain",
         "team": "Celta Vigo",
@@ -9,31 +27,67 @@
         "logo": "celta_vigo"
     },
     {
-        "rank": "-",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "FC Barcelona",
-        "goals": "5",
-        "flag": "poland",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "3.",
-        "name": " Borja Iglesias",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
         "rank": "4.",
+        "name": " Vinícius Júnior",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "goals": "4",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "5.",
+        "name": " Álex Baena",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": " Álex Berenguer",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Ezequiel Ávila",
+        "country": "Argentina",
+        "team": "CA Osasuna",
+        "goals": "3",
+        "flag": "argentina",
+        "logo": "ca_osasuna"
+    },
+    {
+        "rank": "-",
         "name": "Karim Benzema",
         "country": "France",
         "team": "Real Madrid",
         "goals": "3",
         "flag": "france",
         "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Brais Méndez",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": " Joselu",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "goals": "3",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
@@ -46,6 +100,24 @@
     },
     {
         "rank": "-",
+        "name": "Vedat Muriqi",
+        "country": "Kosovo",
+        "team": "RCD Mallorca",
+        "goals": "3",
+        "flag": "kosovo",
+        "logo": "rcd_mallorca"
+    },
+    {
+        "rank": "-",
+        "name": " Rodrygo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Umar Sadiq",
         "country": "Nigeria",
         "team": "UD Almería",
@@ -55,15 +127,15 @@
     },
     {
         "rank": "-",
-        "name": " Vinícius Júnior",
-        "country": "Brazil",
+        "name": "Federico Valverde",
+        "country": "Uruguay",
         "team": "Real Madrid",
         "goals": "3",
-        "flag": "brazil",
+        "flag": "uruguay",
         "logo": "real_madrid"
     },
     {
-        "rank": "8.",
+        "rank": "16.",
         "name": " Aimar Oroz",
         "country": "Spain",
         "team": "CA Osasuna",
@@ -73,110 +145,38 @@
     },
     {
         "rank": "-",
-        "name": " Álex Baena",
-        "country": "Spain",
-        "team": "Villarreal CF",
+        "name": "Gastón Álvarez",
+        "country": "Uruguay",
+        "team": "Getafe CF",
         "goals": "2",
-        "flag": "spain",
-        "logo": "villarreal_cf"
+        "flag": "uruguay",
+        "logo": "getafe_cf"
     },
     {
         "rank": "-",
-        "name": " Álex Berenguer",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
+        "name": "Martin Braithwaite",
+        "country": "Denmark",
+        "team": "Espanyol Barcelona",
         "goals": "2",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
+        "flag": "denmark",
+        "logo": "espanyol_barcelona"
     },
     {
         "rank": "-",
-        "name": "Ezequiel Ávila",
-        "country": "Argentina",
-        "team": "CA Osasuna",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "ca_osasuna"
-    },
-    {
-        "rank": "-",
-        "name": " Gerard Moreno",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Antoine Griezmann",
+        "name": "Ousmane Dembélé",
         "country": "France",
-        "team": "Atlético Madrid",
+        "team": "FC Barcelona",
         "goals": "2",
         "flag": "france",
-        "logo": "atletico_madrid"
+        "logo": "fc_barcelona"
     },
     {
         "rank": "-",
-        "name": " Guruzeta",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Joselu",
+        "name": " Edu Expósito",
         "country": "Spain",
         "team": "Espanyol Barcelona",
         "goals": "2",
         "flag": "spain",
         "logo": "espanyol_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Juanmi",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": "Vedat Muriqi",
-        "country": "Kosovo",
-        "team": "RCD Mallorca",
-        "goals": "2",
-        "flag": "kosovo",
-        "logo": "rcd_mallorca"
-    },
-    {
-        "rank": "-",
-        "name": "Largie Ramazani",
-        "country": "Belgium",
-        "team": "UD Almería",
-        "goals": "2",
-        "flag": "belgium",
-        "logo": "ud_almeria"
-    },
-    {
-        "rank": "19.",
-        "name": "David Alaba",
-        "country": "Austria",
-        "team": "Real Madrid",
-        "goals": "1",
-        "flag": "austria",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Álex Collado",
-        "country": "Spain",
-        "team": "Elche CF",
-        "goals": "1",
-        "flag": "spain",
-        "logo": "elche_cf"
     }
 ]

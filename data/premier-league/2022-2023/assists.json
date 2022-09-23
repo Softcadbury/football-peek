@@ -4,12 +4,30 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "4",
+        "assists": "6",
         "flag": "belgium",
         "logo": "manchester_city"
     },
     {
         "rank": "2.",
+        "name": "Bukayo Saka",
+        "country": "England",
+        "team": "Arsenal FC",
+        "assists": "4",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "3.",
+        "name": " Bernardo Silva",
+        "country": "Portugal",
+        "team": "Manchester City",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
         "name": "Phil Foden",
         "country": "England",
         "team": "Manchester City",
@@ -37,6 +55,24 @@
     },
     {
         "rank": "-",
+        "name": "Dejan Kulusevski",
+        "country": "Sweden",
+        "team": "Tottenham Hotspur",
+        "assists": "3",
+        "flag": "sweden",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Tottenham Hotspur",
+        "assists": "3",
+        "flag": "croatia",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
         "name": " Roberto Firmino",
         "country": "Brazil",
         "team": "Liverpool FC",
@@ -45,16 +81,25 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "6.",
-        "name": " Bernardo Silva",
-        "country": "Portugal",
-        "team": "Manchester City",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "manchester_city"
+        "rank": "-",
+        "name": "Kenny Tete",
+        "country": "Netherlands",
+        "team": "Fulham FC",
+        "assists": "3",
+        "flag": "netherlands",
+        "logo": "fulham_fc"
     },
     {
         "rank": "-",
+        "name": "Granit Xhaka",
+        "country": "Switzerland",
+        "team": "Arsenal FC",
+        "assists": "3",
+        "flag": "switzerland",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "12.",
         "name": " Cucurella",
         "country": "Spain",
         "team": "Chelsea FC",
@@ -82,6 +127,15 @@
     },
     {
         "rank": "-",
+        "name": "Alex Iwobi",
+        "country": "Nigeria",
+        "team": "Everton FC",
+        "assists": "2",
+        "flag": "nigeria",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
         "name": "Mathias Jensen",
         "country": "Denmark",
         "team": "Brentford FC",
@@ -97,24 +151,6 @@
         "assists": "2",
         "flag": "england",
         "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Dejan Kulusevski",
-        "country": "Sweden",
-        "team": "Tottenham Hotspur",
-        "assists": "2",
-        "flag": "sweden",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Tottenham Hotspur",
-        "assists": "2",
-        "flag": "croatia",
-        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -141,42 +177,6 @@
         "team": "Manchester City",
         "assists": "2",
         "flag": "spain",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Allan Saint-Maximin",
-        "country": "France",
-        "team": "Newcastle United",
-        "assists": "2",
-        "flag": "france",
-        "logo": "newcastle_united"
-    },
-    {
-        "rank": "-",
-        "name": "Bukayo Saka",
-        "country": "England",
-        "team": "Arsenal FC",
-        "assists": "2",
-        "flag": "england",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mo Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "assists": "2",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "John Stones",
-        "country": "England",
-        "team": "Manchester City",
-        "assists": "2",
-        "flag": "england",
         "logo": "manchester_city"
     }
 ]
