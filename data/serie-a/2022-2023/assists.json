@@ -1,37 +1,73 @@
 [
     {
         "rank": "1.",
-        "name": " Gerard Deulofeu",
-        "country": "Spain",
-        "team": "Udinese Calcio",
-        "assists": "5",
-        "flag": "spain",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
         "name": "Sergej Milinković-Savić",
         "country": "Serbia",
         "team": "Lazio Roma",
-        "assists": "5",
+        "assists": "7",
         "flag": "serbia",
         "logo": "lazio_roma"
+    },
+    {
+        "rank": "2.",
+        "name": " Gerard Deulofeu",
+        "country": "Spain",
+        "team": "Udinese Calcio",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "3.",
         "name": "Roberto Pereyra",
         "country": "Argentina",
         "team": "Udinese Calcio",
-        "assists": "4",
+        "assists": "5",
         "flag": "argentina",
         "logo": "udinese_calcio"
     },
     {
         "rank": "4.",
+        "name": "Nicolò Barella",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Khvicha Kvaratskhelia",
+        "country": "Georgia",
+        "team": "SSC Napoli",
+        "assists": "4",
+        "flag": "georgia",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": " Mário Rui",
+        "country": "Portugal",
+        "team": "SSC Napoli",
+        "assists": "4",
+        "flag": "portugal",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Lorenzo Pellegrini",
+        "country": "Italy",
+        "team": "AS Roma",
+        "assists": "4",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": " Rafael Leão",
         "country": "Portugal",
         "team": "AC Milan",
-        "assists": "3",
+        "assists": "4",
         "flag": "portugal",
         "logo": "ac_milan"
     },
@@ -40,12 +76,57 @@
         "name": "Piotr Zieliński",
         "country": "Poland",
         "team": "SSC Napoli",
-        "assists": "3",
+        "assists": "4",
         "flag": "poland",
         "logo": "ssc_napoli"
     },
     {
-        "rank": "6.",
+        "rank": "10.",
+        "name": "Ciro Immobile",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Luis Muriel",
+        "country": "Colombia",
+        "team": "Atalanta",
+        "assists": "3",
+        "flag": "colombia",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Brandon Soppy",
+        "country": "France",
+        "team": "Udinese Calcio",
+        "assists": "3",
+        "flag": "france",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Mattia Zaccagni",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "3",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "14.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "AS Roma",
+        "assists": "2",
+        "flag": "england",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Frank Anguissa",
         "country": "Cameroon",
         "team": "SSC Napoli",
@@ -64,12 +145,30 @@
     },
     {
         "rank": "-",
-        "name": "Nicolò Barella",
-        "country": "Italy",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
         "team": "Inter",
         "assists": "2",
-        "flag": "italy",
+        "flag": "turkey",
         "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Andrea Cambiaso",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Patrick Ciurria",
+        "country": "Italy",
+        "team": "AC Monza",
+        "assists": "2",
+        "flag": "italy",
+        "logo": "ac_monza"
     },
     {
         "rank": "-",
@@ -79,104 +178,5 @@
         "assists": "2",
         "flag": "italy",
         "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Boulaye Dia",
-        "country": "Senegal",
-        "team": "US Salernitana 1919",
-        "assists": "2",
-        "flag": "senegal",
-        "logo": "us_salernitana_1919"
-    },
-    {
-        "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "AS Roma",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Morten Hjulmand",
-        "country": "Denmark",
-        "team": "US Lecce",
-        "assists": "2",
-        "flag": "denmark",
-        "logo": "us_lecce"
-    },
-    {
-        "rank": "-",
-        "name": "Ciro Immobile",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Denso Kasius",
-        "country": "Netherlands",
-        "team": "Bologna FC",
-        "assists": "2",
-        "flag": "netherlands",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Juventus",
-        "assists": "2",
-        "flag": "serbia",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": " Mário Rui",
-        "country": "Portugal",
-        "team": "SSC Napoli",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Pellegrini",
-        "country": "Italy",
-        "team": "AS Roma",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Tomás Rincón",
-        "country": "Venezuela",
-        "team": "Sampdoria",
-        "assists": "2",
-        "flag": "venezuela",
-        "logo": "sampdoria"
-    },
-    {
-        "rank": "-",
-        "name": "Riccardo Sottil",
-        "country": "Italy",
-        "team": "ACF Fiorentina",
-        "assists": "2",
-        "flag": "italy",
-        "logo": "acf_fiorentina"
-    },
-    {
-        "rank": "-",
-        "name": "Mërgim Vojvoda",
-        "country": "Kosovo",
-        "team": "Torino FC",
-        "assists": "2",
-        "flag": "kosovo",
-        "logo": "torino_fc"
     }
 ]

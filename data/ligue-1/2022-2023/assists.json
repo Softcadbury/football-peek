@@ -19,6 +19,15 @@
     },
     {
         "rank": "3.",
+        "name": " Caio Henrique",
+        "country": "Brazil",
+        "team": "AS Monaco",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "4.",
         "name": "Rémy Cabella",
         "country": "France",
         "team": "Lille OSC",
@@ -28,12 +37,21 @@
     },
     {
         "rank": "-",
-        "name": " Caio Henrique",
-        "country": "Brazil",
-        "team": "AS Monaco",
+        "name": "Fares Chaïbi",
+        "country": "France",
+        "team": "Toulouse FC",
         "assists": "4",
-        "flag": "brazil",
-        "logo": "as_monaco"
+        "flag": "france",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Jonathan Clauss",
+        "country": "France",
+        "team": "Olympique Marseille",
+        "assists": "4",
+        "flag": "france",
+        "logo": "olympique_marseille"
     },
     {
         "rank": "-",
@@ -54,7 +72,52 @@
         "logo": "fc_lorient"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Adrien Truffert",
+        "country": "France",
+        "team": "Stade Rennes",
+        "assists": "4",
+        "flag": "france",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
+        "name": "Branco van den Boomen",
+        "country": "Netherlands",
+        "team": "Toulouse FC",
+        "assists": "4",
+        "flag": "netherlands",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "11.",
+        "name": "Zakaria Aboukhlal",
+        "country": "Morocco",
+        "team": "Toulouse FC",
+        "assists": "3",
+        "flag": "morocco",
+        "logo": "toulouse_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Jonathan Bamba",
+        "country": "France",
+        "team": "Lille OSC",
+        "assists": "3",
+        "flag": "france",
+        "logo": "lille_osc"
+    },
+    {
+        "rank": "-",
+        "name": "Sofiane Boufal",
+        "country": "Morocco",
+        "team": "Angers SCO",
+        "assists": "3",
+        "flag": "morocco",
+        "logo": "angers_sco"
+    },
+    {
+        "rank": "-",
         "name": "Rayan Cherki",
         "country": "France",
         "team": "Olympique Lyon",
@@ -81,7 +144,25 @@
         "logo": "as_monaco"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Gédéon Kalulu",
+        "country": "Congo DR",
+        "team": "FC Lorient",
+        "assists": "3",
+        "flag": "congo_dr",
+        "logo": "fc_lorient"
+    },
+    {
+        "rank": "-",
+        "name": " Rony Lopes",
+        "country": "Portugal",
+        "team": "ESTAC Troyes",
+        "assists": "3",
+        "flag": "portugal",
+        "logo": "estac_troyes"
+    },
+    {
+        "rank": "19.",
         "name": "Mama Baldé",
         "country": "Guinea-Bissau",
         "team": "ESTAC Troyes",
@@ -91,92 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Jonathan Bamba",
-        "country": "France",
-        "team": "Lille OSC",
-        "assists": "2",
-        "flag": "france",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
         "name": "Youcef Belaïli",
         "country": "Algeria",
         "team": "Stade Brest",
         "assists": "2",
         "flag": "algeria",
         "logo": "stade_brest"
-    },
-    {
-        "rank": "-",
-        "name": "Sofiane Boufal",
-        "country": "Morocco",
-        "team": "Angers SCO",
-        "assists": "2",
-        "flag": "morocco",
-        "logo": "angers_sco"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan Clauss",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "assists": "2",
-        "flag": "france",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Jonathan David",
-        "country": "Canada",
-        "team": "Lille OSC",
-        "assists": "2",
-        "flag": "canada",
-        "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Seko Fofana",
-        "country": "Ivory Coast",
-        "team": "RC Lens",
-        "assists": "2",
-        "flag": "ivory_coast",
-        "logo": "rc_lens"
-    },
-    {
-        "rank": "-",
-        "name": "Przemysław Frankowski",
-        "country": "Poland",
-        "team": "RC Lens",
-        "assists": "2",
-        "flag": "poland",
-        "logo": "rc_lens"
-    },
-    {
-        "rank": "-",
-        "name": "Mattéo Guendouzi",
-        "country": "France",
-        "team": "Olympique Marseille",
-        "assists": "2",
-        "flag": "france",
-        "logo": "olympique_marseille"
-    },
-    {
-        "rank": "-",
-        "name": "Evann Guessand",
-        "country": "France",
-        "team": "FC Nantes",
-        "assists": "2",
-        "flag": "france",
-        "logo": "fc_nantes"
-    },
-    {
-        "rank": "-",
-        "name": "Gédéon Kalulu",
-        "country": "Congo DR",
-        "team": "FC Lorient",
-        "assists": "2",
-        "flag": "congo_dr",
-        "logo": "fc_lorient"
     }
 ]

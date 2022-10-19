@@ -1,15 +1,69 @@
 [
     {
         "rank": "1.",
+        "name": " Diogo Jota",
+        "country": "Portugal",
+        "team": "Liverpool FC",
+        "assists": "4",
+        "flag": "portugal",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
         "name": " João Cancelo",
         "country": "Portugal",
         "team": "Manchester City",
-        "assists": "3",
+        "assists": "4",
         "flag": "portugal",
         "logo": "manchester_city"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
+        "name": "Frank Anguissa",
+        "country": "Cameroon",
+        "team": "SSC Napoli",
+        "assists": "3",
+        "flag": "cameroon",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Ángel Di María",
+        "country": "Argentina",
+        "team": "Juventus",
+        "assists": "3",
+        "flag": "argentina",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Leon Goretzka",
+        "country": "Germany",
+        "team": "Bayern München",
+        "assists": "3",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Khvicha Kvaratskhelia",
+        "country": "Georgia",
+        "team": "SSC Napoli",
+        "assists": "3",
+        "flag": "georgia",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "7.",
+        "name": " André Silva",
+        "country": "Portugal",
+        "team": "RB Leipzig",
+        "assists": "2",
+        "flag": "portugal",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
         "name": "Steven Berghuis",
         "country": "Netherlands",
         "team": "AFC Ajax",
@@ -37,12 +91,48 @@
     },
     {
         "rank": "-",
+        "name": "Marcus Edwards",
+        "country": "England",
+        "team": "Sporting CP",
+        "assists": "2",
+        "flag": "england",
+        "logo": "sporting_cp"
+    },
+    {
+        "rank": "-",
+        "name": " Ferrán Jutglà",
+        "country": "Spain",
+        "team": "Club Brugge KV",
+        "assists": "2",
+        "flag": "spain",
+        "logo": "club_brugge_kv"
+    },
+    {
+        "rank": "-",
         "name": "Jeremie Frimpong",
         "country": "Netherlands",
         "team": "Bayer Leverkusen",
         "assists": "2",
         "flag": "netherlands",
         "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Amine Harit",
+        "country": "Morocco",
+        "team": "Olympique Marseille",
+        "assists": "2",
+        "flag": "morocco",
+        "logo": "olympique_marseille"
+    },
+    {
+        "rank": "-",
+        "name": "Pierre-Emile Højbjerg",
+        "country": "Denmark",
+        "team": "Tottenham Hotspur",
+        "assists": "2",
+        "flag": "denmark",
+        "logo": "tottenham_hotspur"
     },
     {
         "rank": "-",
@@ -55,6 +145,24 @@
     },
     {
         "rank": "-",
+        "name": "Toni Kroos",
+        "country": "Germany",
+        "team": "Real Madrid",
+        "assists": "2",
+        "flag": "germany",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Mason Mount",
+        "country": "England",
+        "team": "Chelsea FC",
+        "assists": "2",
+        "flag": "england",
+        "logo": "chelsea_fc"
+    },
+    {
+        "rank": "-",
         "name": "Mykhaylo Mudryk",
         "country": "Ukraine",
         "team": "Shakhtar Donetsk",
@@ -64,119 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Bruno Petković",
-        "country": "Croatia",
-        "team": "Dinamo Zagreb",
-        "assists": "2",
-        "flag": "croatia",
-        "logo": "dinamo_zagreb"
-    },
-    {
-        "rank": "-",
-        "name": " Rafael Leão",
-        "country": "Portugal",
-        "team": "AC Milan",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Gio Reyna",
-        "country": "USA",
-        "team": "Borussia Dortmund",
-        "assists": "2",
-        "flag": "usa",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Georgiy Sudakov",
-        "country": "Ukraine",
-        "team": "Shakhtar Donetsk",
-        "assists": "2",
-        "flag": "ukraine",
-        "logo": "shakhtar_donetsk"
-    },
-    {
-        "rank": "12.",
-        "name": "Chikwubuike Adamu",
-        "country": "Austria",
-        "team": "RB Salzburg",
-        "assists": "1",
-        "flag": "austria",
-        "logo": "rb_salzburg"
-    },
-    {
-        "rank": "-",
-        "name": " Álex Grimaldo",
-        "country": "Spain",
-        "team": "SL Benfica",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "sl_benfica"
-    },
-    {
-        "rank": "-",
-        "name": "Frank Anguissa",
-        "country": "Cameroon",
-        "team": "SSC Napoli",
-        "assists": "1",
-        "flag": "cameroon",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Julian Brandt",
+        "name": "Jamal Musiala",
         "country": "Germany",
-        "team": "Borussia Dortmund",
-        "assists": "1",
+        "team": "Bayern München",
+        "assists": "2",
         "flag": "germany",
-        "logo": "borussia_dortmund"
-    },
-    {
-        "rank": "-",
-        "name": "Ángel Correa",
-        "country": "Argentina",
-        "team": "Atlético Madrid",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Joaquín Correa",
-        "country": "Argentina",
-        "team": "Inter",
-        "assists": "1",
-        "flag": "argentina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": " Dani Carvajal",
-        "country": "Spain",
-        "team": "Real Madrid",
-        "assists": "1",
-        "flag": "spain",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Diogo Jota",
-        "country": "Portugal",
-        "team": "Liverpool FC",
-        "assists": "1",
-        "flag": "portugal",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "Inter",
-        "assists": "1",
-        "flag": "bosnia_herzegovina",
-        "logo": "inter"
+        "logo": "bayern_munchen"
     }
 ]
