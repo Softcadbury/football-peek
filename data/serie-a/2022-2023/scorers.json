@@ -1,12 +1,30 @@
 [
     {
         "rank": "1.",
+        "name": "Victor Osimhen",
+        "country": "Nigeria",
+        "team": "SSC Napoli",
+        "goals": "8",
+        "flag": "nigeria",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "2.",
         "name": "Marko Arnautović",
         "country": "Austria",
         "team": "Bologna FC",
-        "goals": "6",
+        "goals": "7",
         "flag": "austria",
         "logo": "bologna_fc"
+    },
+    {
+        "rank": "3.",
+        "name": " Beto",
+        "country": "Portugal",
+        "team": "Udinese Calcio",
+        "goals": "6",
+        "flag": "portugal",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
@@ -19,6 +37,33 @@
     },
     {
         "rank": "-",
+        "name": "Khvicha Kvaratskhelia",
+        "country": "Georgia",
+        "team": "SSC Napoli",
+        "goals": "6",
+        "flag": "georgia",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": "Ademola Lookman",
+        "country": "Nigeria",
+        "team": "Atalanta",
+        "goals": "6",
+        "flag": "nigeria",
+        "logo": "atalanta"
+    },
+    {
+        "rank": "-",
+        "name": "Lautaro Martínez",
+        "country": "Argentina",
+        "team": "Inter",
+        "goals": "6",
+        "flag": "argentina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
         "name": "Dušan Vlahović",
         "country": "Serbia",
         "team": "Juventus",
@@ -27,13 +72,22 @@
         "logo": "juventus"
     },
     {
-        "rank": "4.",
-        "name": " Beto",
-        "country": "Portugal",
-        "team": "Udinese Calcio",
+        "rank": "9.",
+        "name": "Nicolò Barella",
+        "country": "Italy",
+        "team": "Inter",
         "goals": "5",
-        "flag": "portugal",
-        "logo": "udinese_calcio"
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Boulaye Dia",
+        "country": "Senegal",
+        "team": "US Salernitana 1919",
+        "goals": "5",
+        "flag": "senegal",
+        "logo": "us_salernitana_1919"
     },
     {
         "rank": "-",
@@ -46,21 +100,57 @@
     },
     {
         "rank": "-",
-        "name": "Khvicha Kvaratskhelia",
-        "country": "Georgia",
-        "team": "SSC Napoli",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "AC Milan",
         "goals": "5",
-        "flag": "georgia",
-        "logo": "ssc_napoli"
+        "flag": "france",
+        "logo": "ac_milan"
     },
     {
-        "rank": "7.",
-        "name": "Boulaye Dia",
-        "country": "Senegal",
-        "team": "US Salernitana 1919",
+        "rank": "-",
+        "name": "M'Bala Nzola",
+        "country": "Angola",
+        "team": "Spezia Calcio",
+        "goals": "5",
+        "flag": "angola",
+        "logo": "spezia_calcio"
+    },
+    {
+        "rank": "-",
+        "name": " Rafael Leão",
+        "country": "Portugal",
+        "team": "AC Milan",
+        "goals": "5",
+        "flag": "portugal",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Mattia Zaccagni",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "5",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "16.",
+        "name": " Brahim Díaz",
+        "country": "Spain",
+        "team": "AC Milan",
         "goals": "4",
-        "flag": "senegal",
-        "logo": "us_salernitana_1919"
+        "flag": "spain",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Davide Frattesi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "4",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
     },
     {
         "rank": "-",
@@ -73,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "AC Milan",
-        "goals": "4",
-        "flag": "france",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
         "name": "Teun Koopmeiners",
         "country": "Netherlands",
         "team": "Atalanta",
@@ -90,93 +171,12 @@
         "logo": "atalanta"
     },
     {
-        "rank": "-",
-        "name": "Ademola Lookman",
-        "country": "Nigeria",
-        "team": "Atalanta",
-        "goals": "4",
-        "flag": "nigeria",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Lautaro Martínez",
-        "country": "Argentina",
-        "team": "Inter",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "M'Bala Nzola",
-        "country": "Angola",
-        "team": "Spezia Calcio",
-        "goals": "4",
-        "flag": "angola",
-        "logo": "spezia_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Rafael Leão",
-        "country": "Portugal",
-        "team": "AC Milan",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "15.",
-        "name": "Nicolò Barella",
-        "country": "Italy",
-        "team": "Inter",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
+        "rank": "20.",
         "name": "Assan Ceesay",
         "country": "Gambia",
         "team": "US Lecce",
         "goals": "3",
         "flag": "gambia",
         "logo": "us_lecce"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "Inter",
-        "goals": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Davide Frattesi",
-        "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "goals": "3",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": " Luis Alberto",
-        "country": "Spain",
-        "team": "Lazio Roma",
-        "goals": "3",
-        "flag": "spain",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Arkadiusz Milik",
-        "country": "Poland",
-        "team": "Juventus",
-        "goals": "3",
-        "flag": "poland",
-        "logo": "juventus"
     }
 ]

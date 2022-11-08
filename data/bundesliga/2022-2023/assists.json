@@ -1,6 +1,42 @@
 [
     {
         "rank": "1.",
+        "name": "Randal Kolo Muani",
+        "country": "Congo DR",
+        "team": "Eintracht Frankfurt",
+        "assists": "7",
+        "flag": "congo_dr",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "-",
+        "name": "Alassane Pléa",
+        "country": "France",
+        "team": "Bor. Mönchengladbach",
+        "assists": "7",
+        "flag": "france",
+        "logo": "bor__monchengladbach"
+    },
+    {
+        "rank": "3.",
+        "name": "Dominik Szoboszlai",
+        "country": "Hungary",
+        "team": "RB Leipzig",
+        "assists": "6",
+        "flag": "hungary",
+        "logo": "rb_leipzig"
+    },
+    {
+        "rank": "-",
+        "name": "Mitchell Weiser",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "assists": "6",
+        "flag": "germany",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "5.",
         "name": "Florian Kainz",
         "country": "Austria",
         "team": "1. FC Köln",
@@ -9,25 +45,25 @@
         "logo": "1__fc_koln"
     },
     {
-        "rank": "-",
-        "name": "Randal Kolo Muani",
-        "country": "Congo DR",
-        "team": "Eintracht Frankfurt",
-        "assists": "5",
-        "flag": "congo_dr",
-        "logo": "eintracht_frankfurt"
+        "rank": "6.",
+        "name": "Mërgim Berisha",
+        "country": "Germany",
+        "team": "FC Augsburg",
+        "assists": "4",
+        "flag": "germany",
+        "logo": "fc_augsburg"
     },
     {
         "rank": "-",
-        "name": "Jamal Musiala",
-        "country": "Germany",
+        "name": "Kingsley Coman",
+        "country": "France",
         "team": "Bayern München",
-        "assists": "5",
-        "flag": "germany",
+        "assists": "4",
+        "flag": "france",
         "logo": "bayern_munchen"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "Marvin Ducksch",
         "country": "Germany",
         "team": "Werder Bremen",
@@ -37,39 +73,57 @@
     },
     {
         "rank": "-",
-        "name": "Alassane Pléa",
-        "country": "France",
-        "team": "Bor. Mönchengladbach",
+        "name": "Youssoufa Moukoko",
+        "country": "Germany",
+        "team": "Borussia Dortmund",
         "assists": "4",
-        "flag": "france",
-        "logo": "bor__monchengladbach"
+        "flag": "germany",
+        "logo": "borussia_dortmund"
     },
     {
         "rank": "-",
-        "name": "Mitchell Weiser",
+        "name": "Jamal Musiala",
         "country": "Germany",
-        "team": "Werder Bremen",
+        "team": "Bayern München",
         "assists": "4",
         "flag": "germany",
-        "logo": "werder_bremen"
+        "logo": "bayern_munchen"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": " Paulo Otávio",
+        "country": "Brazil",
+        "team": "VfL Wolfsburg",
+        "assists": "4",
+        "flag": "brazil",
+        "logo": "vfl_wolfsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Borna Sosa",
+        "country": "Croatia",
+        "team": "VfB Stuttgart",
+        "assists": "4",
+        "flag": "croatia",
+        "logo": "vfb_stuttgart"
+    },
+    {
+        "rank": "13.",
+        "name": "Christoph Baumgartner",
+        "country": "Austria",
+        "team": "1899 Hoffenheim",
+        "assists": "3",
+        "flag": "austria",
+        "logo": "1899_hoffenheim"
+    },
+    {
+        "rank": "-",
         "name": "Sheraldo Becker",
         "country": "Suriname",
         "team": "1. FC Union Berlin",
         "assists": "3",
         "flag": "suriname",
         "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
-        "name": "Kingsley Coman",
-        "country": "France",
-        "team": "Bayern München",
-        "assists": "3",
-        "flag": "france",
-        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -100,43 +154,7 @@
     },
     {
         "rank": "-",
-        "name": "Jonas Hofmann",
-        "country": "Germany",
-        "team": "Bor. Mönchengladbach",
-        "assists": "3",
-        "flag": "germany",
-        "logo": "bor__monchengladbach"
-    },
-    {
-        "rank": "-",
-        "name": "Saša Kalajdžić",
-        "country": "Austria",
-        "team": "VfB Stuttgart",
-        "assists": "3",
-        "flag": "austria",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Daichi Kamada",
-        "country": "Japan",
-        "team": "Eintracht Frankfurt",
-        "assists": "3",
-        "flag": "japan",
-        "logo": "eintracht_frankfurt"
-    },
-    {
-        "rank": "-",
-        "name": "Silas Katompa Mvumpa",
-        "country": "Congo DR",
-        "team": "VfB Stuttgart",
-        "assists": "3",
-        "flag": "congo_dr",
-        "logo": "vfb_stuttgart"
-    },
-    {
-        "rank": "-",
-        "name": "Thomas Müller",
+        "name": "Serge Gnabry",
         "country": "Germany",
         "team": "Bayern München",
         "assists": "3",
@@ -145,38 +163,20 @@
     },
     {
         "rank": "-",
-        "name": " Paulo Otávio",
-        "country": "Brazil",
-        "team": "VfL Wolfsburg",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "SC Freiburg",
         "assists": "3",
-        "flag": "brazil",
-        "logo": "vfl_wolfsburg"
+        "flag": "italy",
+        "logo": "sc_freiburg"
     },
     {
         "rank": "-",
-        "name": "Jordan Siebatcheu",
-        "country": "USA",
-        "team": "1. FC Union Berlin",
-        "assists": "3",
-        "flag": "usa",
-        "logo": "1__fc_union_berlin"
-    },
-    {
-        "rank": "-",
-        "name": "Anton Stach",
+        "name": "Jonas Hofmann",
         "country": "Germany",
-        "team": "1. FSV Mainz 05",
+        "team": "Bor. Mönchengladbach",
         "assists": "3",
         "flag": "germany",
-        "logo": "1__fsv_mainz_05"
-    },
-    {
-        "rank": "-",
-        "name": "Dominik Szoboszlai",
-        "country": "Hungary",
-        "team": "RB Leipzig",
-        "assists": "3",
-        "flag": "hungary",
-        "logo": "rb_leipzig"
+        "logo": "bor__monchengladbach"
     }
 ]

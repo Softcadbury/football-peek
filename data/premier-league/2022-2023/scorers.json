@@ -4,7 +4,7 @@
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Manchester City",
-        "goals": "15",
+        "goals": "18",
         "flag": "norway",
         "logo": "manchester_city"
     },
@@ -13,12 +13,30 @@
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "9",
+        "goals": "11",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
     {
         "rank": "3.",
+        "name": "Aleksandar Mitrović",
+        "country": "Serbia",
+        "team": "Fulham FC",
+        "goals": "9",
+        "flag": "serbia",
+        "logo": "fulham_fc"
+    },
+    {
+        "rank": "4.",
+        "name": "Miguel Almirón",
+        "country": "Paraguay",
+        "team": "Newcastle United",
+        "goals": "8",
+        "flag": "paraguay",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
         "name": "Ivan Toney",
         "country": "England",
         "team": "Brentford FC",
@@ -27,22 +45,40 @@
         "logo": "brentford_fc"
     },
     {
-        "rank": "4.",
-        "name": "Aleksandar Mitrović",
-        "country": "Serbia",
-        "team": "Fulham FC",
+        "rank": "6.",
+        "name": " Rodrigo",
+        "country": "Spain",
+        "team": "Leeds United",
         "goals": "7",
-        "flag": "serbia",
-        "logo": "fulham_fc"
+        "flag": "spain",
+        "logo": "leeds_united"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": "Leandro Trossard",
+        "country": "Belgium",
+        "team": "Brighton & Hove Albion",
+        "goals": "7",
+        "flag": "belgium",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "8.",
         "name": "Phil Foden",
         "country": "England",
         "team": "Manchester City",
         "goals": "6",
         "flag": "england",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": "James Maddison",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "6",
+        "flag": "england",
+        "logo": "leicester_city"
     },
     {
         "rank": "-",
@@ -54,7 +90,43 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Mo Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "6",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Callum Wilson",
+        "country": "England",
+        "team": "Newcastle United",
+        "goals": "6",
+        "flag": "england",
+        "logo": "newcastle_united"
+    },
+    {
+        "rank": "-",
+        "name": "Wilfried Zaha",
+        "country": "Ivory Coast",
+        "team": "Crystal Palace",
+        "goals": "6",
+        "flag": "ivory_coast",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "14.",
+        "name": "Harvey Barnes",
+        "country": "England",
+        "team": "Leicester City",
+        "goals": "5",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
         "name": " Gabriel Jesus",
         "country": "Brazil",
         "team": "Arsenal FC",
@@ -64,48 +136,30 @@
     },
     {
         "rank": "-",
-        "name": "James Maddison",
-        "country": "England",
-        "team": "Leicester City",
-        "goals": "5",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Leandro Trossard",
-        "country": "Belgium",
-        "team": "Brighton & Hove Albion",
-        "goals": "5",
-        "flag": "belgium",
-        "logo": "brighton___hove_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Wilfried Zaha",
-        "country": "Ivory Coast",
-        "team": "Crystal Palace",
-        "goals": "5",
-        "flag": "ivory_coast",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "11.",
-        "name": "Miguel Almirón",
-        "country": "Paraguay",
-        "team": "Newcastle United",
-        "goals": "4",
-        "flag": "paraguay",
-        "logo": "newcastle_united"
-    },
-    {
-        "rank": "-",
         "name": " Gabriel Martinelli",
         "country": "Brazil",
         "team": "Arsenal FC",
-        "goals": "4",
+        "goals": "5",
         "flag": "brazil",
         "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Pascal Groß",
+        "country": "Germany",
+        "team": "Brighton & Hove Albion",
+        "goals": "5",
+        "flag": "germany",
+        "logo": "brighton___hove_albion"
+    },
+    {
+        "rank": "18.",
+        "name": "Philip Billing",
+        "country": "Denmark",
+        "team": "AFC Bournemouth",
+        "goals": "4",
+        "flag": "denmark",
+        "logo": "afc_bournemouth"
     },
     {
         "rank": "-",
@@ -118,65 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Rodrigo",
-        "country": "Spain",
-        "team": "Leeds United",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "leeds_united"
-    },
-    {
-        "rank": "-",
-        "name": "Bukayo Saka",
-        "country": "England",
+        "name": "Martin Ødegaard",
+        "country": "Norway",
         "team": "Arsenal FC",
         "goals": "4",
-        "flag": "england",
+        "flag": "norway",
         "logo": "arsenal_fc"
-    },
-    {
-        "rank": "16.",
-        "name": " Antony",
-        "country": "Brazil",
-        "team": "Manchester United",
-        "goals": "3",
-        "flag": "brazil",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Philip Billing",
-        "country": "Denmark",
-        "team": "AFC Bournemouth",
-        "goals": "3",
-        "flag": "denmark",
-        "logo": "afc_bournemouth"
-    },
-    {
-        "rank": "-",
-        "name": "Patson Daka",
-        "country": "Zambia",
-        "team": "Leicester City",
-        "goals": "3",
-        "flag": "zambia",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Luis Díaz",
-        "country": "Colombia",
-        "team": "Liverpool FC",
-        "goals": "3",
-        "flag": "colombia",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Pascal Groß",
-        "country": "Germany",
-        "team": "Brighton & Hove Albion",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "brighton___hove_albion"
     }
 ]

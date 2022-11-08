@@ -1,33 +1,51 @@
 [
     {
         "rank": "1.",
-        "name": "Niclas Füllkrug",
-        "country": "Germany",
-        "team": "Werder Bremen",
-        "goals": "8",
-        "flag": "germany",
-        "logo": "werder_bremen"
-    },
-    {
-        "rank": "2.",
         "name": "Christopher Nkunku",
         "country": "France",
         "team": "RB Leipzig",
-        "goals": "7",
+        "goals": "11",
         "flag": "france",
         "logo": "rb_leipzig"
     },
     {
-        "rank": "-",
+        "rank": "2.",
+        "name": "Niclas Füllkrug",
+        "country": "Germany",
+        "team": "Werder Bremen",
+        "goals": "10",
+        "flag": "germany",
+        "logo": "werder_bremen"
+    },
+    {
+        "rank": "3.",
         "name": "Marcus Thuram",
         "country": "France",
         "team": "Bor. Mönchengladbach",
-        "goals": "7",
+        "goals": "9",
         "flag": "france",
         "logo": "bor__monchengladbach"
     },
     {
         "rank": "4.",
+        "name": "Jamal Musiala",
+        "country": "Germany",
+        "team": "Bayern München",
+        "goals": "8",
+        "flag": "germany",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "5.",
+        "name": "Daichi Kamada",
+        "country": "Japan",
+        "team": "Eintracht Frankfurt",
+        "goals": "7",
+        "flag": "japan",
+        "logo": "eintracht_frankfurt"
+    },
+    {
+        "rank": "6.",
         "name": "Sheraldo Becker",
         "country": "Suriname",
         "team": "1. FC Union Berlin",
@@ -37,19 +55,19 @@
     },
     {
         "rank": "-",
-        "name": "Daichi Kamada",
-        "country": "Japan",
-        "team": "Eintracht Frankfurt",
+        "name": "Vincenzo Grifo",
+        "country": "Italy",
+        "team": "SC Freiburg",
         "goals": "6",
-        "flag": "japan",
-        "logo": "eintracht_frankfurt"
+        "flag": "italy",
+        "logo": "sc_freiburg"
     },
     {
-        "rank": "6.",
+        "rank": "-",
         "name": "Dodi Lukébakio",
         "country": "Belgium",
         "team": "Hertha BSC",
-        "goals": "5",
+        "goals": "6",
         "flag": "belgium",
         "logo": "hertha_bsc"
     },
@@ -58,18 +76,72 @@
         "name": "Sadio Mané",
         "country": "Senegal",
         "team": "Bayern München",
-        "goals": "5",
+        "goals": "6",
         "flag": "senegal",
         "logo": "bayern_munchen"
     },
     {
         "rank": "-",
-        "name": "Jamal Musiala",
+        "name": "Youssoufa Moukoko",
         "country": "Germany",
+        "team": "Borussia Dortmund",
+        "goals": "6",
+        "flag": "germany",
+        "logo": "borussia_dortmund"
+    },
+    {
+        "rank": "11.",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
         "team": "Bayern München",
         "goals": "5",
-        "flag": "germany",
+        "flag": "cameroon",
         "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Ermedin Demirović",
+        "country": "Bosnia-Herzegovina",
+        "team": "FC Augsburg",
+        "goals": "5",
+        "flag": "bosnia_herzegovina",
+        "logo": "fc_augsburg"
+    },
+    {
+        "rank": "-",
+        "name": "Jeremie Frimpong",
+        "country": "Netherlands",
+        "team": "Bayer Leverkusen",
+        "goals": "5",
+        "flag": "netherlands",
+        "logo": "bayer_leverkusen"
+    },
+    {
+        "rank": "-",
+        "name": "Michael Gregoritsch",
+        "country": "Austria",
+        "team": "SC Freiburg",
+        "goals": "5",
+        "flag": "austria",
+        "logo": "sc_freiburg"
+    },
+    {
+        "rank": "-",
+        "name": "Florian Kainz",
+        "country": "Austria",
+        "team": "1. FC Köln",
+        "goals": "5",
+        "flag": "austria",
+        "logo": "1__fc_koln"
+    },
+    {
+        "rank": "-",
+        "name": "Jesper Lindstrøm",
+        "country": "Denmark",
+        "team": "Eintracht Frankfurt",
+        "goals": "5",
+        "flag": "denmark",
+        "logo": "eintracht_frankfurt"
     },
     {
         "rank": "-",
@@ -81,7 +153,7 @@
         "logo": "bayern_munchen"
     },
     {
-        "rank": "10.",
+        "rank": "18.",
         "name": "Ramy Bensebaini",
         "country": "Algeria",
         "team": "Bor. Mönchengladbach",
@@ -100,83 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Ermedin Demirović",
-        "country": "Bosnia-Herzegovina",
-        "team": "FC Augsburg",
-        "goals": "4",
-        "flag": "bosnia_herzegovina",
-        "logo": "fc_augsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Jeremie Frimpong",
-        "country": "Netherlands",
+        "name": "Moussa Diaby",
+        "country": "France",
         "team": "Bayer Leverkusen",
         "goals": "4",
-        "flag": "netherlands",
+        "flag": "france",
         "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Michael Gregoritsch",
-        "country": "Austria",
-        "team": "SC Freiburg",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Florian Kainz",
-        "country": "Austria",
-        "team": "1. FC Köln",
-        "goals": "4",
-        "flag": "austria",
-        "logo": "1__fc_koln"
-    },
-    {
-        "rank": "-",
-        "name": "Simon Zoller",
-        "country": "Germany",
-        "team": "VfL Bochum",
-        "goals": "4",
-        "flag": "germany",
-        "logo": "vfl_bochum"
-    },
-    {
-        "rank": "17.",
-        "name": "Marius Bülter",
-        "country": "Germany",
-        "team": "FC Schalke 04",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "fc_schalke_04"
-    },
-    {
-        "rank": "-",
-        "name": "Kerem Demirbay",
-        "country": "Germany",
-        "team": "Bayer Leverkusen",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "bayer_leverkusen"
-    },
-    {
-        "rank": "-",
-        "name": "Yannick Gerhardt",
-        "country": "Germany",
-        "team": "VfL Wolfsburg",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "vfl_wolfsburg"
-    },
-    {
-        "rank": "-",
-        "name": "Serge Gnabry",
-        "country": "Germany",
-        "team": "Bayern München",
-        "goals": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
     }
 ]

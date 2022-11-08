@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Santiago Giménez",
+        "country": "Mexico",
+        "team": "Feyenoord",
+        "goals": "4",
+        "flag": "mexico",
+        "logo": "feyenoord"
+    },
+    {
+        "rank": "-",
         "name": " Vitinha",
         "country": "Portugal",
         "team": "Sporting Braga",
@@ -9,13 +18,31 @@
         "logo": "sporting_braga"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
+        "name": "Anastasios Bakasetas",
+        "country": "Greece",
+        "team": "Trabzonspor",
+        "goals": "3",
+        "flag": "greece",
+        "logo": "trabzonspor"
+    },
+    {
+        "rank": "-",
         "name": "Michy Batshuayi",
         "country": "Belgium",
         "team": "Fenerbahçe",
         "goals": "3",
         "flag": "belgium",
         "logo": "fenerbahce"
+    },
+    {
+        "rank": "-",
+        "name": "Wissam Ben Yedder",
+        "country": "France",
+        "team": "AS Monaco",
+        "goals": "3",
+        "flag": "france",
+        "logo": "as_monaco"
     },
     {
         "rank": "-",
@@ -37,15 +64,6 @@
     },
     {
         "rank": "-",
-        "name": "Santiago Giménez",
-        "country": "Mexico",
-        "team": "Feyenoord",
-        "goals": "3",
-        "flag": "mexico",
-        "logo": "feyenoord"
-    },
-    {
-        "rank": "-",
         "name": "Michael Gregoritsch",
         "country": "Austria",
         "team": "SC Freiburg",
@@ -54,92 +72,20 @@
         "logo": "sc_freiburg"
     },
     {
-        "rank": "7.",
-        "name": "Andrea Belotti",
-        "country": "Italy",
-        "team": "AS Roma",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Wissam Ben Yedder",
-        "country": "France",
-        "team": "AS Monaco",
-        "goals": "2",
-        "flag": "france",
-        "logo": "as_monaco"
-    },
-    {
-        "rank": "-",
-        "name": "William Bøving",
-        "country": "Denmark",
-        "team": "Sturm Graz",
-        "goals": "2",
-        "flag": "denmark",
-        "logo": "sturm_graz"
-    },
-    {
-        "rank": "-",
-        "name": " Canales",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "2",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "AS Roma",
-        "goals": "2",
-        "flag": "argentina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Vincenzo Grifo",
-        "country": "Italy",
-        "team": "SC Freiburg",
-        "goals": "2",
-        "flag": "italy",
-        "logo": "sc_freiburg"
-    },
-    {
-        "rank": "-",
-        "name": "Dávid Hancko",
-        "country": "Slovakia",
-        "team": "Feyenoord",
-        "goals": "2",
-        "flag": "slovakia",
-        "logo": "feyenoord"
-    },
-    {
         "rank": "-",
         "name": "Gustav Isaksen",
         "country": "Denmark",
         "team": "FC Midtjylland",
-        "goals": "2",
+        "goals": "3",
         "flag": "denmark",
         "logo": "fc_midtjylland"
-    },
-    {
-        "rank": "-",
-        "name": "Alireza Jahanbakhsh",
-        "country": "Iran",
-        "team": "Feyenoord",
-        "goals": "2",
-        "flag": "iran",
-        "logo": "feyenoord"
     },
     {
         "rank": "-",
         "name": "Guélor Kanga",
         "country": "Gabon",
         "team": "Crvena Zvezda",
-        "goals": "2",
+        "goals": "3",
         "flag": "gabon",
         "logo": "crvena_zvezda"
     },
@@ -148,35 +94,89 @@
         "name": "Owusu Kwabena",
         "country": "Ghana",
         "team": "Qarabağ FK",
-        "goals": "2",
+        "goals": "3",
         "flag": "ghana",
         "logo": "qaraba__fk"
     },
     {
         "rank": "-",
-        "name": " Luiz Henrique",
+        "name": "Lorenzo Pellegrini",
+        "country": "Italy",
+        "team": "AS Roma",
+        "goals": "3",
+        "flag": "italy",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
+        "name": "Marcus Rashford",
+        "country": "England",
+        "team": "Manchester United",
+        "goals": "3",
+        "flag": "england",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": " Rick",
         "country": "Brazil",
+        "team": "PFC Ludogorets Razgrad",
+        "goals": "3",
+        "flag": "brazil",
+        "logo": "pfc_ludogorets_razgrad"
+    },
+    {
+        "rank": "-",
+        "name": "Martin Terrier",
+        "country": "France",
+        "team": "Stade Rennes",
+        "goals": "3",
+        "flag": "france",
+        "logo": "stade_rennes"
+    },
+    {
+        "rank": "-",
+        "name": "Joey Veerman",
+        "country": "Netherlands",
+        "team": "PSV Eindhoven",
+        "goals": "3",
+        "flag": "netherlands",
+        "logo": "psv_eindhoven"
+    },
+    {
+        "rank": "-",
+        "name": "Kevin Volland",
+        "country": "Germany",
+        "team": "AS Monaco",
+        "goals": "3",
+        "flag": "germany",
+        "logo": "as_monaco"
+    },
+    {
+        "rank": "-",
+        "name": "Kristoffer Zachariassen",
+        "country": "Norway",
+        "team": "Ferencvárosi TC",
+        "goals": "3",
+        "flag": "norway",
+        "logo": "ferencvarosi_tc"
+    },
+    {
+        "rank": "19.",
+        "name": " Aitor Ruibal",
+        "country": "Spain",
         "team": "Real Betis",
         "goals": "2",
-        "flag": "brazil",
+        "flag": "spain",
         "logo": "real_betis"
     },
     {
         "rank": "-",
-        "name": "Stefan Mitrović",
-        "country": "Serbia",
-        "team": "Crvena Zvezda",
+        "name": "Omri Altman",
+        "country": "Israel",
+        "team": "AEK Larnaca",
         "goals": "2",
-        "flag": "serbia",
-        "logo": "crvena_zvezda"
-    },
-    {
-        "rank": "-",
-        "name": "Tokmac Nguen",
-        "country": "Norway",
-        "team": "Ferencvárosi TC",
-        "goals": "2",
-        "flag": "norway",
-        "logo": "ferencvarosi_tc"
+        "flag": "israel",
+        "logo": "aek_larnaca"
     }
 ]
