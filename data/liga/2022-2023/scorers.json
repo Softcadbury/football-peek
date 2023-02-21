@@ -4,88 +4,97 @@
         "name": "Robert Lewandowski",
         "country": "Poland",
         "team": "FC Barcelona",
-        "goals": "13",
+        "goals": "15",
         "flag": "poland",
         "logo": "fc_barcelona"
     },
     {
         "rank": "2.",
-        "name": " Borja Iglesias",
-        "country": "Spain",
-        "team": "Real Betis",
-        "goals": "8",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "3.",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "7",
-        "flag": "spain",
-        "logo": "celta_vigo"
+        "name": "Karim Benzema",
+        "country": "France",
+        "team": "Real Madrid",
+        "goals": "11",
+        "flag": "france",
+        "logo": "real_madrid"
     },
     {
         "rank": "-",
         "name": " Joselu",
         "country": "Spain",
         "team": "Espanyol Barcelona",
-        "goals": "7",
+        "goals": "11",
         "flag": "spain",
         "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "4.",
+        "name": " Borja Iglesias",
+        "country": "Spain",
+        "team": "Real Betis",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "real_betis"
+    },
+    {
+        "rank": "-",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
         "name": "Vedat Muriqi",
         "country": "Kosovo",
         "team": "RCD Mallorca",
-        "goals": "7",
+        "goals": "9",
         "flag": "kosovo",
         "logo": "rcd_mallorca"
     },
     {
-        "rank": "6.",
-        "name": "Ezequiel Ávila",
-        "country": "Argentina",
-        "team": "CA Osasuna",
-        "goals": "6",
-        "flag": "argentina",
-        "logo": "ca_osasuna"
+        "rank": "-",
+        "name": "Alexander Sørloth",
+        "country": "Norway",
+        "team": "Real Sociedad",
+        "goals": "9",
+        "flag": "norway",
+        "logo": "real_sociedad"
     },
     {
-        "rank": "-",
-        "name": "Federico Valverde",
-        "country": "Uruguay",
-        "team": "Real Madrid",
-        "goals": "6",
-        "flag": "uruguay",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Vinícius Júnior",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "goals": "6",
-        "flag": "brazil",
-        "logo": "real_madrid"
+        "rank": "8.",
+        "name": " Oihan Sancet",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
     },
     {
         "rank": "9.",
-        "name": "Karim Benzema",
-        "country": "France",
-        "team": "Real Madrid",
-        "goals": "5",
-        "flag": "france",
-        "logo": "real_madrid"
+        "name": " Álvaro Morata",
+        "country": "Spain",
+        "team": "Atlético Madrid",
+        "goals": "7",
+        "flag": "spain",
+        "logo": "atletico_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Ezequiel Ávila",
+        "country": "Argentina",
+        "team": "CA Osasuna",
+        "goals": "7",
+        "flag": "argentina",
+        "logo": "ca_osasuna"
     },
     {
         "rank": "-",
         "name": " Brais Méndez",
         "country": "Spain",
         "team": "Real Sociedad",
-        "goals": "5",
+        "goals": "7",
         "flag": "spain",
         "logo": "real_sociedad"
     },
@@ -94,89 +103,80 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "goals": "5",
+        "goals": "7",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Iñaki Williams",
-        "country": "Ghana",
-        "team": "Athletic Bilbao",
-        "goals": "5",
-        "flag": "ghana",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": "Álvaro Morata",
-        "country": "Spain",
-        "team": "Atlético Madrid",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": " Sergio León",
-        "country": "Spain",
-        "team": "Real Valladolid",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "real_valladolid"
-    },
-    {
-        "rank": "15.",
-        "name": " Álex Baena",
-        "country": "Spain",
-        "team": "Villarreal CF",
-        "goals": "4",
-        "flag": "spain",
-        "logo": "villarreal_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Edinson Cavani",
-        "country": "Uruguay",
-        "team": "Valencia CF",
-        "goals": "4",
-        "flag": "uruguay",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Ousmane Dembélé",
-        "country": "France",
-        "team": "FC Barcelona",
-        "goals": "4",
-        "flag": "france",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Rodrygo",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "goals": "4",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Cristhian Stuani",
-        "country": "Uruguay",
-        "team": "Girona FC",
-        "goals": "4",
-        "flag": "uruguay",
-        "logo": "girona_fc"
     },
     {
         "rank": "-",
         "name": "Enes Ünal",
         "country": "Turkey",
         "team": "Getafe CF",
-        "goals": "4",
+        "goals": "7",
         "flag": "turkey",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Valverde",
+        "country": "Uruguay",
+        "team": "Real Madrid",
+        "goals": "7",
+        "flag": "uruguay",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Vinícius Júnior",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "goals": "7",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "16.",
+        "name": " Gabri Veiga",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
+        "name": " Pedri",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Pere Milla",
+        "country": "Spain",
+        "team": "Elche CF",
+        "goals": "6",
+        "flag": "spain",
+        "logo": "elche_cf"
+    },
+    {
+        "rank": "-",
+        "name": "Cristhian Stuani",
+        "country": "Uruguay",
+        "team": "Girona FC",
+        "goals": "6",
+        "flag": "uruguay",
+        "logo": "girona_fc"
+    },
+    {
+        "rank": "20.",
+        "name": " Borja Mayoral",
+        "country": "Spain",
+        "team": "Getafe CF",
+        "goals": "5",
+        "flag": "spain",
         "logo": "getafe_cf"
     }
 ]

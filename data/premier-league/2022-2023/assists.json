@@ -4,7 +4,7 @@
         "name": "Kevin De Bruyne",
         "country": "Belgium",
         "team": "Manchester City",
-        "assists": "9",
+        "assists": "12",
         "flag": "belgium",
         "logo": "manchester_city"
     },
@@ -13,18 +13,72 @@
         "name": "Bukayo Saka",
         "country": "England",
         "team": "Arsenal FC",
-        "assists": "6",
+        "assists": "8",
         "flag": "england",
         "logo": "arsenal_fc"
     },
     {
         "rank": "3.",
+        "name": "Christian Eriksen",
+        "country": "Denmark",
+        "team": "Manchester United",
+        "assists": "7",
+        "flag": "denmark",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "4.",
+        "name": " Andreas Pereira",
+        "country": "Brazil",
+        "team": "Fulham FC",
+        "assists": "6",
+        "flag": "brazil",
+        "logo": "fulham_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Bruno Fernandes",
+        "country": "Portugal",
+        "team": "Manchester United",
+        "assists": "6",
+        "flag": "portugal",
+        "logo": "manchester_united"
+    },
+    {
+        "rank": "-",
+        "name": "Alex Iwobi",
+        "country": "Nigeria",
+        "team": "Everton FC",
+        "assists": "6",
+        "flag": "nigeria",
+        "logo": "everton_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Martin Ødegaard",
+        "country": "Norway",
+        "team": "Arsenal FC",
+        "assists": "6",
+        "flag": "norway",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "8.",
         "name": " Bernardo Silva",
         "country": "Portugal",
         "team": "Manchester City",
         "assists": "5",
         "flag": "portugal",
         "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": " Douglas Luiz",
+        "country": "Brazil",
+        "team": "Aston Villa",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "aston_villa"
     },
     {
         "rank": "-",
@@ -37,24 +91,78 @@
     },
     {
         "rank": "-",
-        "name": "Alex Iwobi",
-        "country": "Nigeria",
-        "team": "Everton FC",
+        "name": "Morgan Gibbs-White",
+        "country": "England",
+        "team": "Wolverhampton Wanderers",
         "assists": "5",
-        "flag": "nigeria",
-        "logo": "everton_fc"
-    },
-    {
-        "rank": "6.",
-        "name": " Andreas Pereira",
-        "country": "Brazil",
-        "team": "Fulham FC",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "fulham_fc"
+        "flag": "england",
+        "logo": "wolverhampton_wanderers"
     },
     {
         "rank": "-",
+        "name": "Dejan Kulusevski",
+        "country": "Sweden",
+        "team": "Tottenham Hotspur",
+        "assists": "5",
+        "flag": "sweden",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "James Maddison",
+        "country": "England",
+        "team": "Leicester City",
+        "assists": "5",
+        "flag": "england",
+        "logo": "leicester_city"
+    },
+    {
+        "rank": "-",
+        "name": "Michael Olise",
+        "country": "France",
+        "team": "Crystal Palace",
+        "assists": "5",
+        "flag": "france",
+        "logo": "crystal_palace"
+    },
+    {
+        "rank": "-",
+        "name": "Ivan Perišić",
+        "country": "Croatia",
+        "team": "Tottenham Hotspur",
+        "assists": "5",
+        "flag": "croatia",
+        "logo": "tottenham_hotspur"
+    },
+    {
+        "rank": "-",
+        "name": "Andy Robertson",
+        "country": "Scotland",
+        "team": "Liverpool FC",
+        "assists": "5",
+        "flag": "scotland",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Mo Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "assists": "5",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Granit Xhaka",
+        "country": "Switzerland",
+        "team": "Arsenal FC",
+        "assists": "5",
+        "flag": "switzerland",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "19.",
         "name": "Phil Foden",
         "country": "England",
         "team": "Manchester City",
@@ -64,119 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Dejan Kulusevski",
-        "country": "Sweden",
-        "team": "Tottenham Hotspur",
-        "assists": "4",
-        "flag": "sweden",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "James Maddison",
+        "name": "Jack Grealish",
         "country": "England",
-        "team": "Leicester City",
-        "assists": "4",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Ivan Perišić",
-        "country": "Croatia",
-        "team": "Tottenham Hotspur",
-        "assists": "4",
-        "flag": "croatia",
-        "logo": "tottenham_hotspur"
-    },
-    {
-        "rank": "-",
-        "name": "Jamie Vardy",
-        "country": "England",
-        "team": "Leicester City",
-        "assists": "4",
-        "flag": "england",
-        "logo": "leicester_city"
-    },
-    {
-        "rank": "12.",
-        "name": "Christian Eriksen",
-        "country": "Denmark",
-        "team": "Manchester United",
-        "assists": "3",
-        "flag": "denmark",
-        "logo": "manchester_united"
-    },
-    {
-        "rank": "-",
-        "name": "Eberechi Eze",
-        "country": "England",
-        "team": "Crystal Palace",
-        "assists": "3",
-        "flag": "england",
-        "logo": "crystal_palace"
-    },
-    {
-        "rank": "-",
-        "name": "Erling Haaland",
-        "country": "Norway",
         "team": "Manchester City",
-        "assists": "3",
-        "flag": "norway",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Jack Harrison",
-        "country": "England",
-        "team": "Leeds United",
-        "assists": "3",
+        "assists": "4",
         "flag": "england",
-        "logo": "leeds_united"
-    },
-    {
-        "rank": "-",
-        "name": "Mathias Jensen",
-        "country": "Denmark",
-        "team": "Brentford FC",
-        "assists": "3",
-        "flag": "denmark",
-        "logo": "brentford_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Neeskens Kebano",
-        "country": "Congo DR",
-        "team": "Fulham FC",
-        "assists": "3",
-        "flag": "congo_dr",
-        "logo": "fulham_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Roberto Firmino",
-        "country": "Brazil",
-        "team": "Liverpool FC",
-        "assists": "3",
-        "flag": "brazil",
-        "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": " Rodri",
-        "country": "Spain",
-        "team": "Manchester City",
-        "assists": "3",
-        "flag": "spain",
         "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": "Allan Saint-Maximin",
-        "country": "France",
-        "team": "Newcastle United",
-        "assists": "3",
-        "flag": "france",
-        "logo": "newcastle_united"
     }
 ]
