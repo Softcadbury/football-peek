@@ -16,9 +16,8 @@ All the data comes from https://www.worldfootball.net.
 
 Commands:
 
-- npx gulp start -> start the application on http://localhost:5000/
-- npx gulp up -> update data
-- npx gulp lint -> check coding rules
-- npx gulp test -> run tests
-- npx gulp sprite -> generate the sprite (using all images from data/images/)
-- npx gulp optim -> compress images (images from client/images/)
+- npm run start -> start the application on http://localhost:5000/
+- npm run up -> update data
+- npm run lint -> check coding rules
+- npm run test -> run tests
+- npm run images -> generate the sprite (using all images from data/images/) + compress images (images from client/images/)
