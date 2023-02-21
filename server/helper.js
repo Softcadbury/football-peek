@@ -104,7 +104,7 @@ function manageFlagProperty(item) {
     item.flag = stringSanitize(item.country);
 
     if (config.updateWithImagesDownload) {
-        downloadImage(extractSrcFromHtmlElement(item.flagSrc), stringFormat(config.paths.flagsData, item.flag));
+        downloadImage(cleanUpSrc(item.flagSrc), stringFormat(config.paths.flagsData, item.flag));
     }
 
     delete item.flagSrc;
@@ -115,33 +115,35 @@ function manageLogoProperty(item) {
     item.logo = stringSanitize(item.team);
 
     if (config.updateWithImagesDownload) {
-        downloadImage(extractSrcFromHtmlElement(item.logoSrc), stringFormat(config.paths.logosData, item.logo));
+        downloadImage(cleanUpSrc(item.logoSrc), stringFormat(config.paths.logosData, item.logo));
     }
 
     delete item.logoSrc;
 }
 
-// Fix to retrieve the src from the html element.
-// > img').attr('src') doesn't seem to work with Cheerio anymore.
-function extractSrcFromHtmlElement(htmlElement) {
-    return htmlElement.substring(htmlElement.indexOf('src=') + 5, htmlElement.indexOf('width=') - 2);
+// Src comes with a cdn url that we don't want as it breaks the gif format
+function cleanUpSrc(src) {
+    const index = src.indexOf('https:');
+    return src.slice(index);
 }
 
 // Download an image in a path
 function downloadImage(src, path) {
-    if (!fs.existsSync(path) && !path.endsWith('/.gif')) {
-        request.head(src, err => {
-            if (err) {
-                log('Error while downloading image: ' + path + ' -> ' + err);
-            } else {
-                request(src)
-                    .pipe(fs.createWriteStream(path))
-                    .on('close', () => {
-                        log('Image downloaded: ' + path);
-                    });
-            }
-        });
+    if (fs.existsSync(path)) {
+        return;
     }
+
+    request.head(src, err => {
+        if (err) {
+            log(`Error '${err}' while downloading image from src '${src}' to path '${path}'`);
+        } else {
+            request(src)
+                .pipe(fs.createWriteStream(path))
+                .on('close', () => {
+                    log('Image downloaded: ' + path);
+                });
+        }
+    });
 }
 
 // Get the current round of a league
