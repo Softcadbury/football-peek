@@ -31,27 +31,27 @@
         "name": " Borja Iglesias",
         "country": "Spain",
         "team": "Real Betis",
-        "goals": "9",
+        "goals": "10",
         "flag": "spain",
         "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " Iago Aspas",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "9",
-        "flag": "spain",
-        "logo": "celta_vigo"
     },
     {
         "rank": "-",
         "name": "Vedat Muriqi",
         "country": "Kosovo",
         "team": "RCD Mallorca",
-        "goals": "9",
+        "goals": "10",
         "flag": "kosovo",
         "logo": "rcd_mallorca"
+    },
+    {
+        "rank": "6.",
+        "name": " Iago Aspas",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "9",
+        "flag": "spain",
+        "logo": "celta_vigo"
     },
     {
         "rank": "-",
@@ -64,6 +64,15 @@
     },
     {
         "rank": "8.",
+        "name": " Gabri Veiga",
+        "country": "Spain",
+        "team": "Celta Vigo",
+        "goals": "8",
+        "flag": "spain",
+        "logo": "celta_vigo"
+    },
+    {
+        "rank": "-",
         "name": " Oihan Sancet",
         "country": "Spain",
         "team": "Athletic Bilbao",
@@ -72,7 +81,16 @@
         "logo": "athletic_bilbao"
     },
     {
-        "rank": "9.",
+        "rank": "-",
+        "name": "Enes Ünal",
+        "country": "Turkey",
+        "team": "Getafe CF",
+        "goals": "8",
+        "flag": "turkey",
+        "logo": "getafe_cf"
+    },
+    {
+        "rank": "11.",
         "name": " Álvaro Morata",
         "country": "Spain",
         "team": "Atlético Madrid",
@@ -100,21 +118,21 @@
     },
     {
         "rank": "-",
+        "name": "Martin Braithwaite",
+        "country": "Denmark",
+        "team": "Espanyol Barcelona",
+        "goals": "7",
+        "flag": "denmark",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
         "goals": "7",
         "flag": "france",
         "logo": "atletico_madrid"
-    },
-    {
-        "rank": "-",
-        "name": "Enes Ünal",
-        "country": "Turkey",
-        "team": "Getafe CF",
-        "goals": "7",
-        "flag": "turkey",
-        "logo": "getafe_cf"
     },
     {
         "rank": "-",
@@ -135,16 +153,7 @@
         "logo": "real_madrid"
     },
     {
-        "rank": "16.",
-        "name": " Gabri Veiga",
-        "country": "Spain",
-        "team": "Celta Vigo",
-        "goals": "6",
-        "flag": "spain",
-        "logo": "celta_vigo"
-    },
-    {
-        "rank": "-",
+        "rank": "18.",
         "name": " Pedri",
         "country": "Spain",
         "team": "FC Barcelona",
@@ -169,14 +178,5 @@
         "goals": "6",
         "flag": "uruguay",
         "logo": "girona_fc"
-    },
-    {
-        "rank": "20.",
-        "name": " Borja Mayoral",
-        "country": "Spain",
-        "team": "Getafe CF",
-        "goals": "5",
-        "flag": "spain",
-        "logo": "getafe_cf"
     }
 ]

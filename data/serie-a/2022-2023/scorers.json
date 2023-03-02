@@ -4,7 +4,7 @@
         "name": "Victor Osimhen",
         "country": "Nigeria",
         "team": "SSC Napoli",
-        "goals": "18",
+        "goals": "19",
         "flag": "nigeria",
         "logo": "ssc_napoli"
     },
@@ -28,6 +28,15 @@
     },
     {
         "rank": "4.",
+        "name": "M'Bala Nzola",
+        "country": "Angola",
+        "team": "Spezia Calcio",
+        "goals": "11",
+        "flag": "angola",
+        "logo": "spezia_calcio"
+    },
+    {
+        "rank": "5.",
         "name": "Khvicha Kvaratskhelia",
         "country": "Georgia",
         "team": "SSC Napoli",
@@ -36,22 +45,13 @@
         "logo": "ssc_napoli"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
         "goals": "9",
         "flag": "italy",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "M'Bala Nzola",
-        "country": "Angola",
-        "team": "Spezia Calcio",
-        "goals": "9",
-        "flag": "angola",
-        "logo": "spezia_calcio"
     },
     {
         "rank": "7.",
@@ -61,6 +61,15 @@
         "goals": "8",
         "flag": "austria",
         "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": " Beto",
+        "country": "Portugal",
+        "team": "Udinese Calcio",
+        "goals": "8",
+        "flag": "portugal",
+        "logo": "udinese_calcio"
     },
     {
         "rank": "-",
@@ -108,16 +117,7 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "13.",
-        "name": " Beto",
-        "country": "Portugal",
-        "team": "Udinese Calcio",
-        "goals": "7",
-        "flag": "portugal",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
+        "rank": "14.",
         "name": "Edin Džeko",
         "country": "Bosnia-Herzegovina",
         "team": "Inter",
@@ -144,7 +144,16 @@
         "logo": "ac_milan"
     },
     {
-        "rank": "17.",
+        "rank": "-",
+        "name": "Riccardo Orsolini",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "goals": "7",
+        "flag": "italy",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "18.",
         "name": "Tammy Abraham",
         "country": "England",
         "team": "AS Roma",
@@ -169,14 +178,5 @@
         "goals": "6",
         "flag": "brazil",
         "logo": "lazio_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Rasmus Højlund",
-        "country": "Denmark",
-        "team": "Atalanta",
-        "goals": "6",
-        "flag": "denmark",
-        "logo": "atalanta"
     }
 ]

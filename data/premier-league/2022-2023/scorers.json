@@ -4,7 +4,7 @@
         "name": "Erling Haaland",
         "country": "Norway",
         "team": "Manchester City",
-        "goals": "26",
+        "goals": "27",
         "flag": "norway",
         "logo": "manchester_city"
     },
@@ -13,7 +13,7 @@
         "name": "Harry Kane",
         "country": "England",
         "team": "Tottenham Hotspur",
-        "goals": "17",
+        "goals": "18",
         "flag": "england",
         "logo": "tottenham_hotspur"
     },
@@ -37,6 +37,15 @@
     },
     {
         "rank": "5.",
+        "name": " Gabriel Martinelli",
+        "country": "Brazil",
+        "team": "Arsenal FC",
+        "goals": "11",
+        "flag": "brazil",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "-",
         "name": "Aleksandar Mitrović",
         "country": "Serbia",
         "team": "Fulham FC",
@@ -45,7 +54,7 @@
         "logo": "fulham_fc"
     },
     {
-        "rank": "6.",
+        "rank": "7.",
         "name": "Miguel Almirón",
         "country": "Paraguay",
         "team": "Newcastle United",
@@ -63,7 +72,16 @@
         "logo": "leeds_united"
     },
     {
-        "rank": "8.",
+        "rank": "-",
+        "name": "Bukayo Saka",
+        "country": "England",
+        "team": "Arsenal FC",
+        "goals": "10",
+        "flag": "england",
+        "logo": "arsenal_fc"
+    },
+    {
+        "rank": "10.",
         "name": "James Maddison",
         "country": "England",
         "team": "Leicester City",
@@ -73,15 +91,24 @@
     },
     {
         "rank": "-",
-        "name": "Bukayo Saka",
-        "country": "England",
+        "name": "Martin Ødegaard",
+        "country": "Norway",
         "team": "Arsenal FC",
         "goals": "9",
-        "flag": "england",
+        "flag": "norway",
         "logo": "arsenal_fc"
     },
     {
-        "rank": "10.",
+        "rank": "-",
+        "name": "Mo Salah",
+        "country": "Egypt",
+        "team": "Liverpool FC",
+        "goals": "9",
+        "flag": "egypt",
+        "logo": "liverpool_fc"
+    },
+    {
+        "rank": "13.",
         "name": "Harvey Barnes",
         "country": "England",
         "team": "Leicester City",
@@ -91,30 +118,21 @@
     },
     {
         "rank": "-",
-        "name": " Gabriel Martinelli",
-        "country": "Brazil",
-        "team": "Arsenal FC",
+        "name": "Phil Foden",
+        "country": "England",
+        "team": "Manchester City",
         "goals": "8",
-        "flag": "brazil",
-        "logo": "arsenal_fc"
+        "flag": "england",
+        "logo": "manchester_city"
     },
     {
         "rank": "-",
-        "name": "Martin Ødegaard",
-        "country": "Norway",
-        "team": "Arsenal FC",
+        "name": "Danny Ings",
+        "country": "England",
+        "team": "West Ham United",
         "goals": "8",
-        "flag": "norway",
-        "logo": "arsenal_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Mo Salah",
-        "country": "Egypt",
-        "team": "Liverpool FC",
-        "goals": "8",
-        "flag": "egypt",
-        "logo": "liverpool_fc"
+        "flag": "england",
+        "logo": "west_ham_united"
     },
     {
         "rank": "-",
@@ -126,31 +144,22 @@
         "logo": "brighton___hove_albion"
     },
     {
-        "rank": "15.",
-        "name": "Phil Foden",
+        "rank": "-",
+        "name": "Ollie Watkins",
         "country": "England",
-        "team": "Manchester City",
-        "goals": "7",
+        "team": "Aston Villa",
+        "goals": "8",
         "flag": "england",
-        "logo": "manchester_city"
+        "logo": "aston_villa"
     },
     {
-        "rank": "-",
+        "rank": "18.",
         "name": " Roberto Firmino",
         "country": "Brazil",
         "team": "Liverpool FC",
         "goals": "7",
         "flag": "brazil",
         "logo": "liverpool_fc"
-    },
-    {
-        "rank": "-",
-        "name": "Ollie Watkins",
-        "country": "England",
-        "team": "Aston Villa",
-        "goals": "7",
-        "flag": "england",
-        "logo": "aston_villa"
     },
     {
         "rank": "-",
@@ -162,21 +171,12 @@
         "logo": "newcastle_united"
     },
     {
-        "rank": "19.",
+        "rank": "20.",
         "name": "Pascal Groß",
         "country": "Germany",
         "team": "Brighton & Hove Albion",
         "goals": "6",
         "flag": "germany",
         "logo": "brighton___hove_albion"
-    },
-    {
-        "rank": "-",
-        "name": "Danny Ings",
-        "country": "England",
-        "team": "West Ham United",
-        "goals": "6",
-        "flag": "england",
-        "logo": "west_ham_united"
     }
 ]

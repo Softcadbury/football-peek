@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Kylian Mbappé",
+        "country": "France",
+        "team": "Paris Saint-Germain",
+        "goals": "17",
+        "flag": "france",
+        "logo": "paris_saint_germain"
+    },
+    {
+        "rank": "2.",
         "name": "Folarin Balogun",
         "country": "England",
         "team": "Stade Reims",
@@ -16,15 +25,6 @@
         "goals": "15",
         "flag": "canada",
         "logo": "lille_osc"
-    },
-    {
-        "rank": "-",
-        "name": "Kylian Mbappé",
-        "country": "France",
-        "team": "Paris Saint-Germain",
-        "goals": "15",
-        "flag": "france",
-        "logo": "paris_saint_germain"
     },
     {
         "rank": "4.",
@@ -45,7 +45,25 @@
         "logo": "olympique_lyon"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": "Terem Moffi",
+        "country": "Nigeria",
+        "team": "OGC Nice",
+        "goals": "14",
+        "flag": "nigeria",
+        "logo": "ogc_nice"
+    },
+    {
+        "rank": "7.",
+        "name": "Habib Diallo",
+        "country": "Senegal",
+        "team": "RC Strasbourg",
+        "goals": "13",
+        "flag": "senegal",
+        "logo": "rc_strasbourg"
+    },
+    {
+        "rank": "-",
         "name": " Neymar",
         "country": "Brazil",
         "team": "Paris Saint-Germain",
@@ -54,16 +72,7 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "7.",
-        "name": "Habib Diallo",
-        "country": "Senegal",
-        "team": "RC Strasbourg",
-        "goals": "12",
-        "flag": "senegal",
-        "logo": "rc_strasbourg"
-    },
-    {
-        "rank": "-",
+        "rank": "9.",
         "name": "Breel Embolo",
         "country": "Switzerland",
         "team": "AS Monaco",
@@ -73,19 +82,10 @@
     },
     {
         "rank": "-",
-        "name": "Terem Moffi",
-        "country": "Nigeria",
-        "team": "OGC Nice",
-        "goals": "12",
-        "flag": "nigeria",
-        "logo": "ogc_nice"
-    },
-    {
-        "rank": "10.",
         "name": "Lionel Messi",
         "country": "Argentina",
         "team": "Paris Saint-Germain",
-        "goals": "11",
+        "goals": "12",
         "flag": "argentina",
         "logo": "paris_saint_germain"
     },
@@ -94,12 +94,12 @@
         "name": "Mama Baldé",
         "country": "Guinea-Bissau",
         "team": "ESTAC Troyes",
-        "goals": "9",
+        "goals": "10",
         "flag": "guinea_bissau",
         "logo": "estac_troyes"
     },
     {
-        "rank": "-",
+        "rank": "12.",
         "name": "Thijs Dallinga",
         "country": "Netherlands",
         "team": "Toulouse FC",
