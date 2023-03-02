@@ -121,10 +121,20 @@ function manageLogoProperty(item) {
     delete item.logoSrc;
 }
 
-// Src comes with a cdn url that we don't want as it breaks the gif format
+// Extract src from html
 function cleanUpSrc(src) {
-    const index = src.indexOf('https:');
-    return src.slice(index);
+    return getFirstMatch(src, /<img src="(.*gif)/g);
+}
+
+function getFirstMatch(string, regex) {
+    let match;
+
+    // eslint-disable-next-line no-cond-assign
+    while (match = regex.exec(string)) {
+        return match[1];
+    }
+
+    return null;
 }
 
 // Download an image in a path
