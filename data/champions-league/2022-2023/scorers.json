@@ -1,6 +1,15 @@
 [
     {
         "rank": "1.",
+        "name": "Erling Haaland",
+        "country": "Norway",
+        "team": "Manchester City",
+        "goals": "12",
+        "flag": "norway",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "2.",
         "name": "Mo Salah",
         "country": "Egypt",
         "team": "Liverpool FC",
@@ -9,7 +18,7 @@
         "logo": "liverpool_fc"
     },
     {
-        "rank": "2.",
+        "rank": "3.",
         "name": "Kylian Mbappé",
         "country": "France",
         "team": "Paris Saint-Germain",
@@ -18,31 +27,31 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "3.",
+        "rank": "-",
         "name": " Vinícius Júnior",
         "country": "Brazil",
         "team": "Real Madrid",
-        "goals": "6",
+        "goals": "7",
         "flag": "brazil",
         "logo": "real_madrid"
     },
     {
-        "rank": "4.",
-        "name": "Erling Haaland",
-        "country": "Norway",
-        "team": "Manchester City",
-        "goals": "5",
-        "flag": "norway",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
+        "rank": "5.",
         "name": " João Mário",
         "country": "Portugal",
         "team": "SL Benfica",
-        "goals": "5",
+        "goals": "6",
         "flag": "portugal",
         "logo": "sl_benfica"
+    },
+    {
+        "rank": "6.",
+        "name": "Olivier Giroud",
+        "country": "France",
+        "team": "AC Milan",
+        "goals": "5",
+        "flag": "france",
+        "logo": "ac_milan"
     },
     {
         "rank": "-",
@@ -55,6 +64,33 @@
     },
     {
         "rank": "-",
+        "name": "Victor Osimhen",
+        "country": "Nigeria",
+        "team": "SSC Napoli",
+        "goals": "5",
+        "flag": "nigeria",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "-",
+        "name": " Rafa Silva",
+        "country": "Portugal",
+        "team": "SL Benfica",
+        "goals": "5",
+        "flag": "portugal",
+        "logo": "sl_benfica"
+    },
+    {
+        "rank": "-",
+        "name": " Rodrygo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "goals": "5",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
         "name": "Mehdi Taremi",
         "country": "Iran",
         "team": "FC Porto",
@@ -63,7 +99,7 @@
         "logo": "fc_porto"
     },
     {
-        "rank": "8.",
+        "rank": "12.",
         "name": "Jude Bellingham",
         "country": "England",
         "team": "Borussia Dortmund",
@@ -73,12 +109,30 @@
     },
     {
         "rank": "-",
-        "name": "Olivier Giroud",
+        "name": "Karim Benzema",
         "country": "France",
-        "team": "AC Milan",
+        "team": "Real Madrid",
         "goals": "4",
         "flag": "france",
-        "logo": "ac_milan"
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": "Eric Maxim Choupo-Moting",
+        "country": "Cameroon",
+        "team": "Bayern München",
+        "goals": "4",
+        "flag": "cameroon",
+        "logo": "bayern_munchen"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "Inter",
+        "goals": "4",
+        "flag": "bosnia_herzegovina",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -109,15 +163,6 @@
     },
     {
         "rank": "-",
-        "name": " Rafa Silva",
-        "country": "Portugal",
-        "team": "SL Benfica",
-        "goals": "4",
-        "flag": "portugal",
-        "logo": "sl_benfica"
-    },
-    {
-        "rank": "-",
         "name": "Giacomo Raspadori",
         "country": "Italy",
         "team": "SSC Napoli",
@@ -133,50 +178,5 @@
         "goals": "4",
         "flag": "germany",
         "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Simeone",
-        "country": "Argentina",
-        "team": "SSC Napoli",
-        "goals": "4",
-        "flag": "argentina",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "17.",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "RB Leipzig",
-        "goals": "3",
-        "flag": "portugal",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Steven Bergwijn",
-        "country": "Netherlands",
-        "team": "AFC Ajax",
-        "goals": "3",
-        "flag": "netherlands",
-        "logo": "afc_ajax"
-    },
-    {
-        "rank": "-",
-        "name": "Eric Maxim Choupo-Moting",
-        "country": "Cameroon",
-        "team": "Bayern München",
-        "goals": "3",
-        "flag": "cameroon",
-        "logo": "bayern_munchen"
-    },
-    {
-        "rank": "-",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "Inter",
-        "goals": "3",
-        "flag": "bosnia_herzegovina",
-        "logo": "inter"
     }
 ]

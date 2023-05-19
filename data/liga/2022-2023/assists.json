@@ -4,48 +4,120 @@
         "name": "Antoine Griezmann",
         "country": "France",
         "team": "Atlético Madrid",
-        "assists": "7",
+        "assists": "12",
         "flag": "france",
         "logo": "atletico_madrid"
     },
     {
-        "rank": "-",
+        "rank": "2.",
+        "name": " Rodrygo",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "10",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "3.",
         "name": " Mikel Merino",
         "country": "Spain",
         "team": "Real Sociedad",
-        "assists": "7",
+        "assists": "9",
         "flag": "spain",
         "logo": "real_sociedad"
     },
     {
         "rank": "-",
-        "name": " Rodrygo",
+        "name": " Vinícius Júnior",
         "country": "Brazil",
         "team": "Real Madrid",
-        "assists": "7",
+        "assists": "9",
         "flag": "brazil",
         "logo": "real_madrid"
     },
     {
-        "rank": "4.",
-        "name": "Robert Lewandowski",
-        "country": "Poland",
-        "team": "FC Barcelona",
-        "assists": "6",
-        "flag": "poland",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
+        "rank": "5.",
         "name": "Lucas Robertone",
         "country": "Argentina",
         "team": "UD Almería",
-        "assists": "6",
+        "assists": "8",
         "flag": "argentina",
         "logo": "ud_almeria"
     },
     {
         "rank": "6.",
+        "name": "Robert Lewandowski",
+        "country": "Poland",
+        "team": "FC Barcelona",
+        "assists": "7",
+        "flag": "poland",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Raphinha",
+        "country": "Brazil",
+        "team": "FC Barcelona",
+        "assists": "7",
+        "flag": "brazil",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "8.",
+        "name": " Álex Balde",
+        "country": "Spain",
+        "team": "FC Barcelona",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "fc_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " Brian Oliván",
+        "country": "Spain",
+        "team": "Espanyol Barcelona",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "espanyol_barcelona"
+    },
+    {
+        "rank": "-",
+        "name": " David Silva",
+        "country": "Spain",
+        "team": "Real Sociedad",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "real_sociedad"
+    },
+    {
+        "rank": "-",
+        "name": " Marco Asensio",
+        "country": "Spain",
+        "team": "Real Madrid",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "-",
+        "name": " Yeremy",
+        "country": "Spain",
+        "team": "Villarreal CF",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "13.",
+        "name": " Aimar Oroz",
+        "country": "Spain",
+        "team": "CA Osasuna",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "ca_osasuna"
+    },
+    {
+        "rank": "-",
         "name": " Aleix García",
         "country": "Spain",
         "team": "Girona FC",
@@ -55,12 +127,39 @@
     },
     {
         "rank": "-",
-        "name": " Brian Oliván",
+        "name": " Álvaro García",
         "country": "Spain",
-        "team": "Espanyol Barcelona",
+        "team": "Rayo Vallecano",
         "assists": "5",
         "flag": "spain",
-        "logo": "espanyol_barcelona"
+        "logo": "rayo_vallecano"
+    },
+    {
+        "rank": "-",
+        "name": "Samuel Chukwueze",
+        "country": "Nigeria",
+        "team": "Villarreal CF",
+        "assists": "5",
+        "flag": "nigeria",
+        "logo": "villarreal_cf"
+    },
+    {
+        "rank": "-",
+        "name": " De Marcos",
+        "country": "Spain",
+        "team": "Athletic Bilbao",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "athletic_bilbao"
+    },
+    {
+        "rank": "-",
+        "name": "Rodrigo De Paul",
+        "country": "Argentina",
+        "team": "Atlético Madrid",
+        "assists": "5",
+        "flag": "argentina",
+        "logo": "atletico_madrid"
     },
     {
         "rank": "-",
@@ -79,104 +178,5 @@
         "assists": "5",
         "flag": "spain",
         "logo": "rayo_vallecano"
-    },
-    {
-        "rank": "10.",
-        "name": " Álex Baldé",
-        "country": "Spain",
-        "team": "FC Barcelona",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Álex Moreno",
-        "country": "Spain",
-        "team": "Real Betis",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "real_betis"
-    },
-    {
-        "rank": "-",
-        "name": " De Marcos",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Hugo Guillamón",
-        "country": "Spain",
-        "team": "Valencia CF",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "valencia_cf"
-    },
-    {
-        "rank": "-",
-        "name": "Takefusa Kubo",
-        "country": "Japan",
-        "team": "Real Sociedad",
-        "assists": "4",
-        "flag": "japan",
-        "logo": "real_sociedad"
-    },
-    {
-        "rank": "-",
-        "name": "Kang-in Lee",
-        "country": "South Korea",
-        "team": "RCD Mallorca",
-        "assists": "4",
-        "flag": "south_korea",
-        "logo": "rcd_mallorca"
-    },
-    {
-        "rank": "-",
-        "name": " Nico Williams",
-        "country": "Spain",
-        "team": "Athletic Bilbao",
-        "assists": "4",
-        "flag": "spain",
-        "logo": "athletic_bilbao"
-    },
-    {
-        "rank": "-",
-        "name": " Raphinha",
-        "country": "Brazil",
-        "team": "FC Barcelona",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "fc_barcelona"
-    },
-    {
-        "rank": "-",
-        "name": " Vinícius Júnior",
-        "country": "Brazil",
-        "team": "Real Madrid",
-        "assists": "4",
-        "flag": "brazil",
-        "logo": "real_madrid"
-    },
-    {
-        "rank": "19.",
-        "name": " Adrián Embarba",
-        "country": "Spain",
-        "team": "UD Almería",
-        "assists": "3",
-        "flag": "spain",
-        "logo": "ud_almeria"
-    },
-    {
-        "rank": "-",
-        "name": "David Alaba",
-        "country": "Austria",
-        "team": "Real Madrid",
-        "assists": "3",
-        "flag": "austria",
-        "logo": "real_madrid"
     }
 ]

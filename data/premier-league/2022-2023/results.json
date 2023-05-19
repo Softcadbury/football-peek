@@ -622,7 +622,7 @@
                 "time": "19:30",
                 "homeTeam": "Southampton FC",
                 "awayTeam": "Brentford FC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "southampton_fc",
                 "awayTeamLogo": "brentford_fc"
             },
@@ -631,7 +631,7 @@
                 "time": "19:45",
                 "homeTeam": "AFC Bournemouth",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "afc_bournemouth",
                 "awayTeamLogo": "brighton___hove_albion"
             },
@@ -640,7 +640,7 @@
                 "time": "19:45",
                 "homeTeam": "Leeds United",
                 "awayTeam": "Nottingham Forest",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "leeds_united",
                 "awayTeamLogo": "nottingham_forest"
             },
@@ -649,7 +649,7 @@
                 "time": "19:45",
                 "homeTeam": "Leicester City",
                 "awayTeam": "Aston Villa",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "aston_villa"
             },
@@ -658,7 +658,7 @@
                 "time": "20:00",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "1:5",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "newcastle_united"
             }
@@ -744,7 +744,7 @@
                 "time": "19:30",
                 "homeTeam": "Brighton & Hove Albion",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "brighton___hove_albion",
                 "awayTeamLogo": "crystal_palace"
             },
@@ -753,7 +753,7 @@
                 "time": "20:00",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "liverpool_fc"
             }
@@ -2293,15 +2293,6 @@
             },
             {
                 "date": "25/02/2023",
-                "time": "",
-                "homeTeam": "Newcastle United",
-                "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
-                "homeTeamLogo": "newcastle_united",
-                "awayTeamLogo": "brighton___hove_albion"
-            },
-            {
-                "date": "25/02/2023",
                 "time": "15:00",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Aston Villa",
@@ -2368,9 +2359,18 @@
                 "time": "20:00",
                 "homeTeam": "Manchester United",
                 "awayTeam": "Brentford FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "manchester_united",
                 "awayTeamLogo": "brentford_fc"
+            },
+            {
+                "date": "18/05/2023",
+                "time": "19:30",
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Brighton & Hove Albion",
+                "score": "4:1",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "brighton___hove_albion"
             }
         ]
     },
@@ -2382,7 +2382,7 @@
                 "time": "12:30",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "newcastle_united"
             },
@@ -2391,7 +2391,7 @@
                 "time": "15:00",
                 "homeTeam": "Aston Villa",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "aston_villa",
                 "awayTeamLogo": "crystal_palace"
             },
@@ -2400,7 +2400,7 @@
                 "time": "15:00",
                 "homeTeam": "Brighton & Hove Albion",
                 "awayTeam": "West Ham United",
-                "score": "-:-",
+                "score": "4:0",
                 "homeTeamLogo": "brighton___hove_albion",
                 "awayTeamLogo": "west_ham_united"
             },
@@ -2409,7 +2409,7 @@
                 "time": "15:00",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "afc_bournemouth"
             },
@@ -2418,7 +2418,7 @@
                 "time": "15:00",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Leeds United",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "leeds_united"
             },
@@ -2427,7 +2427,7 @@
                 "time": "15:00",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "tottenham_hotspur"
             },
@@ -2436,7 +2436,7 @@
                 "time": "17:30",
                 "homeTeam": "Southampton FC",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "southampton_fc",
                 "awayTeamLogo": "leicester_city"
             },
@@ -2445,7 +2445,7 @@
                 "time": "14:00",
                 "homeTeam": "Nottingham Forest",
                 "awayTeam": "Everton FC",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "nottingham_forest",
                 "awayTeamLogo": "everton_fc"
             },
@@ -2454,7 +2454,7 @@
                 "time": "16:30",
                 "homeTeam": "Liverpool FC",
                 "awayTeam": "Manchester United",
-                "score": "-:-",
+                "score": "7:0",
                 "homeTeamLogo": "liverpool_fc",
                 "awayTeamLogo": "manchester_united"
             },
@@ -2463,7 +2463,7 @@
                 "time": "20:00",
                 "homeTeam": "Brentford FC",
                 "awayTeam": "Fulham FC",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "brentford_fc",
                 "awayTeamLogo": "fulham_fc"
             }
@@ -2477,7 +2477,7 @@
                 "time": "12:30",
                 "homeTeam": "AFC Bournemouth",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "afc_bournemouth",
                 "awayTeamLogo": "liverpool_fc"
             },
@@ -2486,7 +2486,7 @@
                 "time": "15:00",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Brentford FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "brentford_fc"
             },
@@ -2495,7 +2495,7 @@
                 "time": "15:00",
                 "homeTeam": "Leeds United",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "leeds_united",
                 "awayTeamLogo": "brighton___hove_albion"
             },
@@ -2504,7 +2504,7 @@
                 "time": "15:00",
                 "homeTeam": "Leicester City",
                 "awayTeam": "Chelsea FC",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "chelsea_fc"
             },
@@ -2513,7 +2513,7 @@
                 "time": "15:00",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Nottingham Forest",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "nottingham_forest"
             },
@@ -2522,7 +2522,7 @@
                 "time": "17:30",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Manchester City",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "manchester_city"
             },
@@ -2531,7 +2531,7 @@
                 "time": "14:00",
                 "homeTeam": "Fulham FC",
                 "awayTeam": "Arsenal FC",
-                "score": "-:-",
+                "score": "0:3",
                 "homeTeamLogo": "fulham_fc",
                 "awayTeamLogo": "arsenal_fc"
             },
@@ -2540,7 +2540,7 @@
                 "time": "14:00",
                 "homeTeam": "Manchester United",
                 "awayTeam": "Southampton FC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "manchester_united",
                 "awayTeamLogo": "southampton_fc"
             },
@@ -2549,7 +2549,7 @@
                 "time": "14:00",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Aston Villa",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "aston_villa"
             },
@@ -2558,7 +2558,7 @@
                 "time": "16:30",
                 "homeTeam": "Newcastle United",
                 "awayTeam": "Wolverhampton Wanderers",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "newcastle_united",
                 "awayTeamLogo": "wolverhampton_wanderers"
             }
@@ -2572,7 +2572,7 @@
                 "time": "20:00",
                 "homeTeam": "Nottingham Forest",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "nottingham_forest",
                 "awayTeamLogo": "newcastle_united"
             },
@@ -2581,7 +2581,7 @@
                 "time": "15:00",
                 "homeTeam": "Aston Villa",
                 "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "aston_villa",
                 "awayTeamLogo": "afc_bournemouth"
             },
@@ -2590,25 +2590,16 @@
                 "time": "15:00",
                 "homeTeam": "Brentford FC",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "brentford_fc",
                 "awayTeamLogo": "leicester_city"
             },
             {
                 "date": "18/03/2023",
                 "time": "15:00",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "Fulham FC",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "fulham_fc"
-            },
-            {
-                "date": "18/03/2023",
-                "time": "15:00",
                 "homeTeam": "Southampton FC",
                 "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "southampton_fc",
                 "awayTeamLogo": "tottenham_hotspur"
             },
@@ -2617,7 +2608,7 @@
                 "time": "15:00",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Leeds United",
-                "score": "-:-",
+                "score": "2:4",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "leeds_united"
             },
@@ -2626,36 +2617,45 @@
                 "time": "17:30",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Everton FC",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "everton_fc"
             },
             {
                 "date": "19/03/2023",
                 "time": "14:00",
-                "homeTeam": "Brighton & Hove Albion",
-                "awayTeam": "Manchester United",
-                "score": "-:-",
-                "homeTeamLogo": "brighton___hove_albion",
-                "awayTeamLogo": "manchester_united"
-            },
-            {
-                "date": "19/03/2023",
-                "time": "14:00",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "crystal_palace"
             },
             {
-                "date": "19/03/2023",
-                "time": "16:30",
+                "date": "03/05/2023",
+                "time": "20:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Fulham FC",
+                "score": "1:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "fulham_fc"
+            },
+            {
+                "date": "03/05/2023",
+                "time": "20:00",
                 "homeTeam": "Manchester City",
                 "awayTeam": "West Ham United",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "west_ham_united"
+            },
+            {
+                "date": "04/05/2023",
+                "time": "20:00",
+                "homeTeam": "Brighton & Hove Albion",
+                "awayTeam": "Manchester United",
+                "score": "1:0",
+                "homeTeamLogo": "brighton___hove_albion",
+                "awayTeamLogo": "manchester_united"
             }
         ]
     },
@@ -2667,7 +2667,7 @@
                 "time": "12:30",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "liverpool_fc"
             },
@@ -2676,7 +2676,7 @@
                 "time": "15:00",
                 "homeTeam": "AFC Bournemouth",
                 "awayTeam": "Fulham FC",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "afc_bournemouth",
                 "awayTeamLogo": "fulham_fc"
             },
@@ -2685,7 +2685,7 @@
                 "time": "15:00",
                 "homeTeam": "Brighton & Hove Albion",
                 "awayTeam": "Brentford FC",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "brighton___hove_albion",
                 "awayTeamLogo": "brentford_fc"
             },
@@ -2694,7 +2694,7 @@
                 "time": "15:00",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "leicester_city"
             },
@@ -2703,7 +2703,7 @@
                 "time": "15:00",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Leeds United",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "leeds_united"
             },
@@ -2712,7 +2712,7 @@
                 "time": "15:00",
                 "homeTeam": "Nottingham Forest",
                 "awayTeam": "Wolverhampton Wanderers",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "nottingham_forest",
                 "awayTeamLogo": "wolverhampton_wanderers"
             },
@@ -2721,7 +2721,7 @@
                 "time": "17:30",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Aston Villa",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "aston_villa"
             },
@@ -2730,7 +2730,7 @@
                 "time": "14:00",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Southampton FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "southampton_fc"
             },
@@ -2739,7 +2739,7 @@
                 "time": "16:30",
                 "homeTeam": "Newcastle United",
                 "awayTeam": "Manchester United",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "newcastle_united",
                 "awayTeamLogo": "manchester_united"
             },
@@ -2748,7 +2748,7 @@
                 "time": "20:00",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "tottenham_hotspur"
             }
@@ -2762,7 +2762,7 @@
                 "time": "12:30",
                 "homeTeam": "Manchester United",
                 "awayTeam": "Everton FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "manchester_united",
                 "awayTeamLogo": "everton_fc"
             },
@@ -2771,7 +2771,7 @@
                 "time": "15:00",
                 "homeTeam": "Aston Villa",
                 "awayTeam": "Nottingham Forest",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "aston_villa",
                 "awayTeamLogo": "nottingham_forest"
             },
@@ -2780,7 +2780,7 @@
                 "time": "15:00",
                 "homeTeam": "Brentford FC",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "brentford_fc",
                 "awayTeamLogo": "newcastle_united"
             },
@@ -2789,7 +2789,7 @@
                 "time": "15:00",
                 "homeTeam": "Fulham FC",
                 "awayTeam": "West Ham United",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "fulham_fc",
                 "awayTeamLogo": "west_ham_united"
             },
@@ -2798,7 +2798,7 @@
                 "time": "15:00",
                 "homeTeam": "Leicester City",
                 "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
+                "score": "0:1",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "afc_bournemouth"
             },
@@ -2807,7 +2807,7 @@
                 "time": "15:00",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "brighton___hove_albion"
             },
@@ -2816,34 +2816,34 @@
                 "time": "15:00",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Chelsea FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "chelsea_fc"
             },
             {
                 "date": "08/04/2023",
                 "time": "17:30",
-                "homeTeam": "Leeds United",
-                "awayTeam": "Crystal Palace",
-                "score": "-:-",
-                "homeTeamLogo": "leeds_united",
-                "awayTeamLogo": "crystal_palace"
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Manchester City",
+                "score": "1:4",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "manchester_city"
             },
             {
                 "date": "09/04/2023",
                 "time": "14:00",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Manchester City",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "manchester_city"
+                "homeTeam": "Leeds United",
+                "awayTeam": "Crystal Palace",
+                "score": "1:5",
+                "homeTeamLogo": "leeds_united",
+                "awayTeamLogo": "crystal_palace"
             },
             {
                 "date": "09/04/2023",
                 "time": "16:30",
                 "homeTeam": "Liverpool FC",
                 "awayTeam": "Arsenal FC",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "liverpool_fc",
                 "awayTeamLogo": "arsenal_fc"
             }
@@ -2857,7 +2857,7 @@
                 "time": "12:30",
                 "homeTeam": "Aston Villa",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "3:0",
                 "homeTeamLogo": "aston_villa",
                 "awayTeamLogo": "newcastle_united"
             },
@@ -2866,7 +2866,7 @@
                 "time": "15:00",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "brighton___hove_albion"
             },
@@ -2875,7 +2875,7 @@
                 "time": "15:00",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Fulham FC",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "fulham_fc"
             },
@@ -2884,61 +2884,61 @@
                 "time": "15:00",
                 "homeTeam": "Southampton FC",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "southampton_fc",
                 "awayTeamLogo": "crystal_palace"
             },
             {
                 "date": "15/04/2023",
                 "time": "15:00",
-                "homeTeam": "Tottenham Hotspur",
-                "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
-                "homeTeamLogo": "tottenham_hotspur",
-                "awayTeamLogo": "afc_bournemouth"
-            },
-            {
-                "date": "15/04/2023",
-                "time": "15:00",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Brentford FC",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "brentford_fc"
             },
             {
                 "date": "15/04/2023",
+                "time": "15:15",
+                "homeTeam": "Tottenham Hotspur",
+                "awayTeam": "AFC Bournemouth",
+                "score": "2:3",
+                "homeTeamLogo": "tottenham_hotspur",
+                "awayTeamLogo": "afc_bournemouth"
+            },
+            {
+                "date": "15/04/2023",
                 "time": "17:30",
-                "homeTeam": "Nottingham Forest",
-                "awayTeam": "Manchester United",
-                "score": "-:-",
-                "homeTeamLogo": "nottingham_forest",
-                "awayTeamLogo": "manchester_united"
+                "homeTeam": "Manchester City",
+                "awayTeam": "Leicester City",
+                "score": "3:1",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "leicester_city"
             },
             {
                 "date": "16/04/2023",
                 "time": "14:00",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Arsenal FC",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "arsenal_fc"
             },
             {
                 "date": "16/04/2023",
                 "time": "16:30",
-                "homeTeam": "Manchester City",
-                "awayTeam": "Leicester City",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_city",
-                "awayTeamLogo": "leicester_city"
+                "homeTeam": "Nottingham Forest",
+                "awayTeam": "Manchester United",
+                "score": "0:2",
+                "homeTeamLogo": "nottingham_forest",
+                "awayTeamLogo": "manchester_united"
             },
             {
                 "date": "17/04/2023",
                 "time": "20:00",
                 "homeTeam": "Leeds United",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "1:6",
                 "homeTeamLogo": "leeds_united",
                 "awayTeamLogo": "liverpool_fc"
             }
@@ -2952,7 +2952,7 @@
                 "time": "20:00",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Southampton FC",
-                "score": "-:-",
+                "score": "3:3",
                 "homeTeamLogo": "arsenal_fc",
                 "awayTeamLogo": "southampton_fc"
             },
@@ -2961,25 +2961,16 @@
                 "time": "12:30",
                 "homeTeam": "Fulham FC",
                 "awayTeam": "Leeds United",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "fulham_fc",
                 "awayTeamLogo": "leeds_united"
             },
             {
                 "date": "22/04/2023",
                 "time": "15:00",
-                "homeTeam": "AFC Bournemouth",
-                "awayTeam": "West Ham United",
-                "score": "-:-",
-                "homeTeamLogo": "afc_bournemouth",
-                "awayTeamLogo": "west_ham_united"
-            },
-            {
-                "date": "22/04/2023",
-                "time": "15:00",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Everton FC",
-                "score": "-:-",
+                "score": "0:0",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "everton_fc"
             },
@@ -2988,7 +2979,7 @@
                 "time": "15:00",
                 "homeTeam": "Brentford FC",
                 "awayTeam": "Aston Villa",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "brentford_fc",
                 "awayTeamLogo": "aston_villa"
             },
@@ -2997,7 +2988,7 @@
                 "time": "15:00",
                 "homeTeam": "Liverpool FC",
                 "awayTeam": "Nottingham Forest",
-                "score": "-:-",
+                "score": "3:2",
                 "homeTeamLogo": "liverpool_fc",
                 "awayTeamLogo": "nottingham_forest"
             },
@@ -3006,36 +2997,45 @@
                 "time": "15:00",
                 "homeTeam": "Leicester City",
                 "awayTeam": "Wolverhampton Wanderers",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "wolverhampton_wanderers"
             },
             {
-                "date": "22/04/2023",
-                "time": "17:30",
-                "homeTeam": "Manchester United",
-                "awayTeam": "Chelsea FC",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_united",
-                "awayTeamLogo": "chelsea_fc"
+                "date": "23/04/2023",
+                "time": "14:00",
+                "homeTeam": "AFC Bournemouth",
+                "awayTeam": "West Ham United",
+                "score": "0:4",
+                "homeTeamLogo": "afc_bournemouth",
+                "awayTeamLogo": "west_ham_united"
             },
             {
                 "date": "23/04/2023",
                 "time": "14:00",
                 "homeTeam": "Newcastle United",
                 "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
+                "score": "6:1",
                 "homeTeamLogo": "newcastle_united",
                 "awayTeamLogo": "tottenham_hotspur"
             },
             {
-                "date": "23/04/2023",
-                "time": "16:30",
+                "date": "24/05/2023",
+                "time": "20:00",
                 "homeTeam": "Brighton & Hove Albion",
                 "awayTeam": "Manchester City",
                 "score": "-:-",
                 "homeTeamLogo": "brighton___hove_albion",
                 "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "25/05/2023",
+                "time": "20:00",
+                "homeTeam": "Manchester United",
+                "awayTeam": "Chelsea FC",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_united",
+                "awayTeamLogo": "chelsea_fc"
             }
         ]
     },
@@ -3047,7 +3047,7 @@
                 "time": "19:30",
                 "homeTeam": "Wolverhampton Wanderers",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "wolverhampton_wanderers",
                 "awayTeamLogo": "crystal_palace"
             },
@@ -3056,25 +3056,16 @@
                 "time": "19:45",
                 "homeTeam": "Aston Villa",
                 "awayTeam": "Fulham FC",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "aston_villa",
                 "awayTeamLogo": "fulham_fc"
-            },
-            {
-                "date": "25/04/2023",
-                "time": "19:45",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "afc_bournemouth"
             },
             {
                 "date": "25/04/2023",
                 "time": "20:00",
                 "homeTeam": "Leeds United",
                 "awayTeam": "Leicester City",
-                "score": "-:-",
+                "score": "1:1",
                 "homeTeamLogo": "leeds_united",
                 "awayTeamLogo": "leicester_city"
             },
@@ -3083,7 +3074,7 @@
                 "time": "19:30",
                 "homeTeam": "Nottingham Forest",
                 "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "nottingham_forest",
                 "awayTeamLogo": "brighton___hove_albion"
             },
@@ -3092,7 +3083,7 @@
                 "time": "19:45",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Liverpool FC",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "liverpool_fc"
             },
@@ -3101,7 +3092,7 @@
                 "time": "19:45",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Brentford FC",
-                "score": "-:-",
+                "score": "0:2",
                 "homeTeamLogo": "chelsea_fc",
                 "awayTeamLogo": "brentford_fc"
             },
@@ -3110,7 +3101,7 @@
                 "time": "20:00",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Arsenal FC",
-                "score": "-:-",
+                "score": "4:1",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "arsenal_fc"
             },
@@ -3119,16 +3110,25 @@
                 "time": "19:45",
                 "homeTeam": "Everton FC",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "1:4",
                 "homeTeamLogo": "everton_fc",
                 "awayTeamLogo": "newcastle_united"
+            },
+            {
+                "date": "27/04/2023",
+                "time": "19:45",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "AFC Bournemouth",
+                "score": "0:1",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "afc_bournemouth"
             },
             {
                 "date": "27/04/2023",
                 "time": "20:15",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Manchester United",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "manchester_united"
             }
@@ -3142,25 +3142,16 @@
                 "time": "12:30",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "West Ham United",
-                "score": "-:-",
+                "score": "4:3",
                 "homeTeamLogo": "crystal_palace",
                 "awayTeamLogo": "west_ham_united"
             },
             {
                 "date": "29/04/2023",
                 "time": "15:00",
-                "homeTeam": "AFC Bournemouth",
-                "awayTeam": "Leeds United",
-                "score": "-:-",
-                "homeTeamLogo": "afc_bournemouth",
-                "awayTeamLogo": "leeds_united"
-            },
-            {
-                "date": "29/04/2023",
-                "time": "15:00",
                 "homeTeam": "Brighton & Hove Albion",
                 "awayTeam": "Wolverhampton Wanderers",
-                "score": "-:-",
+                "score": "6:0",
                 "homeTeamLogo": "brighton___hove_albion",
                 "awayTeamLogo": "wolverhampton_wanderers"
             },
@@ -3169,25 +3160,25 @@
                 "time": "15:00",
                 "homeTeam": "Brentford FC",
                 "awayTeam": "Nottingham Forest",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "brentford_fc",
                 "awayTeamLogo": "nottingham_forest"
             },
             {
-                "date": "29/04/2023",
-                "time": "17:30",
-                "homeTeam": "Arsenal FC",
-                "awayTeam": "Chelsea FC",
-                "score": "-:-",
-                "homeTeamLogo": "arsenal_fc",
-                "awayTeamLogo": "chelsea_fc"
+                "date": "30/04/2023",
+                "time": "14:00",
+                "homeTeam": "AFC Bournemouth",
+                "awayTeam": "Leeds United",
+                "score": "4:1",
+                "homeTeamLogo": "afc_bournemouth",
+                "awayTeamLogo": "leeds_united"
             },
             {
                 "date": "30/04/2023",
                 "time": "14:00",
                 "homeTeam": "Fulham FC",
                 "awayTeam": "Manchester City",
-                "score": "-:-",
+                "score": "1:2",
                 "homeTeamLogo": "fulham_fc",
                 "awayTeamLogo": "manchester_city"
             },
@@ -3196,7 +3187,7 @@
                 "time": "14:00",
                 "homeTeam": "Manchester United",
                 "awayTeam": "Aston Villa",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "manchester_united",
                 "awayTeamLogo": "aston_villa"
             },
@@ -3205,7 +3196,7 @@
                 "time": "14:00",
                 "homeTeam": "Newcastle United",
                 "awayTeam": "Southampton FC",
-                "score": "-:-",
+                "score": "3:1",
                 "homeTeamLogo": "newcastle_united",
                 "awayTeamLogo": "southampton_fc"
             },
@@ -3214,7 +3205,7 @@
                 "time": "16:30",
                 "homeTeam": "Liverpool FC",
                 "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
+                "score": "4:3",
                 "homeTeamLogo": "liverpool_fc",
                 "awayTeamLogo": "tottenham_hotspur"
             },
@@ -3223,9 +3214,18 @@
                 "time": "20:00",
                 "homeTeam": "Leicester City",
                 "awayTeam": "Everton FC",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "leicester_city",
                 "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "02/05/2023",
+                "time": "20:00",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Chelsea FC",
+                "score": "3:1",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "chelsea_fc"
             }
         ]
     },
@@ -3234,93 +3234,93 @@
         "matches": [
             {
                 "date": "06/05/2023",
-                "time": "",
+                "time": "15:00",
                 "homeTeam": "AFC Bournemouth",
                 "awayTeam": "Chelsea FC",
-                "score": "-:-",
+                "score": "1:3",
                 "homeTeamLogo": "afc_bournemouth",
                 "awayTeamLogo": "chelsea_fc"
             },
             {
                 "date": "06/05/2023",
-                "time": "",
-                "homeTeam": "Brighton & Hove Albion",
-                "awayTeam": "Everton FC",
-                "score": "-:-",
-                "homeTeamLogo": "brighton___hove_albion",
-                "awayTeamLogo": "everton_fc"
-            },
-            {
-                "date": "06/05/2023",
-                "time": "",
-                "homeTeam": "Fulham FC",
-                "awayTeam": "Leicester City",
-                "score": "-:-",
-                "homeTeamLogo": "fulham_fc",
-                "awayTeamLogo": "leicester_city"
-            },
-            {
-                "date": "06/05/2023",
-                "time": "",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "Brentford FC",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "brentford_fc"
-            },
-            {
-                "date": "06/05/2023",
-                "time": "",
+                "time": "15:00",
                 "homeTeam": "Manchester City",
                 "awayTeam": "Leeds United",
-                "score": "-:-",
+                "score": "2:1",
                 "homeTeamLogo": "manchester_city",
                 "awayTeamLogo": "leeds_united"
             },
             {
                 "date": "06/05/2023",
-                "time": "",
-                "homeTeam": "Newcastle United",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "newcastle_united",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "date": "06/05/2023",
-                "time": "",
-                "homeTeam": "Nottingham Forest",
-                "awayTeam": "Southampton FC",
-                "score": "-:-",
-                "homeTeamLogo": "nottingham_forest",
-                "awayTeamLogo": "southampton_fc"
-            },
-            {
-                "date": "06/05/2023",
-                "time": "",
+                "time": "15:00",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Crystal Palace",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "tottenham_hotspur",
                 "awayTeamLogo": "crystal_palace"
             },
             {
                 "date": "06/05/2023",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "Wolverhampton Wanderers",
+                "awayTeam": "Aston Villa",
+                "score": "1:0",
+                "homeTeamLogo": "wolverhampton_wanderers",
+                "awayTeamLogo": "aston_villa"
+            },
+            {
+                "date": "06/05/2023",
+                "time": "17:30",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Brentford FC",
+                "score": "1:0",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "brentford_fc"
+            },
+            {
+                "date": "07/05/2023",
+                "time": "16:30",
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Arsenal FC",
+                "score": "0:2",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "07/05/2023",
+                "time": "19:00",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Manchester United",
-                "score": "-:-",
+                "score": "1:0",
                 "homeTeamLogo": "west_ham_united",
                 "awayTeamLogo": "manchester_united"
             },
             {
-                "date": "06/05/2023",
-                "time": "",
-                "homeTeam": "Wolverhampton Wanderers",
-                "awayTeam": "Aston Villa",
-                "score": "-:-",
-                "homeTeamLogo": "wolverhampton_wanderers",
-                "awayTeamLogo": "aston_villa"
+                "date": "08/05/2023",
+                "time": "15:00",
+                "homeTeam": "Fulham FC",
+                "awayTeam": "Leicester City",
+                "score": "5:3",
+                "homeTeamLogo": "fulham_fc",
+                "awayTeamLogo": "leicester_city"
+            },
+            {
+                "date": "08/05/2023",
+                "time": "17:30",
+                "homeTeam": "Brighton & Hove Albion",
+                "awayTeam": "Everton FC",
+                "score": "1:5",
+                "homeTeamLogo": "brighton___hove_albion",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "08/05/2023",
+                "time": "20:00",
+                "homeTeam": "Nottingham Forest",
+                "awayTeam": "Southampton FC",
+                "score": "4:3",
+                "homeTeamLogo": "nottingham_forest",
+                "awayTeamLogo": "southampton_fc"
             }
         ]
     },
@@ -3329,93 +3329,93 @@
         "matches": [
             {
                 "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Aston Villa",
-                "awayTeam": "Tottenham Hotspur",
-                "score": "-:-",
-                "homeTeamLogo": "aston_villa",
-                "awayTeamLogo": "tottenham_hotspur"
-            },
-            {
-                "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Crystal Palace",
-                "awayTeam": "AFC Bournemouth",
-                "score": "-:-",
-                "homeTeamLogo": "crystal_palace",
-                "awayTeamLogo": "afc_bournemouth"
-            },
-            {
-                "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Arsenal FC",
-                "awayTeam": "Brighton & Hove Albion",
-                "score": "-:-",
-                "homeTeamLogo": "arsenal_fc",
-                "awayTeamLogo": "brighton___hove_albion"
-            },
-            {
-                "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Brentford FC",
-                "awayTeam": "West Ham United",
-                "score": "-:-",
-                "homeTeamLogo": "brentford_fc",
-                "awayTeamLogo": "west_ham_united"
-            },
-            {
-                "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Chelsea FC",
-                "awayTeam": "Nottingham Forest",
-                "score": "-:-",
-                "homeTeamLogo": "chelsea_fc",
-                "awayTeamLogo": "nottingham_forest"
-            },
-            {
-                "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Everton FC",
-                "awayTeam": "Manchester City",
-                "score": "-:-",
-                "homeTeamLogo": "everton_fc",
-                "awayTeamLogo": "manchester_city"
-            },
-            {
-                "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Southampton FC",
-                "awayTeam": "Fulham FC",
-                "score": "-:-",
-                "homeTeamLogo": "southampton_fc",
-                "awayTeamLogo": "fulham_fc"
-            },
-            {
-                "date": "13/05/2023",
-                "time": "",
+                "time": "12:30",
                 "homeTeam": "Leeds United",
                 "awayTeam": "Newcastle United",
-                "score": "-:-",
+                "score": "2:2",
                 "homeTeamLogo": "leeds_united",
                 "awayTeamLogo": "newcastle_united"
             },
             {
                 "date": "13/05/2023",
-                "time": "",
-                "homeTeam": "Leicester City",
-                "awayTeam": "Liverpool FC",
-                "score": "-:-",
-                "homeTeamLogo": "leicester_city",
-                "awayTeamLogo": "liverpool_fc"
+                "time": "15:00",
+                "homeTeam": "Aston Villa",
+                "awayTeam": "Tottenham Hotspur",
+                "score": "2:1",
+                "homeTeamLogo": "aston_villa",
+                "awayTeamLogo": "tottenham_hotspur"
             },
             {
                 "date": "13/05/2023",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "Crystal Palace",
+                "awayTeam": "AFC Bournemouth",
+                "score": "2:0",
+                "homeTeamLogo": "crystal_palace",
+                "awayTeamLogo": "afc_bournemouth"
+            },
+            {
+                "date": "13/05/2023",
+                "time": "15:00",
+                "homeTeam": "Chelsea FC",
+                "awayTeam": "Nottingham Forest",
+                "score": "2:2",
+                "homeTeamLogo": "chelsea_fc",
+                "awayTeamLogo": "nottingham_forest"
+            },
+            {
+                "date": "13/05/2023",
+                "time": "15:00",
+                "homeTeam": "Southampton FC",
+                "awayTeam": "Fulham FC",
+                "score": "0:2",
+                "homeTeamLogo": "southampton_fc",
+                "awayTeamLogo": "fulham_fc"
+            },
+            {
+                "date": "13/05/2023",
+                "time": "15:00",
                 "homeTeam": "Manchester United",
                 "awayTeam": "Wolverhampton Wanderers",
-                "score": "-:-",
+                "score": "2:0",
                 "homeTeamLogo": "manchester_united",
                 "awayTeamLogo": "wolverhampton_wanderers"
+            },
+            {
+                "date": "14/05/2023",
+                "time": "14:00",
+                "homeTeam": "Brentford FC",
+                "awayTeam": "West Ham United",
+                "score": "2:0",
+                "homeTeamLogo": "brentford_fc",
+                "awayTeamLogo": "west_ham_united"
+            },
+            {
+                "date": "14/05/2023",
+                "time": "14:00",
+                "homeTeam": "Everton FC",
+                "awayTeam": "Manchester City",
+                "score": "0:3",
+                "homeTeamLogo": "everton_fc",
+                "awayTeamLogo": "manchester_city"
+            },
+            {
+                "date": "14/05/2023",
+                "time": "16:30",
+                "homeTeam": "Arsenal FC",
+                "awayTeam": "Brighton & Hove Albion",
+                "score": "0:3",
+                "homeTeamLogo": "arsenal_fc",
+                "awayTeamLogo": "brighton___hove_albion"
+            },
+            {
+                "date": "15/05/2023",
+                "time": "20:00",
+                "homeTeam": "Leicester City",
+                "awayTeam": "Liverpool FC",
+                "score": "0:3",
+                "homeTeamLogo": "leicester_city",
+                "awayTeamLogo": "liverpool_fc"
             }
         ]
     },
@@ -3424,70 +3424,7 @@
         "matches": [
             {
                 "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "AFC Bournemouth",
-                "awayTeam": "Manchester United",
-                "score": "-:-",
-                "homeTeamLogo": "afc_bournemouth",
-                "awayTeamLogo": "manchester_united"
-            },
-            {
-                "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "Brighton & Hove Albion",
-                "awayTeam": "Southampton FC",
-                "score": "-:-",
-                "homeTeamLogo": "brighton___hove_albion",
-                "awayTeamLogo": "southampton_fc"
-            },
-            {
-                "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "Fulham FC",
-                "awayTeam": "Crystal Palace",
-                "score": "-:-",
-                "homeTeamLogo": "fulham_fc",
-                "awayTeamLogo": "crystal_palace"
-            },
-            {
-                "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "Liverpool FC",
-                "awayTeam": "Aston Villa",
-                "score": "-:-",
-                "homeTeamLogo": "liverpool_fc",
-                "awayTeamLogo": "aston_villa"
-            },
-            {
-                "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "Manchester City",
-                "awayTeam": "Chelsea FC",
-                "score": "-:-",
-                "homeTeamLogo": "manchester_city",
-                "awayTeamLogo": "chelsea_fc"
-            },
-            {
-                "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "Newcastle United",
-                "awayTeam": "Leicester City",
-                "score": "-:-",
-                "homeTeamLogo": "newcastle_united",
-                "awayTeamLogo": "leicester_city"
-            },
-            {
-                "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "Nottingham Forest",
-                "awayTeam": "Arsenal FC",
-                "score": "-:-",
-                "homeTeamLogo": "nottingham_forest",
-                "awayTeamLogo": "arsenal_fc"
-            },
-            {
-                "date": "20/05/2023",
-                "time": "",
+                "time": "12:30",
                 "homeTeam": "Tottenham Hotspur",
                 "awayTeam": "Brentford FC",
                 "score": "-:-",
@@ -3496,7 +3433,52 @@
             },
             {
                 "date": "20/05/2023",
-                "time": "",
+                "time": "15:00",
+                "homeTeam": "AFC Bournemouth",
+                "awayTeam": "Manchester United",
+                "score": "-:-",
+                "homeTeamLogo": "afc_bournemouth",
+                "awayTeamLogo": "manchester_united"
+            },
+            {
+                "date": "20/05/2023",
+                "time": "15:00",
+                "homeTeam": "Fulham FC",
+                "awayTeam": "Crystal Palace",
+                "score": "-:-",
+                "homeTeamLogo": "fulham_fc",
+                "awayTeamLogo": "crystal_palace"
+            },
+            {
+                "date": "20/05/2023",
+                "time": "15:00",
+                "homeTeam": "Liverpool FC",
+                "awayTeam": "Aston Villa",
+                "score": "-:-",
+                "homeTeamLogo": "liverpool_fc",
+                "awayTeamLogo": "aston_villa"
+            },
+            {
+                "date": "20/05/2023",
+                "time": "15:00",
+                "homeTeam": "Wolverhampton Wanderers",
+                "awayTeam": "Everton FC",
+                "score": "-:-",
+                "homeTeamLogo": "wolverhampton_wanderers",
+                "awayTeamLogo": "everton_fc"
+            },
+            {
+                "date": "20/05/2023",
+                "time": "17:30",
+                "homeTeam": "Nottingham Forest",
+                "awayTeam": "Arsenal FC",
+                "score": "-:-",
+                "homeTeamLogo": "nottingham_forest",
+                "awayTeamLogo": "arsenal_fc"
+            },
+            {
+                "date": "21/05/2023",
+                "time": "13:30",
                 "homeTeam": "West Ham United",
                 "awayTeam": "Leeds United",
                 "score": "-:-",
@@ -3504,13 +3486,31 @@
                 "awayTeamLogo": "leeds_united"
             },
             {
-                "date": "20/05/2023",
-                "time": "",
-                "homeTeam": "Wolverhampton Wanderers",
-                "awayTeam": "Everton FC",
+                "date": "21/05/2023",
+                "time": "14:00",
+                "homeTeam": "Brighton & Hove Albion",
+                "awayTeam": "Southampton FC",
                 "score": "-:-",
-                "homeTeamLogo": "wolverhampton_wanderers",
-                "awayTeamLogo": "everton_fc"
+                "homeTeamLogo": "brighton___hove_albion",
+                "awayTeamLogo": "southampton_fc"
+            },
+            {
+                "date": "21/05/2023",
+                "time": "16:00",
+                "homeTeam": "Manchester City",
+                "awayTeam": "Chelsea FC",
+                "score": "-:-",
+                "homeTeamLogo": "manchester_city",
+                "awayTeamLogo": "chelsea_fc"
+            },
+            {
+                "date": "22/05/2023",
+                "time": "20:00",
+                "homeTeam": "Newcastle United",
+                "awayTeam": "Leicester City",
+                "score": "-:-",
+                "homeTeamLogo": "newcastle_united",
+                "awayTeamLogo": "leicester_city"
             }
         ]
     },
@@ -3519,7 +3519,7 @@
         "matches": [
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Aston Villa",
                 "awayTeam": "Brighton & Hove Albion",
                 "score": "-:-",
@@ -3528,7 +3528,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Crystal Palace",
                 "awayTeam": "Nottingham Forest",
                 "score": "-:-",
@@ -3537,7 +3537,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Arsenal FC",
                 "awayTeam": "Wolverhampton Wanderers",
                 "score": "-:-",
@@ -3546,7 +3546,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Brentford FC",
                 "awayTeam": "Manchester City",
                 "score": "-:-",
@@ -3555,7 +3555,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Chelsea FC",
                 "awayTeam": "Newcastle United",
                 "score": "-:-",
@@ -3564,7 +3564,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Everton FC",
                 "awayTeam": "AFC Bournemouth",
                 "score": "-:-",
@@ -3573,7 +3573,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Southampton FC",
                 "awayTeam": "Liverpool FC",
                 "score": "-:-",
@@ -3582,7 +3582,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Leeds United",
                 "awayTeam": "Tottenham Hotspur",
                 "score": "-:-",
@@ -3591,7 +3591,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Leicester City",
                 "awayTeam": "West Ham United",
                 "score": "-:-",
@@ -3600,7 +3600,7 @@
             },
             {
                 "date": "28/05/2023",
-                "time": "",
+                "time": "16:30",
                 "homeTeam": "Manchester United",
                 "awayTeam": "Fulham FC",
                 "score": "-:-",

@@ -4,12 +4,21 @@
         "name": "Khvicha Kvaratskhelia",
         "country": "Georgia",
         "team": "SSC Napoli",
-        "assists": "9",
+        "assists": "10",
         "flag": "georgia",
         "logo": "ssc_napoli"
     },
     {
         "rank": "2.",
+        "name": "Filip Kostić",
+        "country": "Serbia",
+        "team": "Juventus",
+        "assists": "8",
+        "flag": "serbia",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
         "name": "Sergej Milinković-Savić",
         "country": "Serbia",
         "team": "Lazio Roma",
@@ -18,16 +27,61 @@
         "logo": "lazio_roma"
     },
     {
-        "rank": "3.",
-        "name": "Filip Kostić",
-        "country": "Serbia",
-        "team": "Juventus",
+        "rank": "4.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
         "assists": "7",
-        "flag": "serbia",
-        "logo": "juventus"
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
     },
     {
-        "rank": "4.",
+        "rank": "-",
+        "name": " Rafael Leão",
+        "country": "Portugal",
+        "team": "AC Milan",
+        "assists": "7",
+        "flag": "portugal",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Piotr Zieliński",
+        "country": "Poland",
+        "team": "SSC Napoli",
+        "assists": "7",
+        "flag": "poland",
+        "logo": "ssc_napoli"
+    },
+    {
+        "rank": "7.",
+        "name": "Nicolò Barella",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Hakan Çalhanoğlu",
+        "country": "Turkey",
+        "team": "Inter",
+        "assists": "6",
+        "flag": "turkey",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": "Boulaye Dia",
+        "country": "Senegal",
+        "team": "US Salernitana 1919",
+        "assists": "6",
+        "flag": "senegal",
+        "logo": "us_salernitana_1919"
+    },
+    {
+        "rank": "-",
         "name": "Paulo Dybala",
         "country": "Argentina",
         "team": "AS Roma",
@@ -43,6 +97,24 @@
         "assists": "6",
         "flag": "spain",
         "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Armand Laurienté",
+        "country": "France",
+        "team": "Sassuolo Calcio",
+        "assists": "6",
+        "flag": "france",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": " Luis Alberto",
+        "country": "Spain",
+        "team": "Lazio Roma",
+        "assists": "6",
+        "flag": "spain",
+        "logo": "lazio_roma"
     },
     {
         "rank": "-",
@@ -64,119 +136,47 @@
     },
     {
         "rank": "-",
-        "name": " Rafael Leão",
-        "country": "Portugal",
-        "team": "AC Milan",
-        "assists": "6",
-        "flag": "portugal",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Piotr Zieliński",
-        "country": "Poland",
-        "team": "SSC Napoli",
-        "assists": "6",
-        "flag": "poland",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "10.",
-        "name": "Nicolò Barella",
-        "country": "Italy",
-        "team": "Inter",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Jérémie Boga",
-        "country": "Ivory Coast",
-        "team": "Atalanta",
-        "assists": "5",
-        "flag": "ivory_coast",
-        "logo": "atalanta"
-    },
-    {
-        "rank": "-",
-        "name": "Hakan Çalhanoğlu",
-        "country": "Turkey",
-        "team": "Inter",
-        "assists": "5",
-        "flag": "turkey",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Patrick Ciurria",
-        "country": "Italy",
-        "team": "AC Monza",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "ac_monza"
-    },
-    {
-        "rank": "-",
-        "name": "Lorenzo Pellegrini",
-        "country": "Italy",
-        "team": "AS Roma",
-        "assists": "5",
-        "flag": "italy",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
         "name": "Isaac Success",
         "country": "Nigeria",
         "team": "Udinese Calcio",
-        "assists": "5",
+        "assists": "6",
         "flag": "nigeria",
         "logo": "udinese_calcio"
     },
     {
-        "rank": "16.",
-        "name": "Frank Anguissa",
-        "country": "Cameroon",
-        "team": "SSC Napoli",
-        "assists": "4",
-        "flag": "cameroon",
-        "logo": "ssc_napoli"
-    },
-    {
         "rank": "-",
-        "name": "Domenico Berardi",
+        "name": "Sandro Tonali",
         "country": "Italy",
-        "team": "Sassuolo Calcio",
-        "assists": "4",
-        "flag": "italy",
-        "logo": "sassuolo_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Giovanni Di Lorenzo",
-        "country": "Italy",
-        "team": "SSC Napoli",
-        "assists": "4",
-        "flag": "italy",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": "Boulaye Dia",
-        "country": "Senegal",
-        "team": "US Salernitana 1919",
-        "assists": "4",
-        "flag": "senegal",
-        "logo": "us_salernitana_1919"
-    },
-    {
-        "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
         "team": "AC Milan",
-        "assists": "4",
-        "flag": "france",
+        "assists": "6",
+        "flag": "italy",
         "logo": "ac_milan"
+    },
+    {
+        "rank": "-",
+        "name": "Mattia Zaccagni",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "assists": "6",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "19.",
+        "name": "Tommaso Augello",
+        "country": "Italy",
+        "team": "Sampdoria",
+        "assists": "5",
+        "flag": "italy",
+        "logo": "sampdoria"
+    },
+    {
+        "rank": "-",
+        "name": "Musa Barrow",
+        "country": "Gambia",
+        "team": "Bologna FC",
+        "assists": "5",
+        "flag": "gambia",
+        "logo": "bologna_fc"
     }
 ]

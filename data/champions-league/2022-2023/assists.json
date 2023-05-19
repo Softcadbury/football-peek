@@ -1,6 +1,51 @@
 [
     {
         "rank": "1.",
+        "name": "Kevin De Bruyne",
+        "country": "Belgium",
+        "team": "Manchester City",
+        "assists": "7",
+        "flag": "belgium",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "2.",
+        "name": " Álex Grimaldo",
+        "country": "Spain",
+        "team": "SL Benfica",
+        "assists": "5",
+        "flag": "spain",
+        "logo": "sl_benfica"
+    },
+    {
+        "rank": "-",
+        "name": "Federico Dimarco",
+        "country": "Italy",
+        "team": "Inter",
+        "assists": "5",
+        "flag": "italy",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": " João Cancelo",
+        "country": "Portugal",
+        "team": "Manchester City",
+        "assists": "5",
+        "flag": "portugal",
+        "logo": "manchester_city"
+    },
+    {
+        "rank": "-",
+        "name": " Vinícius Júnior",
+        "country": "Brazil",
+        "team": "Real Madrid",
+        "assists": "5",
+        "flag": "brazil",
+        "logo": "real_madrid"
+    },
+    {
+        "rank": "6.",
         "name": " Diogo Jota",
         "country": "Portugal",
         "team": "Liverpool FC",
@@ -10,12 +55,12 @@
     },
     {
         "rank": "-",
-        "name": " João Cancelo",
-        "country": "Portugal",
-        "team": "Manchester City",
+        "name": "Leon Goretzka",
+        "country": "Germany",
+        "team": "Bayern München",
         "assists": "4",
-        "flag": "portugal",
-        "logo": "manchester_city"
+        "flag": "germany",
+        "logo": "bayern_munchen"
     },
     {
         "rank": "-",
@@ -36,7 +81,16 @@
         "logo": "paris_saint_germain"
     },
     {
-        "rank": "5.",
+        "rank": "-",
+        "name": " Rafael Leão",
+        "country": "Portugal",
+        "team": "AC Milan",
+        "assists": "4",
+        "flag": "portugal",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "11.",
         "name": "Frank Anguissa",
         "country": "Cameroon",
         "team": "SSC Napoli",
@@ -46,12 +100,12 @@
     },
     {
         "rank": "-",
-        "name": "Kevin De Bruyne",
-        "country": "Belgium",
-        "team": "Manchester City",
+        "name": "Alessandro Bastoni",
+        "country": "Italy",
+        "team": "Inter",
         "assists": "3",
-        "flag": "belgium",
-        "logo": "manchester_city"
+        "flag": "italy",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -73,7 +127,7 @@
     },
     {
         "rank": "-",
-        "name": "Leon Goretzka",
+        "name": "Joshua Kimmich",
         "country": "Germany",
         "team": "Bayern München",
         "assists": "3",
@@ -82,12 +136,12 @@
     },
     {
         "rank": "-",
-        "name": "Joshua Kimmich",
-        "country": "Germany",
-        "team": "Bayern München",
+        "name": "Lautaro Martínez",
+        "country": "Argentina",
+        "team": "Inter",
         "assists": "3",
-        "flag": "germany",
-        "logo": "bayern_munchen"
+        "flag": "argentina",
+        "logo": "inter"
     },
     {
         "rank": "-",
@@ -118,65 +172,11 @@
     },
     {
         "rank": "-",
-        "name": "Mohamed Simakan",
-        "country": "France",
-        "team": "RB Leipzig",
-        "assists": "3",
-        "flag": "france",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "15.",
-        "name": " Álex Grimaldo",
-        "country": "Spain",
-        "team": "SL Benfica",
-        "assists": "2",
-        "flag": "spain",
-        "logo": "sl_benfica"
-    },
-    {
-        "rank": "-",
-        "name": "Julián Álvarez",
-        "country": "Argentina",
-        "team": "Manchester City",
-        "assists": "2",
-        "flag": "argentina",
-        "logo": "manchester_city"
-    },
-    {
-        "rank": "-",
-        "name": " André Silva",
-        "country": "Portugal",
-        "team": "RB Leipzig",
-        "assists": "2",
-        "flag": "portugal",
-        "logo": "rb_leipzig"
-    },
-    {
-        "rank": "-",
-        "name": "Alexander Bah",
-        "country": "Denmark",
-        "team": "SL Benfica",
-        "assists": "2",
-        "flag": "denmark",
-        "logo": "sl_benfica"
-    },
-    {
-        "rank": "-",
-        "name": "Alessandro Bastoni",
+        "name": "Giacomo Raspadori",
         "country": "Italy",
-        "team": "Inter",
-        "assists": "2",
+        "team": "SSC Napoli",
+        "assists": "3",
         "flag": "italy",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
-        "name": "Steven Berghuis",
-        "country": "Netherlands",
-        "team": "AFC Ajax",
-        "assists": "2",
-        "flag": "netherlands",
-        "logo": "afc_ajax"
+        "logo": "ssc_napoli"
     }
 ]

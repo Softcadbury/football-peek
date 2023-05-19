@@ -1,5 +1,108 @@
 [
     {
+        "name": "Final",
+        "matches": [
+            {
+                "date1": "31/05/2023",
+                "time1": "20:00",
+                "team1": "Sevilla FC",
+                "team2": "AS Roma",
+                "score1": "-:-",
+                "winner": "",
+                "team1Logo": "sevilla_fc",
+                "team2Logo": "as_roma"
+            }
+        ]
+    },
+    {
+        "name": "Semi-finals",
+        "matches": [
+            {
+                "date1": "11/05/2023",
+                "date2": "18/05/2023",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "Juventus",
+                "team2": "Sevilla FC",
+                "score1": "1:1",
+                "score2": "1:2",
+                "winner": "Sevilla FC",
+                "team1Logo": "juventus",
+                "team2Logo": "sevilla_fc"
+            },
+            {
+                "date1": "11/05/2023",
+                "date2": "18/05/2023",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "AS Roma",
+                "team2": "Bayer Leverkusen",
+                "score1": "1:0",
+                "score2": "0:0",
+                "winner": "AS Roma",
+                "team1Logo": "as_roma",
+                "team2Logo": "bayer_leverkusen"
+            }
+        ]
+    },
+    {
+        "name": "Quarter-finals",
+        "matches": [
+            {
+                "date1": "13/04/2023",
+                "date2": "20/04/2023",
+                "time1": "17:45",
+                "time2": "20:00",
+                "team1": "Feyenoord",
+                "team2": "AS Roma",
+                "score1": "1:0",
+                "score2": "1:4",
+                "winner": "AS Roma",
+                "team1Logo": "feyenoord",
+                "team2Logo": "as_roma"
+            },
+            {
+                "date1": "13/04/2023",
+                "date2": "20/04/2023",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "Manchester United",
+                "team2": "Sevilla FC",
+                "score1": "2:2",
+                "score2": "0:3",
+                "winner": "Sevilla FC",
+                "team1Logo": "manchester_united",
+                "team2Logo": "sevilla_fc"
+            },
+            {
+                "date1": "13/04/2023",
+                "date2": "20/04/2023",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "Juventus",
+                "team2": "Sporting CP",
+                "score1": "1:0",
+                "score2": "1:1",
+                "winner": "Juventus",
+                "team1Logo": "juventus",
+                "team2Logo": "sporting_cp"
+            },
+            {
+                "date1": "13/04/2023",
+                "date2": "20/04/2023",
+                "time1": "20:00",
+                "time2": "20:00",
+                "team1": "Bayer Leverkusen",
+                "team2": "Union Saint-Gilloise",
+                "score1": "1:1",
+                "score2": "4:1",
+                "winner": "Bayer Leverkusen",
+                "team1Logo": "bayer_leverkusen",
+                "team2Logo": "union_saint_gilloise"
+            }
+        ]
+    },
+    {
         "name": "Eighth-finals",
         "matches": [
             {
@@ -9,9 +112,9 @@
                 "time2": "20:00",
                 "team1": "1. FC Union Berlin",
                 "team2": "Union Saint-Gilloise",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "3:3",
+                "score2": "0:3",
+                "winner": "Union Saint-Gilloise",
                 "team1Logo": "1__fc_union_berlin",
                 "team2Logo": "union_saint_gilloise"
             },
@@ -22,9 +125,9 @@
                 "time2": "20:00",
                 "team1": "Bayer Leverkusen",
                 "team2": "Ferencvárosi TC",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "2:0",
+                "score2": "2:0",
+                "winner": "Bayer Leverkusen",
                 "team1Logo": "bayer_leverkusen",
                 "team2Logo": "ferencvarosi_tc"
             },
@@ -35,9 +138,9 @@
                 "time2": "20:00",
                 "team1": "Sporting CP",
                 "team2": "Arsenal FC",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "2:2",
+                "score2": "1:1 (5:3)",
+                "winner": "Sporting CP",
                 "team1Logo": "sporting_cp",
                 "team2Logo": "arsenal_fc"
             },
@@ -48,9 +151,9 @@
                 "time2": "20:00",
                 "team1": "AS Roma",
                 "team2": "Real Sociedad",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "2:0",
+                "score2": "0:0",
+                "winner": "AS Roma",
                 "team1Logo": "as_roma",
                 "team2Logo": "real_sociedad"
             },
@@ -61,9 +164,9 @@
                 "time2": "17:45",
                 "team1": "Sevilla FC",
                 "team2": "Fenerbahçe",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "2:0",
+                "score2": "0:1",
+                "winner": "Sevilla FC",
                 "team1Logo": "sevilla_fc",
                 "team2Logo": "fenerbahce"
             },
@@ -74,9 +177,9 @@
                 "time2": "17:45",
                 "team1": "Juventus",
                 "team2": "SC Freiburg",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:0",
+                "score2": "2:0",
+                "winner": "Juventus",
                 "team1Logo": "juventus",
                 "team2Logo": "sc_freiburg"
             },
@@ -87,9 +190,9 @@
                 "time2": "17:45",
                 "team1": "Manchester United",
                 "team2": "Real Betis",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "4:1",
+                "score2": "1:0",
+                "winner": "Manchester United",
                 "team1Logo": "manchester_united",
                 "team2Logo": "real_betis"
             },
@@ -100,9 +203,9 @@
                 "time2": "17:45",
                 "team1": "Shakhtar Donetsk",
                 "team2": "Feyenoord",
-                "score1": "-:-",
-                "score2": "-:-",
-                "winner": "",
+                "score1": "1:1",
+                "score2": "1:7",
+                "winner": "Feyenoord",
                 "team1Logo": "shakhtar_donetsk",
                 "team2Logo": "feyenoord"
             }

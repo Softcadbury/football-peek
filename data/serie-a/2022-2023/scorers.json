@@ -4,7 +4,7 @@
         "name": "Victor Osimhen",
         "country": "Nigeria",
         "team": "SSC Napoli",
-        "goals": "19",
+        "goals": "23",
         "flag": "nigeria",
         "logo": "ssc_napoli"
     },
@@ -13,48 +13,156 @@
         "name": "Lautaro Martínez",
         "country": "Argentina",
         "team": "Inter",
-        "goals": "13",
+        "goals": "20",
         "flag": "argentina",
         "logo": "inter"
     },
     {
         "rank": "3.",
+        "name": "Boulaye Dia",
+        "country": "Senegal",
+        "team": "US Salernitana 1919",
+        "goals": "15",
+        "flag": "senegal",
+        "logo": "us_salernitana_1919"
+    },
+    {
+        "rank": "4.",
         "name": "Ademola Lookman",
         "country": "Nigeria",
         "team": "Atalanta",
-        "goals": "12",
+        "goals": "13",
         "flag": "nigeria",
         "logo": "atalanta"
     },
     {
-        "rank": "4.",
+        "rank": "-",
         "name": "M'Bala Nzola",
         "country": "Angola",
         "team": "Spezia Calcio",
-        "goals": "11",
+        "goals": "13",
         "flag": "angola",
         "logo": "spezia_calcio"
     },
     {
-        "rank": "5.",
+        "rank": "6.",
         "name": "Khvicha Kvaratskhelia",
         "country": "Georgia",
         "team": "SSC Napoli",
-        "goals": "10",
+        "goals": "12",
         "flag": "georgia",
         "logo": "ssc_napoli"
     },
     {
-        "rank": "6.",
+        "rank": "-",
+        "name": " Rafael Leão",
+        "country": "Portugal",
+        "team": "AC Milan",
+        "goals": "12",
+        "flag": "portugal",
+        "logo": "ac_milan"
+    },
+    {
+        "rank": "8.",
+        "name": "Paulo Dybala",
+        "country": "Argentina",
+        "team": "AS Roma",
+        "goals": "11",
+        "flag": "argentina",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Ciro Immobile",
         "country": "Italy",
         "team": "Lazio Roma",
-        "goals": "9",
+        "goals": "11",
         "flag": "italy",
         "logo": "lazio_roma"
     },
     {
-        "rank": "7.",
+        "rank": "-",
+        "name": "Antonio Sanabria",
+        "country": "Paraguay",
+        "team": "Torino FC",
+        "goals": "11",
+        "flag": "paraguay",
+        "logo": "torino_fc"
+    },
+    {
+        "rank": "11.",
+        "name": " Beto",
+        "country": "Portugal",
+        "team": "Udinese Calcio",
+        "goals": "10",
+        "flag": "portugal",
+        "logo": "udinese_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Riccardo Orsolini",
+        "country": "Italy",
+        "team": "Bologna FC",
+        "goals": "10",
+        "flag": "italy",
+        "logo": "bologna_fc"
+    },
+    {
+        "rank": "-",
+        "name": "Dušan Vlahović",
+        "country": "Serbia",
+        "team": "Juventus",
+        "goals": "10",
+        "flag": "serbia",
+        "logo": "juventus"
+    },
+    {
+        "rank": "-",
+        "name": "Mattia Zaccagni",
+        "country": "Italy",
+        "team": "Lazio Roma",
+        "goals": "10",
+        "flag": "italy",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "15.",
+        "name": "Domenico Berardi",
+        "country": "Italy",
+        "team": "Sassuolo Calcio",
+        "goals": "9",
+        "flag": "italy",
+        "logo": "sassuolo_calcio"
+    },
+    {
+        "rank": "-",
+        "name": "Edin Džeko",
+        "country": "Bosnia-Herzegovina",
+        "team": "Inter",
+        "goals": "9",
+        "flag": "bosnia_herzegovina",
+        "logo": "inter"
+    },
+    {
+        "rank": "-",
+        "name": " Felipe Anderson",
+        "country": "Brazil",
+        "team": "Lazio Roma",
+        "goals": "9",
+        "flag": "brazil",
+        "logo": "lazio_roma"
+    },
+    {
+        "rank": "18.",
+        "name": "Tammy Abraham",
+        "country": "England",
+        "team": "AS Roma",
+        "goals": "8",
+        "flag": "england",
+        "logo": "as_roma"
+    },
+    {
+        "rank": "-",
         "name": "Marko Arnautović",
         "country": "Austria",
         "team": "Bologna FC",
@@ -64,119 +172,11 @@
     },
     {
         "rank": "-",
-        "name": " Beto",
-        "country": "Portugal",
-        "team": "Udinese Calcio",
-        "goals": "8",
-        "flag": "portugal",
-        "logo": "udinese_calcio"
-    },
-    {
-        "rank": "-",
-        "name": "Boulaye Dia",
-        "country": "Senegal",
-        "team": "US Salernitana 1919",
-        "goals": "8",
-        "flag": "senegal",
-        "logo": "us_salernitana_1919"
-    },
-    {
-        "rank": "-",
-        "name": "Paulo Dybala",
-        "country": "Argentina",
-        "team": "AS Roma",
-        "goals": "8",
-        "flag": "argentina",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": " Rafael Leão",
-        "country": "Portugal",
-        "team": "AC Milan",
-        "goals": "8",
-        "flag": "portugal",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Dušan Vlahović",
-        "country": "Serbia",
-        "team": "Juventus",
-        "goals": "8",
-        "flag": "serbia",
-        "logo": "juventus"
-    },
-    {
-        "rank": "-",
-        "name": "Mattia Zaccagni",
-        "country": "Italy",
-        "team": "Lazio Roma",
-        "goals": "8",
-        "flag": "italy",
-        "logo": "lazio_roma"
-    },
-    {
-        "rank": "14.",
-        "name": "Edin Džeko",
-        "country": "Bosnia-Herzegovina",
-        "team": "Inter",
-        "goals": "7",
-        "flag": "bosnia_herzegovina",
-        "logo": "inter"
-    },
-    {
-        "rank": "-",
         "name": " Gabriel Strefezza",
         "country": "Brazil",
         "team": "US Lecce",
-        "goals": "7",
+        "goals": "8",
         "flag": "brazil",
         "logo": "us_lecce"
-    },
-    {
-        "rank": "-",
-        "name": "Olivier Giroud",
-        "country": "France",
-        "team": "AC Milan",
-        "goals": "7",
-        "flag": "france",
-        "logo": "ac_milan"
-    },
-    {
-        "rank": "-",
-        "name": "Riccardo Orsolini",
-        "country": "Italy",
-        "team": "Bologna FC",
-        "goals": "7",
-        "flag": "italy",
-        "logo": "bologna_fc"
-    },
-    {
-        "rank": "18.",
-        "name": "Tammy Abraham",
-        "country": "England",
-        "team": "AS Roma",
-        "goals": "6",
-        "flag": "england",
-        "logo": "as_roma"
-    },
-    {
-        "rank": "-",
-        "name": "Eljif Elmas",
-        "country": "North Macedonia",
-        "team": "SSC Napoli",
-        "goals": "6",
-        "flag": "north_macedonia",
-        "logo": "ssc_napoli"
-    },
-    {
-        "rank": "-",
-        "name": " Felipe Anderson",
-        "country": "Brazil",
-        "team": "Lazio Roma",
-        "goals": "6",
-        "flag": "brazil",
-        "logo": "lazio_roma"
     }
 ]
