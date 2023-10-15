@@ -1,4 +1,4 @@
-# Football Peek - <a href="https://footballpeek.com/">Try it !</a>
+# Football Peek
 
 ## Description
 
